@@ -1,0 +1,80 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_ST_STM32L4:STM32L433RBTx U1
+U 1 1 5FE7C7AF
+P 2650 3600
+F 0 "U1" H 2600 1711 50  0000 C CNN
+F 1 "STM32L433RBTx" H 2600 1620 50  0000 C CNN
+F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 2050 1900 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf" H 2650 3600 50  0001 C CNN
+	1    2650 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L cldg:MX_SW SW1
+U 1 1 5FE7D3C0
+P 4300 1950
+F 0 "SW1" H 4300 2235 50  0000 C CNN
+F 1 "MX_SW" H 4300 2144 50  0000 C CNN
+F 2 "cldg:millmax-mxalps" H 4300 2150 50  0001 C CNN
+F 3 "~" H 4300 2150 50  0001 C CNN
+	1    4300 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 2000 4100 2000
+Wire Wire Line
+	4100 2000 4100 1950
+Wire Wire Line
+	4500 2100 3250 2100
+$Comp
+L 19-337C_RSBHGHC-A88_4T:19-337C_RSBHGHC-A88_4T D1
+U 1 1 5FE7FF1C
+P 5100 2150
+F 0 "D1" H 5050 2881 50  0000 C CNN
+F 1 "19-337C_RSBHGHC-A88_4T" H 5050 2790 50  0000 C CNN
+F 2 "cldg:4T" H 5100 2150 50  0001 L BNN
+F 3 "" H 5100 2150 50  0001 L BNN
+F 4 "Manufacturer Recommendations" H 5100 2150 50  0001 L BNN "STANDARD"
+F 5 "2" H 5100 2150 50  0001 L BNN "PARTREV"
+F 6 "Everlight" H 5100 2150 50  0001 L BNN "MANUFACTURER"
+F 7 "0.5mm" H 5100 2150 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+	1    5100 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 1750 4500 1750
+Wire Wire Line
+	4500 1750 4500 1950
+Connection ~ 4500 1950
+Wire Wire Line
+	4500 1950 4500 2100
+Wire Wire Line
+	4500 2100 4800 2100
+Wire Wire Line
+	4800 2100 4800 2150
+Connection ~ 4500 2100
+Wire Wire Line
+	4500 2100 4500 2550
+Wire Wire Line
+	4500 2550 4800 2550
+Wire Wire Line
+	5300 1750 5300 2150
+Connection ~ 5300 2150
+Wire Wire Line
+	5300 2150 5300 2550
+$EndSCHEMATC

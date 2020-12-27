@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name cldg)(type Legacy)(uri ${KIPRJMOD}/cldg.lib)(options "")(descr ""))
+  (lib (name 19-337C_RSBHGHC-A88_4T)(type Legacy)(uri /home/doni/keyboard/spongeburger-keyboard/3rd-party-footprints/19-337C_RSBHGHC-A88_4T.lib)(options "")(descr ""))
+)
