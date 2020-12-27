@@ -1,87 +1,47 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# 19-337C_RSBHGHC-A88_4T_19-337C_RSBHGHC-A88_4T
+# Connector_Conn_01x02_Male
 #
-DEF 19-337C_RSBHGHC-A88_4T_19-337C_RSBHGHC-A88_4T D 0 40 Y N 1 L N
-F0 "D" -302 597 50 H V L BNN
-F1 "19-337C_RSBHGHC-A88_4T_19-337C_RSBHGHC-A88_4T" -300 -600 50 H V L BNN
-F2 "LED_19-337C/RSBHGHC-A88/4T" 0 0 50 H I L BNN
-F3 "" 0 0 50 H I L BNN
-F4 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
-F5 "2" 0 0 50 H I L BNN "PARTREV"
-F6 "Everlight" 0 0 50 H I L BNN "MANUFACTURER"
-F7 "0.5mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
+DEF Connector_Conn_01x02_Male J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Conn_01x02_Male" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
 DRAW
-T 0 50 -360 50 0 0 0 B Normal 0 L B
-T 0 70 460 50 0 0 0 G Normal 0 L B
-T 0 50 40 50 0 0 0 R Normal 0 L B
-P 2 0 0 10 -100 -460 0 -400 N
-P 2 0 0 6 -100 -400 -200 -400 N
-P 2 0 0 10 -100 -400 -100 -460 N
-P 2 0 0 10 -100 -340 -100 -400 N
-P 2 0 0 10 -100 -60 0 0 N
-P 2 0 0 6 -100 0 -200 0 N
-P 2 0 0 10 -100 0 -100 -60 N
-P 2 0 0 10 -100 60 -100 0 N
-P 2 0 0 10 -100 340 0 400 N
-P 2 0 0 6 -100 400 -200 400 N
-P 2 0 0 10 -100 400 -100 340 N
-P 2 0 0 10 -100 460 -100 400 N
-P 2 0 0 10 -44 -255 -9 -236 N
-P 2 0 0 10 -44 145 -9 164 N
-P 2 0 0 10 -44 545 -9 564 N
-P 2 0 0 10 -37 -258 -28 -252 N
-P 2 0 0 10 -37 142 -28 148 N
-P 2 0 0 10 -37 542 -28 548 N
-P 2 0 0 10 -22 -274 -44 -255 N
-P 2 0 0 10 -22 -274 -21 -245 N
-P 2 0 0 10 -22 126 -44 145 N
-P 2 0 0 10 -22 126 -21 155 N
-P 2 0 0 10 -22 526 -44 545 N
-P 2 0 0 10 -22 526 -21 555 N
-P 2 0 0 10 -21 -245 -26 -245 N
-P 2 0 0 10 -21 155 -26 155 N
-P 2 0 0 10 -21 555 -26 555 N
-P 2 0 0 10 -9 -236 -79 -316 N
-P 2 0 0 10 -9 -236 -22 -274 N
-P 2 0 0 10 -9 164 -79 84 N
-P 2 0 0 10 -9 164 -22 126 N
-P 2 0 0 10 -9 564 -79 484 N
-P 2 0 0 10 -9 564 -22 526 N
-P 2 0 0 10 0 -400 -100 -340 N
-P 2 0 0 10 0 -340 0 -460 N
-P 2 0 0 10 0 0 -100 60 N
-P 2 0 0 10 0 60 0 -60 N
-P 2 0 0 10 0 400 -100 460 N
-P 2 0 0 10 0 460 0 340 N
-P 2 0 0 10 5 -259 40 -240 N
-P 2 0 0 10 5 141 40 160 N
-P 2 0 0 10 5 541 40 560 N
-P 2 0 0 10 12 -262 21 -256 N
-P 2 0 0 10 12 138 21 144 N
-P 2 0 0 10 12 538 21 544 N
-P 2 0 0 10 27 -278 5 -259 N
-P 2 0 0 10 27 -278 28 -249 N
-P 2 0 0 10 27 122 5 141 N
-P 2 0 0 10 27 122 28 151 N
-P 2 0 0 10 27 522 5 541 N
-P 2 0 0 10 27 522 28 551 N
-P 2 0 0 10 28 -249 23 -249 N
-P 2 0 0 10 28 151 23 151 N
-P 2 0 0 10 28 551 23 551 N
-P 2 0 0 10 40 -240 -30 -320 N
-P 2 0 0 10 40 -240 27 -278 N
-P 2 0 0 10 40 160 -30 80 N
-P 2 0 0 10 40 160 27 122 N
-P 2 0 0 10 40 560 -30 480 N
-P 2 0 0 10 40 560 27 522 N
-X ~ 1 200 400 200 L 40 40 0 0 P
-X ~ 2 -300 400 100 R 40 40 0 0 P
-X ~ 3 200 0 200 L 40 40 0 0 P
-X ~ 4 -300 0 100 R 40 40 0 0 P
-X ~ 5 200 -400 200 L 40 40 0 0 P
-X ~ 6 -300 -400 100 R 40 40 0 0 P
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+X Pin_1 1 200 0 150 L 50 50 1 1 P
+X Pin_2 2 200 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# DI-LVO_AP2114HA-3.3TRG1
+#
+DEF DI-LVO_AP2114HA-3.3TRG1 U 0 10 Y Y 1 L N
+F0 "U" 1100 400 60 H V C CNN
+F1 "DI-LVO_AP2114HA-3.3TRG1" 1100 300 60 H V C CNN
+F2 "SOT-223_DIO" 1100 240 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ SOT-223_DIO
+ SOT-223_DIO-M
+ SOT-223_DIO-L
+$ENDFPLIST
+DRAW
+P 2 1 1 5 300 -300 1900 -300 N
+P 2 1 1 5 300 200 300 -300 N
+P 2 1 1 5 1900 -300 1900 200 N
+P 2 1 1 5 1900 200 300 200 N
+X VIN 1 0 0 300 R 59 59 1 1 I
+X GND 2 0 -100 300 R 59 59 1 1 W
+X VOUT 3 2200 -100 300 L 59 59 1 1 O
+X EPAD 4 2200 0 300 L 59 59 1 1 U
 ENDDRAW
 ENDDEF
 #
@@ -179,6 +139,325 @@ P 2 0 1 0 0 50 0 120 N
 P 2 0 1 0 100 50 -100 50 N
 X 1 1 -200 0 100 R 50 50 0 1 P
 X 2 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# eec-Samsung_CL10B103KB8NNNC
+#
+DEF eec-Samsung_CL10B103KB8NNNC C 0 40 Y Y 1 L N
+F0 "C" 0 100 50 H V L CNN
+F1 "eec-Samsung_CL10B103KB8NNNC" 0 200 50 H V L CNN
+F2 "Samsung-0603_1608_Metric-0-0-*" 0 300 50 H I L CNN
+F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL10B103KB8NNNC.pdf" 0 400 50 H I L CNN
+F4 "10nF" 0 500 50 H I L CNN "capacitance"
+F5 "Cap" 0 600 50 H I L CNN "category"
+F6 "CAP CER 10000PF 50V X7R 0603" 0 700 50 H I L CNN "digikey description"
+F7 "1276-1009-1-ND" 0 800 50 H I L CNN "digikey part number"
+F8 "CAPC16080X80" 0 900 50 H I L CNN "ipc land pattern name"
+F9 "yes" 0 1000 50 H I L CNN "lead free"
+F10 "704b476e59c9bc01" 0 1100 50 H I L CNN "library id"
+F11 "Samsung" 0 1200 50 H I L CNN "manufacturer"
+F12 "0603" 0 1300 50 H I L CNN "package"
+F13 "yes" 0 1400 50 H I L CNN "rohs"
+F14 "+125°C" 0 1500 50 H I L CNN "temperature range high"
+F15 "-55°C" 0 1600 50 H I L CNN "temperature range low"
+F16 "50V" 0 1700 50 H I L CNN "voltage"
+DRAW
+P 2 1 1 0 100 -130 -100 -130 N
+P 2 1 1 0 100 -70 -100 -70 N
+X 1 1 0 0 70 D 40 0 1 1 U
+X 2 2 0 -200 60 U 40 0 1 1 U
+ENDDRAW
+ENDDEF
+#
+# eec-Samsung_CL10B104KB8NNNL
+#
+DEF eec-Samsung_CL10B104KB8NNNL C 0 40 Y Y 1 L N
+F0 "C" 0 100 50 H V L CNN
+F1 "eec-Samsung_CL10B104KB8NNNL" 0 200 50 H V L CNN
+F2 "Samsung-CL10-09_2006-0-*" 0 300 50 H I L CNN
+F3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" 0 400 50 H I L CNN
+F4 "No" 0 500 50 H I L CNN "automotive"
+F5 "100nF" 0 600 50 H I L CNN "capacitance"
+F6 "Cap" 0 700 50 H I L CNN "category"
+F7 "Passive Components" 0 800 50 H I L CNN "device class L1"
+F8 "Capacitors" 0 900 50 H I L CNN "device class L2"
+F9 "Ceramic Capacitors" 0 1000 50 H I L CNN "device class L3"
+F10 "0.9mm" 0 1300 50 H I L CNN "height"
+F11 "CAPC16080X80" 0 1400 50 H I L CNN "ipc land pattern name"
+F12 "Yes" 0 1500 50 H I L CNN "lead free"
+F13 "d416e2ef1cbb0413" 0 1600 50 H I L CNN "library id"
+F14 "Samsung" 0 1700 50 H I L CNN "manufacturer"
+F15 "Ceramic" 0 1800 50 H I L CNN "material"
+F16 "0603" 0 1900 50 H I L CNN "package"
+F17 "Yes" 0 2000 50 H I L CNN "rohs"
+F18 "X7R" 0 2100 50 H I L CNN "temperature characteristic"
+F19 "0.15" 0 2200 50 H I L CNN "temperature coefficient"
+F20 "+125°C" 0 2300 50 H I L CNN "temperature range high"
+F21 "-55°C" 0 2400 50 H I L CNN "temperature range low"
+F22 "10%" 0 2500 50 H I L CNN "tolerance"
+F23 "50V" 0 2600 50 H I L CNN "voltage rating"
+DRAW
+P 2 1 1 0 100 -130 -100 -130 N
+P 2 1 1 0 100 -70 -100 -70 N
+X 1 1 0 0 70 D 40 0 1 1 P
+X 2 2 0 -200 60 U 40 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# eec-Samsung_CL10B105KA8NNNC
+#
+DEF eec-Samsung_CL10B105KA8NNNC C 0 40 Y Y 1 L N
+F0 "C" 0 100 50 H V L CNN
+F1 "eec-Samsung_CL10B105KA8NNNC" 0 200 50 H V L CNN
+F2 "Samsung-CL10-0-0-*" 0 300 50 H I L CNN
+F3 "http://www.samsungsem.com/global/front/downloadcms.do?path=%2F%2Fglobal%2F%2Fsupport%2F%2Fproduct-search%2F%2Fmlcc%2F%2F__icsFiles%2F%2Fafieldfile%2F%2F2018%2F%2F07%2F%2F24&fileName=CL10B105KA8NNNC.pdf" 0 400 50 H I L CNN
+F4 "CAP CER 1UF 25V X7R 0603" 0 500 50 H I L CNN "approved alternate part number"
+F5 "No" 0 600 50 H I L CNN "automotive"
+F6 "1uF" 0 700 50 H I L CNN "capacitance"
+F7 "Cap" 0 800 50 H I L CNN "category"
+F8 "Passive Components" 0 900 50 H I L CNN "device class L1"
+F9 "Capacitors" 0 1000 50 H I L CNN "device class L2"
+F10 "Ceramic Capacitors" 0 1100 50 H I L CNN "device class L3"
+F11 "CAP CER 1UF 25V X7R 0603" 0 1200 50 H I L CNN "digikey description"
+F12 "1276-1184-1-ND" 0 1300 50 H I L CNN "digikey part number"
+F13 "0.9mm" 0 1400 50 H I L CNN "height"
+F14 "CAPC16080X80" 0 1500 50 H I L CNN "ipc land pattern name"
+F15 "Yes" 0 1600 50 H I L CNN "lead free"
+F16 "6fd72994a5525edd" 0 1700 50 H I L CNN "library id"
+F17 "Samsung" 0 1800 50 H I L CNN "manufacturer"
+F18 "Ceramic" 0 1900 50 H I L CNN "material"
+F19 "0603" 0 2000 50 H I L CNN "package"
+F20 "Yes" 0 2100 50 H I L CNN "rohs"
+F21 "X7R" 0 2200 50 H I L CNN "temperature characteristic"
+F22 "15%" 0 2300 50 H I L CNN "temperature coefficient"
+F23 "+125°C" 0 2400 50 H I L CNN "temperature range high"
+F24 "-55°C" 0 2500 50 H I L CNN "temperature range low"
+F25 "10%" 0 2600 50 H I L CNN "tolerance"
+F26 "25V" 0 2700 50 H I L CNN "voltage"
+F27 "25V" 0 2800 50 H I L CNN "voltage rating"
+DRAW
+P 2 1 1 0 100 -130 -100 -130 N
+P 2 1 1 0 100 -70 -100 -70 N
+X 1 1 0 0 70 D 40 0 1 1 P
+X 2 2 0 -200 60 U 40 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# eec-Yageo_RC0603FR-075K1L
+#
+DEF eec-Yageo_RC0603FR-075K1L R 0 40 Y Y 1 L N
+F0 "R" 0 200 50 H V L CNN
+F1 "eec-Yageo_RC0603FR-075K1L" 0 300 50 H V L CNN
+F2 "Yageo-RC0603-0-0-*" 0 400 50 H I L CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" 0 500 50 H I L CNN
+F4 "541-1.00HHCT-ND" 0 600 50 H I L CNN "approved alternate part number"
+F5 "Res" 0 700 50 H I L CNN "category"
+F6 "Thick Film" 0 800 50 H I L CNN "composition"
+F7 "Passive Components" 0 900 50 H I L CNN "device class L1"
+F8 "Resistors" 0 1000 50 H I L CNN "device class L2"
+F9 "Chip SMD Resistors" 0 1100 50 H I L CNN "device class L3"
+F10 "RES SMD 5.1K OHM 1% 1/10W 0603" 0 1200 50 H I L CNN "digikey description"
+F11 "311-5.10KHRDKR-ND" 0 1300 50 H I L CNN "digikey part number"
+F12 "0.5mm" 0 1400 50 H I L CNN "height"
+F13 "RESC15585X45" 0 1500 50 H I L CNN "ipc land pattern name"
+F14 "yes" 0 1600 50 H I L CNN "lead free"
+F15 "e0df13eb3ce636e9" 0 1700 50 H I L CNN "library id"
+F16 "Yageo" 0 1800 50 H I L CNN "manufacturer"
+F17 "Thick Film Resistors 5.1K OHM 1%" 0 1900 50 H I L CNN "mouser description"
+F18 "603-RC0603FR-075K1L" 0 2000 50 H I L CNN "mouser part number"
+F19 "0603 (1608 Metric)" 0 2100 50 H I L CNN "package"
+F20 "100mW" 0 2200 50 H I L CNN "power"
+F21 "0.1W" 0 2300 50 H I L CNN "power rating"
+F22 "5.1kΩ" 0 2400 50 H I L CNN "resistance"
+F23 "yes" 0 2500 50 H I L CNN "rohs"
+F24 "RC" 0 2600 50 H I L CNN "series"
+F25 "0mm" 0 2700 50 H I L CNN "standoff height"
+F26 "100ppm/°C" 0 2800 50 H I L CNN "temperature coefficient"
+F27 "+155°C" 0 2900 50 H I L CNN "temperature range high"
+F28 "-55°C" 0 3000 50 H I L CNN "temperature range low"
+F29 "1%" 0 3100 50 H I L CNN "tolerance"
+F30 "75V" 0 3200 50 H I L CNN "voltage"
+F31 "75V" 0 3300 50 H I L CNN "voltage rating"
+DRAW
+P 2 1 1 0 200 0 230 50 N
+P 2 1 1 0 230 50 280 -50 N
+P 2 1 1 0 280 -50 330 50 N
+P 2 1 1 0 330 50 380 -50 N
+P 2 1 1 0 380 -50 430 50 N
+P 2 1 1 0 430 50 480 -50 N
+P 2 1 1 0 480 -50 500 0 N
+X 1 1 100 0 100 R 40 0 1 1 P
+X 2 2 600 0 100 L 40 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# eec-fairchild_LL4148
+#
+DEF eec-fairchild_LL4148 D 0 40 Y Y 1 L N
+F0 "D" 0 200 50 H V L CNN
+F1 "eec-fairchild_LL4148" 0 300 50 H V L CNN
+F2 "Fairchild_ON_Semiconductor-LL4148-*" 0 400 50 H I L CNN
+F3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" 0 500 50 H I L CNN
+F4 "Diode" 0 600 50 H I L CNN "category"
+F5 "DIODE GEN PURP 100V 200MA SOD80" 0 700 50 H I L CNN "digikey description"
+F6 "LL4148FSCT-ND" 0 800 50 H I L CNN "digikey part number"
+F7 "yes" 0 900 50 H I L CNN "lead free"
+F8 "7267ed481d20a817" 0 1000 50 H I L CNN "library id"
+F9 "Fairchild/ON Semiconductor" 0 1100 50 H I L CNN "manufacturer"
+F10 "512-LL4148" 0 1200 50 H I L CNN "mouser part number"
+F11 "2" 0 1300 50 H I L CNN "num pins"
+F12 "SOD80" 0 1400 50 H I L CNN "package"
+F13 "yes" 0 1500 50 H I L CNN "rohs"
+F14 "+175°C" 0 1600 50 H I L CNN "temperature range high"
+F15 "-55°C" 0 1700 50 H I L CNN "temperature range low"
+DRAW
+P 2 1 1 0 200 -100 400 0 N
+P 2 1 1 0 200 100 200 -100 N
+P 2 1 1 0 200 100 400 0 N
+P 2 1 1 0 400 100 400 -100 N
+X CATHODE 1 500 0 100 L 40 0 1 1 U
+X ANODE 2 100 0 100 R 40 0 1 1 U
+ENDDRAW
+ENDDEF
+#
+# eec-gct_USB4085-GF-A
+#
+DEF eec-gct_USB4085-GF-A J 0 0 Y Y 1 L N
+F0 "J" 0 300 50 H V L CNN
+F1 "eec-gct_USB4085-GF-A" 0 400 50 H V L CNN
+F2 "Global_Connector_Technology-USB4085-GF-A-*" 0 500 50 H I L CNN
+F3 "https://gct.co/files/drawings/usb4085.pdf" 0 600 50 H I L CNN
+F4 "No" 0 700 50 H I L CNN "automotive"
+F5 "Conn" 0 800 50 H I L CNN "category"
+F6 "Gold,Nickel" 0 900 50 H I L CNN "contact material"
+F7 "4.25A" 0 1000 50 H I L CNN "current rating"
+F8 "Connectors" 0 1100 50 H I L CNN "device class L1"
+F9 "USB Connectors" 0 1200 50 H I L CNN "device class L2"
+F10 "unset" 0 1300 50 H I L CNN "device class L3"
+F11 "CONN RCPT USB2.0 TYPEC 16POS" 0 1400 50 H I L CNN "digikey description"
+F12 "2073-USB4085-GF-ACT-ND" 0 1500 50 H I L CNN "digikey part number"
+F13 "3.66mm" 0 1600 50 H I L CNN "height"
+F14 "yes" 0 1700 50 H I L CNN "is connector"
+F15 "yes" 0 1800 50 H I L CNN "is female"
+F16 "Yes" 0 1900 50 H I L CNN "lead free"
+F17 "1f90e1412072a309" 0 2000 50 H I L CNN "library id"
+F18 "Global Connector Technology" 0 2100 50 H I L CNN "manufacturer"
+F19 "16" 0 2200 50 H I L CNN "number of contacts"
+F20 "PTH_USB-C" 0 2300 50 H I L CNN "package"
+F21 "0.85mm" 0 2400 50 H I L CNN "pitch"
+F22 "Yes" 0 2500 50 H I L CNN "rohs"
+F23 "true" 0 2600 50 H I L CNN "shielding"
+F24 "+85°C" 0 2700 50 H I L CNN "temperature range high"
+F25 "-40°C" 0 2800 50 H I L CNN "temperature range low"
+F26 "USB 2.0" 0 2900 50 H I L CNN "usb standard"
+F27 "20V" 0 3000 50 H I L CNN "voltage rating"
+DRAW
+C -450 -3800 30 1 1 0 N
+C -450 -3600 30 1 1 0 N
+C -450 -3400 30 1 1 0 N
+C -450 -3200 30 1 1 0 N
+C -450 -3000 30 1 1 0 N
+C -450 -2800 30 1 1 0 N
+C -450 -2600 30 1 1 0 N
+C -450 -2400 30 1 1 0 N
+C -450 -2200 30 1 1 0 N
+C -450 -2000 30 1 1 0 N
+C -450 -1800 30 1 1 0 N
+C -450 -1600 30 1 1 0 N
+C -450 -1400 30 1 1 0 N
+C -450 -1200 30 1 1 0 N
+C -450 -1000 30 1 1 0 N
+C -450 -800 30 1 1 0 N
+C -450 -600 30 1 1 0 N
+C -450 -400 30 1 1 0 N
+C -450 -200 30 1 1 0 N
+C -450 0 30 1 1 0 N
+S -700 200 -200 -4000 1 1 0 f
+P 2 1 1 0 -420 -3800 -200 -3800 N
+P 2 1 1 0 -420 -3600 -200 -3600 N
+P 2 1 1 0 -420 -3400 -200 -3400 N
+P 2 1 1 0 -420 -3200 -200 -3200 N
+P 2 1 1 0 -420 -3000 -200 -3000 N
+P 2 1 1 0 -420 -2800 -200 -2800 N
+P 2 1 1 0 -420 -2600 -200 -2600 N
+P 2 1 1 0 -420 -2400 -200 -2400 N
+P 2 1 1 0 -420 -2200 -200 -2200 N
+P 2 1 1 0 -420 -2000 -200 -2000 N
+P 2 1 1 0 -420 -1800 -200 -1800 N
+P 2 1 1 0 -420 -1600 -200 -1600 N
+P 2 1 1 0 -420 -1400 -200 -1400 N
+P 2 1 1 0 -420 -1200 -200 -1200 N
+P 2 1 1 0 -420 -1000 -200 -1000 N
+P 2 1 1 0 -420 -800 -200 -800 N
+P 2 1 1 0 -420 -600 -200 -600 N
+P 2 1 1 0 -420 -400 -200 -400 N
+P 2 1 1 0 -420 -200 -200 -200 N
+P 2 1 1 0 -420 0 -200 0 N
+X MNT_1 1 -100 -3200 100 L 40 40 1 1 P
+X MNT_2 2 -100 -3400 100 L 40 40 1 1 P
+X MNT_3 3 -100 -3600 100 L 40 40 1 1 P
+X MNT_4 4 -100 -3800 100 L 40 40 1 1 P
+X GND A1 -100 0 100 L 40 40 1 1 W
+X GND A12 -100 -1400 100 L 40 40 1 1 W
+X VBUS A4 -100 -200 100 L 40 40 1 1 W
+X CC1 A5 -100 -400 100 L 40 40 1 1 P
+X Dp1 A6 -100 -600 100 L 40 40 1 1 P
+X Dn1 A7 -100 -800 100 L 40 40 1 1 P
+X SBU1 A8 -100 -1000 100 L 40 40 1 1 P
+X VBUS A9 -100 -1200 100 L 40 40 1 1 W
+X GND B1 -100 -1600 100 L 40 40 1 1 W
+X GND B12 -100 -3000 100 L 40 40 1 1 W
+X VBUS B4 -100 -1800 100 L 40 40 1 1 W
+X CC2 B5 -100 -2000 100 L 40 40 1 1 P
+X Dp2 B6 -100 -2200 100 L 40 40 1 1 P
+X Dn2 B7 -100 -2400 100 L 40 40 1 1 P
+X SBU2 B8 -100 -2600 100 L 40 40 1 1 P
+X VBUS B9 -100 -2800 100 L 40 40 1 1 W
+ENDDRAW
+ENDDEF
+#
+# power_+3V3
+#
+DEF power_+3V3 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+3V3" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+5V
+#
+DEF power_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

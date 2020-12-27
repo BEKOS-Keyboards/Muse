@@ -6,4 +6,10 @@ K switch normally-open pushbutton push-button
 F ~
 $ENDCMP
 #
+$CMP SW_RST
+D Push button switch, generic, two pins
+K switch normally-open pushbutton push-button
+F ~
+$ENDCMP
+#
 #End Doc Library

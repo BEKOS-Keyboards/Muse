@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Samsung CL10B103KB8NNNC
+#
+DEF CL10B103KB8NNNC C 0 40 Y Y 1 L N
+F0 "C" 0 100 50 H V L CNN 
+F1 "CL10B103KB8NNNC" 0 200 50 H V L CNN 
+F2 "Samsung-0603_1608_Metric-0-0-*" 0 300 50 H I L CNN 
+F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL10B103KB8NNNC.pdf" 0 400 50 H I L CNN 
+F4 "10nF" 0 500 50 H I L CNN "capacitance"
+F5 "Cap" 0 600 50 H I L CNN "category"
+F6 "CAP CER 10000PF 50V X7R 0603" 0 700 50 H I L CNN "digikey description"
+F7 "1276-1009-1-ND" 0 800 50 H I L CNN "digikey part number"
+F8 "CAPC16080X80" 0 900 50 H I L CNN "ipc land pattern name"
+F9 "yes" 0 1000 50 H I L CNN "lead free"
+F10 "704b476e59c9bc01" 0 1100 50 H I L CNN "library id"
+F11 "Samsung" 0 1200 50 H I L CNN "manufacturer"
+F12 "0603" 0 1300 50 H I L CNN "package"
+F13 "yes" 0 1400 50 H I L CNN "rohs"
+F14 "+125°C" 0 1500 50 H I L CNN "temperature range high"
+F15 "-55°C" 0 1600 50 H I L CNN "temperature range low"
+F16 "50V" 0 1700 50 H I L CNN "voltage"
+DRAW
+X 1 1 0 0 70 D 40 0 1 1 U 
+X 2 2 0 -200 60 U 40 0 1 1 U 
+P 2 1 1 0 100 -70 -100 -70 N
+P 2 1 1 0 100 -130 -100 -130 N
+ENDDRAW
+ENDDEF
+#
+# End Library

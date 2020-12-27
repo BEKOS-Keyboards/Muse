@@ -1,0 +1,68 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Texas Instruments ESD122DMXR
+#
+DEF ESD122DMXR D 0 40 Y Y 1 L N
+F0 "D" 0 200 50 H V L CNN 
+F1 "ESD122DMXR" 0 300 50 H V L CNN 
+F2 "Texas_Instruments-DMX0003A-0-0-*" 0 400 50 H I L CNN 
+F3 "https://www.ti.com/lit/ds/symlink/esd122.pdf?ts=1603977495477&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FESD122%253FkeyMatch%253DESD122DMXR%2526tisearch%253DSearch-EN-everything%2526usecase%253DOPN" 0 500 50 H I L CNN 
+F4 "+125°C" 0 600 50 H I L CNN "ambient temperature range high"
+F5 "-40°C" 0 700 50 H I L CNN "ambient temperature range low"
+F6 "No" 0 800 50 H I L CNN "automotive"
+F7 "5V" 0 900 50 H I L CNN "breakdown voltage"
+F8 "0.2pF" 0 1000 50 H I L CNN "capacitance"
+F9 "Diode" 0 1100 50 H I L CNN "category"
+F10 "8.4V" 0 1200 50 H I L CNN "clamping voltage"
+F11 "Circuit Protection" 0 1300 50 H I L CNN "device class L1"
+F12 "TVS Diodes" 0 1400 50 H I L CNN "device class L2"
+F13 "unset" 0 1500 50 H I L CNN "device class L3"
+F14 "TVS DIODE 3.6V 8.4V 3X2SON" 0 1600 50 H I L CNN "digikey description"
+F15 "296-48543-1-ND" 0 1700 50 H I L CNN "digikey part number"
+F16 "Bidirectional" 0 1800 50 H I L CNN "direction"
+F17 "0.4mm" 0 1900 50 H I L CNN "height"
+F18 "Yes" 0 2000 50 H I L CNN "lead free"
+F19 "298e67dad557fe61" 0 2100 50 H I L CNN "library id"
+F20 "Texas Instruments" 0 2200 50 H I L CNN "manufacturer"
+F21 "2-Channel ESD Protection Diode for USB Type-C and HDMI 2.0 3-X2SON -40 to 125" 0 2300 50 H I L CNN "mouser description"
+F22 "595-ESD122DMXR" 0 2400 50 H I L CNN "mouser part number"
+F23 "2" 0 2500 50 H I L CNN "number of channels"
+F24 "X2SON3" 0 2600 50 H I L CNN "package"
+F25 "2.5A" 0 2700 50 H I L CNN "peak pulse current"
+F26 "20W" 0 2800 50 H I L CNN "peak pulse power"
+F27 "3.6V" 0 2900 50 H I L CNN "reverse standoff voltage"
+F28 "Yes" 0 3000 50 H I L CNN "rohs"
+F29 "0mm" 0 3100 50 H I L CNN "standoff height"
+F30 "+125°C" 0 3200 50 H I L CNN "temperature range high"
+F31 "-40°C" 0 3300 50 H I L CNN "temperature range low"
+DRAW
+X IO1 2 100 0 100 R 40 0 1 1 P 
+X GND 1 900 -200 100 L 40 0 1 1 W 
+X IO2 3 100 -400 100 R 40 0 1 1 P 
+P 2 1 1 0 200 100 200 -100 N
+P 2 1 1 0 400 -350 400 -450 N
+P 2 1 1 0 200 100 400 0 N
+P 2 1 1 0 200 -100 400 0 N
+P 2 1 1 0 400 -350 450 -300 N
+P 2 1 1 0 400 -450 350 -500 N
+P 2 1 1 0 600 100 600 -100 N
+P 2 1 1 0 600 -100 400 0 N
+P 2 1 1 0 400 0 600 100 N
+P 2 1 1 0 200 -300 200 -500 N
+P 2 1 1 0 200 -500 400 -400 N
+P 2 1 1 0 400 -400 200 -300 N
+P 2 1 1 0 200 -300 400 -400 N
+P 2 1 1 0 400 -400 600 -500 N
+P 2 1 1 0 600 -500 600 -300 N
+P 2 1 1 0 600 -300 400 -400 N
+P 2 1 1 0 350 -100 400 -50 N
+P 2 1 1 0 400 -50 400 50 N
+P 2 1 1 0 400 50 450 100 N
+P 2 1 1 0 600 0 800 0 N
+P 2 1 1 0 800 0 800 -400 N
+P 2 1 1 0 800 -400 600 -400 N
+ENDDRAW
+ENDDEF
+#
+# End Library

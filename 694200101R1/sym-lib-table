@@ -1,4 +1,11 @@
 (sym_lib_table
   (lib (name cldg)(type Legacy)(uri ${KIPRJMOD}/cldg.lib)(options "")(descr ""))
-  (lib (name 19-337C_RSBHGHC-A88_4T)(type Legacy)(uri /home/doni/keyboard/spongeburger-keyboard/3rd-party-footprints/19-337C_RSBHGHC-A88_4T.lib)(options "")(descr ""))
+  (lib (name 19-337C_RSBHGHC-A88_4T)(type Legacy)(uri ${KIPRJMOD}/../3rd-party-footprints/19-337C_RSBHGHC-A88_4T.lib)(options "")(descr ""))
+  (lib (name 694200101-rescue)(type Legacy)(uri ${KIPRJMOD}/694200101-rescue.lib)(options "")(descr ""))
+  (lib (name eec-fairchild)(type Legacy)(uri "${KIPRJMOD}/../3rd-party-footprints/Diode_Fairchild_ON Semiconductor_LL4148/eec.lib")(options "")(descr ""))
+  (lib (name eec-gct)(type Legacy)(uri "${KIPRJMOD}/../3rd-party-footprints/Conn_Global Connector Technology_USB4085-GF-A/eec.lib")(options "")(descr ""))
+  (lib (name eec-Yageo)(type Legacy)(uri ${KIPRJMOD}/../3rd-party-footprints/Res_Yageo_RC0603FR-075K1L/eec.lib)(options "")(descr ""))
+  (lib (name eec-TI)(type Legacy)(uri "${KIPRJMOD}/../3rd-party-footprints/Diode_Texas Instruments_ESD122DMXR/eec.lib")(options "")(descr ""))
+  (lib (name DI-LVO)(type Legacy)(uri ${KIPRJMOD}/../3rd-party-footprints/ul_AP2114HA33TRG1/KiCAD/2020-12-27_20-48-41/2020-12-27_20-48-41.lib)(options "")(descr ""))
+  (lib (name eec-Samsung)(type Legacy)(uri ${KIPRJMOD}/../3rd-party-footprints/Cap_Samsung_CL10B104KB8NNNL/eec.lib)(options "")(descr ""))
 )

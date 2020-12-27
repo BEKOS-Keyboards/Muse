@@ -1,0 +1,52 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Yageo RC0603FR-075K1L
+#
+DEF RC0603FR-075K1L R 0 40 Y Y 1 L N
+F0 "R" 0 200 50 H V L CNN 
+F1 "RC0603FR-075K1L" 0 300 50 H V L CNN 
+F2 "Yageo-RC0603-0-0-*" 0 400 50 H I L CNN 
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" 0 500 50 H I L CNN 
+F4 "541-1.00HHCT-ND" 0 600 50 H I L CNN "approved alternate part number"
+F5 "Res" 0 700 50 H I L CNN "category"
+F6 "Thick Film" 0 800 50 H I L CNN "composition"
+F7 "Passive Components" 0 900 50 H I L CNN "device class L1"
+F8 "Resistors" 0 1000 50 H I L CNN "device class L2"
+F9 "Chip SMD Resistors" 0 1100 50 H I L CNN "device class L3"
+F10 "RES SMD 5.1K OHM 1% 1/10W 0603" 0 1200 50 H I L CNN "digikey description"
+F11 "311-5.10KHRDKR-ND" 0 1300 50 H I L CNN "digikey part number"
+F12 "0.5mm" 0 1400 50 H I L CNN "height"
+F13 "RESC15585X45" 0 1500 50 H I L CNN "ipc land pattern name"
+F14 "yes" 0 1600 50 H I L CNN "lead free"
+F15 "e0df13eb3ce636e9" 0 1700 50 H I L CNN "library id"
+F16 "Yageo" 0 1800 50 H I L CNN "manufacturer"
+F17 "Thick Film Resistors 5.1K OHM 1%" 0 1900 50 H I L CNN "mouser description"
+F18 "603-RC0603FR-075K1L" 0 2000 50 H I L CNN "mouser part number"
+F19 "0603 (1608 Metric)" 0 2100 50 H I L CNN "package"
+F20 "100mW" 0 2200 50 H I L CNN "power"
+F21 "0.1W" 0 2300 50 H I L CNN "power rating"
+F22 "5.1kΩ" 0 2400 50 H I L CNN "resistance"
+F23 "yes" 0 2500 50 H I L CNN "rohs"
+F24 "RC" 0 2600 50 H I L CNN "series"
+F25 "0mm" 0 2700 50 H I L CNN "standoff height"
+F26 "100ppm/°C" 0 2800 50 H I L CNN "temperature coefficient"
+F27 "+155°C" 0 2900 50 H I L CNN "temperature range high"
+F28 "-55°C" 0 3000 50 H I L CNN "temperature range low"
+F29 "1%" 0 3100 50 H I L CNN "tolerance"
+F30 "75V" 0 3200 50 H I L CNN "voltage"
+F31 "75V" 0 3300 50 H I L CNN "voltage rating"
+DRAW
+X 1 1 100 0 100 R 40 0 1 1 P 
+X 2 2 600 0 100 L 40 0 1 1 P 
+P 2 1 1 0 200 0 230 50 N
+P 2 1 1 0 230 50 280 -50 N
+P 2 1 1 0 280 -50 330 50 N
+P 2 1 1 0 330 50 380 -50 N
+P 2 1 1 0 380 -50 430 50 N
+P 2 1 1 0 430 50 480 -50 N
+P 2 1 1 0 480 -50 500 0 N
+ENDDRAW
+ENDDEF
+#
+# End Library

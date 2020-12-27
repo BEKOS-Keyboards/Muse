@@ -1,0 +1,100 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Global Connector Technology USB4085-GF-A
+#
+DEF USB4085-GF-A J 0 0 Y Y 1 L N
+F0 "J" 0 300 50 H V L CNN 
+F1 "USB4085-GF-A" 0 400 50 H V L CNN 
+F2 "Global_Connector_Technology-USB4085-GF-A-*" 0 500 50 H I L CNN 
+F3 "https://gct.co/files/drawings/usb4085.pdf" 0 600 50 H I L CNN 
+F4 "No" 0 700 50 H I L CNN "automotive"
+F5 "Conn" 0 800 50 H I L CNN "category"
+F6 "Gold,Nickel" 0 900 50 H I L CNN "contact material"
+F7 "4.25A" 0 1000 50 H I L CNN "current rating"
+F8 "Connectors" 0 1100 50 H I L CNN "device class L1"
+F9 "USB Connectors" 0 1200 50 H I L CNN "device class L2"
+F10 "unset" 0 1300 50 H I L CNN "device class L3"
+F11 "CONN RCPT USB2.0 TYPEC 16POS" 0 1400 50 H I L CNN "digikey description"
+F12 "2073-USB4085-GF-ACT-ND" 0 1500 50 H I L CNN "digikey part number"
+F13 "3.66mm" 0 1600 50 H I L CNN "height"
+F14 "yes" 0 1700 50 H I L CNN "is connector"
+F15 "yes" 0 1800 50 H I L CNN "is female"
+F16 "Yes" 0 1900 50 H I L CNN "lead free"
+F17 "1f90e1412072a309" 0 2000 50 H I L CNN "library id"
+F18 "Global Connector Technology" 0 2100 50 H I L CNN "manufacturer"
+F19 "16" 0 2200 50 H I L CNN "number of contacts"
+F20 "PTH_USB-C" 0 2300 50 H I L CNN "package"
+F21 "0.85mm" 0 2400 50 H I L CNN "pitch"
+F22 "Yes" 0 2500 50 H I L CNN "rohs"
+F23 "true" 0 2600 50 H I L CNN "shielding"
+F24 "+85°C" 0 2700 50 H I L CNN "temperature range high"
+F25 "-40°C" 0 2800 50 H I L CNN "temperature range low"
+F26 "USB 2.0" 0 2900 50 H I L CNN "usb standard"
+F27 "20V" 0 3000 50 H I L CNN "voltage rating"
+DRAW
+X MNT_1 1 -100 -3200 100 L 40 40 1 1 P 
+X MNT_2 2 -100 -3400 100 L 40 40 1 1 P 
+X MNT_3 3 -100 -3600 100 L 40 40 1 1 P 
+X MNT_4 4 -100 -3800 100 L 40 40 1 1 P 
+X GND A1 -100 0 100 L 40 40 1 1 W 
+X VBUS A4 -100 -200 100 L 40 40 1 1 W 
+X CC1 A5 -100 -400 100 L 40 40 1 1 P 
+X Dp1 A6 -100 -600 100 L 40 40 1 1 P 
+X Dn1 A7 -100 -800 100 L 40 40 1 1 P 
+X SBU1 A8 -100 -1000 100 L 40 40 1 1 P 
+X VBUS A9 -100 -1200 100 L 40 40 1 1 W 
+X GND A12 -100 -1400 100 L 40 40 1 1 W 
+X GND B1 -100 -1600 100 L 40 40 1 1 W 
+X VBUS B4 -100 -1800 100 L 40 40 1 1 W 
+X CC2 B5 -100 -2000 100 L 40 40 1 1 P 
+X Dp2 B6 -100 -2200 100 L 40 40 1 1 P 
+X Dn2 B7 -100 -2400 100 L 40 40 1 1 P 
+X SBU2 B8 -100 -2600 100 L 40 40 1 1 P 
+X VBUS B9 -100 -2800 100 L 40 40 1 1 W 
+X GND B12 -100 -3000 100 L 40 40 1 1 W 
+S -700 200 -200 -4000 1 1 0 f
+C -450 0 30 1 1 0 N
+P 2 1 1 0 -420 0 -200 0 N
+C -450 -200 30 1 1 0 N
+P 2 1 1 0 -420 -200 -200 -200 N
+C -450 -400 30 1 1 0 N
+P 2 1 1 0 -420 -400 -200 -400 N
+C -450 -600 30 1 1 0 N
+P 2 1 1 0 -420 -600 -200 -600 N
+C -450 -800 30 1 1 0 N
+P 2 1 1 0 -420 -800 -200 -800 N
+C -450 -1000 30 1 1 0 N
+P 2 1 1 0 -420 -1000 -200 -1000 N
+C -450 -1200 30 1 1 0 N
+P 2 1 1 0 -420 -1200 -200 -1200 N
+C -450 -1400 30 1 1 0 N
+P 2 1 1 0 -420 -1400 -200 -1400 N
+C -450 -1600 30 1 1 0 N
+P 2 1 1 0 -420 -1600 -200 -1600 N
+C -450 -1800 30 1 1 0 N
+P 2 1 1 0 -420 -1800 -200 -1800 N
+C -450 -2000 30 1 1 0 N
+P 2 1 1 0 -420 -2000 -200 -2000 N
+C -450 -2200 30 1 1 0 N
+P 2 1 1 0 -420 -2200 -200 -2200 N
+C -450 -2400 30 1 1 0 N
+P 2 1 1 0 -420 -2400 -200 -2400 N
+C -450 -2600 30 1 1 0 N
+P 2 1 1 0 -420 -2600 -200 -2600 N
+C -450 -2800 30 1 1 0 N
+P 2 1 1 0 -420 -2800 -200 -2800 N
+C -450 -3000 30 1 1 0 N
+P 2 1 1 0 -420 -3000 -200 -3000 N
+C -450 -3200 30 1 1 0 N
+P 2 1 1 0 -420 -3200 -200 -3200 N
+C -450 -3400 30 1 1 0 N
+P 2 1 1 0 -420 -3400 -200 -3400 N
+C -450 -3600 30 1 1 0 N
+P 2 1 1 0 -420 -3600 -200 -3600 N
+C -450 -3800 30 1 1 0 N
+P 2 1 1 0 -420 -3800 -200 -3800 N
+ENDDRAW
+ENDDEF
+#
+# End Library
