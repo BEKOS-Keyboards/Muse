@@ -1,0 +1,145 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# CL10B103KB8NNNC
+#
+DEF CL10B103KB8NNNC C 0 40 Y Y 1 F N
+F0 "C" 0 100 50 H V L CNN
+F1 "CL10B103KB8NNNC" 0 200 50 H I L CNN
+F2 "Samsung-0603_1608_Metric-0-0-*" 0 300 50 H I L CNN
+F3 "" 0 400 50 H I L CNN
+F4 "10nF" 0 500 50 H V L CNN "capacitance"
+F5 "Cap" 0 600 50 H I L CNN "category"
+F6 "CAP CER 10000PF 50V X7R 0603" 0 700 50 H I L CNN "digikey description"
+F7 "1276-1009-1-ND" 0 800 50 H I L CNN "digikey part number"
+F8 "CAPC16080X80" 0 900 50 H I L CNN "ipc land pattern name"
+F9 "yes" 0 1000 50 H I L CNN "lead free"
+F10 "704b476e59c9bc01" 0 1100 50 H I L CNN "library id"
+F11 "Samsung" 0 1200 50 H I L CNN "manufacturer"
+F12 "0603" 0 1300 50 H I L CNN "package"
+F13 "yes" 0 1400 50 H I L CNN "rohs"
+F14 "+125°C" 0 1500 50 H I L CNN "temperature range high"
+F15 "-55°C" 0 1600 50 H I L CNN "temperature range low"
+F16 "50V" 0 1700 50 H I L CNN "voltage"
+DRAW
+P 2 1 1 0 100 -130 -100 -130 N
+P 2 1 1 0 100 -70 -100 -70 N
+X 1 1 0 0 70 D 40 0 1 1 U
+X 2 2 0 -200 60 U 40 0 1 1 U
+ENDDRAW
+ENDDEF
+#
+# CL10B104KB8NNNL
+#
+DEF CL10B104KB8NNNL C 0 40 Y Y 1 F N
+F0 "C" 0 100 50 H V L CNN
+F1 "CL10B104KB8NNNL" 0 200 50 H I L CNN
+F2 "Samsung-CL10-09_2006-0-*" 0 300 50 H I L CNN
+F3 "" 0 400 50 H I L CNN
+F4 "No" 0 500 50 H I L CNN "automotive"
+F5 "100nF" 0 600 50 H V L CNN "capacitance"
+F6 "Cap" 0 700 50 H I L CNN "category"
+F7 "Passive Components" 0 800 50 H I L CNN "device class L1"
+F8 "Capacitors" 0 900 50 H I L CNN "device class L2"
+F9 "Ceramic Capacitors" 0 1000 50 H I L CNN "device class L3"
+F10 "0.9mm" 0 1300 50 H I L CNN "height"
+F11 "CAPC16080X80" 0 1400 50 H I L CNN "ipc land pattern name"
+F12 "Yes" 0 1500 50 H I L CNN "lead free"
+F13 "d416e2ef1cbb0413" 0 1600 50 H I L CNN "library id"
+F14 "Samsung" 0 1700 50 H I L CNN "manufacturer"
+F15 "Ceramic" 0 1800 50 H I L CNN "material"
+F16 "0603" 0 1900 50 H I L CNN "package"
+F17 "Yes" 0 2000 50 H I L CNN "rohs"
+F18 "X7R" 0 2100 50 H I L CNN "temperature characteristic"
+F19 "0.15" 0 2200 50 H I L CNN "temperature coefficient"
+F20 "+125°C" 0 2300 50 H I L CNN "temperature range high"
+F21 "-55°C" 0 2400 50 H I L CNN "temperature range low"
+F22 "10%" 0 2500 50 H I L CNN "tolerance"
+F23 "50V" 0 2600 50 H I L CNN "voltage rating"
+DRAW
+P 2 1 1 0 100 -130 -100 -130 N
+P 2 1 1 0 100 -70 -100 -70 N
+X 1 1 0 0 70 D 40 0 1 1 P
+X 2 2 0 -200 60 U 40 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CL10B105KA8NNNC
+#
+DEF CL10B105KA8NNNC C 0 40 Y Y 1 F N
+F0 "C" 0 100 50 H V L CNN
+F1 "CL10B105KA8NNNC" 0 200 50 H I L CNN
+F2 "Samsung-CL10-0-0-*" 0 300 50 H I L CNN
+F3 "" 0 400 50 H I L CNN
+F4 "CAP CER 1UF 25V X7R 0603" 0 500 50 H I L CNN "approved alternate part number"
+F5 "No" 0 600 50 H I L CNN "automotive"
+F6 "1uF" 0 700 50 H V L CNN "capacitance"
+F7 "Cap" 0 800 50 H I L CNN "category"
+F8 "Passive Components" 0 900 50 H I L CNN "device class L1"
+F9 "Capacitors" 0 1000 50 H I L CNN "device class L2"
+F10 "Ceramic Capacitors" 0 1100 50 H I L CNN "device class L3"
+F11 "CAP CER 1UF 25V X7R 0603" 0 1200 50 H I L CNN "digikey description"
+F12 "1276-1184-1-ND" 0 1300 50 H I L CNN "digikey part number"
+F13 "0.9mm" 0 1400 50 H I L CNN "height"
+F14 "CAPC16080X80" 0 1500 50 H I L CNN "ipc land pattern name"
+F15 "Yes" 0 1600 50 H I L CNN "lead free"
+F16 "6fd72994a5525edd" 0 1700 50 H I L CNN "library id"
+F17 "Samsung" 0 1800 50 H I L CNN "manufacturer"
+F18 "Ceramic" 0 1900 50 H I L CNN "material"
+F19 "0603" 0 2000 50 H I L CNN "package"
+F20 "Yes" 0 2100 50 H I L CNN "rohs"
+F21 "X7R" 0 2200 50 H I L CNN "temperature characteristic"
+F22 "15%" 0 2300 50 H I L CNN "temperature coefficient"
+F23 "+125°C" 0 2400 50 H I L CNN "temperature range high"
+F24 "-55°C" 0 2500 50 H I L CNN "temperature range low"
+F25 "10%" 0 2600 50 H I L CNN "tolerance"
+F26 "25V" 0 2700 50 H I L CNN "voltage"
+F27 "25V" 0 2800 50 H I L CNN "voltage rating"
+DRAW
+P 2 1 1 0 100 -130 -100 -130 N
+P 2 1 1 0 100 -70 -100 -70 N
+X 1 1 0 0 70 D 40 0 1 1 P
+X 2 2 0 -200 60 U 40 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CL10B474KA8NFNC
+#
+DEF CL10B474KA8NFNC C 0 40 Y N 1 F N
+F0 "C" 0 150 50 H V L BNN
+F1 "CL10B474KA8NFNC" 0 -200 50 H I L BNN
+F2 "CAPC1608X90N" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "https://pricing.snapeda.com/search/part/CL10B474KA8NFNC/?ref=eda" 0 0 50 H I L BNN "Purchase-URL"
+F5 "0603 Samsung" 0 0 50 H I L BNN "Package"
+F6 "CL10B474KA8NFNC" 0 0 50 H I L BNN "MP"
+F7 "1276-2082-1-ND" 0 0 50 H I L BNN "Digi-Key_Part_Number"
+F8 "Samsung Electro-Mechanics" 0 0 50 H I L BNN "MF"
+F9 "0.47µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" 0 0 50 H I L BNN "Description"
+F10 "0.47µF" 0 0 50 H V C CNN "capacitance"
+DRAW
+S 0 -75 25 75 0 0 0 F
+S 75 -75 100 75 0 0 0 F
+X ~ 1 -100 0 100 R 40 40 0 0 P
+X ~ 2 200 0 100 L 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# TAJB226K016RNJ
+#
+DEF TAJB226K016RNJ C 0 40 Y N 1 F N
+F0 "C" 0 150 50 H V L BNN
+F1 "TAJB226K016RNJ" 0 -200 50 H I L BNN
+F2 "CAPPC3528X210N" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "22µF" 0 0 50 H V C CNN "capacitance"
+DRAW
+T 0 150 100 50 0 0 0 + Normal 0 C C
+S 0 -75 25 75 0 0 0 F
+S 75 -75 100 75 0 0 0 F
+X ~ 1 200 0 100 L 40 40 0 0 P
+X ~ 2 -100 0 100 R 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library
