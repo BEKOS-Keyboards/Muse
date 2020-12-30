@@ -2945,8 +2945,6 @@ F 16 "" H 6350 3900 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6350 1850 6350 1950
-Wire Wire Line
 	6400 1550 6350 1550
 $Comp
 L eec-fairchild:LL4148 D?
@@ -5905,4 +5903,26 @@ Wire Wire Line
 Wire Wire Line
 	6350 3900 7050 3900
 Connection ~ 7050 3900
+Wire Wire Line
+	4950 4550 7750 4550
+Connection ~ 4950 4550
+Connection ~ 7750 4550
+Wire Wire Line
+	6350 1300 7050 1300
+Connection ~ 6350 1300
+Connection ~ 7050 1300
+Wire Wire Line
+	6350 1850 6350 1950
+Wire Wire Line
+	6350 1950 7050 1950
+Connection ~ 6350 1950
+Connection ~ 7050 1950
+Wire Wire Line
+	6350 2600 7050 2600
+Connection ~ 6350 2600
+Connection ~ 7050 2600
+Wire Wire Line
+	6350 3250 7050 3250
+Connection ~ 6350 3250
+Connection ~ 7050 3250
 $EndSCHEMATC
