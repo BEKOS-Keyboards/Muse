@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 (module millmax-mxalps (layer F.Cu) (tedit 5FECD772)
-=======
-(module millmax-mxalps (layer F.Cu) (tedit 5FECD45F)
->>>>>>> 04b2118bd9e7e96d7664ceac9996c62592ae228b
   (descr "MXALPS for Mill-Max socket")
   (tags "MXALPS for Mill-Max socket")
   (fp_text reference Ref** (at 3.81 5.08 180) (layer F.SilkS)
