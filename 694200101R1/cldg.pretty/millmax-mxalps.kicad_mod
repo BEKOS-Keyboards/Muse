@@ -1,4 +1,4 @@
-(module millmax-mxalps (layer F.Cu) (tedit 5FECE761)
+(module millmax-mxalps (layer F.Cu) (tedit 5FECEBFB)
   (descr "MXALPS for Mill-Max socket")
   (tags "MXALPS for Mill-Max socket")
   (fp_text reference Ref** (at 3.81 5.08 180) (layer F.SilkS)
@@ -32,5 +32,15 @@
     (offset (xyz -0.28 -0.3 5.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 -90))
+  )
+  (model ${KIPRJMOD}/../3rd-party-footprints/MillMax/mill-max-0305-2-15-80-47-XX-10-0.step
+    (offset (xyz 3.8 -2.55 0.65))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 -90 0))
+  )
+  (model ${KIPRJMOD}/../3rd-party-footprints/MillMax/mill-max-0305-2-15-80-47-XX-10-0.step
+    (offset (xyz -2.55 -5.1 0.65))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 -90 0))
   )
 )
