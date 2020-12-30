@@ -60,9 +60,9 @@ Wire Wire Line
 Entry Wire Line
 	3050 7100 3150 7200
 Wire Wire Line
-	14550 6400 14500 6400
+	10250 6900 10250 6950
 Wire Wire Line
-	14200 6400 14300 6400
+	10250 7250 10250 7150
 Wire Wire Line
 	4000 8850 3950 8850
 Wire Wire Line
@@ -75,162 +75,141 @@ Wire Wire Line
 	3950 8750 3950 8850
 Connection ~ 3950 8850
 Connection ~ 3950 8950
-Text Notes 14600 6450 0    50   ~ 0
+Text Notes 10300 6850 1    50   ~ 0
 LED_DRIVER_A\nP37/38
 Wire Wire Line
-	14550 6400 14550 7000
-Connection ~ 14550 6400
+	10250 6900 10850 6900
+Connection ~ 10250 6900
 Wire Wire Line
-	14200 6400 14200 7000
+	10250 7250 10850 7250
 Wire Wire Line
-	14200 7000 14250 7000
+	10850 7250 10850 7200
 Wire Wire Line
-	14550 7000 14550 7450
-Connection ~ 14550 7000
-Connection ~ 14550 7450
+	10850 6900 11300 6900
+Connection ~ 10850 6900
+Connection ~ 11300 6900
 Wire Wire Line
-	14550 7450 14550 7650
+	11300 6900 11500 6900
 Wire Wire Line
-	14200 7650 14200 7450
-Connection ~ 14200 7000
+	11500 7250 11300 7250
+Connection ~ 10850 7250
 Wire Wire Line
-	14250 7450 14200 7450
-Connection ~ 14200 7450
+	11300 7200 11300 7250
+Connection ~ 11300 7250
 Wire Wire Line
-	14200 7450 14200 7000
+	11300 7250 10850 7250
 Wire Wire Line
-	14550 6200 14550 6250
+	13100 6900 13100 6800
 Wire Wire Line
-	14550 6250 14900 6250
+	11500 7250 11500 7150
 Wire Wire Line
-	14900 6250 14900 6150
-Connection ~ 14550 6250
+	11500 6950 11500 6900
 Wire Wire Line
-	14550 6250 14550 6400
+	10050 7200 10050 7250
+Connection ~ 10250 7250
 Wire Wire Line
-	14200 7650 14300 7650
+	10050 7250 10250 7250
+Connection ~ 11500 7250
 Wire Wire Line
-	14500 7650 14550 7650
+	12100 7250 12100 7200
 Wire Wire Line
-	14250 6200 14200 6200
-Connection ~ 14200 6400
+	11500 7250 12100 7250
+Connection ~ 11500 6900
 Wire Wire Line
-	14200 6200 14200 6400
-Connection ~ 14200 7650
+	12300 6900 12300 6950
 Wire Wire Line
-	14200 8250 14250 8250
+	12100 7250 12300 7250
 Wire Wire Line
-	14200 7650 14200 8250
-Connection ~ 14550 7650
-Wire Wire Line
-	14550 8450 14500 8450
-Wire Wire Line
-	14200 8250 14200 8450
-Wire Wire Line
-	14200 8450 14300 8450
-Connection ~ 14200 8250
-Text Notes 14600 7050 0    50   ~ 0
+	12300 7250 12300 7150
+Connection ~ 12100 7250
+Text Notes 10900 6850 1    50   ~ 0
 LED_DRIVER_A\nP39
-Text Notes 14600 7600 0    50   ~ 0
+Text Notes 11450 6850 1    50   ~ 0
 LED_DRIVER_A\nP20
-Text Notes 14600 8400 0    50   ~ 0
+Text Notes 12250 6850 1    50   ~ 0
 LED_DRIVER_A\nP20
 Wire Wire Line
-	15600 6400 15550 6400
+	15900 7250 15900 7200
 Wire Wire Line
-	15250 6400 15350 6400
-Text Notes 15650 6450 0    50   ~ 0
+	15900 6900 15900 7000
+Text Notes 16050 6850 1    50   ~ 0
 LED_DRIVER_B\nP37/38
-Connection ~ 15600 6400
+Connection ~ 15900 7250
 Wire Wire Line
-	15250 6400 15250 7000
+	15900 6900 15300 6900
 Wire Wire Line
-	15250 7000 15300 7000
+	15300 6900 15300 6950
 Wire Wire Line
-	15250 7650 15250 7450
-Connection ~ 15250 7000
+	14650 6900 14850 6900
+Connection ~ 15300 6900
 Wire Wire Line
-	15300 7450 15250 7450
-Connection ~ 15250 7450
+	14850 6950 14850 6900
+Connection ~ 14850 6900
 Wire Wire Line
-	15250 7450 15250 7000
+	14850 6900 15300 6900
 Wire Wire Line
-	15250 7650 15350 7650
+	14650 6900 14650 7000
 Wire Wire Line
-	15550 7650 15600 7650
+	14650 7200 14650 7250
 Wire Wire Line
-	15300 6200 15250 6200
-Connection ~ 15250 6400
+	16100 6950 16100 6900
+Connection ~ 15900 6900
+Connection ~ 14650 6900
 Wire Wire Line
-	15250 6200 15250 6250
-Connection ~ 15250 7650
+	14050 6900 14050 6950
 Wire Wire Line
-	15250 8250 15300 8250
+	14650 6900 14050 6900
+Connection ~ 14650 7250
 Wire Wire Line
-	15250 7650 15250 8250
-Connection ~ 15600 7650
+	13850 7250 13850 7200
 Wire Wire Line
-	15600 8450 15550 8450
+	14050 6900 13850 6900
 Wire Wire Line
-	15250 8250 15250 8450
-Wire Wire Line
-	15250 8450 15350 8450
-Connection ~ 15250 8250
-Text Notes 15650 7050 0    50   ~ 0
+	13850 6900 13850 7000
+Connection ~ 14050 6900
+Text Notes 15400 6850 1    50   ~ 0
 LED_DRIVER_B\nP39
-Text Notes 15650 7600 0    50   ~ 0
+Text Notes 14850 6850 1    50   ~ 0
 LED_DRIVER_B\nP20
-Text Notes 15650 8400 0    50   ~ 0
+Text Notes 14000 6850 1    50   ~ 0
 LED_DRIVER_B\nP20
 Wire Wire Line
-	15600 6200 15600 6400
+	16100 7250 15900 7250
 Wire Wire Line
-	15600 6400 15600 7000
-Connection ~ 15600 7000
+	15900 7250 15300 7250
+Connection ~ 15300 7250
 Wire Wire Line
-	15600 7000 15600 7450
-Connection ~ 15600 7450
+	15300 7250 14850 7250
+Connection ~ 14850 7250
 Wire Wire Line
-	15600 7450 15600 7650
-Connection ~ 15600 8250
+	14850 7250 14650 7250
+Connection ~ 14050 7250
 Wire Wire Line
-	15600 8250 15600 8450
+	14050 7250 13850 7250
 Wire Wire Line
-	15600 7650 15600 8250
+	14650 7250 14050 7250
 Wire Wire Line
-	14550 7650 14550 8250
-Connection ~ 14550 8250
+	11500 6900 12100 6900
+Connection ~ 12100 6900
 Wire Wire Line
-	14550 8250 14550 8450
+	12100 6900 12300 6900
 Wire Wire Line
-	14900 6250 15250 6250
-Connection ~ 14900 6250
-Connection ~ 15250 6250
+	12300 7250 12750 7250
 Wire Wire Line
-	15250 6250 15250 6400
+	12750 7250 12750 7200
+Connection ~ 12300 7250
 Wire Wire Line
-	14200 8450 14200 8900
+	12300 6900 12750 6900
+Connection ~ 12300 6900
 Wire Wire Line
-	14200 8900 14250 8900
-Connection ~ 14200 8450
+	13850 6900 13400 6900
+Connection ~ 13850 6900
 Wire Wire Line
-	14550 8450 14550 8900
-Connection ~ 14550 8450
+	13400 7200 13400 7250
 Wire Wire Line
-	15250 8450 15250 8900
-Connection ~ 15250 8450
-Wire Wire Line
-	15550 8900 15600 8900
-Wire Wire Line
-	15600 8900 15600 8450
-Connection ~ 15600 8450
-Wire Wire Line
-	14200 8900 14200 8950
-Connection ~ 14200 8900
-Wire Wire Line
-	15600 8900 15600 8950
-Connection ~ 15600 8900
-Text Notes 14600 9000 0    50   ~ 0
+	13400 7250 13850 7250
+Connection ~ 13850 7250
+Text Notes 12850 6850 1    50   ~ 0
 LED_DRIVER_A\nPWR_FILTER
 Wire Wire Line
 	4000 8050 3400 8050
@@ -317,7 +296,7 @@ Text GLabel 5850 7950 2    50   Input ~ 0
 SW2_A
 Text GLabel 5850 8050 2    50   Input ~ 0
 SW3_A
-Text Notes 15650 9000 0    50   ~ 0
+Text Notes 13500 6850 1    50   ~ 0
 LED_DRIVER_B\nPWR_FILTER
 Text GLabel 5850 8250 2    50   Input ~ 0
 SW4_A
@@ -1822,10 +1801,10 @@ F 31 "-40°C" H 1450 10900 50  0001 L CNN "temperature range low"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0112
+L power:+3V3 #PWR01
 U 1 1 63D43A95
 P 1500 7600
-F 0 "#PWR0112" H 1500 7450 50  0001 C CNN
+F 0 "#PWR01" H 1500 7450 50  0001 C CNN
 F 1 "+3V3" H 1515 7773 50  0000 C CNN
 F 2 "" H 1500 7600 50  0001 C CNN
 F 3 "" H 1500 7600 50  0001 C CNN
@@ -1833,10 +1812,10 @@ F 3 "" H 1500 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0113
+L power:GND #PWR02
 U 1 1 63D489E9
 P 2550 8500
-F 0 "#PWR0113" H 2550 8250 50  0001 C CNN
+F 0 "#PWR02" H 2550 8250 50  0001 C CNN
 F 1 "GND" H 2555 8327 50  0000 C CNN
 F 2 "" H 2550 8500 50  0001 C CNN
 F 3 "" H 2550 8500 50  0001 C CNN
@@ -1855,99 +1834,88 @@ F 3 "" H 5800 7750 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0114
+L power:+3V3 #PWR013
 U 1 1 63D70980
-P 14900 6150
-F 0 "#PWR0114" H 14900 6000 50  0001 C CNN
-F 1 "+3V3" H 14915 6323 50  0000 C CNN
-F 2 "" H 14900 6150 50  0001 C CNN
-F 3 "" H 14900 6150 50  0001 C CNN
-	1    14900 6150
+P 13100 6800
+F 0 "#PWR013" H 13100 6650 50  0001 C CNN
+F 1 "+3V3" H 13115 6973 50  0000 C CNN
+F 2 "" H 13100 6800 50  0001 C CNN
+F 3 "" H 13100 6800 50  0001 C CNN
+	1    13100 6800
 	1    0    0    -1  
 $EndComp
 $Comp
-L capacitor-lib:CL10B474KA8NFNC C9
+L capacitor-lib:CL10B474KA8NFNC C8
 U 1 1 63D72369
-P 14450 6200
-F 0 "C9" H 14500 5960 50  0000 C CNN
-F 1 "CL10B474KA8NFNC" V 14545 6303 50  0001 L BNN
-F 2 "capacitor-lib:CAPC1608X90N" H 14450 6200 50  0001 L BNN
-F 3 "" H 14450 6200 50  0001 L BNN
-F 4 "https://pricing.snapeda.com/search/part/CL10B474KA8NFNC/?ref=eda" H 14450 6200 50  0001 L BNN "Purchase-URL"
-F 5 "0603 Samsung" H 14450 6200 50  0001 L BNN "Package"
-F 6 "CL10B474KA8NFNC" H 14450 6200 50  0001 L BNN "MP"
-F 7 "1276-2082-1-ND" H 14450 6200 50  0001 L BNN "Digi-Key_Part_Number"
-F 8 "Samsung Electro-Mechanics" H 14450 6200 50  0001 L BNN "MF"
-F 9 "0.47µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" H 14450 6200 50  0001 L BNN "Description"
-F 10 "0.47µF" H 14500 6051 50  0000 C CNN "capacitance"
-	1    14450 6200
-	-1   0    0    1   
-$EndComp
-$Comp
-L capacitor-lib:CL10B104KB8NNNL C13
-U 1 1 63D764B5
-P 14500 6400
-F 0 "C13" V 14673 6300 50  0000 C CNN
-F 1 "CL10B104KB8NNNL" H 14628 6300 50  0001 L CNN
-F 2 "capacitor-lib:Samsung-CL10-09_2006-0-IPC_C" H 14500 6700 50  0001 L CNN
-F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 14500 6800 50  0001 L CNN
-F 4 "No" H 14500 6900 50  0001 L CNN "automotive"
-F 5 "100nF" V 14764 6300 50  0000 C CNN "capacitance"
-F 6 "Cap" H 14500 7100 50  0001 L CNN "category"
-F 7 "Passive Components" H 14500 7200 50  0001 L CNN "device class L1"
-F 8 "Capacitors" H 14500 7300 50  0001 L CNN "device class L2"
-F 9 "Ceramic Capacitors" H 14500 7400 50  0001 L CNN "device class L3"
-F 10 "0.9mm" H 14500 7700 50  0001 L CNN "height"
-F 11 "CAPC16080X80" H 14500 7800 50  0001 L CNN "ipc land pattern name"
-F 12 "Yes" H 14500 7900 50  0001 L CNN "lead free"
-F 13 "d416e2ef1cbb0413" H 14500 8000 50  0001 L CNN "library id"
-F 14 "Samsung" H 14500 8100 50  0001 L CNN "manufacturer"
-F 15 "Ceramic" H 14500 8200 50  0001 L CNN "material"
-F 16 "0603" H 14500 8300 50  0001 L CNN "package"
-F 17 "Yes" H 14500 8400 50  0001 L CNN "rohs"
-F 18 "X7R" H 14500 8500 50  0001 L CNN "temperature characteristic"
-F 19 "0.15" H 14500 8600 50  0001 L CNN "temperature coefficient"
-F 20 "+125°C" H 14500 8700 50  0001 L CNN "temperature range high"
-F 21 "-55°C" H 14500 8800 50  0001 L CNN "temperature range low"
-F 22 "10%" H 14500 8900 50  0001 L CNN "tolerance"
-F 23 "50V" H 14500 9000 50  0001 L CNN "voltage rating"
-	1    14500 6400
+P 10050 7000
+F 0 "C8" H 10100 6760 50  0000 C CNN
+F 1 "CL10B474KA8NFNC" V 10145 7103 50  0001 L BNN
+F 2 "capacitor-lib:CAPC1608X90N" H 10050 7000 50  0001 L BNN
+F 3 "" H 10050 7000 50  0001 L BNN
+F 4 "https://pricing.snapeda.com/search/part/CL10B474KA8NFNC/?ref=eda" H 10050 7000 50  0001 L BNN "Purchase-URL"
+F 5 "0603 Samsung" H 10050 7000 50  0001 L BNN "Package"
+F 6 "CL10B474KA8NFNC" H 10050 7000 50  0001 L BNN "MP"
+F 7 "1276-2082-1-ND" H 10050 7000 50  0001 L BNN "Digi-Key_Part_Number"
+F 8 "Samsung Electro-Mechanics" H 10050 7000 50  0001 L BNN "MF"
+F 9 "0.47µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" H 10050 7000 50  0001 L BNN "Description"
+F 10 "0.47µF" H 10100 6851 50  0000 C CNN "capacitance"
+	1    10050 7000
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0115
-U 1 1 63D793EB
-P 14200 8950
-F 0 "#PWR0115" H 14200 8700 50  0001 C CNN
-F 1 "GND" H 14205 8777 50  0000 C CNN
-F 2 "" H 14200 8950 50  0001 C CNN
-F 3 "" H 14200 8950 50  0001 C CNN
-	1    14200 8950
+L capacitor-lib:CL10B104KB8NNNL C9
+U 1 1 63D764B5
+P 10250 6950
+F 0 "C9" V 10423 6850 50  0000 C CNN
+F 1 "CL10B104KB8NNNL" H 10378 6850 50  0001 L CNN
+F 2 "capacitor-lib:Samsung-CL10-09_2006-0-IPC_C" H 10250 7250 50  0001 L CNN
+F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 10250 7350 50  0001 L CNN
+F 4 "No" H 10250 7450 50  0001 L CNN "automotive"
+F 5 "100nF" V 10514 6850 50  0000 C CNN "capacitance"
+F 6 "Cap" H 10250 7650 50  0001 L CNN "category"
+F 7 "Passive Components" H 10250 7750 50  0001 L CNN "device class L1"
+F 8 "Capacitors" H 10250 7850 50  0001 L CNN "device class L2"
+F 9 "Ceramic Capacitors" H 10250 7950 50  0001 L CNN "device class L3"
+F 10 "0.9mm" H 10250 8250 50  0001 L CNN "height"
+F 11 "CAPC16080X80" H 10250 8350 50  0001 L CNN "ipc land pattern name"
+F 12 "Yes" H 10250 8450 50  0001 L CNN "lead free"
+F 13 "d416e2ef1cbb0413" H 10250 8550 50  0001 L CNN "library id"
+F 14 "Samsung" H 10250 8650 50  0001 L CNN "manufacturer"
+F 15 "Ceramic" H 10250 8750 50  0001 L CNN "material"
+F 16 "0603" H 10250 8850 50  0001 L CNN "package"
+F 17 "Yes" H 10250 8950 50  0001 L CNN "rohs"
+F 18 "X7R" H 10250 9050 50  0001 L CNN "temperature characteristic"
+F 19 "0.15" H 10250 9150 50  0001 L CNN "temperature coefficient"
+F 20 "+125°C" H 10250 9250 50  0001 L CNN "temperature range high"
+F 21 "-55°C" H 10250 9350 50  0001 L CNN "temperature range low"
+F 22 "10%" H 10250 9450 50  0001 L CNN "tolerance"
+F 23 "50V" H 10250 9550 50  0001 L CNN "voltage rating"
+	1    10250 6950
 	1    0    0    -1  
 $EndComp
 $Comp
 L capacitor-lib:CL10B474KA8NFNC C10
 U 1 1 63D81B26
-P 14450 7000
-F 0 "C10" H 14500 6760 50  0000 C CNN
-F 1 "CL10B474KA8NFNC" V 14545 7103 50  0001 L BNN
-F 2 "capacitor-lib:CAPC1608X90N" H 14450 7000 50  0001 L BNN
-F 3 "" H 14450 7000 50  0001 L BNN
-F 4 "https://pricing.snapeda.com/search/part/CL10B474KA8NFNC/?ref=eda" H 14450 7000 50  0001 L BNN "Purchase-URL"
-F 5 "0603 Samsung" H 14450 7000 50  0001 L BNN "Package"
-F 6 "CL10B474KA8NFNC" H 14450 7000 50  0001 L BNN "MP"
-F 7 "1276-2082-1-ND" H 14450 7000 50  0001 L BNN "Digi-Key_Part_Number"
-F 8 "Samsung Electro-Mechanics" H 14450 7000 50  0001 L BNN "MF"
-F 9 "0.47µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" H 14450 7000 50  0001 L BNN "Description"
-F 10 "0.47µF" H 14500 6851 50  0000 C CNN "capacitance"
-	1    14450 7000
-	-1   0    0    1   
+P 10850 7000
+F 0 "C10" H 10900 6760 50  0000 C CNN
+F 1 "CL10B474KA8NFNC" V 10945 7103 50  0001 L BNN
+F 2 "capacitor-lib:CAPC1608X90N" H 10850 7000 50  0001 L BNN
+F 3 "" H 10850 7000 50  0001 L BNN
+F 4 "https://pricing.snapeda.com/search/part/CL10B474KA8NFNC/?ref=eda" H 10850 7000 50  0001 L BNN "Purchase-URL"
+F 5 "0603 Samsung" H 10850 7000 50  0001 L BNN "Package"
+F 6 "CL10B474KA8NFNC" H 10850 7000 50  0001 L BNN "MP"
+F 7 "1276-2082-1-ND" H 10850 7000 50  0001 L BNN "Digi-Key_Part_Number"
+F 8 "Samsung Electro-Mechanics" H 10850 7000 50  0001 L BNN "MF"
+F 9 "0.47µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" H 10850 7000 50  0001 L BNN "Description"
+F 10 "0.47µF" H 10900 6851 50  0000 C CNN "capacitance"
+	1    10850 7000
+	0    1    1    0   
 $EndComp
 $Comp
-L power:+3V3 #PWR0116
+L power:+3V3 #PWR04
 U 1 1 63D94BE2
 P 3600 8900
-F 0 "#PWR0116" H 3600 8750 50  0001 C CNN
+F 0 "#PWR04" H 3600 8750 50  0001 C CNN
 F 1 "+3V3" H 3615 9073 50  0000 C CNN
 F 2 "" H 3600 8900 50  0001 C CNN
 F 3 "" H 3600 8900 50  0001 C CNN
@@ -1957,300 +1925,289 @@ $EndComp
 $Comp
 L capacitor-lib:CL10B474KA8NFNC C11
 U 1 1 63D9DE47
-P 14450 7450
-F 0 "C11" H 14500 7210 50  0000 C CNN
-F 1 "CL10B474KA8NFNC" H 14450 7250 50  0001 L BNN
-F 2 "capacitor-lib:CAPC1608X90N" H 14450 7450 50  0001 L BNN
-F 3 "" H 14450 7450 50  0001 L BNN
-F 4 "https://pricing.snapeda.com/search/part/CL10B474KA8NFNC/?ref=eda" H 14450 7450 50  0001 L BNN "Purchase-URL"
-F 5 "0603 Samsung" H 14450 7450 50  0001 L BNN "Package"
-F 6 "CL10B474KA8NFNC" H 14450 7450 50  0001 L BNN "MP"
-F 7 "1276-2082-1-ND" H 14450 7450 50  0001 L BNN "Digi-Key_Part_Number"
-F 8 "Samsung Electro-Mechanics" H 14450 7450 50  0001 L BNN "MF"
-F 9 "0.47µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" H 14450 7450 50  0001 L BNN "Description"
-F 10 "0.47µF" H 14500 7301 50  0000 C CNN "capacitance"
-	1    14450 7450
-	-1   0    0    1   
+P 11300 7000
+F 0 "C11" H 11350 6760 50  0000 C CNN
+F 1 "CL10B474KA8NFNC" H 11300 6800 50  0001 L BNN
+F 2 "capacitor-lib:CAPC1608X90N" H 11300 7000 50  0001 L BNN
+F 3 "" H 11300 7000 50  0001 L BNN
+F 4 "https://pricing.snapeda.com/search/part/CL10B474KA8NFNC/?ref=eda" H 11300 7000 50  0001 L BNN "Purchase-URL"
+F 5 "0603 Samsung" H 11300 7000 50  0001 L BNN "Package"
+F 6 "CL10B474KA8NFNC" H 11300 7000 50  0001 L BNN "MP"
+F 7 "1276-2082-1-ND" H 11300 7000 50  0001 L BNN "Digi-Key_Part_Number"
+F 8 "Samsung Electro-Mechanics" H 11300 7000 50  0001 L BNN "MF"
+F 9 "0.47µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" H 11300 7000 50  0001 L BNN "Description"
+F 10 "0.47µF" H 11350 6851 50  0000 C CNN "capacitance"
+	1    11300 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L capacitor-lib:CL10B104KB8NNNL C12
+U 1 1 63D9F36F
+P 11500 6950
+F 0 "C12" V 11673 6850 50  0000 C CNN
+F 1 "CL10B104KB8NNNL" H 11500 7150 50  0001 L CNN
+F 2 "capacitor-lib:Samsung-CL10-09_2006-0-IPC_C" H 11500 7250 50  0001 L CNN
+F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 11500 7350 50  0001 L CNN
+F 4 "No" H 11500 7450 50  0001 L CNN "automotive"
+F 5 "100nF" V 11764 6850 50  0000 C CNN "capacitance"
+F 6 "Cap" H 11500 7650 50  0001 L CNN "category"
+F 7 "Passive Components" H 11500 7750 50  0001 L CNN "device class L1"
+F 8 "Capacitors" H 11500 7850 50  0001 L CNN "device class L2"
+F 9 "Ceramic Capacitors" H 11500 7950 50  0001 L CNN "device class L3"
+F 10 "0.9mm" H 11500 8250 50  0001 L CNN "height"
+F 11 "CAPC16080X80" H 11500 8350 50  0001 L CNN "ipc land pattern name"
+F 12 "Yes" H 11500 8450 50  0001 L CNN "lead free"
+F 13 "d416e2ef1cbb0413" H 11500 8550 50  0001 L CNN "library id"
+F 14 "Samsung" H 11500 8650 50  0001 L CNN "manufacturer"
+F 15 "Ceramic" H 11500 8750 50  0001 L CNN "material"
+F 16 "0603" H 11500 8850 50  0001 L CNN "package"
+F 17 "Yes" H 11500 8950 50  0001 L CNN "rohs"
+F 18 "X7R" H 11500 9050 50  0001 L CNN "temperature characteristic"
+F 19 "0.15" H 11500 9150 50  0001 L CNN "temperature coefficient"
+F 20 "+125°C" H 11500 9250 50  0001 L CNN "temperature range high"
+F 21 "-55°C" H 11500 9350 50  0001 L CNN "temperature range low"
+F 22 "10%" H 11500 9450 50  0001 L CNN "tolerance"
+F 23 "50V" H 11500 9550 50  0001 L CNN "voltage rating"
+	1    11500 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L capacitor-lib:CL10B474KA8NFNC C13
+U 1 1 63DE9808
+P 12100 7000
+F 0 "C13" H 12150 7240 50  0000 C CNN
+F 1 "CL10B474KA8NFNC" H 12100 6800 50  0001 L BNN
+F 2 "capacitor-lib:CAPC1608X90N" H 12100 7000 50  0001 L BNN
+F 3 "" H 12100 7000 50  0001 L BNN
+F 4 "https://pricing.snapeda.com/search/part/CL10B474KA8NFNC/?ref=eda" H 12100 7000 50  0001 L BNN "Purchase-URL"
+F 5 "0603 Samsung" H 12100 7000 50  0001 L BNN "Package"
+F 6 "CL10B474KA8NFNC" H 12100 7000 50  0001 L BNN "MP"
+F 7 "1276-2082-1-ND" H 12100 7000 50  0001 L BNN "Digi-Key_Part_Number"
+F 8 "Samsung Electro-Mechanics" H 12100 7000 50  0001 L BNN "MF"
+F 9 "0.47µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" H 12100 7000 50  0001 L BNN "Description"
+F 10 "0.47µF" H 12150 7149 50  0000 C CNN "capacitance"
+	1    12100 7000
+	0    -1   1    0   
 $EndComp
 $Comp
 L capacitor-lib:CL10B104KB8NNNL C14
-U 1 1 63D9F36F
-P 14500 7650
-F 0 "C14" V 14673 7550 50  0000 C CNN
-F 1 "CL10B104KB8NNNL" H 14500 7850 50  0001 L CNN
-F 2 "capacitor-lib:Samsung-CL10-09_2006-0-IPC_C" H 14500 7950 50  0001 L CNN
-F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 14500 8050 50  0001 L CNN
-F 4 "No" H 14500 8150 50  0001 L CNN "automotive"
-F 5 "100nF" V 14764 7550 50  0000 C CNN "capacitance"
-F 6 "Cap" H 14500 8350 50  0001 L CNN "category"
-F 7 "Passive Components" H 14500 8450 50  0001 L CNN "device class L1"
-F 8 "Capacitors" H 14500 8550 50  0001 L CNN "device class L2"
-F 9 "Ceramic Capacitors" H 14500 8650 50  0001 L CNN "device class L3"
-F 10 "0.9mm" H 14500 8950 50  0001 L CNN "height"
-F 11 "CAPC16080X80" H 14500 9050 50  0001 L CNN "ipc land pattern name"
-F 12 "Yes" H 14500 9150 50  0001 L CNN "lead free"
-F 13 "d416e2ef1cbb0413" H 14500 9250 50  0001 L CNN "library id"
-F 14 "Samsung" H 14500 9350 50  0001 L CNN "manufacturer"
-F 15 "Ceramic" H 14500 9450 50  0001 L CNN "material"
-F 16 "0603" H 14500 9550 50  0001 L CNN "package"
-F 17 "Yes" H 14500 9650 50  0001 L CNN "rohs"
-F 18 "X7R" H 14500 9750 50  0001 L CNN "temperature characteristic"
-F 19 "0.15" H 14500 9850 50  0001 L CNN "temperature coefficient"
-F 20 "+125°C" H 14500 9950 50  0001 L CNN "temperature range high"
-F 21 "-55°C" H 14500 10050 50  0001 L CNN "temperature range low"
-F 22 "10%" H 14500 10150 50  0001 L CNN "tolerance"
-F 23 "50V" H 14500 10250 50  0001 L CNN "voltage rating"
-	1    14500 7650
-	0    1    1    0   
+U 1 1 63DECC4B
+P 12300 6950
+F 0 "C14" V 12473 6850 50  0000 C CNN
+F 1 "CL10B104KB8NNNL" H 12300 7150 50  0001 L CNN
+F 2 "capacitor-lib:Samsung-CL10-09_2006-0-IPC_C" H 12300 7250 50  0001 L CNN
+F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 12300 7350 50  0001 L CNN
+F 4 "No" H 12300 7450 50  0001 L CNN "automotive"
+F 5 "100nF" V 12564 6850 50  0000 L CNN "capacitance"
+F 6 "Cap" H 12300 7650 50  0001 L CNN "category"
+F 7 "Passive Components" H 12300 7750 50  0001 L CNN "device class L1"
+F 8 "Capacitors" H 12300 7850 50  0001 L CNN "device class L2"
+F 9 "Ceramic Capacitors" H 12300 7950 50  0001 L CNN "device class L3"
+F 10 "0.9mm" H 12300 8250 50  0001 L CNN "height"
+F 11 "CAPC16080X80" H 12300 8350 50  0001 L CNN "ipc land pattern name"
+F 12 "Yes" H 12300 8450 50  0001 L CNN "lead free"
+F 13 "d416e2ef1cbb0413" H 12300 8550 50  0001 L CNN "library id"
+F 14 "Samsung" H 12300 8650 50  0001 L CNN "manufacturer"
+F 15 "Ceramic" H 12300 8750 50  0001 L CNN "material"
+F 16 "0603" H 12300 8850 50  0001 L CNN "package"
+F 17 "Yes" H 12300 8950 50  0001 L CNN "rohs"
+F 18 "X7R" H 12300 9050 50  0001 L CNN "temperature characteristic"
+F 19 "0.15" H 12300 9150 50  0001 L CNN "temperature coefficient"
+F 20 "+125°C" H 12300 9250 50  0001 L CNN "temperature range high"
+F 21 "-55°C" H 12300 9350 50  0001 L CNN "temperature range low"
+F 22 "10%" H 12300 9450 50  0001 L CNN "tolerance"
+F 23 "50V" H 12300 9550 50  0001 L CNN "voltage rating"
+	1    12300 6950
+	1    0    0    -1  
 $EndComp
 $Comp
-L capacitor-lib:CL10B474KA8NFNC C12
-U 1 1 63DE9808
-P 14450 8250
-F 0 "C12" H 14500 8490 50  0000 C CNN
-F 1 "CL10B474KA8NFNC" H 14450 8050 50  0001 L BNN
-F 2 "capacitor-lib:CAPC1608X90N" H 14450 8250 50  0001 L BNN
-F 3 "" H 14450 8250 50  0001 L BNN
-F 4 "https://pricing.snapeda.com/search/part/CL10B474KA8NFNC/?ref=eda" H 14450 8250 50  0001 L BNN "Purchase-URL"
-F 5 "0603 Samsung" H 14450 8250 50  0001 L BNN "Package"
-F 6 "CL10B474KA8NFNC" H 14450 8250 50  0001 L BNN "MP"
-F 7 "1276-2082-1-ND" H 14450 8250 50  0001 L BNN "Digi-Key_Part_Number"
-F 8 "Samsung Electro-Mechanics" H 14450 8250 50  0001 L BNN "MF"
-F 9 "0.47µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" H 14450 8250 50  0001 L BNN "Description"
-F 10 "0.47µF" H 14500 8399 50  0000 C CNN "capacitance"
-	1    14450 8250
+L capacitor-lib:CL10B474KA8NFNC C23
+U 1 1 63E293F3
+P 16100 7050
+F 0 "C23" H 16150 6810 50  0000 C CNN
+F 1 "CL10B474KA8NFNC" V 16195 7153 50  0001 L BNN
+F 2 "capacitor-lib:CAPC1608X90N" H 16100 7050 50  0001 L BNN
+F 3 "" H 16100 7050 50  0001 L BNN
+F 4 "https://pricing.snapeda.com/search/part/CL10B474KA8NFNC/?ref=eda" H 16100 7050 50  0001 L BNN "Purchase-URL"
+F 5 "0603 Samsung" H 16100 7050 50  0001 L BNN "Package"
+F 6 "CL10B474KA8NFNC" H 16100 7050 50  0001 L BNN "MP"
+F 7 "1276-2082-1-ND" H 16100 7050 50  0001 L BNN "Digi-Key_Part_Number"
+F 8 "Samsung Electro-Mechanics" H 16100 7050 50  0001 L BNN "MF"
+F 9 "0.47µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" H 16100 7050 50  0001 L BNN "Description"
+F 10 "0.47µF" H 16150 6901 50  0000 C CNN "capacitance"
+	1    16100 7050
+	0    -1   1    0   
+$EndComp
+$Comp
+L capacitor-lib:CL10B104KB8NNNL C22
+U 1 1 63E2940D
+P 15900 7000
+F 0 "C22" V 16073 6900 50  0000 C CNN
+F 1 "CL10B104KB8NNNL" H 16028 6900 50  0001 L CNN
+F 2 "capacitor-lib:Samsung-CL10-09_2006-0-IPC_C" H 15900 7300 50  0001 L CNN
+F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 15900 7400 50  0001 L CNN
+F 4 "No" H 15900 7500 50  0001 L CNN "automotive"
+F 5 "100nF" V 16164 6900 50  0000 C CNN "capacitance"
+F 6 "Cap" H 15900 7700 50  0001 L CNN "category"
+F 7 "Passive Components" H 15900 7800 50  0001 L CNN "device class L1"
+F 8 "Capacitors" H 15900 7900 50  0001 L CNN "device class L2"
+F 9 "Ceramic Capacitors" H 15900 8000 50  0001 L CNN "device class L3"
+F 10 "0.9mm" H 15900 8300 50  0001 L CNN "height"
+F 11 "CAPC16080X80" H 15900 8400 50  0001 L CNN "ipc land pattern name"
+F 12 "Yes" H 15900 8500 50  0001 L CNN "lead free"
+F 13 "d416e2ef1cbb0413" H 15900 8600 50  0001 L CNN "library id"
+F 14 "Samsung" H 15900 8700 50  0001 L CNN "manufacturer"
+F 15 "Ceramic" H 15900 8800 50  0001 L CNN "material"
+F 16 "0603" H 15900 8900 50  0001 L CNN "package"
+F 17 "Yes" H 15900 9000 50  0001 L CNN "rohs"
+F 18 "X7R" H 15900 9100 50  0001 L CNN "temperature characteristic"
+F 19 "0.15" H 15900 9200 50  0001 L CNN "temperature coefficient"
+F 20 "+125°C" H 15900 9300 50  0001 L CNN "temperature range high"
+F 21 "-55°C" H 15900 9400 50  0001 L CNN "temperature range low"
+F 22 "10%" H 15900 9500 50  0001 L CNN "tolerance"
+F 23 "50V" H 15900 9600 50  0001 L CNN "voltage rating"
+	1    15900 7000
 	-1   0    0    -1  
 $EndComp
 $Comp
-L capacitor-lib:CL10B104KB8NNNL C15
-U 1 1 63DECC4B
-P 14500 8450
-F 0 "C15" V 14673 8350 50  0000 C CNN
-F 1 "CL10B104KB8NNNL" H 14500 8650 50  0001 L CNN
-F 2 "capacitor-lib:Samsung-CL10-09_2006-0-IPC_C" H 14500 8750 50  0001 L CNN
-F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 14500 8850 50  0001 L CNN
-F 4 "No" H 14500 8950 50  0001 L CNN "automotive"
-F 5 "100nF" V 14764 8350 50  0000 L CNN "capacitance"
-F 6 "Cap" H 14500 9150 50  0001 L CNN "category"
-F 7 "Passive Components" H 14500 9250 50  0001 L CNN "device class L1"
-F 8 "Capacitors" H 14500 9350 50  0001 L CNN "device class L2"
-F 9 "Ceramic Capacitors" H 14500 9450 50  0001 L CNN "device class L3"
-F 10 "0.9mm" H 14500 9750 50  0001 L CNN "height"
-F 11 "CAPC16080X80" H 14500 9850 50  0001 L CNN "ipc land pattern name"
-F 12 "Yes" H 14500 9950 50  0001 L CNN "lead free"
-F 13 "d416e2ef1cbb0413" H 14500 10050 50  0001 L CNN "library id"
-F 14 "Samsung" H 14500 10150 50  0001 L CNN "manufacturer"
-F 15 "Ceramic" H 14500 10250 50  0001 L CNN "material"
-F 16 "0603" H 14500 10350 50  0001 L CNN "package"
-F 17 "Yes" H 14500 10450 50  0001 L CNN "rohs"
-F 18 "X7R" H 14500 10550 50  0001 L CNN "temperature characteristic"
-F 19 "0.15" H 14500 10650 50  0001 L CNN "temperature coefficient"
-F 20 "+125°C" H 14500 10750 50  0001 L CNN "temperature range high"
-F 21 "-55°C" H 14500 10850 50  0001 L CNN "temperature range low"
-F 22 "10%" H 14500 10950 50  0001 L CNN "tolerance"
-F 23 "50V" H 14500 11050 50  0001 L CNN "voltage rating"
-	1    14500 8450
-	0    1    1    0   
-$EndComp
-$Comp
-L capacitor-lib:CL10B474KA8NFNC C19
-U 1 1 63E293F3
-P 15400 6200
-F 0 "C19" H 15450 5960 50  0000 C CNN
-F 1 "CL10B474KA8NFNC" V 15495 6303 50  0001 L BNN
-F 2 "capacitor-lib:CAPC1608X90N" H 15400 6200 50  0001 L BNN
-F 3 "" H 15400 6200 50  0001 L BNN
-F 4 "https://pricing.snapeda.com/search/part/CL10B474KA8NFNC/?ref=eda" H 15400 6200 50  0001 L BNN "Purchase-URL"
-F 5 "0603 Samsung" H 15400 6200 50  0001 L BNN "Package"
-F 6 "CL10B474KA8NFNC" H 15400 6200 50  0001 L BNN "MP"
-F 7 "1276-2082-1-ND" H 15400 6200 50  0001 L BNN "Digi-Key_Part_Number"
-F 8 "Samsung Electro-Mechanics" H 15400 6200 50  0001 L BNN "MF"
-F 9 "0.47µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" H 15400 6200 50  0001 L BNN "Description"
-F 10 "0.47µF" H 15450 6051 50  0000 C CNN "capacitance"
-	1    15400 6200
-	1    0    0    1   
-$EndComp
-$Comp
-L capacitor-lib:CL10B104KB8NNNL C16
-U 1 1 63E2940D
-P 15350 6400
-F 0 "C16" V 15523 6300 50  0000 C CNN
-F 1 "CL10B104KB8NNNL" H 15478 6300 50  0001 L CNN
-F 2 "capacitor-lib:Samsung-CL10-09_2006-0-IPC_C" H 15350 6700 50  0001 L CNN
-F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 15350 6800 50  0001 L CNN
-F 4 "No" H 15350 6900 50  0001 L CNN "automotive"
-F 5 "100nF" V 15614 6300 50  0000 C CNN "capacitance"
-F 6 "Cap" H 15350 7100 50  0001 L CNN "category"
-F 7 "Passive Components" H 15350 7200 50  0001 L CNN "device class L1"
-F 8 "Capacitors" H 15350 7300 50  0001 L CNN "device class L2"
-F 9 "Ceramic Capacitors" H 15350 7400 50  0001 L CNN "device class L3"
-F 10 "0.9mm" H 15350 7700 50  0001 L CNN "height"
-F 11 "CAPC16080X80" H 15350 7800 50  0001 L CNN "ipc land pattern name"
-F 12 "Yes" H 15350 7900 50  0001 L CNN "lead free"
-F 13 "d416e2ef1cbb0413" H 15350 8000 50  0001 L CNN "library id"
-F 14 "Samsung" H 15350 8100 50  0001 L CNN "manufacturer"
-F 15 "Ceramic" H 15350 8200 50  0001 L CNN "material"
-F 16 "0603" H 15350 8300 50  0001 L CNN "package"
-F 17 "Yes" H 15350 8400 50  0001 L CNN "rohs"
-F 18 "X7R" H 15350 8500 50  0001 L CNN "temperature characteristic"
-F 19 "0.15" H 15350 8600 50  0001 L CNN "temperature coefficient"
-F 20 "+125°C" H 15350 8700 50  0001 L CNN "temperature range high"
-F 21 "-55°C" H 15350 8800 50  0001 L CNN "temperature range low"
-F 22 "10%" H 15350 8900 50  0001 L CNN "tolerance"
-F 23 "50V" H 15350 9000 50  0001 L CNN "voltage rating"
-	1    15350 6400
+L capacitor-lib:CL10B474KA8NFNC C21
+U 1 1 63E2941C
+P 15300 7050
+F 0 "C21" H 15350 6810 50  0000 C CNN
+F 1 "CL10B474KA8NFNC" V 15395 7153 50  0001 L BNN
+F 2 "capacitor-lib:CAPC1608X90N" H 15300 7050 50  0001 L BNN
+F 3 "" H 15300 7050 50  0001 L BNN
+F 4 "https://pricing.snapeda.com/search/part/CL10B474KA8NFNC/?ref=eda" H 15300 7050 50  0001 L BNN "Purchase-URL"
+F 5 "0603 Samsung" H 15300 7050 50  0001 L BNN "Package"
+F 6 "CL10B474KA8NFNC" H 15300 7050 50  0001 L BNN "MP"
+F 7 "1276-2082-1-ND" H 15300 7050 50  0001 L BNN "Digi-Key_Part_Number"
+F 8 "Samsung Electro-Mechanics" H 15300 7050 50  0001 L BNN "MF"
+F 9 "0.47µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" H 15300 7050 50  0001 L BNN "Description"
+F 10 "0.47µF" H 15350 6901 50  0000 C CNN "capacitance"
+	1    15300 7050
 	0    -1   1    0   
 $EndComp
 $Comp
 L capacitor-lib:CL10B474KA8NFNC C20
-U 1 1 63E2941C
-P 15400 7000
-F 0 "C20" H 15450 6760 50  0000 C CNN
-F 1 "CL10B474KA8NFNC" V 15495 7103 50  0001 L BNN
-F 2 "capacitor-lib:CAPC1608X90N" H 15400 7000 50  0001 L BNN
-F 3 "" H 15400 7000 50  0001 L BNN
-F 4 "https://pricing.snapeda.com/search/part/CL10B474KA8NFNC/?ref=eda" H 15400 7000 50  0001 L BNN "Purchase-URL"
-F 5 "0603 Samsung" H 15400 7000 50  0001 L BNN "Package"
-F 6 "CL10B474KA8NFNC" H 15400 7000 50  0001 L BNN "MP"
-F 7 "1276-2082-1-ND" H 15400 7000 50  0001 L BNN "Digi-Key_Part_Number"
-F 8 "Samsung Electro-Mechanics" H 15400 7000 50  0001 L BNN "MF"
-F 9 "0.47µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" H 15400 7000 50  0001 L BNN "Description"
-F 10 "0.47µF" H 15450 6851 50  0000 C CNN "capacitance"
-	1    15400 7000
-	1    0    0    1   
-$EndComp
-$Comp
-L capacitor-lib:CL10B474KA8NFNC C21
 U 1 1 63E2942E
-P 15400 7450
-F 0 "C21" H 15450 7210 50  0000 C CNN
-F 1 "CL10B474KA8NFNC" H 15400 7250 50  0001 L BNN
-F 2 "capacitor-lib:CAPC1608X90N" H 15400 7450 50  0001 L BNN
-F 3 "" H 15400 7450 50  0001 L BNN
-F 4 "https://pricing.snapeda.com/search/part/CL10B474KA8NFNC/?ref=eda" H 15400 7450 50  0001 L BNN "Purchase-URL"
-F 5 "0603 Samsung" H 15400 7450 50  0001 L BNN "Package"
-F 6 "CL10B474KA8NFNC" H 15400 7450 50  0001 L BNN "MP"
-F 7 "1276-2082-1-ND" H 15400 7450 50  0001 L BNN "Digi-Key_Part_Number"
-F 8 "Samsung Electro-Mechanics" H 15400 7450 50  0001 L BNN "MF"
-F 9 "0.47µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" H 15400 7450 50  0001 L BNN "Description"
-F 10 "0.47µF" H 15450 7301 50  0000 C CNN "capacitance"
-	1    15400 7450
-	1    0    0    1   
+P 14850 7050
+F 0 "C20" H 14900 6810 50  0000 C CNN
+F 1 "CL10B474KA8NFNC" H 14850 6850 50  0001 L BNN
+F 2 "capacitor-lib:CAPC1608X90N" H 14850 7050 50  0001 L BNN
+F 3 "" H 14850 7050 50  0001 L BNN
+F 4 "https://pricing.snapeda.com/search/part/CL10B474KA8NFNC/?ref=eda" H 14850 7050 50  0001 L BNN "Purchase-URL"
+F 5 "0603 Samsung" H 14850 7050 50  0001 L BNN "Package"
+F 6 "CL10B474KA8NFNC" H 14850 7050 50  0001 L BNN "MP"
+F 7 "1276-2082-1-ND" H 14850 7050 50  0001 L BNN "Digi-Key_Part_Number"
+F 8 "Samsung Electro-Mechanics" H 14850 7050 50  0001 L BNN "MF"
+F 9 "0.47µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" H 14850 7050 50  0001 L BNN "Description"
+F 10 "0.47µF" H 14900 6901 50  0000 C CNN "capacitance"
+	1    14850 7050
+	0    -1   1    0   
 $EndComp
 $Comp
-L capacitor-lib:CL10B104KB8NNNL C17
+L capacitor-lib:CL10B104KB8NNNL C19
 U 1 1 63E29448
-P 15350 7650
-F 0 "C17" V 15523 7550 50  0000 C CNN
-F 1 "CL10B104KB8NNNL" H 15350 7850 50  0001 L CNN
-F 2 "capacitor-lib:Samsung-CL10-09_2006-0-IPC_C" H 15350 7950 50  0001 L CNN
-F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 15350 8050 50  0001 L CNN
-F 4 "No" H 15350 8150 50  0001 L CNN "automotive"
-F 5 "100nF" V 15614 7550 50  0000 C CNN "capacitance"
-F 6 "Cap" H 15350 8350 50  0001 L CNN "category"
-F 7 "Passive Components" H 15350 8450 50  0001 L CNN "device class L1"
-F 8 "Capacitors" H 15350 8550 50  0001 L CNN "device class L2"
-F 9 "Ceramic Capacitors" H 15350 8650 50  0001 L CNN "device class L3"
-F 10 "0.9mm" H 15350 8950 50  0001 L CNN "height"
-F 11 "CAPC16080X80" H 15350 9050 50  0001 L CNN "ipc land pattern name"
-F 12 "Yes" H 15350 9150 50  0001 L CNN "lead free"
-F 13 "d416e2ef1cbb0413" H 15350 9250 50  0001 L CNN "library id"
-F 14 "Samsung" H 15350 9350 50  0001 L CNN "manufacturer"
-F 15 "Ceramic" H 15350 9450 50  0001 L CNN "material"
-F 16 "0603" H 15350 9550 50  0001 L CNN "package"
-F 17 "Yes" H 15350 9650 50  0001 L CNN "rohs"
-F 18 "X7R" H 15350 9750 50  0001 L CNN "temperature characteristic"
-F 19 "0.15" H 15350 9850 50  0001 L CNN "temperature coefficient"
-F 20 "+125°C" H 15350 9950 50  0001 L CNN "temperature range high"
-F 21 "-55°C" H 15350 10050 50  0001 L CNN "temperature range low"
-F 22 "10%" H 15350 10150 50  0001 L CNN "tolerance"
-F 23 "50V" H 15350 10250 50  0001 L CNN "voltage rating"
-	1    15350 7650
-	0    -1   1    0   
-$EndComp
-$Comp
-L capacitor-lib:CL10B104KB8NNNL C18
-U 1 1 63E29486
-P 15350 8450
-F 0 "C18" V 15523 8350 50  0000 C CNN
-F 1 "CL10B104KB8NNNL" H 15350 8650 50  0001 L CNN
-F 2 "capacitor-lib:Samsung-CL10-09_2006-0-IPC_C" H 15350 8750 50  0001 L CNN
-F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 15350 8850 50  0001 L CNN
-F 4 "No" H 15350 8950 50  0001 L CNN "automotive"
-F 5 "100nF" V 15614 8350 50  0000 C CNN "capacitance"
-F 6 "Cap" H 15350 9150 50  0001 L CNN "category"
-F 7 "Passive Components" H 15350 9250 50  0001 L CNN "device class L1"
-F 8 "Capacitors" H 15350 9350 50  0001 L CNN "device class L2"
-F 9 "Ceramic Capacitors" H 15350 9450 50  0001 L CNN "device class L3"
-F 10 "0.9mm" H 15350 9750 50  0001 L CNN "height"
-F 11 "CAPC16080X80" H 15350 9850 50  0001 L CNN "ipc land pattern name"
-F 12 "Yes" H 15350 9950 50  0001 L CNN "lead free"
-F 13 "d416e2ef1cbb0413" H 15350 10050 50  0001 L CNN "library id"
-F 14 "Samsung" H 15350 10150 50  0001 L CNN "manufacturer"
-F 15 "Ceramic" H 15350 10250 50  0001 L CNN "material"
-F 16 "0603" H 15350 10350 50  0001 L CNN "package"
-F 17 "Yes" H 15350 10450 50  0001 L CNN "rohs"
-F 18 "X7R" H 15350 10550 50  0001 L CNN "temperature characteristic"
-F 19 "0.15" H 15350 10650 50  0001 L CNN "temperature coefficient"
-F 20 "+125°C" H 15350 10750 50  0001 L CNN "temperature range high"
-F 21 "-55°C" H 15350 10850 50  0001 L CNN "temperature range low"
-F 22 "10%" H 15350 10950 50  0001 L CNN "tolerance"
-F 23 "50V" H 15350 11050 50  0001 L CNN "voltage rating"
-	1    15350 8450
-	0    -1   1    0   
-$EndComp
-$Comp
-L capacitor-lib:CL10B474KA8NFNC C22
-U 1 1 63E29468
-P 15400 8250
-F 0 "C22" H 15450 8490 50  0000 C CNN
-F 1 "CL10B474KA8NFNC" H 15400 8050 50  0001 L BNN
-F 2 "capacitor-lib:CAPC1608X90N" H 15400 8250 50  0001 L BNN
-F 3 "" H 15400 8250 50  0001 L BNN
-F 4 "https://pricing.snapeda.com/search/part/CL10B474KA8NFNC/?ref=eda" H 15400 8250 50  0001 L BNN "Purchase-URL"
-F 5 "0603 Samsung" H 15400 8250 50  0001 L BNN "Package"
-F 6 "CL10B474KA8NFNC" H 15400 8250 50  0001 L BNN "MP"
-F 7 "1276-2082-1-ND" H 15400 8250 50  0001 L BNN "Digi-Key_Part_Number"
-F 8 "Samsung Electro-Mechanics" H 15400 8250 50  0001 L BNN "MF"
-F 9 "0.47µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" H 15400 8250 50  0001 L BNN "Description"
-F 10 "0.47µF" H 15450 8399 50  0000 C CNN "capacitance"
-	1    15400 8250
-	1    0    0    -1  
-$EndComp
-$Comp
-L capacitor-lib:TAJB226K016RNJ C8
-U 1 1 63E8E5AC
-P 14350 8900
-F 0 "C8" H 14400 8752 50  0000 C CNN
-F 1 "TAJB226K016RNJ" H 14350 8700 50  0001 L BNN
-F 2 "capacitor-lib:CAPPC3528X210N" H 14350 8900 50  0001 L BNN
-F 3 "" H 14350 8900 50  0001 L BNN
-F 4 "22µF" H 14400 8661 50  0000 C CNN "capacitance"
-	1    14350 8900
-	1    0    0    -1  
-$EndComp
-$Comp
-L capacitor-lib:TAJB226K016RNJ C23
-U 1 1 63E9B64D
-P 15450 8900
-F 0 "C23" H 15500 8752 50  0000 C CNN
-F 1 "TAJB226K016RNJ" H 15450 8700 50  0001 L BNN
-F 2 "capacitor-lib:CAPPC3528X210N" H 15450 8900 50  0001 L BNN
-F 3 "" H 15450 8900 50  0001 L BNN
-F 4 "22µF" H 15500 8661 50  0000 C CNN "capacitance"
-	1    15450 8900
+P 14650 7000
+F 0 "C19" V 14823 6900 50  0000 C CNN
+F 1 "CL10B104KB8NNNL" H 14650 7200 50  0001 L CNN
+F 2 "capacitor-lib:Samsung-CL10-09_2006-0-IPC_C" H 14650 7300 50  0001 L CNN
+F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 14650 7400 50  0001 L CNN
+F 4 "No" H 14650 7500 50  0001 L CNN "automotive"
+F 5 "100nF" V 14914 6900 50  0000 C CNN "capacitance"
+F 6 "Cap" H 14650 7700 50  0001 L CNN "category"
+F 7 "Passive Components" H 14650 7800 50  0001 L CNN "device class L1"
+F 8 "Capacitors" H 14650 7900 50  0001 L CNN "device class L2"
+F 9 "Ceramic Capacitors" H 14650 8000 50  0001 L CNN "device class L3"
+F 10 "0.9mm" H 14650 8300 50  0001 L CNN "height"
+F 11 "CAPC16080X80" H 14650 8400 50  0001 L CNN "ipc land pattern name"
+F 12 "Yes" H 14650 8500 50  0001 L CNN "lead free"
+F 13 "d416e2ef1cbb0413" H 14650 8600 50  0001 L CNN "library id"
+F 14 "Samsung" H 14650 8700 50  0001 L CNN "manufacturer"
+F 15 "Ceramic" H 14650 8800 50  0001 L CNN "material"
+F 16 "0603" H 14650 8900 50  0001 L CNN "package"
+F 17 "Yes" H 14650 9000 50  0001 L CNN "rohs"
+F 18 "X7R" H 14650 9100 50  0001 L CNN "temperature characteristic"
+F 19 "0.15" H 14650 9200 50  0001 L CNN "temperature coefficient"
+F 20 "+125°C" H 14650 9300 50  0001 L CNN "temperature range high"
+F 21 "-55°C" H 14650 9400 50  0001 L CNN "temperature range low"
+F 22 "10%" H 14650 9500 50  0001 L CNN "tolerance"
+F 23 "50V" H 14650 9600 50  0001 L CNN "voltage rating"
+	1    14650 7000
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0117
-U 1 1 63EA58DD
-P 15600 8950
-F 0 "#PWR0117" H 15600 8700 50  0001 C CNN
-F 1 "GND" H 15605 8777 50  0000 C CNN
-F 2 "" H 15600 8950 50  0001 C CNN
-F 3 "" H 15600 8950 50  0001 C CNN
-	1    15600 8950
-	1    0    0    -1  
+L capacitor-lib:CL10B104KB8NNNL C17
+U 1 1 63E29486
+P 13850 7000
+F 0 "C17" V 14023 6900 50  0000 C CNN
+F 1 "CL10B104KB8NNNL" H 13850 7200 50  0001 L CNN
+F 2 "capacitor-lib:Samsung-CL10-09_2006-0-IPC_C" H 13850 7300 50  0001 L CNN
+F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 13850 7400 50  0001 L CNN
+F 4 "No" H 13850 7500 50  0001 L CNN "automotive"
+F 5 "100nF" V 14114 6900 50  0000 C CNN "capacitance"
+F 6 "Cap" H 13850 7700 50  0001 L CNN "category"
+F 7 "Passive Components" H 13850 7800 50  0001 L CNN "device class L1"
+F 8 "Capacitors" H 13850 7900 50  0001 L CNN "device class L2"
+F 9 "Ceramic Capacitors" H 13850 8000 50  0001 L CNN "device class L3"
+F 10 "0.9mm" H 13850 8300 50  0001 L CNN "height"
+F 11 "CAPC16080X80" H 13850 8400 50  0001 L CNN "ipc land pattern name"
+F 12 "Yes" H 13850 8500 50  0001 L CNN "lead free"
+F 13 "d416e2ef1cbb0413" H 13850 8600 50  0001 L CNN "library id"
+F 14 "Samsung" H 13850 8700 50  0001 L CNN "manufacturer"
+F 15 "Ceramic" H 13850 8800 50  0001 L CNN "material"
+F 16 "0603" H 13850 8900 50  0001 L CNN "package"
+F 17 "Yes" H 13850 9000 50  0001 L CNN "rohs"
+F 18 "X7R" H 13850 9100 50  0001 L CNN "temperature characteristic"
+F 19 "0.15" H 13850 9200 50  0001 L CNN "temperature coefficient"
+F 20 "+125°C" H 13850 9300 50  0001 L CNN "temperature range high"
+F 21 "-55°C" H 13850 9400 50  0001 L CNN "temperature range low"
+F 22 "10%" H 13850 9500 50  0001 L CNN "tolerance"
+F 23 "50V" H 13850 9600 50  0001 L CNN "voltage rating"
+	1    13850 7000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L capacitor-lib:CL10B474KA8NFNC C18
+U 1 1 63E29468
+P 14050 7050
+F 0 "C18" H 14100 7290 50  0000 C CNN
+F 1 "CL10B474KA8NFNC" H 14050 6850 50  0001 L BNN
+F 2 "capacitor-lib:CAPC1608X90N" H 14050 7050 50  0001 L BNN
+F 3 "" H 14050 7050 50  0001 L BNN
+F 4 "https://pricing.snapeda.com/search/part/CL10B474KA8NFNC/?ref=eda" H 14050 7050 50  0001 L BNN "Purchase-URL"
+F 5 "0603 Samsung" H 14050 7050 50  0001 L BNN "Package"
+F 6 "CL10B474KA8NFNC" H 14050 7050 50  0001 L BNN "MP"
+F 7 "1276-2082-1-ND" H 14050 7050 50  0001 L BNN "Digi-Key_Part_Number"
+F 8 "Samsung Electro-Mechanics" H 14050 7050 50  0001 L BNN "MF"
+F 9 "0.47µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" H 14050 7050 50  0001 L BNN "Description"
+F 10 "0.47µF" H 14100 7199 50  0000 C CNN "capacitance"
+	1    14050 7050
+	0    1    1    0   
+$EndComp
+$Comp
+L capacitor-lib:TAJB226K016RNJ C15
+U 1 1 63E8E5AC
+P 12750 7100
+F 0 "C15" H 12800 6952 50  0000 C CNN
+F 1 "TAJB226K016RNJ" H 12750 6900 50  0001 L BNN
+F 2 "capacitor-lib:CAPPC3528X210N" H 12750 7100 50  0001 L BNN
+F 3 "" H 12750 7100 50  0001 L BNN
+F 4 "22µF" H 12800 6861 50  0000 C CNN "capacitance"
+	1    12750 7100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L capacitor-lib:TAJB226K016RNJ C16
+U 1 1 63E9B64D
+P 13400 7100
+F 0 "C16" H 13450 6952 50  0000 C CNN
+F 1 "TAJB226K016RNJ" H 13400 6900 50  0001 L BNN
+F 2 "capacitor-lib:CAPPC3528X210N" H 13400 7100 50  0001 L BNN
+F 3 "" H 13400 7100 50  0001 L BNN
+F 4 "22µF" H 13450 6861 50  0000 C CNN "capacitance"
+	1    13400 7100
+	0    1    -1   0   
 $EndComp
 $Comp
 L Resistor-Lib:RMCF0603FT100K R10
@@ -2277,10 +2234,10 @@ F 4 "100k" V 2645 9546 50  0000 R CNN "resistance"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0118
+L power:GND #PWR03
 U 1 1 63EC1EB0
 P 3000 10150
-F 0 "#PWR0118" H 3000 9900 50  0001 C CNN
+F 0 "#PWR03" H 3000 9900 50  0001 C CNN
 F 1 "GND" H 3005 9977 50  0000 C CNN
 F 2 "" H 3000 10150 50  0001 C CNN
 F 3 "" H 3000 10150 50  0001 C CNN
@@ -2300,10 +2257,10 @@ F 4 "20k" V 3245 9755 50  0000 L CNN "resistance"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0119
+L power:GND #PWR05
 U 1 1 63EFD874
 P 3750 8250
-F 0 "#PWR0119" H 3750 8000 50  0001 C CNN
+F 0 "#PWR05" H 3750 8000 50  0001 C CNN
 F 1 "GND" H 3755 8077 50  0000 C CNN
 F 2 "" H 3750 8250 50  0001 C CNN
 F 3 "" H 3750 8250 50  0001 C CNN
@@ -2322,10 +2279,10 @@ F 3 "" H 9900 7750 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0120
+L power:+3V3 #PWR09
 U 1 1 6409AB1B
 P 7700 8900
-F 0 "#PWR0120" H 7700 8750 50  0001 C CNN
+F 0 "#PWR09" H 7700 8750 50  0001 C CNN
 F 1 "+3V3" H 7715 9073 50  0000 C CNN
 F 2 "" H 7700 8900 50  0001 C CNN
 F 3 "" H 7700 8900 50  0001 C CNN
@@ -2357,10 +2314,10 @@ F 4 "100k" V 6745 9546 50  0000 R CNN "resistance"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0121
+L power:GND #PWR08
 U 1 1 6409AB40
 P 7100 10150
-F 0 "#PWR0121" H 7100 9900 50  0001 C CNN
+F 0 "#PWR08" H 7100 9900 50  0001 C CNN
 F 1 "GND" H 7105 9977 50  0000 C CNN
 F 2 "" H 7100 10150 50  0001 C CNN
 F 3 "" H 7100 10150 50  0001 C CNN
@@ -2380,10 +2337,10 @@ F 4 "20k" V 7345 9755 50  0000 L CNN "resistance"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0122
+L power:GND #PWR010
 U 1 1 6409AB59
 P 7850 8250
-F 0 "#PWR0122" H 7850 8000 50  0001 C CNN
+F 0 "#PWR010" H 7850 8000 50  0001 C CNN
 F 1 "GND" H 7855 8077 50  0000 C CNN
 F 2 "" H 7850 8250 50  0001 C CNN
 F 3 "" H 7850 8250 50  0001 C CNN
@@ -2391,10 +2348,10 @@ F 3 "" H 7850 8250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0123
+L power:+3V3 #PWR011
 U 1 1 6409AB74
 P 10350 9600
-F 0 "#PWR0123" H 10350 9450 50  0001 C CNN
+F 0 "#PWR011" H 10350 9450 50  0001 C CNN
 F 1 "+3V3" H 10365 9773 50  0000 C CNN
 F 2 "" H 10350 9600 50  0001 C CNN
 F 3 "" H 10350 9600 50  0001 C CNN
@@ -2402,10 +2359,10 @@ F 3 "" H 10350 9600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0124
+L power:GND #PWR012
 U 1 1 6409AB6A
 P 10400 8900
-F 0 "#PWR0124" H 10400 8650 50  0001 C CNN
+F 0 "#PWR012" H 10400 8650 50  0001 C CNN
 F 1 "GND" H 10405 8727 50  0000 C CNN
 F 2 "" H 10400 8900 50  0001 C CNN
 F 3 "" H 10400 8900 50  0001 C CNN
@@ -2413,10 +2370,10 @@ F 3 "" H 10400 8900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0125
+L power:+3V3 #PWR06
 U 1 1 63F20B48
 P 6250 9600
-F 0 "#PWR0125" H 6250 9450 50  0001 C CNN
+F 0 "#PWR06" H 6250 9450 50  0001 C CNN
 F 1 "+3V3" H 6265 9773 50  0000 C CNN
 F 2 "" H 6250 9600 50  0001 C CNN
 F 3 "" H 6250 9600 50  0001 C CNN
@@ -2424,10 +2381,10 @@ F 3 "" H 6250 9600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0126
+L power:GND #PWR07
 U 1 1 63F0DD67
 P 6300 8900
-F 0 "#PWR0126" H 6300 8650 50  0001 C CNN
+F 0 "#PWR07" H 6300 8650 50  0001 C CNN
 F 1 "GND" H 6305 8727 50  0000 C CNN
 F 2 "" H 6300 8900 50  0001 C CNN
 F 3 "" H 6300 8900 50  0001 C CNN
@@ -4017,7 +3974,7 @@ F 7 "0.5mm" H 10950 1400 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
 	-1   0    0    1   
 $EndComp
 Text GLabel 11250 850  1    50   Input ~ 0
-CS14_A
+CS15_A
 Wire Wire Line
 	11250 5000 11250 5400
 Connection ~ 11250 5000
@@ -4170,7 +4127,7 @@ F 7 "0.5mm" H 11600 1400 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
 	-1   0    0    1   
 $EndComp
 Text GLabel 11900 850  1    50   Input ~ 0
-CS14_A
+CS16_A
 Wire Wire Line
 	11900 5000 11900 5400
 Connection ~ 11900 5000
@@ -4367,9 +4324,35 @@ Wire Wire Line
 $Sheet
 S 13600 2300 2000 1150
 U 60057171
-F0 "694200101R1_sheet_2" 50
-F1 "694200101R1_sheet_2.sch" 50
+F0 "694210101R1_sheet_3" 50
+F1 "694210101R1_sheet_3.sch" 50
 $EndSheet
+Wire Wire Line
+	10050 6900 10250 6900
+Wire Wire Line
+	16100 6900 15900 6900
+Wire Wire Line
+	13100 6900 12750 6900
+Connection ~ 12750 6900
+Wire Wire Line
+	13400 6900 13100 6900
+Connection ~ 13400 6900
+Connection ~ 13100 6900
+Wire Wire Line
+	12750 7250 13400 7250
+Connection ~ 12750 7250
+Connection ~ 13400 7250
+$Comp
+L power:GND #PWR014
+U 1 1 61303423
+P 13100 7250
+F 0 "#PWR014" H 13100 7000 50  0001 C CNN
+F 1 "GND" H 13105 7077 50  0000 C CNN
+F 2 "" H 13100 7250 50  0001 C CNN
+F 3 "" H 13100 7250 50  0001 C CNN
+	1    13100 7250
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	1200 7250 7100 7250
 Wire Bus Line
