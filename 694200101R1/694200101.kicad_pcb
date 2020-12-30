@@ -671,7 +671,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FEE2AC9)
-    (at 297.300001 -41.694998)
+    (at 157.4 57.15)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /60021F3B)
@@ -1030,7 +1030,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FED9322)
-    (at 535.087 64.651)
+    (at 424.1 66.675)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /636ED4CB)
@@ -1210,7 +1210,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FED92CD)
-    (at 518.577 64.651)
+    (at 405.05 57.15)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /631D14A1)
@@ -1390,7 +1390,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FED9278)
-    (at 502.067 64.651)
+    (at 386 57.15)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /62DDE13E)
@@ -1606,7 +1606,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FED9212)
-    (at 485.557 64.651)
+    (at 366.95 57.15)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /62970D19)
@@ -1750,7 +1750,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FED91CE)
-    (at 891.389934 69.665)
+    (at 343.1375 57.15)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /62661C1A)
@@ -1930,7 +1930,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FED9179)
-    (at 874.589934 102.745)
+    (at 324.0875 57.15)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /62322921)
@@ -2074,7 +2074,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FED9135)
-    (at 790.589934 152.365)
+    (at 305.0375 57.15)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /62070753)
@@ -2218,7 +2218,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FED90F1)
-    (at 840.989934 86.205)
+    (at 276.4625 57.15)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /61D5AFAC)
@@ -2434,7 +2434,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FED908B)
-    (at 857.789934 53.125)
+    (at 252.65 57.15)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /619B4209)
@@ -2542,7 +2542,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FED9058)
-    (at 807.389934 135.825)
+    (at 233.6 57.15)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /613DE8C1)
@@ -2758,7 +2758,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FED8FF2)
-    (at 824.189934 69.665)
+    (at 214.55 57.15)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /61121AA2)
@@ -2974,7 +2974,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FED8F8C)
-    (at 855.989934 36.585)
+    (at 195.5 57.15)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /60E9BC78)
@@ -3154,7 +3154,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FED8F37)
-    (at 721.589934 36.585)
+    (at 176.45 57.15)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /60CC81B0)
@@ -3334,7 +3334,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FED8EE2)
-    (at 704.789934 36.585)
+    (at 138.35 57.15)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /60AFBAF7)
@@ -3550,7 +3550,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FED8E7C)
-    (at 706.589934 69.665)
+    (at 119.3 57.15)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /6093F643)
@@ -3694,7 +3694,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FED8E38)
-    (at 807.389934 53.125)
+    (at 100.25 57.15)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /6080F94D)
@@ -3874,7 +3874,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FED8DE3)
-    (at 723.389934 135.825)
+    (at 81.2 57.15)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /606F5072)
@@ -4090,7 +4090,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FED8D7D)
-    (at 672.989934 153.075)
+    (at 62.15 57.15)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /605CD694)
@@ -4270,7 +4270,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FED8D28)
-    (at 706.589934 102.745)
+    (at 43.1 57.15)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /604F1FEB)
@@ -4558,7 +4558,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FED8CA0)
-    (at 638 23.75)
+    (at 19.2875 57.15)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /6022EB0B)
