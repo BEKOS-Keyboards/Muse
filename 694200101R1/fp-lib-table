@@ -10,4 +10,5 @@
   (lib (name STM)(type KiCad)(uri ${KIPRJMOD}/../3rd-party-footprints/STM/694200101R1.pretty)(options "")(descr ""))
   (lib (name Lumissil)(type KiCad)(uri ${KIPRJMOD}/../3rd-party-footprints/Lumissil/Lumissil.pretty)(options "")(descr ""))
   (lib (name capacitor-lib)(type KiCad)(uri ${KIPRJMOD}/../3rd-party-footprints/capacitor-lib/capacitor-lib.pretty)(options "")(descr ""))
+  (lib (name keyboard_parts)(type KiCad)(uri C:/Users/doni/Documents/Keyboard-Stuff/SpongeBurger-Keyboard/3rd-party-footprints/colemarkham/keyboard_parts.pretty)(options "")(descr ""))
 )
