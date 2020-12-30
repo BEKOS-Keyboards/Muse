@@ -589,7 +589,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FEE2AEB)
-    (at 314.100001 -41.694998)
+    (at 160.75 -36)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /60021F77)
@@ -630,7 +630,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FEE2ADA)
-    (at 297.300001 -25.154998)
+    (at 162.1625 76.2)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /60021F59)
@@ -794,7 +794,7 @@
   )
 
   (module eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0 (layer F.Cu) (tedit 5FEBFE12) (tstamp 5FEE15B1)
-    (at 309.25 -26.3)
+    (at 165.25 -6.8)
     (path /60021F8A)
     (fp_text reference D44 (at -2.299999 -1.675) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
@@ -834,7 +834,7 @@
   )
 
   (module eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0 (layer F.Cu) (tedit 5FEBFE12) (tstamp 5FEE159B)
-    (at 315.65 -32)
+    (at 171.65 -12.5)
     (path /60021F6C)
     (fp_text reference D43 (at -2.299999 -1.675) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
@@ -874,7 +874,7 @@
   )
 
   (module eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0 (layer F.Cu) (tedit 5FEBFE12) (tstamp 5FEE1585)
-    (at 309.25 -29.15)
+    (at 165.25 -9.65)
     (path /60021F4E)
     (fp_text reference D42 (at -2.299999 -1.675) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
@@ -914,7 +914,7 @@
   )
 
   (module eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0 (layer F.Cu) (tedit 5FEBFE12) (tstamp 5FEE156F)
-    (at 326.05 -48.54)
+    (at 166.25 -16.75)
     (path /60021F30)
     (fp_text reference D41 (at -2.299999 -1.675) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
@@ -954,7 +954,7 @@
   )
 
   (module eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0 (layer F.Cu) (tedit 5FEBFE12) (tstamp 5FEE1559)
-    (at 309.25 -32)
+    (at 165.25 -12.5)
     (path /60021F13)
     (fp_text reference D40 (at -2.299999 -1.675) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
@@ -1174,7 +1174,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FED92DE)
-    (at 518.577 81.161)
+    (at 405.05 76.2)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /632A1C40)
@@ -1354,7 +1354,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FED9289)
-    (at 502.067 81.161)
+    (at 386 76.2)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /62EA2224)
@@ -1570,7 +1570,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FED9223)
-    (at 485.557 81.161)
+    (at 366.95 76.2)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /62A271D8)
@@ -2398,7 +2398,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FED909C)
-    (at 889.589934 36.585)
+    (at 269.31875 76.2)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /61A6B7DC)
@@ -2506,7 +2506,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FED9069)
-    (at 824.189934 86.205)
+    (at 238.3625 76.2)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /6145A4CC)
@@ -2722,7 +2722,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FED9003)
-    (at 840.989934 53.125)
+    (at 219.3125 76.2)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /6119094E)
@@ -2938,7 +2938,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FED8F9D)
-    (at 740.189934 152.365)
+    (at 200.2625 76.2)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /60EFDB84)
@@ -3118,7 +3118,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FED8F48)
-    (at 672.989934 103.455)
+    (at 181.2125 76.2)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /60D20A33)
@@ -3298,7 +3298,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FED8EF3)
-    (at 689.789934 53.125)
+    (at 143.1125 76.2)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /60B4AFF2)
@@ -3514,7 +3514,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FED8E8D)
-    (at 756.989934 119.285)
+    (at 124.0625 76.2)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /60984002)
@@ -3658,7 +3658,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FED8E49)
-    (at 839.189934 36.585)
+    (at 105.0125 76.2)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /6084CA15)
@@ -3838,7 +3838,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FED8DF4)
-    (at 740.189934 119.285)
+    (at 85.9625 76.2)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /60729810)
@@ -4054,7 +4054,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FED8D8E)
-    (at 723.389934 53.125)
+    (at 66.9125 76.2)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /605FA8F3)
@@ -4234,7 +4234,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FED8D39)
-    (at 689.789934 119.285)
+    (at 47.8625 76.2)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /60525B1C)
@@ -4522,7 +4522,7 @@
   )
 
   (module cldg:millmax-mxalps (layer F.Cu) (tedit 5FECD772) (tstamp 5FED8CB1)
-    (at 637.75 41.5)
+    (at 21.66875 76.2)
     (descr "MXALPS for Mill-Max socket")
     (tags "MXALPS for Mill-Max socket")
     (path /6027E09B)
