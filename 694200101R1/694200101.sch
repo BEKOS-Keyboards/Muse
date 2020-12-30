@@ -2608,12 +2608,12 @@ Wire Wire Line
 Wire Wire Line
 	13500 7900 13500 8150
 Wire Wire Line
-	13750 6000 13650 6000
+	13900 5950 13800 5950
 Wire Wire Line
-	13750 6100 13650 6100
-Text GLabel 13650 6000 0    50   Input ~ 0
+	13900 6050 13800 6050
+Text GLabel 13800 5950 0    50   Input ~ 0
 I2C_SCL
-Text GLabel 13650 6100 0    50   Input ~ 0
+Text GLabel 13800 6050 0    50   Input ~ 0
 I2C_SDA
 $Sheet
 S 13900 5450 900  800 
@@ -2852,10 +2852,10 @@ Connection ~ 4950 3900
 Wire Wire Line
 	2850 4550 4950 4550
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW40
 U 1 1 60021F00
 P 6600 900
-F 0 "SW?" H 6600 1185 50  0000 C CNN
+F 0 "SW40" H 6600 1185 50  0000 C CNN
 F 1 "MX_SW" H 6600 1094 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 6600 1100 50  0001 C CNN
 F 3 "~" H 6600 1100 50  0001 C CNN
@@ -2865,10 +2865,10 @@ $EndComp
 Wire Wire Line
 	6400 900  6350 900 
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D40
 U 1 1 60021F13
 P 6350 800
-F 0 "D?" V 6554 878 50  0000 L CNN
+F 0 "D40" V 6554 878 50  0000 L CNN
 F 1 "LL4148" V 6645 878 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 6350 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 6350 1300 50  0001 L CNN
@@ -2895,10 +2895,10 @@ COL_8
 Wire Wire Line
 	6350 1200 6350 1300
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW41
 U 1 1 60021F1D
 P 6600 1550
-F 0 "SW?" H 6600 1835 50  0000 C CNN
+F 0 "SW41" H 6600 1835 50  0000 C CNN
 F 1 "MX_SW" H 6600 1744 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 6600 1750 50  0001 C CNN
 F 3 "~" H 6600 1750 50  0001 C CNN
@@ -2906,10 +2906,10 @@ F 3 "~" H 6600 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW42
 U 1 1 60021F3B
 P 6600 2200
-F 0 "SW?" H 6600 2485 50  0000 C CNN
+F 0 "SW42" H 6600 2485 50  0000 C CNN
 F 1 "MX_SW" H 6600 2394 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 6600 2400 50  0001 C CNN
 F 3 "~" H 6600 2400 50  0001 C CNN
@@ -2921,10 +2921,10 @@ Wire Wire Line
 Wire Wire Line
 	6400 2200 6350 2200
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D42
 U 1 1 60021F4E
 P 6350 2100
-F 0 "D?" V 6554 2178 50  0000 L CNN
+F 0 "D42" V 6554 2178 50  0000 L CNN
 F 1 "LL4148" V 6645 2178 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 6350 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 6350 2600 50  0001 L CNN
@@ -2947,10 +2947,10 @@ $EndComp
 Wire Wire Line
 	6400 1550 6350 1550
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D41
 U 1 1 60021F30
 P 6350 1450
-F 0 "D?" V 6554 1528 50  0000 L CNN
+F 0 "D41" V 6554 1528 50  0000 L CNN
 F 1 "LL4148" V 6645 1528 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 6350 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 6350 1950 50  0001 L CNN
@@ -2971,10 +2971,10 @@ F 16 "" H 6350 3250 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW43
 U 1 1 60021F59
 P 6600 2850
-F 0 "SW?" H 6600 3135 50  0000 C CNN
+F 0 "SW43" H 6600 3135 50  0000 C CNN
 F 1 "MX_SW" H 6600 3044 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 6600 3050 50  0001 C CNN
 F 3 "~" H 6600 3050 50  0001 C CNN
@@ -2982,10 +2982,10 @@ F 3 "~" H 6600 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D43
 U 1 1 60021F6C
 P 6350 2750
-F 0 "D?" V 6554 2828 50  0000 L CNN
+F 0 "D43" V 6554 2828 50  0000 L CNN
 F 1 "LL4148" V 6645 2828 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 6350 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 6350 3250 50  0001 L CNN
@@ -3010,10 +3010,10 @@ Wire Wire Line
 Wire Wire Line
 	6350 3150 6350 3250
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW44
 U 1 1 60021F77
 P 6600 3500
-F 0 "SW?" H 6600 3785 50  0000 C CNN
+F 0 "SW44" H 6600 3785 50  0000 C CNN
 F 1 "MX_SW" H 6600 3694 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 6600 3700 50  0001 C CNN
 F 3 "~" H 6600 3700 50  0001 C CNN
@@ -3021,10 +3021,10 @@ F 3 "~" H 6600 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D44
 U 1 1 60021F8A
 P 6350 3400
-F 0 "D?" V 6554 3478 50  0000 L CNN
+F 0 "D44" V 6554 3478 50  0000 L CNN
 F 1 "LL4148" V 6645 3478 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 6350 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 6350 3900 50  0001 L CNN
@@ -3060,10 +3060,10 @@ Wire Wire Line
 Wire Wire Line
 	15650 3500 15600 3500
 $Comp
-L eec-fairchild:LL4148 D103
+L eec-fairchild:LL4148 D108
 U 1 1 637C9D8A
 P 15600 3400
-F 0 "D103" V 15804 3478 50  0000 L CNN
+F 0 "D108" V 15804 3478 50  0000 L CNN
 F 1 "LL4148" V 15895 3478 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 15600 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 15600 3900 50  0001 L CNN
@@ -3084,10 +3084,10 @@ F 16 "" H 15600 5200 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW102
+L cldg:MX_SW SW107
 U 1 1 637C9D77
 P 15850 3500
-F 0 "SW102" H 15850 3785 50  0000 C CNN
+F 0 "SW107" H 15850 3785 50  0000 C CNN
 F 1 "MX_SW" H 15850 3694 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 15850 3700 50  0001 C CNN
 F 3 "~" H 15850 3700 50  0001 C CNN
@@ -3105,10 +3105,10 @@ Wire Wire Line
 Wire Wire Line
 	15650 2200 15600 2200
 $Comp
-L eec-fairchild:LL4148 D102
+L eec-fairchild:LL4148 D107
 U 1 1 636ED4DE
 P 15600 2100
-F 0 "D102" V 15804 2178 50  0000 L CNN
+F 0 "D107" V 15804 2178 50  0000 L CNN
 F 1 "LL4148" V 15895 2178 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 15600 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 15600 2600 50  0001 L CNN
@@ -3129,10 +3129,10 @@ F 16 "" H 15600 3900 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW101
+L cldg:MX_SW SW106
 U 1 1 636ED4CB
 P 15850 2200
-F 0 "SW101" H 15850 2485 50  0000 C CNN
+F 0 "SW106" H 15850 2485 50  0000 C CNN
 F 1 "MX_SW" H 15850 2394 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 15850 2400 50  0001 C CNN
 F 3 "~" H 15850 2400 50  0001 C CNN
@@ -3151,10 +3151,10 @@ Wire Wire Line
 Wire Wire Line
 	15650 1550 15600 1550
 $Comp
-L eec-fairchild:LL4148 D101
+L eec-fairchild:LL4148 D106
 U 1 1 6352DF7B
 P 15600 1450
-F 0 "D101" V 15804 1528 50  0000 L CNN
+F 0 "D106" V 15804 1528 50  0000 L CNN
 F 1 "LL4148" V 15895 1528 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 15600 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 15600 1950 50  0001 L CNN
@@ -3175,10 +3175,10 @@ F 16 "" H 15600 3250 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW100
+L cldg:MX_SW SW105
 U 1 1 6352DF68
 P 15850 1550
-F 0 "SW100" H 15850 1835 50  0000 C CNN
+F 0 "SW105" H 15850 1835 50  0000 C CNN
 F 1 "MX_SW" H 15850 1744 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 15850 1750 50  0001 C CNN
 F 3 "~" H 15850 1750 50  0001 C CNN
@@ -3196,10 +3196,10 @@ Wire Wire Line
 Wire Wire Line
 	14900 4150 14850 4150
 $Comp
-L eec-fairchild:LL4148 D100
+L eec-fairchild:LL4148 D105
 U 1 1 6344CEC0
 P 14850 4050
-F 0 "D100" V 15054 4128 50  0000 L CNN
+F 0 "D105" V 15054 4128 50  0000 L CNN
 F 1 "LL4148" V 15145 4128 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 14850 4450 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14850 4550 50  0001 L CNN
@@ -3220,10 +3220,10 @@ F 16 "" H 14850 5850 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW99
+L cldg:MX_SW SW104
 U 1 1 6344CEAD
 P 15100 4150
-F 0 "SW99" H 15100 4435 50  0000 C CNN
+F 0 "SW104" H 15100 4435 50  0000 C CNN
 F 1 "MX_SW" H 15100 4344 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 15100 4350 50  0001 C CNN
 F 3 "~" H 15100 4350 50  0001 C CNN
@@ -3241,10 +3241,10 @@ Wire Wire Line
 Wire Wire Line
 	14900 3500 14850 3500
 $Comp
-L eec-fairchild:LL4148 D99
+L eec-fairchild:LL4148 D104
 U 1 1 63375708
 P 14850 3400
-F 0 "D99" V 15054 3478 50  0000 L CNN
+F 0 "D104" V 15054 3478 50  0000 L CNN
 F 1 "LL4148" V 15145 3478 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 14850 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14850 3900 50  0001 L CNN
@@ -3265,10 +3265,10 @@ F 16 "" H 14850 5200 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW98
+L cldg:MX_SW SW103
 U 1 1 633756F5
 P 15100 3500
-F 0 "SW98" H 15100 3785 50  0000 C CNN
+F 0 "SW103" H 15100 3785 50  0000 C CNN
 F 1 "MX_SW" H 15100 3694 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 15100 3700 50  0001 C CNN
 F 3 "~" H 15100 3700 50  0001 C CNN
@@ -3286,10 +3286,10 @@ Wire Wire Line
 Wire Wire Line
 	14900 2850 14850 2850
 $Comp
-L eec-fairchild:LL4148 D98
+L eec-fairchild:LL4148 D103
 U 1 1 632A1C53
 P 14850 2750
-F 0 "D98" V 15054 2828 50  0000 L CNN
+F 0 "D103" V 15054 2828 50  0000 L CNN
 F 1 "LL4148" V 15145 2828 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 14850 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14850 3250 50  0001 L CNN
@@ -3310,10 +3310,10 @@ F 16 "" H 14850 4550 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW97
+L cldg:MX_SW SW102
 U 1 1 632A1C40
 P 15100 2850
-F 0 "SW97" H 15100 3135 50  0000 C CNN
+F 0 "SW102" H 15100 3135 50  0000 C CNN
 F 1 "MX_SW" H 15100 3044 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 15100 3050 50  0001 C CNN
 F 3 "~" H 15100 3050 50  0001 C CNN
@@ -3331,10 +3331,10 @@ Wire Wire Line
 Wire Wire Line
 	14900 2200 14850 2200
 $Comp
-L eec-fairchild:LL4148 D97
+L eec-fairchild:LL4148 D102
 U 1 1 631D14B4
 P 14850 2100
-F 0 "D97" V 15054 2178 50  0000 L CNN
+F 0 "D102" V 15054 2178 50  0000 L CNN
 F 1 "LL4148" V 15145 2178 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 14850 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14850 2600 50  0001 L CNN
@@ -3355,10 +3355,10 @@ F 16 "" H 14850 3900 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW96
+L cldg:MX_SW SW101
 U 1 1 631D14A1
 P 15100 2200
-F 0 "SW96" H 15100 2485 50  0000 C CNN
+F 0 "SW101" H 15100 2485 50  0000 C CNN
 F 1 "MX_SW" H 15100 2394 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 15100 2400 50  0001 C CNN
 F 3 "~" H 15100 2400 50  0001 C CNN
@@ -3376,10 +3376,10 @@ Wire Wire Line
 Wire Wire Line
 	14900 1550 14850 1550
 $Comp
-L eec-fairchild:LL4148 D96
+L eec-fairchild:LL4148 D101
 U 1 1 63101A67
 P 14850 1450
-F 0 "D96" V 15054 1528 50  0000 L CNN
+F 0 "D101" V 15054 1528 50  0000 L CNN
 F 1 "LL4148" V 15145 1528 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 14850 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14850 1950 50  0001 L CNN
@@ -3400,10 +3400,10 @@ F 16 "" H 14850 3250 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW95
+L cldg:MX_SW SW100
 U 1 1 63101A54
 P 15100 1550
-F 0 "SW95" H 15100 1835 50  0000 C CNN
+F 0 "SW100" H 15100 1835 50  0000 C CNN
 F 1 "MX_SW" H 15100 1744 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 15100 1750 50  0001 C CNN
 F 3 "~" H 15100 1750 50  0001 C CNN
@@ -3422,10 +3422,10 @@ Wire Wire Line
 Wire Wire Line
 	14900 900  14850 900 
 $Comp
-L eec-fairchild:LL4148 D95
+L eec-fairchild:LL4148 D100
 U 1 1 63033218
 P 14850 800
-F 0 "D95" V 15054 878 50  0000 L CNN
+F 0 "D100" V 15054 878 50  0000 L CNN
 F 1 "LL4148" V 15145 878 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 14850 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14850 1300 50  0001 L CNN
@@ -3446,10 +3446,10 @@ F 16 "" H 14850 2600 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW94
+L cldg:MX_SW SW99
 U 1 1 63033205
 P 15100 900
-F 0 "SW94" H 15100 1185 50  0000 C CNN
+F 0 "SW99" H 15100 1185 50  0000 C CNN
 F 1 "MX_SW" H 15100 1094 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 15100 1100 50  0001 C CNN
 F 3 "~" H 15100 1100 50  0001 C CNN
@@ -3467,10 +3467,10 @@ Wire Wire Line
 Wire Wire Line
 	14200 3500 14150 3500
 $Comp
-L eec-fairchild:LL4148 D93
+L eec-fairchild:LL4148 D99
 U 1 1 62F69A09
 P 14150 3400
-F 0 "D93" V 14354 3478 50  0000 L CNN
+F 0 "D99" V 14354 3478 50  0000 L CNN
 F 1 "LL4148" V 14445 3478 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 14150 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14150 3900 50  0001 L CNN
@@ -3491,10 +3491,10 @@ F 16 "" H 14150 5200 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW93
+L cldg:MX_SW SW98
 U 1 1 62F699F6
 P 14400 3500
-F 0 "SW93" H 14400 3785 50  0000 C CNN
+F 0 "SW98" H 14400 3785 50  0000 C CNN
 F 1 "MX_SW" H 14400 3694 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 14400 3700 50  0001 C CNN
 F 3 "~" H 14400 3700 50  0001 C CNN
@@ -3512,10 +3512,10 @@ Wire Wire Line
 Wire Wire Line
 	14200 2850 14150 2850
 $Comp
-L eec-fairchild:LL4148 D92
+L eec-fairchild:LL4148 D98
 U 1 1 62EA2237
 P 14150 2750
-F 0 "D92" V 14354 2828 50  0000 L CNN
+F 0 "D98" V 14354 2828 50  0000 L CNN
 F 1 "LL4148" V 14445 2828 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 14150 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14150 3250 50  0001 L CNN
@@ -3536,10 +3536,10 @@ F 16 "" H 14150 4550 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW92
+L cldg:MX_SW SW97
 U 1 1 62EA2224
 P 14400 2850
-F 0 "SW92" H 14400 3135 50  0000 C CNN
+F 0 "SW97" H 14400 3135 50  0000 C CNN
 F 1 "MX_SW" H 14400 3044 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 14400 3050 50  0001 C CNN
 F 3 "~" H 14400 3050 50  0001 C CNN
@@ -3557,10 +3557,10 @@ Wire Wire Line
 Wire Wire Line
 	14200 2200 14150 2200
 $Comp
-L eec-fairchild:LL4148 D91
+L eec-fairchild:LL4148 D97
 U 1 1 62DDE151
 P 14150 2100
-F 0 "D91" V 14354 2178 50  0000 L CNN
+F 0 "D97" V 14354 2178 50  0000 L CNN
 F 1 "LL4148" V 14445 2178 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 14150 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14150 2600 50  0001 L CNN
@@ -3581,10 +3581,10 @@ F 16 "" H 14150 3900 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW91
+L cldg:MX_SW SW96
 U 1 1 62DDE13E
 P 14400 2200
-F 0 "SW91" H 14400 2485 50  0000 C CNN
+F 0 "SW96" H 14400 2485 50  0000 C CNN
 F 1 "MX_SW" H 14400 2394 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 14400 2400 50  0001 C CNN
 F 3 "~" H 14400 2400 50  0001 C CNN
@@ -3602,10 +3602,10 @@ Wire Wire Line
 Wire Wire Line
 	14200 1550 14150 1550
 $Comp
-L eec-fairchild:LL4148 D90
+L eec-fairchild:LL4148 D96
 U 1 1 62D1B26D
 P 14150 1450
-F 0 "D90" V 14354 1528 50  0000 L CNN
+F 0 "D96" V 14354 1528 50  0000 L CNN
 F 1 "LL4148" V 14445 1528 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 14150 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14150 1950 50  0001 L CNN
@@ -3626,10 +3626,10 @@ F 16 "" H 14150 3250 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW90
+L cldg:MX_SW SW95
 U 1 1 62D1B25A
 P 14400 1550
-F 0 "SW90" H 14400 1835 50  0000 C CNN
+F 0 "SW95" H 14400 1835 50  0000 C CNN
 F 1 "MX_SW" H 14400 1744 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 14400 1750 50  0001 C CNN
 F 3 "~" H 14400 1750 50  0001 C CNN
@@ -3648,10 +3648,10 @@ Wire Wire Line
 Wire Wire Line
 	14200 900  14150 900 
 $Comp
-L eec-fairchild:LL4148 D89
+L eec-fairchild:LL4148 D95
 U 1 1 62C59FD5
 P 14150 800
-F 0 "D89" V 14354 878 50  0000 L CNN
+F 0 "D95" V 14354 878 50  0000 L CNN
 F 1 "LL4148" V 14445 878 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 14150 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14150 1300 50  0001 L CNN
@@ -3672,10 +3672,10 @@ F 16 "" H 14150 2600 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW89
+L cldg:MX_SW SW94
 U 1 1 62C59FC2
 P 14400 900
-F 0 "SW89" H 14400 1185 50  0000 C CNN
+F 0 "SW94" H 14400 1185 50  0000 C CNN
 F 1 "MX_SW" H 14400 1094 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 14400 1100 50  0001 C CNN
 F 3 "~" H 14400 1100 50  0001 C CNN
@@ -3693,10 +3693,10 @@ Wire Wire Line
 Wire Wire Line
 	13500 4150 13450 4150
 $Comp
-L eec-fairchild:LL4148 D88
+L eec-fairchild:LL4148 D93
 U 1 1 62B9C842
 P 13450 4050
-F 0 "D88" V 13654 4128 50  0000 L CNN
+F 0 "D93" V 13654 4128 50  0000 L CNN
 F 1 "LL4148" V 13745 4128 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 13450 4450 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 13450 4550 50  0001 L CNN
@@ -3717,10 +3717,10 @@ F 16 "" H 13450 5850 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW88
+L cldg:MX_SW SW93
 U 1 1 62B9C82F
 P 13700 4150
-F 0 "SW88" H 13700 4435 50  0000 C CNN
+F 0 "SW93" H 13700 4435 50  0000 C CNN
 F 1 "MX_SW" H 13700 4344 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 13700 4350 50  0001 C CNN
 F 3 "~" H 13700 4350 50  0001 C CNN
@@ -3738,10 +3738,10 @@ Wire Wire Line
 Wire Wire Line
 	13500 3500 13450 3500
 $Comp
-L eec-fairchild:LL4148 D87
+L eec-fairchild:LL4148 D92
 U 1 1 62AE0B86
 P 13450 3400
-F 0 "D87" V 13654 3478 50  0000 L CNN
+F 0 "D92" V 13654 3478 50  0000 L CNN
 F 1 "LL4148" V 13745 3478 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 13450 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 13450 3900 50  0001 L CNN
@@ -3762,10 +3762,10 @@ F 16 "" H 13450 5200 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW87
+L cldg:MX_SW SW92
 U 1 1 62AE0B73
 P 13700 3500
-F 0 "SW87" H 13700 3785 50  0000 C CNN
+F 0 "SW92" H 13700 3785 50  0000 C CNN
 F 1 "MX_SW" H 13700 3694 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 13700 3700 50  0001 C CNN
 F 3 "~" H 13700 3700 50  0001 C CNN
@@ -3783,10 +3783,10 @@ Wire Wire Line
 Wire Wire Line
 	13500 2850 13450 2850
 $Comp
-L eec-fairchild:LL4148 D86
+L eec-fairchild:LL4148 D91
 U 1 1 62A271EB
 P 13450 2750
-F 0 "D86" V 13654 2828 50  0000 L CNN
+F 0 "D91" V 13654 2828 50  0000 L CNN
 F 1 "LL4148" V 13745 2828 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 13450 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 13450 3250 50  0001 L CNN
@@ -3807,10 +3807,10 @@ F 16 "" H 13450 4550 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW86
+L cldg:MX_SW SW91
 U 1 1 62A271D8
 P 13700 2850
-F 0 "SW86" H 13700 3135 50  0000 C CNN
+F 0 "SW91" H 13700 3135 50  0000 C CNN
 F 1 "MX_SW" H 13700 3044 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 13700 3050 50  0001 C CNN
 F 3 "~" H 13700 3050 50  0001 C CNN
@@ -3828,10 +3828,10 @@ Wire Wire Line
 Wire Wire Line
 	13500 2200 13450 2200
 $Comp
-L eec-fairchild:LL4148 D85
+L eec-fairchild:LL4148 D90
 U 1 1 62970D2C
 P 13450 2100
-F 0 "D85" V 13654 2178 50  0000 L CNN
+F 0 "D90" V 13654 2178 50  0000 L CNN
 F 1 "LL4148" V 13745 2178 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 13450 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 13450 2600 50  0001 L CNN
@@ -3852,10 +3852,10 @@ F 16 "" H 13450 3900 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW85
+L cldg:MX_SW SW90
 U 1 1 62970D19
 P 13700 2200
-F 0 "SW85" H 13700 2485 50  0000 C CNN
+F 0 "SW90" H 13700 2485 50  0000 C CNN
 F 1 "MX_SW" H 13700 2394 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 13700 2400 50  0001 C CNN
 F 3 "~" H 13700 2400 50  0001 C CNN
@@ -3873,10 +3873,10 @@ Wire Wire Line
 Wire Wire Line
 	13500 1550 13450 1550
 $Comp
-L eec-fairchild:LL4148 D84
+L eec-fairchild:LL4148 D89
 U 1 1 628BD770
 P 13450 1450
-F 0 "D84" V 13654 1528 50  0000 L CNN
+F 0 "D89" V 13654 1528 50  0000 L CNN
 F 1 "LL4148" V 13745 1528 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 13450 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 13450 1950 50  0001 L CNN
@@ -3897,10 +3897,10 @@ F 16 "" H 13450 3250 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW84
+L cldg:MX_SW SW89
 U 1 1 628BD75D
 P 13700 1550
-F 0 "SW84" H 13700 1835 50  0000 C CNN
+F 0 "SW89" H 13700 1835 50  0000 C CNN
 F 1 "MX_SW" H 13700 1744 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 13700 1750 50  0001 C CNN
 F 3 "~" H 13700 1750 50  0001 C CNN
@@ -3919,10 +3919,10 @@ Wire Wire Line
 Wire Wire Line
 	13500 900  13450 900 
 $Comp
-L eec-fairchild:LL4148 D83
+L eec-fairchild:LL4148 D88
 U 1 1 6280AAF5
 P 13450 800
-F 0 "D83" V 13654 878 50  0000 L CNN
+F 0 "D88" V 13654 878 50  0000 L CNN
 F 1 "LL4148" V 13745 878 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 13450 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 13450 1300 50  0001 L CNN
@@ -3943,10 +3943,10 @@ F 16 "" H 13450 2600 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW83
+L cldg:MX_SW SW88
 U 1 1 6280AAE2
 P 13700 900
-F 0 "SW83" H 13700 1185 50  0000 C CNN
+F 0 "SW88" H 13700 1185 50  0000 C CNN
 F 1 "MX_SW" H 13700 1094 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 13700 1100 50  0001 C CNN
 F 3 "~" H 13700 1100 50  0001 C CNN
@@ -3964,10 +3964,10 @@ Wire Wire Line
 Wire Wire Line
 	12800 4150 12750 4150
 $Comp
-L eec-fairchild:LL4148 D82
+L eec-fairchild:LL4148 D87
 U 1 1 6270EFB2
 P 12750 4050
-F 0 "D82" V 12954 4128 50  0000 L CNN
+F 0 "D87" V 12954 4128 50  0000 L CNN
 F 1 "LL4148" V 13045 4128 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 12750 4450 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12750 4550 50  0001 L CNN
@@ -3988,10 +3988,10 @@ F 16 "" H 12750 5850 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW82
+L cldg:MX_SW SW87
 U 1 1 6270EF9F
 P 13000 4150
-F 0 "SW82" H 13000 4435 50  0000 C CNN
+F 0 "SW87" H 13000 4435 50  0000 C CNN
 F 1 "MX_SW" H 13000 4344 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 13000 4350 50  0001 C CNN
 F 3 "~" H 13000 4350 50  0001 C CNN
@@ -4009,10 +4009,10 @@ Wire Wire Line
 Wire Wire Line
 	12800 2200 12750 2200
 $Comp
-L eec-fairchild:LL4148 D81
+L eec-fairchild:LL4148 D86
 U 1 1 62661C2D
 P 12750 2100
-F 0 "D81" V 12954 2178 50  0000 L CNN
+F 0 "D86" V 12954 2178 50  0000 L CNN
 F 1 "LL4148" V 13045 2178 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 12750 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12750 2600 50  0001 L CNN
@@ -4033,10 +4033,10 @@ F 16 "" H 12750 3900 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW81
+L cldg:MX_SW SW86
 U 1 1 62661C1A
 P 13000 2200
-F 0 "SW81" H 13000 2485 50  0000 C CNN
+F 0 "SW86" H 13000 2485 50  0000 C CNN
 F 1 "MX_SW" H 13000 2394 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 13000 2400 50  0001 C CNN
 F 3 "~" H 13000 2400 50  0001 C CNN
@@ -4054,10 +4054,10 @@ Wire Wire Line
 Wire Wire Line
 	12800 1550 12750 1550
 $Comp
-L eec-fairchild:LL4148 D80
+L eec-fairchild:LL4148 D85
 U 1 1 625B7617
 P 12750 1450
-F 0 "D80" V 12954 1528 50  0000 L CNN
+F 0 "D85" V 12954 1528 50  0000 L CNN
 F 1 "LL4148" V 13045 1528 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 12750 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12750 1950 50  0001 L CNN
@@ -4078,10 +4078,10 @@ F 16 "" H 12750 3250 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW80
+L cldg:MX_SW SW85
 U 1 1 625B7604
 P 13000 1550
-F 0 "SW80" H 13000 1835 50  0000 C CNN
+F 0 "SW85" H 13000 1835 50  0000 C CNN
 F 1 "MX_SW" H 13000 1744 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 13000 1750 50  0001 C CNN
 F 3 "~" H 13000 1750 50  0001 C CNN
@@ -4100,10 +4100,10 @@ Wire Wire Line
 Wire Wire Line
 	12800 900  12750 900 
 $Comp
-L eec-fairchild:LL4148 D79
+L eec-fairchild:LL4148 D84
 U 1 1 6250DF8A
 P 12750 800
-F 0 "D79" V 12954 878 50  0000 L CNN
+F 0 "D84" V 12954 878 50  0000 L CNN
 F 1 "LL4148" V 13045 878 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 12750 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12750 1300 50  0001 L CNN
@@ -4124,10 +4124,10 @@ F 16 "" H 12750 2600 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW79
+L cldg:MX_SW SW84
 U 1 1 6250DF77
 P 13000 900
-F 0 "SW79" H 13000 1185 50  0000 C CNN
+F 0 "SW84" H 13000 1185 50  0000 C CNN
 F 1 "MX_SW" H 13000 1094 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 13000 1100 50  0001 C CNN
 F 3 "~" H 13000 1100 50  0001 C CNN
@@ -4145,10 +4145,10 @@ Wire Wire Line
 Wire Wire Line
 	12100 4150 12050 4150
 $Comp
-L eec-fairchild:LL4148 D78
+L eec-fairchild:LL4148 D83
 U 1 1 62468143
 P 12050 4050
-F 0 "D78" V 12254 4128 50  0000 L CNN
+F 0 "D83" V 12254 4128 50  0000 L CNN
 F 1 "LL4148" V 12345 4128 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 12050 4450 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12050 4550 50  0001 L CNN
@@ -4169,10 +4169,10 @@ F 16 "" H 12050 5850 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW78
+L cldg:MX_SW SW83
 U 1 1 62468130
 P 12300 4150
-F 0 "SW78" H 12300 4435 50  0000 C CNN
+F 0 "SW83" H 12300 4435 50  0000 C CNN
 F 1 "MX_SW" H 12300 4344 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 12300 4350 50  0001 C CNN
 F 3 "~" H 12300 4350 50  0001 C CNN
@@ -4190,10 +4190,10 @@ Wire Wire Line
 Wire Wire Line
 	12100 3500 12050 3500
 $Comp
-L eec-fairchild:LL4148 D77
+L eec-fairchild:LL4148 D82
 U 1 1 623C3CF0
 P 12050 3400
-F 0 "D77" V 12254 3478 50  0000 L CNN
+F 0 "D82" V 12254 3478 50  0000 L CNN
 F 1 "LL4148" V 12345 3478 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 12050 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12050 3900 50  0001 L CNN
@@ -4214,10 +4214,10 @@ F 16 "" H 12050 5200 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW77
+L cldg:MX_SW SW82
 U 1 1 623C3CDD
 P 12300 3500
-F 0 "SW77" H 12300 3785 50  0000 C CNN
+F 0 "SW82" H 12300 3785 50  0000 C CNN
 F 1 "MX_SW" H 12300 3694 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 12300 3700 50  0001 C CNN
 F 3 "~" H 12300 3700 50  0001 C CNN
@@ -4235,10 +4235,10 @@ Wire Wire Line
 Wire Wire Line
 	12100 2200 12050 2200
 $Comp
-L eec-fairchild:LL4148 D76
+L eec-fairchild:LL4148 D81
 U 1 1 62322934
 P 12050 2100
-F 0 "D76" V 12254 2178 50  0000 L CNN
+F 0 "D81" V 12254 2178 50  0000 L CNN
 F 1 "LL4148" V 12345 2178 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 12050 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12050 2600 50  0001 L CNN
@@ -4259,10 +4259,10 @@ F 16 "" H 12050 3900 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW76
+L cldg:MX_SW SW81
 U 1 1 62322921
 P 12300 2200
-F 0 "SW76" H 12300 2485 50  0000 C CNN
+F 0 "SW81" H 12300 2485 50  0000 C CNN
 F 1 "MX_SW" H 12300 2394 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 12300 2400 50  0001 C CNN
 F 3 "~" H 12300 2400 50  0001 C CNN
@@ -4280,10 +4280,10 @@ Wire Wire Line
 Wire Wire Line
 	12100 1550 12050 1550
 $Comp
-L eec-fairchild:LL4148 D75
+L eec-fairchild:LL4148 D80
 U 1 1 6227F207
 P 12050 1450
-F 0 "D75" V 12254 1528 50  0000 L CNN
+F 0 "D80" V 12254 1528 50  0000 L CNN
 F 1 "LL4148" V 12345 1528 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 12050 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12050 1950 50  0001 L CNN
@@ -4304,10 +4304,10 @@ F 16 "" H 12050 3250 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW75
+L cldg:MX_SW SW80
 U 1 1 6227F1F4
 P 12300 1550
-F 0 "SW75" H 12300 1835 50  0000 C CNN
+F 0 "SW80" H 12300 1835 50  0000 C CNN
 F 1 "MX_SW" H 12300 1744 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 12300 1750 50  0001 C CNN
 F 3 "~" H 12300 1750 50  0001 C CNN
@@ -4326,10 +4326,10 @@ Wire Wire Line
 Wire Wire Line
 	12100 900  12050 900 
 $Comp
-L eec-fairchild:LL4148 D74
+L eec-fairchild:LL4148 D79
 U 1 1 621DF4A3
 P 12050 800
-F 0 "D74" V 12254 878 50  0000 L CNN
+F 0 "D79" V 12254 878 50  0000 L CNN
 F 1 "LL4148" V 12345 878 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 12050 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12050 1300 50  0001 L CNN
@@ -4350,10 +4350,10 @@ F 16 "" H 12050 2600 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW74
+L cldg:MX_SW SW79
 U 1 1 621DF490
 P 12300 900
-F 0 "SW74" H 12300 1185 50  0000 C CNN
+F 0 "SW79" H 12300 1185 50  0000 C CNN
 F 1 "MX_SW" H 12300 1094 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 12300 1100 50  0001 C CNN
 F 3 "~" H 12300 1100 50  0001 C CNN
@@ -4371,10 +4371,10 @@ Wire Wire Line
 Wire Wire Line
 	11400 4150 11350 4150
 $Comp
-L eec-fairchild:LL4148 D73
+L eec-fairchild:LL4148 D78
 U 1 1 6210B6E4
 P 11350 4050
-F 0 "D73" V 11554 4128 50  0000 L CNN
+F 0 "D78" V 11554 4128 50  0000 L CNN
 F 1 "LL4148" V 11645 4128 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 11350 4450 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 11350 4550 50  0001 L CNN
@@ -4395,10 +4395,10 @@ F 16 "" H 11350 5850 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW73
+L cldg:MX_SW SW78
 U 1 1 6210B6D1
 P 11600 4150
-F 0 "SW73" H 11600 4435 50  0000 C CNN
+F 0 "SW78" H 11600 4435 50  0000 C CNN
 F 1 "MX_SW" H 11600 4344 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 11600 4350 50  0001 C CNN
 F 3 "~" H 11600 4350 50  0001 C CNN
@@ -4416,10 +4416,10 @@ Wire Wire Line
 Wire Wire Line
 	11400 2200 11350 2200
 $Comp
-L eec-fairchild:LL4148 D72
+L eec-fairchild:LL4148 D77
 U 1 1 62070766
 P 11350 2100
-F 0 "D72" V 11554 2178 50  0000 L CNN
+F 0 "D77" V 11554 2178 50  0000 L CNN
 F 1 "LL4148" V 11645 2178 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 11350 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 11350 2600 50  0001 L CNN
@@ -4440,10 +4440,10 @@ F 16 "" H 11350 3900 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW72
+L cldg:MX_SW SW77
 U 1 1 62070753
 P 11600 2200
-F 0 "SW72" H 11600 2485 50  0000 C CNN
+F 0 "SW77" H 11600 2485 50  0000 C CNN
 F 1 "MX_SW" H 11600 2394 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 11600 2400 50  0001 C CNN
 F 3 "~" H 11600 2400 50  0001 C CNN
@@ -4461,10 +4461,10 @@ Wire Wire Line
 Wire Wire Line
 	11400 1550 11350 1550
 $Comp
-L eec-fairchild:LL4148 D71
+L eec-fairchild:LL4148 D76
 U 1 1 61FD94B4
 P 11350 1450
-F 0 "D71" V 11554 1528 50  0000 L CNN
+F 0 "D76" V 11554 1528 50  0000 L CNN
 F 1 "LL4148" V 11645 1528 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 11350 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 11350 1950 50  0001 L CNN
@@ -4485,10 +4485,10 @@ F 16 "" H 11350 3250 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW71
+L cldg:MX_SW SW76
 U 1 1 61FD94A1
 P 11600 1550
-F 0 "SW71" H 11600 1835 50  0000 C CNN
+F 0 "SW76" H 11600 1835 50  0000 C CNN
 F 1 "MX_SW" H 11600 1744 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 11600 1750 50  0001 C CNN
 F 3 "~" H 11600 1750 50  0001 C CNN
@@ -4507,10 +4507,10 @@ Wire Wire Line
 Wire Wire Line
 	11400 900  11350 900 
 $Comp
-L eec-fairchild:LL4148 D70
+L eec-fairchild:LL4148 D75
 U 1 1 61F41772
 P 11350 800
-F 0 "D70" V 11554 878 50  0000 L CNN
+F 0 "D75" V 11554 878 50  0000 L CNN
 F 1 "LL4148" V 11645 878 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 11350 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 11350 1300 50  0001 L CNN
@@ -4531,10 +4531,10 @@ F 16 "" H 11350 2600 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW70
+L cldg:MX_SW SW75
 U 1 1 61F4175F
 P 11600 900
-F 0 "SW70" H 11600 1185 50  0000 C CNN
+F 0 "SW75" H 11600 1185 50  0000 C CNN
 F 1 "MX_SW" H 11600 1094 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 11600 1100 50  0001 C CNN
 F 3 "~" H 11600 1100 50  0001 C CNN
@@ -4552,10 +4552,10 @@ Wire Wire Line
 Wire Wire Line
 	10650 4150 10600 4150
 $Comp
-L eec-fairchild:LL4148 D69
+L eec-fairchild:LL4148 D74
 U 1 1 61EAD5A3
 P 10600 4050
-F 0 "D69" V 10804 4128 50  0000 L CNN
+F 0 "D74" V 10804 4128 50  0000 L CNN
 F 1 "LL4148" V 10895 4128 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 10600 4450 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 10600 4550 50  0001 L CNN
@@ -4576,10 +4576,10 @@ F 16 "" H 10600 5850 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW69
+L cldg:MX_SW SW74
 U 1 1 61EAD590
 P 10850 4150
-F 0 "SW69" H 10850 4435 50  0000 C CNN
+F 0 "SW74" H 10850 4435 50  0000 C CNN
 F 1 "MX_SW" H 10850 4344 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 10850 4350 50  0001 C CNN
 F 3 "~" H 10850 4350 50  0001 C CNN
@@ -4597,10 +4597,10 @@ Wire Wire Line
 Wire Wire Line
 	10650 2200 10600 2200
 $Comp
-L eec-fairchild:LL4148 D68
+L eec-fairchild:LL4148 D73
 U 1 1 61D5AFBF
 P 10600 2100
-F 0 "D68" V 10804 2178 50  0000 L CNN
+F 0 "D73" V 10804 2178 50  0000 L CNN
 F 1 "LL4148" V 10895 2178 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 10600 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 10600 2600 50  0001 L CNN
@@ -4621,10 +4621,10 @@ F 16 "" H 10600 3900 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW68
+L cldg:MX_SW SW73
 U 1 1 61D5AFAC
 P 10850 2200
-F 0 "SW68" H 10850 2485 50  0000 C CNN
+F 0 "SW73" H 10850 2485 50  0000 C CNN
 F 1 "MX_SW" H 10850 2394 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 10850 2400 50  0001 C CNN
 F 3 "~" H 10850 2400 50  0001 C CNN
@@ -4642,10 +4642,10 @@ Wire Wire Line
 Wire Wire Line
 	10650 1550 10600 1550
 $Comp
-L eec-fairchild:LL4148 D67
+L eec-fairchild:LL4148 D72
 U 1 1 61CC9770
 P 10600 1450
-F 0 "D67" V 10804 1528 50  0000 L CNN
+F 0 "D72" V 10804 1528 50  0000 L CNN
 F 1 "LL4148" V 10895 1528 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 10600 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 10600 1950 50  0001 L CNN
@@ -4666,10 +4666,10 @@ F 16 "" H 10600 3250 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW67
+L cldg:MX_SW SW72
 U 1 1 61CC975D
 P 10850 1550
-F 0 "SW67" H 10850 1835 50  0000 C CNN
+F 0 "SW72" H 10850 1835 50  0000 C CNN
 F 1 "MX_SW" H 10850 1744 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 10850 1750 50  0001 C CNN
 F 3 "~" H 10850 1750 50  0001 C CNN
@@ -4688,10 +4688,10 @@ Wire Wire Line
 Wire Wire Line
 	10650 900  10600 900 
 $Comp
-L eec-fairchild:LL4148 D66
+L eec-fairchild:LL4148 D71
 U 1 1 61C3BE8E
 P 10600 800
-F 0 "D66" V 10804 878 50  0000 L CNN
+F 0 "D71" V 10804 878 50  0000 L CNN
 F 1 "LL4148" V 10895 878 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 10600 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 10600 1300 50  0001 L CNN
@@ -4712,10 +4712,10 @@ F 16 "" H 10600 2600 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW66
+L cldg:MX_SW SW71
 U 1 1 61C3BE7B
 P 10850 900
-F 0 "SW66" H 10850 1185 50  0000 C CNN
+F 0 "SW71" H 10850 1185 50  0000 C CNN
 F 1 "MX_SW" H 10850 1094 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 10850 1100 50  0001 C CNN
 F 3 "~" H 10850 1100 50  0001 C CNN
@@ -4733,10 +4733,10 @@ Wire Wire Line
 Wire Wire Line
 	9950 4150 9900 4150
 $Comp
-L eec-fairchild:LL4148 D65
+L eec-fairchild:LL4148 D70
 U 1 1 61B7D812
 P 9900 4050
-F 0 "D65" V 10104 4128 50  0000 L CNN
+F 0 "D70" V 10104 4128 50  0000 L CNN
 F 1 "LL4148" V 10195 4128 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 9900 4450 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9900 4550 50  0001 L CNN
@@ -4757,10 +4757,10 @@ F 16 "" H 9900 5850 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW65
+L cldg:MX_SW SW70
 U 1 1 61B7D7FF
 P 10150 4150
-F 0 "SW65" H 10150 4435 50  0000 C CNN
+F 0 "SW70" H 10150 4435 50  0000 C CNN
 F 1 "MX_SW" H 10150 4344 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 10150 4350 50  0001 C CNN
 F 3 "~" H 10150 4350 50  0001 C CNN
@@ -4778,10 +4778,10 @@ Wire Wire Line
 Wire Wire Line
 	9950 3500 9900 3500
 $Comp
-L eec-fairchild:LL4148 D64
+L eec-fairchild:LL4148 D69
 U 1 1 61AF4765
 P 9900 3400
-F 0 "D64" V 10104 3478 50  0000 L CNN
+F 0 "D69" V 10104 3478 50  0000 L CNN
 F 1 "LL4148" V 10195 3478 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 9900 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9900 3900 50  0001 L CNN
@@ -4802,10 +4802,10 @@ F 16 "" H 9900 5200 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW64
+L cldg:MX_SW SW69
 U 1 1 61AF4752
 P 10150 3500
-F 0 "SW64" H 10150 3785 50  0000 C CNN
+F 0 "SW69" H 10150 3785 50  0000 C CNN
 F 1 "MX_SW" H 10150 3694 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 10150 3700 50  0001 C CNN
 F 3 "~" H 10150 3700 50  0001 C CNN
@@ -4823,10 +4823,10 @@ Wire Wire Line
 Wire Wire Line
 	9950 2850 9900 2850
 $Comp
-L eec-fairchild:LL4148 D63
+L eec-fairchild:LL4148 D68
 U 1 1 61A6B7EF
 P 9900 2750
-F 0 "D63" V 10104 2828 50  0000 L CNN
+F 0 "D68" V 10104 2828 50  0000 L CNN
 F 1 "LL4148" V 10195 2828 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 9900 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9900 3250 50  0001 L CNN
@@ -4847,10 +4847,10 @@ F 16 "" H 9900 4550 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW63
+L cldg:MX_SW SW68
 U 1 1 61A6B7DC
 P 10150 2850
-F 0 "SW63" H 10150 3135 50  0000 C CNN
+F 0 "SW68" H 10150 3135 50  0000 C CNN
 F 1 "MX_SW" H 10150 3044 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 10150 3050 50  0001 C CNN
 F 3 "~" H 10150 3050 50  0001 C CNN
@@ -4868,10 +4868,10 @@ Wire Wire Line
 Wire Wire Line
 	9950 2200 9900 2200
 $Comp
-L eec-fairchild:LL4148 D62
+L eec-fairchild:LL4148 D67
 U 1 1 619B421C
 P 9900 2100
-F 0 "D62" V 10104 2178 50  0000 L CNN
+F 0 "D67" V 10104 2178 50  0000 L CNN
 F 1 "LL4148" V 10195 2178 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 9900 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9900 2600 50  0001 L CNN
@@ -4892,10 +4892,10 @@ F 16 "" H 9900 3900 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW62
+L cldg:MX_SW SW67
 U 1 1 619B4209
 P 10150 2200
-F 0 "SW62" H 10150 2485 50  0000 C CNN
+F 0 "SW67" H 10150 2485 50  0000 C CNN
 F 1 "MX_SW" H 10150 2394 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 10150 2400 50  0001 C CNN
 F 3 "~" H 10150 2400 50  0001 C CNN
@@ -4934,10 +4934,10 @@ Wire Wire Line
 Wire Wire Line
 	9950 900  9900 900 
 $Comp
-L eec-fairchild:LL4148 D61
+L eec-fairchild:LL4148 D66
 U 1 1 6150662A
 P 9900 800
-F 0 "D61" V 10104 878 50  0000 L CNN
+F 0 "D66" V 10104 878 50  0000 L CNN
 F 1 "LL4148" V 10195 878 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 9900 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9900 1300 50  0001 L CNN
@@ -4958,10 +4958,10 @@ F 16 "" H 9900 2600 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW61
+L cldg:MX_SW SW66
 U 1 1 61506617
 P 10150 900
-F 0 "SW61" H 10150 1185 50  0000 C CNN
+F 0 "SW66" H 10150 1185 50  0000 C CNN
 F 1 "MX_SW" H 10150 1094 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 10150 1100 50  0001 C CNN
 F 3 "~" H 10150 1100 50  0001 C CNN
@@ -4979,10 +4979,10 @@ Wire Wire Line
 Wire Wire Line
 	9250 2850 9200 2850
 $Comp
-L eec-fairchild:LL4148 D60
+L eec-fairchild:LL4148 D65
 U 1 1 6145A4DF
 P 9200 2750
-F 0 "D60" V 9404 2828 50  0000 L CNN
+F 0 "D65" V 9404 2828 50  0000 L CNN
 F 1 "LL4148" V 9495 2828 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 9200 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9200 3250 50  0001 L CNN
@@ -5003,10 +5003,10 @@ F 16 "" H 9200 4550 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW60
+L cldg:MX_SW SW65
 U 1 1 6145A4CC
 P 9450 2850
-F 0 "SW60" H 9450 3135 50  0000 C CNN
+F 0 "SW65" H 9450 3135 50  0000 C CNN
 F 1 "MX_SW" H 9450 3044 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 9450 3050 50  0001 C CNN
 F 3 "~" H 9450 3050 50  0001 C CNN
@@ -5024,10 +5024,10 @@ Wire Wire Line
 Wire Wire Line
 	9250 2200 9200 2200
 $Comp
-L eec-fairchild:LL4148 D59
+L eec-fairchild:LL4148 D64
 U 1 1 613DE8D4
 P 9200 2100
-F 0 "D59" V 9404 2178 50  0000 L CNN
+F 0 "D64" V 9404 2178 50  0000 L CNN
 F 1 "LL4148" V 9495 2178 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 9200 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9200 2600 50  0001 L CNN
@@ -5048,10 +5048,10 @@ F 16 "" H 9200 3900 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW59
+L cldg:MX_SW SW64
 U 1 1 613DE8C1
 P 9450 2200
-F 0 "SW59" H 9450 2485 50  0000 C CNN
+F 0 "SW64" H 9450 2485 50  0000 C CNN
 F 1 "MX_SW" H 9450 2394 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 9450 2400 50  0001 C CNN
 F 3 "~" H 9450 2400 50  0001 C CNN
@@ -5066,10 +5066,10 @@ Wire Wire Line
 Wire Wire Line
 	9250 1550 9200 1550
 $Comp
-L eec-fairchild:LL4148 D58
+L eec-fairchild:LL4148 D63
 U 1 1 613655BC
 P 9200 1450
-F 0 "D58" V 9404 1528 50  0000 L CNN
+F 0 "D63" V 9404 1528 50  0000 L CNN
 F 1 "LL4148" V 9495 1528 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 9200 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9200 1950 50  0001 L CNN
@@ -5090,10 +5090,10 @@ F 16 "" H 9200 3250 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW58
+L cldg:MX_SW SW63
 U 1 1 613655A9
 P 9450 1550
-F 0 "SW58" H 9450 1835 50  0000 C CNN
+F 0 "SW63" H 9450 1835 50  0000 C CNN
 F 1 "MX_SW" H 9450 1744 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 9450 1750 50  0001 C CNN
 F 3 "~" H 9450 1750 50  0001 C CNN
@@ -5110,10 +5110,10 @@ Wire Wire Line
 Wire Wire Line
 	9250 900  9200 900 
 $Comp
-L eec-fairchild:LL4148 D57
+L eec-fairchild:LL4148 D62
 U 1 1 612ED62E
 P 9200 800
-F 0 "D57" V 9404 878 50  0000 L CNN
+F 0 "D62" V 9404 878 50  0000 L CNN
 F 1 "LL4148" V 9495 878 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 9200 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9200 1300 50  0001 L CNN
@@ -5134,10 +5134,10 @@ F 16 "" H 9200 2600 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW57
+L cldg:MX_SW SW62
 U 1 1 612ED61B
 P 9450 900
-F 0 "SW57" H 9450 1185 50  0000 C CNN
+F 0 "SW62" H 9450 1185 50  0000 C CNN
 F 1 "MX_SW" H 9450 1094 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 9450 1100 50  0001 C CNN
 F 3 "~" H 9450 1100 50  0001 C CNN
@@ -5154,10 +5154,10 @@ Wire Wire Line
 Wire Wire Line
 	8550 4150 8500 4150
 $Comp
-L eec-fairchild:LL4148 D56
+L eec-fairchild:LL4148 D61
 U 1 1 61277A68
 P 8500 4050
-F 0 "D56" V 8704 4128 50  0000 L CNN
+F 0 "D61" V 8704 4128 50  0000 L CNN
 F 1 "LL4148" V 8795 4128 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 8500 4450 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 8500 4550 50  0001 L CNN
@@ -5178,10 +5178,10 @@ F 16 "" H 8500 5850 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW56
+L cldg:MX_SW SW61
 U 1 1 61277A55
 P 8750 4150
-F 0 "SW56" H 8750 4435 50  0000 C CNN
+F 0 "SW61" H 8750 4435 50  0000 C CNN
 F 1 "MX_SW" H 8750 4344 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 8750 4350 50  0001 C CNN
 F 3 "~" H 8750 4350 50  0001 C CNN
@@ -5199,10 +5199,10 @@ Wire Wire Line
 Wire Wire Line
 	8550 3500 8500 3500
 $Comp
-L eec-fairchild:LL4148 D55
+L eec-fairchild:LL4148 D60
 U 1 1 61201B3D
 P 8500 3400
-F 0 "D55" V 8704 3478 50  0000 L CNN
+F 0 "D60" V 8704 3478 50  0000 L CNN
 F 1 "LL4148" V 8795 3478 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 8500 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 8500 3900 50  0001 L CNN
@@ -5223,10 +5223,10 @@ F 16 "" H 8500 5200 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW55
+L cldg:MX_SW SW60
 U 1 1 61201B2A
 P 8750 3500
-F 0 "SW55" H 8750 3785 50  0000 C CNN
+F 0 "SW60" H 8750 3785 50  0000 C CNN
 F 1 "MX_SW" H 8750 3694 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 8750 3700 50  0001 C CNN
 F 3 "~" H 8750 3700 50  0001 C CNN
@@ -5244,10 +5244,10 @@ Wire Wire Line
 Wire Wire Line
 	8550 2850 8500 2850
 $Comp
-L eec-fairchild:LL4148 D54
+L eec-fairchild:LL4148 D59
 U 1 1 61190961
 P 8500 2750
-F 0 "D54" V 8704 2828 50  0000 L CNN
+F 0 "D59" V 8704 2828 50  0000 L CNN
 F 1 "LL4148" V 8795 2828 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 8500 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 8500 3250 50  0001 L CNN
@@ -5268,10 +5268,10 @@ F 16 "" H 8500 4550 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW54
+L cldg:MX_SW SW59
 U 1 1 6119094E
 P 8750 2850
-F 0 "SW54" H 8750 3135 50  0000 C CNN
+F 0 "SW59" H 8750 3135 50  0000 C CNN
 F 1 "MX_SW" H 8750 3044 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 8750 3050 50  0001 C CNN
 F 3 "~" H 8750 3050 50  0001 C CNN
@@ -5289,10 +5289,10 @@ Wire Wire Line
 Wire Wire Line
 	8550 2200 8500 2200
 $Comp
-L eec-fairchild:LL4148 D53
+L eec-fairchild:LL4148 D58
 U 1 1 61121AB5
 P 8500 2100
-F 0 "D53" V 8704 2178 50  0000 L CNN
+F 0 "D58" V 8704 2178 50  0000 L CNN
 F 1 "LL4148" V 8795 2178 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 8500 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 8500 2600 50  0001 L CNN
@@ -5313,10 +5313,10 @@ F 16 "" H 8500 3900 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW53
+L cldg:MX_SW SW58
 U 1 1 61121AA2
 P 8750 2200
-F 0 "SW53" H 8750 2485 50  0000 C CNN
+F 0 "SW58" H 8750 2485 50  0000 C CNN
 F 1 "MX_SW" H 8750 2394 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 8750 2400 50  0001 C CNN
 F 3 "~" H 8750 2400 50  0001 C CNN
@@ -5331,10 +5331,10 @@ Wire Wire Line
 Wire Wire Line
 	8550 1550 8500 1550
 $Comp
-L eec-fairchild:LL4148 D52
+L eec-fairchild:LL4148 D57
 U 1 1 610B511F
 P 8500 1450
-F 0 "D52" V 8704 1528 50  0000 L CNN
+F 0 "D57" V 8704 1528 50  0000 L CNN
 F 1 "LL4148" V 8795 1528 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 8500 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 8500 1950 50  0001 L CNN
@@ -5355,10 +5355,10 @@ F 16 "" H 8500 3250 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW52
+L cldg:MX_SW SW57
 U 1 1 610B510C
 P 8750 1550
-F 0 "SW52" H 8750 1835 50  0000 C CNN
+F 0 "SW57" H 8750 1835 50  0000 C CNN
 F 1 "MX_SW" H 8750 1744 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 8750 1750 50  0001 C CNN
 F 3 "~" H 8750 1750 50  0001 C CNN
@@ -5375,10 +5375,10 @@ Wire Wire Line
 Wire Wire Line
 	8550 900  8500 900 
 $Comp
-L eec-fairchild:LL4148 D51
+L eec-fairchild:LL4148 D56
 U 1 1 610473AD
 P 8500 800
-F 0 "D51" V 8704 878 50  0000 L CNN
+F 0 "D56" V 8704 878 50  0000 L CNN
 F 1 "LL4148" V 8795 878 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 8500 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 8500 1300 50  0001 L CNN
@@ -5399,10 +5399,10 @@ F 16 "" H 8500 2600 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW51
+L cldg:MX_SW SW56
 U 1 1 6104739A
 P 8750 900
-F 0 "SW51" H 8750 1185 50  0000 C CNN
+F 0 "SW56" H 8750 1185 50  0000 C CNN
 F 1 "MX_SW" H 8750 1094 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 8750 1100 50  0001 C CNN
 F 3 "~" H 8750 1100 50  0001 C CNN
@@ -5417,10 +5417,10 @@ Wire Wire Line
 Wire Wire Line
 	7800 4150 7750 4150
 $Comp
-L eec-fairchild:LL4148 D50
+L eec-fairchild:LL4148 D55
 U 1 1 60FCAB59
 P 7750 4050
-F 0 "D50" V 7954 4128 50  0000 L CNN
+F 0 "D55" V 7954 4128 50  0000 L CNN
 F 1 "LL4148" V 8045 4128 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 7750 4450 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7750 4550 50  0001 L CNN
@@ -5441,10 +5441,10 @@ F 16 "" H 7750 5850 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW50
+L cldg:MX_SW SW55
 U 1 1 60FCAB46
 P 8000 4150
-F 0 "SW50" H 8000 4435 50  0000 C CNN
+F 0 "SW55" H 8000 4435 50  0000 C CNN
 F 1 "MX_SW" H 8000 4344 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 8000 4350 50  0001 C CNN
 F 3 "~" H 8000 4350 50  0001 C CNN
@@ -5461,10 +5461,10 @@ Wire Wire Line
 Wire Wire Line
 	7800 3500 7750 3500
 $Comp
-L eec-fairchild:LL4148 D49
+L eec-fairchild:LL4148 D54
 U 1 1 60F623B6
 P 7750 3400
-F 0 "D49" V 7954 3478 50  0000 L CNN
+F 0 "D54" V 7954 3478 50  0000 L CNN
 F 1 "LL4148" V 8045 3478 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 7750 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7750 3900 50  0001 L CNN
@@ -5485,10 +5485,10 @@ F 16 "" H 7750 5200 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW49
+L cldg:MX_SW SW54
 U 1 1 60F623A3
 P 8000 3500
-F 0 "SW49" H 8000 3785 50  0000 C CNN
+F 0 "SW54" H 8000 3785 50  0000 C CNN
 F 1 "MX_SW" H 8000 3694 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 8000 3700 50  0001 C CNN
 F 3 "~" H 8000 3700 50  0001 C CNN
@@ -5505,10 +5505,10 @@ Wire Wire Line
 Wire Wire Line
 	7800 2850 7750 2850
 $Comp
-L eec-fairchild:LL4148 D48
+L eec-fairchild:LL4148 D53
 U 1 1 60EFDB97
 P 7750 2750
-F 0 "D48" V 7954 2828 50  0000 L CNN
+F 0 "D53" V 7954 2828 50  0000 L CNN
 F 1 "LL4148" V 8045 2828 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 7750 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7750 3250 50  0001 L CNN
@@ -5529,10 +5529,10 @@ F 16 "" H 7750 4550 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW48
+L cldg:MX_SW SW53
 U 1 1 60EFDB84
 P 8000 2850
-F 0 "SW48" H 8000 3135 50  0000 C CNN
+F 0 "SW53" H 8000 3135 50  0000 C CNN
 F 1 "MX_SW" H 8000 3044 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 8000 3050 50  0001 C CNN
 F 3 "~" H 8000 3050 50  0001 C CNN
@@ -5549,10 +5549,10 @@ Wire Wire Line
 Wire Wire Line
 	7800 2200 7750 2200
 $Comp
-L eec-fairchild:LL4148 D47
+L eec-fairchild:LL4148 D52
 U 1 1 60E9BC8B
 P 7750 2100
-F 0 "D47" V 7954 2178 50  0000 L CNN
+F 0 "D52" V 7954 2178 50  0000 L CNN
 F 1 "LL4148" V 8045 2178 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 7750 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7750 2600 50  0001 L CNN
@@ -5573,10 +5573,10 @@ F 16 "" H 7750 3900 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW47
+L cldg:MX_SW SW52
 U 1 1 60E9BC78
 P 8000 2200
-F 0 "SW47" H 8000 2485 50  0000 C CNN
+F 0 "SW52" H 8000 2485 50  0000 C CNN
 F 1 "MX_SW" H 8000 2394 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 8000 2400 50  0001 C CNN
 F 3 "~" H 8000 2400 50  0001 C CNN
@@ -5590,10 +5590,10 @@ Wire Wire Line
 Wire Wire Line
 	7800 1550 7750 1550
 $Comp
-L eec-fairchild:LL4148 D46
+L eec-fairchild:LL4148 D51
 U 1 1 60E3B4F3
 P 7750 1450
-F 0 "D46" V 7954 1528 50  0000 L CNN
+F 0 "D51" V 7954 1528 50  0000 L CNN
 F 1 "LL4148" V 8045 1528 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 7750 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7750 1950 50  0001 L CNN
@@ -5614,10 +5614,10 @@ F 16 "" H 7750 3250 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW46
+L cldg:MX_SW SW51
 U 1 1 60E3B4E0
 P 8000 1550
-F 0 "SW46" H 8000 1835 50  0000 C CNN
+F 0 "SW51" H 8000 1835 50  0000 C CNN
 F 1 "MX_SW" H 8000 1744 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 8000 1750 50  0001 C CNN
 F 3 "~" H 8000 1750 50  0001 C CNN
@@ -5633,10 +5633,10 @@ Wire Wire Line
 Wire Wire Line
 	7800 900  7750 900 
 $Comp
-L eec-fairchild:LL4148 D45
+L eec-fairchild:LL4148 D50
 U 1 1 60DDC1D7
 P 7750 800
-F 0 "D45" V 7954 878 50  0000 L CNN
+F 0 "D50" V 7954 878 50  0000 L CNN
 F 1 "LL4148" V 8045 878 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 7750 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7750 1300 50  0001 L CNN
@@ -5657,10 +5657,10 @@ F 16 "" H 7750 2600 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW45
+L cldg:MX_SW SW50
 U 1 1 60DDC1C4
 P 8000 900
-F 0 "SW45" H 8000 1185 50  0000 C CNN
+F 0 "SW50" H 8000 1185 50  0000 C CNN
 F 1 "MX_SW" H 8000 1094 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 8000 1100 50  0001 C CNN
 F 3 "~" H 8000 1100 50  0001 C CNN
@@ -5675,10 +5675,10 @@ Wire Wire Line
 Wire Wire Line
 	7100 3500 7050 3500
 $Comp
-L eec-fairchild:LL4148 D44
+L eec-fairchild:LL4148 D49
 U 1 1 60D7D7C8
 P 7050 3400
-F 0 "D44" V 7254 3478 50  0000 L CNN
+F 0 "D49" V 7254 3478 50  0000 L CNN
 F 1 "LL4148" V 7345 3478 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 7050 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7050 3900 50  0001 L CNN
@@ -5699,10 +5699,10 @@ F 16 "" H 7050 5200 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW44
+L cldg:MX_SW SW49
 U 1 1 60D7D7B5
 P 7300 3500
-F 0 "SW44" H 7300 3785 50  0000 C CNN
+F 0 "SW49" H 7300 3785 50  0000 C CNN
 F 1 "MX_SW" H 7300 3694 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 7300 3700 50  0001 C CNN
 F 3 "~" H 7300 3700 50  0001 C CNN
@@ -5717,10 +5717,10 @@ Wire Wire Line
 Wire Wire Line
 	7100 2850 7050 2850
 $Comp
-L eec-fairchild:LL4148 D43
+L eec-fairchild:LL4148 D48
 U 1 1 60D20A46
 P 7050 2750
-F 0 "D43" V 7254 2828 50  0000 L CNN
+F 0 "D48" V 7254 2828 50  0000 L CNN
 F 1 "LL4148" V 7345 2828 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 7050 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7050 3250 50  0001 L CNN
@@ -5741,10 +5741,10 @@ F 16 "" H 7050 4550 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW43
+L cldg:MX_SW SW48
 U 1 1 60D20A33
 P 7300 2850
-F 0 "SW43" H 7300 3135 50  0000 C CNN
+F 0 "SW48" H 7300 3135 50  0000 C CNN
 F 1 "MX_SW" H 7300 3044 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 7300 3050 50  0001 C CNN
 F 3 "~" H 7300 3050 50  0001 C CNN
@@ -5759,10 +5759,10 @@ Wire Wire Line
 Wire Wire Line
 	7100 2200 7050 2200
 $Comp
-L eec-fairchild:LL4148 D42
+L eec-fairchild:LL4148 D47
 U 1 1 60CC81C3
 P 7050 2100
-F 0 "D42" V 7254 2178 50  0000 L CNN
+F 0 "D47" V 7254 2178 50  0000 L CNN
 F 1 "LL4148" V 7345 2178 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 7050 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7050 2600 50  0001 L CNN
@@ -5783,10 +5783,10 @@ F 16 "" H 7050 3900 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW42
+L cldg:MX_SW SW47
 U 1 1 60CC81B0
 P 7300 2200
-F 0 "SW42" H 7300 2485 50  0000 C CNN
+F 0 "SW47" H 7300 2485 50  0000 C CNN
 F 1 "MX_SW" H 7300 2394 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 7300 2400 50  0001 C CNN
 F 3 "~" H 7300 2400 50  0001 C CNN
@@ -5798,10 +5798,10 @@ Wire Wire Line
 Wire Wire Line
 	7100 1550 7050 1550
 $Comp
-L eec-fairchild:LL4148 D41
+L eec-fairchild:LL4148 D46
 U 1 1 60C6E416
 P 7050 1450
-F 0 "D41" V 7254 1528 50  0000 L CNN
+F 0 "D46" V 7254 1528 50  0000 L CNN
 F 1 "LL4148" V 7345 1528 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 7050 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7050 1950 50  0001 L CNN
@@ -5822,10 +5822,10 @@ F 16 "" H 7050 3250 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW41
+L cldg:MX_SW SW46
 U 1 1 60C6E403
 P 7300 1550
-F 0 "SW41" H 7300 1835 50  0000 C CNN
+F 0 "SW46" H 7300 1835 50  0000 C CNN
 F 1 "MX_SW" H 7300 1744 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 7300 1750 50  0001 C CNN
 F 3 "~" H 7300 1750 50  0001 C CNN
@@ -5839,10 +5839,10 @@ Wire Wire Line
 Wire Wire Line
 	7100 900  7050 900 
 $Comp
-L eec-fairchild:LL4148 D40
+L eec-fairchild:LL4148 D45
 U 1 1 60C1114F
 P 7050 800
-F 0 "D40" V 7254 878 50  0000 L CNN
+F 0 "D45" V 7254 878 50  0000 L CNN
 F 1 "LL4148" V 7345 878 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 7050 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7050 1300 50  0001 L CNN
@@ -5863,10 +5863,10 @@ F 16 "" H 7050 2600 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW40
+L cldg:MX_SW SW45
 U 1 1 60C1113C
 P 7300 900
-F 0 "SW40" H 7300 1185 50  0000 C CNN
+F 0 "SW45" H 7300 1185 50  0000 C CNN
 F 1 "MX_SW" H 7300 1094 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 7300 1100 50  0001 C CNN
 F 3 "~" H 7300 1100 50  0001 C CNN
