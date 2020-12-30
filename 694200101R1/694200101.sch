@@ -14,12 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L eec-gct:USB4085-GF-A J?
+L eec-gct:USB4085-GF-A J1
 U 1 1 5FF063B4
 P 1950 6150
-F 0 "J?" H 1222 4296 50  0000 R CNN
+F 0 "J1" H 1222 4296 50  0000 R CNN
 F 1 "USB4085-GF-A" H 1222 4205 50  0000 R CNN
-F 2 "Global_Connector_Technology-USB4085-GF-A-*" H 1950 6650 50  0001 L CNN
+F 2 "eec-GCT:Global_Connector_Technology-USB4085-GF-A-MFG" H 1950 6650 50  0001 L CNN
 F 3 "https://gct.co/files/drawings/usb4085.pdf" H 1950 6750 50  0001 L CNN
 F 4 "No" H 1950 6850 50  0001 L CNN "automotive"
 F 5 "Conn" H 1950 6950 50  0001 L CNN "category"
@@ -91,10 +91,10 @@ Wire Wire Line
 Wire Wire Line
 	2400 8950 1850 8950
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5FF3187D
 P 2500 9950
-F 0 "#PWR?" H 2500 9700 50  0001 C CNN
+F 0 "#PWR0101" H 2500 9700 50  0001 C CNN
 F 1 "GND" H 2505 9777 50  0000 C CNN
 F 2 "" H 2500 9950 50  0001 C CNN
 F 3 "" H 2500 9950 50  0001 C CNN
@@ -126,10 +126,10 @@ Text GLabel 2850 8550 2    50   Input ~ 0
 USB_D-
 Connection ~ 2400 6350
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0102
 U 1 1 5FF35DFE
 P 2400 6000
-F 0 "#PWR?" H 2400 5850 50  0001 C CNN
+F 0 "#PWR0102" H 2400 5850 50  0001 C CNN
 F 1 "+5V" H 2415 6173 50  0000 C CNN
 F 2 "" H 2400 6000 50  0001 C CNN
 F 3 "" H 2400 6000 50  0001 C CNN
@@ -149,12 +149,12 @@ Wire Wire Line
 Wire Wire Line
 	2500 7750 2500 8150
 $Comp
-L eec-Yageo:RC0603FR-075K1L R?
+L Resistor-Lib:RC0603FR-075K1L R1
 U 1 1 5FF638A1
 P 1750 6550
-F 0 "R?" H 2100 6750 50  0000 C CNN
+F 0 "R1" H 2100 6750 50  0000 C CNN
 F 1 "RC0603FR-075K1L" H 2100 6674 50  0001 C CNN
-F 2 "Yageo-RC0603-0-0-*" H 1750 6950 50  0001 L CNN
+F 2 "Resistor-Libs:Yageo-RC0603-0-0-IPC_C" H 1750 6950 50  0001 L CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 1750 7050 50  0001 L CNN
 F 4 "541-1.00HHCT-ND" H 1750 7150 50  0001 L CNN "approved alternate part number"
 F 5 "Res" H 1750 7250 50  0001 L CNN "category"
@@ -188,12 +188,12 @@ F 31 "75V" H 1750 9850 50  0001 L CNN "voltage rating"
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-Yageo:RC0603FR-075K1L R?
+L Resistor-Lib:RC0603FR-075K1L R2
 U 1 1 5FF6B199
 P 1750 8150
-F 0 "R?" H 2100 8350 50  0000 C CNN
+F 0 "R2" H 2100 8350 50  0000 C CNN
 F 1 "RC0603FR-075K1L" H 2100 8274 50  0001 C CNN
-F 2 "Yageo-RC0603-0-0-*" H 1750 8550 50  0001 L CNN
+F 2 "Resistor-Libs:Yageo-RC0603-0-0-IPC_C" H 1750 8550 50  0001 L CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 1750 8650 50  0001 L CNN
 F 4 "541-1.00HHCT-ND" H 1750 8750 50  0001 L CNN "approved alternate part number"
 F 5 "Res" H 1750 8850 50  0001 L CNN "category"
@@ -237,21 +237,21 @@ Connection ~ 2500 6550
 Wire Wire Line
 	2500 6550 2500 7550
 $Comp
-L DI-LVO:AP2114HA-3.3TRG1 U?
+L DI-LVO:AP2114HA-3.3TRG1 U2
 U 1 1 5FF9E77D
 P 2950 9500
-F 0 "U?" H 4050 9887 60  0000 C CNN
+F 0 "U2" H 4050 9887 60  0000 C CNN
 F 1 "AP2114HA-3.3TRG1" H 4050 9781 60  0000 C CNN
-F 2 "SOT-223_DIO" H 4050 9740 60  0001 C CNN
+F 2 "DI-LVO:AP2114HA-3.3TRG1" H 4050 9740 60  0001 C CNN
 F 3 "" H 2950 9500 60  0000 C CNN
 	1    2950 9500
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0103
 U 1 1 5FFA23B6
 P 2950 9500
-F 0 "#PWR?" H 2950 9350 50  0001 C CNN
+F 0 "#PWR0103" H 2950 9350 50  0001 C CNN
 F 1 "+5V" H 2965 9673 50  0000 C CNN
 F 2 "" H 2950 9500 50  0001 C CNN
 F 3 "" H 2950 9500 50  0001 C CNN
@@ -259,12 +259,12 @@ F 3 "" H 2950 9500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L capacitor-lib:CL10B104KB8NNNL C?
+L capacitor-lib:CL10B104KB8NNNL C5
 U 1 1 5FFB6368
 P 8650 6100
-F 0 "C?" H 8523 6046 50  0000 R CNN
+F 0 "C5" H 8523 6046 50  0000 R CNN
 F 1 "CL10B104KB8NNNL" H 8522 5955 50  0001 R CNN
-F 2 "Samsung-CL10-09_2006-0-*" H 8650 6400 50  0001 L CNN
+F 2 "capacitor-lib:Samsung-CL10-09_2006-0-IPC_C" H 8650 6400 50  0001 L CNN
 F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 8650 6500 50  0001 L CNN
 F 4 "No" H 8650 6600 50  0001 L CNN "automotive"
 F 5 "100nF" H 8523 5955 50  0000 R CNN "capacitance"
@@ -294,12 +294,12 @@ $EndComp
 Wire Wire Line
 	8650 6400 8650 6300
 $Comp
-L capacitor-lib:CL10B103KB8NNNC C?
+L capacitor-lib:CL10B103KB8NNNC C3
 U 1 1 5FFC329D
 P 6450 9700
-F 0 "C?" H 6578 9646 50  0000 L CNN
+F 0 "C3" H 6578 9646 50  0000 L CNN
 F 1 "CL10B103KB8NNNC" H 6578 9555 50  0001 L CNN
-F 2 "Samsung-0603_1608_Metric-0-0-*" H 6450 10000 50  0001 L CNN
+F 2 "capacitor-lib:Samsung-0603_1608_Metric-0-0-0" H 6450 10000 50  0001 L CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL10B103KB8NNNC.pdf" H 6450 10100 50  0001 L CNN
 F 4 "10nF" H 6578 9555 50  0000 L CNN "capacitance"
 F 5 "Cap" H 6450 10300 50  0001 L CNN "category"
@@ -318,12 +318,12 @@ F 16 "50V" H 6450 11400 50  0001 L CNN "voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L capacitor-lib:CL10B105KA8NNNC C?
+L capacitor-lib:CL10B105KA8NNNC C1
 U 1 1 5FFCA6E4
 P 5550 9700
-F 0 "C?" H 5678 9646 50  0000 L CNN
+F 0 "C1" H 5678 9646 50  0000 L CNN
 F 1 "CL10B105KA8NNNC" H 5422 9555 50  0001 R CNN
-F 2 "Samsung-CL10-0-0-*" H 5550 10000 50  0001 L CNN
+F 2 "capacitor-lib:Samsung-CL10-0-0-IPC_C" H 5550 10000 50  0001 L CNN
 F 3 "http://www.samsungsem.com/global/front/downloadcms.do?path=%2F%2Fglobal%2F%2Fsupport%2F%2Fproduct-search%2F%2Fmlcc%2F%2F__icsFiles%2F%2Fafieldfile%2F%2F2018%2F%2F07%2F%2F24&fileName=CL10B105KA8NNNC.pdf" H 5550 10100 50  0001 L CNN
 F 4 "CAP CER 1UF 25V X7R 0603" H 5550 10200 50  0001 L CNN "approved alternate part number"
 F 5 "No" H 5550 10300 50  0001 L CNN "automotive"
@@ -353,12 +353,12 @@ F 27 "25V" H 5550 12500 50  0001 L CNN "voltage rating"
 	1    0    0    -1  
 $EndComp
 $Comp
-L capacitor-lib:CL10B104KB8NNNL C?
+L capacitor-lib:CL10B104KB8NNNL C2
 U 1 1 5FFC635A
 P 5950 9700
-F 0 "C?" H 6078 9646 50  0000 L CNN
+F 0 "C2" H 6078 9646 50  0000 L CNN
 F 1 "CL10B104KB8NNNL" H 6078 9555 50  0001 L CNN
-F 2 "Samsung-CL10-09_2006-0-*" H 5950 10000 50  0001 L CNN
+F 2 "capacitor-lib:Samsung-CL10-09_2006-0-IPC_C" H 5950 10000 50  0001 L CNN
 F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 5950 10100 50  0001 L CNN
 F 4 "No" H 5950 10200 50  0001 L CNN "automotive"
 F 5 "100nF" H 6078 9555 50  0000 L CNN "capacitance"
@@ -411,10 +411,10 @@ Wire Wire Line
 	5150 9600 5550 9600
 Connection ~ 5550 9600
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0104
 U 1 1 60025455
 P 6450 9600
-F 0 "#PWR?" H 6450 9450 50  0001 C CNN
+F 0 "#PWR0104" H 6450 9450 50  0001 C CNN
 F 1 "+3V3" H 6465 9773 50  0000 C CNN
 F 2 "" H 6450 9600 50  0001 C CNN
 F 3 "" H 6450 9600 50  0001 C CNN
@@ -438,10 +438,10 @@ Wire Wire Line
 	2950 9950 2500 9950
 Connection ~ 2950 9950
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0105
 U 1 1 6002F4CC
 P 8950 5950
-F 0 "#PWR?" H 8950 5800 50  0001 C CNN
+F 0 "#PWR0105" H 8950 5800 50  0001 C CNN
 F 1 "+3V3" H 8965 6123 50  0000 C CNN
 F 2 "" H 8950 5950 50  0001 C CNN
 F 3 "" H 8950 5950 50  0001 C CNN
@@ -511,10 +511,10 @@ Wire Wire Line
 	9050 10100 9050 10000
 Connection ~ 8950 10100
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0106
 U 1 1 5FFAF2AA
 P 8850 10200
-F 0 "#PWR?" H 8850 9950 50  0001 C CNN
+F 0 "#PWR0106" H 8850 9950 50  0001 C CNN
 F 1 "GND" H 8772 10163 50  0000 R CNN
 F 2 "" H 8850 10200 50  0001 C CNN
 F 3 "" H 8850 10200 50  0001 C CNN
@@ -524,32 +524,32 @@ $EndComp
 Wire Wire Line
 	8850 10100 8850 10200
 $Comp
-L Connector:Conn_01x02_Male J?
+L Connector:Conn_01x02_Male J2
 U 1 1 6006794B
 P 7350 6600
-F 0 "J?" H 7458 6781 50  0000 C CNN
+F 0 "J2" H 7458 6781 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 7458 6690 50  0000 C CNN
-F 2 "" H 7350 6600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7350 6600 50  0001 C CNN
 F 3 "~" H 7350 6600 50  0001 C CNN
 	1    7350 6600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male J?
+L Connector:Conn_01x02_Male J3
 U 1 1 6006B89E
 P 7500 7800
-F 0 "J?" H 7472 7774 50  0000 R CNN
+F 0 "J3" H 7472 7774 50  0000 R CNN
 F 1 "Conn_01x02_Male" H 7472 7683 50  0000 R CNN
-F 2 "" H 7500 7800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7500 7800 50  0001 C CNN
 F 3 "~" H 7500 7800 50  0001 C CNN
 	1    7500 7800
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0107
 U 1 1 60076D41
 P 7700 7800
-F 0 "#PWR?" H 7700 7650 50  0001 C CNN
+F 0 "#PWR0107" H 7700 7650 50  0001 C CNN
 F 1 "+3V3" H 7715 7973 50  0000 C CNN
 F 2 "" H 7700 7800 50  0001 C CNN
 F 3 "" H 7700 7800 50  0001 C CNN
@@ -559,10 +559,10 @@ $EndComp
 Wire Wire Line
 	8250 6600 7950 6600
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0108
 U 1 1 6007927B
 P 7550 6950
-F 0 "#PWR?" H 7550 6700 50  0001 C CNN
+F 0 "#PWR0108" H 7550 6700 50  0001 C CNN
 F 1 "GND" H 7555 6777 50  0000 C CNN
 F 2 "" H 7550 6950 50  0001 C CNN
 F 3 "" H 7550 6950 50  0001 C CNN
@@ -572,12 +572,12 @@ $EndComp
 Wire Wire Line
 	7700 7900 8250 7900
 $Comp
-L capacitor-lib:CL10B104KB8NNNL C?
+L capacitor-lib:CL10B104KB8NNNL C4
 U 1 1 600879ED
 P 7950 6650
-F 0 "C?" H 8078 6596 50  0000 L CNN
+F 0 "C4" H 8078 6596 50  0000 L CNN
 F 1 "CL10B104KB8NNNL" H 8078 6505 50  0001 L CNN
-F 2 "Samsung-CL10-09_2006-0-*" H 7950 6950 50  0001 L CNN
+F 2 "capacitor-lib:Samsung-CL10-09_2006-0-IPC_C" H 7950 6950 50  0001 L CNN
 F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 7950 7050 50  0001 L CNN
 F 4 "No" H 7950 7150 50  0001 L CNN "automotive"
 F 5 "100nF" H 8078 6505 50  0000 L CNN "capacitance"
@@ -619,23 +619,23 @@ Wire Wire Line
 	7550 6900 7550 6950
 Connection ~ 7550 6900
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW1
 U 1 1 60098C16
 P 1150 900
-F 0 "SW?" H 1150 1185 50  0000 C CNN
+F 0 "SW1" H 1150 1185 50  0000 C CNN
 F 1 "MX_SW" H 1150 1094 50  0000 C CNN
-F 2 "" H 1150 1100 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 1150 1100 50  0001 C CNN
 F 3 "~" H 1150 1100 50  0001 C CNN
 	1    1150 900 
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D1
 U 1 1 6009A28E
 P 900 800
-F 0 "D?" V 1104 878 50  0000 L CNN
+F 0 "D1" V 1104 878 50  0000 L CNN
 F 1 "LL4148" V 1195 878 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 900 1200 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 900 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 900 1300 50  0001 L CNN
 F 4 "Diode" H 900 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 900 1500 50  0001 L CNN "digikey description"
@@ -683,34 +683,34 @@ Wire Wire Line
 Wire Wire Line
 	15400 6500 15400 6350
 $Comp
-L Resistor-Lib:RNCP0603FTD10K0 R?
+L Resistor-Lib:RNCP0603FTD10K0 R7
 U 1 1 5FECBF04
 P 16050 6900
-F 0 "R?" V 16004 7005 50  0000 L CNN
+F 0 "R7" V 16004 7005 50  0000 L CNN
 F 1 "RNCP0603FTD10K0" H 15750 6700 50  0001 L BNN
-F 2 "RESC1508X50N" H 16050 6900 50  0001 L BNN
+F 2 "Resistor-Libs:RESC1508X50N" H 16050 6900 50  0001 L BNN
 F 3 "" H 16050 6900 50  0001 L BNN
 F 4 "10k" V 16095 7005 50  0000 L CNN "resistance"
 	1    16050 6900
 	0    1    1    0   
 $EndComp
 $Comp
-L Resistor-Lib:RNCP0603FTD10K0 R?
+L Resistor-Lib:RNCP0603FTD10K0 R5
 U 1 1 5FECA545
 P 15400 6900
-F 0 "R?" V 15354 7005 50  0000 L CNN
+F 0 "R5" V 15354 7005 50  0000 L CNN
 F 1 "RNCP0603FTD10K0" H 15100 6700 50  0001 L BNN
-F 2 "RESC1508X50N" H 15400 6900 50  0001 L BNN
+F 2 "Resistor-Libs:RESC1508X50N" H 15400 6900 50  0001 L BNN
 F 3 "" H 15400 6900 50  0001 L BNN
 F 4 "10k" V 15445 7005 50  0000 L CNN "resistance"
 	1    15400 6900
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0109
 U 1 1 5FEB4721
 P 15750 6350
-F 0 "#PWR?" H 15750 6200 50  0001 C CNN
+F 0 "#PWR0109" H 15750 6200 50  0001 C CNN
 F 1 "+3V3" H 15765 6523 50  0000 C CNN
 F 2 "" H 15750 6350 50  0001 C CNN
 F 3 "" H 15750 6350 50  0001 C CNN
@@ -730,24 +730,24 @@ Wire Wire Line
 	15400 7300 15400 7500
 Connection ~ 15400 7300
 $Comp
-L Resistor-Lib:RNCP0603FTD10K0 R?
+L Resistor-Lib:RNCP0603FTD10K0 R6
 U 1 1 5FF01719
 P 15400 7900
-F 0 "R?" V 15354 8005 50  0000 L CNN
+F 0 "R6" V 15354 8005 50  0000 L CNN
 F 1 "RNCP0603FTD10K0" H 15100 7700 50  0001 L BNN
-F 2 "RESC1508X50N" H 15400 7900 50  0001 L BNN
+F 2 "Resistor-Libs:RESC1508X50N" H 15400 7900 50  0001 L BNN
 F 3 "" H 15400 7900 50  0001 L BNN
 F 4 "10k" V 15445 8005 50  0000 L CNN "resistance"
 	1    15400 7900
 	0    1    1    0   
 $EndComp
 $Comp
-L Resistor-Lib:RNCP0603FTD10K0 R?
+L Resistor-Lib:RNCP0603FTD10K0 R8
 U 1 1 5FF03334
 P 16050 7900
-F 0 "R?" V 16004 8005 50  0000 L CNN
+F 0 "R8" V 16004 8005 50  0000 L CNN
 F 1 "RNCP0603FTD10K0" H 15750 7700 50  0001 L BNN
-F 2 "RESC1508X50N" H 16050 7900 50  0001 L BNN
+F 2 "Resistor-Libs:RESC1508X50N" H 16050 7900 50  0001 L BNN
 F 3 "" H 16050 7900 50  0001 L BNN
 F 4 "10k" V 16095 8005 50  0000 L CNN "resistance"
 	1    16050 7900
@@ -759,12 +759,12 @@ Connection ~ 16050 7400
 Wire Wire Line
 	15400 8300 15400 8350
 $Comp
-L capacitor-lib:CL10B103KB8NNNC C?
+L capacitor-lib:CL10B103KB8NNNC C6
 U 1 1 5FF114BE
 P 15250 8350
-F 0 "C?" V 14985 8250 50  0000 C CNN
+F 0 "C6" V 14985 8250 50  0000 C CNN
 F 1 "CL10B103KB8NNNC" V 15076 8250 50  0001 C CNN
-F 2 "Samsung-0603_1608_Metric-0-0-*" H 15250 8650 50  0001 L CNN
+F 2 "capacitor-lib:Samsung-0603_1608_Metric-0-0-0" H 15250 8650 50  0001 L CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL10B103KB8NNNC.pdf" H 15250 8750 50  0001 L CNN
 F 4 "10nF" V 15076 8250 50  0000 C CNN "capacitance"
 F 5 "Cap" H 15250 8950 50  0001 L CNN "category"
@@ -783,12 +783,12 @@ F 16 "50V" H 15250 10050 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L capacitor-lib:CL10B103KB8NNNC C?
+L capacitor-lib:CL10B103KB8NNNC C7
 U 1 1 5FF14861
 P 15250 8600
-F 0 "C?" V 15423 8500 50  0000 C CNN
+F 0 "C7" V 15423 8500 50  0000 C CNN
 F 1 "CL10B103KB8NNNC" V 15514 8500 50  0001 C CNN
-F 2 "Samsung-0603_1608_Metric-0-0-*" H 15250 8900 50  0001 L CNN
+F 2 "capacitor-lib:Samsung-0603_1608_Metric-0-0-0" H 15250 8900 50  0001 L CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL10B103KB8NNNC.pdf" H 15250 9000 50  0001 L CNN
 F 4 "10nF" V 15514 8500 50  0000 C CNN "capacitance"
 F 5 "Cap" H 15250 9200 50  0001 L CNN "category"
@@ -838,24 +838,24 @@ ENCODER_A
 Text GLabel 9900 8400 2    50   Input ~ 0
 ENCODER_B
 $Comp
-L Resistor-Lib:RMCF0603FT1K00 R?
+L Resistor-Lib:RMCF0603FT1K00 R3
 U 1 1 6001106E
 P 10550 8450
-F 0 "R?" V 10504 8555 50  0000 L CNN
+F 0 "R3" V 10504 8555 50  0000 L CNN
 F 1 "RMCF0603FT1K00" V 10595 8555 50  0001 L CNN
-F 2 "RESC1508X55N" H 10550 8450 50  0001 L BNN
+F 2 "Resistor-Libs:RESC1508X55N" H 10550 8450 50  0001 L BNN
 F 3 "" H 10550 8450 50  0001 L BNN
 F 4 "1k" V 10595 8555 50  0000 L CNN "resistance"
 	1    10550 8450
 	0    1    1    0   
 $EndComp
 $Comp
-L Resistor-Lib:RMCF0603FT1K00 R?
+L Resistor-Lib:RMCF0603FT1K00 R4
 U 1 1 60013A68
 P 10950 8450
-F 0 "R?" V 10904 8555 50  0000 L CNN
+F 0 "R4" V 10904 8555 50  0000 L CNN
 F 1 "RMCF0603FT1K00" V 10995 8555 50  0001 L CNN
-F 2 "RESC1508X55N" H 10950 8450 50  0001 L BNN
+F 2 "Resistor-Libs:RESC1508X55N" H 10950 8450 50  0001 L BNN
 F 3 "" H 10950 8450 50  0001 L BNN
 F 4 "1k" V 10995 8555 50  0000 L CNN "resistance"
 	1    10950 8450
@@ -878,10 +878,10 @@ Wire Wire Line
 Wire Wire Line
 	10950 8000 10950 8050
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0110
 U 1 1 60025E0E
 P 10750 8000
-F 0 "#PWR?" H 10750 7850 50  0001 C CNN
+F 0 "#PWR0110" H 10750 7850 50  0001 C CNN
 F 1 "+3V3" H 10765 8173 50  0000 C CNN
 F 2 "" H 10750 8000 50  0001 C CNN
 F 3 "" H 10750 8000 50  0001 C CNN
@@ -1024,12 +1024,12 @@ Wire Wire Line
 Wire Wire Line
 	950  1550 900  1550
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D2
 U 1 1 601B6B78
 P 900 1450
-F 0 "D?" V 1104 1528 50  0000 L CNN
+F 0 "D2" V 1104 1528 50  0000 L CNN
 F 1 "LL4148" V 1195 1528 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 900 1850 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 900 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 900 1950 50  0001 L CNN
 F 4 "Diode" H 900 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 900 2150 50  0001 L CNN "digikey description"
@@ -1048,12 +1048,12 @@ F 16 "" H 900 3250 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW2
 U 1 1 601B6B65
 P 1150 1550
-F 0 "SW?" H 1150 1835 50  0000 C CNN
+F 0 "SW2" H 1150 1835 50  0000 C CNN
 F 1 "MX_SW" H 1150 1744 50  0000 C CNN
-F 2 "" H 1150 1750 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 1150 1750 50  0001 C CNN
 F 3 "~" H 1150 1750 50  0001 C CNN
 	1    1150 1550
 	1    0    0    -1  
@@ -1063,12 +1063,12 @@ Wire Wire Line
 Wire Wire Line
 	950  2200 900  2200
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D3
 U 1 1 6022EB05
 P 900 2100
-F 0 "D?" V 1104 2178 50  0000 L CNN
+F 0 "D3" V 1104 2178 50  0000 L CNN
 F 1 "LL4148" V 1195 2178 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 900 2500 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 900 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 900 2600 50  0001 L CNN
 F 4 "Diode" H 900 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 900 2800 50  0001 L CNN "digikey description"
@@ -1087,12 +1087,12 @@ F 16 "" H 900 3900 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW3
 U 1 1 6022EB0B
 P 1150 2200
-F 0 "SW?" H 1150 2485 50  0000 C CNN
+F 0 "SW3" H 1150 2485 50  0000 C CNN
 F 1 "MX_SW" H 1150 2394 50  0000 C CNN
-F 2 "" H 1150 2400 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 1150 2400 50  0001 C CNN
 F 3 "~" H 1150 2400 50  0001 C CNN
 	1    1150 2200
 	1    0    0    -1  
@@ -1107,12 +1107,12 @@ Wire Wire Line
 Wire Wire Line
 	950  2850 900  2850
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D4
 U 1 1 6027E095
 P 900 2750
-F 0 "D?" V 1104 2828 50  0000 L CNN
+F 0 "D4" V 1104 2828 50  0000 L CNN
 F 1 "LL4148" V 1195 2828 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 900 3150 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 900 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 900 3250 50  0001 L CNN
 F 4 "Diode" H 900 3350 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 900 3450 50  0001 L CNN "digikey description"
@@ -1131,12 +1131,12 @@ F 16 "" H 900 4550 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW4
 U 1 1 6027E09B
 P 1150 2850
-F 0 "SW?" H 1150 3135 50  0000 C CNN
+F 0 "SW4" H 1150 3135 50  0000 C CNN
 F 1 "MX_SW" H 1150 3044 50  0000 C CNN
-F 2 "" H 1150 3050 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 1150 3050 50  0001 C CNN
 F 3 "~" H 1150 3050 50  0001 C CNN
 	1    1150 2850
 	1    0    0    -1  
@@ -1150,12 +1150,12 @@ Wire Wire Line
 Wire Wire Line
 	950  4150 900  4150
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D5
 U 1 1 6028A348
 P 900 4050
-F 0 "D?" V 1104 4128 50  0000 L CNN
+F 0 "D5" V 1104 4128 50  0000 L CNN
 F 1 "LL4148" V 1195 4128 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 900 4450 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 900 4450 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 900 4550 50  0001 L CNN
 F 4 "Diode" H 900 4650 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 900 4750 50  0001 L CNN "digikey description"
@@ -1174,12 +1174,12 @@ F 16 "" H 900 5850 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW5
 U 1 1 6028A34E
 P 1150 4150
-F 0 "SW?" H 1150 4435 50  0000 C CNN
+F 0 "SW5" H 1150 4435 50  0000 C CNN
 F 1 "MX_SW" H 1150 4344 50  0000 C CNN
-F 2 "" H 1150 4350 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 1150 4350 50  0001 C CNN
 F 3 "~" H 1150 4350 50  0001 C CNN
 	1    1150 4150
 	1    0    0    -1  
@@ -1201,12 +1201,12 @@ COL_1
 Wire Wire Line
 	1550 3500 1500 3500
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D7
 U 1 1 602F2C0D
 P 1500 3400
-F 0 "D?" V 1704 3478 50  0000 L CNN
+F 0 "D7" V 1704 3478 50  0000 L CNN
 F 1 "LL4148" V 1795 3478 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 1500 3800 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 1500 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 1500 3900 50  0001 L CNN
 F 4 "Diode" H 1500 4000 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 1500 4100 50  0001 L CNN "digikey description"
@@ -1225,12 +1225,12 @@ F 16 "" H 1500 5200 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW7
 U 1 1 602F2C13
 P 1750 3500
-F 0 "SW?" H 1750 3785 50  0000 C CNN
+F 0 "SW7" H 1750 3785 50  0000 C CNN
 F 1 "MX_SW" H 1750 3694 50  0000 C CNN
-F 2 "" H 1750 3700 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 1750 3700 50  0001 C CNN
 F 3 "~" H 1750 3700 50  0001 C CNN
 	1    1750 3500
 	1    0    0    -1  
@@ -1240,12 +1240,12 @@ Wire Wire Line
 Wire Wire Line
 	1550 4150 1500 4150
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D8
 U 1 1 603232FA
 P 1500 4050
-F 0 "D?" V 1704 4128 50  0000 L CNN
+F 0 "D8" V 1704 4128 50  0000 L CNN
 F 1 "LL4148" V 1795 4128 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 1500 4450 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 1500 4450 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 1500 4550 50  0001 L CNN
 F 4 "Diode" H 1500 4650 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 1500 4750 50  0001 L CNN "digikey description"
@@ -1264,12 +1264,12 @@ F 16 "" H 1500 5850 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW8
 U 1 1 60323300
 P 1750 4150
-F 0 "SW?" H 1750 4435 50  0000 C CNN
+F 0 "SW8" H 1750 4435 50  0000 C CNN
 F 1 "MX_SW" H 1750 4344 50  0000 C CNN
-F 2 "" H 1750 4350 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 1750 4350 50  0001 C CNN
 F 3 "~" H 1750 4350 50  0001 C CNN
 	1    1750 4150
 	1    0    0    -1  
@@ -1299,12 +1299,12 @@ Wire Wire Line
 	1950 1550 1950 3500
 Connection ~ 1950 1550
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D6
 U 1 1 602D5D39
 P 1500 1450
-F 0 "D?" V 1704 1528 50  0000 L CNN
+F 0 "D6" V 1704 1528 50  0000 L CNN
 F 1 "LL4148" V 1795 1528 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 1500 1850 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 1500 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 1500 1950 50  0001 L CNN
 F 4 "Diode" H 1500 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 1500 2150 50  0001 L CNN "digikey description"
@@ -1323,12 +1323,12 @@ F 16 "" H 1500 3250 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW6
 U 1 1 602D5D3F
 P 1750 1550
-F 0 "SW?" H 1750 1835 50  0000 C CNN
+F 0 "SW6" H 1750 1835 50  0000 C CNN
 F 1 "MX_SW" H 1750 1744 50  0000 C CNN
-F 2 "" H 1750 1750 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 1750 1750 50  0001 C CNN
 F 3 "~" H 1750 1750 50  0001 C CNN
 	1    1750 1550
 	1    0    0    -1  
@@ -1337,23 +1337,23 @@ Wire Wire Line
 	1550 1550 1500 1550
 Connection ~ 1500 4550
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW9
 U 1 1 6046B1A7
 P 2400 900
-F 0 "SW?" H 2400 1185 50  0000 C CNN
+F 0 "SW9" H 2400 1185 50  0000 C CNN
 F 1 "MX_SW" H 2400 1094 50  0000 C CNN
-F 2 "" H 2400 1100 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 2400 1100 50  0001 C CNN
 F 3 "~" H 2400 1100 50  0001 C CNN
 	1    2400 900 
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D9
 U 1 1 6046B1BA
 P 2150 800
-F 0 "D?" V 2354 878 50  0000 L CNN
+F 0 "D9" V 2354 878 50  0000 L CNN
 F 1 "LL4148" V 2445 878 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 2150 1200 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 2150 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2150 1300 50  0001 L CNN
 F 4 "Diode" H 2150 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2150 1500 50  0001 L CNN "digikey description"
@@ -1381,23 +1381,23 @@ Wire Wire Line
 Text GLabel 2600 850  1    50   Input ~ 0
 COL_2
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW10
 U 1 1 604B2B1F
 P 2400 1550
-F 0 "SW?" H 2400 1835 50  0000 C CNN
+F 0 "SW10" H 2400 1835 50  0000 C CNN
 F 1 "MX_SW" H 2400 1744 50  0000 C CNN
-F 2 "" H 2400 1750 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 2400 1750 50  0001 C CNN
 F 3 "~" H 2400 1750 50  0001 C CNN
 	1    2400 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D10
 U 1 1 604B2B32
 P 2150 1450
-F 0 "D?" V 2354 1528 50  0000 L CNN
+F 0 "D10" V 2354 1528 50  0000 L CNN
 F 1 "LL4148" V 2445 1528 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 2150 1850 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 2150 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2150 1950 50  0001 L CNN
 F 4 "Diode" H 2150 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2150 2150 50  0001 L CNN "digikey description"
@@ -1426,23 +1426,23 @@ Wire Wire Line
 	900  2600 2150 2600
 Connection ~ 900  2600
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW11
 U 1 1 604F1FEB
 P 2400 2200
-F 0 "SW?" H 2400 2485 50  0000 C CNN
+F 0 "SW11" H 2400 2485 50  0000 C CNN
 F 1 "MX_SW" H 2400 2394 50  0000 C CNN
-F 2 "" H 2400 2400 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 2400 2400 50  0001 C CNN
 F 3 "~" H 2400 2400 50  0001 C CNN
 	1    2400 2200
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D11
 U 1 1 604F1FFE
 P 2150 2100
-F 0 "D?" V 2354 2178 50  0000 L CNN
+F 0 "D11" V 2354 2178 50  0000 L CNN
 F 1 "LL4148" V 2445 2178 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 2150 2500 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 2150 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2150 2600 50  0001 L CNN
 F 4 "Diode" H 2150 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2150 2800 50  0001 L CNN "digikey description"
@@ -1471,23 +1471,23 @@ Wire Wire Line
 	900  3250 2150 3250
 Connection ~ 900  3250
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW12
 U 1 1 60525B1C
 P 2400 2850
-F 0 "SW?" H 2400 3135 50  0000 C CNN
+F 0 "SW12" H 2400 3135 50  0000 C CNN
 F 1 "MX_SW" H 2400 3044 50  0000 C CNN
-F 2 "" H 2400 3050 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 2400 3050 50  0001 C CNN
 F 3 "~" H 2400 3050 50  0001 C CNN
 	1    2400 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D12
 U 1 1 60525B2F
 P 2150 2750
-F 0 "D?" V 2354 2828 50  0000 L CNN
+F 0 "D12" V 2354 2828 50  0000 L CNN
 F 1 "LL4148" V 2445 2828 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 2150 3150 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 2150 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2150 3250 50  0001 L CNN
 F 4 "Diode" H 2150 3350 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2150 3450 50  0001 L CNN "digikey description"
@@ -1513,23 +1513,23 @@ Wire Wire Line
 	2600 2200 2600 2850
 Connection ~ 2600 2200
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW13
 U 1 1 6054FAC0
 P 2400 3500
-F 0 "SW?" H 2400 3785 50  0000 C CNN
+F 0 "SW13" H 2400 3785 50  0000 C CNN
 F 1 "MX_SW" H 2400 3694 50  0000 C CNN
-F 2 "" H 2400 3700 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 2400 3700 50  0001 C CNN
 F 3 "~" H 2400 3700 50  0001 C CNN
 	1    2400 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D13
 U 1 1 6054FAD3
 P 2150 3400
-F 0 "D?" V 2354 3478 50  0000 L CNN
+F 0 "D13" V 2354 3478 50  0000 L CNN
 F 1 "LL4148" V 2445 3478 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 2150 3800 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 2150 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2150 3900 50  0001 L CNN
 F 4 "Diode" H 2150 4000 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2150 4100 50  0001 L CNN "digikey description"
@@ -1558,23 +1558,23 @@ Wire Wire Line
 	1500 3900 2150 3900
 Connection ~ 1500 3900
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW14
 U 1 1 60579549
 P 3100 900
-F 0 "SW?" H 3100 1185 50  0000 C CNN
+F 0 "SW14" H 3100 1185 50  0000 C CNN
 F 1 "MX_SW" H 3100 1094 50  0000 C CNN
-F 2 "" H 3100 1100 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 3100 1100 50  0001 C CNN
 F 3 "~" H 3100 1100 50  0001 C CNN
 	1    3100 900 
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D14
 U 1 1 6057955C
 P 2850 800
-F 0 "D?" V 3054 878 50  0000 L CNN
+F 0 "D14" V 3054 878 50  0000 L CNN
 F 1 "LL4148" V 3145 878 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 2850 1200 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 2850 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2850 1300 50  0001 L CNN
 F 4 "Diode" H 2850 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2850 1500 50  0001 L CNN "digikey description"
@@ -1602,23 +1602,23 @@ COL_3
 Wire Wire Line
 	3300 850  3300 900 
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW15
 U 1 1 605A3188
 P 3100 1550
-F 0 "SW?" H 3100 1835 50  0000 C CNN
+F 0 "SW15" H 3100 1835 50  0000 C CNN
 F 1 "MX_SW" H 3100 1744 50  0000 C CNN
-F 2 "" H 3100 1750 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 3100 1750 50  0001 C CNN
 F 3 "~" H 3100 1750 50  0001 C CNN
 	1    3100 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D15
 U 1 1 605A319B
 P 2850 1450
-F 0 "D?" V 3054 1528 50  0000 L CNN
+F 0 "D15" V 3054 1528 50  0000 L CNN
 F 1 "LL4148" V 3145 1528 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 2850 1850 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 2850 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2850 1950 50  0001 L CNN
 F 4 "Diode" H 2850 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2850 2150 50  0001 L CNN "digikey description"
@@ -1644,23 +1644,23 @@ Wire Wire Line
 	2150 1950 2850 1950
 Connection ~ 2150 1950
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW16
 U 1 1 605CD694
 P 3100 2200
-F 0 "SW?" H 3100 2485 50  0000 C CNN
+F 0 "SW16" H 3100 2485 50  0000 C CNN
 F 1 "MX_SW" H 3100 2394 50  0000 C CNN
-F 2 "" H 3100 2400 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 3100 2400 50  0001 C CNN
 F 3 "~" H 3100 2400 50  0001 C CNN
 	1    3100 2200
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D16
 U 1 1 605CD6A7
 P 2850 2100
-F 0 "D?" V 3054 2178 50  0000 L CNN
+F 0 "D16" V 3054 2178 50  0000 L CNN
 F 1 "LL4148" V 3145 2178 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 2850 2500 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 2850 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2850 2600 50  0001 L CNN
 F 4 "Diode" H 2850 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2850 2800 50  0001 L CNN "digikey description"
@@ -1689,23 +1689,23 @@ Wire Wire Line
 	2850 2600 2150 2600
 Connection ~ 2150 2600
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW17
 U 1 1 605FA8F3
 P 3100 2850
-F 0 "SW?" H 3100 3135 50  0000 C CNN
+F 0 "SW17" H 3100 3135 50  0000 C CNN
 F 1 "MX_SW" H 3100 3044 50  0000 C CNN
-F 2 "" H 3100 3050 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 3100 3050 50  0001 C CNN
 F 3 "~" H 3100 3050 50  0001 C CNN
 	1    3100 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D17
 U 1 1 605FA906
 P 2850 2750
-F 0 "D?" V 3054 2828 50  0000 L CNN
+F 0 "D17" V 3054 2828 50  0000 L CNN
 F 1 "LL4148" V 3145 2828 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 2850 3150 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 2850 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2850 3250 50  0001 L CNN
 F 4 "Diode" H 2850 3350 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2850 3450 50  0001 L CNN "digikey description"
@@ -1734,23 +1734,23 @@ Wire Wire Line
 	2150 3250 2850 3250
 Connection ~ 2150 3250
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW18
 U 1 1 6062896F
 P 3100 3500
-F 0 "SW?" H 3100 3785 50  0000 C CNN
+F 0 "SW18" H 3100 3785 50  0000 C CNN
 F 1 "MX_SW" H 3100 3694 50  0000 C CNN
-F 2 "" H 3100 3700 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 3100 3700 50  0001 C CNN
 F 3 "~" H 3100 3700 50  0001 C CNN
 	1    3100 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D18
 U 1 1 60628982
 P 2850 3400
-F 0 "D?" V 3054 3478 50  0000 L CNN
+F 0 "D18" V 3054 3478 50  0000 L CNN
 F 1 "LL4148" V 3145 3478 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 2850 3800 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 2850 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2850 3900 50  0001 L CNN
 F 4 "Diode" H 2850 4000 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2850 4100 50  0001 L CNN "digikey description"
@@ -1779,23 +1779,23 @@ Wire Wire Line
 	3300 2850 3300 3500
 Connection ~ 3300 2850
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW19
 U 1 1 606591B3
 P 3100 4150
-F 0 "SW?" H 3100 4435 50  0000 C CNN
+F 0 "SW19" H 3100 4435 50  0000 C CNN
 F 1 "MX_SW" H 3100 4344 50  0000 C CNN
-F 2 "" H 3100 4350 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 3100 4350 50  0001 C CNN
 F 3 "~" H 3100 4350 50  0001 C CNN
 	1    3100 4150
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D19
 U 1 1 606591C6
 P 2850 4050
-F 0 "D?" V 3054 3973 50  0000 R CNN
+F 0 "D19" V 3054 3973 50  0000 R CNN
 F 1 "LL4148" V 3145 3973 50  0000 R CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 2850 4450 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 2850 4450 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2850 4550 50  0001 L CNN
 F 4 "Diode" H 2850 4650 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2850 4750 50  0001 L CNN "digikey description"
@@ -1823,23 +1823,23 @@ Wire Wire Line
 	3300 3500 3300 4150
 Connection ~ 3300 3500
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW20
 U 1 1 6068E5F6
 P 3800 900
-F 0 "SW?" H 3800 1185 50  0000 C CNN
+F 0 "SW20" H 3800 1185 50  0000 C CNN
 F 1 "MX_SW" H 3800 1094 50  0000 C CNN
-F 2 "" H 3800 1100 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 3800 1100 50  0001 C CNN
 F 3 "~" H 3800 1100 50  0001 C CNN
 	1    3800 900 
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D20
 U 1 1 6068E609
 P 3550 800
-F 0 "D?" V 3754 878 50  0000 L CNN
+F 0 "D20" V 3754 878 50  0000 L CNN
 F 1 "LL4148" V 3845 878 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 3550 1200 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 3550 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 3550 1300 50  0001 L CNN
 F 4 "Diode" H 3550 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 3550 1500 50  0001 L CNN "digikey description"
@@ -1867,23 +1867,23 @@ Wire Wire Line
 Text GLabel 4000 850  1    50   Input ~ 0
 COL_4
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW21
 U 1 1 606C0BED
 P 3800 1550
-F 0 "SW?" H 3800 1835 50  0000 C CNN
+F 0 "SW21" H 3800 1835 50  0000 C CNN
 F 1 "MX_SW" H 3800 1744 50  0000 C CNN
-F 2 "" H 3800 1750 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 3800 1750 50  0001 C CNN
 F 3 "~" H 3800 1750 50  0001 C CNN
 	1    3800 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D21
 U 1 1 606C0C00
 P 3550 1450
-F 0 "D?" V 3754 1528 50  0000 L CNN
+F 0 "D21" V 3754 1528 50  0000 L CNN
 F 1 "LL4148" V 3845 1528 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 3550 1850 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 3550 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 3550 1950 50  0001 L CNN
 F 4 "Diode" H 3550 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 3550 2150 50  0001 L CNN "digikey description"
@@ -1909,23 +1909,23 @@ Wire Wire Line
 	2850 1950 3550 1950
 Connection ~ 2850 1950
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW22
 U 1 1 606F5072
 P 3800 2200
-F 0 "SW?" H 3800 2485 50  0000 C CNN
+F 0 "SW22" H 3800 2485 50  0000 C CNN
 F 1 "MX_SW" H 3800 2394 50  0000 C CNN
-F 2 "" H 3800 2400 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 3800 2400 50  0001 C CNN
 F 3 "~" H 3800 2400 50  0001 C CNN
 	1    3800 2200
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D22
 U 1 1 606F5085
 P 3550 2100
-F 0 "D?" V 3754 2178 50  0000 L CNN
+F 0 "D22" V 3754 2178 50  0000 L CNN
 F 1 "LL4148" V 3845 2178 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 3550 2500 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 3550 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 3550 2600 50  0001 L CNN
 F 4 "Diode" H 3550 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 3550 2800 50  0001 L CNN "digikey description"
@@ -1954,23 +1954,23 @@ Wire Wire Line
 	2850 2600 3550 2600
 Connection ~ 2850 2600
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW23
 U 1 1 60729810
 P 3800 2850
-F 0 "SW?" H 3800 3135 50  0000 C CNN
+F 0 "SW23" H 3800 3135 50  0000 C CNN
 F 1 "MX_SW" H 3800 3044 50  0000 C CNN
-F 2 "" H 3800 3050 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 3800 3050 50  0001 C CNN
 F 3 "~" H 3800 3050 50  0001 C CNN
 	1    3800 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D23
 U 1 1 60729823
 P 3550 2750
-F 0 "D?" V 3754 2673 50  0000 R CNN
+F 0 "D23" V 3754 2673 50  0000 R CNN
 F 1 "LL4148" V 3845 2673 50  0000 R CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 3550 3150 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 3550 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 3550 3250 50  0001 L CNN
 F 4 "Diode" H 3550 3350 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 3550 3450 50  0001 L CNN "digikey description"
@@ -1999,23 +1999,23 @@ Wire Wire Line
 	4000 2200 4000 2850
 Connection ~ 4000 2200
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW24
 U 1 1 60760976
 P 3800 3500
-F 0 "SW?" H 3800 3785 50  0000 C CNN
+F 0 "SW24" H 3800 3785 50  0000 C CNN
 F 1 "MX_SW" H 3800 3694 50  0000 C CNN
-F 2 "" H 3800 3700 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 3800 3700 50  0001 C CNN
 F 3 "~" H 3800 3700 50  0001 C CNN
 	1    3800 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D24
 U 1 1 60760989
 P 3550 3400
-F 0 "D?" V 3754 3323 50  0000 R CNN
+F 0 "D24" V 3754 3323 50  0000 R CNN
 F 1 "LL4148" V 3845 3323 50  0000 R CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 3550 3800 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 3550 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 3550 3900 50  0001 L CNN
 F 4 "Diode" H 3550 4000 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 3550 4100 50  0001 L CNN "digikey description"
@@ -2042,23 +2042,23 @@ Wire Wire Line
 	2850 3900 3550 3900
 Connection ~ 2850 3900
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW25
 U 1 1 607983D4
 P 4500 900
-F 0 "SW?" H 4500 1185 50  0000 C CNN
+F 0 "SW25" H 4500 1185 50  0000 C CNN
 F 1 "MX_SW" H 4500 1094 50  0000 C CNN
-F 2 "" H 4500 1100 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 4500 1100 50  0001 C CNN
 F 3 "~" H 4500 1100 50  0001 C CNN
 	1    4500 900 
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D25
 U 1 1 607983E7
 P 4250 800
-F 0 "D?" V 4454 878 50  0000 L CNN
+F 0 "D25" V 4454 878 50  0000 L CNN
 F 1 "LL4148" V 4545 878 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 4250 1200 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 4250 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4250 1300 50  0001 L CNN
 F 4 "Diode" H 4250 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4250 1500 50  0001 L CNN "digikey description"
@@ -2086,23 +2086,23 @@ Wire Wire Line
 Text GLabel 4700 850  1    50   Input ~ 0
 COL_5
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW26
 U 1 1 607D34FE
 P 4500 1550
-F 0 "SW?" H 4500 1835 50  0000 C CNN
+F 0 "SW26" H 4500 1835 50  0000 C CNN
 F 1 "MX_SW" H 4500 1744 50  0000 C CNN
-F 2 "" H 4500 1750 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 4500 1750 50  0001 C CNN
 F 3 "~" H 4500 1750 50  0001 C CNN
 	1    4500 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D26
 U 1 1 607D3511
 P 4250 1450
-F 0 "D?" V 4454 1528 50  0000 L CNN
+F 0 "D26" V 4454 1528 50  0000 L CNN
 F 1 "LL4148" V 4545 1528 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 4250 1850 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 4250 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4250 1950 50  0001 L CNN
 F 4 "Diode" H 4250 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4250 2150 50  0001 L CNN "digikey description"
@@ -2128,23 +2128,23 @@ Wire Wire Line
 	3550 1950 4250 1950
 Connection ~ 3550 1950
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW27
 U 1 1 6080F94D
 P 4500 2200
-F 0 "SW?" H 4500 2485 50  0000 C CNN
+F 0 "SW27" H 4500 2485 50  0000 C CNN
 F 1 "MX_SW" H 4500 2394 50  0000 C CNN
-F 2 "" H 4500 2400 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 4500 2400 50  0001 C CNN
 F 3 "~" H 4500 2400 50  0001 C CNN
 	1    4500 2200
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D27
 U 1 1 6080F960
 P 4250 2100
-F 0 "D?" V 4454 2178 50  0000 L CNN
+F 0 "D27" V 4454 2178 50  0000 L CNN
 F 1 "LL4148" V 4545 2178 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 4250 2500 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 4250 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4250 2600 50  0001 L CNN
 F 4 "Diode" H 4250 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4250 2800 50  0001 L CNN "digikey description"
@@ -2173,23 +2173,23 @@ Wire Wire Line
 	3550 2600 4250 2600
 Connection ~ 3550 2600
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW28
 U 1 1 6084CA15
 P 4500 2850
-F 0 "SW?" H 4500 3135 50  0000 C CNN
+F 0 "SW28" H 4500 3135 50  0000 C CNN
 F 1 "MX_SW" H 4500 3044 50  0000 C CNN
-F 2 "" H 4500 3050 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 4500 3050 50  0001 C CNN
 F 3 "~" H 4500 3050 50  0001 C CNN
 	1    4500 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D28
 U 1 1 6084CA28
 P 4250 2750
-F 0 "D?" V 4454 2828 50  0000 L CNN
+F 0 "D28" V 4454 2828 50  0000 L CNN
 F 1 "LL4148" V 4545 2828 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 4250 3150 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 4250 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4250 3250 50  0001 L CNN
 F 4 "Diode" H 4250 3350 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4250 3450 50  0001 L CNN "digikey description"
@@ -2218,23 +2218,23 @@ Wire Wire Line
 	3550 3250 4250 3250
 Connection ~ 3550 3250
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW29
 U 1 1 6088C6C1
 P 4500 3500
-F 0 "SW?" H 4500 3785 50  0000 C CNN
+F 0 "SW29" H 4500 3785 50  0000 C CNN
 F 1 "MX_SW" H 4500 3694 50  0000 C CNN
-F 2 "" H 4500 3700 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 4500 3700 50  0001 C CNN
 F 3 "~" H 4500 3700 50  0001 C CNN
 	1    4500 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D29
 U 1 1 6088C6D4
 P 4250 3400
-F 0 "D?" V 4454 3478 50  0000 L CNN
+F 0 "D29" V 4454 3478 50  0000 L CNN
 F 1 "LL4148" V 4545 3478 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 4250 3800 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 4250 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4250 3900 50  0001 L CNN
 F 4 "Diode" H 4250 4000 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4250 4100 50  0001 L CNN "digikey description"
@@ -2265,23 +2265,23 @@ Connection ~ 3550 3900
 Wire Wire Line
 	3550 3800 3550 3900
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW30
 U 1 1 608CDBFC
 P 5200 1550
-F 0 "SW?" H 5200 1835 50  0000 C CNN
+F 0 "SW30" H 5200 1835 50  0000 C CNN
 F 1 "MX_SW" H 5200 1744 50  0000 C CNN
-F 2 "" H 5200 1750 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 5200 1750 50  0001 C CNN
 F 3 "~" H 5200 1750 50  0001 C CNN
 	1    5200 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D30
 U 1 1 608CDC0F
 P 4950 1450
-F 0 "D?" V 5154 1528 50  0000 L CNN
+F 0 "D30" V 5154 1528 50  0000 L CNN
 F 1 "LL4148" V 5245 1528 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 4950 1850 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 4950 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4950 1950 50  0001 L CNN
 F 4 "Diode" H 4950 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4950 2150 50  0001 L CNN "digikey description"
@@ -2309,23 +2309,23 @@ Wire Wire Line
 	4950 1850 4950 1950
 Connection ~ 4250 1950
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW31
 U 1 1 6093F643
 P 5200 2200
-F 0 "SW?" H 5200 2485 50  0000 C CNN
+F 0 "SW31" H 5200 2485 50  0000 C CNN
 F 1 "MX_SW" H 5200 2394 50  0000 C CNN
-F 2 "" H 5200 2400 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 5200 2400 50  0001 C CNN
 F 3 "~" H 5200 2400 50  0001 C CNN
 	1    5200 2200
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D31
 U 1 1 6093F656
 P 4950 2100
-F 0 "D?" V 5154 2178 50  0000 L CNN
+F 0 "D31" V 5154 2178 50  0000 L CNN
 F 1 "LL4148" V 5245 2178 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 4950 2500 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 4950 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4950 2600 50  0001 L CNN
 F 4 "Diode" H 4950 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4950 2800 50  0001 L CNN "digikey description"
@@ -2354,23 +2354,23 @@ Wire Wire Line
 	4250 2600 4950 2600
 Connection ~ 4250 2600
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW32
 U 1 1 60984002
 P 5200 2850
-F 0 "SW?" H 5200 3135 50  0000 C CNN
+F 0 "SW32" H 5200 3135 50  0000 C CNN
 F 1 "MX_SW" H 5200 3044 50  0000 C CNN
-F 2 "" H 5200 3050 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 5200 3050 50  0001 C CNN
 F 3 "~" H 5200 3050 50  0001 C CNN
 	1    5200 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D32
 U 1 1 60984015
 P 4950 2750
-F 0 "D?" V 5154 2828 50  0000 L CNN
+F 0 "D32" V 5154 2828 50  0000 L CNN
 F 1 "LL4148" V 5245 2828 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 4950 3150 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 4950 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4950 3250 50  0001 L CNN
 F 4 "Diode" H 4950 3350 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4950 3450 50  0001 L CNN "digikey description"
@@ -2399,23 +2399,23 @@ Wire Wire Line
 	4250 3250 4950 3250
 Connection ~ 4250 3250
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW33
 U 1 1 609CA0F3
 P 5200 3500
-F 0 "SW?" H 5200 3785 50  0000 C CNN
+F 0 "SW33" H 5200 3785 50  0000 C CNN
 F 1 "MX_SW" H 5200 3694 50  0000 C CNN
-F 2 "" H 5200 3700 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 5200 3700 50  0001 C CNN
 F 3 "~" H 5200 3700 50  0001 C CNN
 	1    5200 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D33
 U 1 1 609CA106
 P 4950 3400
-F 0 "D?" V 5154 3478 50  0000 L CNN
+F 0 "D33" V 5154 3478 50  0000 L CNN
 F 1 "LL4148" V 5245 3478 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 4950 3800 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 4950 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4950 3900 50  0001 L CNN
 F 4 "Diode" H 4950 4000 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4950 4100 50  0001 L CNN "digikey description"
@@ -2444,23 +2444,23 @@ Wire Wire Line
 	4250 3900 4950 3900
 Connection ~ 4250 3900
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW34
 U 1 1 60A11E9D
 P 5200 4150
-F 0 "SW?" H 5200 4435 50  0000 C CNN
+F 0 "SW34" H 5200 4435 50  0000 C CNN
 F 1 "MX_SW" H 5200 4344 50  0000 C CNN
-F 2 "" H 5200 4350 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 5200 4350 50  0001 C CNN
 F 3 "~" H 5200 4350 50  0001 C CNN
 	1    5200 4150
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D34
 U 1 1 60A11EB0
 P 4950 4050
-F 0 "D?" V 5154 4128 50  0000 L CNN
+F 0 "D34" V 5154 4128 50  0000 L CNN
 F 1 "LL4148" V 5245 4128 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 4950 4450 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 4950 4450 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4950 4550 50  0001 L CNN
 F 4 "Diode" H 4950 4650 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4950 4750 50  0001 L CNN "digikey description"
@@ -2489,23 +2489,23 @@ Wire Wire Line
 	5400 4150 5400 3500
 Connection ~ 5400 3500
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW35
 U 1 1 60A5E2CC
 P 5900 900
-F 0 "SW?" H 5900 1185 50  0000 C CNN
+F 0 "SW35" H 5900 1185 50  0000 C CNN
 F 1 "MX_SW" H 5900 1094 50  0000 C CNN
-F 2 "" H 5900 1100 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 5900 1100 50  0001 C CNN
 F 3 "~" H 5900 1100 50  0001 C CNN
 	1    5900 900 
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D35
 U 1 1 60A5E2DF
 P 5650 800
-F 0 "D?" V 5854 878 50  0000 L CNN
+F 0 "D35" V 5854 878 50  0000 L CNN
 F 1 "LL4148" V 5945 878 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 5650 1200 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 5650 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 5650 1300 50  0001 L CNN
 F 4 "Diode" H 5650 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 5650 1500 50  0001 L CNN "digikey description"
@@ -2533,23 +2533,23 @@ Wire Wire Line
 Text GLabel 6100 850  1    50   Input ~ 0
 COL_7
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW36
 U 1 1 60AAC55C
 P 5900 1550
-F 0 "SW?" H 5900 1835 50  0000 C CNN
+F 0 "SW36" H 5900 1835 50  0000 C CNN
 F 1 "MX_SW" H 5900 1744 50  0000 C CNN
-F 2 "" H 5900 1750 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 5900 1750 50  0001 C CNN
 F 3 "~" H 5900 1750 50  0001 C CNN
 	1    5900 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D36
 U 1 1 60AAC56F
 P 5650 1450
-F 0 "D?" V 5854 1528 50  0000 L CNN
+F 0 "D36" V 5854 1528 50  0000 L CNN
 F 1 "LL4148" V 5945 1528 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 5650 1850 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 5650 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 5650 1950 50  0001 L CNN
 F 4 "Diode" H 5650 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 5650 2150 50  0001 L CNN "digikey description"
@@ -2575,23 +2575,23 @@ Wire Wire Line
 	4950 1950 5650 1950
 Connection ~ 4950 1950
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW37
 U 1 1 60AFBAF7
 P 5900 2200
-F 0 "SW?" H 5900 2485 50  0000 C CNN
+F 0 "SW37" H 5900 2485 50  0000 C CNN
 F 1 "MX_SW" H 5900 2394 50  0000 C CNN
-F 2 "" H 5900 2400 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 5900 2400 50  0001 C CNN
 F 3 "~" H 5900 2400 50  0001 C CNN
 	1    5900 2200
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D37
 U 1 1 60AFBB0A
 P 5650 2100
-F 0 "D?" V 5854 2178 50  0000 L CNN
+F 0 "D37" V 5854 2178 50  0000 L CNN
 F 1 "LL4148" V 5945 2178 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 5650 2500 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 5650 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 5650 2600 50  0001 L CNN
 F 4 "Diode" H 5650 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 5650 2800 50  0001 L CNN "digikey description"
@@ -2620,23 +2620,23 @@ Wire Wire Line
 	4950 2600 5650 2600
 Connection ~ 4950 2600
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW38
 U 1 1 60B4AFF2
 P 5900 2850
-F 0 "SW?" H 5900 3135 50  0000 C CNN
+F 0 "SW38" H 5900 3135 50  0000 C CNN
 F 1 "MX_SW" H 5900 3044 50  0000 C CNN
-F 2 "" H 5900 3050 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 5900 3050 50  0001 C CNN
 F 3 "~" H 5900 3050 50  0001 C CNN
 	1    5900 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D38
 U 1 1 60B4B005
 P 5650 2750
-F 0 "D?" V 5854 2828 50  0000 L CNN
+F 0 "D38" V 5854 2828 50  0000 L CNN
 F 1 "LL4148" V 5945 2828 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 5650 3150 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 5650 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 5650 3250 50  0001 L CNN
 F 4 "Diode" H 5650 3350 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 5650 3450 50  0001 L CNN "digikey description"
@@ -2665,23 +2665,23 @@ Wire Wire Line
 	4950 3250 5650 3250
 Connection ~ 4950 3250
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW39
 U 1 1 60BBAE6A
 P 5900 3500
-F 0 "SW?" H 5900 3785 50  0000 C CNN
+F 0 "SW39" H 5900 3785 50  0000 C CNN
 F 1 "MX_SW" H 5900 3694 50  0000 C CNN
-F 2 "" H 5900 3700 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 5900 3700 50  0001 C CNN
 F 3 "~" H 5900 3700 50  0001 C CNN
 	1    5900 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D39
 U 1 1 60BBAE7D
 P 5650 3400
-F 0 "D?" V 5854 3478 50  0000 L CNN
+F 0 "D39" V 5854 3478 50  0000 L CNN
 F 1 "LL4148" V 5945 3478 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 5650 3800 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 5650 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 5650 3900 50  0001 L CNN
 F 4 "Diode" H 5650 4000 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 5650 4100 50  0001 L CNN "digikey description"
@@ -2710,23 +2710,23 @@ Wire Wire Line
 	4950 3900 5650 3900
 Connection ~ 4950 3900
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW40
 U 1 1 60C1113C
 P 6600 900
-F 0 "SW?" H 6600 1185 50  0000 C CNN
+F 0 "SW40" H 6600 1185 50  0000 C CNN
 F 1 "MX_SW" H 6600 1094 50  0000 C CNN
-F 2 "" H 6600 1100 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 6600 1100 50  0001 C CNN
 F 3 "~" H 6600 1100 50  0001 C CNN
 	1    6600 900 
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D40
 U 1 1 60C1114F
 P 6350 800
-F 0 "D?" V 6554 878 50  0000 L CNN
+F 0 "D40" V 6554 878 50  0000 L CNN
 F 1 "LL4148" V 6645 878 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 6350 1200 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 6350 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 6350 1300 50  0001 L CNN
 F 4 "Diode" H 6350 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 6350 1500 50  0001 L CNN "digikey description"
@@ -2754,23 +2754,23 @@ Wire Wire Line
 	5650 1300 6350 1300
 Connection ~ 5650 1300
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW41
 U 1 1 60C6E403
 P 6600 1550
-F 0 "SW?" H 6600 1835 50  0000 C CNN
+F 0 "SW41" H 6600 1835 50  0000 C CNN
 F 1 "MX_SW" H 6600 1744 50  0000 C CNN
-F 2 "" H 6600 1750 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 6600 1750 50  0001 C CNN
 F 3 "~" H 6600 1750 50  0001 C CNN
 	1    6600 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D41
 U 1 1 60C6E416
 P 6350 1450
-F 0 "D?" V 6554 1528 50  0000 L CNN
+F 0 "D41" V 6554 1528 50  0000 L CNN
 F 1 "LL4148" V 6645 1528 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 6350 1850 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 6350 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 6350 1950 50  0001 L CNN
 F 4 "Diode" H 6350 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 6350 2150 50  0001 L CNN "digikey description"
@@ -2796,23 +2796,23 @@ Wire Wire Line
 	5650 1950 6350 1950
 Connection ~ 5650 1950
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW42
 U 1 1 60CC81B0
 P 6600 2200
-F 0 "SW?" H 6600 2485 50  0000 C CNN
+F 0 "SW42" H 6600 2485 50  0000 C CNN
 F 1 "MX_SW" H 6600 2394 50  0000 C CNN
-F 2 "" H 6600 2400 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 6600 2400 50  0001 C CNN
 F 3 "~" H 6600 2400 50  0001 C CNN
 	1    6600 2200
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D42
 U 1 1 60CC81C3
 P 6350 2100
-F 0 "D?" V 6554 2178 50  0000 L CNN
+F 0 "D42" V 6554 2178 50  0000 L CNN
 F 1 "LL4148" V 6645 2178 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 6350 2500 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 6350 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 6350 2600 50  0001 L CNN
 F 4 "Diode" H 6350 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 6350 2800 50  0001 L CNN "digikey description"
@@ -2841,23 +2841,23 @@ Wire Wire Line
 	5650 2600 6350 2600
 Connection ~ 5650 2600
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW43
 U 1 1 60D20A33
 P 6600 2850
-F 0 "SW?" H 6600 3135 50  0000 C CNN
+F 0 "SW43" H 6600 3135 50  0000 C CNN
 F 1 "MX_SW" H 6600 3044 50  0000 C CNN
-F 2 "" H 6600 3050 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 6600 3050 50  0001 C CNN
 F 3 "~" H 6600 3050 50  0001 C CNN
 	1    6600 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D43
 U 1 1 60D20A46
 P 6350 2750
-F 0 "D?" V 6554 2828 50  0000 L CNN
+F 0 "D43" V 6554 2828 50  0000 L CNN
 F 1 "LL4148" V 6645 2828 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 6350 3150 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 6350 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 6350 3250 50  0001 L CNN
 F 4 "Diode" H 6350 3350 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 6350 3450 50  0001 L CNN "digikey description"
@@ -2886,23 +2886,23 @@ Wire Wire Line
 	5650 3250 6350 3250
 Connection ~ 5650 3250
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW44
 U 1 1 60D7D7B5
 P 6600 3500
-F 0 "SW?" H 6600 3785 50  0000 C CNN
+F 0 "SW44" H 6600 3785 50  0000 C CNN
 F 1 "MX_SW" H 6600 3694 50  0000 C CNN
-F 2 "" H 6600 3700 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 6600 3700 50  0001 C CNN
 F 3 "~" H 6600 3700 50  0001 C CNN
 	1    6600 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D44
 U 1 1 60D7D7C8
 P 6350 3400
-F 0 "D?" V 6554 3478 50  0000 L CNN
+F 0 "D44" V 6554 3478 50  0000 L CNN
 F 1 "LL4148" V 6645 3478 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 6350 3800 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 6350 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 6350 3900 50  0001 L CNN
 F 4 "Diode" H 6350 4000 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 6350 4100 50  0001 L CNN "digikey description"
@@ -2931,23 +2931,23 @@ Wire Wire Line
 	5650 3900 6350 3900
 Connection ~ 5650 3900
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW45
 U 1 1 60DDC1C4
 P 7300 900
-F 0 "SW?" H 7300 1185 50  0000 C CNN
+F 0 "SW45" H 7300 1185 50  0000 C CNN
 F 1 "MX_SW" H 7300 1094 50  0000 C CNN
-F 2 "" H 7300 1100 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 7300 1100 50  0001 C CNN
 F 3 "~" H 7300 1100 50  0001 C CNN
 	1    7300 900 
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D45
 U 1 1 60DDC1D7
 P 7050 800
-F 0 "D?" V 7254 878 50  0000 L CNN
+F 0 "D45" V 7254 878 50  0000 L CNN
 F 1 "LL4148" V 7345 878 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 7050 1200 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 7050 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7050 1300 50  0001 L CNN
 F 4 "Diode" H 7050 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7050 1500 50  0001 L CNN "digikey description"
@@ -2975,23 +2975,23 @@ Wire Wire Line
 	6350 1300 7050 1300
 Connection ~ 6350 1300
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW46
 U 1 1 60E3B4E0
 P 7300 1550
-F 0 "SW?" H 7300 1835 50  0000 C CNN
+F 0 "SW46" H 7300 1835 50  0000 C CNN
 F 1 "MX_SW" H 7300 1744 50  0000 C CNN
-F 2 "" H 7300 1750 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 7300 1750 50  0001 C CNN
 F 3 "~" H 7300 1750 50  0001 C CNN
 	1    7300 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D46
 U 1 1 60E3B4F3
 P 7050 1450
-F 0 "D?" V 7254 1528 50  0000 L CNN
+F 0 "D46" V 7254 1528 50  0000 L CNN
 F 1 "LL4148" V 7345 1528 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 7050 1850 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 7050 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7050 1950 50  0001 L CNN
 F 4 "Diode" H 7050 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7050 2150 50  0001 L CNN "digikey description"
@@ -3017,23 +3017,23 @@ Wire Wire Line
 	6350 1950 7050 1950
 Connection ~ 6350 1950
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW47
 U 1 1 60E9BC78
 P 7300 2200
-F 0 "SW?" H 7300 2485 50  0000 C CNN
+F 0 "SW47" H 7300 2485 50  0000 C CNN
 F 1 "MX_SW" H 7300 2394 50  0000 C CNN
-F 2 "" H 7300 2400 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 7300 2400 50  0001 C CNN
 F 3 "~" H 7300 2400 50  0001 C CNN
 	1    7300 2200
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D47
 U 1 1 60E9BC8B
 P 7050 2100
-F 0 "D?" V 7254 2178 50  0000 L CNN
+F 0 "D47" V 7254 2178 50  0000 L CNN
 F 1 "LL4148" V 7345 2178 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 7050 2500 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 7050 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7050 2600 50  0001 L CNN
 F 4 "Diode" H 7050 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7050 2800 50  0001 L CNN "digikey description"
@@ -3062,23 +3062,23 @@ Wire Wire Line
 	6350 2600 7050 2600
 Connection ~ 6350 2600
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW48
 U 1 1 60EFDB84
 P 7300 2850
-F 0 "SW?" H 7300 3135 50  0000 C CNN
+F 0 "SW48" H 7300 3135 50  0000 C CNN
 F 1 "MX_SW" H 7300 3044 50  0000 C CNN
-F 2 "" H 7300 3050 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 7300 3050 50  0001 C CNN
 F 3 "~" H 7300 3050 50  0001 C CNN
 	1    7300 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D48
 U 1 1 60EFDB97
 P 7050 2750
-F 0 "D?" V 7254 2828 50  0000 L CNN
+F 0 "D48" V 7254 2828 50  0000 L CNN
 F 1 "LL4148" V 7345 2828 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 7050 3150 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 7050 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7050 3250 50  0001 L CNN
 F 4 "Diode" H 7050 3350 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7050 3450 50  0001 L CNN "digikey description"
@@ -3107,23 +3107,23 @@ Wire Wire Line
 	6350 3250 7050 3250
 Connection ~ 6350 3250
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW49
 U 1 1 60F623A3
 P 7300 3500
-F 0 "SW?" H 7300 3785 50  0000 C CNN
+F 0 "SW49" H 7300 3785 50  0000 C CNN
 F 1 "MX_SW" H 7300 3694 50  0000 C CNN
-F 2 "" H 7300 3700 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 7300 3700 50  0001 C CNN
 F 3 "~" H 7300 3700 50  0001 C CNN
 	1    7300 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D49
 U 1 1 60F623B6
 P 7050 3400
-F 0 "D?" V 7254 3478 50  0000 L CNN
+F 0 "D49" V 7254 3478 50  0000 L CNN
 F 1 "LL4148" V 7345 3478 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 7050 3800 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 7050 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7050 3900 50  0001 L CNN
 F 4 "Diode" H 7050 4000 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7050 4100 50  0001 L CNN "digikey description"
@@ -3152,23 +3152,23 @@ Wire Wire Line
 	7500 2850 7500 3500
 Connection ~ 7500 2850
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW50
 U 1 1 60FCAB46
 P 7300 4150
-F 0 "SW?" H 7300 4435 50  0000 C CNN
+F 0 "SW50" H 7300 4435 50  0000 C CNN
 F 1 "MX_SW" H 7300 4344 50  0000 C CNN
-F 2 "" H 7300 4350 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 7300 4350 50  0001 C CNN
 F 3 "~" H 7300 4350 50  0001 C CNN
 	1    7300 4150
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D50
 U 1 1 60FCAB59
 P 7050 4050
-F 0 "D?" V 7254 4128 50  0000 L CNN
+F 0 "D50" V 7254 4128 50  0000 L CNN
 F 1 "LL4148" V 7345 4128 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 7050 4450 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 7050 4450 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7050 4550 50  0001 L CNN
 F 4 "Diode" H 7050 4650 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7050 4750 50  0001 L CNN "digikey description"
@@ -3197,23 +3197,23 @@ Wire Wire Line
 	4950 4550 7050 4550
 Connection ~ 4950 4550
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW51
 U 1 1 6104739A
 P 8050 900
-F 0 "SW?" H 8050 1185 50  0000 C CNN
+F 0 "SW51" H 8050 1185 50  0000 C CNN
 F 1 "MX_SW" H 8050 1094 50  0000 C CNN
-F 2 "" H 8050 1100 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 8050 1100 50  0001 C CNN
 F 3 "~" H 8050 1100 50  0001 C CNN
 	1    8050 900 
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D51
 U 1 1 610473AD
 P 7800 800
-F 0 "D?" V 8004 878 50  0000 L CNN
+F 0 "D51" V 8004 878 50  0000 L CNN
 F 1 "LL4148" V 8095 878 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 7800 1200 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 7800 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7800 1300 50  0001 L CNN
 F 4 "Diode" H 7800 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7800 1500 50  0001 L CNN "digikey description"
@@ -3241,23 +3241,23 @@ Wire Wire Line
 Text GLabel 8250 850  1    50   Input ~ 0
 COL_11
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW52
 U 1 1 610B510C
 P 8050 1550
-F 0 "SW?" H 8050 1835 50  0000 C CNN
+F 0 "SW52" H 8050 1835 50  0000 C CNN
 F 1 "MX_SW" H 8050 1744 50  0000 C CNN
-F 2 "" H 8050 1750 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 8050 1750 50  0001 C CNN
 F 3 "~" H 8050 1750 50  0001 C CNN
 	1    8050 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D52
 U 1 1 610B511F
 P 7800 1450
-F 0 "D?" V 8004 1528 50  0000 L CNN
+F 0 "D52" V 8004 1528 50  0000 L CNN
 F 1 "LL4148" V 8095 1528 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 7800 1850 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 7800 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7800 1950 50  0001 L CNN
 F 4 "Diode" H 7800 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7800 2150 50  0001 L CNN "digikey description"
@@ -3283,23 +3283,23 @@ Wire Wire Line
 	7050 1950 7800 1950
 Connection ~ 7050 1950
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW53
 U 1 1 61121AA2
 P 8050 2200
-F 0 "SW?" H 8050 2485 50  0000 C CNN
+F 0 "SW53" H 8050 2485 50  0000 C CNN
 F 1 "MX_SW" H 8050 2394 50  0000 C CNN
-F 2 "" H 8050 2400 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 8050 2400 50  0001 C CNN
 F 3 "~" H 8050 2400 50  0001 C CNN
 	1    8050 2200
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D53
 U 1 1 61121AB5
 P 7800 2100
-F 0 "D?" V 8004 2178 50  0000 L CNN
+F 0 "D53" V 8004 2178 50  0000 L CNN
 F 1 "LL4148" V 8095 2178 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 7800 2500 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 7800 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7800 2600 50  0001 L CNN
 F 4 "Diode" H 7800 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7800 2800 50  0001 L CNN "digikey description"
@@ -3328,23 +3328,23 @@ Wire Wire Line
 	7050 2600 7800 2600
 Connection ~ 7050 2600
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW54
 U 1 1 6119094E
 P 8050 2850
-F 0 "SW?" H 8050 3135 50  0000 C CNN
+F 0 "SW54" H 8050 3135 50  0000 C CNN
 F 1 "MX_SW" H 8050 3044 50  0000 C CNN
-F 2 "" H 8050 3050 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 8050 3050 50  0001 C CNN
 F 3 "~" H 8050 3050 50  0001 C CNN
 	1    8050 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D54
 U 1 1 61190961
 P 7800 2750
-F 0 "D?" V 8004 2828 50  0000 L CNN
+F 0 "D54" V 8004 2828 50  0000 L CNN
 F 1 "LL4148" V 8095 2828 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 7800 3150 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 7800 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7800 3250 50  0001 L CNN
 F 4 "Diode" H 7800 3350 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7800 3450 50  0001 L CNN "digikey description"
@@ -3373,23 +3373,23 @@ Wire Wire Line
 	7050 3250 7800 3250
 Connection ~ 7050 3250
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW55
 U 1 1 61201B2A
 P 8050 3500
-F 0 "SW?" H 8050 3785 50  0000 C CNN
+F 0 "SW55" H 8050 3785 50  0000 C CNN
 F 1 "MX_SW" H 8050 3694 50  0000 C CNN
-F 2 "" H 8050 3700 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 8050 3700 50  0001 C CNN
 F 3 "~" H 8050 3700 50  0001 C CNN
 	1    8050 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D55
 U 1 1 61201B3D
 P 7800 3400
-F 0 "D?" V 8004 3478 50  0000 L CNN
+F 0 "D55" V 8004 3478 50  0000 L CNN
 F 1 "LL4148" V 8095 3478 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 7800 3800 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 7800 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7800 3900 50  0001 L CNN
 F 4 "Diode" H 7800 4000 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7800 4100 50  0001 L CNN "digikey description"
@@ -3418,23 +3418,23 @@ Wire Wire Line
 	7050 3900 7800 3900
 Connection ~ 7050 3900
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW56
 U 1 1 61277A55
 P 8050 4150
-F 0 "SW?" H 8050 4435 50  0000 C CNN
+F 0 "SW56" H 8050 4435 50  0000 C CNN
 F 1 "MX_SW" H 8050 4344 50  0000 C CNN
-F 2 "" H 8050 4350 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 8050 4350 50  0001 C CNN
 F 3 "~" H 8050 4350 50  0001 C CNN
 	1    8050 4150
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D56
 U 1 1 61277A68
 P 7800 4050
-F 0 "D?" V 8004 4128 50  0000 L CNN
+F 0 "D56" V 8004 4128 50  0000 L CNN
 F 1 "LL4148" V 8095 4128 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 7800 4450 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 7800 4450 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7800 4550 50  0001 L CNN
 F 4 "Diode" H 7800 4650 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7800 4750 50  0001 L CNN "digikey description"
@@ -3463,23 +3463,23 @@ Wire Wire Line
 	7050 4550 7800 4550
 Connection ~ 7050 4550
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW57
 U 1 1 612ED61B
 P 8750 900
-F 0 "SW?" H 8750 1185 50  0000 C CNN
+F 0 "SW57" H 8750 1185 50  0000 C CNN
 F 1 "MX_SW" H 8750 1094 50  0000 C CNN
-F 2 "" H 8750 1100 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 8750 1100 50  0001 C CNN
 F 3 "~" H 8750 1100 50  0001 C CNN
 	1    8750 900 
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D57
 U 1 1 612ED62E
 P 8500 800
-F 0 "D?" V 8704 878 50  0000 L CNN
+F 0 "D57" V 8704 878 50  0000 L CNN
 F 1 "LL4148" V 8795 878 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 8500 1200 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 8500 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 8500 1300 50  0001 L CNN
 F 4 "Diode" H 8500 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 8500 1500 50  0001 L CNN "digikey description"
@@ -3507,23 +3507,23 @@ Wire Wire Line
 Text GLabel 8950 850  1    50   Input ~ 0
 COL_12
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW58
 U 1 1 613655A9
 P 8750 1550
-F 0 "SW?" H 8750 1835 50  0000 C CNN
+F 0 "SW58" H 8750 1835 50  0000 C CNN
 F 1 "MX_SW" H 8750 1744 50  0000 C CNN
-F 2 "" H 8750 1750 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 8750 1750 50  0001 C CNN
 F 3 "~" H 8750 1750 50  0001 C CNN
 	1    8750 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D58
 U 1 1 613655BC
 P 8500 1450
-F 0 "D?" V 8704 1528 50  0000 L CNN
+F 0 "D58" V 8704 1528 50  0000 L CNN
 F 1 "LL4148" V 8795 1528 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 8500 1850 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 8500 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 8500 1950 50  0001 L CNN
 F 4 "Diode" H 8500 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 8500 2150 50  0001 L CNN "digikey description"
@@ -3549,23 +3549,23 @@ Wire Wire Line
 	7800 1950 8500 1950
 Connection ~ 7800 1950
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW59
 U 1 1 613DE8C1
 P 8750 2200
-F 0 "SW?" H 8750 2485 50  0000 C CNN
+F 0 "SW59" H 8750 2485 50  0000 C CNN
 F 1 "MX_SW" H 8750 2394 50  0000 C CNN
-F 2 "" H 8750 2400 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 8750 2400 50  0001 C CNN
 F 3 "~" H 8750 2400 50  0001 C CNN
 	1    8750 2200
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D59
 U 1 1 613DE8D4
 P 8500 2100
-F 0 "D?" V 8704 2178 50  0000 L CNN
+F 0 "D59" V 8704 2178 50  0000 L CNN
 F 1 "LL4148" V 8795 2178 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 8500 2500 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 8500 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 8500 2600 50  0001 L CNN
 F 4 "Diode" H 8500 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 8500 2800 50  0001 L CNN "digikey description"
@@ -3594,23 +3594,23 @@ Wire Wire Line
 	7800 2600 8500 2600
 Connection ~ 7800 2600
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW60
 U 1 1 6145A4CC
 P 8750 2850
-F 0 "SW?" H 8750 3135 50  0000 C CNN
+F 0 "SW60" H 8750 3135 50  0000 C CNN
 F 1 "MX_SW" H 8750 3044 50  0000 C CNN
-F 2 "" H 8750 3050 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 8750 3050 50  0001 C CNN
 F 3 "~" H 8750 3050 50  0001 C CNN
 	1    8750 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D60
 U 1 1 6145A4DF
 P 8500 2750
-F 0 "D?" V 8704 2828 50  0000 L CNN
+F 0 "D60" V 8704 2828 50  0000 L CNN
 F 1 "LL4148" V 8795 2828 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 8500 3150 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 8500 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 8500 3250 50  0001 L CNN
 F 4 "Diode" H 8500 3350 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 8500 3450 50  0001 L CNN "digikey description"
@@ -3639,23 +3639,23 @@ Wire Wire Line
 	7800 3250 8500 3250
 Connection ~ 7800 3250
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW61
 U 1 1 61506617
 P 9450 900
-F 0 "SW?" H 9450 1185 50  0000 C CNN
+F 0 "SW61" H 9450 1185 50  0000 C CNN
 F 1 "MX_SW" H 9450 1094 50  0000 C CNN
-F 2 "" H 9450 1100 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 9450 1100 50  0001 C CNN
 F 3 "~" H 9450 1100 50  0001 C CNN
 	1    9450 900 
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D61
 U 1 1 6150662A
 P 9200 800
-F 0 "D?" V 9404 878 50  0000 L CNN
+F 0 "D61" V 9404 878 50  0000 L CNN
 F 1 "LL4148" V 9495 878 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 9200 1200 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 9200 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9200 1300 50  0001 L CNN
 F 4 "Diode" H 9200 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 9200 1500 50  0001 L CNN "digikey description"
@@ -3741,23 +3741,23 @@ Wire Wire Line
 Text GLabel 9650 850  1    50   Input ~ 0
 COL_13
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW62
 U 1 1 619B4209
 P 9450 2200
-F 0 "SW?" H 9450 2485 50  0000 C CNN
+F 0 "SW62" H 9450 2485 50  0000 C CNN
 F 1 "MX_SW" H 9450 2394 50  0000 C CNN
-F 2 "" H 9450 2400 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 9450 2400 50  0001 C CNN
 F 3 "~" H 9450 2400 50  0001 C CNN
 	1    9450 2200
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D62
 U 1 1 619B421C
 P 9200 2100
-F 0 "D?" V 9404 2178 50  0000 L CNN
+F 0 "D62" V 9404 2178 50  0000 L CNN
 F 1 "LL4148" V 9495 2178 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 9200 2500 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 9200 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9200 2600 50  0001 L CNN
 F 4 "Diode" H 9200 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 9200 2800 50  0001 L CNN "digikey description"
@@ -3786,23 +3786,23 @@ Wire Wire Line
 	8500 2600 9200 2600
 Connection ~ 8500 2600
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW63
 U 1 1 61A6B7DC
 P 9450 2850
-F 0 "SW?" H 9450 3135 50  0000 C CNN
+F 0 "SW63" H 9450 3135 50  0000 C CNN
 F 1 "MX_SW" H 9450 3044 50  0000 C CNN
-F 2 "" H 9450 3050 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 9450 3050 50  0001 C CNN
 F 3 "~" H 9450 3050 50  0001 C CNN
 	1    9450 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D63
 U 1 1 61A6B7EF
 P 9200 2750
-F 0 "D?" V 9404 2828 50  0000 L CNN
+F 0 "D63" V 9404 2828 50  0000 L CNN
 F 1 "LL4148" V 9495 2828 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 9200 3150 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 9200 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9200 3250 50  0001 L CNN
 F 4 "Diode" H 9200 3350 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 9200 3450 50  0001 L CNN "digikey description"
@@ -3831,23 +3831,23 @@ Wire Wire Line
 	8500 3250 9200 3250
 Connection ~ 8500 3250
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW64
 U 1 1 61AF4752
 P 9450 3500
-F 0 "SW?" H 9450 3785 50  0000 C CNN
+F 0 "SW64" H 9450 3785 50  0000 C CNN
 F 1 "MX_SW" H 9450 3694 50  0000 C CNN
-F 2 "" H 9450 3700 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 9450 3700 50  0001 C CNN
 F 3 "~" H 9450 3700 50  0001 C CNN
 	1    9450 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D64
 U 1 1 61AF4765
 P 9200 3400
-F 0 "D?" V 9404 3478 50  0000 L CNN
+F 0 "D64" V 9404 3478 50  0000 L CNN
 F 1 "LL4148" V 9495 3478 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 9200 3800 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 9200 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9200 3900 50  0001 L CNN
 F 4 "Diode" H 9200 4000 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 9200 4100 50  0001 L CNN "digikey description"
@@ -3876,23 +3876,23 @@ Wire Wire Line
 	7800 3900 9200 3900
 Connection ~ 7800 3900
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW65
 U 1 1 61B7D7FF
 P 9450 4150
-F 0 "SW?" H 9450 4435 50  0000 C CNN
+F 0 "SW65" H 9450 4435 50  0000 C CNN
 F 1 "MX_SW" H 9450 4344 50  0000 C CNN
-F 2 "" H 9450 4350 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 9450 4350 50  0001 C CNN
 F 3 "~" H 9450 4350 50  0001 C CNN
 	1    9450 4150
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D65
 U 1 1 61B7D812
 P 9200 4050
-F 0 "D?" V 9404 4128 50  0000 L CNN
+F 0 "D65" V 9404 4128 50  0000 L CNN
 F 1 "LL4148" V 9495 4128 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 9200 4450 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 9200 4450 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9200 4550 50  0001 L CNN
 F 4 "Diode" H 9200 4650 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 9200 4750 50  0001 L CNN "digikey description"
@@ -3921,23 +3921,23 @@ Wire Wire Line
 	9650 3500 9650 4150
 Connection ~ 9650 3500
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW66
 U 1 1 61C3BE7B
 P 10150 900
-F 0 "SW?" H 10150 1185 50  0000 C CNN
+F 0 "SW66" H 10150 1185 50  0000 C CNN
 F 1 "MX_SW" H 10150 1094 50  0000 C CNN
-F 2 "" H 10150 1100 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 10150 1100 50  0001 C CNN
 F 3 "~" H 10150 1100 50  0001 C CNN
 	1    10150 900 
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D66
 U 1 1 61C3BE8E
 P 9900 800
-F 0 "D?" V 10104 878 50  0000 L CNN
+F 0 "D66" V 10104 878 50  0000 L CNN
 F 1 "LL4148" V 10195 878 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 9900 1200 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 9900 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9900 1300 50  0001 L CNN
 F 4 "Diode" H 9900 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 9900 1500 50  0001 L CNN "digikey description"
@@ -3967,23 +3967,23 @@ Wire Wire Line
 Text GLabel 10350 850  1    50   Input ~ 0
 COL_14
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW67
 U 1 1 61CC975D
 P 10150 1550
-F 0 "SW?" H 10150 1835 50  0000 C CNN
+F 0 "SW67" H 10150 1835 50  0000 C CNN
 F 1 "MX_SW" H 10150 1744 50  0000 C CNN
-F 2 "" H 10150 1750 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 10150 1750 50  0001 C CNN
 F 3 "~" H 10150 1750 50  0001 C CNN
 	1    10150 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D67
 U 1 1 61CC9770
 P 9900 1450
-F 0 "D?" V 10104 1528 50  0000 L CNN
+F 0 "D67" V 10104 1528 50  0000 L CNN
 F 1 "LL4148" V 10195 1528 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 9900 1850 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 9900 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9900 1950 50  0001 L CNN
 F 4 "Diode" H 9900 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 9900 2150 50  0001 L CNN "digikey description"
@@ -4012,23 +4012,23 @@ Wire Wire Line
 	10350 900  10350 1550
 Connection ~ 10350 900 
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW68
 U 1 1 61D5AFAC
 P 10150 2200
-F 0 "SW?" H 10150 2485 50  0000 C CNN
+F 0 "SW68" H 10150 2485 50  0000 C CNN
 F 1 "MX_SW" H 10150 2394 50  0000 C CNN
-F 2 "" H 10150 2400 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 10150 2400 50  0001 C CNN
 F 3 "~" H 10150 2400 50  0001 C CNN
 	1    10150 2200
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D68
 U 1 1 61D5AFBF
 P 9900 2100
-F 0 "D?" V 10104 2178 50  0000 L CNN
+F 0 "D68" V 10104 2178 50  0000 L CNN
 F 1 "LL4148" V 10195 2178 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 9900 2500 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 9900 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9900 2600 50  0001 L CNN
 F 4 "Diode" H 9900 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 9900 2800 50  0001 L CNN "digikey description"
@@ -4057,23 +4057,23 @@ Wire Wire Line
 	9200 2600 9900 2600
 Connection ~ 9200 2600
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW69
 U 1 1 61EAD590
 P 10150 4150
-F 0 "SW?" H 10150 4435 50  0000 C CNN
+F 0 "SW69" H 10150 4435 50  0000 C CNN
 F 1 "MX_SW" H 10150 4344 50  0000 C CNN
-F 2 "" H 10150 4350 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 10150 4350 50  0001 C CNN
 F 3 "~" H 10150 4350 50  0001 C CNN
 	1    10150 4150
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D69
 U 1 1 61EAD5A3
 P 9900 4050
-F 0 "D?" V 10104 4128 50  0000 L CNN
+F 0 "D69" V 10104 4128 50  0000 L CNN
 F 1 "LL4148" V 10195 4128 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 9900 4450 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 9900 4450 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9900 4550 50  0001 L CNN
 F 4 "Diode" H 9900 4650 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 9900 4750 50  0001 L CNN "digikey description"
@@ -4102,23 +4102,23 @@ Wire Wire Line
 	9200 4550 9900 4550
 Connection ~ 9200 4550
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW70
 U 1 1 61F4175F
 P 10900 900
-F 0 "SW?" H 10900 1185 50  0000 C CNN
+F 0 "SW70" H 10900 1185 50  0000 C CNN
 F 1 "MX_SW" H 10900 1094 50  0000 C CNN
-F 2 "" H 10900 1100 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 10900 1100 50  0001 C CNN
 F 3 "~" H 10900 1100 50  0001 C CNN
 	1    10900 900 
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D70
 U 1 1 61F41772
 P 10650 800
-F 0 "D?" V 10854 878 50  0000 L CNN
+F 0 "D70" V 10854 878 50  0000 L CNN
 F 1 "LL4148" V 10945 878 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 10650 1200 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 10650 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 10650 1300 50  0001 L CNN
 F 4 "Diode" H 10650 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 10650 1500 50  0001 L CNN "digikey description"
@@ -4148,23 +4148,23 @@ Wire Wire Line
 Text GLabel 11100 850  1    50   Input ~ 0
 COL_15
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW71
 U 1 1 61FD94A1
 P 10900 1550
-F 0 "SW?" H 10900 1835 50  0000 C CNN
+F 0 "SW71" H 10900 1835 50  0000 C CNN
 F 1 "MX_SW" H 10900 1744 50  0000 C CNN
-F 2 "" H 10900 1750 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 10900 1750 50  0001 C CNN
 F 3 "~" H 10900 1750 50  0001 C CNN
 	1    10900 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D71
 U 1 1 61FD94B4
 P 10650 1450
-F 0 "D?" V 10854 1528 50  0000 L CNN
+F 0 "D71" V 10854 1528 50  0000 L CNN
 F 1 "LL4148" V 10945 1528 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 10650 1850 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 10650 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 10650 1950 50  0001 L CNN
 F 4 "Diode" H 10650 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 10650 2150 50  0001 L CNN "digikey description"
@@ -4193,23 +4193,23 @@ Wire Wire Line
 	9900 1950 10650 1950
 Connection ~ 9900 1950
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW72
 U 1 1 62070753
 P 10900 2200
-F 0 "SW?" H 10900 2485 50  0000 C CNN
+F 0 "SW72" H 10900 2485 50  0000 C CNN
 F 1 "MX_SW" H 10900 2394 50  0000 C CNN
-F 2 "" H 10900 2400 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 10900 2400 50  0001 C CNN
 F 3 "~" H 10900 2400 50  0001 C CNN
 	1    10900 2200
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D72
 U 1 1 62070766
 P 10650 2100
-F 0 "D?" V 10854 2178 50  0000 L CNN
+F 0 "D72" V 10854 2178 50  0000 L CNN
 F 1 "LL4148" V 10945 2178 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 10650 2500 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 10650 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 10650 2600 50  0001 L CNN
 F 4 "Diode" H 10650 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 10650 2800 50  0001 L CNN "digikey description"
@@ -4238,23 +4238,23 @@ Wire Wire Line
 	9900 2600 10650 2600
 Connection ~ 9900 2600
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW73
 U 1 1 6210B6D1
 P 10900 4150
-F 0 "SW?" H 10900 4435 50  0000 C CNN
+F 0 "SW73" H 10900 4435 50  0000 C CNN
 F 1 "MX_SW" H 10900 4344 50  0000 C CNN
-F 2 "" H 10900 4350 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 10900 4350 50  0001 C CNN
 F 3 "~" H 10900 4350 50  0001 C CNN
 	1    10900 4150
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D73
 U 1 1 6210B6E4
 P 10650 4050
-F 0 "D?" V 10854 4128 50  0000 L CNN
+F 0 "D73" V 10854 4128 50  0000 L CNN
 F 1 "LL4148" V 10945 4128 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 10650 4450 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 10650 4450 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 10650 4550 50  0001 L CNN
 F 4 "Diode" H 10650 4650 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 10650 4750 50  0001 L CNN "digikey description"
@@ -4283,23 +4283,23 @@ Wire Wire Line
 	9900 4550 10650 4550
 Connection ~ 9900 4550
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW74
 U 1 1 621DF490
 P 11600 900
-F 0 "SW?" H 11600 1185 50  0000 C CNN
+F 0 "SW74" H 11600 1185 50  0000 C CNN
 F 1 "MX_SW" H 11600 1094 50  0000 C CNN
-F 2 "" H 11600 1100 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 11600 1100 50  0001 C CNN
 F 3 "~" H 11600 1100 50  0001 C CNN
 	1    11600 900 
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D74
 U 1 1 621DF4A3
 P 11350 800
-F 0 "D?" V 11554 878 50  0000 L CNN
+F 0 "D74" V 11554 878 50  0000 L CNN
 F 1 "LL4148" V 11645 878 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 11350 1200 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 11350 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 11350 1300 50  0001 L CNN
 F 4 "Diode" H 11350 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 11350 1500 50  0001 L CNN "digikey description"
@@ -4329,23 +4329,23 @@ Wire Wire Line
 	11350 1200 11350 1300
 Connection ~ 10650 1300
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW75
 U 1 1 6227F1F4
 P 11600 1550
-F 0 "SW?" H 11600 1835 50  0000 C CNN
+F 0 "SW75" H 11600 1835 50  0000 C CNN
 F 1 "MX_SW" H 11600 1744 50  0000 C CNN
-F 2 "" H 11600 1750 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 11600 1750 50  0001 C CNN
 F 3 "~" H 11600 1750 50  0001 C CNN
 	1    11600 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D75
 U 1 1 6227F207
 P 11350 1450
-F 0 "D?" V 11554 1528 50  0000 L CNN
+F 0 "D75" V 11554 1528 50  0000 L CNN
 F 1 "LL4148" V 11645 1528 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 11350 1850 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 11350 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 11350 1950 50  0001 L CNN
 F 4 "Diode" H 11350 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 11350 2150 50  0001 L CNN "digikey description"
@@ -4374,23 +4374,23 @@ Wire Wire Line
 	10650 1950 11350 1950
 Connection ~ 10650 1950
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW76
 U 1 1 62322921
 P 11600 2200
-F 0 "SW?" H 11600 2485 50  0000 C CNN
+F 0 "SW76" H 11600 2485 50  0000 C CNN
 F 1 "MX_SW" H 11600 2394 50  0000 C CNN
-F 2 "" H 11600 2400 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 11600 2400 50  0001 C CNN
 F 3 "~" H 11600 2400 50  0001 C CNN
 	1    11600 2200
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D76
 U 1 1 62322934
 P 11350 2100
-F 0 "D?" V 11554 2178 50  0000 L CNN
+F 0 "D76" V 11554 2178 50  0000 L CNN
 F 1 "LL4148" V 11645 2178 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 11350 2500 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 11350 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 11350 2600 50  0001 L CNN
 F 4 "Diode" H 11350 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 11350 2800 50  0001 L CNN "digikey description"
@@ -4419,23 +4419,23 @@ Wire Wire Line
 	10650 2600 11350 2600
 Connection ~ 10650 2600
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW77
 U 1 1 623C3CDD
 P 11600 3500
-F 0 "SW?" H 11600 3785 50  0000 C CNN
+F 0 "SW77" H 11600 3785 50  0000 C CNN
 F 1 "MX_SW" H 11600 3694 50  0000 C CNN
-F 2 "" H 11600 3700 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 11600 3700 50  0001 C CNN
 F 3 "~" H 11600 3700 50  0001 C CNN
 	1    11600 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D77
 U 1 1 623C3CF0
 P 11350 3400
-F 0 "D?" V 11554 3478 50  0000 L CNN
+F 0 "D77" V 11554 3478 50  0000 L CNN
 F 1 "LL4148" V 11645 3478 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 11350 3800 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 11350 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 11350 3900 50  0001 L CNN
 F 4 "Diode" H 11350 4000 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 11350 4100 50  0001 L CNN "digikey description"
@@ -4464,23 +4464,23 @@ Wire Wire Line
 	9200 3900 11350 3900
 Connection ~ 9200 3900
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW78
 U 1 1 62468130
 P 11600 4150
-F 0 "SW?" H 11600 4435 50  0000 C CNN
+F 0 "SW78" H 11600 4435 50  0000 C CNN
 F 1 "MX_SW" H 11600 4344 50  0000 C CNN
-F 2 "" H 11600 4350 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 11600 4350 50  0001 C CNN
 F 3 "~" H 11600 4350 50  0001 C CNN
 	1    11600 4150
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D78
 U 1 1 62468143
 P 11350 4050
-F 0 "D?" V 11554 4128 50  0000 L CNN
+F 0 "D78" V 11554 4128 50  0000 L CNN
 F 1 "LL4148" V 11645 4128 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 11350 4450 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 11350 4450 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 11350 4550 50  0001 L CNN
 F 4 "Diode" H 11350 4650 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 11350 4750 50  0001 L CNN "digikey description"
@@ -4509,23 +4509,23 @@ Wire Wire Line
 	10650 4550 11350 4550
 Connection ~ 10650 4550
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW79
 U 1 1 6250DF77
 P 12300 900
-F 0 "SW?" H 12300 1185 50  0000 C CNN
+F 0 "SW79" H 12300 1185 50  0000 C CNN
 F 1 "MX_SW" H 12300 1094 50  0000 C CNN
-F 2 "" H 12300 1100 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 12300 1100 50  0001 C CNN
 F 3 "~" H 12300 1100 50  0001 C CNN
 	1    12300 900 
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D79
 U 1 1 6250DF8A
 P 12050 800
-F 0 "D?" V 12254 878 50  0000 L CNN
+F 0 "D79" V 12254 878 50  0000 L CNN
 F 1 "LL4148" V 12345 878 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 12050 1200 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 12050 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12050 1300 50  0001 L CNN
 F 4 "Diode" H 12050 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 12050 1500 50  0001 L CNN "digikey description"
@@ -4555,23 +4555,23 @@ Wire Wire Line
 	11350 1300 12050 1300
 Connection ~ 11350 1300
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW80
 U 1 1 625B7604
 P 12300 1550
-F 0 "SW?" H 12300 1835 50  0000 C CNN
+F 0 "SW80" H 12300 1835 50  0000 C CNN
 F 1 "MX_SW" H 12300 1744 50  0000 C CNN
-F 2 "" H 12300 1750 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 12300 1750 50  0001 C CNN
 F 3 "~" H 12300 1750 50  0001 C CNN
 	1    12300 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D80
 U 1 1 625B7617
 P 12050 1450
-F 0 "D?" V 12254 1528 50  0000 L CNN
+F 0 "D80" V 12254 1528 50  0000 L CNN
 F 1 "LL4148" V 12345 1528 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 12050 1850 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 12050 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12050 1950 50  0001 L CNN
 F 4 "Diode" H 12050 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 12050 2150 50  0001 L CNN "digikey description"
@@ -4600,23 +4600,23 @@ Wire Wire Line
 	11350 1950 12050 1950
 Connection ~ 11350 1950
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW81
 U 1 1 62661C1A
 P 12300 2200
-F 0 "SW?" H 12300 2485 50  0000 C CNN
+F 0 "SW81" H 12300 2485 50  0000 C CNN
 F 1 "MX_SW" H 12300 2394 50  0000 C CNN
-F 2 "" H 12300 2400 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 12300 2400 50  0001 C CNN
 F 3 "~" H 12300 2400 50  0001 C CNN
 	1    12300 2200
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D81
 U 1 1 62661C2D
 P 12050 2100
-F 0 "D?" V 12254 2178 50  0000 L CNN
+F 0 "D81" V 12254 2178 50  0000 L CNN
 F 1 "LL4148" V 12345 2178 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 12050 2500 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 12050 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12050 2600 50  0001 L CNN
 F 4 "Diode" H 12050 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 12050 2800 50  0001 L CNN "digikey description"
@@ -4645,23 +4645,23 @@ Wire Wire Line
 	11350 2600 12050 2600
 Connection ~ 11350 2600
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW82
 U 1 1 6270EF9F
 P 12300 4150
-F 0 "SW?" H 12300 4435 50  0000 C CNN
+F 0 "SW82" H 12300 4435 50  0000 C CNN
 F 1 "MX_SW" H 12300 4344 50  0000 C CNN
-F 2 "" H 12300 4350 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 12300 4350 50  0001 C CNN
 F 3 "~" H 12300 4350 50  0001 C CNN
 	1    12300 4150
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D82
 U 1 1 6270EFB2
 P 12050 4050
-F 0 "D?" V 12254 4128 50  0000 L CNN
+F 0 "D82" V 12254 4128 50  0000 L CNN
 F 1 "LL4148" V 12345 4128 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 12050 4450 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 12050 4450 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12050 4550 50  0001 L CNN
 F 4 "Diode" H 12050 4650 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 12050 4750 50  0001 L CNN "digikey description"
@@ -4690,23 +4690,23 @@ Wire Wire Line
 	11350 4550 12050 4550
 Connection ~ 11350 4550
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW83
 U 1 1 6280AAE2
 P 13000 900
-F 0 "SW?" H 13000 1185 50  0000 C CNN
+F 0 "SW83" H 13000 1185 50  0000 C CNN
 F 1 "MX_SW" H 13000 1094 50  0000 C CNN
-F 2 "" H 13000 1100 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 13000 1100 50  0001 C CNN
 F 3 "~" H 13000 1100 50  0001 C CNN
 	1    13000 900 
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D83
 U 1 1 6280AAF5
 P 12750 800
-F 0 "D?" V 12954 878 50  0000 L CNN
+F 0 "D83" V 12954 878 50  0000 L CNN
 F 1 "LL4148" V 13045 878 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 12750 1200 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 12750 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12750 1300 50  0001 L CNN
 F 4 "Diode" H 12750 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 12750 1500 50  0001 L CNN "digikey description"
@@ -4736,23 +4736,23 @@ Connection ~ 12050 1300
 Text GLabel 13200 850  1    50   Input ~ 0
 COL_19
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW84
 U 1 1 628BD75D
 P 13000 1550
-F 0 "SW?" H 13000 1835 50  0000 C CNN
+F 0 "SW84" H 13000 1835 50  0000 C CNN
 F 1 "MX_SW" H 13000 1744 50  0000 C CNN
-F 2 "" H 13000 1750 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 13000 1750 50  0001 C CNN
 F 3 "~" H 13000 1750 50  0001 C CNN
 	1    13000 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D84
 U 1 1 628BD770
 P 12750 1450
-F 0 "D?" V 12954 1528 50  0000 L CNN
+F 0 "D84" V 12954 1528 50  0000 L CNN
 F 1 "LL4148" V 13045 1528 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 12750 1850 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 12750 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12750 1950 50  0001 L CNN
 F 4 "Diode" H 12750 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 12750 2150 50  0001 L CNN "digikey description"
@@ -4781,23 +4781,23 @@ Wire Wire Line
 	12050 1950 12750 1950
 Connection ~ 12050 1950
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW85
 U 1 1 62970D19
 P 13000 2200
-F 0 "SW?" H 13000 2485 50  0000 C CNN
+F 0 "SW85" H 13000 2485 50  0000 C CNN
 F 1 "MX_SW" H 13000 2394 50  0000 C CNN
-F 2 "" H 13000 2400 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 13000 2400 50  0001 C CNN
 F 3 "~" H 13000 2400 50  0001 C CNN
 	1    13000 2200
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D85
 U 1 1 62970D2C
 P 12750 2100
-F 0 "D?" V 12954 2178 50  0000 L CNN
+F 0 "D85" V 12954 2178 50  0000 L CNN
 F 1 "LL4148" V 13045 2178 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 12750 2500 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 12750 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12750 2600 50  0001 L CNN
 F 4 "Diode" H 12750 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 12750 2800 50  0001 L CNN "digikey description"
@@ -4826,23 +4826,23 @@ Wire Wire Line
 	12050 2600 12750 2600
 Connection ~ 12050 2600
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW86
 U 1 1 62A271D8
 P 13000 2850
-F 0 "SW?" H 13000 3135 50  0000 C CNN
+F 0 "SW86" H 13000 3135 50  0000 C CNN
 F 1 "MX_SW" H 13000 3044 50  0000 C CNN
-F 2 "" H 13000 3050 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 13000 3050 50  0001 C CNN
 F 3 "~" H 13000 3050 50  0001 C CNN
 	1    13000 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D86
 U 1 1 62A271EB
 P 12750 2750
-F 0 "D?" V 12954 2828 50  0000 L CNN
+F 0 "D86" V 12954 2828 50  0000 L CNN
 F 1 "LL4148" V 13045 2828 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 12750 3150 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 12750 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12750 3250 50  0001 L CNN
 F 4 "Diode" H 12750 3350 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 12750 3450 50  0001 L CNN "digikey description"
@@ -4871,23 +4871,23 @@ Wire Wire Line
 	9200 3250 12750 3250
 Connection ~ 9200 3250
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW87
 U 1 1 62AE0B73
 P 13000 3500
-F 0 "SW?" H 13000 3785 50  0000 C CNN
+F 0 "SW87" H 13000 3785 50  0000 C CNN
 F 1 "MX_SW" H 13000 3694 50  0000 C CNN
-F 2 "" H 13000 3700 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 13000 3700 50  0001 C CNN
 F 3 "~" H 13000 3700 50  0001 C CNN
 	1    13000 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D87
 U 1 1 62AE0B86
 P 12750 3400
-F 0 "D?" V 12954 3478 50  0000 L CNN
+F 0 "D87" V 12954 3478 50  0000 L CNN
 F 1 "LL4148" V 13045 3478 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 12750 3800 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 12750 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12750 3900 50  0001 L CNN
 F 4 "Diode" H 12750 4000 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 12750 4100 50  0001 L CNN "digikey description"
@@ -4916,23 +4916,23 @@ Wire Wire Line
 	11350 3900 12750 3900
 Connection ~ 11350 3900
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW88
 U 1 1 62B9C82F
 P 13000 4150
-F 0 "SW?" H 13000 4435 50  0000 C CNN
+F 0 "SW88" H 13000 4435 50  0000 C CNN
 F 1 "MX_SW" H 13000 4344 50  0000 C CNN
-F 2 "" H 13000 4350 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 13000 4350 50  0001 C CNN
 F 3 "~" H 13000 4350 50  0001 C CNN
 	1    13000 4150
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D88
 U 1 1 62B9C842
 P 12750 4050
-F 0 "D?" V 12954 4128 50  0000 L CNN
+F 0 "D88" V 12954 4128 50  0000 L CNN
 F 1 "LL4148" V 13045 4128 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 12750 4450 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 12750 4450 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12750 4550 50  0001 L CNN
 F 4 "Diode" H 12750 4650 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 12750 4750 50  0001 L CNN "digikey description"
@@ -4961,23 +4961,23 @@ Wire Wire Line
 	12050 4550 12750 4550
 Connection ~ 12050 4550
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW89
 U 1 1 62C59FC2
 P 13700 900
-F 0 "SW?" H 13700 1185 50  0000 C CNN
+F 0 "SW89" H 13700 1185 50  0000 C CNN
 F 1 "MX_SW" H 13700 1094 50  0000 C CNN
-F 2 "" H 13700 1100 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 13700 1100 50  0001 C CNN
 F 3 "~" H 13700 1100 50  0001 C CNN
 	1    13700 900 
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D89
 U 1 1 62C59FD5
 P 13450 800
-F 0 "D?" V 13654 878 50  0000 L CNN
+F 0 "D89" V 13654 878 50  0000 L CNN
 F 1 "LL4148" V 13745 878 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 13450 1200 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 13450 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 13450 1300 50  0001 L CNN
 F 4 "Diode" H 13450 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 13450 1500 50  0001 L CNN "digikey description"
@@ -5007,23 +5007,23 @@ Wire Wire Line
 	12750 1300 13450 1300
 Connection ~ 12750 1300
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW90
 U 1 1 62D1B25A
 P 13700 1550
-F 0 "SW?" H 13700 1835 50  0000 C CNN
+F 0 "SW90" H 13700 1835 50  0000 C CNN
 F 1 "MX_SW" H 13700 1744 50  0000 C CNN
-F 2 "" H 13700 1750 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 13700 1750 50  0001 C CNN
 F 3 "~" H 13700 1750 50  0001 C CNN
 	1    13700 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D90
 U 1 1 62D1B26D
 P 13450 1450
-F 0 "D?" V 13654 1528 50  0000 L CNN
+F 0 "D90" V 13654 1528 50  0000 L CNN
 F 1 "LL4148" V 13745 1528 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 13450 1850 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 13450 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 13450 1950 50  0001 L CNN
 F 4 "Diode" H 13450 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 13450 2150 50  0001 L CNN "digikey description"
@@ -5052,23 +5052,23 @@ Wire Wire Line
 	12750 1950 13450 1950
 Connection ~ 12750 1950
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW91
 U 1 1 62DDE13E
 P 13700 2200
-F 0 "SW?" H 13700 2485 50  0000 C CNN
+F 0 "SW91" H 13700 2485 50  0000 C CNN
 F 1 "MX_SW" H 13700 2394 50  0000 C CNN
-F 2 "" H 13700 2400 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 13700 2400 50  0001 C CNN
 F 3 "~" H 13700 2400 50  0001 C CNN
 	1    13700 2200
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D91
 U 1 1 62DDE151
 P 13450 2100
-F 0 "D?" V 13654 2178 50  0000 L CNN
+F 0 "D91" V 13654 2178 50  0000 L CNN
 F 1 "LL4148" V 13745 2178 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 13450 2500 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 13450 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 13450 2600 50  0001 L CNN
 F 4 "Diode" H 13450 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 13450 2800 50  0001 L CNN "digikey description"
@@ -5097,23 +5097,23 @@ Wire Wire Line
 	12750 2600 13450 2600
 Connection ~ 12750 2600
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW92
 U 1 1 62EA2224
 P 13700 2850
-F 0 "SW?" H 13700 3135 50  0000 C CNN
+F 0 "SW92" H 13700 3135 50  0000 C CNN
 F 1 "MX_SW" H 13700 3044 50  0000 C CNN
-F 2 "" H 13700 3050 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 13700 3050 50  0001 C CNN
 F 3 "~" H 13700 3050 50  0001 C CNN
 	1    13700 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D92
 U 1 1 62EA2237
 P 13450 2750
-F 0 "D?" V 13654 2828 50  0000 L CNN
+F 0 "D92" V 13654 2828 50  0000 L CNN
 F 1 "LL4148" V 13745 2828 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 13450 3150 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 13450 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 13450 3250 50  0001 L CNN
 F 4 "Diode" H 13450 3350 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 13450 3450 50  0001 L CNN "digikey description"
@@ -5142,23 +5142,23 @@ Wire Wire Line
 	12750 3250 13450 3250
 Connection ~ 12750 3250
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW93
 U 1 1 62F699F6
 P 13700 3500
-F 0 "SW?" H 13700 3785 50  0000 C CNN
+F 0 "SW93" H 13700 3785 50  0000 C CNN
 F 1 "MX_SW" H 13700 3694 50  0000 C CNN
-F 2 "" H 13700 3700 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 13700 3700 50  0001 C CNN
 F 3 "~" H 13700 3700 50  0001 C CNN
 	1    13700 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D93
 U 1 1 62F69A09
 P 13450 3400
-F 0 "D?" V 13654 3478 50  0000 L CNN
+F 0 "D93" V 13654 3478 50  0000 L CNN
 F 1 "LL4148" V 13745 3478 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 13450 3800 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 13450 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 13450 3900 50  0001 L CNN
 F 4 "Diode" H 13450 4000 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 13450 4100 50  0001 L CNN "digikey description"
@@ -5187,23 +5187,23 @@ Wire Wire Line
 	12750 3900 13450 3900
 Connection ~ 12750 3900
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW94
 U 1 1 63033205
 P 14400 900
-F 0 "SW?" H 14400 1185 50  0000 C CNN
+F 0 "SW94" H 14400 1185 50  0000 C CNN
 F 1 "MX_SW" H 14400 1094 50  0000 C CNN
-F 2 "" H 14400 1100 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 14400 1100 50  0001 C CNN
 F 3 "~" H 14400 1100 50  0001 C CNN
 	1    14400 900 
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D95
 U 1 1 63033218
 P 14150 800
-F 0 "D?" V 14354 878 50  0000 L CNN
+F 0 "D95" V 14354 878 50  0000 L CNN
 F 1 "LL4148" V 14445 878 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 14150 1200 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 14150 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14150 1300 50  0001 L CNN
 F 4 "Diode" H 14150 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14150 1500 50  0001 L CNN "digikey description"
@@ -5233,23 +5233,23 @@ COL_21
 Wire Wire Line
 	14600 850  14600 900 
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW95
 U 1 1 63101A54
 P 14400 1550
-F 0 "SW?" H 14400 1835 50  0000 C CNN
+F 0 "SW95" H 14400 1835 50  0000 C CNN
 F 1 "MX_SW" H 14400 1744 50  0000 C CNN
-F 2 "" H 14400 1750 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 14400 1750 50  0001 C CNN
 F 3 "~" H 14400 1750 50  0001 C CNN
 	1    14400 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D96
 U 1 1 63101A67
 P 14150 1450
-F 0 "D?" V 14354 1528 50  0000 L CNN
+F 0 "D96" V 14354 1528 50  0000 L CNN
 F 1 "LL4148" V 14445 1528 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 14150 1850 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 14150 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14150 1950 50  0001 L CNN
 F 4 "Diode" H 14150 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14150 2150 50  0001 L CNN "digikey description"
@@ -5278,23 +5278,23 @@ Wire Wire Line
 	13450 1950 14150 1950
 Connection ~ 13450 1950
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW96
 U 1 1 631D14A1
 P 14400 2200
-F 0 "SW?" H 14400 2485 50  0000 C CNN
+F 0 "SW96" H 14400 2485 50  0000 C CNN
 F 1 "MX_SW" H 14400 2394 50  0000 C CNN
-F 2 "" H 14400 2400 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 14400 2400 50  0001 C CNN
 F 3 "~" H 14400 2400 50  0001 C CNN
 	1    14400 2200
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D97
 U 1 1 631D14B4
 P 14150 2100
-F 0 "D?" V 14354 2178 50  0000 L CNN
+F 0 "D97" V 14354 2178 50  0000 L CNN
 F 1 "LL4148" V 14445 2178 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 14150 2500 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 14150 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14150 2600 50  0001 L CNN
 F 4 "Diode" H 14150 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14150 2800 50  0001 L CNN "digikey description"
@@ -5323,23 +5323,23 @@ Wire Wire Line
 	13450 2600 14150 2600
 Connection ~ 13450 2600
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW97
 U 1 1 632A1C40
 P 14400 2850
-F 0 "SW?" H 14400 3135 50  0000 C CNN
+F 0 "SW97" H 14400 3135 50  0000 C CNN
 F 1 "MX_SW" H 14400 3044 50  0000 C CNN
-F 2 "" H 14400 3050 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 14400 3050 50  0001 C CNN
 F 3 "~" H 14400 3050 50  0001 C CNN
 	1    14400 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D98
 U 1 1 632A1C53
 P 14150 2750
-F 0 "D?" V 14354 2828 50  0000 L CNN
+F 0 "D98" V 14354 2828 50  0000 L CNN
 F 1 "LL4148" V 14445 2828 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 14150 3150 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 14150 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14150 3250 50  0001 L CNN
 F 4 "Diode" H 14150 3350 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14150 3450 50  0001 L CNN "digikey description"
@@ -5368,23 +5368,23 @@ Wire Wire Line
 	13450 3250 14150 3250
 Connection ~ 13450 3250
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW98
 U 1 1 633756F5
 P 14400 3500
-F 0 "SW?" H 14400 3785 50  0000 C CNN
+F 0 "SW98" H 14400 3785 50  0000 C CNN
 F 1 "MX_SW" H 14400 3694 50  0000 C CNN
-F 2 "" H 14400 3700 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 14400 3700 50  0001 C CNN
 F 3 "~" H 14400 3700 50  0001 C CNN
 	1    14400 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D99
 U 1 1 63375708
 P 14150 3400
-F 0 "D?" V 14354 3478 50  0000 L CNN
+F 0 "D99" V 14354 3478 50  0000 L CNN
 F 1 "LL4148" V 14445 3478 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 14150 3800 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 14150 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14150 3900 50  0001 L CNN
 F 4 "Diode" H 14150 4000 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14150 4100 50  0001 L CNN "digikey description"
@@ -5413,23 +5413,23 @@ Wire Wire Line
 	13450 3900 14150 3900
 Connection ~ 13450 3900
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW99
 U 1 1 6344CEAD
 P 14400 4150
-F 0 "SW?" H 14400 4435 50  0000 C CNN
+F 0 "SW99" H 14400 4435 50  0000 C CNN
 F 1 "MX_SW" H 14400 4344 50  0000 C CNN
-F 2 "" H 14400 4350 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 14400 4350 50  0001 C CNN
 F 3 "~" H 14400 4350 50  0001 C CNN
 	1    14400 4150
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D100
 U 1 1 6344CEC0
 P 14150 4050
-F 0 "D?" V 14354 4128 50  0000 L CNN
+F 0 "D100" V 14354 4128 50  0000 L CNN
 F 1 "LL4148" V 14445 4128 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 14150 4450 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 14150 4450 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14150 4550 50  0001 L CNN
 F 4 "Diode" H 14150 4650 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14150 4750 50  0001 L CNN "digikey description"
@@ -5458,23 +5458,23 @@ Wire Wire Line
 	14600 3500 14600 4150
 Connection ~ 14600 3500
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW100
 U 1 1 6352DF68
 P 15150 1550
-F 0 "SW?" H 15150 1835 50  0000 C CNN
+F 0 "SW100" H 15150 1835 50  0000 C CNN
 F 1 "MX_SW" H 15150 1744 50  0000 C CNN
-F 2 "" H 15150 1750 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 15150 1750 50  0001 C CNN
 F 3 "~" H 15150 1750 50  0001 C CNN
 	1    15150 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D101
 U 1 1 6352DF7B
 P 14900 1450
-F 0 "D?" V 15104 1528 50  0000 L CNN
+F 0 "D101" V 15104 1528 50  0000 L CNN
 F 1 "LL4148" V 15195 1528 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 14900 1850 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 14900 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14900 1950 50  0001 L CNN
 F 4 "Diode" H 14900 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14900 2150 50  0001 L CNN "digikey description"
@@ -5504,23 +5504,23 @@ Wire Wire Line
 	14150 1950 14900 1950
 Connection ~ 14150 1950
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW101
 U 1 1 636ED4CB
 P 15150 2200
-F 0 "SW?" H 15150 2485 50  0000 C CNN
+F 0 "SW101" H 15150 2485 50  0000 C CNN
 F 1 "MX_SW" H 15150 2394 50  0000 C CNN
-F 2 "" H 15150 2400 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 15150 2400 50  0001 C CNN
 F 3 "~" H 15150 2400 50  0001 C CNN
 	1    15150 2200
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D102
 U 1 1 636ED4DE
 P 14900 2100
-F 0 "D?" V 15104 2178 50  0000 L CNN
+F 0 "D102" V 15104 2178 50  0000 L CNN
 F 1 "LL4148" V 15195 2178 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 14900 2500 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 14900 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14900 2600 50  0001 L CNN
 F 4 "Diode" H 14900 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14900 2800 50  0001 L CNN "digikey description"
@@ -5549,23 +5549,23 @@ Wire Wire Line
 	14150 2600 14900 2600
 Connection ~ 14150 2600
 $Comp
-L cldg:MX_SW SW?
+L cldg:MX_SW SW102
 U 1 1 637C9D77
 P 15150 3500
-F 0 "SW?" H 15150 3785 50  0000 C CNN
+F 0 "SW102" H 15150 3785 50  0000 C CNN
 F 1 "MX_SW" H 15150 3694 50  0000 C CNN
-F 2 "" H 15150 3700 50  0001 C CNN
+F 2 "cldg:millmax-mxalps" H 15150 3700 50  0001 C CNN
 F 3 "~" H 15150 3700 50  0001 C CNN
 	1    15150 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D103
 U 1 1 637C9D8A
 P 14900 3400
-F 0 "D?" V 15104 3478 50  0000 L CNN
+F 0 "D103" V 15104 3478 50  0000 L CNN
 F 1 "LL4148" V 15195 3478 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 14900 3800 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 14900 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14900 3900 50  0001 L CNN
 F 4 "Diode" H 14900 4000 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14900 4100 50  0001 L CNN "digikey description"
@@ -5598,12 +5598,12 @@ Wire Wire Line
 Text GLabel 13200 7200 0    50   Input ~ 0
 COL_22
 $Comp
-L eec-fairchild:LL4148 D?
+L eec-fairchild:LL4148 D94
 U 1 1 638FF624
 P 13650 7600
-F 0 "D?" V 13854 7678 50  0000 L CNN
+F 0 "D94" V 13854 7678 50  0000 L CNN
 F 1 "LL4148" V 13945 7678 50  0000 L CNN
-F 2 "Fairchild_ON_Semiconductor-LL4148-*" H 13650 8000 50  0001 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 13650 8000 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 13650 8100 50  0001 L CNN
 F 4 "Diode" H 13650 8200 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 13650 8300 50  0001 L CNN "digikey description"
@@ -5643,12 +5643,12 @@ F2 "I2C_SDA" I L 13750 6100 50
 F3 "I2C_SCL" I L 13750 6000 50 
 $EndSheet
 $Comp
-L eec-Bourns:PEC11R-4220F-S0024 ENC?
+L eec-Bourns:PEC11R-4220F-S0024 ENC1
 U 1 1 5FEA104E
 P 13500 7200
-F 0 "ENC?" H 14200 7465 50  0000 C CNN
+F 0 "ENC1" H 14200 7465 50  0000 C CNN
 F 1 "PEC11R-4220F-S0024" H 14200 7374 50  0000 C CNN
-F 2 "Bourns-PEC11R-4220F-S0024-0-0-*" H 13500 7600 50  0001 L CNN
+F 2 "eec-Bourns:Bourns-PEC11R-4220F-S0024-0-0-0" H 13500 7600 50  0001 L CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/pec11r.pdf?sfvrsn=bb617cbf_6" H 13500 7700 50  0001 L CNN
 F 4 "Enc" H 13500 7800 50  0001 L CNN "category"
 F 5 "10mA" H 13500 7900 50  0001 L CNN "current rating"
@@ -5677,10 +5677,10 @@ F 25 "5V" H 13500 9900 50  0001 L CNN "voltage rating DC"
 $EndComp
 Connection ~ 13500 8150
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0111
 U 1 1 5FEB2ECC
 P 13500 8150
-F 0 "#PWR?" H 13500 7900 50  0001 C CNN
+F 0 "#PWR0111" H 13500 7900 50  0001 C CNN
 F 1 "GND" H 13505 7977 50  0000 C CNN
 F 2 "" H 13500 8150 50  0001 C CNN
 F 3 "" H 13500 8150 50  0001 C CNN

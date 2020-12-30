@@ -1,8 +1,8 @@
-(module STMicroelectronics-SO8N-SO-A-0-2-IPC_A (layer F.Cu) (tedit 5F206DA5)
+(module STMicroelectronics-SO8N-SO-A-0-2-IPC_A (layer F.Cu) (tedit 5FEC0010)
   (fp_text reference REF** (at -3.3031 -3.675) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
-  (fp_text value "" (at 0 0) (layer F.SilkS)
+  (fp_text value Val** (at 0 0) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.15)))
   )
   (fp_line (start -1.95 2.45) (end -1.95 -2.45) (layer F.Fab) (width 0.15))
@@ -27,7 +27,7 @@
   (pad 3 smd roundrect (at -2.416067 0.635) (size 2.474066 0.592132) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.5))
   (pad 2 smd roundrect (at -2.416067 -0.635) (size 2.474066 0.592132) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.5))
   (pad 1 smd rect (at -2.416067 -1.905) (size 2.474066 0.592132) (layers F.Cu F.Paste F.Mask))
-  (model eec.models/STMicroelectronics_-_M24M02-DRMN6TP.step
+  (model ${KIPRJMOD}/../3rd-party-footprints/IC_STMicroelectronics_M24M02-DRMN6TP/eec.models/STMicroelectronics_-_M24M02-DRMN6TP.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

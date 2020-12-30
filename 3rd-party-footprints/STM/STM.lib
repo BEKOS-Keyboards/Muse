@@ -3,11 +3,11 @@ EESchema-LIBRARY Version 2.4
 #
 # M24M02-DRMN6TP
 #
-DEF M24M02-DRMN6TP U 0 40 Y Y 1 L N
+DEF M24M02-DRMN6TP U 0 40 Y Y 1 F N
 F0 "U" 0 200 50 H V L CNN
 F1 "M24M02-DRMN6TP" 0 300 50 H V L CNN
-F2 "STMicroelectronics-SO8N-SO-A-0-2-*" 0 400 50 H I L CNN
-F3 "https://www.st.com/resource/en/datasheet/m24m02-dr.pdf" 0 500 50 H I L CNN
+F2 "STM:STMicroelectronics-SO8N-SO-A-0-2-IPC_C" 0 400 50 H I L CNN
+F3 "" 0 500 50 H I L CNN
 F4 "450ns" 0 600 50 H I L CNN "access time"
 F5 "+85°C" 0 700 50 H I L CNN "ambient temperature range high"
 F6 "-40°C" 0 800 50 H I L CNN "ambient temperature range low"

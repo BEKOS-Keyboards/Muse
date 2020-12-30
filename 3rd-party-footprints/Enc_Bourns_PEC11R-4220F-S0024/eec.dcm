@@ -4,4 +4,5 @@ $CMP PEC11R-4220F-S0024
 D PEC11R-4220F-S0024
 F https://www.bourns.com/docs/product-datasheets/pec11r.pdf?sfvrsn=bb617cbf_6
 $ENDCMP
-# end doc library
+#
+#End Doc Library
