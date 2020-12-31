@@ -136,11 +136,7 @@ F 3 "" H 2400 6000 50  0001 C CNN
 	1    2400 6000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2700 6750 2850 6750
 Connection ~ 2700 6750
-Wire Wire Line
-	2600 8550 2850 8550
 Connection ~ 2600 8550
 Wire Wire Line
 	2400 6350 2400 6000
@@ -259,10 +255,10 @@ F 3 "" H 2950 9500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L capacitor-lib:CL10B104KB8NNNL C5
+L capacitor-lib:CL10B104KB8NNNL C8
 U 1 1 5FFB6368
 P 8650 6100
-F 0 "C5" H 8523 6046 50  0000 R CNN
+F 0 "C8" H 8523 6046 50  0000 R CNN
 F 1 "CL10B104KB8NNNL" H 8522 5955 50  0001 R CNN
 F 2 "capacitor-lib:Samsung-CL10-09_2006-0-IPC_C" H 8650 6400 50  0001 L CNN
 F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 8650 6500 50  0001 L CNN
@@ -294,10 +290,10 @@ $EndComp
 Wire Wire Line
 	8650 6400 8650 6300
 $Comp
-L capacitor-lib:CL10B103KB8NNNC C3
+L capacitor-lib:CL10B103KB8NNNC C5
 U 1 1 5FFC329D
 P 6450 9700
-F 0 "C3" H 6578 9646 50  0000 L CNN
+F 0 "C5" H 6578 9646 50  0000 L CNN
 F 1 "CL10B103KB8NNNC" H 6578 9555 50  0001 L CNN
 F 2 "capacitor-lib:Samsung-0603_1608_Metric-0-0-0" H 6450 10000 50  0001 L CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL10B103KB8NNNC.pdf" H 6450 10100 50  0001 L CNN
@@ -318,10 +314,10 @@ F 16 "50V" H 6450 11400 50  0001 L CNN "voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L capacitor-lib:CL10B105KA8NNNC C1
+L capacitor-lib:CL10B105KA8NNNC C2
 U 1 1 5FFCA6E4
 P 5550 9700
-F 0 "C1" H 5678 9646 50  0000 L CNN
+F 0 "C2" H 5678 9646 50  0000 L CNN
 F 1 "CL10B105KA8NNNC" H 5422 9555 50  0001 R CNN
 F 2 "capacitor-lib:Samsung-CL10-0-0-IPC_C" H 5550 10000 50  0001 L CNN
 F 3 "http://www.samsungsem.com/global/front/downloadcms.do?path=%2F%2Fglobal%2F%2Fsupport%2F%2Fproduct-search%2F%2Fmlcc%2F%2F__icsFiles%2F%2Fafieldfile%2F%2F2018%2F%2F07%2F%2F24&fileName=CL10B105KA8NNNC.pdf" H 5550 10100 50  0001 L CNN
@@ -353,10 +349,10 @@ F 27 "25V" H 5550 12500 50  0001 L CNN "voltage rating"
 	1    0    0    -1  
 $EndComp
 $Comp
-L capacitor-lib:CL10B104KB8NNNL C2
+L capacitor-lib:CL10B104KB8NNNL C3
 U 1 1 5FFC635A
 P 5950 9700
-F 0 "C2" H 6078 9646 50  0000 L CNN
+F 0 "C3" H 6078 9646 50  0000 L CNN
 F 1 "CL10B104KB8NNNL" H 6078 9555 50  0001 L CNN
 F 2 "capacitor-lib:Samsung-CL10-09_2006-0-IPC_C" H 5950 10000 50  0001 L CNN
 F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 5950 10100 50  0001 L CNN
@@ -411,10 +407,10 @@ Wire Wire Line
 	5150 9600 5550 9600
 Connection ~ 5550 9600
 $Comp
-L power:+3V3 #PWR04
+L power:+3V3 #PWR07
 U 1 1 60025455
 P 6450 9600
-F 0 "#PWR04" H 6450 9450 50  0001 C CNN
+F 0 "#PWR07" H 6450 9450 50  0001 C CNN
 F 1 "+3V3" H 6465 9773 50  0000 C CNN
 F 2 "" H 6450 9600 50  0001 C CNN
 F 3 "" H 6450 9600 50  0001 C CNN
@@ -438,10 +434,10 @@ Wire Wire Line
 	2950 9950 2500 9950
 Connection ~ 2950 9950
 $Comp
-L power:+3V3 #PWR08
+L power:+3V3 #PWR012
 U 1 1 6002F4CC
 P 8950 5950
-F 0 "#PWR08" H 8950 5800 50  0001 C CNN
+F 0 "#PWR012" H 8950 5800 50  0001 C CNN
 F 1 "+3V3" H 8965 6123 50  0000 C CNN
 F 2 "" H 8950 5950 50  0001 C CNN
 F 3 "" H 8950 5950 50  0001 C CNN
@@ -500,10 +496,10 @@ Wire Wire Line
 	9050 10100 9050 10000
 Connection ~ 8950 10100
 $Comp
-L power:GND #PWR07
+L power:GND #PWR011
 U 1 1 5FFAF2AA
 P 8850 10200
-F 0 "#PWR07" H 8850 9950 50  0001 C CNN
+F 0 "#PWR011" H 8850 9950 50  0001 C CNN
 F 1 "GND" H 8772 10163 50  0000 R CNN
 F 2 "" H 8850 10200 50  0001 C CNN
 F 3 "" H 8850 10200 50  0001 C CNN
@@ -535,10 +531,10 @@ F 3 "~" H 7500 7800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR06
+L power:+3V3 #PWR010
 U 1 1 60076D41
 P 7700 7800
-F 0 "#PWR06" H 7700 7650 50  0001 C CNN
+F 0 "#PWR010" H 7700 7650 50  0001 C CNN
 F 1 "+3V3" H 7715 7973 50  0000 C CNN
 F 2 "" H 7700 7800 50  0001 C CNN
 F 3 "" H 7700 7800 50  0001 C CNN
@@ -548,10 +544,10 @@ $EndComp
 Wire Wire Line
 	8250 6600 7950 6600
 $Comp
-L power:GND #PWR05
+L power:GND #PWR09
 U 1 1 6007927B
 P 7550 6950
-F 0 "#PWR05" H 7550 6700 50  0001 C CNN
+F 0 "#PWR09" H 7550 6700 50  0001 C CNN
 F 1 "GND" H 7555 6777 50  0000 C CNN
 F 2 "" H 7550 6950 50  0001 C CNN
 F 3 "" H 7550 6950 50  0001 C CNN
@@ -561,10 +557,10 @@ $EndComp
 Wire Wire Line
 	7700 7900 8250 7900
 $Comp
-L capacitor-lib:CL10B104KB8NNNL C4
+L capacitor-lib:CL10B104KB8NNNL C7
 U 1 1 600879ED
 P 7950 6650
-F 0 "C4" H 8078 6596 50  0000 L CNN
+F 0 "C7" H 8078 6596 50  0000 L CNN
 F 1 "CL10B104KB8NNNL" H 8078 6505 50  0001 L CNN
 F 2 "capacitor-lib:Samsung-CL10-09_2006-0-IPC_C" H 7950 6950 50  0001 L CNN
 F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 7950 7050 50  0001 L CNN
@@ -681,10 +677,10 @@ F 4 "10k" V 15445 7005 50  0000 L CNN "resistance"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3V3 #PWR011
+L power:+3V3 #PWR015
 U 1 1 5FEB4721
 P 15750 6350
-F 0 "#PWR011" H 15750 6200 50  0001 C CNN
+F 0 "#PWR015" H 15750 6200 50  0001 C CNN
 F 1 "+3V3" H 15765 6523 50  0000 C CNN
 F 2 "" H 15750 6350 50  0001 C CNN
 F 3 "" H 15750 6350 50  0001 C CNN
@@ -733,10 +729,10 @@ Connection ~ 16050 7400
 Wire Wire Line
 	15400 8300 15400 8350
 $Comp
-L capacitor-lib:CL10B103KB8NNNC C6
+L capacitor-lib:CL10B103KB8NNNC C9
 U 1 1 5FF114BE
 P 15250 8350
-F 0 "C6" V 14985 8250 50  0000 C CNN
+F 0 "C9" V 14985 8250 50  0000 C CNN
 F 1 "CL10B103KB8NNNC" V 15076 8250 50  0001 C CNN
 F 2 "capacitor-lib:Samsung-0603_1608_Metric-0-0-0" H 15250 8650 50  0001 L CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL10B103KB8NNNC.pdf" H 15250 8750 50  0001 L CNN
@@ -757,10 +753,10 @@ F 16 "50V" H 15250 10050 50  0001 L CNN "voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L capacitor-lib:CL10B103KB8NNNC C7
+L capacitor-lib:CL10B103KB8NNNC C10
 U 1 1 5FF14861
 P 15250 8600
-F 0 "C7" V 15423 8500 50  0000 C CNN
+F 0 "C10" V 15423 8500 50  0000 C CNN
 F 1 "CL10B103KB8NNNC" V 15514 8500 50  0001 C CNN
 F 2 "capacitor-lib:Samsung-0603_1608_Metric-0-0-0" H 15250 8900 50  0001 L CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL10B103KB8NNNC.pdf" H 15250 9000 50  0001 L CNN
@@ -848,10 +844,10 @@ Wire Wire Line
 Wire Wire Line
 	10950 8000 10950 8050
 $Comp
-L power:+3V3 #PWR09
+L power:+3V3 #PWR013
 U 1 1 60025E0E
 P 10750 8000
-F 0 "#PWR09" H 10750 7850 50  0001 C CNN
+F 0 "#PWR013" H 10750 7850 50  0001 C CNN
 F 1 "+3V3" H 10765 8173 50  0000 C CNN
 F 2 "" H 10750 8000 50  0001 C CNN
 F 3 "" H 10750 8000 50  0001 C CNN
@@ -2447,13 +2443,13 @@ Wire Wire Line
 Connection ~ 4700 900 
 Wire Wire Line
 	5400 850  5400 1550
-Text GLabel 13200 7250 0    50   Input ~ 0
+Text GLabel 13150 7350 0    50   Input ~ 0
 COL_22
 $Comp
-L power:GND #PWR010
+L power:GND #PWR014
 U 1 1 5FEB2ECC
 P 14100 7900
-F 0 "#PWR010" H 14100 7650 50  0001 C CNN
+F 0 "#PWR014" H 14100 7650 50  0001 C CNN
 F 1 "GND" H 14105 7727 50  0000 C CNN
 F 2 "" H 14100 7900 50  0001 C CNN
 F 3 "" H 14100 7900 50  0001 C CNN
@@ -5778,55 +5774,8 @@ Wire Wire Line
 	6350 3250 7050 3250
 Connection ~ 6350 3250
 Connection ~ 7050 3250
-Wire Wire Line
-	13600 7250 13200 7250
-$Comp
-L SamacSys_Parts:PEC11L-4115F-S0020 ENC1
-U 1 1 5FF3C341
-P 14100 6850
-F 0 "ENC1" V 13919 6850 50  0000 C CNN
-F 1 "PEC11L-4115F-S0020" V 14010 6850 50  0000 C CNN
-F 2 "PEC11L4115FS0020" H 14950 7150 50  0001 L CNN
-F 3 "" H 14950 7050 50  0001 L CNN
-F 4 "Encoders ENCODER" H 14950 6950 50  0001 L CNN "Description"
-F 5 "25" H 14950 6850 50  0001 L CNN "Height"
-F 6 "652-PEC11L4115FS0020" H 14950 6750 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Bourns/PEC11L-4115F-S0020?qs=gk21WLQFtgRAgrgJZfpkWw%3D%3D" H 14950 6650 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Bourns" H 14950 6550 50  0001 L CNN "Manufacturer_Name"
-F 9 "PEC11L-4115F-S0020" H 14950 6450 50  0001 L CNN "Manufacturer_Part_Number"
-	1    14100 6850
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	13200 7350 13250 7350
-Text GLabel 13200 7350 0    50   Input ~ 0
+Text GLabel 13150 7250 0    50   Input ~ 0
 ROW_0
-Wire Wire Line
-	13550 7350 13600 7350
-$Comp
-L eec-fairchild:LL4148 D94
-U 1 1 638FF624
-P 13650 7350
-F 0 "D94" V 13854 7428 50  0000 L CNN
-F 1 "LL4148" V 13945 7428 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 13650 7750 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 13650 7850 50  0001 L CNN
-F 4 "Diode" H 13650 7950 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 13650 8050 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 13650 8150 50  0001 L CNN "digikey part number"
-F 7 "yes" H 13650 8250 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 13650 8350 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 13650 8450 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 13650 8550 50  0001 L CNN "mouser part number"
-F 11 "2" H 13650 8650 50  0001 L CNN "num pins"
-F 12 "SOD80" H 13650 8750 50  0001 L CNN "package"
-F 13 "yes" H 13650 8850 50  0001 L CNN "rohs"
-F 14 "+175°C" H 13650 8950 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 13650 9050 50  0001 L CNN "temperature range low"
-F 16 "" H 13650 9150 50  0001 L CNN "voltage"
-	1    13650 7350
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	14750 7300 14750 7250
 Wire Wire Line
@@ -5857,10 +5806,10 @@ Connection ~ 14650 7900
 Wire Wire Line
 	14100 6800 14100 6850
 $Comp
-L cldg:USBLC6-2P6 U6
+L cldg:USBLC6-2P6 U2
 U 1 1 5FF3E6C9
 P 3650 7550
-F 0 "U6" H 3650 8017 50  0000 C CNN
+F 0 "U2" H 3650 8017 50  0000 C CNN
 F 1 "USBLC6-2P6" H 3650 7926 50  0000 C CNN
 F 2 "SOT50P160X60-6N" H 3650 7550 50  0001 L BNN
 F 3 "" H 3650 7550 50  0001 L BNN
@@ -5869,36 +5818,28 @@ F 5 "SOT-666" H 3650 7550 50  0001 L BNN "PACKAGE"
 F 6 "5" H 3650 7550 50  0001 L BNN "PARTREV"
 F 7 "IPC 7351B" H 3650 7550 50  0001 L BNN "STANDARD"
 	1    3650 7550
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR04
 U 1 1 600F480E
-P 4500 7500
-F 0 "#PWR?" H 4500 7350 50  0001 C CNN
-F 1 "+5V" H 4515 7673 50  0000 C CNN
-F 2 "" H 4500 7500 50  0001 C CNN
-F 3 "" H 4500 7500 50  0001 C CNN
-	1    4500 7500
+P 3000 7400
+F 0 "#PWR04" H 3000 7250 50  0001 C CNN
+F 1 "+5V" H 3015 7573 50  0000 C CNN
+F 2 "" H 3000 7400 50  0001 C CNN
+F 3 "" H 3000 7400 50  0001 C CNN
+	1    3000 7400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3350 7350 2850 7350
-Wire Wire Line
-	2850 7350 2850 6750
-Wire Wire Line
-	3350 7750 2850 7750
-Wire Wire Line
-	2850 7750 2850 8550
 $Comp
-L power:GND #PWR?
+L power:GND #PWR06
 U 1 1 604813CB
-P 3150 7600
-F 0 "#PWR?" H 3150 7350 50  0001 C CNN
-F 1 "GND" H 3072 7563 50  0000 R CNN
-F 2 "" H 3150 7600 50  0001 C CNN
-F 3 "" H 3150 7600 50  0001 C CNN
-	1    3150 7600
+P 4200 7600
+F 0 "#PWR06" H 4200 7350 50  0001 C CNN
+F 1 "GND" H 4122 7563 50  0000 R CNN
+F 2 "" H 4200 7600 50  0001 C CNN
+F 3 "" H 4200 7600 50  0001 C CNN
+	1    4200 7600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -5906,18 +5847,12 @@ Wire Wire Line
 Wire Wire Line
 	3950 7750 4050 7750
 Wire Wire Line
-	3350 7550 3150 7550
-Wire Wire Line
-	3150 7550 3150 7600
-Wire Wire Line
-	3950 7550 4500 7550
-Wire Wire Line
-	4500 7550 4500 7500
+	4200 7550 4200 7600
 $Comp
-L capacitor-lib:06035A100JAT2A C?
+L capacitor-lib:06035A100JAT2A C6
 U 1 1 5FF44365
 P 6950 7700
-F 0 "C?" H 6822 7554 50  0000 R CNN
+F 0 "C6" H 6822 7554 50  0000 R CNN
 F 1 "06035A100JAT2A" H 6822 7645 50  0000 R CNN
 F 2 "capacitor-lib:AVX-GRM124-0-0-IPC_C" H 6950 8000 50  0001 L CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1E472JA01-01A.pdf" H 6950 8100 50  0001 L CNN
@@ -6003,10 +5938,10 @@ Wire Wire Line
 	7950 7000 7950 6900
 Connection ~ 7950 6900
 $Comp
-L MCU_ST_STM32L4:STM32L433RBTx U2
+L MCU_ST_STM32L4:STM32L433RBTx U3
 U 1 1 5FE7C7AF
 P 8950 8200
-F 0 "U2" H 9200 6350 50  0000 C CNN
+F 0 "U3" H 9200 6350 50  0000 C CNN
 F 1 "STM32L433RBTx" H 9450 6250 50  0000 C CNN
 F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 8350 6500 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf" H 8950 8200 50  0001 C CNN
@@ -6014,10 +5949,10 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    0    0    -1  
 $EndComp
 $Comp
-L capacitor-lib:06035A100JAT2A C?
+L capacitor-lib:06035A100JAT2A C4
 U 1 1 60087526
 P 6450 7700
-F 0 "C?" H 6577 7554 50  0000 L CNN
+F 0 "C4" H 6577 7554 50  0000 L CNN
 F 1 "06035A100JAT2A" H 6577 7645 50  0000 L CNN
 F 2 "capacitor-lib:AVX-GRM124-0-0-IPC_C" H 6450 8000 50  0001 L CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1E472JA01-01A.pdf" H 6450 8100 50  0001 L CNN
@@ -6070,10 +6005,10 @@ Wire Wire Line
 	6450 7750 6350 7750
 Connection ~ 6450 7750
 $Comp
-L Device:Crystal_GND24 Y?
+L Device:Crystal_GND24 Y1
 U 1 1 60782252
 P 6700 7450
-F 0 "Y?" V 6654 7207 50  0000 R CNN
+F 0 "Y1" V 6654 7207 50  0000 R CNN
 F 1 "Crystal_GND24" V 6745 7207 50  0000 R CNN
 F 2 "" H 6700 7450 50  0001 C CNN
 F 3 "~" H 6700 7450 50  0001 C CNN
@@ -6109,10 +6044,10 @@ Wire Wire Line
 Wire Wire Line
 	7900 7700 8250 7700
 $Comp
-L power:GND #PWR?
+L power:GND #PWR08
 U 1 1 6065E993
 P 6700 7800
-F 0 "#PWR?" H 6700 7550 50  0001 C CNN
+F 0 "#PWR08" H 6700 7550 50  0001 C CNN
 F 1 "GND" H 6705 7627 50  0000 C CNN
 F 2 "" H 6700 7800 50  0001 C CNN
 F 3 "" H 6700 7800 50  0001 C CNN
@@ -6121,4 +6056,116 @@ F 3 "" H 6700 7800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6700 7750 6700 7800
+Wire Wire Line
+	3950 7550 4200 7550
+$Comp
+L power:GND #PWR05
+U 1 1 602784A4
+P 3000 7750
+F 0 "#PWR05" H 3000 7500 50  0001 C CNN
+F 1 "GND" H 2922 7713 50  0000 R CNN
+F 2 "" H 3000 7750 50  0001 C CNN
+F 3 "" H 3000 7750 50  0001 C CNN
+	1    3000 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L capacitor-lib:CL10B104KB8NNNL C1
+U 1 1 604D49EA
+P 3000 7500
+F 0 "C1" H 3128 7446 50  0000 L CNN
+F 1 "CL10B104KB8NNNL" H 3000 7700 50  0001 L CNN
+F 2 "capacitor-lib:Samsung-CL10-09_2006-0-IPC_C" H 3000 7800 50  0001 L CNN
+F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 3000 7900 50  0001 L CNN
+F 4 "No" H 3000 8000 50  0001 L CNN "automotive"
+F 5 "100nF" H 3128 7355 50  0000 L CNN "capacitance"
+F 6 "Cap" H 3000 8200 50  0001 L CNN "category"
+F 7 "Passive Components" H 3000 8300 50  0001 L CNN "device class L1"
+F 8 "Capacitors" H 3000 8400 50  0001 L CNN "device class L2"
+F 9 "Ceramic Capacitors" H 3000 8500 50  0001 L CNN "device class L3"
+F 10 "0.9mm" H 3000 8800 50  0001 L CNN "height"
+F 11 "CAPC16080X80" H 3000 8900 50  0001 L CNN "ipc land pattern name"
+F 12 "Yes" H 3000 9000 50  0001 L CNN "lead free"
+F 13 "d416e2ef1cbb0413" H 3000 9100 50  0001 L CNN "library id"
+F 14 "Samsung" H 3000 9200 50  0001 L CNN "manufacturer"
+F 15 "Ceramic" H 3000 9300 50  0001 L CNN "material"
+F 16 "0603" H 3000 9400 50  0001 L CNN "package"
+F 17 "Yes" H 3000 9500 50  0001 L CNN "rohs"
+F 18 "X7R" H 3000 9600 50  0001 L CNN "temperature characteristic"
+F 19 "0.15" H 3000 9700 50  0001 L CNN "temperature coefficient"
+F 20 "+125°C" H 3000 9800 50  0001 L CNN "temperature range high"
+F 21 "-55°C" H 3000 9900 50  0001 L CNN "temperature range low"
+F 22 "10%" H 3000 10000 50  0001 L CNN "tolerance"
+F 23 "50V" H 3000 10100 50  0001 L CNN "voltage rating"
+	1    3000 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 7400 3000 7450
+Connection ~ 3000 7450
+Wire Wire Line
+	3000 7450 3000 7500
+Wire Wire Line
+	3000 7750 3000 7700
+Wire Wire Line
+	3350 7350 3350 6750
+Wire Wire Line
+	2700 6750 3350 6750
+Wire Wire Line
+	3350 7750 3350 8550
+Wire Wire Line
+	2600 8550 3350 8550
+Wire Wire Line
+	3300 7450 3300 7550
+Wire Wire Line
+	3300 7550 3350 7550
+Wire Wire Line
+	3000 7450 3300 7450
+$Comp
+L SamacSys_Parts:PEC11L-4115F-S0020 ENC1
+U 1 1 5FF3C341
+P 14100 6850
+F 0 "ENC1" V 13919 6850 50  0000 C CNN
+F 1 "PEC11L-4115F-S0020" V 14010 6850 50  0000 C CNN
+F 2 "PEC11L4115FS0020" H 14950 7150 50  0001 L CNN
+F 3 "" H 14950 7050 50  0001 L CNN
+F 4 "Encoders ENCODER" H 14950 6950 50  0001 L CNN "Description"
+F 5 "25" H 14950 6850 50  0001 L CNN "Height"
+F 6 "652-PEC11L4115FS0020" H 14950 6750 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Bourns/PEC11L-4115F-S0020?qs=gk21WLQFtgRAgrgJZfpkWw%3D%3D" H 14950 6650 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Bourns" H 14950 6550 50  0001 L CNN "Manufacturer_Name"
+F 9 "PEC11L-4115F-S0020" H 14950 6450 50  0001 L CNN "Manufacturer_Part_Number"
+	1    14100 6850
+	0    -1   1    0   
+$EndComp
+$Comp
+L eec-fairchild:LL4148 D94
+U 1 1 638FF624
+P 13600 7250
+F 0 "D94" V 13800 7150 50  0000 R CNN
+F 1 "LL4148" V 13900 7150 50  0000 R CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 13600 7650 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 13600 7750 50  0001 L CNN
+F 4 "Diode" H 13600 7850 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 13600 7950 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 13600 8050 50  0001 L CNN "digikey part number"
+F 7 "yes" H 13600 8150 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 13600 8250 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 13600 8350 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 13600 8450 50  0001 L CNN "mouser part number"
+F 11 "2" H 13600 8550 50  0001 L CNN "num pins"
+F 12 "SOD80" H 13600 8650 50  0001 L CNN "package"
+F 13 "yes" H 13600 8750 50  0001 L CNN "rohs"
+F 14 "+175°C" H 13600 8850 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 13600 8950 50  0001 L CNN "temperature range low"
+F 16 "" H 13600 9050 50  0001 L CNN "voltage"
+	1    13600 7250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13150 7250 13200 7250
+Wire Wire Line
+	13500 7250 13600 7250
+Wire Wire Line
+	13150 7350 13600 7350
 $EndSCHEMATC
