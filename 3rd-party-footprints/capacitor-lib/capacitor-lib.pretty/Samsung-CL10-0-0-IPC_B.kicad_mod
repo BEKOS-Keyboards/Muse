@@ -1,8 +1,9 @@
-(module Samsung-CL10-0-0-IPC_B (layer F.Cu) (tedit 5FEBF9E5)
+(module Samsung-CL10-0-0-IPC_B (layer F.Cu) (tedit 5FED1DCF)
+  (attr smd)
   (fp_text reference REF** (at 1.756066 -0.2) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
-  (fp_text value Val** (at 0 0) (layer F.SilkS)
+  (fp_text value Val** (at 0 1.905) (layer Dwgs.User) hide
     (effects (font (size 1.27 1.27) (thickness 0.15)))
   )
   (fp_line (start 1.381066 0.631066) (end 1.381066 -0.631066) (layer F.CrtYd) (width 0.15))

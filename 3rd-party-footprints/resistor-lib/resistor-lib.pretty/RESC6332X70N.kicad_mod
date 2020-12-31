@@ -1,8 +1,9 @@
-(module RESC6332X70N (layer F.Cu) (tedit 5FEBFC18)
+(module RESC6332X70N (layer F.Cu) (tedit 5FED1D65)
+  (attr smd)
   (fp_text reference REF** (at -2.61 -2.33) (layer F.SilkS)
     (effects (font (size 0.393701 0.393701) (thickness 0.015)))
   )
-  (fp_text value RESC6332X70N (at -0.86 2.33) (layer F.Fab)
+  (fp_text value RESC6332X70N (at -0.86 2.33) (layer Dwgs.User) hide
     (effects (font (size 0.393701 0.393701) (thickness 0.015)))
   )
   (fp_line (start 3.858 1.981) (end 3.858 -1.981) (layer F.CrtYd) (width 0.05))

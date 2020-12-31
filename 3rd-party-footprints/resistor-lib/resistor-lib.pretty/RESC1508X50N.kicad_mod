@@ -1,8 +1,9 @@
-(module RESC1508X50N (layer F.Cu) (tedit 5FEBFBD6)
+(module RESC1508X50N (layer F.Cu) (tedit 5FED1D53)
+  (attr smd)
   (fp_text reference REF** (at -0.16 -1.05) (layer F.SilkS)
     (effects (font (size 0.393701 0.393701) (thickness 0.015)))
   )
-  (fp_text value RESC1508X50N (at 1.59 1.05) (layer F.Fab)
+  (fp_text value RESC1508X50N (at 1.59 1.05) (layer Dwgs.User) hide
     (effects (font (size 0.393701 0.393701) (thickness 0.015)))
   )
   (fp_line (start 1.415 0.715) (end 1.415 -0.715) (layer F.CrtYd) (width 0.05))
