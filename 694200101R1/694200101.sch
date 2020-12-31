@@ -509,17 +509,6 @@ $EndComp
 Wire Wire Line
 	8850 10100 8850 10200
 $Comp
-L Connector:Conn_01x02_Male J2
-U 1 1 6006794B
-P 7350 6600
-F 0 "J2" H 7458 6781 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 7458 6690 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7350 6600 50  0001 C CNN
-F 3 "~" H 7350 6600 50  0001 C CNN
-	1    7350 6600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x02_Male J3
 U 1 1 6006B89E
 P 7500 7800
@@ -546,12 +535,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR09
 U 1 1 6007927B
-P 7550 6950
-F 0 "#PWR09" H 7550 6700 50  0001 C CNN
-F 1 "GND" H 7555 6777 50  0000 C CNN
-F 2 "" H 7550 6950 50  0001 C CNN
-F 3 "" H 7550 6950 50  0001 C CNN
-	1    7550 6950
+P 7950 6950
+F 0 "#PWR09" H 7950 6700 50  0001 C CNN
+F 1 "GND" H 7955 6777 50  0000 C CNN
+F 2 "" H 7950 6950 50  0001 C CNN
+F 3 "" H 7950 6950 50  0001 C CNN
+	1    7950 6950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -592,17 +581,6 @@ $EndComp
 Wire Wire Line
 	7950 6600 7950 6650
 Connection ~ 7950 6600
-Wire Wire Line
-	7950 6600 7550 6600
-Wire Wire Line
-	7950 6900 7950 6850
-Wire Wire Line
-	7550 6700 7550 6900
-Wire Wire Line
-	7550 6900 7950 6900
-Wire Wire Line
-	7550 6900 7550 6950
-Connection ~ 7550 6900
 $Comp
 L cldg:MX_SW SW1
 U 1 1 60098C16
@@ -6166,10 +6144,10 @@ SWDIO
 Text GLabel 10150 8000 2    50   Input ~ 0
 SWCLK
 $Comp
-L Connector:Conn_01x05_Male J?
+L Connector:Conn_01x05_Male J2
 U 1 1 600F5E13
 P 7350 6150
-F 0 "J?" H 7458 6531 50  0000 C CNN
+F 0 "J2" H 7458 6531 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 7458 6440 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 7350 6150 50  0001 C CNN
 F 3 "~" H 7350 6150 50  0001 C CNN
@@ -6213,4 +6191,6 @@ Wire Wire Line
 	7550 6350 7700 6350
 Text GLabel 7700 6350 2    50   Input ~ 0
 SWO
+Wire Wire Line
+	7950 6850 7950 6950
 $EndSCHEMATC
