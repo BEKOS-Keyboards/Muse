@@ -595,7 +595,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED839D)
-    (at 362.004934 191.665)
+    (at 66.9125 70.95)
     (path /63A35802/647565D0)
     (fp_text reference D124 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -639,7 +639,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED8B1D)
-    (at 438.284934 144.585)
+    (at 309.1 71.9)
     (path /63A35802/6000FEDE/601178E1)
     (fp_text reference D220 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -683,7 +683,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED8B09)
-    (at 442.554934 141.185)
+    (at 405.05 4.275)
     (path /63A35802/6000FEDE/601178EB)
     (fp_text reference D219 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -727,7 +727,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED8AF5)
-    (at 429.744934 144.585)
+    (at 343.1375 109.05)
     (path /63A35802/6000FEDE/601178F5)
     (fp_text reference D218 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -771,7 +771,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED8AE1)
-    (at 446.824934 137.785)
+    (at 302.8 71.8 180)
     (path /63A35802/6000FEDE/601178FF)
     (fp_text reference D217 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -792,20 +792,20 @@
     (fp_poly (pts (xy 1.7 0.889) (xy 0.9 0.889) (xy 0.9 0.589) (xy 1.7 0.589)) (layer F.Cu) (width 0.1))
     (fp_poly (pts (xy 1.6 -0.5715) (xy 0.8 -0.5715) (xy 0.8 -0.8715) (xy 1.6 -0.8715)) (layer F.Cu) (width 0.1))
     (fp_poly (pts (xy 2.413 0.15) (xy 1.1 0.15) (xy 1.1 -0.15) (xy 2.413 -0.15)) (layer F.Cu) (width 0.1))
-    (pad 8 thru_hole circle (at 1.8 0.762) (size 0.7112 0.7112) (drill 0.3048) (layers *.Cu *.Mask))
-    (pad 8 thru_hole circle (at 2.5 0) (size 0.7112 0.7112) (drill 0.3048) (layers *.Cu *.Mask))
-    (pad 8 thru_hole circle (at 1.8 -0.7) (size 0.7112 0.7112) (drill 0.3048) (layers *.Cu *.Mask))
-    (pad 4 smd rect (at -0.75 0) (size 0.7 0.5) (layers F.Cu F.Paste F.Mask)
+    (pad 8 thru_hole circle (at 1.8 0.762 180) (size 0.7112 0.7112) (drill 0.3048) (layers *.Cu *.Mask))
+    (pad 8 thru_hole circle (at 2.5 0 180) (size 0.7112 0.7112) (drill 0.3048) (layers *.Cu *.Mask))
+    (pad 8 thru_hole circle (at 1.8 -0.7 180) (size 0.7112 0.7112) (drill 0.3048) (layers *.Cu *.Mask))
+    (pad 4 smd rect (at -0.75 0 180) (size 0.7 0.5) (layers F.Cu F.Paste F.Mask)
       (net 164 CS12_B))
-    (pad 3 smd rect (at 0.75 0) (size 0.7 0.5) (layers F.Cu F.Paste F.Mask)
+    (pad 3 smd rect (at 0.75 0 180) (size 0.7 0.5) (layers F.Cu F.Paste F.Mask)
       (net 142 SW11_B))
-    (pad 6 smd rect (at -0.675 0.725) (size 0.55 0.4) (layers F.Cu F.Paste F.Mask)
+    (pad 6 smd rect (at -0.675 0.725 180) (size 0.55 0.4) (layers F.Cu F.Paste F.Mask)
       (net 164 CS12_B))
-    (pad 5 smd rect (at 0.675 0.725) (size 0.55 0.4) (layers F.Cu F.Paste F.Mask)
+    (pad 5 smd rect (at 0.675 0.725 180) (size 0.55 0.4) (layers F.Cu F.Paste F.Mask)
       (net 143 SW12_B))
-    (pad 2 smd rect (at -0.675 -0.725) (size 0.55 0.4) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at -0.675 -0.725 180) (size 0.55 0.4) (layers F.Cu F.Paste F.Mask)
       (net 164 CS12_B))
-    (pad 1 smd rect (at 0.675 -0.725) (size 0.55 0.4) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at 0.675 -0.725 180) (size 0.55 0.4) (layers F.Cu F.Paste F.Mask)
       (net 144 SW10_B))
     (model ${KIPRJMOD}/../3rd-party-footprints/19-337C_RSBHGHC-A88_4T.step
       (at (xyz 0 0 0))
@@ -815,7 +815,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED8ACD)
-    (at 433.916 147.968)
+    (at 344.7 72.2)
     (path /63A35802/6000FEDE/60117909)
     (fp_text reference D216 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -859,7 +859,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED8AB9)
-    (at 446.824934 134.385)
+    (at 386 4.275)
     (path /63A35802/6000FEDE/60117913)
     (fp_text reference D215 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -903,7 +903,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED8AA5)
-    (at 442.554934 137.785)
+    (at 324.0875 109.05)
     (path /63A35802/6000FEDE/6011791D)
     (fp_text reference D214 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -947,7 +947,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED8A91)
-    (at 438.284934 141.185)
+    (at 324.0875 90)
     (path /63A35802/6000FEDE/60117927)
     (fp_text reference D213 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -991,7 +991,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED8A7D)
-    (at 434.014934 144.585)
+    (at 330.45 72.3)
     (path /63A35802/6000FEDE/60117931)
     (fp_text reference D212 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1035,7 +1035,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED8A69)
-    (at 429.744934 147.985)
+    (at 366.95 4.275)
     (path /63A35802/6000FEDE/6011793B)
     (fp_text reference D211 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1079,7 +1079,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED8A55)
-    (at 446.824934 130.985)
+    (at 305.0375 109.05)
     (path /63A35802/6000FEDE/60117945)
     (fp_text reference D210 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1123,7 +1123,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED8A41)
-    (at 442.554934 134.385)
+    (at 264.55625 90)
     (path /63A35802/6000FEDE/6011794F)
     (fp_text reference D209 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1167,7 +1167,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED8A2D)
-    (at 429.744934 137.785)
+    (at 318.5 72)
     (path /63A35802/6000FEDE/601178D7)
     (fp_text reference D208 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1211,7 +1211,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED8A19)
-    (at 438.284934 137.785)
+    (at 405.05 32.85)
     (path /63A35802/6000FEDE/601178CD)
     (fp_text reference D207 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1255,7 +1255,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED8A05)
-    (at 434.014934 134.385)
+    (at 278.84375 109.05)
     (path /63A35802/6000FEDE/601178C3)
     (fp_text reference D206 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1299,7 +1299,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED89F1)
-    (at 438.284934 130.985)
+    (at 228.8375 90)
     (path /63A35802/6000FEDE/601178B9)
     (fp_text reference D205 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1343,7 +1343,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED89DD)
-    (at 421.204934 147.985)
+    (at 424.1 32.85)
     (path /63A35802/6000FEDE/601178AF)
     (fp_text reference D204 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1387,7 +1387,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED89C9)
-    (at 425.474934 144.585)
+    (at 386 32.85)
     (path /63A35802/6000FEDE/601178A5)
     (fp_text reference D203 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1431,7 +1431,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED89B5)
-    (at 429.744934 141.185)
+    (at 255.03125 109.05)
     (path /63A35802/6000FEDE/6011789B)
     (fp_text reference D202 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1475,7 +1475,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED89A1)
-    (at 434.014934 137.785)
+    (at 209.7875 90)
     (path /63A35802/6000FEDE/60117891)
     (fp_text reference D201 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1519,7 +1519,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED898D)
-    (at 438.284934 134.385)
+    (at 376.475 109.05)
     (path /63A35802/6000FEDE/60117887)
     (fp_text reference D200 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1527,34 +1527,34 @@
     (fp_text value 19-337C_RSBHGHC-A88_4T (at 0.3 1.3) (layer F.Fab)
       (effects (font (size 0.3 0.3) (thickness 0.015)))
     )
-    (fp_line (start -0.8 -0.8) (end 0.8 -0.8) (layer F.Fab) (width 0.127))
-    (fp_line (start 0.8 -0.8) (end 0.8 0.8) (layer F.Fab) (width 0.127))
-    (fp_line (start 0.8 0.8) (end -0.8 0.8) (layer F.Fab) (width 0.127))
-    (fp_line (start -0.8 0.8) (end -0.8 -0.8) (layer F.Fab) (width 0.127))
-    (fp_line (start -1.35 -1.175) (end 1.35 -1.175) (layer F.CrtYd) (width 0.05))
-    (fp_line (start 1.35 -1.175) (end 1.35 1.175) (layer F.CrtYd) (width 0.05))
-    (fp_line (start 1.35 1.175) (end -1.35 1.175) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -1.35 1.175) (end -1.35 -1.175) (layer F.CrtYd) (width 0.05))
-    (fp_circle (center 1.7 -1.2) (end 1.8 -1.2) (layer F.SilkS) (width 0.2))
-    (fp_circle (center 1.7 -1.2) (end 1.8 -1.2) (layer F.Fab) (width 0.2))
-    (fp_poly (pts (xy 1.7 0.889) (xy 0.9 0.889) (xy 0.9 0.589) (xy 1.7 0.589)) (layer F.Cu) (width 0.1))
-    (fp_poly (pts (xy 1.6 -0.5715) (xy 0.8 -0.5715) (xy 0.8 -0.8715) (xy 1.6 -0.8715)) (layer F.Cu) (width 0.1))
     (fp_poly (pts (xy 2.413 0.15) (xy 1.1 0.15) (xy 1.1 -0.15) (xy 2.413 -0.15)) (layer F.Cu) (width 0.1))
-    (pad 8 thru_hole circle (at 1.8 0.762) (size 0.7112 0.7112) (drill 0.3048) (layers *.Cu *.Mask))
-    (pad 8 thru_hole circle (at 2.5 0) (size 0.7112 0.7112) (drill 0.3048) (layers *.Cu *.Mask))
-    (pad 8 thru_hole circle (at 1.8 -0.7) (size 0.7112 0.7112) (drill 0.3048) (layers *.Cu *.Mask))
-    (pad 4 smd rect (at -0.75 0) (size 0.7 0.5) (layers F.Cu F.Paste F.Mask)
-      (net 159 CS7_B))
-    (pad 3 smd rect (at 0.75 0) (size 0.7 0.5) (layers F.Cu F.Paste F.Mask)
-      (net 151 SW2_B))
-    (pad 6 smd rect (at -0.675 0.725) (size 0.55 0.4) (layers F.Cu F.Paste F.Mask)
+    (fp_poly (pts (xy 1.6 -0.5715) (xy 0.8 -0.5715) (xy 0.8 -0.8715) (xy 1.6 -0.8715)) (layer F.Cu) (width 0.1))
+    (fp_poly (pts (xy 1.7 0.889) (xy 0.9 0.889) (xy 0.9 0.589) (xy 1.7 0.589)) (layer F.Cu) (width 0.1))
+    (fp_circle (center 1.7 -1.2) (end 1.8 -1.2) (layer F.Fab) (width 0.2))
+    (fp_circle (center 1.7 -1.2) (end 1.8 -1.2) (layer F.SilkS) (width 0.2))
+    (fp_line (start -1.35 1.175) (end -1.35 -1.175) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1.35 1.175) (end -1.35 1.175) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1.35 -1.175) (end 1.35 1.175) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.35 -1.175) (end 1.35 -1.175) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -0.8 0.8) (end -0.8 -0.8) (layer F.Fab) (width 0.127))
+    (fp_line (start 0.8 0.8) (end -0.8 0.8) (layer F.Fab) (width 0.127))
+    (fp_line (start 0.8 -0.8) (end 0.8 0.8) (layer F.Fab) (width 0.127))
+    (fp_line (start -0.8 -0.8) (end 0.8 -0.8) (layer F.Fab) (width 0.127))
+    (pad 1 smd rect (at 0.675 -0.725) (size 0.55 0.4) (layers F.Cu F.Paste F.Mask)
+      (net 153 SW1_B))
+    (pad 2 smd rect (at -0.675 -0.725) (size 0.55 0.4) (layers F.Cu F.Paste F.Mask)
       (net 159 CS7_B))
     (pad 5 smd rect (at 0.675 0.725) (size 0.55 0.4) (layers F.Cu F.Paste F.Mask)
       (net 152 SW3_B))
-    (pad 2 smd rect (at -0.675 -0.725) (size 0.55 0.4) (layers F.Cu F.Paste F.Mask)
+    (pad 6 smd rect (at -0.675 0.725) (size 0.55 0.4) (layers F.Cu F.Paste F.Mask)
       (net 159 CS7_B))
-    (pad 1 smd rect (at 0.675 -0.725) (size 0.55 0.4) (layers F.Cu F.Paste F.Mask)
-      (net 153 SW1_B))
+    (pad 3 smd rect (at 0.75 0) (size 0.7 0.5) (layers F.Cu F.Paste F.Mask)
+      (net 151 SW2_B))
+    (pad 4 smd rect (at -0.75 0) (size 0.7 0.5) (layers F.Cu F.Paste F.Mask)
+      (net 159 CS7_B))
+    (pad 8 thru_hole circle (at 1.8 -0.7) (size 0.7112 0.7112) (drill 0.3048) (layers *.Cu *.Mask))
+    (pad 8 thru_hole circle (at 2.5 0) (size 0.7112 0.7112) (drill 0.3048) (layers *.Cu *.Mask))
+    (pad 8 thru_hole circle (at 1.8 0.762) (size 0.7112 0.7112) (drill 0.3048) (layers *.Cu *.Mask))
     (model ${KIPRJMOD}/../3rd-party-footprints/19-337C_RSBHGHC-A88_4T.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -1563,7 +1563,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED8979)
-    (at 442.554934 130.985)
+    (at 366.95 51.9)
     (path /63A35802/6000FEDE/6011787D)
     (fp_text reference D199 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1607,7 +1607,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED8965)
-    (at 425.474934 147.985)
+    (at 231.21875 109.05)
     (path /63A35802/6000FEDE/60117873)
     (fp_text reference D198 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1651,7 +1651,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED8951)
-    (at 434.014934 141.185)
+    (at 190.7375 90)
     (path /63A35802/6000FEDE/60117869)
     (fp_text reference D197 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1695,7 +1695,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED893D)
-    (at 412.664934 130.985)
+    (at 424.1 61.425)
     (path /63A35802/6000FEDE/6011785F)
     (fp_text reference D196 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1739,7 +1739,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED8929)
-    (at 425.474934 141.185)
+    (at 405.05 51.9)
     (path /63A35802/6000FEDE/60117855)
     (fp_text reference D195 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1783,7 +1783,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED8915)
-    (at 421.204934 144.585)
+    (at 207.40625 109.05)
     (path /63A35802/6000FEDE/6011784B)
     (fp_text reference D194 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1827,7 +1827,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED8901)
-    (at 416.934934 147.985)
+    (at 171.6875 90)
     (path /63A35802/6000FEDE/60117841)
     (fp_text reference D193 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1871,7 +1871,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED88ED)
-    (at 434.014934 130.985)
+    (at 424.1 99.525)
     (path /63A35802/6000FEDE/60117837)
     (fp_text reference D192 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1915,7 +1915,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED88D9)
-    (at 429.744934 134.385)
+    (at 386 51.9)
     (path /63A35802/6000FEDE/6011782D)
     (fp_text reference D191 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1959,7 +1959,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED88C5)
-    (at 425.474934 137.785)
+    (at 135.96875 109.05)
     (path /63A35802/6000FEDE/60117823)
     (fp_text reference D190 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2003,7 +2003,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED88B1)
-    (at 421.204934 141.185)
+    (at 152.6375 90)
     (path /63A35802/6000FEDE/60117819)
     (fp_text reference D189 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2047,7 +2047,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED889D)
-    (at 416.934934 144.585)
+    (at 405.05 109.05)
     (path /63A35802/6000FEDE/6011780F)
     (fp_text reference D188 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2091,7 +2091,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED8889)
-    (at 412.664934 147.985)
+    (at 366.95 32.85)
     (path /63A35802/6000FEDE/60117805)
     (fp_text reference D187 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2135,7 +2135,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED8875)
-    (at 429.744934 130.985)
+    (at 114.5375 90)
     (path /63A35802/6000FEDE/601177FB)
     (fp_text reference D186 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2179,7 +2179,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED8861)
-    (at 425.474934 134.385)
+    (at 133.5875 90)
     (path /63A35802/6000FEDE/601177F1)
     (fp_text reference D185 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2223,7 +2223,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED884D)
-    (at 421.204934 137.785)
+    (at 405.05 90)
     (path /63A35802/6000FEDE/601177E7)
     (fp_text reference D184 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2267,7 +2267,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED8839)
-    (at 416.934934 141.185)
+    (at 405.05 70.95)
     (path /63A35802/6000FEDE/601177DD)
     (fp_text reference D183 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2311,7 +2311,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED8825)
-    (at 412.664934 144.585)
+    (at 64.53125 109.05)
     (path /63A35802/6000FEDE/601177D3)
     (fp_text reference D182 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2355,7 +2355,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED8811)
-    (at 425.474934 130.985)
+    (at 95.4875 90)
     (path /63A35802/6000FEDE/601177C9)
     (fp_text reference D181 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2399,7 +2399,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED87FD)
-    (at 421.204934 134.385)
+    (at 386 90)
     (path /63A35802/6000FEDE/601177BF)
     (fp_text reference D180 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2443,7 +2443,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED87E9)
-    (at 416.934934 137.785)
+    (at 386 70.95)
     (path /63A35802/6000FEDE/601177B5)
     (fp_text reference D179 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2487,7 +2487,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED87D5)
-    (at 412.664934 141.185)
+    (at 40.71875 109.05)
     (path /63A35802/6000FEDE/601177AB)
     (fp_text reference D178 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2531,7 +2531,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED87C1)
-    (at 421.204934 130.985)
+    (at 76.4375 90)
     (path /63A35802/6000FEDE/601177A1)
     (fp_text reference D177 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2575,7 +2575,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED87AD)
-    (at 416.934934 134.385)
+    (at 366.95 90)
     (path /63A35802/6000FEDE/60117797)
     (fp_text reference D176 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2619,7 +2619,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED8799)
-    (at 412.664934 137.785)
+    (at 366.95 70.95)
     (path /63A35802/6000FEDE/6011778D)
     (fp_text reference D175 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2663,7 +2663,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED8785)
-    (at 416.934934 130.985)
+    (at 16.90625 109.05)
     (path /63A35802/6000FEDE/60117783)
     (fp_text reference D174 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2707,7 +2707,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED8771)
-    (at 412.664934 134.385)
+    (at 57.3875 90)
     (path /63A35802/6000FEDE/60117779)
     (fp_text reference D173 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2751,7 +2751,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED875D)
-    (at 349.414934 182.905)
+    (at 343.1375 32.85)
     (path /63A35802/727EE950)
     (fp_text reference D172 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2927,7 +2927,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED870D)
-    (at 368.8 183.2)
+    (at 343.1375 51.9)
     (path /63A35802/726F9807)
     (fp_text reference D168 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3103,7 +3103,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED86BD)
-    (at 392.7 195.7)
+    (at 269.31875 70.95)
     (path /63A35802/6668AE2F)
     (fp_text reference D164 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3279,7 +3279,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED866D)
-    (at 364 182.8)
+    (at 238.3625 70.95)
     (path /63A35802/665DAFE6)
     (fp_text reference D160 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3455,7 +3455,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED861D)
-    (at 381.85 169.7)
+    (at 219.3125 70.95)
     (path /63A35802/6653C8DA)
     (fp_text reference D156 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3631,7 +3631,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED85CD)
-    (at 387.9 187.5)
+    (at 200.2625 70.95)
     (path /63A35802/664AC4C5)
     (fp_text reference D152 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3807,7 +3807,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED857D)
-    (at 386.6 195.2)
+    (at 181.2125 70.95)
     (path /63A35802/66428DA3)
     (fp_text reference D148 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3983,7 +3983,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED852D)
-    (at 367.964934 188.965)
+    (at 162.1625 70.95)
     (path /63A35802/64E8C221)
     (fp_text reference D144 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4159,7 +4159,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED84DD)
-    (at 363.694934 188.265)
+    (at 143.1125 70.95)
     (path /63A35802/64E22253)
     (fp_text reference D140 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4335,7 +4335,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED848D)
-    (at 389.4 170.6)
+    (at 124.0625 70.95)
     (path /63A35802/64DC4A5A)
     (fp_text reference D136 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4511,7 +4511,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED843D)
-    (at 359.424934 188.265)
+    (at 105.0125 70.95)
     (path /63A35802/64D6C852)
     (fp_text reference D132 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4687,7 +4687,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED83ED)
-    (at 379.644934 165.165)
+    (at 85.9625 70.95)
     (path /63A35802/64A19842)
     (fp_text reference D128 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4995,7 +4995,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED834D)
-    (at 368.294934 168.565)
+    (at 47.8625 70.95)
     (path /63A35802/6451D368)
     (fp_text reference D120 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5171,7 +5171,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED82FD)
-    (at 375.374934 165.165)
+    (at 26.43125 90)
     (path /63A35802/64319422)
     (fp_text reference D116 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5347,7 +5347,7 @@
   )
 
   (module RSBHGHC-A88:4T (layer F.Cu) (tedit 5FEE26DC) (tstamp 5FED82AD)
-    (at 374.6 186.8)
+    (at 21.66875 70.95)
     (path /63A35802/642B5737)
     (fp_text reference D112 (at 0.762 -1.6764) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -13399,13 +13399,13 @@
   )
 
   (module eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0 (layer B.Cu) (tedit 5FEDF641) (tstamp 5FED7F5B)
-    (at 280.25 64.5 90)
+    (at 284.9 62.8 180)
     (path /61D5AFBF)
     (attr smd)
-    (fp_text reference D73 (at -2.299999 1.675 90) (layer B.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)) (justify right mirror))
+    (fp_text reference D73 (at -2.299999 1.675) (layer B.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))
     )
-    (fp_text value LL4148 (at -0.4572 0.2286 90) (layer Dwgs.User) hide
+    (fp_text value LL4148 (at -0.4572 0.2286) (layer Dwgs.User) hide
       (effects (font (size 0.635 0.635) (thickness 0.0762)))
     )
     (fp_line (start -0.75 -0.7) (end 0.75 -0.7) (layer B.SilkS) (width 0.15))
@@ -13420,17 +13420,17 @@
     (fp_line (start 1.725 0.7) (end 1.725 -0.7) (layer B.Fab) (width 0.15))
     (fp_line (start -1.725 0.7) (end 1.725 0.7) (layer B.Fab) (width 0.15))
     (fp_line (start -1.725 -0.7) (end -1.725 0.7) (layer B.Fab) (width 0.15))
-    (pad 2 smd rect (at 1.4 0.5375 90) (size 0.5 0.575) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.4 0.5375 180) (size 0.5 0.575) (layers B.Cu B.Paste B.Mask)
       (net 84 "Net-(D73-Pad2)"))
-    (pad 1 smd rect (at -1.399999 -0.5375 90) (size 0.5 0.575) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.399999 -0.5375 180) (size 0.5 0.575) (layers B.Cu B.Paste B.Mask)
       (net 11 ROW_3))
-    (pad 2 smd rect (at 1.4 -0.5375 90) (size 0.5 0.575) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.4 -0.5375 180) (size 0.5 0.575) (layers B.Cu B.Paste B.Mask)
       (net 84 "Net-(D73-Pad2)"))
-    (pad 1 smd rect (at -1.399999 0.5375 90) (size 0.5 0.575) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.399999 0.5375 180) (size 0.5 0.575) (layers B.Cu B.Paste B.Mask)
       (net 11 ROW_3))
-    (pad 1 smd rect (at -1.949999 0 90) (size 0.6 1.65) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.949999 0 180) (size 0.6 1.65) (layers B.Cu B.Paste B.Mask)
       (net 11 ROW_3))
-    (pad 2 smd rect (at 1.95 0 90) (size 0.6 1.65) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.95 0 180) (size 0.6 1.65) (layers B.Cu B.Paste B.Mask)
       (net 84 "Net-(D73-Pad2)"))
     (model "${KIPRJMOD}/../3rd-party-footprints/Diode_Fairchild_ON Semiconductor_LL4148/eec.models/Fairchild/ON_Semiconductor_-_LL4148.step"
       (at (xyz 0 0 0))
@@ -13604,13 +13604,13 @@
   )
 
   (module eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0 (layer B.Cu) (tedit 5FEDF641) (tstamp 5FED7EED)
-    (at 273.25 84 90)
+    (at 279.4 77.8 180)
     (path /61A6B7EF)
     (attr smd)
-    (fp_text reference D68 (at -2.299999 1.675 90) (layer B.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)) (justify right mirror))
+    (fp_text reference D68 (at -2.299999 1.675) (layer B.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))
     )
-    (fp_text value LL4148 (at -0.4572 0.2286 90) (layer Dwgs.User) hide
+    (fp_text value LL4148 (at -0.4572 0.2286) (layer Dwgs.User) hide
       (effects (font (size 0.635 0.635) (thickness 0.0762)))
     )
     (fp_line (start -1.725 -0.7) (end -1.725 0.7) (layer B.Fab) (width 0.15))
@@ -13625,17 +13625,17 @@
     (fp_circle (center -2.799999 0.0125) (end -2.674999 0.0125) (layer B.SilkS) (width 0.25))
     (fp_line (start -0.75 0.7) (end 0.75 0.7) (layer B.SilkS) (width 0.15))
     (fp_line (start -0.75 -0.7) (end 0.75 -0.7) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.95 0 90) (size 0.6 1.65) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.95 0 180) (size 0.6 1.65) (layers B.Cu B.Paste B.Mask)
       (net 79 "Net-(D68-Pad2)"))
-    (pad 1 smd rect (at -1.949999 0 90) (size 0.6 1.65) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.949999 0 180) (size 0.6 1.65) (layers B.Cu B.Paste B.Mask)
       (net 13 ROW_4))
-    (pad 1 smd rect (at -1.399999 0.5375 90) (size 0.5 0.575) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.399999 0.5375 180) (size 0.5 0.575) (layers B.Cu B.Paste B.Mask)
       (net 13 ROW_4))
-    (pad 2 smd rect (at 1.4 -0.5375 90) (size 0.5 0.575) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.4 -0.5375 180) (size 0.5 0.575) (layers B.Cu B.Paste B.Mask)
       (net 79 "Net-(D68-Pad2)"))
-    (pad 1 smd rect (at -1.399999 -0.5375 90) (size 0.5 0.575) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.399999 -0.5375 180) (size 0.5 0.575) (layers B.Cu B.Paste B.Mask)
       (net 13 ROW_4))
-    (pad 2 smd rect (at 1.4 0.5375 90) (size 0.5 0.575) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.4 0.5375 180) (size 0.5 0.575) (layers B.Cu B.Paste B.Mask)
       (net 79 "Net-(D68-Pad2)"))
     (model "${KIPRJMOD}/../3rd-party-footprints/Diode_Fairchild_ON Semiconductor_LL4148/eec.models/Fairchild/ON_Semiconductor_-_LL4148.step"
       (at (xyz 0 0 0))
@@ -16187,7 +16187,7 @@
   )
 
   (module capacitor-lib:Samsung-CL10-09_2006-0-IPC_C (layer F.Cu) (tedit 5FEDF47C) (tstamp 5FED7983)
-    (at 350.632934 170.75)
+    (at 333.532934 165.75)
     (path /63A35802/63E2940D)
     (attr smd)
     (fp_text reference C25 (at 1.406066 -0.2) (layer F.SilkS)
@@ -16219,7 +16219,7 @@
   )
 
   (module capacitor-lib:Samsung-CL10-09_2006-0-IPC_C (layer F.Cu) (tedit 5FEDF47C) (tstamp 5FED7956)
-    (at 430.919934 172.505)
+    (at 372.919934 167.905)
     (path /63A35802/63E29448)
     (attr smd)
     (fp_text reference C22 (at 1.406066 -0.2) (layer F.SilkS)
@@ -16251,7 +16251,7 @@
   )
 
   (module capacitor-lib:Samsung-CL10-09_2006-0-IPC_C (layer F.Cu) (tedit 5FEDF47C) (tstamp 5FED78B8)
-    (at 392.569934 164.705)
+    (at 365.273006 171.4)
     (path /63A35802/63D764B5)
     (attr smd)
     (fp_text reference C12 (at 1.406066 -0.2) (layer F.SilkS)
@@ -16283,7 +16283,7 @@
   )
 
   (module capacitor-lib:Samsung-CL10-09_2006-0-IPC_C (layer F.Cu) (tedit 5FEDF47C) (tstamp 5FED793A)
-    (at 407.856 177.61)
+    (at 349.856 173.01)
     (path /63A35802/63E29486)
     (attr smd)
     (fp_text reference C20 (at 1.406066 -0.2) (layer F.SilkS)
@@ -16315,7 +16315,7 @@
   )
 
   (module capacitor-lib:Samsung-CL10-09_2006-0-IPC_C (layer F.Cu) (tedit 5FEDF47C) (tstamp 5FED7907)
-    (at 421.876 184.27)
+    (at 363.876 179.67)
     (path /63A35802/63DECC4B)
     (attr smd)
     (fp_text reference C17 (at 1.406066 -0.2) (layer F.SilkS)
@@ -16347,7 +16347,7 @@
   )
 
   (module capacitor-lib:Samsung-CL10-09_2006-0-IPC_C (layer F.Cu) (tedit 5FEDF47C) (tstamp 5FED78E5)
-    (at 421.886 180.87)
+    (at 363.886 176.27)
     (path /63A35802/63D9F36F)
     (attr smd)
     (fp_text reference C15 (at 1.406066 -0.2) (layer F.SilkS)
@@ -16507,7 +16507,7 @@
   )
 
   (module capacitor-lib:Samsung-0603_1608_Metric-0-0-0 (layer F.Cu) (tedit 5FEDF461) (tstamp 5FED788B)
-    (at 203.38 155.82)
+    (at 204.28 173.72)
     (path /5FF14861)
     (attr smd)
     (fp_text reference C10 (at 1.406066 -0.2) (layer F.SilkS)
@@ -16603,7 +16603,7 @@
   )
 
   (module capacitor-lib:CAPPC3528X210N (layer F.Cu) (tedit 5FEDEDD3) (tstamp 5FED7929)
-    (at 425.026 193.67)
+    (at 367.026 189.07)
     (path /63A35802/63E9B64D)
     (attr smd)
     (fp_text reference C19 (at -0.508 -2.413) (layer F.SilkS)
@@ -16637,7 +16637,7 @@
   )
 
   (module capacitor-lib:CAPPC3528X210N (layer F.Cu) (tedit 5FEDEDD3) (tstamp 5FED789C)
-    (at 341.762934 188.49)
+    (at 324.662934 183.49)
     (path /63A35802/63E8E5AC)
     (attr smd)
     (fp_text reference C18 (at -0.508 -2.413) (layer F.SilkS)
@@ -16671,7 +16671,7 @@
   )
 
   (module capacitor-lib:CAPC1608X90N (layer F.Cu) (tedit 5FEDEDC7) (tstamp 5FED78F6)
-    (at 434.516 174.29)
+    (at 376.516 169.69)
     (path /63A35802/63DE9808)
     (attr smd)
     (fp_text reference C16 (at 0.508 -1.3335) (layer F.SilkS)
@@ -16700,7 +16700,7 @@
   )
 
   (module capacitor-lib:CAPC1608X90N (layer F.Cu) (tedit 5FEDEDC7) (tstamp 5FEE3F34)
-    (at 407.976 182.1)
+    (at 349.976 177.5)
     (path /63A35802/63E293F3)
     (attr smd)
     (fp_text reference C26 (at 0.508 -1.3335) (layer F.SilkS)
@@ -16729,7 +16729,7 @@
   )
 
   (module capacitor-lib:CAPC1608X90N (layer F.Cu) (tedit 5FEDEDC7) (tstamp 5FED7972)
-    (at 404.269934 174.905)
+    (at 346.269934 170.305)
     (path /63A35802/63E2941C)
     (attr smd)
     (fp_text reference C24 (at 0.508 -1.3335) (layer F.SilkS)
@@ -16758,7 +16758,7 @@
   )
 
   (module capacitor-lib:CAPC1608X90N (layer F.Cu) (tedit 5FEDEDC7) (tstamp 5FED7964)
-    (at 424.649934 186.105)
+    (at 366.649934 181.505)
     (path /63A35802/63E2942E)
     (attr smd)
     (fp_text reference C23 (at 0.508 -1.3335) (layer F.SilkS)
@@ -16787,7 +16787,7 @@
   )
 
   (module capacitor-lib:CAPC1608X90N (layer F.Cu) (tedit 5FEDEDC7) (tstamp 5FED7948)
-    (at 421.199934 178.205)
+    (at 363.199934 173.605)
     (path /63A35802/63E29468)
     (attr smd)
     (fp_text reference C21 (at 0.508 -1.3335) (layer F.SilkS)
@@ -16816,7 +16816,7 @@
   )
 
   (module capacitor-lib:CAPC1608X90N (layer F.Cu) (tedit 5FEDEDC7) (tstamp 5FED78D4)
-    (at 430.919934 174.985)
+    (at 372.919934 170.385)
     (path /63A35802/63D9DE47)
     (attr smd)
     (fp_text reference C14 (at 0.508 -1.3335) (layer F.SilkS)
@@ -16845,7 +16845,7 @@
   )
 
   (module capacitor-lib:CAPC1608X90N (layer F.Cu) (tedit 5FEDEDC7) (tstamp 5FED78C6)
-    (at 418.289934 181.605)
+    (at 360.289934 177.005)
     (path /63A35802/63D81B26)
     (attr smd)
     (fp_text reference C13 (at 0.508 -1.3335) (layer F.SilkS)
@@ -16874,7 +16874,7 @@
   )
 
   (module capacitor-lib:CAPC1608X90N (layer F.Cu) (tedit 5FEDEDC7) (tstamp 5FED78AA)
-    (at 422.959934 189.505)
+    (at 364.959934 184.905)
     (path /63A35802/63D72369)
     (attr smd)
     (fp_text reference C11 (at 0.508 -1.3335) (layer F.SilkS)
@@ -16967,7 +16967,7 @@
   )
 
   (module Resistor-Libs:RESC6332X70N (layer F.Cu) (tedit 5FEDED46) (tstamp 5FED8C6D)
-    (at 343.162934 183.711)
+    (at 326.062934 178.711)
     (path /63A35802/6409AB49)
     (attr smd)
     (fp_text reference R14 (at -1.8415 -2.667) (layer F.SilkS)
@@ -16998,7 +16998,7 @@
   )
 
   (module Resistor-Libs:RESC6332X70N (layer F.Cu) (tedit 5FEDED46) (tstamp 5FED8C41)
-    (at 352.032934 165.971)
+    (at 334.932934 160.971)
     (path /63A35802/63ED9B4F)
     (attr smd)
     (fp_text reference R11 (at -1.8415 -2.667) (layer F.SilkS)
@@ -17029,7 +17029,7 @@
   )
 
   (module Resistor-Libs:RESC1508X55N (layer F.Cu) (tedit 5FEDED37) (tstamp 5FED8C5D)
-    (at 408.244934 174.925)
+    (at 350.244934 170.325)
     (path /63A35802/6409AB23)
     (attr smd)
     (fp_text reference R13 (at 0.508 -1.3335) (layer F.SilkS)
@@ -17058,7 +17058,7 @@
   )
 
   (module Resistor-Libs:RESC1508X55N (layer F.Cu) (tedit 5FEDED37) (tstamp 5FED8C4F)
-    (at 404.264934 177.405)
+    (at 346.264934 172.805)
     (path /63A35802/6409AB2A)
     (attr smd)
     (fp_text reference R12 (at 0.508 -1.3335) (layer F.SilkS)
@@ -17087,7 +17087,7 @@
   )
 
   (module Resistor-Libs:RESC1508X55N (layer F.Cu) (tedit 5FEDED37) (tstamp 5FED8C31)
-    (at 418.284934 184.105)
+    (at 360.284934 179.505)
     (path /63A35802/63EAB8BE)
     (attr smd)
     (fp_text reference R10 (at 0.508 -1.3335) (layer F.SilkS)
@@ -17116,7 +17116,7 @@
   )
 
   (module Resistor-Libs:RESC1508X55N (layer F.Cu) (tedit 5FEDED37) (tstamp 5FED8C23)
-    (at 430.624934 177.485)
+    (at 372.624934 172.885)
     (path /63A35802/63EB01BF)
     (attr smd)
     (fp_text reference R9 (at 0.508 -1.3335) (layer F.SilkS)
@@ -17145,7 +17145,7 @@
   )
 
   (module Resistor-Libs:RESC1508X55N (layer F.Cu) (tedit 5FEDED37) (tstamp 5FED8BDD)
-    (at 157.954934 148.715)
+    (at 158.854934 166.615)
     (path /60013A68)
     (attr smd)
     (fp_text reference R4 (at 0.508 -1.3335) (layer F.SilkS)
@@ -17174,7 +17174,7 @@
   )
 
   (module Resistor-Libs:RESC1508X55N (layer F.Cu) (tedit 5FEDED37) (tstamp 5FED8BCF)
-    (at 148.104934 149.145)
+    (at 149.004934 167.045)
     (path /6001106E)
     (attr smd)
     (fp_text reference R3 (at 0.508 -1.3335) (layer F.SilkS)
@@ -17203,7 +17203,7 @@
   )
 
   (module Resistor-Libs:RESC1508X50N (layer F.Cu) (tedit 5FEDED24) (tstamp 5FED8C15)
-    (at 152.529934 148.875)
+    (at 153.429934 166.775)
     (path /5FF03334)
     (attr smd)
     (fp_text reference R8 (at 0.508 -1.3335) (layer F.SilkS)
@@ -17232,7 +17232,7 @@
   )
 
   (module Resistor-Libs:RESC1508X50N (layer F.Cu) (tedit 5FEDED24) (tstamp 5FED8C07)
-    (at 161.879934 148.695)
+    (at 162.779934 166.595)
     (path /5FECBF04)
     (attr smd)
     (fp_text reference R7 (at 0.508 -1.3335) (layer F.SilkS)
@@ -17261,7 +17261,7 @@
   )
 
   (module Resistor-Libs:RESC1508X50N (layer F.Cu) (tedit 5FEDED24) (tstamp 5FED8BF9)
-    (at 171.5 150.5)
+    (at 172.4 168.4)
     (path /5FF01719)
     (attr smd)
     (fp_text reference R6 (at 0.508 -1.3335) (layer F.SilkS)
@@ -17290,7 +17290,7 @@
   )
 
   (module Resistor-Libs:RESC1508X50N (layer F.Cu) (tedit 5FEDED24) (tstamp 5FED8BEB)
-    (at 170.5 146.5)
+    (at 171.4 164.4)
     (path /5FECA545)
     (attr smd)
     (fp_text reference R5 (at 0.508 -1.3335) (layer F.SilkS)
@@ -17526,7 +17526,7 @@
   )
 
   (module keyboard_parts:Mx_Stab_275 (layer F.Cu) (tedit 5FEDE753) (tstamp 5FEF8C8D)
-    (at 268.986 163.322)
+    (at 264.55625 95.25)
     (descr MXALPS)
     (tags MXALPS)
     (fp_text reference ST275 (at 0 11) (layer F.SilkS)
@@ -17594,7 +17594,7 @@
   )
 
   (module keyboard_parts:Mx_Stab_225 (layer F.Cu) (tedit 5FEDE743) (tstamp 5FEF898D)
-    (at 269.494 139.827)
+    (at 269.31875 76.2)
     (descr MXALPS)
     (tags MXALPS)
     (fp_text reference ST225 (at 0 11) (layer F.SilkS)
@@ -17915,7 +17915,7 @@
   )
 
   (module Lumissil:IS31FL3733B-QFLS4-TR (layer F.Cu) (tedit 5FED1DF9) (tstamp 5FEF7CEE)
-    (at 105.8 134.8)
+    (at 200.9 -42.6)
     (path /63A35802/63D4A2BB)
     (attr virtual)
     (fp_text reference U5 (at -0.508 -4.318) (layer F.SilkS)
@@ -18450,7 +18450,7 @@
   )
 
   (module Lumissil:IS31FL3733B-QFLS4-TR (layer F.Cu) (tedit 5FED1DF9) (tstamp 5FED970A)
-    (at 457.3 144.2)
+    (at 263.2 216.2)
     (path /63A35802/6409AB0A)
     (attr smd)
     (fp_text reference U6 (at -0.508 -4.318) (layer F.SilkS)
@@ -18933,7 +18933,7 @@
   )
 
   (module STM:STMicroelectronics-SO8N-SO-A-0-2-IPC_C (layer F.Cu) (tedit 5FED1E21) (tstamp 5FED9456)
-    (at 361.113034 166.515)
+    (at 344.013034 161.515)
     (path /63A35802/63D31709)
     (attr smd)
     (fp_text reference U4 (at -3.4531 -3.35) (layer F.SilkS)
@@ -18980,7 +18980,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5FED8B9F)
-    (at 144.13 153.32)
+    (at 345.7 -12.4)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /6006B89E)
@@ -19035,7 +19035,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5FED8B82)
-    (at 130.88 150.82)
+    (at 331.88 -11.08)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /6006794B)
