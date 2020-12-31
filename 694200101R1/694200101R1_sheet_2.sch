@@ -13,20 +13,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1200 7250 0    50   Input ~ 0
+Text HLabel 1050 7150 0    50   BiDi ~ 0
 I2C_SDA
-Text HLabel 1200 7100 0    50   Input ~ 0
+Text HLabel 1050 7000 0    50   BiDi ~ 0
 I2C_SCL
-Entry Wire Line
-	1250 7250 1350 7350
-Entry Wire Line
-	1300 7100 1400 7200
 Wire Wire Line
 	1550 7900 1350 7900
-Wire Wire Line
-	1350 7900 1350 7350
-Wire Wire Line
-	1400 7200 1400 7800
 Wire Wire Line
 	1400 7800 1550 7800
 Wire Wire Line
@@ -51,14 +43,8 @@ Wire Wire Line
 Connection ~ 1500 8300
 Connection ~ 2550 8300
 Connection ~ 2550 8450
-Entry Wire Line
-	3000 7250 3100 7350
-Wire Wire Line
-	3100 7350 3100 8550
 Wire Wire Line
 	3100 8550 4000 8550
-Entry Wire Line
-	3050 7100 3150 7200
 Wire Wire Line
 	10300 6900 10300 6950
 Wire Wire Line
@@ -210,8 +196,6 @@ Wire Wire Line
 Wire Wire Line
 	3950 8500 3150 8500
 Wire Wire Line
-	3150 7200 3150 8500
-Wire Wire Line
 	5800 9650 6250 9650
 Wire Wire Line
 	6250 9650 6250 9600
@@ -345,12 +329,6 @@ Wire Wire Line
 	4000 9450 3950 9450
 Wire Wire Line
 	4000 9350 3950 9350
-Entry Wire Line
-	7100 7250 7200 7350
-Entry Wire Line
-	7150 7100 7250 7200
-Wire Wire Line
-	7200 7350 7200 8550
 Wire Wire Line
 	7200 8550 8100 8550
 Wire Wire Line
@@ -424,8 +402,6 @@ Wire Wire Line
 	8050 8450 8050 8500
 Wire Wire Line
 	8050 8500 7250 8500
-Wire Wire Line
-	7250 7200 7250 8500
 Wire Wire Line
 	9900 8850 10400 8850
 Wire Wire Line
@@ -4356,8 +4332,32 @@ Connection ~ 13100 6900
 Connection ~ 13100 7250
 Wire Wire Line
 	13100 7250 13400 7250
-Wire Bus Line
-	1200 7250 7100 7250
-Wire Bus Line
-	1200 7100 7150 7100
+Wire Wire Line
+	7200 7150 7200 8550
+Wire Wire Line
+	1050 7150 1350 7150
+Wire Wire Line
+	1350 7150 1350 7900
+Connection ~ 1350 7150
+Wire Wire Line
+	1350 7150 3100 7150
+Wire Wire Line
+	3100 7150 3100 8550
+Connection ~ 3100 7150
+Wire Wire Line
+	3100 7150 7200 7150
+Wire Wire Line
+	7250 7000 7250 8500
+Wire Wire Line
+	1050 7000 1400 7000
+Wire Wire Line
+	1400 7000 1400 7800
+Connection ~ 1400 7000
+Wire Wire Line
+	3150 7000 3150 8500
+Wire Wire Line
+	1400 7000 3150 7000
+Connection ~ 3150 7000
+Wire Wire Line
+	3150 7000 7250 7000
 $EndSCHEMATC
