@@ -12,4 +12,5 @@
   (lib (name capacitor-lib)(type KiCad)(uri ${KIPRJMOD}/../3rd-party-footprints/capacitor-lib/capacitor-lib.pretty)(options "")(descr ""))
   (lib (name keyboard_parts)(type KiCad)(uri ${KIPRJMOD}/../3rd-party-footprints/colemarkham/keyboard_parts.pretty)(options "")(descr ""))
   (lib (name RSBHGHC-A88)(type KiCad)(uri ${KIPRJMOD}/../3rd-party-footprints/LED_19-337C/RSBHGHC-A88.pretty)(options "")(descr ""))
+  (lib (name SamacSys_Parts)(type KiCad)(uri C:/Users/doni/Documents/Keyboard-Stuff/SpongeBurger-Keyboard/3rd-party-footprints/SamacSys/SamacSys_Parts.pretty)(options "")(descr ""))
 )

@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP PEC11L-4115F-S0020
+D Encoders ENCODER
+K
+F 
+$ENDCMP
+#
+#End Doc Library

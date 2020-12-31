@@ -670,13 +670,6 @@ Wire Wire Line
 Wire Wire Line
 	10000 7800 9550 7800
 Wire Wire Line
-	14900 7700 14800 7700
-Connection ~ 13500 7900
-Wire Wire Line
-	13500 7900 13600 7900
-Wire Wire Line
-	13500 7800 13600 7800
-Wire Wire Line
 	16050 6350 16050 6500
 Wire Wire Line
 	15400 6350 15750 6350
@@ -721,11 +714,11 @@ Connection ~ 15750 6350
 Wire Wire Line
 	15750 6350 16050 6350
 Wire Wire Line
-	14800 7300 15400 7300
+	14750 7300 15400 7300
 Wire Wire Line
 	16050 7400 16050 7300
 Wire Wire Line
-	14800 7400 16050 7400
+	14750 7400 16050 7400
 Wire Wire Line
 	15400 7300 15400 7500
 Connection ~ 15400 7300
@@ -2517,96 +2510,19 @@ Wire Wire Line
 Connection ~ 4700 900 
 Wire Wire Line
 	5400 850  5400 1550
-Wire Wire Line
-	13600 7200 13200 7200
-Text GLabel 13200 7200 0    50   Input ~ 0
+Text GLabel 13200 7250 0    50   Input ~ 0
 COL_22
-$Comp
-L eec-fairchild:LL4148 D94
-U 1 1 638FF624
-P 13650 7600
-F 0 "D94" V 13854 7678 50  0000 L CNN
-F 1 "LL4148" V 13945 7678 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 13650 8000 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 13650 8100 50  0001 L CNN
-F 4 "Diode" H 13650 8200 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 13650 8300 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 13650 8400 50  0001 L CNN "digikey part number"
-F 7 "yes" H 13650 8500 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 13650 8600 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 13650 8700 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 13650 8800 50  0001 L CNN "mouser part number"
-F 11 "2" H 13650 8900 50  0001 L CNN "num pins"
-F 12 "SOD80" H 13650 9000 50  0001 L CNN "package"
-F 13 "yes" H 13650 9100 50  0001 L CNN "rohs"
-F 14 "+175°C" H 13650 9200 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 13650 9300 50  0001 L CNN "temperature range low"
-F 16 "" H 13650 9400 50  0001 L CNN "voltage"
-	1    13650 7600
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	13550 7600 13600 7600
-Text GLabel 13200 7600 0    50   Input ~ 0
-ROW_0
-Wire Wire Line
-	13200 7600 13250 7600
-Connection ~ 14900 8150
-Wire Wire Line
-	14900 8150 14900 8350
-Wire Wire Line
-	14900 8150 14900 7700
-Wire Wire Line
-	13500 7800 13500 7900
-$Comp
-L eec-Bourns:PEC11R-4220F-S0024 ENC1
-U 1 1 5FEA104E
-P 13500 7200
-F 0 "ENC1" H 14200 7465 50  0000 C CNN
-F 1 "PEC11R-4220F-S0024" H 14200 7374 50  0000 C CNN
-F 2 "eec-Bourns:Bourns-PEC11R-4220F-S0024-0-0-0" H 13500 7600 50  0001 L CNN
-F 3 "https://www.bourns.com/docs/product-datasheets/pec11r.pdf?sfvrsn=bb617cbf_6" H 13500 7700 50  0001 L CNN
-F 4 "Enc" H 13500 7800 50  0001 L CNN "category"
-F 5 "10mA" H 13500 7900 50  0001 L CNN "current rating"
-F 6 "Yes" H 13500 8000 50  0001 L CNN "detend"
-F 7 "Electromechanical" H 13500 8100 50  0001 L CNN "device class L1"
-F 8 "Switches" H 13500 8200 50  0001 L CNN "device class L2"
-F 9 "Encoders" H 13500 8300 50  0001 L CNN "device class L3"
-F 10 "ROTARY ENCODER MECHANICAL 24PPR" H 13500 8400 50  0001 L CNN "digikey description"
-F 11 "PEC11R-4220F-S0024-ND" H 13500 8500 50  0001 L CNN "digikey part number"
-F 12 "Incremental" H 13500 8600 50  0001 L CNN "encoder type"
-F 13 "27.3mm" H 13500 8700 50  0001 L CNN "height"
-F 14 "yes" H 13500 8800 50  0001 L CNN "lead free"
-F 15 "456a2eefc9d34d73" H 13500 8900 50  0001 L CNN "library id"
-F 16 "Bourns" H 13500 9000 50  0001 L CNN "manufacturer"
-F 17 "Encoders 20mm SHAFT w/SWITCH" H 13500 9100 50  0001 L CNN "mouser description"
-F 18 "652-PEC11R-4220F-S24" H 13500 9200 50  0001 L CNN "mouser part number"
-F 19 "1" H 13500 9300 50  0001 L CNN "number of circuits"
-F 20 "ENC_PTH_12MM5_13MM4" H 13500 9400 50  0001 L CNN "package"
-F 21 "24" H 13500 9500 50  0001 L CNN "pulses per rev"
-F 22 "yes" H 13500 9600 50  0001 L CNN "rohs"
-F 23 "+70°C" H 13500 9700 50  0001 L CNN "temperature range high"
-F 24 "30°C" H 13500 9800 50  0001 L CNN "temperature range low"
-F 25 "5V" H 13500 9900 50  0001 L CNN "voltage rating DC"
-	1    13500 7200
-	1    0    0    -1  
-$EndComp
-Connection ~ 13500 8150
 $Comp
 L power:GND #PWR010
 U 1 1 5FEB2ECC
-P 13500 8150
-F 0 "#PWR010" H 13500 7900 50  0001 C CNN
-F 1 "GND" H 13505 7977 50  0000 C CNN
-F 2 "" H 13500 8150 50  0001 C CNN
-F 3 "" H 13500 8150 50  0001 C CNN
-	1    13500 8150
+P 14100 7900
+F 0 "#PWR010" H 14100 7650 50  0001 C CNN
+F 1 "GND" H 14105 7727 50  0000 C CNN
+F 2 "" H 14100 7900 50  0001 C CNN
+F 3 "" H 14100 7900 50  0001 C CNN
+	1    14100 7900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	13500 8150 14900 8150
-Wire Wire Line
-	13500 7900 13500 8150
 Wire Wire Line
 	13900 5950 13800 5950
 Wire Wire Line
@@ -5925,4 +5841,82 @@ Wire Wire Line
 	6350 3250 7050 3250
 Connection ~ 6350 3250
 Connection ~ 7050 3250
+Wire Wire Line
+	13600 7250 13200 7250
+$Comp
+L SamacSys_Parts:PEC11L-4115F-S0020 IC?
+U 1 1 5FF3C341
+P 14100 6850
+F 0 "IC?" V 13919 6850 50  0000 C CNN
+F 1 "PEC11L-4115F-S0020" V 14010 6850 50  0000 C CNN
+F 2 "PEC11L4115FS0020" H 14950 7150 50  0001 L CNN
+F 3 "" H 14950 7050 50  0001 L CNN
+F 4 "Encoders ENCODER" H 14950 6950 50  0001 L CNN "Description"
+F 5 "25" H 14950 6850 50  0001 L CNN "Height"
+F 6 "652-PEC11L4115FS0020" H 14950 6750 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Bourns/PEC11L-4115F-S0020?qs=gk21WLQFtgRAgrgJZfpkWw%3D%3D" H 14950 6650 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Bourns" H 14950 6550 50  0001 L CNN "Manufacturer_Name"
+F 9 "PEC11L-4115F-S0020" H 14950 6450 50  0001 L CNN "Manufacturer_Part_Number"
+	1    14100 6850
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	13200 7350 13250 7350
+Text GLabel 13200 7350 0    50   Input ~ 0
+ROW_0
+Wire Wire Line
+	13550 7350 13600 7350
+$Comp
+L eec-fairchild:LL4148 D94
+U 1 1 638FF624
+P 13650 7350
+F 0 "D94" V 13854 7428 50  0000 L CNN
+F 1 "LL4148" V 13945 7428 50  0000 L CNN
+F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 13650 7750 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 13650 7850 50  0001 L CNN
+F 4 "Diode" H 13650 7950 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 13650 8050 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 13650 8150 50  0001 L CNN "digikey part number"
+F 7 "yes" H 13650 8250 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 13650 8350 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 13650 8450 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 13650 8550 50  0001 L CNN "mouser part number"
+F 11 "2" H 13650 8650 50  0001 L CNN "num pins"
+F 12 "SOD80" H 13650 8750 50  0001 L CNN "package"
+F 13 "yes" H 13650 8850 50  0001 L CNN "rohs"
+F 14 "+175°C" H 13650 8950 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 13650 9050 50  0001 L CNN "temperature range low"
+F 16 "" H 13650 9150 50  0001 L CNN "voltage"
+	1    13650 7350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	14750 7300 14750 7250
+Wire Wire Line
+	14750 7250 14600 7250
+Wire Wire Line
+	14750 7400 14750 7450
+Wire Wire Line
+	14750 7450 14600 7450
+Wire Wire Line
+	14100 6800 14650 6800
+Wire Wire Line
+	14650 6800 14650 7350
+Wire Wire Line
+	14650 7350 14600 7350
+Wire Wire Line
+	14650 7350 14650 7900
+Wire Wire Line
+	14650 7900 14100 7900
+Wire Wire Line
+	14100 7900 14100 7850
+Connection ~ 14650 7350
+Connection ~ 14100 7900
+Wire Wire Line
+	14900 7900 14900 8350
+Wire Wire Line
+	14650 7900 14900 7900
+Connection ~ 14650 7900
+Wire Wire Line
+	14100 6800 14100 6850
 $EndSCHEMATC

@@ -12,4 +12,5 @@
   (lib (name STM)(type Legacy)(uri ${KIPRJMOD}/../3rd-party-footprints/STM/STM.lib)(options "")(descr ""))
   (lib (name Lumissil)(type Legacy)(uri ${KIPRJMOD}/../3rd-party-footprints/Lumissil/Lumissil.lib)(options "")(descr ""))
   (lib (name capacitor-lib)(type Legacy)(uri ${KIPRJMOD}/../3rd-party-footprints/capacitor-lib/capacitor-lib.lib)(options "")(descr ""))
+  (lib (name SamacSys_Parts)(type Legacy)(uri ${KIPRJMOD}/../3rd-party-footprints/SamacSys/SamacSys_Parts.lib)(options "")(descr ""))
 )
