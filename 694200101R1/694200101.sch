@@ -546,12 +546,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR09
 U 1 1 6007927B
-P 7550 6950
-F 0 "#PWR09" H 7550 6700 50  0001 C CNN
-F 1 "GND" H 7555 6777 50  0000 C CNN
-F 2 "" H 7550 6950 50  0001 C CNN
-F 3 "" H 7550 6950 50  0001 C CNN
-	1    7550 6950
+P 7500 6950
+F 0 "#PWR09" H 7500 6700 50  0001 C CNN
+F 1 "GND" H 7505 6777 50  0000 C CNN
+F 2 "" H 7500 6950 50  0001 C CNN
+F 3 "" H 7500 6950 50  0001 C CNN
+	1    7500 6950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -5851,35 +5851,35 @@ Wire Wire Line
 $Comp
 L capacitor-lib:06035A100JAT2A C6
 U 1 1 5FF44365
-P 6950 7700
-F 0 "C6" H 6822 7554 50  0000 R CNN
-F 1 "06035A100JAT2A" H 6822 7645 50  0000 R CNN
-F 2 "capacitor-lib:AVX-GRM124-0-0-IPC_C" H 6950 8000 50  0001 L CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1E472JA01-01A.pdf" H 6950 8100 50  0001 L CNN
-F 4 "10pF" H 6950 8200 50  0001 L CNN "capacitance"
-F 5 "Cap" H 6950 8300 50  0001 L CNN "category"
-F 6 "Passive Components" H 6950 8400 50  0001 L CNN "device class L1"
-F 7 "Capacitors" H 6950 8500 50  0001 L CNN "device class L2"
-F 8 "Ceramic Capacitors" H 6950 8600 50  0001 L CNN "device class L3"
-F 9 "CAP CER 10PF 50V C0G/NP0 0603" H 6950 8700 50  0001 L CNN "digikey description"
-F 10 "478-1163-2-ND" H 6950 8800 50  0001 L CNN "digikey part number"
-F 11 "0.9mm" H 6950 8900 50  0001 L CNN "height"
-F 12 "CAPC16080X186" H 6950 9000 50  0001 L CNN "ipc land pattern name"
-F 13 "yes" H 6950 9100 50  0001 L CNN "lead free"
-F 14 "936bf8fcd50e4ef0" H 6950 9200 50  0001 L CNN "library id"
-F 15 "AVX" H 6950 9300 50  0001 L CNN "manufacturer"
-F 16 "Ceramic" H 6950 9400 50  0001 L CNN "material"
-F 17 "0603 10 pF 50 V ±5 % Tol. C0G/NP0 Surface Mount Multilayer Ceramic Capacitor" H 6950 9500 50  0001 L CNN "mouser description"
-F 18 "581-06035A100J" H 6950 9600 50  0001 L CNN "mouser part number"
-F 19 "0603" H 6950 9700 50  0001 L CNN "package"
-F 20 "yes" H 6950 9800 50  0001 L CNN "rohs"
-F 21 "0mm" H 6950 9900 50  0001 L CNN "standoff height"
-F 22 "C0G" H 6950 10000 50  0001 L CNN "temperature characteristic"
-F 23 "+125°C" H 6950 10100 50  0001 L CNN "temperature range high"
-F 24 "-55°C" H 6950 10200 50  0001 L CNN "temperature range low"
-F 25 "5%" H 6950 10300 50  0001 L CNN "tolerance"
-F 26 "50V" H 6950 10400 50  0001 L CNN "voltage rating"
-	1    6950 7700
+P 7300 7500
+F 0 "C6" H 7172 7354 50  0000 R CNN
+F 1 "06035A100JAT2A" H 7172 7445 50  0000 R CNN
+F 2 "capacitor-lib:AVX-GRM124-0-0-IPC_C" H 7300 7800 50  0001 L CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1E472JA01-01A.pdf" H 7300 7900 50  0001 L CNN
+F 4 "10pF" H 7300 8000 50  0001 L CNN "capacitance"
+F 5 "Cap" H 7300 8100 50  0001 L CNN "category"
+F 6 "Passive Components" H 7300 8200 50  0001 L CNN "device class L1"
+F 7 "Capacitors" H 7300 8300 50  0001 L CNN "device class L2"
+F 8 "Ceramic Capacitors" H 7300 8400 50  0001 L CNN "device class L3"
+F 9 "CAP CER 10PF 50V C0G/NP0 0603" H 7300 8500 50  0001 L CNN "digikey description"
+F 10 "478-1163-2-ND" H 7300 8600 50  0001 L CNN "digikey part number"
+F 11 "0.9mm" H 7300 8700 50  0001 L CNN "height"
+F 12 "CAPC16080X186" H 7300 8800 50  0001 L CNN "ipc land pattern name"
+F 13 "yes" H 7300 8900 50  0001 L CNN "lead free"
+F 14 "936bf8fcd50e4ef0" H 7300 9000 50  0001 L CNN "library id"
+F 15 "AVX" H 7300 9100 50  0001 L CNN "manufacturer"
+F 16 "Ceramic" H 7300 9200 50  0001 L CNN "material"
+F 17 "0603 10 pF 50 V ±5 % Tol. C0G/NP0 Surface Mount Multilayer Ceramic Capacitor" H 7300 9300 50  0001 L CNN "mouser description"
+F 18 "581-06035A100J" H 7300 9400 50  0001 L CNN "mouser part number"
+F 19 "0603" H 7300 9500 50  0001 L CNN "package"
+F 20 "yes" H 7300 9600 50  0001 L CNN "rohs"
+F 21 "0mm" H 7300 9700 50  0001 L CNN "standoff height"
+F 22 "C0G" H 7300 9800 50  0001 L CNN "temperature characteristic"
+F 23 "+125°C" H 7300 9900 50  0001 L CNN "temperature range high"
+F 24 "-55°C" H 7300 10000 50  0001 L CNN "temperature range low"
+F 25 "5%" H 7300 10100 50  0001 L CNN "tolerance"
+F 26 "50V" H 7300 10200 50  0001 L CNN "voltage rating"
+	1    7300 7500
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -5951,111 +5951,52 @@ $EndComp
 $Comp
 L capacitor-lib:06035A100JAT2A C4
 U 1 1 60087526
-P 6450 7700
-F 0 "C4" H 6577 7554 50  0000 L CNN
-F 1 "06035A100JAT2A" H 6577 7645 50  0000 L CNN
-F 2 "capacitor-lib:AVX-GRM124-0-0-IPC_C" H 6450 8000 50  0001 L CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1E472JA01-01A.pdf" H 6450 8100 50  0001 L CNN
-F 4 "10pF" H 6450 8200 50  0001 L CNN "capacitance"
-F 5 "Cap" H 6450 8300 50  0001 L CNN "category"
-F 6 "Passive Components" H 6450 8400 50  0001 L CNN "device class L1"
-F 7 "Capacitors" H 6450 8500 50  0001 L CNN "device class L2"
-F 8 "Ceramic Capacitors" H 6450 8600 50  0001 L CNN "device class L3"
-F 9 "CAP CER 10PF 50V C0G/NP0 0603" H 6450 8700 50  0001 L CNN "digikey description"
-F 10 "478-1163-2-ND" H 6450 8800 50  0001 L CNN "digikey part number"
-F 11 "0.9mm" H 6450 8900 50  0001 L CNN "height"
-F 12 "CAPC16080X186" H 6450 9000 50  0001 L CNN "ipc land pattern name"
-F 13 "yes" H 6450 9100 50  0001 L CNN "lead free"
-F 14 "936bf8fcd50e4ef0" H 6450 9200 50  0001 L CNN "library id"
-F 15 "AVX" H 6450 9300 50  0001 L CNN "manufacturer"
-F 16 "Ceramic" H 6450 9400 50  0001 L CNN "material"
-F 17 "0603 10 pF 50 V ±5 % Tol. C0G/NP0 Surface Mount Multilayer Ceramic Capacitor" H 6450 9500 50  0001 L CNN "mouser description"
-F 18 "581-06035A100J" H 6450 9600 50  0001 L CNN "mouser part number"
-F 19 "0603" H 6450 9700 50  0001 L CNN "package"
-F 20 "yes" H 6450 9800 50  0001 L CNN "rohs"
-F 21 "0mm" H 6450 9900 50  0001 L CNN "standoff height"
-F 22 "C0G" H 6450 10000 50  0001 L CNN "temperature characteristic"
-F 23 "+125°C" H 6450 10100 50  0001 L CNN "temperature range high"
-F 24 "-55°C" H 6450 10200 50  0001 L CNN "temperature range low"
-F 25 "5%" H 6450 10300 50  0001 L CNN "tolerance"
-F 26 "50V" H 6450 10400 50  0001 L CNN "voltage rating"
-	1    6450 7700
+P 5600 7500
+F 0 "C4" H 5727 7354 50  0000 L CNN
+F 1 "06035A100JAT2A" H 5727 7445 50  0000 L CNN
+F 2 "capacitor-lib:AVX-GRM124-0-0-IPC_C" H 5600 7800 50  0001 L CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1E472JA01-01A.pdf" H 5600 7900 50  0001 L CNN
+F 4 "10pF" H 5600 8000 50  0001 L CNN "capacitance"
+F 5 "Cap" H 5600 8100 50  0001 L CNN "category"
+F 6 "Passive Components" H 5600 8200 50  0001 L CNN "device class L1"
+F 7 "Capacitors" H 5600 8300 50  0001 L CNN "device class L2"
+F 8 "Ceramic Capacitors" H 5600 8400 50  0001 L CNN "device class L3"
+F 9 "CAP CER 10PF 50V C0G/NP0 0603" H 5600 8500 50  0001 L CNN "digikey description"
+F 10 "478-1163-2-ND" H 5600 8600 50  0001 L CNN "digikey part number"
+F 11 "0.9mm" H 5600 8700 50  0001 L CNN "height"
+F 12 "CAPC16080X186" H 5600 8800 50  0001 L CNN "ipc land pattern name"
+F 13 "yes" H 5600 8900 50  0001 L CNN "lead free"
+F 14 "936bf8fcd50e4ef0" H 5600 9000 50  0001 L CNN "library id"
+F 15 "AVX" H 5600 9100 50  0001 L CNN "manufacturer"
+F 16 "Ceramic" H 5600 9200 50  0001 L CNN "material"
+F 17 "0603 10 pF 50 V ±5 % Tol. C0G/NP0 Surface Mount Multilayer Ceramic Capacitor" H 5600 9300 50  0001 L CNN "mouser description"
+F 18 "581-06035A100J" H 5600 9400 50  0001 L CNN "mouser part number"
+F 19 "0603" H 5600 9500 50  0001 L CNN "package"
+F 20 "yes" H 5600 9600 50  0001 L CNN "rohs"
+F 21 "0mm" H 5600 9700 50  0001 L CNN "standoff height"
+F 22 "C0G" H 5600 9800 50  0001 L CNN "temperature characteristic"
+F 23 "+125°C" H 5600 9900 50  0001 L CNN "temperature range high"
+F 24 "-55°C" H 5600 10000 50  0001 L CNN "temperature range low"
+F 25 "5%" H 5600 10100 50  0001 L CNN "tolerance"
+F 26 "50V" H 5600 10200 50  0001 L CNN "voltage rating"
+	1    5600 7500
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	6450 7700 6450 7750
-Wire Wire Line
-	6450 7750 6700 7750
-Wire Wire Line
-	6700 7750 6700 7650
-Wire Wire Line
-	6700 7750 6950 7750
-Wire Wire Line
-	6950 7750 6950 7700
-Connection ~ 6700 7750
-Wire Wire Line
-	6450 7500 6450 7450
-Wire Wire Line
-	6450 7450 6550 7450
-Wire Wire Line
-	6850 7450 6950 7450
-Wire Wire Line
-	6950 7450 6950 7500
-Wire Wire Line
-	6450 7750 6350 7750
-Connection ~ 6450 7750
-$Comp
-L Device:Crystal_GND24 Y1
-U 1 1 60782252
-P 6700 7450
-F 0 "Y1" V 6654 7207 50  0000 R CNN
-F 1 "Crystal_GND24" V 6745 7207 50  0000 R CNN
-F 2 "" H 6700 7450 50  0001 C CNN
-F 3 "~" H 6700 7450 50  0001 C CNN
-	1    6700 7450
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6350 7200 6700 7200
-Wire Wire Line
-	6700 7200 6700 7250
-Wire Wire Line
-	6350 7200 6350 7750
-Wire Wire Line
-	6450 7450 6450 7100
-Wire Wire Line
-	6450 7100 7150 7100
-Wire Wire Line
-	7150 7100 7150 7250
-Connection ~ 6450 7450
-Wire Wire Line
-	6950 7450 6950 7300
-Wire Wire Line
-	6950 7300 7850 7300
-Wire Wire Line
-	7850 7300 7850 7800
 Wire Wire Line
 	7850 7800 8250 7800
-Connection ~ 6950 7450
-Wire Wire Line
-	7150 7250 7900 7250
-Wire Wire Line
-	7900 7250 7900 7700
 Wire Wire Line
 	7900 7700 8250 7700
 $Comp
 L power:GND #PWR08
 U 1 1 6065E993
-P 6700 7800
-F 0 "#PWR08" H 6700 7550 50  0001 C CNN
-F 1 "GND" H 6705 7627 50  0000 C CNN
-F 2 "" H 6700 7800 50  0001 C CNN
-F 3 "" H 6700 7800 50  0001 C CNN
-	1    6700 7800
+P 5600 7650
+F 0 "#PWR08" H 5600 7400 50  0001 C CNN
+F 1 "GND" H 5605 7477 50  0000 C CNN
+F 2 "" H 5600 7650 50  0001 C CNN
+F 3 "" H 5600 7650 50  0001 C CNN
+	1    5600 7650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6700 7750 6700 7800
 Wire Wire Line
 	3950 7550 4200 7550
 $Comp
@@ -6168,4 +6109,54 @@ Wire Wire Line
 	13500 7250 13600 7250
 Wire Wire Line
 	13150 7350 13600 7350
+Wire Wire Line
+	5750 7300 5600 7300
+Wire Wire Line
+	5600 7500 5600 7650
+Wire Wire Line
+	7300 7650 7300 7500
+Wire Wire Line
+	5600 7650 7300 7650
+Connection ~ 7300 7500
+Connection ~ 5600 7650
+Wire Wire Line
+	7150 7300 7300 7300
+Wire Wire Line
+	7150 7500 7300 7500
+$Comp
+L cldg:ECS-480-10-33B-CKM-TR Y?
+U 1 1 5FF4EA01
+P 6450 7400
+F 0 "Y?" H 6450 7865 50  0000 C CNN
+F 1 "ECS-480-10-33B-CKM-TR" H 6450 7774 50  0000 C CNN
+F 2 "cldg:XTAL_ECS-480-10-33B-CKM-TR" H 6150 7750 50  0001 L BNN
+F 3 "" H 6450 7400 50  0001 L BNN
+F 4 "MANUFACTURER RECOMMENDATIONS" H 6150 7850 50  0001 L BNN "STANDARD"
+F 5 "ECS Inc" H 6150 7950 50  0001 L BNN "MANUFACTURER"
+F 6 "2017" H 6600 7950 50  0001 L BNN "PARTREV"
+	1    6450 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 7800 7850 7550
+Wire Wire Line
+	7850 7550 7500 7550
+Wire Wire Line
+	7500 7550 7500 7750
+Wire Wire Line
+	7500 7750 5750 7750
+Wire Wire Line
+	5750 7750 5750 7900
+Wire Wire Line
+	5750 7900 5450 7900
+Wire Wire Line
+	5450 7900 5450 7300
+Wire Wire Line
+	5450 7300 5600 7300
+Connection ~ 5600 7300
+Wire Wire Line
+	7900 7700 7900 7300
+Wire Wire Line
+	7900 7300 7300 7300
+Connection ~ 7300 7300
 $EndSCHEMATC
