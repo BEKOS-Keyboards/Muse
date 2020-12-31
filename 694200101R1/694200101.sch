@@ -2890,7 +2890,7 @@ $Comp
 L eec-fairchild:LL4148 D108
 U 1 1 637C9D8A
 P 15600 3400
-F 0 "D108" V 15804 3478 50  0000 L CNN
+F 0 "D108" V 16000 3500 50  0000 L CNN
 F 1 "LL4148" V 15895 3478 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 15600 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 15600 3900 50  0001 L CNN
@@ -2914,12 +2914,12 @@ $Comp
 L cldg:MX_SW SW107
 U 1 1 637C9D77
 P 15850 3500
-F 0 "SW107" H 15850 3785 50  0000 C CNN
-F 1 "MX_SW" H 15850 3694 50  0000 C CNN
+F 0 "SW107" H 15850 3350 50  0000 C CNN
+F 1 "MX_SW" H 15850 3450 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 15850 3700 50  0001 C CNN
 F 3 "~" H 15850 3700 50  0001 C CNN
 	1    15850 3500
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Connection ~ 14850 2600
 Wire Wire Line
