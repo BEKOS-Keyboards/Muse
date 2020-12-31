@@ -734,6 +734,54 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
+# cldg_MX_Stab_200
+#
+DEF cldg_MX_Stab_200 SP 0 40 Y Y 1 F N
+F0 "SP" 0 250 50 H V C CNN
+F1 "cldg_MX_Stab_200" 0 0 50 H V C CNN
+F2 "keyboard_parts:Mx_Stab_200" 300 -100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -150 200 150 50 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# cldg_MX_Stab_225
+#
+DEF cldg_MX_Stab_225 SP 0 40 Y Y 1 F N
+F0 "SP" 0 250 50 H V C CNN
+F1 "cldg_MX_Stab_225" 0 0 50 H V C CNN
+F2 "keyboard_parts:Mx_Stab_225" 300 -100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -150 200 150 50 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# cldg_MX_Stab_275
+#
+DEF cldg_MX_Stab_275 SP 0 40 Y Y 1 F N
+F0 "SP" 0 250 50 H V C CNN
+F1 "cldg_MX_Stab_275" 0 0 50 H V C CNN
+F2 "keyboard_parts:Mx_Stab_275" 300 -100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -150 200 150 50 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# cldg_MX_Stab_625
+#
+DEF cldg_MX_Stab_625 SP 0 40 Y Y 1 F N
+F0 "SP" 0 250 50 H V C CNN
+F1 "cldg_MX_Stab_625" 0 0 50 H V C CNN
+F2 "keyboard_parts:Mx_Stab_625" 300 -100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -150 200 150 50 0 1 0 N
+ENDDRAW
+ENDDEF
+#
 # cldg_USBLC6-2P6
 #
 DEF cldg_USBLC6-2P6 U 0 40 Y N 1 L N
