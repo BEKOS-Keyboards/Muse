@@ -546,12 +546,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR09
 U 1 1 6007927B
-P 7500 6950
-F 0 "#PWR09" H 7500 6700 50  0001 C CNN
-F 1 "GND" H 7505 6777 50  0000 C CNN
-F 2 "" H 7500 6950 50  0001 C CNN
-F 3 "" H 7500 6950 50  0001 C CNN
-	1    7500 6950
+P 7550 6950
+F 0 "#PWR09" H 7550 6700 50  0001 C CNN
+F 1 "GND" H 7555 6777 50  0000 C CNN
+F 2 "" H 7550 6950 50  0001 C CNN
+F 3 "" H 7550 6950 50  0001 C CNN
+	1    7550 6950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -861,7 +861,7 @@ Text GLabel 9900 8800 2    50   Input ~ 0
 ROW_0
 Text GLabel 9900 8700 2    50   Input ~ 0
 ROW_1
-Text GLabel 9900 8600 2    50   Input ~ 0
+Text GLabel 7900 8400 0    50   Input ~ 0
 ROW_2
 Wire Wire Line
 	8250 8100 7950 8100
@@ -881,53 +881,53 @@ Text GLabel 7900 9300 0    50   Input ~ 0
 ROW_6
 Text GLabel 9900 8100 2    50   Input ~ 0
 COL_0
-Text GLabel 9900 8000 2    50   Input ~ 0
-COL_1
-Text GLabel 9900 7900 2    50   Input ~ 0
-COL_2
 Text GLabel 9900 7600 2    50   Input ~ 0
-COL_3
+COL_1
 Text GLabel 9900 7500 2    50   Input ~ 0
-COL_4
+COL_2
 Text GLabel 9900 7400 2    50   Input ~ 0
+COL_3
+Text GLabel 7900 9200 0    50   Input ~ 0
+COL_4
+Text GLabel 7900 9100 0    50   Input ~ 0
 COL_5
 Wire Wire Line
 	8250 9200 7900 9200
-Text GLabel 7900 9200 0    50   Input ~ 0
+Text GLabel 7900 9000 0    50   Input ~ 0
 COL_6
 Wire Wire Line
 	8250 9100 7900 9100
-Text GLabel 7900 9100 0    50   Input ~ 0
+Text GLabel 7900 8900 0    50   Input ~ 0
 COL_7
 Wire Wire Line
 	8250 9000 7900 9000
-Text GLabel 7900 9000 0    50   Input ~ 0
+Text GLabel 9900 9800 2    50   Input ~ 0
 COL_8
 Wire Wire Line
 	8250 8900 7900 8900
-Text GLabel 7900 8900 0    50   Input ~ 0
-COL_9
-Text GLabel 9900 9800 2    50   Input ~ 0
-COL_10
 Text GLabel 9900 9700 2    50   Input ~ 0
-COL_11
+COL_9
 Text GLabel 9900 9600 2    50   Input ~ 0
-COL_12
+COL_10
 Text GLabel 9900 9500 2    50   Input ~ 0
-COL_13
+COL_11
 Text GLabel 9900 9400 2    50   Input ~ 0
-COL_14
+COL_12
 Text GLabel 9900 9300 2    50   Input ~ 0
-COL_15
+COL_13
 Text GLabel 9900 8500 2    50   Input ~ 0
+COL_14
+Text GLabel 7900 8800 0    50   Input ~ 0
+COL_15
+Text GLabel 7900 8700 0    50   Input ~ 0
 COL_16
 Wire Wire Line
 	8250 8800 7900 8800
-Text GLabel 7900 8800 0    50   Input ~ 0
+Text GLabel 7900 8600 0    50   Input ~ 0
 COL_17
 Wire Wire Line
 	8250 8700 7900 8700
-Text GLabel 7900 8700 0    50   Input ~ 0
+Text GLabel 7900 8500 0    50   Input ~ 0
 COL_18
 Text GLabel 9900 7300 2    50   Input ~ 0
 COL_19
@@ -5891,8 +5891,6 @@ Wire Wire Line
 Wire Wire Line
 	9550 8700 9900 8700
 Wire Wire Line
-	9550 8600 9900 8600
-Wire Wire Line
 	9550 8500 9900 8500
 Wire Wire Line
 	9550 9800 9900 9800
@@ -5925,18 +5923,15 @@ Wire Wire Line
 Wire Wire Line
 	9550 8100 9900 8100
 Wire Wire Line
-	9550 8000 9900 8000
+	9550 8000 10150 8000
 Wire Wire Line
-	9550 7900 9900 7900
+	9550 7900 10150 7900
 Wire Wire Line
 	10000 7800 9550 7800
 Wire Wire Line
 	9550 7700 10000 7700
 Wire Wire Line
 	9550 7600 9900 7600
-Wire Wire Line
-	7950 7000 7950 6900
-Connection ~ 7950 6900
 $Comp
 L MCU_ST_STM32L4:STM32L433RBTx U3
 U 1 1 5FE7C7AF
@@ -6162,4 +6157,60 @@ Connection ~ 7300 7300
 Wire Wire Line
 	5750 7500 5600 7500
 Connection ~ 5600 7500
+Wire Wire Line
+	8250 8600 7900 8600
+Wire Wire Line
+	8250 8500 7900 8500
+Text GLabel 10150 7900 2    50   Input ~ 0
+SWDIO
+Text GLabel 10150 8000 2    50   Input ~ 0
+SWCLK
+$Comp
+L Connector:Conn_01x05_Male J?
+U 1 1 600F5E13
+P 7350 6150
+F 0 "J?" H 7458 6531 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 7458 6440 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 7350 6150 50  0001 C CNN
+F 3 "~" H 7350 6150 50  0001 C CNN
+	1    7350 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 8400 7900 8400
+Text GLabel 10100 8600 2    50   Input ~ 0
+SWO
+Wire Wire Line
+	9550 8600 10100 8600
+Wire Wire Line
+	7550 5950 7700 5950
+Text GLabel 7700 5950 2    50   Input ~ 0
+SWCLK
+Wire Wire Line
+	7550 6050 8050 6050
+Wire Wire Line
+	8050 6050 8050 6100
+$Comp
+L power:GND #PWR?
+U 1 1 602A2E5A
+P 8050 6100
+F 0 "#PWR?" H 8050 5850 50  0001 C CNN
+F 1 "GND" H 8055 5927 50  0000 C CNN
+F 2 "" H 8050 6100 50  0001 C CNN
+F 3 "" H 8050 6100 50  0001 C CNN
+	1    8050 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 6150 7700 6150
+Text GLabel 7700 6150 2    50   Input ~ 0
+SWDIO
+Wire Wire Line
+	7950 6600 7950 6250
+Wire Wire Line
+	7950 6250 7550 6250
+Wire Wire Line
+	7550 6350 7700 6350
+Text GLabel 7700 6350 2    50   Input ~ 0
+SWO
 $EndSCHEMATC
