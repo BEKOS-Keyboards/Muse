@@ -1,10 +1,10 @@
-(module Fairchild_ON_Semiconductor-LL4148-0 (layer F.Cu) (tedit 5FED1FA5)
+(module Fairchild_ON_Semiconductor-LL4148-0 (layer F.Cu) (tedit 5FEDF641)
   (attr smd)
   (fp_text reference REF** (at -2.299999 -1.675) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
-  (fp_text value Val** (at 0 1.7145) (layer Dwgs.User)
-    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  (fp_text value . (at -0.4572 -0.2286) (layer Dwgs.User) hide
+    (effects (font (size 0.635 0.635) (thickness 0.0762)))
   )
   (fp_line (start -0.75 0.7) (end 0.75 0.7) (layer F.SilkS) (width 0.15))
   (fp_line (start -0.75 -0.7) (end 0.75 -0.7) (layer F.SilkS) (width 0.15))
