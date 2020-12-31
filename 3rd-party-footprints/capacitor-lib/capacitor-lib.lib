@@ -1,6 +1,44 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# 06035A100JAT2A
+#
+DEF 06035A100JAT2A C 0 40 Y Y 1 F N
+F0 "C" 0 100 50 H V L CNN
+F1 "06035A100JAT2A" 0 200 50 H V L CNN
+F2 "capacitor-lib:AVX-GRM124-0-0-IPC_C" 0 300 50 H I L CNN
+F3 "" 0 400 50 H I L CNN
+F4 "10pF" 0 500 50 H I L CNN "capacitance"
+F5 "Cap" 0 600 50 H I L CNN "category"
+F6 "Passive Components" 0 700 50 H I L CNN "device class L1"
+F7 "Capacitors" 0 800 50 H I L CNN "device class L2"
+F8 "Ceramic Capacitors" 0 900 50 H I L CNN "device class L3"
+F9 "CAP CER 10PF 50V C0G/NP0 0603" 0 1000 50 H I L CNN "digikey description"
+F10 "478-1163-2-ND" 0 1100 50 H I L CNN "digikey part number"
+F11 "0.9mm" 0 1200 50 H I L CNN "height"
+F12 "CAPC16080X186" 0 1300 50 H I L CNN "ipc land pattern name"
+F13 "yes" 0 1400 50 H I L CNN "lead free"
+F14 "936bf8fcd50e4ef0" 0 1500 50 H I L CNN "library id"
+F15 "AVX" 0 1600 50 H I L CNN "manufacturer"
+F16 "Ceramic" 0 1700 50 H I L CNN "material"
+F17 "0603 10 pF 50 V ±5 % Tol. C0G/NP0 Surface Mount Multilayer Ceramic Capacitor" 0 1800 50 H I L CNN "mouser description"
+F18 "581-06035A100J" 0 1900 50 H I L CNN "mouser part number"
+F19 "0603" 0 2000 50 H I L CNN "package"
+F20 "yes" 0 2100 50 H I L CNN "rohs"
+F21 "0mm" 0 2200 50 H I L CNN "standoff height"
+F22 "C0G" 0 2300 50 H I L CNN "temperature characteristic"
+F23 "+125°C" 0 2400 50 H I L CNN "temperature range high"
+F24 "-55°C" 0 2500 50 H I L CNN "temperature range low"
+F25 "5%" 0 2600 50 H I L CNN "tolerance"
+F26 "50V" 0 2700 50 H I L CNN "voltage rating"
+DRAW
+P 2 1 1 0 100 -130 -100 -130 N
+P 2 1 1 0 100 -70 -100 -70 N
+X 1 1 0 -200 60 U 40 0 1 1 P
+X 2 2 0 0 70 D 40 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # CL10B103KB8NNNC
 #
 DEF CL10B103KB8NNNC C 0 40 Y Y 1 F N
