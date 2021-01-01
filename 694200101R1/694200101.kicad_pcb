@@ -43,8 +43,8 @@
     (user_trace_width 1.016)
     (user_trace_width 2.032)
     (trace_clearance 0.0254)
-    (zone_clearance 0.508)
-    (zone_45_only no)
+    (zone_clearance 0.0254)
+    (zone_45_only yes)
     (trace_min 0.2)
     (via_size 0.8)
     (via_drill 0.4)
@@ -743,13 +743,13 @@
   )
 
   (module capacitor-lib:Samsung-0603_1608_Metric-0-0-0 (layer F.Cu) (tedit 5FEE5953) (tstamp 5FED788B)
-    (at 204.28 173.72)
+    (at 430.657 21.479994 90)
     (path /5FF14861)
     (attr smd)
-    (fp_text reference C10 (at 1.406066 -0.2) (layer F.SilkS)
+    (fp_text reference C10 (at -4.301006 0 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
-    (fp_text value CL10B103KB8NNNC (at -0.05 -0.05) (layer Dwgs.User) hide
+    (fp_text value CL10B103KB8NNNC (at -0.05 -0.05 90) (layer Dwgs.User) hide
       (effects (font (size 0.3 0.3) (thickness 0.015)))
     )
     (fp_line (start 1.031065 0.475) (end 1.031065 -0.475) (layer F.CrtYd) (width 0.15))
@@ -763,9 +763,9 @@
     (fp_line (start 0.85 -0.45) (end 0.85 0.45) (layer F.Fab) (width 0.15))
     (fp_line (start -0.85 -0.45) (end 0.85 -0.45) (layer F.Fab) (width 0.15))
     (fp_line (start -0.85 0.45) (end -0.85 -0.45) (layer F.Fab) (width 0.15))
-    (pad 2 smd rect (at 0.651994 0) (size 0.708142 0.812132) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 0.651994 0 90) (size 0.708142 0.812132) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (pad 1 smd rect (at -0.651994 0) (size 0.708142 0.812132) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -0.651994 0 90) (size 0.708142 0.812132) (layers F.Cu F.Paste F.Mask)
       (net 5 ENCODER_B))
     (model ${KIPRJMOD}/../3rd-party-footprints/Cap_Samsung_CL10B105KA8NNNC/eec.models/Samsung_-_CL10B105KA8NNNC.step
       (at (xyz 0 0 0))
@@ -775,13 +775,13 @@
   )
 
   (module capacitor-lib:Samsung-0603_1608_Metric-0-0-0 (layer F.Cu) (tedit 5FEE5953) (tstamp 5FED787A)
-    (at 304.185999 149.86)
+    (at 428.879 21.463 90)
     (path /5FF114BE)
     (attr smd)
-    (fp_text reference C9 (at 1.406066 -0.2) (layer F.SilkS)
+    (fp_text reference C9 (at -3.302 0.254 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
-    (fp_text value CL10B103KB8NNNC (at -0.05 -0.05) (layer Dwgs.User) hide
+    (fp_text value CL10B103KB8NNNC (at -0.05 -0.05 90) (layer Dwgs.User) hide
       (effects (font (size 0.3 0.3) (thickness 0.015)))
     )
     (fp_line (start 1.031065 0.475) (end 1.031065 -0.475) (layer F.CrtYd) (width 0.15))
@@ -795,9 +795,9 @@
     (fp_line (start 0.85 -0.45) (end 0.85 0.45) (layer F.Fab) (width 0.15))
     (fp_line (start -0.85 -0.45) (end 0.85 -0.45) (layer F.Fab) (width 0.15))
     (fp_line (start -0.85 0.45) (end -0.85 -0.45) (layer F.Fab) (width 0.15))
-    (pad 2 smd rect (at 0.651994 0) (size 0.708142 0.812132) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 0.651994 0 90) (size 0.708142 0.812132) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (pad 1 smd rect (at -0.651994 0) (size 0.708142 0.812132) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -0.651994 0 90) (size 0.708142 0.812132) (layers F.Cu F.Paste F.Mask)
       (net 4 ENCODER_A))
     (model ${KIPRJMOD}/../3rd-party-footprints/Cap_Samsung_CL10B105KA8NNNC/eec.models/Samsung_-_CL10B105KA8NNNC.step
       (at (xyz 0 0 0))
@@ -871,7 +871,7 @@
   )
 
   (module capacitor-lib:Samsung-CL10-09_2006-0-IPC_C (layer F.Cu) (tedit 5FEE5912) (tstamp 5FED7983)
-    (at 333.532934 165.75)
+    (at 360.426 185.42)
     (path /63A35802/63E2940D)
     (attr smd)
     (fp_text reference C25 (at 1.406066 -0.2) (layer F.SilkS)
@@ -903,7 +903,7 @@
   )
 
   (module capacitor-lib:Samsung-CL10-09_2006-0-IPC_C (layer F.Cu) (tedit 5FEE5912) (tstamp 5FED7956)
-    (at 365.7 161.1)
+    (at 367.224 181.039)
     (path /63A35802/63E29448)
     (attr smd)
     (fp_text reference C22 (at 1.406066 -0.2) (layer F.SilkS)
@@ -935,7 +935,7 @@
   )
 
   (module capacitor-lib:Samsung-CL10-09_2006-0-IPC_C (layer F.Cu) (tedit 5FEE5912) (tstamp 5FED78B8)
-    (at 361 166.4)
+    (at 303.276 -10.414)
     (path /63A35802/63D764B5)
     (attr smd)
     (fp_text reference C12 (at 1.406066 -0.2) (layer F.SilkS)
@@ -967,7 +967,7 @@
   )
 
   (module capacitor-lib:Samsung-CL10-09_2006-0-IPC_C (layer F.Cu) (tedit 5FEE5912) (tstamp 5FED793A)
-    (at 349.856 173.01)
+    (at 337.918 187.488)
     (path /63A35802/63E29486)
     (attr smd)
     (fp_text reference C20 (at 1.406066 -0.2) (layer F.SilkS)
@@ -999,7 +999,7 @@
   )
 
   (module capacitor-lib:Samsung-CL10-09_2006-0-IPC_C (layer F.Cu) (tedit 5FEE5912) (tstamp 5FED7907)
-    (at 363.876 179.67)
+    (at 308.229 -10.033)
     (path /63A35802/63DECC4B)
     (attr smd)
     (fp_text reference C17 (at 1.406066 -0.2) (layer F.SilkS)
@@ -1031,7 +1031,7 @@
   )
 
   (module capacitor-lib:Samsung-CL10-09_2006-0-IPC_C (layer F.Cu) (tedit 5FEE5912) (tstamp 5FED78E5)
-    (at 363.886 176.27)
+    (at 304.681006 -2.667)
     (path /63A35802/63D9F36F)
     (attr smd)
     (fp_text reference C15 (at 1.406066 -0.2) (layer F.SilkS)
@@ -1309,7 +1309,7 @@
   )
 
   (module Lumissil:IS31FL3733B-QFLS4-TR (layer F.Cu) (tedit 5FEE5216) (tstamp 5FEF7CEE)
-    (at 316.5 23.7)
+    (at 317.246 23.622)
     (path /63A35802/63D4A2BB)
     (attr smd)
     (fp_text reference U5 (at -0.508 -4.318) (layer F.SilkS)
@@ -1701,7 +1701,7 @@
   )
 
   (module Lumissil:IS31FL3733B-QFLS4-TR (layer F.Cu) (tedit 5FEE5216) (tstamp 5FED970A)
-    (at 350.2 87.7)
+    (at 347.98 87.122)
     (path /63A35802/6409AB0A)
     (attr smd)
     (fp_text reference U6 (at -0.508 -4.318) (layer F.SilkS)
@@ -18247,7 +18247,7 @@
   )
 
   (module capacitor-lib:CAPPC3528X210N (layer F.Cu) (tedit 5FEDEDD3) (tstamp 5FED7929)
-    (at 367.026 189.07)
+    (at 358.14 190.5)
     (path /63A35802/63E9B64D)
     (attr smd)
     (fp_text reference C19 (at -0.508 -2.413) (layer F.SilkS)
@@ -18281,7 +18281,7 @@
   )
 
   (module capacitor-lib:CAPPC3528X210N (layer F.Cu) (tedit 5FEDEDD3) (tstamp 5FED789C)
-    (at 324.662934 183.49)
+    (at 309.864 -6.477)
     (path /63A35802/63E8E5AC)
     (attr smd)
     (fp_text reference C18 (at -0.508 -2.413) (layer F.SilkS)
@@ -18315,7 +18315,7 @@
   )
 
   (module capacitor-lib:CAPC1608X90N (layer F.Cu) (tedit 5FEDEDC7) (tstamp 5FED78F6)
-    (at 376.516 169.69)
+    (at 306.983 -13.081)
     (path /63A35802/63DE9808)
     (attr smd)
     (fp_text reference C16 (at 0.508 -1.3335) (layer F.SilkS)
@@ -18344,7 +18344,7 @@
   )
 
   (module capacitor-lib:CAPC1608X90N (layer F.Cu) (tedit 5FEDEDC7) (tstamp 5FEE3F34)
-    (at 349.976 177.5)
+    (at 338.038 191.978)
     (path /63A35802/63E293F3)
     (attr smd)
     (fp_text reference C26 (at 0.508 -1.3335) (layer F.SilkS)
@@ -18373,7 +18373,7 @@
   )
 
   (module capacitor-lib:CAPC1608X90N (layer F.Cu) (tedit 5FEDEDC7) (tstamp 5FED7972)
-    (at 346.269934 170.305)
+    (at 345.567 185.801)
     (path /63A35802/63E2941C)
     (attr smd)
     (fp_text reference C24 (at 0.508 -1.3335) (layer F.SilkS)
@@ -18402,7 +18402,7 @@
   )
 
   (module capacitor-lib:CAPC1608X90N (layer F.Cu) (tedit 5FEDEDC7) (tstamp 5FED7964)
-    (at 366.649934 181.505)
+    (at 368.173934 201.444)
     (path /63A35802/63E2942E)
     (attr smd)
     (fp_text reference C23 (at 0.508 -1.3335) (layer F.SilkS)
@@ -18431,7 +18431,7 @@
   )
 
   (module capacitor-lib:CAPC1608X90N (layer F.Cu) (tedit 5FEDEDC7) (tstamp 5FED7948)
-    (at 363.199934 173.605)
+    (at 364.723934 193.544)
     (path /63A35802/63E29468)
     (attr smd)
     (fp_text reference C21 (at 0.508 -1.3335) (layer F.SilkS)
@@ -18460,7 +18460,7 @@
   )
 
   (module capacitor-lib:CAPC1608X90N (layer F.Cu) (tedit 5FEDEDC7) (tstamp 5FED78D4)
-    (at 372.919934 170.385)
+    (at 305.459 -5.207)
     (path /63A35802/63D9DE47)
     (attr smd)
     (fp_text reference C14 (at 0.508 -1.3335) (layer F.SilkS)
@@ -18489,7 +18489,7 @@
   )
 
   (module capacitor-lib:CAPC1608X90N (layer F.Cu) (tedit 5FEDEDC7) (tstamp 5FED78C6)
-    (at 360.289934 177.005)
+    (at 304.673 -7.747)
     (path /63A35802/63D81B26)
     (attr smd)
     (fp_text reference C13 (at 0.508 -1.3335) (layer F.SilkS)
@@ -18518,7 +18518,7 @@
   )
 
   (module capacitor-lib:CAPC1608X90N (layer F.Cu) (tedit 5FEDEDC7) (tstamp 5FED78AA)
-    (at 364.959934 184.905)
+    (at 301.522 -13.589)
     (path /63A35802/63D72369)
     (attr smd)
     (fp_text reference C11 (at 0.508 -1.3335) (layer F.SilkS)
@@ -18611,7 +18611,7 @@
   )
 
   (module Resistor-Libs:RESC6332X70N (layer F.Cu) (tedit 5FEDED46) (tstamp 5FED8C6D)
-    (at 326.062934 178.711)
+    (at 325.755 188.341)
     (path /63A35802/6409AB49)
     (attr smd)
     (fp_text reference R20 (at -1.8415 -2.667) (layer F.SilkS)
@@ -18642,7 +18642,7 @@
   )
 
   (module Resistor-Libs:RESC6332X70N (layer F.Cu) (tedit 5FEDED46) (tstamp 5FED8C41)
-    (at 334.932934 160.971)
+    (at 295.529 -11.049)
     (path /63A35802/63ED9B4F)
     (attr smd)
     (fp_text reference R17 (at -1.8415 -2.667) (layer F.SilkS)
@@ -18673,7 +18673,7 @@
   )
 
   (module Resistor-Libs:RESC1508X55N (layer F.Cu) (tedit 5FEDED37) (tstamp 5FED8C5D)
-    (at 350.244934 170.325)
+    (at 338.306934 184.803)
     (path /63A35802/6409AB23)
     (attr smd)
     (fp_text reference R19 (at 0.508 -1.3335) (layer F.SilkS)
@@ -18702,7 +18702,7 @@
   )
 
   (module Resistor-Libs:RESC1508X55N (layer F.Cu) (tedit 5FEDED37) (tstamp 5FED8C4F)
-    (at 346.264934 172.805)
+    (at 345.756934 190.331)
     (path /63A35802/6409AB2A)
     (attr smd)
     (fp_text reference R18 (at 0.508 -1.3335) (layer F.SilkS)
@@ -18731,7 +18731,7 @@
   )
 
   (module Resistor-Libs:RESC1508X55N (layer F.Cu) (tedit 5FEDED37) (tstamp 5FED8C31)
-    (at 360.284934 179.505)
+    (at 293.863934 -2.994)
     (path /63A35802/63EAB8BE)
     (attr smd)
     (fp_text reference R16 (at 0.508 -1.3335) (layer F.SilkS)
@@ -18760,7 +18760,7 @@
   )
 
   (module Resistor-Libs:RESC1508X55N (layer F.Cu) (tedit 5FEDED37) (tstamp 5FED8C23)
-    (at 372.624934 172.885)
+    (at 282.200934 -7.328)
     (path /63A35802/63EB01BF)
     (attr smd)
     (fp_text reference R15 (at 0.508 -1.3335) (layer F.SilkS)
@@ -18847,13 +18847,13 @@
   )
 
   (module Resistor-Libs:RESC1508X50N (layer F.Cu) (tedit 5FEDED24) (tstamp 5FED8C15)
-    (at 453.12 13.1)
+    (at 432.308 21.59 270)
     (path /5FF03334)
     (attr smd)
-    (fp_text reference R14 (at 0.508 -1.3335) (layer F.SilkS)
+    (fp_text reference R14 (at 0.508 -1.3335 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value RNCP0603FTD10K0 (at 1.59 1.05) (layer Dwgs.User) hide
+    (fp_text value RNCP0603FTD10K0 (at 0 0 90) (layer Dwgs.User) hide
       (effects (font (size 0.393701 0.393701) (thickness 0.015)))
     )
     (fp_line (start 0.8 0.45) (end -0.8 0.45) (layer F.Fab) (width 0.127))
@@ -18864,9 +18864,9 @@
     (fp_line (start -1.415 -0.715) (end 1.415 -0.715) (layer F.CrtYd) (width 0.05))
     (fp_line (start -1.415 0.715) (end -1.415 -0.715) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.415 0.715) (end 1.415 -0.715) (layer F.CrtYd) (width 0.05))
-    (pad 1 smd rect (at -0.68 0) (size 0.97 0.93) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -0.68 0 270) (size 0.97 0.93) (layers F.Cu F.Paste F.Mask)
       (net 213 "Net-(ENC1-PadB1)"))
-    (pad 2 smd rect (at 0.68 0) (size 0.97 0.93) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 0.68 0 270) (size 0.97 0.93) (layers F.Cu F.Paste F.Mask)
       (net 5 ENCODER_B))
     (model ${KIPRJMOD}/../3rd-party-footprints/RNCP0603FTD10K0/RNCP0603FTD10K0.step
       (at (xyz 0 0 0))
@@ -18876,13 +18876,13 @@
   )
 
   (module Resistor-Libs:RESC1508X50N (layer F.Cu) (tedit 5FEDED24) (tstamp 5FED8C07)
-    (at 452.7 9.5)
+    (at 434.975 20.955 180)
     (path /5FECBF04)
     (attr smd)
     (fp_text reference R13 (at 0.508 -1.3335) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value RNCP0603FTD10K0 (at 1.59 1.05) (layer Dwgs.User) hide
+    (fp_text value RNCP0603FTD10K0 (at -0.635 -0.127) (layer Dwgs.User) hide
       (effects (font (size 0.393701 0.393701) (thickness 0.015)))
     )
     (fp_line (start 0.8 0.45) (end -0.8 0.45) (layer F.Fab) (width 0.127))
@@ -18893,9 +18893,9 @@
     (fp_line (start -1.415 -0.715) (end 1.415 -0.715) (layer F.CrtYd) (width 0.05))
     (fp_line (start -1.415 0.715) (end -1.415 -0.715) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.415 0.715) (end 1.415 -0.715) (layer F.CrtYd) (width 0.05))
-    (pad 1 smd rect (at -0.68 0) (size 0.97 0.93) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -0.68 0 180) (size 0.97 0.93) (layers F.Cu F.Paste F.Mask)
       (net 3 +3V3))
-    (pad 2 smd rect (at 0.68 0) (size 0.97 0.93) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 0.68 0 180) (size 0.97 0.93) (layers F.Cu F.Paste F.Mask)
       (net 213 "Net-(ENC1-PadB1)"))
     (model ${KIPRJMOD}/../3rd-party-footprints/RNCP0603FTD10K0/RNCP0603FTD10K0.step
       (at (xyz 0 0 0))
@@ -18905,13 +18905,13 @@
   )
 
   (module Resistor-Libs:RESC1508X50N (layer F.Cu) (tedit 5FEDED24) (tstamp 5FED8BF9)
-    (at 453 4.9)
+    (at 427.101 21.59 270)
     (path /5FF01719)
     (attr smd)
-    (fp_text reference R12 (at 0.508 -1.3335) (layer F.SilkS)
+    (fp_text reference R12 (at 3.048 -0.127 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value RNCP0603FTD10K0 (at 1.59 1.05) (layer Dwgs.User) hide
+    (fp_text value RNCP0603FTD10K0 (at 0.381 0 90) (layer Dwgs.User) hide
       (effects (font (size 0.393701 0.393701) (thickness 0.015)))
     )
     (fp_line (start 0.8 0.45) (end -0.8 0.45) (layer F.Fab) (width 0.127))
@@ -18922,9 +18922,9 @@
     (fp_line (start -1.415 -0.715) (end 1.415 -0.715) (layer F.CrtYd) (width 0.05))
     (fp_line (start -1.415 0.715) (end -1.415 -0.715) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.415 0.715) (end 1.415 -0.715) (layer F.CrtYd) (width 0.05))
-    (pad 1 smd rect (at -0.68 0) (size 0.97 0.93) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -0.68 0 270) (size 0.97 0.93) (layers F.Cu F.Paste F.Mask)
       (net 214 "Net-(ENC1-PadA1)"))
-    (pad 2 smd rect (at 0.68 0) (size 0.97 0.93) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 0.68 0 270) (size 0.97 0.93) (layers F.Cu F.Paste F.Mask)
       (net 4 ENCODER_A))
     (model ${KIPRJMOD}/../3rd-party-footprints/RNCP0603FTD10K0/RNCP0603FTD10K0.step
       (at (xyz 0 0 0))
@@ -18934,13 +18934,13 @@
   )
 
   (module Resistor-Libs:RESC1508X50N (layer F.Cu) (tedit 5FEDED24) (tstamp 5FED8BEB)
-    (at 452 0.9)
+    (at 424.307 20.955)
     (path /5FECA545)
     (attr smd)
-    (fp_text reference R11 (at 0.508 -1.3335) (layer F.SilkS)
+    (fp_text reference R11 (at -0.007 1.64) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value RNCP0603FTD10K0 (at 1.59 1.05) (layer Dwgs.User) hide
+    (fp_text value RNCP0603FTD10K0 (at -0.254 0.127) (layer Dwgs.User) hide
       (effects (font (size 0.393701 0.393701) (thickness 0.015)))
     )
     (fp_line (start 0.8 0.45) (end -0.8 0.45) (layer F.Fab) (width 0.127))
@@ -21357,4 +21357,24 @@
   (segment (start 354.4904 6.1096) (end 354.575 6.025) (width 0.25) (layer B.Cu) (net 216))
   (segment (start 354.4904 8.3016) (end 354.4904 6.1096) (width 0.2032) (layer B.Cu) (net 216))
 
+  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+    (connect_pads thru_hole_only (clearance 0.0254))
+    (min_thickness 0.0762)
+    (fill yes (arc_segments 32) (thermal_gap 0.1016) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 384.175 21.971) (xy 384.175 25.527) (xy 383.921 25.781) (xy 379.095 25.781) (xy 377.952 24.638)
+        (xy 368.935 24.638) (xy 368.554 24.257) (xy 368.554 23.368) (xy 368.935 22.987) (xy 377.952 22.987)
+        (xy 379.222 21.717) (xy 383.921 21.717)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 384.1369 21.986782) (xy 384.1369 25.511218) (xy 383.905218 25.7429) (xy 379.110782 25.7429) (xy 377.978941 24.611059)
+        (xy 377.973167 24.606321) (xy 377.96658 24.6028) (xy 377.959433 24.600632) (xy 377.952 24.5999) (xy 368.950782 24.5999)
+        (xy 368.5921 24.241218) (xy 368.5921 23.383782) (xy 368.950782 23.0251) (xy 377.952 23.0251) (xy 377.959433 23.024368)
+        (xy 377.96658 23.0222) (xy 377.973167 23.018679) (xy 377.978941 23.013941) (xy 379.237782 21.7551) (xy 383.905218 21.7551)
+      )
+    )
+  )
 )
