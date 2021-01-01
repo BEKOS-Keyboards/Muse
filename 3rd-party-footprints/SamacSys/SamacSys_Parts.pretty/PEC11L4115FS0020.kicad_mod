@@ -1,4 +1,4 @@
-(module PEC11L4115FS0020 (layer F.Cu) (tedit 5FEDE5BF)
+(module PEC11L4115FS0020 (layer F.Cu) (tedit 5FEE6E4C)
   (descr PEC11L-4115F-S0020)
   (tags "Integrated Circuit")
   (fp_text reference ENC** (at -2.7079 -10.2004) (layer F.SilkS)
@@ -36,8 +36,8 @@
   (pad C1 thru_hole circle (at -0.1444 7.4746) (size 1.8 1.8) (drill 1.2) (layers *.Cu *.Mask))
   (pad MH1 thru_hole circle (at -5.8444 -0.0254) (size 3.786 3.786) (drill 2.5239) (layers *.Cu *.Mask))
   (pad MH2 thru_hole circle (at 5.5556 -0.0254) (size 3.786 3.786) (drill 2.5239) (layers *.Cu *.Mask))
-  (model C:\Users\doni\Documents\Keyboard-Stuff\SpongeBurger-Keyboard\3rd-party-footprints\SamacSys\SamacSys_Parts.3dshapes\PEC11L-4115F-S0020.stp
-    (offset (xyz -2.6 7 0))
+  (model ${KIPRJMOD}/../3rd-party-footprints/pec11l-4xxxf-sxxxx-1.snapshot.2/PEC11L-4xxxF-Sxxxx.stp
+    (offset (xyz -0.1 0 4))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
