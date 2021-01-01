@@ -7135,7 +7135,7 @@
   )
 
   (module Lumissil:IS31FL3733B-QFLS4-TR (layer F.Cu) (tedit 5FEE5216) (tstamp 5FED970A)
-    (at 347.98 87.122)
+    (at 345.567 88.011)
     (path /63A35802/6409AB0A)
     (attr smd)
     (fp_text reference U6 (at -0.508 -4.318) (layer F.SilkS)
