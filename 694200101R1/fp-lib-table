@@ -13,4 +13,6 @@
   (lib (name keyboard_parts)(type KiCad)(uri ${KIPRJMOD}/../3rd-party-footprints/colemarkham/keyboard_parts.pretty)(options "")(descr ""))
   (lib (name RSBHGHC-A88)(type KiCad)(uri ${KIPRJMOD}/../3rd-party-footprints/LED_19-337C/RSBHGHC-A88.pretty)(options "")(descr ""))
   (lib (name SamacSys_Parts)(type KiCad)(uri ${KIPRJMOD}/../3rd-party-footprints/SamacSys/SamacSys_Parts.pretty)(options "")(descr ""))
+  (lib (name Littlefuse)(type KiCad)(uri ${KIPRJMOD}/../3rd-party-footprints/ul_1210L150THWR/KiCAD/2021-01-04_17-12-54/footprints.pretty)(options "")(descr ""))
+  (lib (name "Taiyo Yuden")(type KiCad)(uri "${KIPRJMOD}/../3rd-party-footprints/FBMJ3216HM600-T/Taiyo Yuden.pretty")(options "")(descr ""))
 )
