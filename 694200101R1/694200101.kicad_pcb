@@ -706,7 +706,7 @@
   )
 
   (module MountingHole:MountingHole_3.5mm (layer F.Cu) (tedit 56D1B4CB) (tstamp 5FFD264F)
-    (at 6.35 6.35)
+    (at 33.147 22.733)
     (descr "Mounting Hole 3.5mm, no annular")
     (tags "mounting hole 3.5mm no annular")
     (path /60EA330C)
@@ -726,7 +726,7 @@
   )
 
   (module MountingHole:MountingHole_3.5mm (layer F.Cu) (tedit 56D1B4CB) (tstamp 5FFD2647)
-    (at 411.226 -6.35)
+    (at 414.909 22.733)
     (descr "Mounting Hole 3.5mm, no annular")
     (tags "mounting hole 3.5mm no annular")
     (path /60EA3306)
@@ -746,7 +746,7 @@
   )
 
   (module MountingHole:MountingHole_3.5mm (layer F.Cu) (tedit 56D1B4CB) (tstamp 5FFD263F)
-    (at 6.35 119.38)
+    (at 166.751 -10.033)
     (descr "Mounting Hole 3.5mm, no annular")
     (tags "mounting hole 3.5mm no annular")
     (path /60DC1212)
@@ -766,7 +766,7 @@
   )
 
   (module MountingHole:MountingHole_3.5mm (layer F.Cu) (tedit 56D1B4CB) (tstamp 5FFD2637)
-    (at 195.58 134.62)
+    (at 167.767 119.507)
     (descr "Mounting Hole 3.5mm, no annular")
     (tags "mounting hole 3.5mm no annular")
     (path /60D4E6DB)
@@ -811,7 +811,7 @@
   )
 
   (module MountingHole:MountingHole_3.5mm (layer F.Cu) (tedit 56D1B4CB) (tstamp 5FFD2625)
-    (at 432.054 119.38)
+    (at 153.289 -10.414)
     (descr "Mounting Hole 3.5mm, no annular")
     (tags "mounting hole 3.5mm no annular")
     (path /60F14531)
