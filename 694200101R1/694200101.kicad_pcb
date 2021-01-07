@@ -811,7 +811,7 @@
   )
 
   (module MountingHole:MountingHole_3.5mm (layer F.Cu) (tedit 56D1B4CB) (tstamp 5FFD2625)
-    (at 153.289 -10.414)
+    (at 167.132 66.675)
     (descr "Mounting Hole 3.5mm, no annular")
     (tags "mounting hole 3.5mm no annular")
     (path /60F14531)
