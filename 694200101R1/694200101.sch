@@ -2860,9 +2860,6 @@ Connection ~ 6350 3900
 Connection ~ 14850 3900
 Wire Wire Line
 	14850 3900 15600 3900
-Connection ~ 16050 2200
-Wire Wire Line
-	16050 2200 16050 3500
 Wire Wire Line
 	15600 3800 15600 3900
 Wire Wire Line
@@ -2907,8 +2904,6 @@ Wire Wire Line
 	14850 2600 15600 2600
 Connection ~ 16050 1550
 Wire Wire Line
-	16050 1550 16050 2200
-Wire Wire Line
 	15600 2500 15600 2600
 Wire Wire Line
 	15650 2200 15600 2200
@@ -2916,8 +2911,8 @@ $Comp
 L eec-fairchild:LL4148 D107
 U 1 1 636ED4DE
 P 15600 2100
-F 0 "D107" V 15804 2178 50  0000 L CNN
-F 1 "LL4148" V 15895 2178 50  0000 L CNN
+F 0 "D107" V 15850 2150 50  0000 L CNN
+F 1 "LL4148" V 15950 2150 50  0000 L CNN
 F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 15600 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 15600 2600 50  0001 L CNN
 F 4 "Diode" H 15600 2700 50  0001 L CNN "category"
@@ -2935,17 +2930,6 @@ F 15 "-55°C" H 15600 3800 50  0001 L CNN "temperature range low"
 F 16 "" H 15600 3900 50  0001 L CNN "voltage"
 	1    15600 2100
 	0    1    1    0   
-$EndComp
-$Comp
-L cldg:MX_SW SW106
-U 1 1 636ED4CB
-P 15850 2200
-F 0 "SW106" H 15850 2485 50  0000 C CNN
-F 1 "MX_SW" H 15850 2394 50  0000 C CNN
-F 2 "cldg:millmax-mxalps" H 15850 2400 50  0001 C CNN
-F 3 "~" H 15850 2400 50  0001 C CNN
-	1    15850 2200
-	1    0    0    -1  
 $EndComp
 Connection ~ 14850 1950
 Wire Wire Line
@@ -6499,4 +6483,20 @@ F 3 "" H 5600 8500 50  0001 C CNN
 	1    5600 8500
 	1    0    0    -1  
 $EndComp
+$Comp
+L cldg:MX_SW SW106
+U 1 1 636ED4CB
+P 15850 2200
+F 0 "SW106" H 15850 2050 50  0000 C CNN
+F 1 "MX_SW" H 15850 2150 50  0000 C CNN
+F 2 "cldg:millmax-mxalps" H 15850 2400 50  0001 C CNN
+F 3 "~" H 15850 2400 50  0001 C CNN
+	1    15850 2200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	16050 1550 16050 2200
+Connection ~ 16050 2200
+Wire Wire Line
+	16050 2200 16050 3500
 $EndSCHEMATC
