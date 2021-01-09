@@ -6500,89 +6500,34 @@ Connection ~ 16050 2200
 Wire Wire Line
 	16050 2200 16050 3500
 Wire Wire Line
-	8500 5250 8500 5400
+	11500 5500 11500 5650
 $Comp
 L power:Earth #PWR0110
 U 1 1 60CD8768
-P 8500 5400
-F 0 "#PWR0110" H 8500 5150 50  0001 C CNN
-F 1 "Earth" H 8500 5250 50  0001 C CNN
-F 2 "" H 8500 5400 50  0001 C CNN
-F 3 "~" H 8500 5400 50  0001 C CNN
-	1    8500 5400
+P 11500 5650
+F 0 "#PWR0110" H 11500 5400 50  0001 C CNN
+F 1 "Earth" H 11500 5500 50  0001 C CNN
+F 2 "" H 11500 5650 50  0001 C CNN
+F 3 "~" H 11500 5650 50  0001 C CNN
+	1    11500 5650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H2
+L Mechanical:MountingHole_Pad H3
 U 1 1 60D4C7F0
-P 8500 5150
-F 0 "H2" H 8600 5199 50  0000 L CNN
-F 1 "PCB Common Earth" H 8600 5108 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm_Pad_TopBottom" H 8500 5150 50  0001 C CNN
-F 3 "~" H 8500 5150 50  0001 C CNN
-	1    8500 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 60D4E6DB
-P 9450 4850
-F 0 "H3" H 9550 4896 50  0000 L CNN
-F 1 "PCB Mounting Hole" H 9550 4805 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm" H 9450 4850 50  0001 C CNN
-F 3 "~" H 9450 4850 50  0001 C CNN
-	1    9450 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 60DC1212
-P 9450 5100
-F 0 "H4" H 9550 5146 50  0000 L CNN
-F 1 "PCB Mounting Hole" H 9550 5055 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm" H 9450 5100 50  0001 C CNN
-F 3 "~" H 9450 5100 50  0001 C CNN
-	1    9450 5100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H5
-U 1 1 60EA3306
-P 10450 4850
-F 0 "H5" H 10550 4896 50  0000 L CNN
-F 1 "PCB Mounting Hole" H 10550 4805 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm" H 10450 4850 50  0001 C CNN
-F 3 "~" H 10450 4850 50  0001 C CNN
-	1    10450 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H6
-U 1 1 60EA330C
-P 10450 5100
-F 0 "H6" H 10550 5146 50  0000 L CNN
-F 1 "PCB Mounting Hole" H 10550 5055 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm" H 10450 5100 50  0001 C CNN
-F 3 "~" H 10450 5100 50  0001 C CNN
-	1    10450 5100
+P 11500 5400
+F 0 "H3" H 11600 5449 50  0000 L CNN
+F 1 "PCB Common Earth" H 11600 5358 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_TopBottom" H 11500 5400 50  0001 C CNN
+F 3 "~" H 11500 5400 50  0001 C CNN
+	1    11500 5400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H1
-U 1 1 60F14531
-P 8500 4850
-F 0 "H1" H 8600 4896 50  0000 L CNN
-F 1 "PCB Mounting Hole" H 8600 4805 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm" H 8500 4850 50  0001 C CNN
-F 3 "~" H 8500 4850 50  0001 C CNN
-	1    8500 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H7
 U 1 1 610D6F65
 P 11500 4850
-F 0 "H7" H 11600 4896 50  0000 L CNN
+F 0 "H1" H 11600 4896 50  0000 L CNN
 F 1 "Mounting Slot" H 11600 4805 50  0000 L CNN
 F 2 "keyboard_parts:MountingHole_M2_edge" H 11500 4850 50  0001 C CNN
 F 3 "~" H 11500 4850 50  0001 C CNN
@@ -6590,10 +6535,10 @@ F 3 "~" H 11500 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H8
+L Mechanical:MountingHole H2
 U 1 1 610D9547
 P 11500 5100
-F 0 "H8" H 11600 5146 50  0000 L CNN
+F 0 "H2" H 11600 5146 50  0000 L CNN
 F 1 "Mounting Slot" H 11600 5055 50  0000 L CNN
 F 2 "keyboard_parts:MountingHole_M2_edge" H 11500 5100 50  0001 C CNN
 F 3 "~" H 11500 5100 50  0001 C CNN
