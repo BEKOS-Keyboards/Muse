@@ -44,7 +44,7 @@
     (user_trace_width 1.016)
     (user_trace_width 2.032)
     (user_trace_width 2.54)
-    (trace_clearance 0.0762)
+    (trace_clearance 0.1016)
     (zone_clearance 0.127)
     (zone_45_only yes)
     (trace_min 0.2032)
@@ -358,7 +358,7 @@
   (net 250 /RST)
 
   (net_class Default "This is the default net class."
-    (clearance 0.0762)
+    (clearance 0.1016)
     (trace_width 0.2032)
     (via_dia 0.5588)
     (via_drill 0.3048)
@@ -26169,7 +26169,7 @@
   (segment (start 61.976 115.118264) (end 61.976 115.697) (width 0.254) (layer F.Cu) (net 154))
   (segment (start 61.976 115.697) (end 69.469 123.19) (width 0.254) (layer F.Cu) (net 154))
   (segment (start 69.469 123.19) (end 69.469 123.19) (width 0.254) (layer F.Cu) (net 154) (tstamp 6012B4FC))
-  (via (at 69.469 123.19) (size 0.508) (drill 0.254) (layers F.Cu B.Cu) (net 154))
+  (via (at 69.469 123.19) (size 0.508) (drill 0.254) (layers F.Cu B.Cu) (net 154) (status 1000000))
   (segment (start 335.026 98.552) (end 335.026 97.536) (width 0.254) (layer F.Cu) (net 154) (tstamp 601B4F24))
   (via (at 335.026 97.282) (size 0.508) (drill 0.254) (layers F.Cu B.Cu) (net 154))
   (segment (start 335.661 95.758) (end 335.026 96.393) (width 0.254) (layer B.Cu) (net 154))
