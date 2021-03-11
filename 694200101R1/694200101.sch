@@ -583,7 +583,7 @@ U 1 1 6009A28E
 P 900 800
 F 0 "D1" V 1104 878 50  0000 L CNN
 F 1 "LL4148" V 1195 878 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 900 1200 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 900 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 900 1300 50  0001 L CNN
 F 4 "Diode" H 900 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 900 1500 50  0001 L CNN "digikey description"
@@ -914,7 +914,7 @@ U 1 1 601B6B78
 P 900 1450
 F 0 "D2" V 1104 1528 50  0000 L CNN
 F 1 "LL4148" V 1195 1528 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 900 1850 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 900 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 900 1950 50  0001 L CNN
 F 4 "Diode" H 900 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 900 2150 50  0001 L CNN "digikey description"
@@ -953,7 +953,7 @@ U 1 1 6022EB05
 P 900 2100
 F 0 "D3" V 1104 2178 50  0000 L CNN
 F 1 "LL4148" V 1195 2178 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 900 2500 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 900 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 900 2600 50  0001 L CNN
 F 4 "Diode" H 900 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 900 2800 50  0001 L CNN "digikey description"
@@ -997,7 +997,7 @@ U 1 1 6027E095
 P 900 2750
 F 0 "D4" V 1104 2828 50  0000 L CNN
 F 1 "LL4148" V 1195 2828 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 900 3150 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 900 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 900 3250 50  0001 L CNN
 F 4 "Diode" H 900 3350 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 900 3450 50  0001 L CNN "digikey description"
@@ -1040,7 +1040,7 @@ U 1 1 6028A348
 P 900 4050
 F 0 "D5" V 1104 4128 50  0000 L CNN
 F 1 "LL4148" V 1195 4128 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 900 4450 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 900 4450 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 900 4550 50  0001 L CNN
 F 4 "Diode" H 900 4650 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 900 4750 50  0001 L CNN "digikey description"
@@ -1091,7 +1091,7 @@ U 1 1 602F2C0D
 P 1500 3400
 F 0 "D7" V 1704 3478 50  0000 L CNN
 F 1 "LL4148" V 1795 3478 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 1500 3800 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 1500 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 1500 3900 50  0001 L CNN
 F 4 "Diode" H 1500 4000 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 1500 4100 50  0001 L CNN "digikey description"
@@ -1130,7 +1130,7 @@ U 1 1 603232FA
 P 1500 4050
 F 0 "D8" V 1704 4128 50  0000 L CNN
 F 1 "LL4148" V 1795 4128 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 1500 4450 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 1500 4450 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 1500 4550 50  0001 L CNN
 F 4 "Diode" H 1500 4650 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 1500 4750 50  0001 L CNN "digikey description"
@@ -1189,7 +1189,7 @@ U 1 1 602D5D39
 P 1500 1450
 F 0 "D6" V 1704 1528 50  0000 L CNN
 F 1 "LL4148" V 1795 1528 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 1500 1850 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 1500 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 1500 1950 50  0001 L CNN
 F 4 "Diode" H 1500 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 1500 2150 50  0001 L CNN "digikey description"
@@ -1238,7 +1238,7 @@ U 1 1 6046B1BA
 P 2150 800
 F 0 "D9" V 2354 878 50  0000 L CNN
 F 1 "LL4148" V 2445 878 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 2150 1200 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 2150 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2150 1300 50  0001 L CNN
 F 4 "Diode" H 2150 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2150 1500 50  0001 L CNN "digikey description"
@@ -1282,7 +1282,7 @@ U 1 1 604B2B32
 P 2150 1450
 F 0 "D10" V 2354 1528 50  0000 L CNN
 F 1 "LL4148" V 2445 1528 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 2150 1850 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 2150 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2150 1950 50  0001 L CNN
 F 4 "Diode" H 2150 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2150 2150 50  0001 L CNN "digikey description"
@@ -1327,7 +1327,7 @@ U 1 1 604F1FFE
 P 2150 2100
 F 0 "D11" V 2354 2178 50  0000 L CNN
 F 1 "LL4148" V 2445 2178 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 2150 2500 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 2150 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2150 2600 50  0001 L CNN
 F 4 "Diode" H 2150 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2150 2800 50  0001 L CNN "digikey description"
@@ -1372,7 +1372,7 @@ U 1 1 60525B2F
 P 2150 2750
 F 0 "D12" V 2354 2828 50  0000 L CNN
 F 1 "LL4148" V 2445 2828 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 2150 3150 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 2150 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2150 3250 50  0001 L CNN
 F 4 "Diode" H 2150 3350 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2150 3450 50  0001 L CNN "digikey description"
@@ -1414,7 +1414,7 @@ U 1 1 6054FAD3
 P 2150 3400
 F 0 "D13" V 2354 3478 50  0000 L CNN
 F 1 "LL4148" V 2445 3478 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 2150 3800 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 2150 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2150 3900 50  0001 L CNN
 F 4 "Diode" H 2150 4000 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2150 4100 50  0001 L CNN "digikey description"
@@ -1459,7 +1459,7 @@ U 1 1 6057955C
 P 2850 800
 F 0 "D14" V 3054 878 50  0000 L CNN
 F 1 "LL4148" V 3145 878 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 2850 1200 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 2850 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2850 1300 50  0001 L CNN
 F 4 "Diode" H 2850 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2850 1500 50  0001 L CNN "digikey description"
@@ -1503,7 +1503,7 @@ U 1 1 605A319B
 P 2850 1450
 F 0 "D15" V 3054 1528 50  0000 L CNN
 F 1 "LL4148" V 3145 1528 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 2850 1850 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 2850 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2850 1950 50  0001 L CNN
 F 4 "Diode" H 2850 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2850 2150 50  0001 L CNN "digikey description"
@@ -1545,7 +1545,7 @@ U 1 1 605CD6A7
 P 2850 2100
 F 0 "D16" V 3054 2178 50  0000 L CNN
 F 1 "LL4148" V 3145 2178 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 2850 2500 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 2850 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2850 2600 50  0001 L CNN
 F 4 "Diode" H 2850 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2850 2800 50  0001 L CNN "digikey description"
@@ -1590,7 +1590,7 @@ U 1 1 605FA906
 P 2850 2750
 F 0 "D17" V 3054 2828 50  0000 L CNN
 F 1 "LL4148" V 3145 2828 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 2850 3150 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 2850 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2850 3250 50  0001 L CNN
 F 4 "Diode" H 2850 3350 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2850 3450 50  0001 L CNN "digikey description"
@@ -1635,7 +1635,7 @@ U 1 1 60628982
 P 2850 3400
 F 0 "D18" V 3054 3478 50  0000 L CNN
 F 1 "LL4148" V 3145 3478 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 2850 3800 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 2850 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2850 3900 50  0001 L CNN
 F 4 "Diode" H 2850 4000 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2850 4100 50  0001 L CNN "digikey description"
@@ -1680,7 +1680,7 @@ U 1 1 606591C6
 P 2850 4050
 F 0 "D19" V 3054 3973 50  0000 R CNN
 F 1 "LL4148" V 3145 3973 50  0000 R CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 2850 4450 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 2850 4450 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2850 4550 50  0001 L CNN
 F 4 "Diode" H 2850 4650 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2850 4750 50  0001 L CNN "digikey description"
@@ -1724,7 +1724,7 @@ U 1 1 6068E609
 P 3550 800
 F 0 "D20" V 3754 878 50  0000 L CNN
 F 1 "LL4148" V 3845 878 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 3550 1200 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 3550 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 3550 1300 50  0001 L CNN
 F 4 "Diode" H 3550 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 3550 1500 50  0001 L CNN "digikey description"
@@ -1768,7 +1768,7 @@ U 1 1 606C0C00
 P 3550 1450
 F 0 "D21" V 3754 1528 50  0000 L CNN
 F 1 "LL4148" V 3845 1528 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 3550 1850 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 3550 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 3550 1950 50  0001 L CNN
 F 4 "Diode" H 3550 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 3550 2150 50  0001 L CNN "digikey description"
@@ -1810,7 +1810,7 @@ U 1 1 606F5085
 P 3550 2100
 F 0 "D22" V 3754 2178 50  0000 L CNN
 F 1 "LL4148" V 3845 2178 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 3550 2500 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 3550 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 3550 2600 50  0001 L CNN
 F 4 "Diode" H 3550 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 3550 2800 50  0001 L CNN "digikey description"
@@ -1855,7 +1855,7 @@ U 1 1 60729823
 P 3550 2750
 F 0 "D23" V 3754 2673 50  0000 R CNN
 F 1 "LL4148" V 3845 2673 50  0000 R CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 3550 3150 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 3550 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 3550 3250 50  0001 L CNN
 F 4 "Diode" H 3550 3350 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 3550 3450 50  0001 L CNN "digikey description"
@@ -1900,7 +1900,7 @@ U 1 1 60760989
 P 3550 3400
 F 0 "D24" V 3754 3323 50  0000 R CNN
 F 1 "LL4148" V 3845 3323 50  0000 R CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 3550 3800 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 3550 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 3550 3900 50  0001 L CNN
 F 4 "Diode" H 3550 4000 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 3550 4100 50  0001 L CNN "digikey description"
@@ -1943,7 +1943,7 @@ U 1 1 607983E7
 P 4250 800
 F 0 "D25" V 4454 878 50  0000 L CNN
 F 1 "LL4148" V 4545 878 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 4250 1200 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 4250 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4250 1300 50  0001 L CNN
 F 4 "Diode" H 4250 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4250 1500 50  0001 L CNN "digikey description"
@@ -1987,7 +1987,7 @@ U 1 1 607D3511
 P 4250 1450
 F 0 "D26" V 4454 1528 50  0000 L CNN
 F 1 "LL4148" V 4545 1528 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 4250 1850 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 4250 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4250 1950 50  0001 L CNN
 F 4 "Diode" H 4250 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4250 2150 50  0001 L CNN "digikey description"
@@ -2029,7 +2029,7 @@ U 1 1 6080F960
 P 4250 2100
 F 0 "D27" V 4454 2178 50  0000 L CNN
 F 1 "LL4148" V 4545 2178 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 4250 2500 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 4250 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4250 2600 50  0001 L CNN
 F 4 "Diode" H 4250 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4250 2800 50  0001 L CNN "digikey description"
@@ -2074,7 +2074,7 @@ U 1 1 6084CA28
 P 4250 2750
 F 0 "D28" V 4454 2828 50  0000 L CNN
 F 1 "LL4148" V 4545 2828 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 4250 3150 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 4250 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4250 3250 50  0001 L CNN
 F 4 "Diode" H 4250 3350 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4250 3450 50  0001 L CNN "digikey description"
@@ -2119,7 +2119,7 @@ U 1 1 6088C6D4
 P 4250 3400
 F 0 "D29" V 4454 3478 50  0000 L CNN
 F 1 "LL4148" V 4545 3478 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 4250 3800 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 4250 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4250 3900 50  0001 L CNN
 F 4 "Diode" H 4250 4000 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4250 4100 50  0001 L CNN "digikey description"
@@ -2166,7 +2166,7 @@ U 1 1 608CDC0F
 P 4950 1450
 F 0 "D30" V 5154 1528 50  0000 L CNN
 F 1 "LL4148" V 5245 1528 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 4950 1850 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 4950 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4950 1950 50  0001 L CNN
 F 4 "Diode" H 4950 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4950 2150 50  0001 L CNN "digikey description"
@@ -2210,7 +2210,7 @@ U 1 1 6093F656
 P 4950 2100
 F 0 "D31" V 5154 2178 50  0000 L CNN
 F 1 "LL4148" V 5245 2178 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 4950 2500 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 4950 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4950 2600 50  0001 L CNN
 F 4 "Diode" H 4950 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4950 2800 50  0001 L CNN "digikey description"
@@ -2255,7 +2255,7 @@ U 1 1 60984015
 P 4950 2750
 F 0 "D32" V 5154 2828 50  0000 L CNN
 F 1 "LL4148" V 5245 2828 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 4950 3150 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 4950 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4950 3250 50  0001 L CNN
 F 4 "Diode" H 4950 3350 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4950 3450 50  0001 L CNN "digikey description"
@@ -2300,7 +2300,7 @@ U 1 1 609CA106
 P 4950 3400
 F 0 "D33" V 5154 3478 50  0000 L CNN
 F 1 "LL4148" V 5245 3478 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 4950 3800 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 4950 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4950 3900 50  0001 L CNN
 F 4 "Diode" H 4950 4000 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4950 4100 50  0001 L CNN "digikey description"
@@ -2345,7 +2345,7 @@ U 1 1 60A11EB0
 P 4950 4050
 F 0 "D34" V 5154 4128 50  0000 L CNN
 F 1 "LL4148" V 5245 4128 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 4950 4450 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 4950 4450 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4950 4550 50  0001 L CNN
 F 4 "Diode" H 4950 4650 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4950 4750 50  0001 L CNN "digikey description"
@@ -2459,7 +2459,7 @@ U 1 1 60BBAE7D
 P 5650 3400
 F 0 "D39" V 5854 3478 50  0000 L CNN
 F 1 "LL4148" V 5945 3478 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 5650 3800 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 5650 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 5650 3900 50  0001 L CNN
 F 4 "Diode" H 5650 4000 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 5650 4100 50  0001 L CNN "digikey description"
@@ -2501,7 +2501,7 @@ U 1 1 60B4B005
 P 5650 2750
 F 0 "D38" V 5854 2828 50  0000 L CNN
 F 1 "LL4148" V 5945 2828 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 5650 3150 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 5650 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 5650 3250 50  0001 L CNN
 F 4 "Diode" H 5650 3350 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 5650 3450 50  0001 L CNN "digikey description"
@@ -2543,7 +2543,7 @@ U 1 1 60AFBB0A
 P 5650 2100
 F 0 "D37" V 5854 2178 50  0000 L CNN
 F 1 "LL4148" V 5945 2178 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 5650 2500 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 5650 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 5650 2600 50  0001 L CNN
 F 4 "Diode" H 5650 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 5650 2800 50  0001 L CNN "digikey description"
@@ -2582,7 +2582,7 @@ U 1 1 60AAC56F
 P 5650 1450
 F 0 "D36" V 5854 1528 50  0000 L CNN
 F 1 "LL4148" V 5945 1528 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 5650 1850 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 5650 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 5650 1950 50  0001 L CNN
 F 4 "Diode" H 5650 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 5650 2150 50  0001 L CNN "digikey description"
@@ -2623,7 +2623,7 @@ U 1 1 60A5E2DF
 P 5650 800
 F 0 "D35" V 5854 878 50  0000 L CNN
 F 1 "LL4148" V 5945 878 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 5650 1200 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 5650 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 5650 1300 50  0001 L CNN
 F 4 "Diode" H 5650 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 5650 1500 50  0001 L CNN "digikey description"
@@ -2678,7 +2678,7 @@ U 1 1 60021F13
 P 6350 800
 F 0 "D40" V 6554 878 50  0000 L CNN
 F 1 "LL4148" V 6645 878 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 6350 1200 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 6350 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 6350 1300 50  0001 L CNN
 F 4 "Diode" H 6350 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 6350 1500 50  0001 L CNN "digikey description"
@@ -2734,7 +2734,7 @@ U 1 1 60021F4E
 P 6350 2100
 F 0 "D42" V 6554 2178 50  0000 L CNN
 F 1 "LL4148" V 6645 2178 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 6350 2500 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 6350 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 6350 2600 50  0001 L CNN
 F 4 "Diode" H 6350 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 6350 2800 50  0001 L CNN "digikey description"
@@ -2760,7 +2760,7 @@ U 1 1 60021F30
 P 6350 1450
 F 0 "D41" V 6554 1528 50  0000 L CNN
 F 1 "LL4148" V 6645 1528 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 6350 1850 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 6350 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 6350 1950 50  0001 L CNN
 F 4 "Diode" H 6350 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 6350 2150 50  0001 L CNN "digikey description"
@@ -2795,7 +2795,7 @@ U 1 1 60021F6C
 P 6350 2750
 F 0 "D43" V 6554 2828 50  0000 L CNN
 F 1 "LL4148" V 6645 2828 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 6350 3150 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 6350 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 6350 3250 50  0001 L CNN
 F 4 "Diode" H 6350 3350 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 6350 3450 50  0001 L CNN "digikey description"
@@ -2834,7 +2834,7 @@ U 1 1 60021F8A
 P 6350 3400
 F 0 "D44" V 6554 3478 50  0000 L CNN
 F 1 "LL4148" V 6645 3478 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 6350 3800 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 6350 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 6350 3900 50  0001 L CNN
 F 4 "Diode" H 6350 4000 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 6350 4100 50  0001 L CNN "digikey description"
@@ -2870,7 +2870,7 @@ U 1 1 637C9D8A
 P 15600 3400
 F 0 "D108" V 16000 3500 50  0000 L CNN
 F 1 "LL4148" V 15895 3478 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 15600 3800 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 15600 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 15600 3900 50  0001 L CNN
 F 4 "Diode" H 15600 4000 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 15600 4100 50  0001 L CNN "digikey description"
@@ -2913,7 +2913,7 @@ U 1 1 636ED4DE
 P 15600 2100
 F 0 "D107" V 15850 2150 50  0000 L CNN
 F 1 "LL4148" V 15950 2150 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 15600 2500 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 15600 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 15600 2600 50  0001 L CNN
 F 4 "Diode" H 15600 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 15600 2800 50  0001 L CNN "digikey description"
@@ -2948,7 +2948,7 @@ U 1 1 6352DF7B
 P 15600 1450
 F 0 "D106" V 15804 1528 50  0000 L CNN
 F 1 "LL4148" V 15895 1528 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 15600 1850 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 15600 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 15600 1950 50  0001 L CNN
 F 4 "Diode" H 15600 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 15600 2150 50  0001 L CNN "digikey description"
@@ -2993,7 +2993,7 @@ U 1 1 6344CEC0
 P 14850 4050
 F 0 "D105" V 15054 4128 50  0000 L CNN
 F 1 "LL4148" V 15145 4128 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 14850 4450 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 14850 4450 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14850 4550 50  0001 L CNN
 F 4 "Diode" H 14850 4650 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14850 4750 50  0001 L CNN "digikey description"
@@ -3038,7 +3038,7 @@ U 1 1 63375708
 P 14850 3400
 F 0 "D104" V 15054 3478 50  0000 L CNN
 F 1 "LL4148" V 15145 3478 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 14850 3800 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 14850 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14850 3900 50  0001 L CNN
 F 4 "Diode" H 14850 4000 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14850 4100 50  0001 L CNN "digikey description"
@@ -3083,7 +3083,7 @@ U 1 1 632A1C53
 P 14850 2750
 F 0 "D103" V 15054 2828 50  0000 L CNN
 F 1 "LL4148" V 15145 2828 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 14850 3150 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 14850 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14850 3250 50  0001 L CNN
 F 4 "Diode" H 14850 3350 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14850 3450 50  0001 L CNN "digikey description"
@@ -3128,7 +3128,7 @@ U 1 1 631D14B4
 P 14850 2100
 F 0 "D102" V 15054 2178 50  0000 L CNN
 F 1 "LL4148" V 15145 2178 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 14850 2500 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 14850 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14850 2600 50  0001 L CNN
 F 4 "Diode" H 14850 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14850 2800 50  0001 L CNN "digikey description"
@@ -3173,7 +3173,7 @@ U 1 1 63101A67
 P 14850 1450
 F 0 "D101" V 15054 1528 50  0000 L CNN
 F 1 "LL4148" V 15145 1528 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 14850 1850 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 14850 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14850 1950 50  0001 L CNN
 F 4 "Diode" H 14850 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14850 2150 50  0001 L CNN "digikey description"
@@ -3219,7 +3219,7 @@ U 1 1 63033218
 P 14850 800
 F 0 "D100" V 15054 878 50  0000 L CNN
 F 1 "LL4148" V 15145 878 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 14850 1200 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 14850 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14850 1300 50  0001 L CNN
 F 4 "Diode" H 14850 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14850 1500 50  0001 L CNN "digikey description"
@@ -3264,7 +3264,7 @@ U 1 1 62F69A09
 P 14150 3400
 F 0 "D99" V 14354 3478 50  0000 L CNN
 F 1 "LL4148" V 14445 3478 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 14150 3800 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 14150 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14150 3900 50  0001 L CNN
 F 4 "Diode" H 14150 4000 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14150 4100 50  0001 L CNN "digikey description"
@@ -3309,7 +3309,7 @@ U 1 1 62EA2237
 P 14150 2750
 F 0 "D98" V 14354 2828 50  0000 L CNN
 F 1 "LL4148" V 14445 2828 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 14150 3150 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 14150 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14150 3250 50  0001 L CNN
 F 4 "Diode" H 14150 3350 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14150 3450 50  0001 L CNN "digikey description"
@@ -3354,7 +3354,7 @@ U 1 1 62DDE151
 P 14150 2100
 F 0 "D97" V 14354 2178 50  0000 L CNN
 F 1 "LL4148" V 14445 2178 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 14150 2500 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 14150 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14150 2600 50  0001 L CNN
 F 4 "Diode" H 14150 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14150 2800 50  0001 L CNN "digikey description"
@@ -3399,7 +3399,7 @@ U 1 1 62D1B26D
 P 14150 1450
 F 0 "D96" V 14354 1528 50  0000 L CNN
 F 1 "LL4148" V 14445 1528 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 14150 1850 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 14150 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14150 1950 50  0001 L CNN
 F 4 "Diode" H 14150 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14150 2150 50  0001 L CNN "digikey description"
@@ -3445,7 +3445,7 @@ U 1 1 62C59FD5
 P 14150 800
 F 0 "D95" V 14354 878 50  0000 L CNN
 F 1 "LL4148" V 14445 878 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 14150 1200 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 14150 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14150 1300 50  0001 L CNN
 F 4 "Diode" H 14150 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14150 1500 50  0001 L CNN "digikey description"
@@ -3490,7 +3490,7 @@ U 1 1 62B9C842
 P 13450 4050
 F 0 "D93" V 13654 4128 50  0000 L CNN
 F 1 "LL4148" V 13745 4128 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 13450 4450 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 13450 4450 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 13450 4550 50  0001 L CNN
 F 4 "Diode" H 13450 4650 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 13450 4750 50  0001 L CNN "digikey description"
@@ -3535,7 +3535,7 @@ U 1 1 62AE0B86
 P 13450 3400
 F 0 "D92" V 13654 3478 50  0000 L CNN
 F 1 "LL4148" V 13745 3478 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 13450 3800 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 13450 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 13450 3900 50  0001 L CNN
 F 4 "Diode" H 13450 4000 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 13450 4100 50  0001 L CNN "digikey description"
@@ -3580,7 +3580,7 @@ U 1 1 62A271EB
 P 13450 2750
 F 0 "D91" V 13654 2828 50  0000 L CNN
 F 1 "LL4148" V 13745 2828 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 13450 3150 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 13450 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 13450 3250 50  0001 L CNN
 F 4 "Diode" H 13450 3350 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 13450 3450 50  0001 L CNN "digikey description"
@@ -3625,7 +3625,7 @@ U 1 1 62970D2C
 P 13450 2100
 F 0 "D90" V 13654 2178 50  0000 L CNN
 F 1 "LL4148" V 13745 2178 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 13450 2500 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 13450 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 13450 2600 50  0001 L CNN
 F 4 "Diode" H 13450 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 13450 2800 50  0001 L CNN "digikey description"
@@ -3670,7 +3670,7 @@ U 1 1 628BD770
 P 13450 1450
 F 0 "D89" V 13654 1528 50  0000 L CNN
 F 1 "LL4148" V 13745 1528 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 13450 1850 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 13450 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 13450 1950 50  0001 L CNN
 F 4 "Diode" H 13450 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 13450 2150 50  0001 L CNN "digikey description"
@@ -3716,7 +3716,7 @@ U 1 1 6280AAF5
 P 13450 800
 F 0 "D88" V 13654 878 50  0000 L CNN
 F 1 "LL4148" V 13745 878 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 13450 1200 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 13450 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 13450 1300 50  0001 L CNN
 F 4 "Diode" H 13450 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 13450 1500 50  0001 L CNN "digikey description"
@@ -3761,7 +3761,7 @@ U 1 1 6270EFB2
 P 12750 4050
 F 0 "D87" V 12954 4128 50  0000 L CNN
 F 1 "LL4148" V 13045 4128 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 12750 4450 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 12750 4450 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12750 4550 50  0001 L CNN
 F 4 "Diode" H 12750 4650 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 12750 4750 50  0001 L CNN "digikey description"
@@ -3806,7 +3806,7 @@ U 1 1 62661C2D
 P 12750 2100
 F 0 "D86" V 12954 2178 50  0000 L CNN
 F 1 "LL4148" V 13045 2178 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 12750 2500 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 12750 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12750 2600 50  0001 L CNN
 F 4 "Diode" H 12750 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 12750 2800 50  0001 L CNN "digikey description"
@@ -3851,7 +3851,7 @@ U 1 1 625B7617
 P 12750 1450
 F 0 "D85" V 12954 1528 50  0000 L CNN
 F 1 "LL4148" V 13045 1528 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 12750 1850 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 12750 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12750 1950 50  0001 L CNN
 F 4 "Diode" H 12750 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 12750 2150 50  0001 L CNN "digikey description"
@@ -3897,7 +3897,7 @@ U 1 1 6250DF8A
 P 12750 800
 F 0 "D84" V 12954 878 50  0000 L CNN
 F 1 "LL4148" V 13045 878 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 12750 1200 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 12750 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12750 1300 50  0001 L CNN
 F 4 "Diode" H 12750 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 12750 1500 50  0001 L CNN "digikey description"
@@ -3942,7 +3942,7 @@ U 1 1 62468143
 P 12050 4050
 F 0 "D83" V 12254 4128 50  0000 L CNN
 F 1 "LL4148" V 12345 4128 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 12050 4450 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 12050 4450 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12050 4550 50  0001 L CNN
 F 4 "Diode" H 12050 4650 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 12050 4750 50  0001 L CNN "digikey description"
@@ -3987,7 +3987,7 @@ U 1 1 623C3CF0
 P 12050 3400
 F 0 "D82" V 12254 3478 50  0000 L CNN
 F 1 "LL4148" V 12345 3478 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 12050 3800 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 12050 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12050 3900 50  0001 L CNN
 F 4 "Diode" H 12050 4000 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 12050 4100 50  0001 L CNN "digikey description"
@@ -4032,7 +4032,7 @@ U 1 1 62322934
 P 12050 2100
 F 0 "D81" V 12254 2178 50  0000 L CNN
 F 1 "LL4148" V 12345 2178 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 12050 2500 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 12050 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12050 2600 50  0001 L CNN
 F 4 "Diode" H 12050 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 12050 2800 50  0001 L CNN "digikey description"
@@ -4077,7 +4077,7 @@ U 1 1 6227F207
 P 12050 1450
 F 0 "D80" V 12254 1528 50  0000 L CNN
 F 1 "LL4148" V 12345 1528 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 12050 1850 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 12050 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12050 1950 50  0001 L CNN
 F 4 "Diode" H 12050 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 12050 2150 50  0001 L CNN "digikey description"
@@ -4123,7 +4123,7 @@ U 1 1 621DF4A3
 P 12050 800
 F 0 "D79" V 12254 878 50  0000 L CNN
 F 1 "LL4148" V 12345 878 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 12050 1200 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 12050 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12050 1300 50  0001 L CNN
 F 4 "Diode" H 12050 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 12050 1500 50  0001 L CNN "digikey description"
@@ -4168,7 +4168,7 @@ U 1 1 6210B6E4
 P 11350 4050
 F 0 "D78" V 11554 4128 50  0000 L CNN
 F 1 "LL4148" V 11645 4128 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 11350 4450 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 11350 4450 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 11350 4550 50  0001 L CNN
 F 4 "Diode" H 11350 4650 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 11350 4750 50  0001 L CNN "digikey description"
@@ -4213,7 +4213,7 @@ U 1 1 62070766
 P 11350 2100
 F 0 "D77" V 11554 2178 50  0000 L CNN
 F 1 "LL4148" V 11645 2178 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 11350 2500 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 11350 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 11350 2600 50  0001 L CNN
 F 4 "Diode" H 11350 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 11350 2800 50  0001 L CNN "digikey description"
@@ -4258,7 +4258,7 @@ U 1 1 61FD94B4
 P 11350 1450
 F 0 "D76" V 11554 1528 50  0000 L CNN
 F 1 "LL4148" V 11645 1528 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 11350 1850 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 11350 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 11350 1950 50  0001 L CNN
 F 4 "Diode" H 11350 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 11350 2150 50  0001 L CNN "digikey description"
@@ -4304,7 +4304,7 @@ U 1 1 61F41772
 P 11350 800
 F 0 "D75" V 11554 878 50  0000 L CNN
 F 1 "LL4148" V 11645 878 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 11350 1200 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 11350 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 11350 1300 50  0001 L CNN
 F 4 "Diode" H 11350 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 11350 1500 50  0001 L CNN "digikey description"
@@ -4349,7 +4349,7 @@ U 1 1 61EAD5A3
 P 10600 4050
 F 0 "D74" V 10804 4128 50  0000 L CNN
 F 1 "LL4148" V 10895 4128 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 10600 4450 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 10600 4450 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 10600 4550 50  0001 L CNN
 F 4 "Diode" H 10600 4650 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 10600 4750 50  0001 L CNN "digikey description"
@@ -4394,7 +4394,7 @@ U 1 1 61D5AFBF
 P 10600 2100
 F 0 "D73" V 10804 2178 50  0000 L CNN
 F 1 "LL4148" V 10895 2178 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 10600 2500 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 10600 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 10600 2600 50  0001 L CNN
 F 4 "Diode" H 10600 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 10600 2800 50  0001 L CNN "digikey description"
@@ -4439,7 +4439,7 @@ U 1 1 61CC9770
 P 10600 1450
 F 0 "D72" V 10804 1528 50  0000 L CNN
 F 1 "LL4148" V 10895 1528 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 10600 1850 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 10600 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 10600 1950 50  0001 L CNN
 F 4 "Diode" H 10600 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 10600 2150 50  0001 L CNN "digikey description"
@@ -4485,7 +4485,7 @@ U 1 1 61C3BE8E
 P 10600 800
 F 0 "D71" V 10804 878 50  0000 L CNN
 F 1 "LL4148" V 10895 878 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 10600 1200 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 10600 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 10600 1300 50  0001 L CNN
 F 4 "Diode" H 10600 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 10600 1500 50  0001 L CNN "digikey description"
@@ -4530,7 +4530,7 @@ U 1 1 61B7D812
 P 9900 4050
 F 0 "D70" V 10104 4128 50  0000 L CNN
 F 1 "LL4148" V 10195 4128 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 9900 4450 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 9900 4450 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9900 4550 50  0001 L CNN
 F 4 "Diode" H 9900 4650 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 9900 4750 50  0001 L CNN "digikey description"
@@ -4575,7 +4575,7 @@ U 1 1 61AF4765
 P 9900 3400
 F 0 "D69" V 10104 3478 50  0000 L CNN
 F 1 "LL4148" V 10195 3478 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 9900 3800 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 9900 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9900 3900 50  0001 L CNN
 F 4 "Diode" H 9900 4000 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 9900 4100 50  0001 L CNN "digikey description"
@@ -4620,7 +4620,7 @@ U 1 1 61A6B7EF
 P 9900 2750
 F 0 "D68" V 10104 2828 50  0000 L CNN
 F 1 "LL4148" V 10195 2828 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 9900 3150 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 9900 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9900 3250 50  0001 L CNN
 F 4 "Diode" H 9900 3350 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 9900 3450 50  0001 L CNN "digikey description"
@@ -4665,7 +4665,7 @@ U 1 1 619B421C
 P 9900 2100
 F 0 "D67" V 10104 2178 50  0000 L CNN
 F 1 "LL4148" V 10195 2178 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 9900 2500 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 9900 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9900 2600 50  0001 L CNN
 F 4 "Diode" H 9900 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 9900 2800 50  0001 L CNN "digikey description"
@@ -4731,7 +4731,7 @@ U 1 1 6150662A
 P 9900 800
 F 0 "D66" V 10104 878 50  0000 L CNN
 F 1 "LL4148" V 10195 878 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 9900 1200 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 9900 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9900 1300 50  0001 L CNN
 F 4 "Diode" H 9900 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 9900 1500 50  0001 L CNN "digikey description"
@@ -4776,7 +4776,7 @@ U 1 1 6145A4DF
 P 9200 2750
 F 0 "D65" V 9404 2828 50  0000 L CNN
 F 1 "LL4148" V 9495 2828 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 9200 3150 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 9200 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9200 3250 50  0001 L CNN
 F 4 "Diode" H 9200 3350 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 9200 3450 50  0001 L CNN "digikey description"
@@ -4821,7 +4821,7 @@ U 1 1 613DE8D4
 P 9200 2100
 F 0 "D64" V 9404 2178 50  0000 L CNN
 F 1 "LL4148" V 9495 2178 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 9200 2500 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 9200 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9200 2600 50  0001 L CNN
 F 4 "Diode" H 9200 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 9200 2800 50  0001 L CNN "digikey description"
@@ -4863,7 +4863,7 @@ U 1 1 613655BC
 P 9200 1450
 F 0 "D63" V 9404 1528 50  0000 L CNN
 F 1 "LL4148" V 9495 1528 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 9200 1850 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 9200 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9200 1950 50  0001 L CNN
 F 4 "Diode" H 9200 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 9200 2150 50  0001 L CNN "digikey description"
@@ -4907,7 +4907,7 @@ U 1 1 612ED62E
 P 9200 800
 F 0 "D62" V 9404 878 50  0000 L CNN
 F 1 "LL4148" V 9495 878 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 9200 1200 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 9200 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9200 1300 50  0001 L CNN
 F 4 "Diode" H 9200 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 9200 1500 50  0001 L CNN "digikey description"
@@ -4951,7 +4951,7 @@ U 1 1 61277A68
 P 8500 4050
 F 0 "D61" V 8704 4128 50  0000 L CNN
 F 1 "LL4148" V 8795 4128 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 8500 4450 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 8500 4450 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 8500 4550 50  0001 L CNN
 F 4 "Diode" H 8500 4650 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 8500 4750 50  0001 L CNN "digikey description"
@@ -4996,7 +4996,7 @@ U 1 1 61201B3D
 P 8500 3400
 F 0 "D60" V 8704 3478 50  0000 L CNN
 F 1 "LL4148" V 8795 3478 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 8500 3800 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 8500 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 8500 3900 50  0001 L CNN
 F 4 "Diode" H 8500 4000 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 8500 4100 50  0001 L CNN "digikey description"
@@ -5041,7 +5041,7 @@ U 1 1 61190961
 P 8500 2750
 F 0 "D59" V 8704 2828 50  0000 L CNN
 F 1 "LL4148" V 8795 2828 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 8500 3150 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 8500 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 8500 3250 50  0001 L CNN
 F 4 "Diode" H 8500 3350 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 8500 3450 50  0001 L CNN "digikey description"
@@ -5086,7 +5086,7 @@ U 1 1 61121AB5
 P 8500 2100
 F 0 "D58" V 8704 2178 50  0000 L CNN
 F 1 "LL4148" V 8795 2178 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 8500 2500 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 8500 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 8500 2600 50  0001 L CNN
 F 4 "Diode" H 8500 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 8500 2800 50  0001 L CNN "digikey description"
@@ -5128,7 +5128,7 @@ U 1 1 610B511F
 P 8500 1450
 F 0 "D57" V 8704 1528 50  0000 L CNN
 F 1 "LL4148" V 8795 1528 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 8500 1850 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 8500 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 8500 1950 50  0001 L CNN
 F 4 "Diode" H 8500 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 8500 2150 50  0001 L CNN "digikey description"
@@ -5172,7 +5172,7 @@ U 1 1 610473AD
 P 8500 800
 F 0 "D56" V 8704 878 50  0000 L CNN
 F 1 "LL4148" V 8795 878 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 8500 1200 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 8500 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 8500 1300 50  0001 L CNN
 F 4 "Diode" H 8500 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 8500 1500 50  0001 L CNN "digikey description"
@@ -5214,7 +5214,7 @@ U 1 1 60FCAB59
 P 7750 4050
 F 0 "D55" V 7954 4128 50  0000 L CNN
 F 1 "LL4148" V 8045 4128 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 7750 4450 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 7750 4450 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7750 4550 50  0001 L CNN
 F 4 "Diode" H 7750 4650 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7750 4750 50  0001 L CNN "digikey description"
@@ -5258,7 +5258,7 @@ U 1 1 60F623B6
 P 7750 3400
 F 0 "D54" V 7954 3478 50  0000 L CNN
 F 1 "LL4148" V 8045 3478 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 7750 3800 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 7750 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7750 3900 50  0001 L CNN
 F 4 "Diode" H 7750 4000 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7750 4100 50  0001 L CNN "digikey description"
@@ -5302,7 +5302,7 @@ U 1 1 60EFDB97
 P 7750 2750
 F 0 "D53" V 7954 2828 50  0000 L CNN
 F 1 "LL4148" V 8045 2828 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 7750 3150 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 7750 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7750 3250 50  0001 L CNN
 F 4 "Diode" H 7750 3350 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7750 3450 50  0001 L CNN "digikey description"
@@ -5346,7 +5346,7 @@ U 1 1 60E9BC8B
 P 7750 2100
 F 0 "D52" V 7954 2178 50  0000 L CNN
 F 1 "LL4148" V 8045 2178 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 7750 2500 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 7750 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7750 2600 50  0001 L CNN
 F 4 "Diode" H 7750 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7750 2800 50  0001 L CNN "digikey description"
@@ -5387,7 +5387,7 @@ U 1 1 60E3B4F3
 P 7750 1450
 F 0 "D51" V 7954 1528 50  0000 L CNN
 F 1 "LL4148" V 8045 1528 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 7750 1850 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 7750 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7750 1950 50  0001 L CNN
 F 4 "Diode" H 7750 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7750 2150 50  0001 L CNN "digikey description"
@@ -5430,7 +5430,7 @@ U 1 1 60DDC1D7
 P 7750 800
 F 0 "D50" V 7954 878 50  0000 L CNN
 F 1 "LL4148" V 8045 878 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 7750 1200 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 7750 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7750 1300 50  0001 L CNN
 F 4 "Diode" H 7750 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7750 1500 50  0001 L CNN "digikey description"
@@ -5472,7 +5472,7 @@ U 1 1 60D7D7C8
 P 7050 3400
 F 0 "D49" V 7254 3478 50  0000 L CNN
 F 1 "LL4148" V 7345 3478 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 7050 3800 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 7050 3800 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7050 3900 50  0001 L CNN
 F 4 "Diode" H 7050 4000 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7050 4100 50  0001 L CNN "digikey description"
@@ -5514,7 +5514,7 @@ U 1 1 60D20A46
 P 7050 2750
 F 0 "D48" V 7254 2828 50  0000 L CNN
 F 1 "LL4148" V 7345 2828 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 7050 3150 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 7050 3150 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7050 3250 50  0001 L CNN
 F 4 "Diode" H 7050 3350 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7050 3450 50  0001 L CNN "digikey description"
@@ -5556,7 +5556,7 @@ U 1 1 60CC81C3
 P 7050 2100
 F 0 "D47" V 7254 2178 50  0000 L CNN
 F 1 "LL4148" V 7345 2178 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 7050 2500 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 7050 2500 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7050 2600 50  0001 L CNN
 F 4 "Diode" H 7050 2700 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7050 2800 50  0001 L CNN "digikey description"
@@ -5595,7 +5595,7 @@ U 1 1 60C6E416
 P 7050 1450
 F 0 "D46" V 7254 1528 50  0000 L CNN
 F 1 "LL4148" V 7345 1528 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 7050 1850 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 7050 1850 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7050 1950 50  0001 L CNN
 F 4 "Diode" H 7050 2050 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7050 2150 50  0001 L CNN "digikey description"
@@ -5636,7 +5636,7 @@ U 1 1 60C1114F
 P 7050 800
 F 0 "D45" V 7254 878 50  0000 L CNN
 F 1 "LL4148" V 7345 878 50  0000 L CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 7050 1200 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 7050 1200 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7050 1300 50  0001 L CNN
 F 4 "Diode" H 7050 1400 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7050 1500 50  0001 L CNN "digikey description"
@@ -5989,7 +5989,7 @@ U 1 1 638FF624
 P 13600 7250
 F 0 "D94" V 13800 7150 50  0000 R CNN
 F 1 "LL4148" V 13900 7150 50  0000 R CNN
-F 2 "eec-fairchild:Fairchild_ON_Semiconductor-LL4148-0" H 13600 7650 50  0001 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 13600 7650 50  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 13600 7750 50  0001 L CNN
 F 4 "Diode" H 13600 7850 50  0001 L CNN "category"
 F 5 "DIODE GEN PURP 100V 200MA SOD80" H 13600 7950 50  0001 L CNN "digikey description"
