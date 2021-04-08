@@ -6533,10 +6533,10 @@ $EndComp
 Text Label 8000 6600 0    50   ~ 0
 RST
 $Comp
-L capacitor-lib:CL21A475KAQNNNE C?
+L capacitor-lib:CL21A475KAQNNNE C25
 U 1 1 609A6D18
 P 2850 9500
-F 0 "C?" H 2978 9446 50  0000 L CNN
+F 0 "C25" H 2978 9446 50  0000 L CNN
 F 1 "CL21A475KAQNNNE" H 2850 9700 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 2850 9800 50  0001 L CNN
 F 3 "http://www.samsungsem.com/kr/support/product-http://www.samsungsem.com/kr/support/product-search/mlcc/CL21A475KAQNNNE.jsp" H 2850 9900 50  0001 L CNN
