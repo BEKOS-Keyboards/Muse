@@ -221,17 +221,6 @@ Connection ~ 2500 6550
 Wire Wire Line
 	2500 6550 2500 7550
 $Comp
-L DI-LVO:AP2114HA-3.3TRG1 U1
-U 1 1 5FF9E77D
-P 2950 9500
-F 0 "U1" H 4050 9887 60  0000 C CNN
-F 1 "AP2114HA-3.3TRG1" H 4050 9781 60  0000 C CNN
-F 2 "DI-LVO:AP2114HA-3.3TRG1" H 4050 9740 60  0001 C CNN
-F 3 "" H 2950 9500 60  0000 C CNN
-	1    2950 9500
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR03
 U 1 1 5FFA23B6
 P 3750 8500
@@ -280,144 +269,140 @@ Wire Wire Line
 $Comp
 L capacitor-lib:CL10B103KB8NNNC C5
 U 1 1 5FFC329D
-P 6450 9700
-F 0 "C5" H 6578 9646 50  0000 L CNN
-F 1 "CL10B103KB8NNNC" H 6578 9555 50  0001 L CNN
-F 2 "capacitor-lib:Samsung-0603_1608_Metric-0-0-0" H 6450 10000 50  0001 L CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL10B103KB8NNNC.pdf" H 6450 10100 50  0001 L CNN
-F 4 "10nF" H 6578 9555 50  0000 L CNN "capacitance"
-F 5 "Cap" H 6450 10300 50  0001 L CNN "category"
-F 6 "CAP CER 10000PF 50V X7R 0603" H 6450 10400 50  0001 L CNN "digikey description"
-F 7 "1276-1009-1-ND" H 6450 10500 50  0001 L CNN "digikey part number"
-F 8 "CAPC16080X80" H 6450 10600 50  0001 L CNN "ipc land pattern name"
-F 9 "yes" H 6450 10700 50  0001 L CNN "lead free"
-F 10 "704b476e59c9bc01" H 6450 10800 50  0001 L CNN "library id"
-F 11 "Samsung" H 6450 10900 50  0001 L CNN "manufacturer"
-F 12 "0603" H 6450 11000 50  0001 L CNN "package"
-F 13 "yes" H 6450 11100 50  0001 L CNN "rohs"
-F 14 "+125°C" H 6450 11200 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 6450 11300 50  0001 L CNN "temperature range low"
-F 16 "50V" H 6450 11400 50  0001 L CNN "voltage"
-	1    6450 9700
+P 6750 9600
+F 0 "C5" H 6878 9546 50  0000 L CNN
+F 1 "CL10B103KB8NNNC" H 6878 9455 50  0001 L CNN
+F 2 "capacitor-lib:Samsung-0603_1608_Metric-0-0-0" H 6750 9900 50  0001 L CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL10B103KB8NNNC.pdf" H 6750 10000 50  0001 L CNN
+F 4 "10nF" H 6878 9455 50  0000 L CNN "capacitance"
+F 5 "Cap" H 6750 10200 50  0001 L CNN "category"
+F 6 "CAP CER 10000PF 50V X7R 0603" H 6750 10300 50  0001 L CNN "digikey description"
+F 7 "1276-1009-1-ND" H 6750 10400 50  0001 L CNN "digikey part number"
+F 8 "CAPC16080X80" H 6750 10500 50  0001 L CNN "ipc land pattern name"
+F 9 "yes" H 6750 10600 50  0001 L CNN "lead free"
+F 10 "704b476e59c9bc01" H 6750 10700 50  0001 L CNN "library id"
+F 11 "Samsung" H 6750 10800 50  0001 L CNN "manufacturer"
+F 12 "0603" H 6750 10900 50  0001 L CNN "package"
+F 13 "yes" H 6750 11000 50  0001 L CNN "rohs"
+F 14 "+125°C" H 6750 11100 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 6750 11200 50  0001 L CNN "temperature range low"
+F 16 "50V" H 6750 11300 50  0001 L CNN "voltage"
+	1    6750 9600
 	1    0    0    -1  
 $EndComp
 $Comp
 L capacitor-lib:CL10B105KA8NNNC C2
 U 1 1 5FFCA6E4
-P 5550 9700
-F 0 "C2" H 5678 9646 50  0000 L CNN
-F 1 "CL10B105KA8NNNC" H 5422 9555 50  0001 R CNN
-F 2 "capacitor-lib:Samsung-CL10-0-0-IPC_C" H 5550 10000 50  0001 L CNN
-F 3 "http://www.samsungsem.com/global/front/downloadcms.do?path=%2F%2Fglobal%2F%2Fsupport%2F%2Fproduct-search%2F%2Fmlcc%2F%2F__icsFiles%2F%2Fafieldfile%2F%2F2018%2F%2F07%2F%2F24&fileName=CL10B105KA8NNNC.pdf" H 5550 10100 50  0001 L CNN
-F 4 "CAP CER 1UF 25V X7R 0603" H 5550 10200 50  0001 L CNN "approved alternate part number"
-F 5 "No" H 5550 10300 50  0001 L CNN "automotive"
-F 6 "1uF" H 5678 9555 50  0000 L CNN "capacitance"
-F 7 "Cap" H 5550 10500 50  0001 L CNN "category"
-F 8 "Passive Components" H 5550 10600 50  0001 L CNN "device class L1"
-F 9 "Capacitors" H 5550 10700 50  0001 L CNN "device class L2"
-F 10 "Ceramic Capacitors" H 5550 10800 50  0001 L CNN "device class L3"
-F 11 "CAP CER 1UF 25V X7R 0603" H 5550 10900 50  0001 L CNN "digikey description"
-F 12 "1276-1184-1-ND" H 5550 11000 50  0001 L CNN "digikey part number"
-F 13 "0.9mm" H 5550 11100 50  0001 L CNN "height"
-F 14 "CAPC16080X80" H 5550 11200 50  0001 L CNN "ipc land pattern name"
-F 15 "Yes" H 5550 11300 50  0001 L CNN "lead free"
-F 16 "6fd72994a5525edd" H 5550 11400 50  0001 L CNN "library id"
-F 17 "Samsung" H 5550 11500 50  0001 L CNN "manufacturer"
-F 18 "Ceramic" H 5550 11600 50  0001 L CNN "material"
-F 19 "0603" H 5550 11700 50  0001 L CNN "package"
-F 20 "Yes" H 5550 11800 50  0001 L CNN "rohs"
-F 21 "X7R" H 5550 11900 50  0001 L CNN "temperature characteristic"
-F 22 "15%" H 5550 12000 50  0001 L CNN "temperature coefficient"
-F 23 "+125°C" H 5550 12100 50  0001 L CNN "temperature range high"
-F 24 "-55°C" H 5550 12200 50  0001 L CNN "temperature range low"
-F 25 "10%" H 5550 12300 50  0001 L CNN "tolerance"
-F 26 "25V" H 5550 12400 50  0001 L CNN "voltage"
-F 27 "25V" H 5550 12500 50  0001 L CNN "voltage rating"
-	1    5550 9700
+P 5850 9600
+F 0 "C2" H 5978 9546 50  0000 L CNN
+F 1 "CL10B105KA8NNNC" H 5722 9455 50  0001 R CNN
+F 2 "capacitor-lib:Samsung-CL10-0-0-IPC_C" H 5850 9900 50  0001 L CNN
+F 3 "http://www.samsungsem.com/global/front/downloadcms.do?path=%2F%2Fglobal%2F%2Fsupport%2F%2Fproduct-search%2F%2Fmlcc%2F%2F__icsFiles%2F%2Fafieldfile%2F%2F2018%2F%2F07%2F%2F24&fileName=CL10B105KA8NNNC.pdf" H 5850 10000 50  0001 L CNN
+F 4 "CAP CER 1UF 25V X7R 0603" H 5850 10100 50  0001 L CNN "approved alternate part number"
+F 5 "No" H 5850 10200 50  0001 L CNN "automotive"
+F 6 "1uF" H 5978 9455 50  0000 L CNN "capacitance"
+F 7 "Cap" H 5850 10400 50  0001 L CNN "category"
+F 8 "Passive Components" H 5850 10500 50  0001 L CNN "device class L1"
+F 9 "Capacitors" H 5850 10600 50  0001 L CNN "device class L2"
+F 10 "Ceramic Capacitors" H 5850 10700 50  0001 L CNN "device class L3"
+F 11 "CAP CER 1UF 25V X7R 0603" H 5850 10800 50  0001 L CNN "digikey description"
+F 12 "1276-1184-1-ND" H 5850 10900 50  0001 L CNN "digikey part number"
+F 13 "0.9mm" H 5850 11000 50  0001 L CNN "height"
+F 14 "CAPC16080X80" H 5850 11100 50  0001 L CNN "ipc land pattern name"
+F 15 "Yes" H 5850 11200 50  0001 L CNN "lead free"
+F 16 "6fd72994a5525edd" H 5850 11300 50  0001 L CNN "library id"
+F 17 "Samsung" H 5850 11400 50  0001 L CNN "manufacturer"
+F 18 "Ceramic" H 5850 11500 50  0001 L CNN "material"
+F 19 "0603" H 5850 11600 50  0001 L CNN "package"
+F 20 "Yes" H 5850 11700 50  0001 L CNN "rohs"
+F 21 "X7R" H 5850 11800 50  0001 L CNN "temperature characteristic"
+F 22 "15%" H 5850 11900 50  0001 L CNN "temperature coefficient"
+F 23 "+125°C" H 5850 12000 50  0001 L CNN "temperature range high"
+F 24 "-55°C" H 5850 12100 50  0001 L CNN "temperature range low"
+F 25 "10%" H 5850 12200 50  0001 L CNN "tolerance"
+F 26 "25V" H 5850 12300 50  0001 L CNN "voltage"
+F 27 "25V" H 5850 12400 50  0001 L CNN "voltage rating"
+	1    5850 9600
 	1    0    0    -1  
 $EndComp
 $Comp
 L capacitor-lib:CL10B104KB8NNNL C4
 U 1 1 5FFC635A
-P 5950 9700
-F 0 "C4" H 6078 9646 50  0000 L CNN
-F 1 "CL10B104KB8NNNL" H 6078 9555 50  0001 L CNN
-F 2 "capacitor-lib:Samsung-CL10-09_2006-0-IPC_C" H 5950 10000 50  0001 L CNN
-F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 5950 10100 50  0001 L CNN
-F 4 "No" H 5950 10200 50  0001 L CNN "automotive"
-F 5 "100nF" H 6078 9555 50  0000 L CNN "capacitance"
-F 6 "Cap" H 5950 10400 50  0001 L CNN "category"
-F 7 "Passive Components" H 5950 10500 50  0001 L CNN "device class L1"
-F 8 "Capacitors" H 5950 10600 50  0001 L CNN "device class L2"
-F 9 "Ceramic Capacitors" H 5950 10700 50  0001 L CNN "device class L3"
-F 10 "" H 5950 10800 50  0001 L CNN "digikey description"
-F 11 "" H 5950 10900 50  0001 L CNN "digikey part number"
-F 12 "0.9mm" H 5950 11000 50  0001 L CNN "height"
-F 13 "CAPC16080X80" H 5950 11100 50  0001 L CNN "ipc land pattern name"
-F 14 "Yes" H 5950 11200 50  0001 L CNN "lead free"
-F 15 "d416e2ef1cbb0413" H 5950 11300 50  0001 L CNN "library id"
-F 16 "Samsung" H 5950 11400 50  0001 L CNN "manufacturer"
-F 17 "Ceramic" H 5950 11500 50  0001 L CNN "material"
-F 18 "0603" H 5950 11600 50  0001 L CNN "package"
-F 19 "Yes" H 5950 11700 50  0001 L CNN "rohs"
-F 20 "X7R" H 5950 11800 50  0001 L CNN "temperature characteristic"
-F 21 "0.15" H 5950 11900 50  0001 L CNN "temperature coefficient"
-F 22 "+125°C" H 5950 12000 50  0001 L CNN "temperature range high"
-F 23 "-55°C" H 5950 12100 50  0001 L CNN "temperature range low"
-F 24 "10%" H 5950 12200 50  0001 L CNN "tolerance"
-F 25 "50V" H 5950 12300 50  0001 L CNN "voltage rating"
-	1    5950 9700
+P 6250 9600
+F 0 "C4" H 6378 9546 50  0000 L CNN
+F 1 "CL10B104KB8NNNL" H 6378 9455 50  0001 L CNN
+F 2 "capacitor-lib:Samsung-CL10-09_2006-0-IPC_C" H 6250 9900 50  0001 L CNN
+F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 6250 10000 50  0001 L CNN
+F 4 "No" H 6250 10100 50  0001 L CNN "automotive"
+F 5 "100nF" H 6378 9455 50  0000 L CNN "capacitance"
+F 6 "Cap" H 6250 10300 50  0001 L CNN "category"
+F 7 "Passive Components" H 6250 10400 50  0001 L CNN "device class L1"
+F 8 "Capacitors" H 6250 10500 50  0001 L CNN "device class L2"
+F 9 "Ceramic Capacitors" H 6250 10600 50  0001 L CNN "device class L3"
+F 10 "" H 6250 10700 50  0001 L CNN "digikey description"
+F 11 "" H 6250 10800 50  0001 L CNN "digikey part number"
+F 12 "0.9mm" H 6250 10900 50  0001 L CNN "height"
+F 13 "CAPC16080X80" H 6250 11000 50  0001 L CNN "ipc land pattern name"
+F 14 "Yes" H 6250 11100 50  0001 L CNN "lead free"
+F 15 "d416e2ef1cbb0413" H 6250 11200 50  0001 L CNN "library id"
+F 16 "Samsung" H 6250 11300 50  0001 L CNN "manufacturer"
+F 17 "Ceramic" H 6250 11400 50  0001 L CNN "material"
+F 18 "0603" H 6250 11500 50  0001 L CNN "package"
+F 19 "Yes" H 6250 11600 50  0001 L CNN "rohs"
+F 20 "X7R" H 6250 11700 50  0001 L CNN "temperature characteristic"
+F 21 "0.15" H 6250 11800 50  0001 L CNN "temperature coefficient"
+F 22 "+125°C" H 6250 11900 50  0001 L CNN "temperature range high"
+F 23 "-55°C" H 6250 12000 50  0001 L CNN "temperature range low"
+F 24 "10%" H 6250 12100 50  0001 L CNN "tolerance"
+F 25 "50V" H 6250 12200 50  0001 L CNN "voltage rating"
+	1    6250 9600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6450 9600 6450 9700
+	6750 9500 6750 9600
 Wire Wire Line
-	6450 9600 5950 9600
+	6750 9500 6250 9500
 Wire Wire Line
-	5950 9600 5950 9700
+	6250 9500 6250 9600
 Wire Wire Line
-	5950 9600 5550 9600
+	6250 9500 5850 9500
 Wire Wire Line
-	5550 9600 5550 9700
-Connection ~ 5950 9600
+	5850 9500 5850 9600
+Connection ~ 6250 9500
 Wire Wire Line
-	6450 9900 6450 9950
+	6750 9800 6750 9850
 Wire Wire Line
-	6450 9950 5950 9950
+	6750 9850 6250 9850
 Wire Wire Line
-	5950 9950 5950 9900
+	6250 9850 6250 9800
 Wire Wire Line
-	5950 9950 5550 9950
+	6250 9850 5850 9850
 Wire Wire Line
-	5550 9950 5550 9900
-Connection ~ 5950 9950
-Wire Wire Line
-	5150 9600 5550 9600
-Connection ~ 5550 9600
+	5850 9850 5850 9800
+Connection ~ 6250 9850
+Connection ~ 5850 9500
 $Comp
 L power:+3V3 #PWR08
 U 1 1 60025455
-P 6450 9600
-F 0 "#PWR08" H 6450 9450 50  0001 C CNN
-F 1 "+3V3" H 6465 9773 50  0000 C CNN
-F 2 "" H 6450 9600 50  0001 C CNN
-F 3 "" H 6450 9600 50  0001 C CNN
-	1    6450 9600
+P 6750 9500
+F 0 "#PWR08" H 6750 9350 50  0001 C CNN
+F 1 "+3V3" H 6765 9673 50  0000 C CNN
+F 2 "" H 6750 9500 50  0001 C CNN
+F 3 "" H 6750 9500 50  0001 C CNN
+	1    6750 9500
 	1    0    0    -1  
 $EndComp
-Connection ~ 6450 9600
-Connection ~ 5550 9950
+Connection ~ 6750 9500
+Connection ~ 5850 9850
 Wire Wire Line
-	5200 9500 5150 9500
-Connection ~ 5200 9950
+	5500 9400 5450 9400
+Connection ~ 5500 9850
 Wire Wire Line
-	5200 9950 5550 9950
+	5500 9850 5850 9850
 Wire Wire Line
-	2950 9950 5200 9950
+	3250 9850 5500 9850
 Wire Wire Line
-	5200 9950 5200 9500
-Wire Wire Line
-	2950 9600 2950 9950
+	3250 9500 3250 9850
 $Comp
 L power:+3V3 #PWR013
 U 1 1 6002F4CC
@@ -6358,16 +6343,16 @@ Wire Wire Line
 $Comp
 L power:VCC #PWR0102
 U 1 1 601DBF47
-P 2950 9450
-F 0 "#PWR0102" H 2950 9300 50  0001 C CNN
-F 1 "VCC" H 2965 9623 50  0000 C CNN
-F 2 "" H 2950 9450 50  0001 C CNN
-F 3 "" H 2950 9450 50  0001 C CNN
-	1    2950 9450
+P 3250 9350
+F 0 "#PWR0102" H 3250 9200 50  0001 C CNN
+F 1 "VCC" H 3265 9523 50  0000 C CNN
+F 2 "" H 3250 9350 50  0001 C CNN
+F 3 "" H 3250 9350 50  0001 C CNN
+	1    3250 9350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2950 9450 2950 9500
+	3250 9350 3250 9400
 $Comp
 L Littlefuse:SMAJ9.0CA CR1
 U 1 1 60252249
@@ -6457,15 +6442,15 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0109
 U 1 1 608A8FF5
-P 2950 9950
-F 0 "#PWR0109" H 2950 9700 50  0001 C CNN
-F 1 "GND" H 2955 9777 50  0000 C CNN
-F 2 "" H 2950 9950 50  0001 C CNN
-F 3 "" H 2950 9950 50  0001 C CNN
-	1    2950 9950
+P 3250 9850
+F 0 "#PWR0109" H 3250 9600 50  0001 C CNN
+F 1 "GND" H 3255 9677 50  0000 C CNN
+F 2 "" H 3250 9850 50  0001 C CNN
+F 3 "" H 3250 9850 50  0001 C CNN
+	1    3250 9850
 	1    0    0    -1  
 $EndComp
-Connection ~ 2950 9950
+Connection ~ 3250 9850
 Wire Wire Line
 	5300 8400 5350 8400
 Wire Wire Line
@@ -6547,4 +6532,52 @@ F 3 "~" H 11500 5100 50  0001 C CNN
 $EndComp
 Text Label 8000 6600 0    50   ~ 0
 RST
+$Comp
+L capacitor-lib:CL21A475KAQNNNE C?
+U 1 1 609A6D18
+P 2850 9500
+F 0 "C?" H 2978 9446 50  0000 L CNN
+F 1 "CL21A475KAQNNNE" H 2850 9700 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2850 9800 50  0001 L CNN
+F 3 "http://www.samsungsem.com/kr/support/product-http://www.samsungsem.com/kr/support/product-search/mlcc/CL21A475KAQNNNE.jsp" H 2850 9900 50  0001 L CNN
+F 4 "4.7 µF" H 2978 9355 50  0000 L CNN "capacitance"
+F 5 "Cap" H 2850 10100 50  0001 L CNN "category"
+F 6 "CAP CER 4.7UF 25V X5R 0805" H 2850 10200 50  0001 L CNN "digikey description"
+F 7 "1276-1244-1-ND" H 2850 10300 50  0001 L CNN "digikey part number"
+F 8 "CAPC16080X80" H 2850 10400 50  0001 L CNN "ipc land pattern name"
+F 9 "yes" H 2850 10500 50  0001 L CNN "lead free"
+F 10 "704b476e59c9bc01" H 2850 10600 50  0001 L CNN "library id"
+F 11 "Samsung" H 2850 10700 50  0001 L CNN "manufacturer"
+F 12 "0805" H 2850 10800 50  0001 L CNN "package"
+F 13 "yes" H 2850 10900 50  0001 L CNN "rohs"
+F 14 "+85°C" H 2850 11000 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 2850 11100 50  0001 L CNN "temperature range low"
+F 16 "25V" H 2850 11200 50  0001 L CNN "voltage"
+	1    2850 9500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 9500 5850 9500
+Wire Wire Line
+	5500 9850 5500 9400
+$Comp
+L DI-LVO:AP2114HA-3.3TRG1 U1
+U 1 1 5FF9E77D
+P 3250 9400
+F 0 "U1" H 4350 9787 60  0000 C CNN
+F 1 "AP2114HA-3.3TRG1" H 4350 9681 60  0000 C CNN
+F 2 "DI-LVO:AP2114HA-3.3TRG1" H 4350 9640 60  0001 C CNN
+F 3 "" H 3250 9400 60  0000 C CNN
+	1    3250 9400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 9700 2850 9850
+Wire Wire Line
+	2850 9850 3250 9850
+Wire Wire Line
+	2850 9500 2850 9400
+Wire Wire Line
+	2850 9400 3250 9400
+Connection ~ 3250 9400
 $EndSCHEMATC
