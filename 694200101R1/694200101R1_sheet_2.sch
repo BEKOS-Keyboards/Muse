@@ -55,11 +55,6 @@ Wire Wire Line
 	3950 8850 3950 8950
 Wire Wire Line
 	3950 8950 4000 8950
-Wire Wire Line
-	4000 8750 3950 8750
-Wire Wire Line
-	3950 8750 3950 8850
-Connection ~ 3950 8850
 Connection ~ 3950 8950
 Text Notes 10350 6850 1    50   ~ 0
 LED_DRIVER_A\nP37/38
@@ -72,8 +67,6 @@ Wire Wire Line
 Wire Wire Line
 	11350 7200 11350 7250
 Connection ~ 11350 7250
-Wire Wire Line
-	13100 6900 13100 6800
 Wire Wire Line
 	11550 7250 11550 7150
 Wire Wire Line
@@ -135,8 +128,6 @@ Wire Wire Line
 Wire Wire Line
 	3450 10100 3200 10100
 Wire Wire Line
-	3600 8900 3600 8950
-Wire Wire Line
 	3200 10050 3200 10100
 Connection ~ 3200 10100
 Wire Wire Line
@@ -169,8 +160,6 @@ Wire Wire Line
 	3950 8500 3150 8500
 Wire Wire Line
 	5800 9650 6250 9650
-Wire Wire Line
-	6250 9650 6250 9600
 Wire Wire Line
 	4000 7750 3850 7750
 Wire Wire Line
@@ -235,8 +224,6 @@ Wire Wire Line
 Connection ~ 3000 10100
 Wire Wire Line
 	3950 8950 3600 8950
-Wire Wire Line
-	3600 9750 3600 8950
 Text GLabel 3950 9550 0    50   Output ~ 0
 CS14_A
 Text GLabel 3950 9450 0    50   Output ~ 0
@@ -307,11 +294,6 @@ Wire Wire Line
 	8050 8850 8050 8950
 Wire Wire Line
 	8050 8950 8100 8950
-Wire Wire Line
-	8100 8750 8050 8750
-Wire Wire Line
-	8050 8750 8050 8850
-Connection ~ 8050 8850
 Connection ~ 8050 8950
 Connection ~ 7700 8950
 Wire Wire Line
@@ -331,12 +313,8 @@ Wire Wire Line
 Wire Wire Line
 	7550 10100 7300 10100
 Wire Wire Line
-	7700 8900 7700 8950
-Wire Wire Line
 	7300 10050 7300 10100
 Connection ~ 7300 10100
-Wire Wire Line
-	7300 10100 7100 10100
 Wire Wire Line
 	8100 9150 7300 9150
 Wire Wire Line
@@ -1692,17 +1670,6 @@ F 3 "" H 5800 7750 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR029
-U 1 1 63D70980
-P 13100 6800
-F 0 "#PWR029" H 13100 6650 50  0001 C CNN
-F 1 "+3V3" H 13115 6973 50  0000 C CNN
-F 2 "" H 13100 6800 50  0001 C CNN
-F 3 "" H 13100 6800 50  0001 C CNN
-	1    13100 6800
-	1    0    0    -1  
-$EndComp
-$Comp
 L capacitor-lib:CL10B474KA8NFNC C11
 U 1 1 63D72369
 P 10100 7000
@@ -1765,12 +1732,12 @@ $EndComp
 $Comp
 L power:+3V3 #PWR020
 U 1 1 63D94BE2
-P 3600 8900
-F 0 "#PWR020" H 3600 8750 50  0001 C CNN
-F 1 "+3V3" H 3615 9073 50  0000 C CNN
-F 2 "" H 3600 8900 50  0001 C CNN
-F 3 "" H 3600 8900 50  0001 C CNN
-	1    3600 8900
+P 3000 8650
+F 0 "#PWR020" H 3000 8500 50  0001 C CNN
+F 1 "+3V3" H 3015 8823 50  0000 C CNN
+F 2 "" H 3000 8650 50  0001 C CNN
+F 3 "" H 3000 8650 50  0001 C CNN
+	1    3000 8650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1912,12 +1879,12 @@ $EndComp
 $Comp
 L power:+3V3 #PWR025
 U 1 1 6409AB1B
-P 7700 8900
-F 0 "#PWR025" H 7700 8750 50  0001 C CNN
-F 1 "+3V3" H 7715 9073 50  0000 C CNN
-F 2 "" H 7700 8900 50  0001 C CNN
-F 3 "" H 7700 8900 50  0001 C CNN
-	1    7700 8900
+P 7150 8650
+F 0 "#PWR025" H 7150 8500 50  0001 C CNN
+F 1 "+3V3" H 7165 8823 50  0000 C CNN
+F 2 "" H 7150 8650 50  0001 C CNN
+F 3 "" H 7150 8650 50  0001 C CNN
+	1    7150 8650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1979,17 +1946,6 @@ F 3 "" H 7850 8250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR027
-U 1 1 6409AB74
-P 10350 9600
-F 0 "#PWR027" H 10350 9450 50  0001 C CNN
-F 1 "+3V3" H 10365 9773 50  0000 C CNN
-F 2 "" H 10350 9600 50  0001 C CNN
-F 3 "" H 10350 9600 50  0001 C CNN
-	1    10350 9600
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR028
 U 1 1 6409AB6A
 P 10400 8900
@@ -1998,17 +1954,6 @@ F 1 "GND" H 10405 8727 50  0000 C CNN
 F 2 "" H 10400 8900 50  0001 C CNN
 F 3 "" H 10400 8900 50  0001 C CNN
 	1    10400 8900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR022
-U 1 1 63F20B48
-P 6250 9600
-F 0 "#PWR022" H 6250 9450 50  0001 C CNN
-F 1 "+3V3" H 6265 9773 50  0000 C CNN
-F 2 "" H 6250 9600 50  0001 C CNN
-F 3 "" H 6250 9600 50  0001 C CNN
-	1    6250 9600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4224,13 +4169,8 @@ Wire Wire Line
 	12800 7250 13100 7250
 Connection ~ 12800 7250
 Connection ~ 13400 7250
-Wire Wire Line
-	13400 6900 13100 6900
 Connection ~ 13400 6900
-Wire Wire Line
-	12800 6900 13100 6900
 Connection ~ 12800 6900
-Connection ~ 13100 6900
 Connection ~ 13100 7250
 Wire Wire Line
 	13100 7250 13400 7250
@@ -4302,4 +4242,141 @@ Wire Wire Line
 	8100 8050 7700 8050
 Wire Wire Line
 	7700 7250 7700 6900
+Wire Wire Line
+	3600 8950 3450 8950
+Wire Wire Line
+	7700 8950 7500 8950
+$Comp
+L power:VCC #PWR?
+U 1 1 61D58879
+P 3450 8950
+AR Path="/61D58879" Ref="#PWR?"  Part="1" 
+AR Path="/63A35802/61D58879" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 3450 8800 50  0001 C CNN
+F 1 "VCC" H 3465 9123 50  0000 C CNN
+F 2 "" H 3450 8950 50  0001 C CNN
+F 3 "" H 3450 8950 50  0001 C CNN
+	1    3450 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 61E34FF7
+P 6250 9650
+AR Path="/61E34FF7" Ref="#PWR?"  Part="1" 
+AR Path="/63A35802/61E34FF7" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 6250 9500 50  0001 C CNN
+F 1 "VCC" H 6265 9823 50  0000 C CNN
+F 2 "" H 6250 9650 50  0001 C CNN
+F 3 "" H 6250 9650 50  0001 C CNN
+	1    6250 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 61FEDE4D
+P 10350 9600
+AR Path="/61FEDE4D" Ref="#PWR?"  Part="1" 
+AR Path="/63A35802/61FEDE4D" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 10350 9450 50  0001 C CNN
+F 1 "VCC" H 10365 9773 50  0000 C CNN
+F 2 "" H 10350 9600 50  0001 C CNN
+F 3 "" H 10350 9600 50  0001 C CNN
+	1    10350 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L capacitor-lib:CL10B474KA8NFNC C26
+U 1 1 624BEE17
+P 3000 9050
+F 0 "C26" V 3100 8900 50  0000 C CNN
+F 1 "CL10B474KA8NFNC" H 3000 8850 50  0001 L BNN
+F 2 "capacitor-lib:CAPC1608X90N" H 3000 9050 50  0001 L BNN
+F 3 "" H 3000 9050 50  0001 L BNN
+F 4 "https://pricing.snapeda.com/search/part/CL10B474KA8NFNC/?ref=eda" H 3000 9050 50  0001 L BNN "Purchase-URL"
+F 5 "0603 Samsung" H 3000 9050 50  0001 L BNN "Package"
+F 6 "CL10B474KA8NFNC" H 3000 9050 50  0001 L BNN "MP"
+F 7 "1276-2082-1-ND" H 3000 9050 50  0001 L BNN "Digi-Key_Part_Number"
+F 8 "Samsung Electro-Mechanics" H 3000 9050 50  0001 L BNN "MF"
+F 9 "0.47µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" H 3000 9050 50  0001 L BNN "Description"
+F 10 "0.47µF" V 3200 8900 50  0000 C CNN "capacitance"
+	1    3000 9050
+	0    1    1    0   
+$EndComp
+$Comp
+L capacitor-lib:CL10B474KA8NFNC C27
+U 1 1 6259BAD5
+P 7150 9050
+F 0 "C27" V 7250 8900 50  0000 C CNN
+F 1 "CL10B474KA8NFNC" H 7150 8850 50  0001 L BNN
+F 2 "capacitor-lib:CAPC1608X90N" H 7150 9050 50  0001 L BNN
+F 3 "" H 7150 9050 50  0001 L BNN
+F 4 "https://pricing.snapeda.com/search/part/CL10B474KA8NFNC/?ref=eda" H 7150 9050 50  0001 L BNN "Purchase-URL"
+F 5 "0603 Samsung" H 7150 9050 50  0001 L BNN "Package"
+F 6 "CL10B474KA8NFNC" H 7150 9050 50  0001 L BNN "MP"
+F 7 "1276-2082-1-ND" H 7150 9050 50  0001 L BNN "Digi-Key_Part_Number"
+F 8 "Samsung Electro-Mechanics" H 7150 9050 50  0001 L BNN "MF"
+F 9 "0.47µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" H 7150 9050 50  0001 L BNN "Description"
+F 10 "0.47µF" V 7350 8900 50  0000 C CNN "capacitance"
+	1    7150 9050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3600 8950 3600 9750
+Wire Wire Line
+	3000 8650 3000 8750
+Wire Wire Line
+	3000 8750 4000 8750
+Connection ~ 3000 8750
+Wire Wire Line
+	3000 8750 3000 8950
+Wire Wire Line
+	3000 9250 3000 10100
+$Comp
+L power:VCC #PWR?
+U 1 1 61F1179C
+P 7500 8950
+AR Path="/61F1179C" Ref="#PWR?"  Part="1" 
+AR Path="/63A35802/61F1179C" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0115" H 7500 8800 50  0001 C CNN
+F 1 "VCC" H 7515 9123 50  0000 C CNN
+F 2 "" H 7500 8950 50  0001 C CNN
+F 3 "" H 7500 8950 50  0001 C CNN
+	1    7500 8950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 8650 7150 8750
+Wire Wire Line
+	7150 9250 7150 10100
+Wire Wire Line
+	7100 10100 7150 10100
+Connection ~ 7150 10100
+Wire Wire Line
+	7150 10100 7300 10100
+Wire Wire Line
+	7150 8750 8100 8750
+Connection ~ 7150 8750
+Wire Wire Line
+	7150 8750 7150 8950
+$Comp
+L power:VCC #PWR?
+U 1 1 6364BAD2
+P 13100 6800
+AR Path="/6364BAD2" Ref="#PWR?"  Part="1" 
+AR Path="/63A35802/6364BAD2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 13100 6650 50  0001 C CNN
+F 1 "VCC" H 13115 6973 50  0000 C CNN
+F 2 "" H 13100 6800 50  0001 C CNN
+F 3 "" H 13100 6800 50  0001 C CNN
+	1    13100 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12800 6900 13100 6900
+Wire Wire Line
+	13400 6900 13100 6900
+Connection ~ 13100 6900
+Wire Wire Line
+	13100 6900 13100 6800
 $EndSCHEMATC
