@@ -18,32 +18,6 @@ I2C_SDA
 Text HLabel 1050 7000 0    50   BiDi ~ 0
 I2C_SCL
 Wire Wire Line
-	1550 7900 1350 7900
-Wire Wire Line
-	1400 7800 1550 7800
-Wire Wire Line
-	1550 7600 1500 7600
-Wire Wire Line
-	2550 8000 2550 8100
-Wire Wire Line
-	2550 8100 2550 8300
-Connection ~ 2550 8100
-Wire Wire Line
-	1550 8100 1500 8100
-Wire Wire Line
-	1500 8100 1500 8300
-Wire Wire Line
-	1500 8300 1550 8300
-Wire Wire Line
-	1500 8300 1500 8450
-Wire Wire Line
-	1500 8450 2550 8450
-Wire Wire Line
-	2550 8450 2550 8300
-Connection ~ 1500 8300
-Connection ~ 2550 8300
-Connection ~ 2550 8450
-Wire Wire Line
 	3100 8550 4000 8550
 Wire Wire Line
 	10300 6900 10300 6950
@@ -487,8 +461,6 @@ Wire Wire Line
 Wire Wire Line
 	8050 8350 8050 8450
 Connection ~ 8050 8450
-Wire Wire Line
-	2550 8450 2550 8500
 Wire Wire Line
 	1000 1000 900  1000
 Wire Wire Line
@@ -1597,67 +1569,6 @@ Wire Wire Line
 Wire Wire Line
 	6550 1200 7250 1200
 Connection ~ 6550 1200
-$Comp
-L STM:M24M02-DRMN6TP U4
-U 1 1 63D31709
-P 1450 7600
-F 0 "U4" H 2050 7865 50  0000 C CNN
-F 1 "M24M02-DRMN6TP" H 2050 7774 50  0000 L CNN
-F 2 "STM:STMicroelectronics-SO8N-SO-A-0-2-IPC_C" H 1450 8000 50  0001 L CNN
-F 3 "https://www.st.com/resource/en/datasheet/m24m02-dr.pdf" H 1450 8100 50  0001 L CNN
-F 4 "450ns" H 1450 8200 50  0001 L CNN "access time"
-F 5 "+85°C" H 1450 8300 50  0001 L CNN "ambient temperature range high"
-F 6 "-40°C" H 1450 8400 50  0001 L CNN "ambient temperature range low"
-F 7 "No" H 1450 8500 50  0001 L CNN "automotive"
-F 8 "IC" H 1450 8600 50  0001 L CNN "category"
-F 9 "Integrated Circuits (ICs)" H 1450 8700 50  0001 L CNN "device class L1"
-F 10 "Memory" H 1450 8800 50  0001 L CNN "device class L2"
-F 11 "EEPROM" H 1450 8900 50  0001 L CNN "device class L3"
-F 12 "IC EEPROM 2M I2C 1MHZ 8SO" H 1450 9000 50  0001 L CNN "digikey description"
-F 13 "497-11600-1-ND" H 1450 9100 50  0001 L CNN "digikey part number"
-F 14 "1MHz" H 1450 9200 50  0001 L CNN "frequency"
-F 15 "1.75mm" H 1450 9300 50  0001 L CNN "height"
-F 16 "I2C" H 1450 9400 50  0001 L CNN "interface"
-F 17 "Yes" H 1450 9500 50  0001 L CNN "lead free"
-F 18 "2c41b2375d0f4e7f" H 1450 9600 50  0001 L CNN "library id"
-F 19 "STMicroelectronics" H 1450 9700 50  0001 L CNN "manufacturer"
-F 20 "5.5V" H 1450 9800 50  0001 L CNN "max supply voltage"
-F 21 "2Mbits" H 1450 9900 50  0001 L CNN "memory size"
-F 22 "EEPROM" H 1450 10000 50  0001 L CNN "memory type"
-F 23 "1.8V" H 1450 10100 50  0001 L CNN "min supply voltage"
-F 24 "EEPROM 2 Mbit serial I2C 1.8V to 5.5V EEPROM\\n" H 1450 10200 50  0001 L CNN "mouser description"
-F 25 "511-M24M02-DRMN6TP" H 1450 10300 50  0001 L CNN "mouser part number"
-F 26 "1-2.5mA" H 1450 10400 50  0001 L CNN "nominal supply current"
-F 27 "SO-8" H 1450 10500 50  0001 L CNN "package"
-F 28 "Yes" H 1450 10600 50  0001 L CNN "rohs"
-F 29 "0.1mm" H 1450 10700 50  0001 L CNN "standoff height"
-F 30 "+85°C" H 1450 10800 50  0001 L CNN "temperature range high"
-F 31 "-40°C" H 1450 10900 50  0001 L CNN "temperature range low"
-	1    1450 7600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR017
-U 1 1 63D43A95
-P 1500 7600
-F 0 "#PWR017" H 1500 7450 50  0001 C CNN
-F 1 "+3V3" H 1515 7773 50  0000 C CNN
-F 2 "" H 1500 7600 50  0001 C CNN
-F 3 "" H 1500 7600 50  0001 C CNN
-	1    1500 7600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR018
-U 1 1 63D489E9
-P 2550 8500
-F 0 "#PWR018" H 2550 8250 50  0001 C CNN
-F 1 "GND" H 2555 8327 50  0000 C CNN
-F 2 "" H 2550 8500 50  0001 C CNN
-F 3 "" H 2550 8500 50  0001 C CNN
-	1    2550 8500
-	1    0    0    -1  
-$EndComp
 $Comp
 L Lumissil:IS31FL3733B-QFLS4-TR U5
 U 1 1 63D4A2BB
@@ -4177,13 +4088,6 @@ Wire Wire Line
 Wire Wire Line
 	7200 7150 7200 8550
 Wire Wire Line
-	1050 7150 1350 7150
-Wire Wire Line
-	1350 7150 1350 7900
-Connection ~ 1350 7150
-Wire Wire Line
-	1350 7150 3100 7150
-Wire Wire Line
 	3100 7150 3100 8550
 Connection ~ 3100 7150
 Wire Wire Line
@@ -4191,14 +4095,7 @@ Wire Wire Line
 Wire Wire Line
 	7250 7000 7250 8500
 Wire Wire Line
-	1050 7000 1400 7000
-Wire Wire Line
-	1400 7000 1400 7800
-Connection ~ 1400 7000
-Wire Wire Line
 	3150 7000 3150 8500
-Wire Wire Line
-	1400 7000 3150 7000
 Connection ~ 3150 7000
 Wire Wire Line
 	3150 7000 7250 7000
@@ -4364,8 +4261,8 @@ L power:VCC #PWR?
 U 1 1 6364BAD2
 P 13100 6800
 AR Path="/6364BAD2" Ref="#PWR?"  Part="1" 
-AR Path="/63A35802/6364BAD2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 13100 6650 50  0001 C CNN
+AR Path="/63A35802/6364BAD2" Ref="#PWR017"  Part="1" 
+F 0 "#PWR017" H 13100 6650 50  0001 C CNN
 F 1 "VCC" H 13115 6973 50  0000 C CNN
 F 2 "" H 13100 6800 50  0001 C CNN
 F 3 "" H 13100 6800 50  0001 C CNN
@@ -4379,4 +4276,97 @@ Wire Wire Line
 Connection ~ 13100 6900
 Wire Wire Line
 	13100 6900 13100 6800
+$Comp
+L STM_EEPROM:M24512-DFMN6TP U4
+U 1 1 60F1F6EF
+P 2800 7900
+F 0 "U4" H 3600 7213 60  0000 C CNN
+F 1 "M24512-DFMN6TP" H 3600 7319 60  0000 C CNN
+F 2 "STM:STMicroelectronics-SO8N-SO-A-0-2-MFG" H 3600 8140 60  0001 C CNN
+F 3 "" H 2800 7900 60  0000 C CNN
+	1    2800 7900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1050 7000 1100 7000
+Wire Wire Line
+	1050 7150 1150 7150
+Wire Wire Line
+	1100 7000 1100 7700
+Wire Wire Line
+	1100 7700 1200 7700
+Connection ~ 1100 7000
+Wire Wire Line
+	1100 7000 3150 7000
+Wire Wire Line
+	1150 7150 1150 7600
+Wire Wire Line
+	1150 7600 1200 7600
+Connection ~ 1150 7150
+Wire Wire Line
+	1150 7150 3100 7150
+Wire Wire Line
+	2800 7600 2850 7600
+Wire Wire Line
+	2850 7600 2850 7700
+Wire Wire Line
+	2800 7700 2850 7700
+Connection ~ 2850 7700
+Wire Wire Line
+	2850 7700 2850 7800
+Wire Wire Line
+	2800 7800 2850 7800
+Connection ~ 2850 7800
+Wire Wire Line
+	2850 7800 2850 7900
+Wire Wire Line
+	2800 7900 2850 7900
+Connection ~ 2850 7900
+Wire Wire Line
+	2850 7900 2850 7950
+Wire Wire Line
+	1200 7800 1050 7800
+Wire Wire Line
+	1050 7800 1050 7600
+Wire Wire Line
+	850  7600 850  7950
+Wire Wire Line
+	850  7600 1050 7600
+$Comp
+L power:GND #PWR02
+U 1 1 6163A9DA
+P 850 7950
+F 0 "#PWR02" H 850 7700 50  0001 C CNN
+F 1 "GND" H 855 7777 50  0000 C CNN
+F 2 "" H 850 7950 50  0001 C CNN
+F 3 "" H 850 7950 50  0001 C CNN
+	1    850  7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR05
+U 1 1 6163D8D2
+P 950 7850
+F 0 "#PWR05" H 950 7700 50  0001 C CNN
+F 1 "+3.3V" H 965 8023 50  0000 C CNN
+F 2 "" H 950 7850 50  0001 C CNN
+F 3 "" H 950 7850 50  0001 C CNN
+	1    950  7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 7900 950  7900
+Wire Wire Line
+	950  7900 950  7850
+$Comp
+L power:GND #PWR06
+U 1 1 61F36928
+P 2850 7950
+F 0 "#PWR06" H 2850 7700 50  0001 C CNN
+F 1 "GND" H 2855 7777 50  0000 C CNN
+F 2 "" H 2850 7950 50  0001 C CNN
+F 3 "" H 2850 7950 50  0001 C CNN
+	1    2850 7950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
