@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.8)-1"
     },
-    "CreationDate":  "2021-04-14T20:46:24-04:00"
+    "CreationDate":  "2021-04-16T20:53:43-04:00"
   },
   "GeneralSpecs":
   {
@@ -87,6 +87,11 @@
     {
       "Path":  "694200101-F_Fab.gbr",
       "FileFunction":  "AssemblyDrawing,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "694200101-B_Fab.gbr",
+      "FileFunction":  "AssemblyDrawing,Bot",
       "FilePolarity":  "Positive"
     }
   ],
