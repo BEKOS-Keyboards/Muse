@@ -19,7 +19,7 @@ U 1 1 5FF063B4
 P 1950 6150
 F 0 "J1" H 1222 4296 50  0000 R CNN
 F 1 "USB4085-GF-A" H 1222 4205 50  0000 R CNN
-F 2 "eec-GCT:Global_Connector_Technology-USB4085-GF-A-MFG" H 1950 6650 50  0001 L CNN
+F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 1950 6650 50  0001 L CNN
 F 3 "https://gct.co/files/drawings/usb4085.pdf" H 1950 6750 50  0001 L CNN
 F 4 "No" H 1950 6850 50  0001 L CNN "automotive"
 F 5 "Conn" H 1950 6950 50  0001 L CNN "category"
