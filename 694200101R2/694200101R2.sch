@@ -14,212 +14,98 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L eec-gct:USB4085-GF-A J1
-U 1 1 5FF063B4
-P 1950 6150
-F 0 "J1" H 1222 4296 50  0000 R CNN
-F 1 "USB4085-GF-A" H 1222 4205 50  0000 R CNN
-F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 1950 6650 50  0001 L CNN
-F 3 "https://gct.co/files/drawings/usb4085.pdf" H 1950 6750 50  0001 L CNN
-F 4 "No" H 1950 6850 50  0001 L CNN "automotive"
-F 5 "Conn" H 1950 6950 50  0001 L CNN "category"
-F 6 "Gold,Nickel" H 1950 7050 50  0001 L CNN "contact material"
-F 7 "4.25A" H 1950 7150 50  0001 L CNN "current rating"
-F 8 "Connectors" H 1950 7250 50  0001 L CNN "device class L1"
-F 9 "USB Connectors" H 1950 7350 50  0001 L CNN "device class L2"
-F 10 "unset" H 1950 7450 50  0001 L CNN "device class L3"
-F 11 "CONN RCPT USB2.0 TYPEC 16POS" H 1950 7550 50  0001 L CNN "digikey description"
-F 12 "2073-USB4085-GF-ACT-ND" H 1950 7650 50  0001 L CNN "digikey part number"
-F 13 "3.66mm" H 1950 7750 50  0001 L CNN "height"
-F 14 "yes" H 1950 7850 50  0001 L CNN "is connector"
-F 15 "yes" H 1950 7950 50  0001 L CNN "is female"
-F 16 "Yes" H 1950 8050 50  0001 L CNN "lead free"
-F 17 "1f90e1412072a309" H 1950 8150 50  0001 L CNN "library id"
-F 18 "Global Connector Technology" H 1950 8250 50  0001 L CNN "manufacturer"
-F 19 "16" H 1950 8350 50  0001 L CNN "number of contacts"
-F 20 "PTH_USB-C" H 1950 8450 50  0001 L CNN "package"
-F 21 "0.85mm" H 1950 8550 50  0001 L CNN "pitch"
-F 22 "Yes" H 1950 8650 50  0001 L CNN "rohs"
-F 23 "true" H 1950 8750 50  0001 L CNN "shielding"
-F 24 "+85°C" H 1950 8850 50  0001 L CNN "temperature range high"
-F 25 "-40°C" H 1950 8950 50  0001 L CNN "temperature range low"
-F 26 "USB 2.0" H 1950 9050 50  0001 L CNN "usb standard"
-F 27 "20V" H 1950 9150 50  0001 L CNN "voltage rating"
-	1    1950 6150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1850 9150 2500 9150
-Wire Wire Line
-	2500 9150 2500 9350
-Wire Wire Line
-	2500 9350 1850 9350
-Wire Wire Line
-	2500 9350 2500 9550
-Wire Wire Line
-	2500 9550 1850 9550
-Connection ~ 2500 9350
-Wire Wire Line
-	2500 9550 2500 9750
-Wire Wire Line
-	2500 9750 1850 9750
-Connection ~ 2500 9550
-Wire Wire Line
-	2500 9750 2500 9950
-Wire Wire Line
-	2500 9950 1850 9950
-Connection ~ 2500 9750
-Connection ~ 2500 9150
-Wire Wire Line
-	1850 6150 2500 6150
-Wire Wire Line
-	1850 6750 2700 6750
-Wire Wire Line
-	2700 6750 2700 8350
-Wire Wire Line
-	2700 8350 1850 8350
-Wire Wire Line
-	1850 6950 2600 6950
-Wire Wire Line
-	2600 6950 2600 8550
-Wire Wire Line
-	2600 8550 1850 8550
-Wire Wire Line
-	1850 6350 2400 6350
-Wire Wire Line
-	2400 6350 2400 7350
-Wire Wire Line
-	2400 8950 1850 8950
-Wire Wire Line
-	1850 7550 2500 7550
-Connection ~ 2500 7550
-Wire Wire Line
-	2500 7550 2500 7750
-Wire Wire Line
-	1850 7750 2500 7750
-Connection ~ 2500 7750
-Wire Wire Line
-	1850 7350 2400 7350
-Connection ~ 2400 7350
-Wire Wire Line
-	2400 7350 2400 7950
-Wire Wire Line
-	1850 7950 2400 7950
-Connection ~ 2400 7950
-Wire Wire Line
-	2400 7950 2400 8950
-Text GLabel 4950 7350 2    50   Input ~ 0
-USB_D+
-Text GLabel 4950 7750 2    50   Input ~ 0
-USB_D-
-Connection ~ 2400 6350
-$Comp
 L power:+5V #PWR01
 U 1 1 5FF35DFE
-P 2400 6000
-F 0 "#PWR01" H 2400 5850 50  0001 C CNN
-F 1 "+5V" H 2415 6173 50  0000 C CNN
-F 2 "" H 2400 6000 50  0001 C CNN
-F 3 "" H 2400 6000 50  0001 C CNN
-	1    2400 6000
+P 2000 6650
+F 0 "#PWR01" H 2000 6500 50  0001 C CNN
+F 1 "+5V" H 2015 6823 50  0000 C CNN
+F 2 "" H 2000 6650 50  0001 C CNN
+F 3 "" H 2000 6650 50  0001 C CNN
+	1    2000 6650
 	1    0    0    -1  
 $EndComp
-Connection ~ 2700 6750
-Connection ~ 2600 8550
-Wire Wire Line
-	2400 6350 2400 6000
-Wire Wire Line
-	2500 6150 2500 6550
-Wire Wire Line
-	2500 7750 2500 8150
 $Comp
 L Resistor-Lib:RC0603FR-075K1L R1
 U 1 1 5FF638A1
-P 1750 6550
-F 0 "R1" H 2100 6750 50  0000 C CNN
-F 1 "RC0603FR-075K1L" H 2100 6674 50  0001 C CNN
-F 2 "Resistor-Libs:Yageo-RC0603-0-0-IPC_C" H 1750 6950 50  0001 L CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 1750 7050 50  0001 L CNN
-F 4 "541-1.00HHCT-ND" H 1750 7150 50  0001 L CNN "approved alternate part number"
-F 5 "Res" H 1750 7250 50  0001 L CNN "category"
-F 6 "Thick Film" H 1750 7350 50  0001 L CNN "composition"
-F 7 "Passive Components" H 1750 7450 50  0001 L CNN "device class L1"
-F 8 "Resistors" H 1750 7550 50  0001 L CNN "device class L2"
-F 9 "Chip SMD Resistors" H 1750 7650 50  0001 L CNN "device class L3"
-F 10 "RES SMD 5.1K OHM 1% 1/10W 0603" H 1750 7750 50  0001 L CNN "digikey description"
-F 11 "311-5.10KHRDKR-ND" H 1750 7850 50  0001 L CNN "digikey part number"
-F 12 "0.5mm" H 1750 7950 50  0001 L CNN "height"
-F 13 "RESC15585X45" H 1750 8050 50  0001 L CNN "ipc land pattern name"
-F 14 "yes" H 1750 8150 50  0001 L CNN "lead free"
-F 15 "e0df13eb3ce636e9" H 1750 8250 50  0001 L CNN "library id"
-F 16 "Yageo" H 1750 8350 50  0001 L CNN "manufacturer"
-F 17 "Thick Film Resistors 5.1K OHM 1%" H 1750 8450 50  0001 L CNN "mouser description"
-F 18 "603-RC0603FR-075K1L" H 1750 8550 50  0001 L CNN "mouser part number"
-F 19 "0603 (1608 Metric)" H 1750 8650 50  0001 L CNN "package"
-F 20 "100mW" H 1750 8750 50  0001 L CNN "power"
-F 21 "0.1W" H 1750 8850 50  0001 L CNN "power rating"
-F 22 "5.1kΩ" H 2100 6650 50  0000 C CNN "resistance"
-F 23 "yes" H 1750 9050 50  0001 L CNN "rohs"
-F 24 "RC" H 1750 9150 50  0001 L CNN "series"
-F 25 "0mm" H 1750 9250 50  0001 L CNN "standoff height"
-F 26 "100ppm/°C" H 1750 9350 50  0001 L CNN "temperature coefficient"
-F 27 "+155°C" H 1750 9450 50  0001 L CNN "temperature range high"
-F 28 "-55°C" H 1750 9550 50  0001 L CNN "temperature range low"
-F 29 "1%" H 1750 9650 50  0001 L CNN "tolerance"
-F 30 "75V" H 1750 9750 50  0001 L CNN "voltage"
-F 31 "75V" H 1750 9850 50  0001 L CNN "voltage rating"
-	1    1750 6550
+P 1850 6950
+F 0 "R1" H 2200 7150 50  0000 C CNN
+F 1 "RC0603FR-075K1L" H 2200 7074 50  0001 C CNN
+F 2 "Resistor-Libs:Yageo-RC0603-0-0-IPC_C" H 1850 7350 50  0001 L CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 1850 7450 50  0001 L CNN
+F 4 "541-1.00HHCT-ND" H 1850 7550 50  0001 L CNN "approved alternate part number"
+F 5 "Res" H 1850 7650 50  0001 L CNN "category"
+F 6 "Thick Film" H 1850 7750 50  0001 L CNN "composition"
+F 7 "Passive Components" H 1850 7850 50  0001 L CNN "device class L1"
+F 8 "Resistors" H 1850 7950 50  0001 L CNN "device class L2"
+F 9 "Chip SMD Resistors" H 1850 8050 50  0001 L CNN "device class L3"
+F 10 "RES SMD 5.1K OHM 1% 1/10W 0603" H 1850 8150 50  0001 L CNN "digikey description"
+F 11 "311-5.10KHRDKR-ND" H 1850 8250 50  0001 L CNN "digikey part number"
+F 12 "0.5mm" H 1850 8350 50  0001 L CNN "height"
+F 13 "RESC15585X45" H 1850 8450 50  0001 L CNN "ipc land pattern name"
+F 14 "yes" H 1850 8550 50  0001 L CNN "lead free"
+F 15 "e0df13eb3ce636e9" H 1850 8650 50  0001 L CNN "library id"
+F 16 "Yageo" H 1850 8750 50  0001 L CNN "manufacturer"
+F 17 "Thick Film Resistors 5.1K OHM 1%" H 1850 8850 50  0001 L CNN "mouser description"
+F 18 "603-RC0603FR-075K1L" H 1850 8950 50  0001 L CNN "mouser part number"
+F 19 "0603 (1608 Metric)" H 1850 9050 50  0001 L CNN "package"
+F 20 "100mW" H 1850 9150 50  0001 L CNN "power"
+F 21 "0.1W" H 1850 9250 50  0001 L CNN "power rating"
+F 22 "5.1kΩ" H 2200 7050 50  0000 C CNN "resistance"
+F 23 "yes" H 1850 9450 50  0001 L CNN "rohs"
+F 24 "RC" H 1850 9550 50  0001 L CNN "series"
+F 25 "0mm" H 1850 9650 50  0001 L CNN "standoff height"
+F 26 "100ppm/°C" H 1850 9750 50  0001 L CNN "temperature coefficient"
+F 27 "+155°C" H 1850 9850 50  0001 L CNN "temperature range high"
+F 28 "-55°C" H 1850 9950 50  0001 L CNN "temperature range low"
+F 29 "1%" H 1850 10050 50  0001 L CNN "tolerance"
+F 30 "75V" H 1850 10150 50  0001 L CNN "voltage"
+F 31 "75V" H 1850 10250 50  0001 L CNN "voltage rating"
+	1    1850 6950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Resistor-Lib:RC0603FR-075K1L R2
 U 1 1 5FF6B199
-P 1750 8150
-F 0 "R2" H 2100 8350 50  0000 C CNN
-F 1 "RC0603FR-075K1L" H 2100 8274 50  0001 C CNN
-F 2 "Resistor-Libs:Yageo-RC0603-0-0-IPC_C" H 1750 8550 50  0001 L CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 1750 8650 50  0001 L CNN
-F 4 "541-1.00HHCT-ND" H 1750 8750 50  0001 L CNN "approved alternate part number"
-F 5 "Res" H 1750 8850 50  0001 L CNN "category"
-F 6 "Thick Film" H 1750 8950 50  0001 L CNN "composition"
-F 7 "Passive Components" H 1750 9050 50  0001 L CNN "device class L1"
-F 8 "Resistors" H 1750 9150 50  0001 L CNN "device class L2"
-F 9 "Chip SMD Resistors" H 1750 9250 50  0001 L CNN "device class L3"
-F 10 "RES SMD 5.1K OHM 1% 1/10W 0603" H 1750 9350 50  0001 L CNN "digikey description"
-F 11 "311-5.10KHRDKR-ND" H 1750 9450 50  0001 L CNN "digikey part number"
-F 12 "0.5mm" H 1750 9550 50  0001 L CNN "height"
-F 13 "RESC15585X45" H 1750 9650 50  0001 L CNN "ipc land pattern name"
-F 14 "yes" H 1750 9750 50  0001 L CNN "lead free"
-F 15 "e0df13eb3ce636e9" H 1750 9850 50  0001 L CNN "library id"
-F 16 "Yageo" H 1750 9950 50  0001 L CNN "manufacturer"
-F 17 "Thick Film Resistors 5.1K OHM 1%" H 1750 10050 50  0001 L CNN "mouser description"
-F 18 "603-RC0603FR-075K1L" H 1750 10150 50  0001 L CNN "mouser part number"
-F 19 "0603 (1608 Metric)" H 1750 10250 50  0001 L CNN "package"
-F 20 "100mW" H 1750 10350 50  0001 L CNN "power"
-F 21 "0.1W" H 1750 10450 50  0001 L CNN "power rating"
-F 22 "5.1kΩ" H 2100 8250 50  0000 C CNN "resistance"
-F 23 "yes" H 1750 10650 50  0001 L CNN "rohs"
-F 24 "RC" H 1750 10750 50  0001 L CNN "series"
-F 25 "0mm" H 1750 10850 50  0001 L CNN "standoff height"
-F 26 "100ppm/°C" H 1750 10950 50  0001 L CNN "temperature coefficient"
-F 27 "+155°C" H 1750 11050 50  0001 L CNN "temperature range high"
-F 28 "-55°C" H 1750 11150 50  0001 L CNN "temperature range low"
-F 29 "1%" H 1750 11250 50  0001 L CNN "tolerance"
-F 30 "75V" H 1750 11350 50  0001 L CNN "voltage"
-F 31 "75V" H 1750 11450 50  0001 L CNN "voltage rating"
-	1    1750 8150
+P 1850 7050
+F 0 "R2" H 2200 6950 50  0000 C CNN
+F 1 "RC0603FR-075K1L" H 2200 7174 50  0001 C CNN
+F 2 "Resistor-Libs:Yageo-RC0603-0-0-IPC_C" H 1850 7450 50  0001 L CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 1850 7550 50  0001 L CNN
+F 4 "541-1.00HHCT-ND" H 1850 7650 50  0001 L CNN "approved alternate part number"
+F 5 "Res" H 1850 7750 50  0001 L CNN "category"
+F 6 "Thick Film" H 1850 7850 50  0001 L CNN "composition"
+F 7 "Passive Components" H 1850 7950 50  0001 L CNN "device class L1"
+F 8 "Resistors" H 1850 8050 50  0001 L CNN "device class L2"
+F 9 "Chip SMD Resistors" H 1850 8150 50  0001 L CNN "device class L3"
+F 10 "RES SMD 5.1K OHM 1% 1/10W 0603" H 1850 8250 50  0001 L CNN "digikey description"
+F 11 "311-5.10KHRDKR-ND" H 1850 8350 50  0001 L CNN "digikey part number"
+F 12 "0.5mm" H 1850 8450 50  0001 L CNN "height"
+F 13 "RESC15585X45" H 1850 8550 50  0001 L CNN "ipc land pattern name"
+F 14 "yes" H 1850 8650 50  0001 L CNN "lead free"
+F 15 "e0df13eb3ce636e9" H 1850 8750 50  0001 L CNN "library id"
+F 16 "Yageo" H 1850 8850 50  0001 L CNN "manufacturer"
+F 17 "Thick Film Resistors 5.1K OHM 1%" H 1850 8950 50  0001 L CNN "mouser description"
+F 18 "603-RC0603FR-075K1L" H 1850 9050 50  0001 L CNN "mouser part number"
+F 19 "0603 (1608 Metric)" H 1850 9150 50  0001 L CNN "package"
+F 20 "100mW" H 1850 9250 50  0001 L CNN "power"
+F 21 "0.1W" H 1850 9350 50  0001 L CNN "power rating"
+F 22 "5.1kΩ" H 2200 6900 50  0000 C CNN "resistance"
+F 23 "yes" H 1850 9550 50  0001 L CNN "rohs"
+F 24 "RC" H 1850 9650 50  0001 L CNN "series"
+F 25 "0mm" H 1850 9750 50  0001 L CNN "standoff height"
+F 26 "100ppm/°C" H 1850 9850 50  0001 L CNN "temperature coefficient"
+F 27 "+155°C" H 1850 9950 50  0001 L CNN "temperature range high"
+F 28 "-55°C" H 1850 10050 50  0001 L CNN "temperature range low"
+F 29 "1%" H 1850 10150 50  0001 L CNN "tolerance"
+F 30 "75V" H 1850 10250 50  0001 L CNN "voltage"
+F 31 "75V" H 1850 10350 50  0001 L CNN "voltage rating"
+	1    1850 7050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2350 8150 2500 8150
-Connection ~ 2500 8150
+	2450 6950 2500 6950
 Wire Wire Line
-	2500 8150 2500 9150
-Wire Wire Line
-	2350 6550 2500 6550
-Connection ~ 2500 6550
-Wire Wire Line
-	2500 6550 2500 7550
+	2500 6950 2500 7050
 $Comp
 L power:+5V #PWR03
 U 1 1 5FFA23B6
@@ -5688,33 +5574,16 @@ Connection ~ 14650 7900
 Wire Wire Line
 	14100 6800 14100 6850
 $Comp
-L cldg:USBLC6-2P6 U2
-U 1 1 5FF3E6C9
-P 3650 7550
-F 0 "U2" H 3650 8017 50  0000 C CNN
-F 1 "USBLC6-2P6" H 3650 7926 50  0000 C CNN
-F 2 "SOT50P160X60-6N" H 3650 7550 50  0001 L BNN
-F 3 "" H 3650 7550 50  0001 L BNN
-F 4 "ST MICROELECTRONICS" H 3650 7550 50  0001 L BNN "MANUFACTURER"
-F 5 "SOT-666" H 3650 7550 50  0001 L BNN "PACKAGE"
-F 6 "5" H 3650 7550 50  0001 L BNN "PARTREV"
-F 7 "IPC 7351B" H 3650 7550 50  0001 L BNN "STANDARD"
-	1    3650 7550
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:+5V #PWR04
 U 1 1 600F480E
-P 3000 7400
-F 0 "#PWR04" H 3000 7250 50  0001 C CNN
-F 1 "+5V" H 3015 7573 50  0000 C CNN
-F 2 "" H 3000 7400 50  0001 C CNN
-F 3 "" H 3000 7400 50  0001 C CNN
-	1    3000 7400
+P 2800 7250
+F 0 "#PWR04" H 2800 7100 50  0001 C CNN
+F 1 "+5V" H 2815 7423 50  0000 C CNN
+F 2 "" H 2800 7250 50  0001 C CNN
+F 3 "" H 2800 7250 50  0001 C CNN
+	1    2800 7250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4000 7550 4000 7600
 $Comp
 L capacitor-lib:06035A100JAT2A C6
 U 1 1 5FF44365
@@ -5800,60 +5669,44 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    8950 8200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3950 7550 4000 7550
 $Comp
 L capacitor-lib:CL10B104KB8NNNL C1
 U 1 1 604D49EA
-P 3000 7500
-F 0 "C1" H 3128 7446 50  0000 L CNN
-F 1 "CL10B104KB8NNNL" H 3000 7700 50  0001 L CNN
-F 2 "capacitor-lib:Samsung-CL10-09_2006-0-IPC_C" H 3000 7800 50  0001 L CNN
-F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 3000 7900 50  0001 L CNN
-F 4 "No" H 3000 8000 50  0001 L CNN "automotive"
-F 5 "100nF" H 3128 7355 50  0000 L CNN "capacitance"
-F 6 "Cap" H 3000 8200 50  0001 L CNN "category"
-F 7 "Passive Components" H 3000 8300 50  0001 L CNN "device class L1"
-F 8 "Capacitors" H 3000 8400 50  0001 L CNN "device class L2"
-F 9 "Ceramic Capacitors" H 3000 8500 50  0001 L CNN "device class L3"
-F 10 "0.9mm" H 3000 8800 50  0001 L CNN "height"
-F 11 "CAPC16080X80" H 3000 8900 50  0001 L CNN "ipc land pattern name"
-F 12 "Yes" H 3000 9000 50  0001 L CNN "lead free"
-F 13 "d416e2ef1cbb0413" H 3000 9100 50  0001 L CNN "library id"
-F 14 "Samsung" H 3000 9200 50  0001 L CNN "manufacturer"
-F 15 "Ceramic" H 3000 9300 50  0001 L CNN "material"
-F 16 "0603" H 3000 9400 50  0001 L CNN "package"
-F 17 "Yes" H 3000 9500 50  0001 L CNN "rohs"
-F 18 "X7R" H 3000 9600 50  0001 L CNN "temperature characteristic"
-F 19 "0.15" H 3000 9700 50  0001 L CNN "temperature coefficient"
-F 20 "+125°C" H 3000 9800 50  0001 L CNN "temperature range high"
-F 21 "-55°C" H 3000 9900 50  0001 L CNN "temperature range low"
-F 22 "10%" H 3000 10000 50  0001 L CNN "tolerance"
-F 23 "50V" H 3000 10100 50  0001 L CNN "voltage rating"
-	1    3000 7500
+P 2800 7350
+F 0 "C1" H 2673 7296 50  0000 R CNN
+F 1 "CL10B104KB8NNNL" H 2800 7550 50  0001 L CNN
+F 2 "capacitor-lib:Samsung-CL10-09_2006-0-IPC_C" H 2800 7650 50  0001 L CNN
+F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 2800 7750 50  0001 L CNN
+F 4 "No" H 2800 7850 50  0001 L CNN "automotive"
+F 5 "100nF" H 2673 7205 50  0000 R CNN "capacitance"
+F 6 "Cap" H 2800 8050 50  0001 L CNN "category"
+F 7 "Passive Components" H 2800 8150 50  0001 L CNN "device class L1"
+F 8 "Capacitors" H 2800 8250 50  0001 L CNN "device class L2"
+F 9 "Ceramic Capacitors" H 2800 8350 50  0001 L CNN "device class L3"
+F 10 "0.9mm" H 2800 8650 50  0001 L CNN "height"
+F 11 "CAPC16080X80" H 2800 8750 50  0001 L CNN "ipc land pattern name"
+F 12 "Yes" H 2800 8850 50  0001 L CNN "lead free"
+F 13 "d416e2ef1cbb0413" H 2800 8950 50  0001 L CNN "library id"
+F 14 "Samsung" H 2800 9050 50  0001 L CNN "manufacturer"
+F 15 "Ceramic" H 2800 9150 50  0001 L CNN "material"
+F 16 "0603" H 2800 9250 50  0001 L CNN "package"
+F 17 "Yes" H 2800 9350 50  0001 L CNN "rohs"
+F 18 "X7R" H 2800 9450 50  0001 L CNN "temperature characteristic"
+F 19 "0.15" H 2800 9550 50  0001 L CNN "temperature coefficient"
+F 20 "+125°C" H 2800 9650 50  0001 L CNN "temperature range high"
+F 21 "-55°C" H 2800 9750 50  0001 L CNN "temperature range low"
+F 22 "10%" H 2800 9850 50  0001 L CNN "tolerance"
+F 23 "50V" H 2800 9950 50  0001 L CNN "voltage rating"
+	1    2800 7350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 7400 3000 7450
-Connection ~ 3000 7450
+	2800 7250 2800 7300
+Connection ~ 2800 7300
 Wire Wire Line
-	3000 7450 3000 7500
+	2800 7300 2800 7350
 Wire Wire Line
-	3000 7750 3000 7700
-Wire Wire Line
-	3350 7350 3350 6750
-Wire Wire Line
-	2700 6750 3350 6750
-Wire Wire Line
-	3350 7750 3350 8550
-Wire Wire Line
-	2600 8550 3350 8550
-Wire Wire Line
-	3300 7450 3300 7550
-Wire Wire Line
-	3300 7550 3350 7550
-Wire Wire Line
-	3000 7450 3300 7450
+	2800 7600 2800 7550
 $Comp
 L SamacSys_Parts:PEC11L-4115F-S0020 ENC1
 U 1 1 5FF3C341
@@ -6199,20 +6052,6 @@ $EndComp
 Wire Wire Line
 	4550 8850 4550 8900
 $Comp
-L power:Earth #PWR0103
-U 1 1 603AF2CD
-P 2500 10000
-F 0 "#PWR0103" H 2500 9750 50  0001 C CNN
-F 1 "Earth" H 2500 9850 50  0001 C CNN
-F 2 "" H 2500 10000 50  0001 C CNN
-F 3 "~" H 2500 10000 50  0001 C CNN
-	1    2500 10000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2500 9950 2500 10000
-Connection ~ 2500 9950
-$Comp
 L power:Earth #PWR0104
 U 1 1 60423113
 P 4550 8900
@@ -6224,25 +6063,14 @@ F 3 "~" H 4550 8900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR0105
-U 1 1 6042522C
-P 4000 7600
-F 0 "#PWR0105" H 4000 7350 50  0001 C CNN
-F 1 "Earth" H 4000 7450 50  0001 C CNN
-F 2 "" H 4000 7600 50  0001 C CNN
-F 3 "~" H 4000 7600 50  0001 C CNN
-	1    4000 7600
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:Earth #PWR0106
 U 1 1 607A26D6
-P 3000 7750
-F 0 "#PWR0106" H 3000 7500 50  0001 C CNN
-F 1 "Earth" H 3000 7600 50  0001 C CNN
-F 2 "" H 3000 7750 50  0001 C CNN
-F 3 "~" H 3000 7750 50  0001 C CNN
-	1    3000 7750
+P 2800 7600
+F 0 "#PWR0106" H 2800 7350 50  0001 C CNN
+F 1 "Earth" H 2800 7450 50  0001 C CNN
+F 2 "" H 2800 7600 50  0001 C CNN
+F 3 "~" H 2800 7600 50  0001 C CNN
+	1    2800 7600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -6394,53 +6222,6 @@ Wire Wire Line
 	2850 9500 2850 9400
 Wire Wire Line
 	2850 9400 3000 9400
-$Comp
-L Resistor-Lib:MCT06030Z0000ZP500 R21
-U 1 1 609B13D9
-P 4500 7350
-F 0 "R21" H 4500 7592 50  0000 C CNN
-F 1 "MCT06030Z0000ZP500" H 4200 7150 50  0001 L BNN
-F 2 "Resistor-Libs:RESC1508X55N" H 4500 7350 50  0001 L BNN
-F 3 "" H 4500 7350 50  0001 L BNN
-F 4 "0" H 4500 7501 50  0000 C CNN "resistance"
-	1    4500 7350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Resistor-Lib:MCT06030Z0000ZP500 R22
-U 1 1 609B3AF3
-P 4500 7750
-F 0 "R22" H 4500 7992 50  0000 C CNN
-F 1 "MCT06030Z0000ZP500" H 4200 7550 50  0001 L BNN
-F 2 "Resistor-Libs:RESC1508X55N" H 4500 7750 50  0001 L BNN
-F 3 "" H 4500 7750 50  0001 L BNN
-F 4 "0" H 4500 7901 50  0000 C CNN "resistance"
-	1    4500 7750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4900 7350 4950 7350
-Wire Wire Line
-	4900 7750 4950 7750
-Wire Wire Line
-	3950 7350 4100 7350
-Wire Wire Line
-	3950 7750 4100 7750
-Text Label 4000 7350 0    50   ~ 0
-USB+
-Text Label 4050 7750 0    50   ~ 0
-USB-
-$Comp
-L 694200101-rescue:LOGO-BossLogo G1
-U 1 1 608F531A
-P 8600 5100
-F 0 "G1" H 8600 4532 60  0001 C CNN
-F 1 "LOGO" H 8600 5668 60  0001 C CNN
-F 2 "BossLogo:BossLogo" H 8600 5100 50  0001 C CNN
-F 3 "" H 8600 5100 50  0001 C CNN
-	1    8600 5100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5450 9500 5850 9500
 Wire Wire Line
@@ -6489,10 +6270,6 @@ Wire Wire Line
 	5500 6750 5350 6750
 Connection ~ 5350 6550
 Wire Wire Line
-	5200 6550 5350 6550
-Wire Wire Line
-	5200 7150 5200 6550
-Wire Wire Line
 	5500 7000 5500 7150
 Wire Wire Line
 	7250 7000 5500 7000
@@ -6510,24 +6287,10 @@ F 6 "2017" H 6350 7200 50  0001 L BNN "PARTREV"
 	1    6200 6650
 	1    0    0    -1  
 $EndComp
-Connection ~ 5350 6900
-Wire Wire Line
-	5350 6900 7050 6900
 Wire Wire Line
 	5350 6750 5350 6900
 Wire Wire Line
 	5500 6550 5350 6550
-$Comp
-L power:GND #PWR07
-U 1 1 6065E993
-P 5350 6900
-F 0 "#PWR07" H 5350 6650 50  0001 C CNN
-F 1 "GND" H 5355 6727 50  0000 C CNN
-F 2 "" H 5350 6900 50  0001 C CNN
-F 3 "" H 5350 6900 50  0001 C CNN
-	1    5350 6900
-	1    0    0    -1  
-$EndComp
 $Comp
 L capacitor-lib:06035A100JAT2A C3
 U 1 1 60087526
@@ -6566,8 +6329,6 @@ Wire Wire Line
 	6300 7900 6350 7900
 Wire Wire Line
 	7600 6800 7600 7800
-Wire Wire Line
-	5500 7150 5200 7150
 Wire Wire Line
 	7600 7800 8250 7800
 Wire Wire Line
@@ -6668,6 +6429,198 @@ F 1 "GND" H 6355 8677 50  0000 C CNN
 F 2 "" H 6350 8850 50  0001 C CNN
 F 3 "" H 6350 8850 50  0001 C CNN
 	1    6350 8850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 6950 1950 6950
+Wire Wire Line
+	1900 7050 1950 7050
+Wire Wire Line
+	2450 7050 2500 7050
+Wire Wire Line
+	2000 6650 2000 6750
+Connection ~ 5350 6900
+Wire Wire Line
+	5350 6900 7050 6900
+Wire Wire Line
+	5200 6550 5350 6550
+Wire Wire Line
+	5500 7150 5200 7150
+$Comp
+L power:GND #PWR07
+U 1 1 6065E993
+P 5350 6900
+F 0 "#PWR07" H 5350 6650 50  0001 C CNN
+F 1 "GND" H 5355 6727 50  0000 C CNN
+F 2 "" H 5350 6900 50  0001 C CNN
+F 3 "" H 5350 6900 50  0001 C CNN
+	1    5350 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 7150 5200 6550
+Text Label 3850 7000 0    50   ~ 0
+USB-
+Text Label 3800 7400 0    50   ~ 0
+USB+
+Wire Wire Line
+	4700 7000 4750 7000
+Wire Wire Line
+	4700 7400 4750 7400
+$Comp
+L Resistor-Lib:MCT06030Z0000ZP500 R22
+U 1 1 609B3AF3
+P 4300 7000
+F 0 "R22" H 4300 7242 50  0000 C CNN
+F 1 "MCT06030Z0000ZP500" H 4000 6800 50  0001 L BNN
+F 2 "Resistor-Libs:RESC1508X55N" H 4300 7000 50  0001 L BNN
+F 3 "" H 4300 7000 50  0001 L BNN
+F 4 "0" H 4300 7151 50  0000 C CNN "resistance"
+	1    4300 7000
+	1    0    0    1   
+$EndComp
+$Comp
+L Resistor-Lib:MCT06030Z0000ZP500 R21
+U 1 1 609B13D9
+P 4300 7400
+F 0 "R21" H 4300 7642 50  0000 C CNN
+F 1 "MCT06030Z0000ZP500" H 4000 7200 50  0001 L BNN
+F 2 "Resistor-Libs:RESC1508X55N" H 4300 7400 50  0001 L BNN
+F 3 "" H 4300 7400 50  0001 L BNN
+F 4 "0" H 4300 7551 50  0000 C CNN "resistance"
+	1    4300 7400
+	1    0    0    1   
+$EndComp
+$Comp
+L power:Earth #PWR0105
+U 1 1 6042522C
+P 3800 7150
+F 0 "#PWR0105" H 3800 6900 50  0001 C CNN
+F 1 "Earth" H 3800 7000 50  0001 C CNN
+F 2 "" H 3800 7150 50  0001 C CNN
+F 3 "~" H 3800 7150 50  0001 C CNN
+	1    3800 7150
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3750 7200 3800 7200
+Wire Wire Line
+	3800 7200 3800 7150
+$Comp
+L cldg:USBLC6-2P6 U2
+U 1 1 5FF3E6C9
+P 3450 7200
+F 0 "U2" H 3450 7667 50  0000 C CNN
+F 1 "USBLC6-2P6" H 3450 7576 50  0000 C CNN
+F 2 "SOT50P160X60-6N" H 3450 7200 50  0001 L BNN
+F 3 "" H 3450 7200 50  0001 L BNN
+F 4 "ST MICROELECTRONICS" H 3450 7200 50  0001 L BNN "MANUFACTURER"
+F 5 "SOT-666" H 3450 7200 50  0001 L BNN "PACKAGE"
+F 6 "5" H 3450 7200 50  0001 L BNN "PARTREV"
+F 7 "IPC 7351B" H 3450 7200 50  0001 L BNN "STANDARD"
+	1    3450 7200
+	-1   0    0    -1  
+$EndComp
+Text GLabel 4750 7000 2    50   Input ~ 0
+USB_D-
+Text GLabel 4750 7400 2    50   Input ~ 0
+USB_D+
+Wire Wire Line
+	3750 7000 3900 7000
+Wire Wire Line
+	3750 7400 3900 7400
+Wire Wire Line
+	2800 7300 3150 7300
+Wire Wire Line
+	1900 7250 1950 7250
+Wire Wire Line
+	1950 7250 1950 7350
+Wire Wire Line
+	1950 7350 1900 7350
+Wire Wire Line
+	1950 7250 2700 7250
+Wire Wire Line
+	2700 7250 2700 7000
+Wire Wire Line
+	2700 7000 3150 7000
+Connection ~ 1950 7250
+Wire Wire Line
+	3150 7300 3150 7200
+Wire Wire Line
+	1900 7450 1950 7450
+Wire Wire Line
+	2950 7400 3150 7400
+Wire Wire Line
+	2000 6750 1900 6750
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J1
+U 1 1 62B23997
+P 1300 7350
+F 0 "J1" H 1407 8217 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 1407 8126 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 1450 7350 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1450 7350 50  0001 C CNN
+	1    1300 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 7450 1950 7550
+Wire Wire Line
+	1950 7550 1900 7550
+Wire Wire Line
+	1950 7550 1950 7800
+Wire Wire Line
+	1950 7800 2950 7800
+Wire Wire Line
+	2950 7400 2950 7800
+Connection ~ 1950 7550
+Wire Wire Line
+	1000 8250 1000 8300
+Wire Wire Line
+	1000 8300 1150 8300
+Wire Wire Line
+	1300 8300 1300 8250
+Wire Wire Line
+	2500 6950 2600 6950
+Wire Wire Line
+	2600 6950 2600 7000
+Connection ~ 2500 6950
+$Comp
+L power:Earth #PWR0103
+U 1 1 63564E60
+P 2600 7000
+F 0 "#PWR0103" H 2600 6750 50  0001 C CNN
+F 1 "Earth" H 2600 6850 50  0001 C CNN
+F 2 "" H 2600 7000 50  0001 C CNN
+F 3 "~" H 2600 7000 50  0001 C CNN
+	1    2600 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 8300 1150 8350
+Connection ~ 1150 8300
+Wire Wire Line
+	1150 8300 1300 8300
+$Comp
+L power:Earth #PWR0117
+U 1 1 635DDF4A
+P 1150 8350
+F 0 "#PWR0117" H 1150 8100 50  0001 C CNN
+F 1 "Earth" H 1150 8200 50  0001 C CNN
+F 2 "" H 1150 8350 50  0001 C CNN
+F 3 "~" H 1150 8350 50  0001 C CNN
+	1    1150 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L BekosLogo:LOGO #G?
+U 1 1 6385997F
+P 10250 5250
+F 0 "#G?" H 10250 4940 60  0001 C CNN
+F 1 "LOGO" H 10250 5560 60  0001 C CNN
+F 2 "BekosLogo:BekosLogo" H 10250 5250 50  0001 C CNN
+F 3 "" H 10250 5250 50  0001 C CNN
+	1    10250 5250
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

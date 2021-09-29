@@ -16,4 +16,5 @@
   (lib (name Littlefuse)(type Legacy)(uri ${KIPRJMOD}/../3rd-party-footprints/ul_1210L150THWR/KiCAD/2021-01-04_17-12-54/2021-01-04_17-12-54.lib)(options "")(descr ""))
   (lib (name Taiyo_Yuden)(type Legacy)(uri ${KIPRJMOD}/../3rd-party-footprints/FBMJ3216HM600-T/FBMJ3216HM600-T.lib)(options "")(descr ""))
   (lib (name STM_EEPROM)(type Legacy)(uri ${KIPRJMOD}/../3rd-party-footprints/ul_M24512DFMN6TP/KiCAD/2021-04-17_03-20-32/2021-04-17_03-20-32.lib)(options "")(descr ""))
+  (lib (name BekosLogo)(type Legacy)(uri ${KIPRJMOD}/BekosLogo.lib)(options "")(descr ""))
 )
