@@ -14,424 +14,185 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:+5V #PWR01
-U 1 1 5FF35DFE
-P 2000 6650
-F 0 "#PWR01" H 2000 6500 50  0001 C CNN
-F 1 "+5V" H 2015 6823 50  0000 C CNN
-F 2 "" H 2000 6650 50  0001 C CNN
-F 3 "" H 2000 6650 50  0001 C CNN
-	1    2000 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Resistor-Lib:RC0603FR-075K1L R1
-U 1 1 5FF638A1
-P 1850 6950
-F 0 "R1" H 2200 7150 50  0000 C CNN
-F 1 "RC0603FR-075K1L" H 2200 7074 50  0001 C CNN
-F 2 "Resistor-Libs:Yageo-RC0603-0-0-IPC_C" H 1850 7350 50  0001 L CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 1850 7450 50  0001 L CNN
-F 4 "541-1.00HHCT-ND" H 1850 7550 50  0001 L CNN "approved alternate part number"
-F 5 "Res" H 1850 7650 50  0001 L CNN "category"
-F 6 "Thick Film" H 1850 7750 50  0001 L CNN "composition"
-F 7 "Passive Components" H 1850 7850 50  0001 L CNN "device class L1"
-F 8 "Resistors" H 1850 7950 50  0001 L CNN "device class L2"
-F 9 "Chip SMD Resistors" H 1850 8050 50  0001 L CNN "device class L3"
-F 10 "RES SMD 5.1K OHM 1% 1/10W 0603" H 1850 8150 50  0001 L CNN "digikey description"
-F 11 "311-5.10KHRDKR-ND" H 1850 8250 50  0001 L CNN "digikey part number"
-F 12 "0.5mm" H 1850 8350 50  0001 L CNN "height"
-F 13 "RESC15585X45" H 1850 8450 50  0001 L CNN "ipc land pattern name"
-F 14 "yes" H 1850 8550 50  0001 L CNN "lead free"
-F 15 "e0df13eb3ce636e9" H 1850 8650 50  0001 L CNN "library id"
-F 16 "Yageo" H 1850 8750 50  0001 L CNN "manufacturer"
-F 17 "Thick Film Resistors 5.1K OHM 1%" H 1850 8850 50  0001 L CNN "mouser description"
-F 18 "603-RC0603FR-075K1L" H 1850 8950 50  0001 L CNN "mouser part number"
-F 19 "0603 (1608 Metric)" H 1850 9050 50  0001 L CNN "package"
-F 20 "100mW" H 1850 9150 50  0001 L CNN "power"
-F 21 "0.1W" H 1850 9250 50  0001 L CNN "power rating"
-F 22 "5.1kΩ" H 2200 7050 50  0000 C CNN "resistance"
-F 23 "yes" H 1850 9450 50  0001 L CNN "rohs"
-F 24 "RC" H 1850 9550 50  0001 L CNN "series"
-F 25 "0mm" H 1850 9650 50  0001 L CNN "standoff height"
-F 26 "100ppm/°C" H 1850 9750 50  0001 L CNN "temperature coefficient"
-F 27 "+155°C" H 1850 9850 50  0001 L CNN "temperature range high"
-F 28 "-55°C" H 1850 9950 50  0001 L CNN "temperature range low"
-F 29 "1%" H 1850 10050 50  0001 L CNN "tolerance"
-F 30 "75V" H 1850 10150 50  0001 L CNN "voltage"
-F 31 "75V" H 1850 10250 50  0001 L CNN "voltage rating"
-	1    1850 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Resistor-Lib:RC0603FR-075K1L R2
-U 1 1 5FF6B199
-P 1850 7050
-F 0 "R2" H 2200 6950 50  0000 C CNN
-F 1 "RC0603FR-075K1L" H 2200 7174 50  0001 C CNN
-F 2 "Resistor-Libs:Yageo-RC0603-0-0-IPC_C" H 1850 7450 50  0001 L CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 1850 7550 50  0001 L CNN
-F 4 "541-1.00HHCT-ND" H 1850 7650 50  0001 L CNN "approved alternate part number"
-F 5 "Res" H 1850 7750 50  0001 L CNN "category"
-F 6 "Thick Film" H 1850 7850 50  0001 L CNN "composition"
-F 7 "Passive Components" H 1850 7950 50  0001 L CNN "device class L1"
-F 8 "Resistors" H 1850 8050 50  0001 L CNN "device class L2"
-F 9 "Chip SMD Resistors" H 1850 8150 50  0001 L CNN "device class L3"
-F 10 "RES SMD 5.1K OHM 1% 1/10W 0603" H 1850 8250 50  0001 L CNN "digikey description"
-F 11 "311-5.10KHRDKR-ND" H 1850 8350 50  0001 L CNN "digikey part number"
-F 12 "0.5mm" H 1850 8450 50  0001 L CNN "height"
-F 13 "RESC15585X45" H 1850 8550 50  0001 L CNN "ipc land pattern name"
-F 14 "yes" H 1850 8650 50  0001 L CNN "lead free"
-F 15 "e0df13eb3ce636e9" H 1850 8750 50  0001 L CNN "library id"
-F 16 "Yageo" H 1850 8850 50  0001 L CNN "manufacturer"
-F 17 "Thick Film Resistors 5.1K OHM 1%" H 1850 8950 50  0001 L CNN "mouser description"
-F 18 "603-RC0603FR-075K1L" H 1850 9050 50  0001 L CNN "mouser part number"
-F 19 "0603 (1608 Metric)" H 1850 9150 50  0001 L CNN "package"
-F 20 "100mW" H 1850 9250 50  0001 L CNN "power"
-F 21 "0.1W" H 1850 9350 50  0001 L CNN "power rating"
-F 22 "5.1kΩ" H 2200 6900 50  0000 C CNN "resistance"
-F 23 "yes" H 1850 9550 50  0001 L CNN "rohs"
-F 24 "RC" H 1850 9650 50  0001 L CNN "series"
-F 25 "0mm" H 1850 9750 50  0001 L CNN "standoff height"
-F 26 "100ppm/°C" H 1850 9850 50  0001 L CNN "temperature coefficient"
-F 27 "+155°C" H 1850 9950 50  0001 L CNN "temperature range high"
-F 28 "-55°C" H 1850 10050 50  0001 L CNN "temperature range low"
-F 29 "1%" H 1850 10150 50  0001 L CNN "tolerance"
-F 30 "75V" H 1850 10250 50  0001 L CNN "voltage"
-F 31 "75V" H 1850 10350 50  0001 L CNN "voltage rating"
-	1    1850 7050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2450 6950 2500 6950
-Wire Wire Line
-	2500 6950 2500 7050
-$Comp
-L power:+5V #PWR03
-U 1 1 5FFA23B6
-P 3750 8500
-F 0 "#PWR03" H 3750 8350 50  0001 C CNN
-F 1 "+5V" H 3765 8673 50  0000 C CNN
-F 2 "" H 3750 8500 50  0001 C CNN
-F 3 "" H 3750 8500 50  0001 C CNN
-	1    3750 8500
-	1    0    0    -1  
-$EndComp
-$Comp
-L capacitor-lib:CL10B104KB8NNNL C8
-U 1 1 5FFB6368
-P 8650 6100
-F 0 "C8" H 8523 6046 50  0000 R CNN
-F 1 "CL10B104KB8NNNL" H 8522 5955 50  0001 R CNN
-F 2 "capacitor-lib:Samsung-CL10-09_2006-0-IPC_C" H 8650 6400 50  0001 L CNN
-F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 8650 6500 50  0001 L CNN
-F 4 "No" H 8650 6600 50  0001 L CNN "automotive"
-F 5 "100nF" H 8523 5955 50  0000 R CNN "capacitance"
-F 6 "Cap" H 8650 6800 50  0001 L CNN "category"
-F 7 "Passive Components" H 8650 6900 50  0001 L CNN "device class L1"
-F 8 "Capacitors" H 8650 7000 50  0001 L CNN "device class L2"
-F 9 "Ceramic Capacitors" H 8650 7100 50  0001 L CNN "device class L3"
-F 10 "" H 8650 7200 50  0001 L CNN "digikey description"
-F 11 "" H 8650 7300 50  0001 L CNN "digikey part number"
-F 12 "0.9mm" H 8650 7400 50  0001 L CNN "height"
-F 13 "CAPC16080X80" H 8650 7500 50  0001 L CNN "ipc land pattern name"
-F 14 "Yes" H 8650 7600 50  0001 L CNN "lead free"
-F 15 "d416e2ef1cbb0413" H 8650 7700 50  0001 L CNN "library id"
-F 16 "Samsung" H 8650 7800 50  0001 L CNN "manufacturer"
-F 17 "Ceramic" H 8650 7900 50  0001 L CNN "material"
-F 18 "0603" H 8650 8000 50  0001 L CNN "package"
-F 19 "Yes" H 8650 8100 50  0001 L CNN "rohs"
-F 20 "X7R" H 8650 8200 50  0001 L CNN "temperature characteristic"
-F 21 "0.15" H 8650 8300 50  0001 L CNN "temperature coefficient"
-F 22 "+125°C" H 8650 8400 50  0001 L CNN "temperature range high"
-F 23 "-55°C" H 8650 8500 50  0001 L CNN "temperature range low"
-F 24 "10%" H 8650 8600 50  0001 L CNN "tolerance"
-F 25 "50V" H 8650 8700 50  0001 L CNN "voltage rating"
-	1    8650 6100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8650 6400 8650 6300
-$Comp
 L capacitor-lib:CL10B103KB8NNNC C5
 U 1 1 5FFC329D
-P 6750 9600
-F 0 "C5" H 6878 9546 50  0000 L CNN
-F 1 "CL10B103KB8NNNC" H 6878 9455 50  0001 L CNN
-F 2 "capacitor-lib:Samsung-0603_1608_Metric-0-0-0" H 6750 9900 50  0001 L CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL10B103KB8NNNC.pdf" H 6750 10000 50  0001 L CNN
-F 4 "10nF" H 6878 9455 50  0000 L CNN "capacitance"
-F 5 "Cap" H 6750 10200 50  0001 L CNN "category"
-F 6 "CAP CER 10000PF 50V X7R 0603" H 6750 10300 50  0001 L CNN "digikey description"
-F 7 "1276-1009-1-ND" H 6750 10400 50  0001 L CNN "digikey part number"
-F 8 "CAPC16080X80" H 6750 10500 50  0001 L CNN "ipc land pattern name"
-F 9 "yes" H 6750 10600 50  0001 L CNN "lead free"
-F 10 "704b476e59c9bc01" H 6750 10700 50  0001 L CNN "library id"
-F 11 "Samsung" H 6750 10800 50  0001 L CNN "manufacturer"
-F 12 "0603" H 6750 10900 50  0001 L CNN "package"
-F 13 "yes" H 6750 11000 50  0001 L CNN "rohs"
-F 14 "+125°C" H 6750 11100 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 6750 11200 50  0001 L CNN "temperature range low"
-F 16 "50V" H 6750 11300 50  0001 L CNN "voltage"
-	1    6750 9600
+P 3800 7800
+F 0 "C5" H 3928 7746 50  0000 L CNN
+F 1 "CL10B103KB8NNNC" H 3928 7655 50  0001 L CNN
+F 2 "capacitor-lib:Samsung-0603_1608_Metric-0-0-0" H 3800 8100 50  0001 L CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL10B103KB8NNNC.pdf" H 3800 8200 50  0001 L CNN
+F 4 "10nF" H 3928 7655 50  0000 L CNN "capacitance"
+F 5 "Cap" H 3800 8400 50  0001 L CNN "category"
+F 6 "CAP CER 10000PF 50V X7R 0603" H 3800 8500 50  0001 L CNN "digikey description"
+F 7 "1276-1009-1-ND" H 3800 8600 50  0001 L CNN "digikey part number"
+F 8 "CAPC16080X80" H 3800 8700 50  0001 L CNN "ipc land pattern name"
+F 9 "yes" H 3800 8800 50  0001 L CNN "lead free"
+F 10 "704b476e59c9bc01" H 3800 8900 50  0001 L CNN "library id"
+F 11 "Samsung" H 3800 9000 50  0001 L CNN "manufacturer"
+F 12 "0603" H 3800 9100 50  0001 L CNN "package"
+F 13 "yes" H 3800 9200 50  0001 L CNN "rohs"
+F 14 "+125°C" H 3800 9300 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 3800 9400 50  0001 L CNN "temperature range low"
+F 16 "50V" H 3800 9500 50  0001 L CNN "voltage"
+	1    3800 7800
 	1    0    0    -1  
 $EndComp
 $Comp
 L capacitor-lib:CL10B105KA8NNNC C2
 U 1 1 5FFCA6E4
-P 5850 9600
-F 0 "C2" H 5978 9546 50  0000 L CNN
-F 1 "CL10B105KA8NNNC" H 5722 9455 50  0001 R CNN
-F 2 "capacitor-lib:Samsung-CL10-0-0-IPC_C" H 5850 9900 50  0001 L CNN
-F 3 "http://www.samsungsem.com/global/front/downloadcms.do?path=%2F%2Fglobal%2F%2Fsupport%2F%2Fproduct-search%2F%2Fmlcc%2F%2F__icsFiles%2F%2Fafieldfile%2F%2F2018%2F%2F07%2F%2F24&fileName=CL10B105KA8NNNC.pdf" H 5850 10000 50  0001 L CNN
-F 4 "CAP CER 1UF 25V X7R 0603" H 5850 10100 50  0001 L CNN "approved alternate part number"
-F 5 "No" H 5850 10200 50  0001 L CNN "automotive"
-F 6 "1uF" H 5978 9455 50  0000 L CNN "capacitance"
-F 7 "Cap" H 5850 10400 50  0001 L CNN "category"
-F 8 "Passive Components" H 5850 10500 50  0001 L CNN "device class L1"
-F 9 "Capacitors" H 5850 10600 50  0001 L CNN "device class L2"
-F 10 "Ceramic Capacitors" H 5850 10700 50  0001 L CNN "device class L3"
-F 11 "CAP CER 1UF 25V X7R 0603" H 5850 10800 50  0001 L CNN "digikey description"
-F 12 "1276-1184-1-ND" H 5850 10900 50  0001 L CNN "digikey part number"
-F 13 "0.9mm" H 5850 11000 50  0001 L CNN "height"
-F 14 "CAPC16080X80" H 5850 11100 50  0001 L CNN "ipc land pattern name"
-F 15 "Yes" H 5850 11200 50  0001 L CNN "lead free"
-F 16 "6fd72994a5525edd" H 5850 11300 50  0001 L CNN "library id"
-F 17 "Samsung" H 5850 11400 50  0001 L CNN "manufacturer"
-F 18 "Ceramic" H 5850 11500 50  0001 L CNN "material"
-F 19 "0603" H 5850 11600 50  0001 L CNN "package"
-F 20 "Yes" H 5850 11700 50  0001 L CNN "rohs"
-F 21 "X7R" H 5850 11800 50  0001 L CNN "temperature characteristic"
-F 22 "15%" H 5850 11900 50  0001 L CNN "temperature coefficient"
-F 23 "+125°C" H 5850 12000 50  0001 L CNN "temperature range high"
-F 24 "-55°C" H 5850 12100 50  0001 L CNN "temperature range low"
-F 25 "10%" H 5850 12200 50  0001 L CNN "tolerance"
-F 26 "25V" H 5850 12300 50  0001 L CNN "voltage"
-F 27 "25V" H 5850 12400 50  0001 L CNN "voltage rating"
-	1    5850 9600
+P 2900 7800
+F 0 "C2" H 3028 7746 50  0000 L CNN
+F 1 "CL10B105KA8NNNC" H 2772 7655 50  0001 R CNN
+F 2 "capacitor-lib:Samsung-CL10-0-0-IPC_C" H 2900 8100 50  0001 L CNN
+F 3 "http://www.samsungsem.com/global/front/downloadcms.do?path=%2F%2Fglobal%2F%2Fsupport%2F%2Fproduct-search%2F%2Fmlcc%2F%2F__icsFiles%2F%2Fafieldfile%2F%2F2018%2F%2F07%2F%2F24&fileName=CL10B105KA8NNNC.pdf" H 2900 8200 50  0001 L CNN
+F 4 "CAP CER 1UF 25V X7R 0603" H 2900 8300 50  0001 L CNN "approved alternate part number"
+F 5 "No" H 2900 8400 50  0001 L CNN "automotive"
+F 6 "1uF" H 3028 7655 50  0000 L CNN "capacitance"
+F 7 "Cap" H 2900 8600 50  0001 L CNN "category"
+F 8 "Passive Components" H 2900 8700 50  0001 L CNN "device class L1"
+F 9 "Capacitors" H 2900 8800 50  0001 L CNN "device class L2"
+F 10 "Ceramic Capacitors" H 2900 8900 50  0001 L CNN "device class L3"
+F 11 "CAP CER 1UF 25V X7R 0603" H 2900 9000 50  0001 L CNN "digikey description"
+F 12 "1276-1184-1-ND" H 2900 9100 50  0001 L CNN "digikey part number"
+F 13 "0.9mm" H 2900 9200 50  0001 L CNN "height"
+F 14 "CAPC16080X80" H 2900 9300 50  0001 L CNN "ipc land pattern name"
+F 15 "Yes" H 2900 9400 50  0001 L CNN "lead free"
+F 16 "6fd72994a5525edd" H 2900 9500 50  0001 L CNN "library id"
+F 17 "Samsung" H 2900 9600 50  0001 L CNN "manufacturer"
+F 18 "Ceramic" H 2900 9700 50  0001 L CNN "material"
+F 19 "0603" H 2900 9800 50  0001 L CNN "package"
+F 20 "Yes" H 2900 9900 50  0001 L CNN "rohs"
+F 21 "X7R" H 2900 10000 50  0001 L CNN "temperature characteristic"
+F 22 "15%" H 2900 10100 50  0001 L CNN "temperature coefficient"
+F 23 "+125°C" H 2900 10200 50  0001 L CNN "temperature range high"
+F 24 "-55°C" H 2900 10300 50  0001 L CNN "temperature range low"
+F 25 "10%" H 2900 10400 50  0001 L CNN "tolerance"
+F 26 "25V" H 2900 10500 50  0001 L CNN "voltage"
+F 27 "25V" H 2900 10600 50  0001 L CNN "voltage rating"
+	1    2900 7800
 	1    0    0    -1  
 $EndComp
 $Comp
 L capacitor-lib:CL10B104KB8NNNL C4
 U 1 1 5FFC635A
-P 6250 9600
-F 0 "C4" H 6378 9546 50  0000 L CNN
-F 1 "CL10B104KB8NNNL" H 6378 9455 50  0001 L CNN
-F 2 "capacitor-lib:Samsung-CL10-09_2006-0-IPC_C" H 6250 9900 50  0001 L CNN
-F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 6250 10000 50  0001 L CNN
-F 4 "No" H 6250 10100 50  0001 L CNN "automotive"
-F 5 "100nF" H 6378 9455 50  0000 L CNN "capacitance"
-F 6 "Cap" H 6250 10300 50  0001 L CNN "category"
-F 7 "Passive Components" H 6250 10400 50  0001 L CNN "device class L1"
-F 8 "Capacitors" H 6250 10500 50  0001 L CNN "device class L2"
-F 9 "Ceramic Capacitors" H 6250 10600 50  0001 L CNN "device class L3"
-F 10 "" H 6250 10700 50  0001 L CNN "digikey description"
-F 11 "" H 6250 10800 50  0001 L CNN "digikey part number"
-F 12 "0.9mm" H 6250 10900 50  0001 L CNN "height"
-F 13 "CAPC16080X80" H 6250 11000 50  0001 L CNN "ipc land pattern name"
-F 14 "Yes" H 6250 11100 50  0001 L CNN "lead free"
-F 15 "d416e2ef1cbb0413" H 6250 11200 50  0001 L CNN "library id"
-F 16 "Samsung" H 6250 11300 50  0001 L CNN "manufacturer"
-F 17 "Ceramic" H 6250 11400 50  0001 L CNN "material"
-F 18 "0603" H 6250 11500 50  0001 L CNN "package"
-F 19 "Yes" H 6250 11600 50  0001 L CNN "rohs"
-F 20 "X7R" H 6250 11700 50  0001 L CNN "temperature characteristic"
-F 21 "0.15" H 6250 11800 50  0001 L CNN "temperature coefficient"
-F 22 "+125°C" H 6250 11900 50  0001 L CNN "temperature range high"
-F 23 "-55°C" H 6250 12000 50  0001 L CNN "temperature range low"
-F 24 "10%" H 6250 12100 50  0001 L CNN "tolerance"
-F 25 "50V" H 6250 12200 50  0001 L CNN "voltage rating"
-	1    6250 9600
+P 3300 7800
+F 0 "C4" H 3428 7746 50  0000 L CNN
+F 1 "CL10B104KB8NNNL" H 3428 7655 50  0001 L CNN
+F 2 "capacitor-lib:Samsung-CL10-09_2006-0-IPC_C" H 3300 8100 50  0001 L CNN
+F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 3300 8200 50  0001 L CNN
+F 4 "No" H 3300 8300 50  0001 L CNN "automotive"
+F 5 "100nF" H 3428 7655 50  0000 L CNN "capacitance"
+F 6 "Cap" H 3300 8500 50  0001 L CNN "category"
+F 7 "Passive Components" H 3300 8600 50  0001 L CNN "device class L1"
+F 8 "Capacitors" H 3300 8700 50  0001 L CNN "device class L2"
+F 9 "Ceramic Capacitors" H 3300 8800 50  0001 L CNN "device class L3"
+F 10 "" H 3300 8900 50  0001 L CNN "digikey description"
+F 11 "" H 3300 9000 50  0001 L CNN "digikey part number"
+F 12 "0.9mm" H 3300 9100 50  0001 L CNN "height"
+F 13 "CAPC16080X80" H 3300 9200 50  0001 L CNN "ipc land pattern name"
+F 14 "Yes" H 3300 9300 50  0001 L CNN "lead free"
+F 15 "d416e2ef1cbb0413" H 3300 9400 50  0001 L CNN "library id"
+F 16 "Samsung" H 3300 9500 50  0001 L CNN "manufacturer"
+F 17 "Ceramic" H 3300 9600 50  0001 L CNN "material"
+F 18 "0603" H 3300 9700 50  0001 L CNN "package"
+F 19 "Yes" H 3300 9800 50  0001 L CNN "rohs"
+F 20 "X7R" H 3300 9900 50  0001 L CNN "temperature characteristic"
+F 21 "0.15" H 3300 10000 50  0001 L CNN "temperature coefficient"
+F 22 "+125°C" H 3300 10100 50  0001 L CNN "temperature range high"
+F 23 "-55°C" H 3300 10200 50  0001 L CNN "temperature range low"
+F 24 "10%" H 3300 10300 50  0001 L CNN "tolerance"
+F 25 "50V" H 3300 10400 50  0001 L CNN "voltage rating"
+	1    3300 7800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6750 9500 6750 9600
-Wire Wire Line
-	6750 9500 6250 9500
-Wire Wire Line
-	6250 9500 6250 9600
-Wire Wire Line
-	6250 9500 5850 9500
-Wire Wire Line
-	5850 9500 5850 9600
-Connection ~ 6250 9500
-Wire Wire Line
-	6750 9800 6750 9850
-Wire Wire Line
-	6750 9850 6250 9850
-Wire Wire Line
-	6250 9850 6250 9800
-Wire Wire Line
-	6250 9850 5850 9850
-Wire Wire Line
-	5850 9850 5850 9800
-Connection ~ 6250 9850
-Connection ~ 5850 9500
 $Comp
 L power:+3V3 #PWR08
 U 1 1 60025455
-P 6750 9500
-F 0 "#PWR08" H 6750 9350 50  0001 C CNN
-F 1 "+3V3" H 6765 9673 50  0000 C CNN
-F 2 "" H 6750 9500 50  0001 C CNN
-F 3 "" H 6750 9500 50  0001 C CNN
-	1    6750 9500
+P 3800 7750
+F 0 "#PWR08" H 3800 7600 50  0001 C CNN
+F 1 "+3V3" H 3815 7923 50  0000 C CNN
+F 2 "" H 3800 7750 50  0001 C CNN
+F 3 "" H 3800 7750 50  0001 C CNN
+	1    3800 7750
 	1    0    0    -1  
 $EndComp
-Connection ~ 6750 9500
-Connection ~ 5850 9850
-Wire Wire Line
-	5500 9400 5450 9400
-Connection ~ 5500 9850
-Wire Wire Line
-	5500 9850 5850 9850
-Wire Wire Line
-	3250 9850 5500 9850
-Wire Wire Line
-	3250 9500 3250 9850
 $Comp
 L power:+3V3 #PWR013
 U 1 1 6002F4CC
-P 8950 5950
-F 0 "#PWR013" H 8950 5800 50  0001 C CNN
-F 1 "+3V3" H 8965 6123 50  0000 C CNN
-F 2 "" H 8950 5950 50  0001 C CNN
-F 3 "" H 8950 5950 50  0001 C CNN
-	1    8950 5950
+P 10300 5300
+F 0 "#PWR013" H 10300 5150 50  0001 C CNN
+F 1 "+3V3" H 10315 5473 50  0000 C CNN
+F 2 "" H 10300 5300 50  0001 C CNN
+F 3 "" H 10300 5300 50  0001 C CNN
+	1    10300 5300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8650 6100 8650 6000
-Wire Wire Line
-	8650 6000 8950 6000
-Wire Wire Line
-	8950 6000 8950 5950
-Wire Wire Line
-	8750 6400 8750 6300
-Wire Wire Line
-	8750 6300 8850 6300
-Wire Wire Line
-	8850 6300 8850 6400
-Wire Wire Line
-	8850 6300 8950 6300
-Wire Wire Line
-	8950 6300 8950 6400
-Connection ~ 8850 6300
-Wire Wire Line
-	8950 6300 9050 6300
-Wire Wire Line
-	9050 6300 9050 6400
-Connection ~ 8950 6300
-Wire Wire Line
-	9050 6300 9150 6300
-Wire Wire Line
-	9150 6300 9150 6400
-Connection ~ 9050 6300
-Wire Wire Line
-	8950 6300 8950 6000
-Connection ~ 8950 6000
-Wire Wire Line
-	8650 10000 8650 10100
-Wire Wire Line
-	8650 10100 8750 10100
-Wire Wire Line
-	8750 10100 8750 10000
-Wire Wire Line
-	8750 10100 8850 10100
-Wire Wire Line
-	8850 10100 8850 10000
-Connection ~ 8750 10100
-Wire Wire Line
-	8850 10100 8950 10100
-Wire Wire Line
-	8950 10100 8950 10000
-Connection ~ 8850 10100
-Wire Wire Line
-	8950 10100 9050 10100
-Wire Wire Line
-	9050 10100 9050 10000
-Connection ~ 8950 10100
-$Comp
-L power:GND #PWR012
-U 1 1 5FFAF2AA
-P 8850 10200
-F 0 "#PWR012" H 8850 9950 50  0001 C CNN
-F 1 "GND" H 8772 10163 50  0000 R CNN
-F 2 "" H 8850 10200 50  0001 C CNN
-F 3 "" H 8850 10200 50  0001 C CNN
-	1    8850 10200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8850 10100 8850 10200
 $Comp
 L Connector:Conn_01x02_Male J3
 U 1 1 6006B89E
-P 6100 7800
-F 0 "J3" H 6072 7774 50  0000 R CNN
-F 1 "Conn_01x02_Male" H 6750 7650 50  0001 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6100 7800 50  0001 C CNN
-F 3 "~" H 6100 7800 50  0001 C CNN
-	1    6100 7800
+P 4950 7700
+F 0 "J3" H 4922 7674 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 5600 7550 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4950 7700 50  0001 C CNN
+F 3 "~" H 4950 7700 50  0001 C CNN
+	1    4950 7700
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR09
 U 1 1 60076D41
-P 6300 7800
-F 0 "#PWR09" H 6300 7650 50  0001 C CNN
-F 1 "+3V3" H 6250 7950 50  0000 C CNN
-F 2 "" H 6300 7800 50  0001 C CNN
-F 3 "" H 6300 7800 50  0001 C CNN
-	1    6300 7800
+P 5150 7700
+F 0 "#PWR09" H 5150 7550 50  0001 C CNN
+F 1 "+3V3" H 5100 7850 50  0000 C CNN
+F 2 "" H 5150 7700 50  0001 C CNN
+F 3 "" H 5150 7700 50  0001 C CNN
+	1    5150 7700
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR010
 U 1 1 6007927B
-P 7950 6950
-F 0 "#PWR010" H 7950 6700 50  0001 C CNN
-F 1 "GND" H 7955 6777 50  0000 C CNN
-F 2 "" H 7950 6950 50  0001 C CNN
-F 3 "" H 7950 6950 50  0001 C CNN
-	1    7950 6950
+P 6100 9400
+F 0 "#PWR010" H 6100 9150 50  0001 C CNN
+F 1 "GND" H 6105 9227 50  0000 C CNN
+F 2 "" H 6100 9400 50  0001 C CNN
+F 3 "" H 6100 9400 50  0001 C CNN
+	1    6100 9400
 	1    0    0    -1  
 $EndComp
 $Comp
 L capacitor-lib:CL10B104KB8NNNL C7
 U 1 1 600879ED
-P 7950 6650
-F 0 "C7" H 8078 6596 50  0000 L CNN
-F 1 "CL10B104KB8NNNL" H 8078 6505 50  0001 L CNN
-F 2 "capacitor-lib:Samsung-CL10-09_2006-0-IPC_C" H 7950 6950 50  0001 L CNN
-F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 7950 7050 50  0001 L CNN
-F 4 "No" H 7950 7150 50  0001 L CNN "automotive"
-F 5 "100nF" H 8078 6505 50  0000 L CNN "capacitance"
-F 6 "Cap" H 7950 7350 50  0001 L CNN "category"
-F 7 "Passive Components" H 7950 7450 50  0001 L CNN "device class L1"
-F 8 "Capacitors" H 7950 7550 50  0001 L CNN "device class L2"
-F 9 "Ceramic Capacitors" H 7950 7650 50  0001 L CNN "device class L3"
-F 10 "" H 7950 7750 50  0001 L CNN "digikey description"
-F 11 "" H 7950 7850 50  0001 L CNN "digikey part number"
-F 12 "0.9mm" H 7950 7950 50  0001 L CNN "height"
-F 13 "CAPC16080X80" H 7950 8050 50  0001 L CNN "ipc land pattern name"
-F 14 "Yes" H 7950 8150 50  0001 L CNN "lead free"
-F 15 "d416e2ef1cbb0413" H 7950 8250 50  0001 L CNN "library id"
-F 16 "Samsung" H 7950 8350 50  0001 L CNN "manufacturer"
-F 17 "Ceramic" H 7950 8450 50  0001 L CNN "material"
-F 18 "0603" H 7950 8550 50  0001 L CNN "package"
-F 19 "Yes" H 7950 8650 50  0001 L CNN "rohs"
-F 20 "X7R" H 7950 8750 50  0001 L CNN "temperature characteristic"
-F 21 "0.15" H 7950 8850 50  0001 L CNN "temperature coefficient"
-F 22 "+125°C" H 7950 8950 50  0001 L CNN "temperature range high"
-F 23 "-55°C" H 7950 9050 50  0001 L CNN "temperature range low"
-F 24 "10%" H 7950 9150 50  0001 L CNN "tolerance"
-F 25 "50V" H 7950 9250 50  0001 L CNN "voltage rating"
-	1    7950 6650
+P 6100 9150
+F 0 "C7" H 6228 9096 50  0000 L CNN
+F 1 "CL10B104KB8NNNL" H 6228 9005 50  0001 L CNN
+F 2 "capacitor-lib:Samsung-CL10-09_2006-0-IPC_C" H 6100 9450 50  0001 L CNN
+F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 6100 9550 50  0001 L CNN
+F 4 "No" H 6100 9650 50  0001 L CNN "automotive"
+F 5 "100nF" H 6228 9005 50  0000 L CNN "capacitance"
+F 6 "Cap" H 6100 9850 50  0001 L CNN "category"
+F 7 "Passive Components" H 6100 9950 50  0001 L CNN "device class L1"
+F 8 "Capacitors" H 6100 10050 50  0001 L CNN "device class L2"
+F 9 "Ceramic Capacitors" H 6100 10150 50  0001 L CNN "device class L3"
+F 10 "" H 6100 10250 50  0001 L CNN "digikey description"
+F 11 "" H 6100 10350 50  0001 L CNN "digikey part number"
+F 12 "0.9mm" H 6100 10450 50  0001 L CNN "height"
+F 13 "CAPC16080X80" H 6100 10550 50  0001 L CNN "ipc land pattern name"
+F 14 "Yes" H 6100 10650 50  0001 L CNN "lead free"
+F 15 "d416e2ef1cbb0413" H 6100 10750 50  0001 L CNN "library id"
+F 16 "Samsung" H 6100 10850 50  0001 L CNN "manufacturer"
+F 17 "Ceramic" H 6100 10950 50  0001 L CNN "material"
+F 18 "0603" H 6100 11050 50  0001 L CNN "package"
+F 19 "Yes" H 6100 11150 50  0001 L CNN "rohs"
+F 20 "X7R" H 6100 11250 50  0001 L CNN "temperature characteristic"
+F 21 "0.15" H 6100 11350 50  0001 L CNN "temperature coefficient"
+F 22 "+125°C" H 6100 11450 50  0001 L CNN "temperature range high"
+F 23 "-55°C" H 6100 11550 50  0001 L CNN "temperature range low"
+F 24 "10%" H 6100 11650 50  0001 L CNN "tolerance"
+F 25 "50V" H 6100 11750 50  0001 L CNN "voltage rating"
+	1    6100 9150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7950 6600 7950 6650
 $Comp
 L cldg:MX_SW SW1
 U 1 1 60098C16
@@ -467,14 +228,6 @@ F 16 "" H 900 2600 50  0001 L CNN "voltage"
 	1    900  800 
 	0    1    1    0   
 $EndComp
-Text GLabel 11400 8900 2    50   Input ~ 0
-I2C_SCL
-Text GLabel 11400 9000 2    50   Input ~ 0
-I2C_SDA
-Text GLabel 10000 7800 2    50   Input ~ 0
-USB_D+
-Text GLabel 10000 7700 2    50   Input ~ 0
-USB_D-
 Wire Wire Line
 	16050 6350 16050 6500
 Wire Wire Line
@@ -595,140 +348,6 @@ Wire Wire Line
 	15400 8350 15400 8700
 Text GLabel 15400 8700 3    50   Input ~ 0
 ENCODER_A
-Text GLabel 9900 8300 2    50   Input ~ 0
-ENCODER_A
-Text GLabel 9900 8400 2    50   Input ~ 0
-ENCODER_B
-$Comp
-L Resistor-Lib:RMCF0603FT1K00 R9
-U 1 1 6001106E
-P 11050 8450
-F 0 "R9" V 11004 8555 50  0000 L CNN
-F 1 "RMCF0603FT1K00" V 11095 8555 50  0001 L CNN
-F 2 "Resistor-Libs:RESC1508X55N" H 11050 8450 50  0001 L BNN
-F 3 "" H 11050 8450 50  0001 L BNN
-F 4 "1k" V 11095 8555 50  0000 L CNN "resistance"
-	1    11050 8450
-	0    1    1    0   
-$EndComp
-$Comp
-L Resistor-Lib:RMCF0603FT1K00 R10
-U 1 1 60013A68
-P 11300 8450
-F 0 "R10" V 11254 8555 50  0000 L CNN
-F 1 "RMCF0603FT1K00" V 11345 8555 50  0001 L CNN
-F 2 "Resistor-Libs:RESC1508X55N" H 11300 8450 50  0001 L BNN
-F 3 "" H 11300 8450 50  0001 L BNN
-F 4 "1k" V 11345 8555 50  0000 L CNN "resistance"
-	1    11300 8450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	11050 8850 11050 8900
-Connection ~ 11050 8900
-Wire Wire Line
-	11050 8900 11400 8900
-Wire Wire Line
-	11300 8850 11300 9000
-Connection ~ 11300 9000
-Wire Wire Line
-	11300 9000 11400 9000
-Wire Wire Line
-	11050 8050 11050 8000
-Wire Wire Line
-	11050 8000 11200 8000
-Wire Wire Line
-	11300 8000 11300 8050
-$Comp
-L power:+3V3 #PWR014
-U 1 1 60025E0E
-P 11200 8000
-F 0 "#PWR014" H 11200 7850 50  0001 C CNN
-F 1 "+3V3" H 11215 8173 50  0000 C CNN
-F 2 "" H 11200 8000 50  0001 C CNN
-F 3 "" H 11200 8000 50  0001 C CNN
-	1    11200 8000
-	1    0    0    -1  
-$EndComp
-Connection ~ 11200 8000
-Wire Wire Line
-	11200 8000 11300 8000
-Text GLabel 11400 7350 2    50   Input ~ 0
-ROW_0
-Text GLabel 9950 8700 2    50   Input ~ 0
-ROW_1
-Wire Wire Line
-	8250 8100 7750 8100
-Text GLabel 6900 8100 0    50   Input ~ 0
-ROW_3
-Text GLabel 7150 10300 0    50   Input ~ 0
-ROW_4
-Wire Wire Line
-	8250 9400 8100 9400
-Text GLabel 7150 10100 0    50   Input ~ 0
-ROW_5
-Wire Wire Line
-	8250 9300 8000 9300
-Text GLabel 7150 9900 0    50   Input ~ 0
-ROW_6
-Text GLabel 9900 8100 2    50   Input ~ 0
-COL_0
-Text GLabel 9900 7600 2    50   Input ~ 0
-COL_1
-Text GLabel 9900 7500 2    50   Input ~ 0
-COL_2
-Text GLabel 9900 7400 2    50   Input ~ 0
-COL_3
-Text GLabel 7900 9200 0    50   Input ~ 0
-COL_4
-Text GLabel 7900 9100 0    50   Input ~ 0
-COL_5
-Wire Wire Line
-	8250 9200 7900 9200
-Text GLabel 7900 9000 0    50   Input ~ 0
-COL_6
-Wire Wire Line
-	8250 9100 7900 9100
-Text GLabel 7900 8900 0    50   Input ~ 0
-COL_7
-Wire Wire Line
-	8250 9000 7900 9000
-Text GLabel 9900 9800 2    50   Input ~ 0
-COL_8
-Wire Wire Line
-	8250 8900 7900 8900
-Text GLabel 9900 9700 2    50   Input ~ 0
-COL_9
-Text GLabel 9900 9600 2    50   Input ~ 0
-COL_10
-Text GLabel 9900 9500 2    50   Input ~ 0
-COL_11
-Text GLabel 9900 9400 2    50   Input ~ 0
-COL_12
-Text GLabel 9900 9300 2    50   Input ~ 0
-COL_13
-Text GLabel 9900 8500 2    50   Input ~ 0
-COL_14
-Text GLabel 7900 8800 0    50   Input ~ 0
-COL_15
-Text GLabel 7900 8700 0    50   Input ~ 0
-COL_16
-Wire Wire Line
-	8250 8800 7900 8800
-Text GLabel 7900 8600 0    50   Input ~ 0
-COL_17
-Wire Wire Line
-	8250 8700 7900 8700
-Text GLabel 7900 8500 0    50   Input ~ 0
-COL_18
-Text GLabel 9900 7300 2    50   Input ~ 0
-COL_19
-Text GLabel 9900 7200 2    50   Input ~ 0
-COL_20
-Text GLabel 9900 7100 2    50   Input ~ 0
-COL_21
-Text GLabel 9900 7000 2    50   Input ~ 0
-COL_22
 Text GLabel 850  1300 0    50   Input ~ 0
 ROW_0
 Text GLabel 1350 850  1    50   Input ~ 0
@@ -5576,137 +5195,14 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR04
 U 1 1 600F480E
-P 2800 7250
-F 0 "#PWR04" H 2800 7100 50  0001 C CNN
-F 1 "+5V" H 2815 7423 50  0000 C CNN
-F 2 "" H 2800 7250 50  0001 C CNN
-F 3 "" H 2800 7250 50  0001 C CNN
-	1    2800 7250
+P 2700 5950
+F 0 "#PWR04" H 2700 5800 50  0001 C CNN
+F 1 "+5V" H 2600 6050 50  0000 C CNN
+F 2 "" H 2700 5950 50  0001 C CNN
+F 3 "" H 2700 5950 50  0001 C CNN
+	1    2700 5950
 	1    0    0    -1  
 $EndComp
-$Comp
-L capacitor-lib:06035A100JAT2A C6
-U 1 1 5FF44365
-P 7050 6750
-F 0 "C6" H 6922 6604 50  0000 R CNN
-F 1 "06035A100JAT2A" H 6922 6695 50  0001 R CNN
-F 2 "capacitor-lib:AVX-GRM124-0-0-IPC_C" H 7050 7050 50  0001 L CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1E472JA01-01A.pdf" H 7050 7150 50  0001 L CNN
-F 4 "10pF" H 6750 6750 50  0000 L CNN "capacitance"
-F 5 "Cap" H 7050 7350 50  0001 L CNN "category"
-F 6 "Passive Components" H 7050 7450 50  0001 L CNN "device class L1"
-F 7 "Capacitors" H 7050 7550 50  0001 L CNN "device class L2"
-F 8 "Ceramic Capacitors" H 7050 7650 50  0001 L CNN "device class L3"
-F 9 "CAP CER 10PF 50V C0G/NP0 0603" H 7050 7750 50  0001 L CNN "digikey description"
-F 10 "478-1163-2-ND" H 7050 7850 50  0001 L CNN "digikey part number"
-F 11 "0.9mm" H 7050 7950 50  0001 L CNN "height"
-F 12 "CAPC16080X186" H 7050 8050 50  0001 L CNN "ipc land pattern name"
-F 13 "yes" H 7050 8150 50  0001 L CNN "lead free"
-F 14 "936bf8fcd50e4ef0" H 7050 8250 50  0001 L CNN "library id"
-F 15 "AVX" H 7050 8350 50  0001 L CNN "manufacturer"
-F 16 "Ceramic" H 7050 8450 50  0001 L CNN "material"
-F 17 "0603 10 pF 50 V ±5 % Tol. C0G/NP0 Surface Mount Multilayer Ceramic Capacitor" H 7050 8550 50  0001 L CNN "mouser description"
-F 18 "581-06035A100J" H 7050 8650 50  0001 L CNN "mouser part number"
-F 19 "0603" H 7050 8750 50  0001 L CNN "package"
-F 20 "yes" H 7050 8850 50  0001 L CNN "rohs"
-F 21 "0mm" H 7050 8950 50  0001 L CNN "standoff height"
-F 22 "C0G" H 7050 9050 50  0001 L CNN "temperature characteristic"
-F 23 "+125°C" H 7050 9150 50  0001 L CNN "temperature range high"
-F 24 "-55°C" H 7050 9250 50  0001 L CNN "temperature range low"
-F 25 "5%" H 7050 9350 50  0001 L CNN "tolerance"
-F 26 "50V" H 7050 9450 50  0001 L CNN "voltage rating"
-	1    7050 6750
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9550 9000 11300 9000
-Wire Wire Line
-	9550 8900 11050 8900
-Wire Wire Line
-	9550 8500 9900 8500
-Wire Wire Line
-	9550 9800 9900 9800
-Wire Wire Line
-	9550 9700 9900 9700
-Wire Wire Line
-	9550 9600 9900 9600
-Wire Wire Line
-	9550 9500 9900 9500
-Wire Wire Line
-	9550 9400 9900 9400
-Wire Wire Line
-	9550 9300 9900 9300
-Wire Wire Line
-	9550 8400 9900 8400
-Wire Wire Line
-	9550 8300 9900 8300
-Wire Wire Line
-	9550 7500 9900 7500
-Wire Wire Line
-	9550 7400 9900 7400
-Wire Wire Line
-	9550 7300 9900 7300
-Wire Wire Line
-	9550 8100 9900 8100
-Wire Wire Line
-	9550 8000 10150 8000
-Wire Wire Line
-	9550 7900 10150 7900
-Wire Wire Line
-	10000 7800 9550 7800
-Wire Wire Line
-	9550 7700 10000 7700
-Wire Wire Line
-	9550 7600 9900 7600
-$Comp
-L MCU_ST_STM32L4:STM32L433RBTx U3
-U 1 1 5FE7C7AF
-P 8950 8200
-F 0 "U3" H 9200 6350 50  0000 C CNN
-F 1 "STM32L433RBTx" H 9450 6250 50  0000 C CNN
-F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 8350 6500 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf" H 8950 8200 50  0001 C CNN
-	1    8950 8200
-	1    0    0    -1  
-$EndComp
-$Comp
-L capacitor-lib:CL10B104KB8NNNL C1
-U 1 1 604D49EA
-P 2800 7350
-F 0 "C1" H 2673 7296 50  0000 R CNN
-F 1 "CL10B104KB8NNNL" H 2800 7550 50  0001 L CNN
-F 2 "capacitor-lib:Samsung-CL10-09_2006-0-IPC_C" H 2800 7650 50  0001 L CNN
-F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 2800 7750 50  0001 L CNN
-F 4 "No" H 2800 7850 50  0001 L CNN "automotive"
-F 5 "100nF" H 2673 7205 50  0000 R CNN "capacitance"
-F 6 "Cap" H 2800 8050 50  0001 L CNN "category"
-F 7 "Passive Components" H 2800 8150 50  0001 L CNN "device class L1"
-F 8 "Capacitors" H 2800 8250 50  0001 L CNN "device class L2"
-F 9 "Ceramic Capacitors" H 2800 8350 50  0001 L CNN "device class L3"
-F 10 "0.9mm" H 2800 8650 50  0001 L CNN "height"
-F 11 "CAPC16080X80" H 2800 8750 50  0001 L CNN "ipc land pattern name"
-F 12 "Yes" H 2800 8850 50  0001 L CNN "lead free"
-F 13 "d416e2ef1cbb0413" H 2800 8950 50  0001 L CNN "library id"
-F 14 "Samsung" H 2800 9050 50  0001 L CNN "manufacturer"
-F 15 "Ceramic" H 2800 9150 50  0001 L CNN "material"
-F 16 "0603" H 2800 9250 50  0001 L CNN "package"
-F 17 "Yes" H 2800 9350 50  0001 L CNN "rohs"
-F 18 "X7R" H 2800 9450 50  0001 L CNN "temperature characteristic"
-F 19 "0.15" H 2800 9550 50  0001 L CNN "temperature coefficient"
-F 20 "+125°C" H 2800 9650 50  0001 L CNN "temperature range high"
-F 21 "-55°C" H 2800 9750 50  0001 L CNN "temperature range low"
-F 22 "10%" H 2800 9850 50  0001 L CNN "tolerance"
-F 23 "50V" H 2800 9950 50  0001 L CNN "voltage rating"
-	1    2800 7350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2800 7250 2800 7300
-Connection ~ 2800 7300
-Wire Wire Line
-	2800 7300 2800 7350
-Wire Wire Line
-	2800 7600 2800 7550
 $Comp
 L SamacSys_Parts:PEC11L-4115F-S0020 ENC1
 U 1 1 5FF3C341
@@ -5754,377 +5250,185 @@ Wire Wire Line
 	13500 7250 13600 7250
 Wire Wire Line
 	13150 7350 13600 7350
-Connection ~ 7050 6750
 Wire Wire Line
-	6900 6550 7050 6550
-Wire Wire Line
-	6900 6750 7050 6750
-Wire Wire Line
-	7600 6800 7250 6800
-Connection ~ 7050 6550
-Wire Wire Line
-	8250 8600 7900 8600
-Wire Wire Line
-	8250 8500 7900 8500
-Text GLabel 10150 7900 2    50   Input ~ 0
-SWDIO
-Text GLabel 10150 8000 2    50   Input ~ 0
-SWCLK
-Text GLabel 10100 8600 2    50   Input ~ 0
-SWO
-Wire Wire Line
-	9550 8600 10100 8600
-Wire Wire Line
-	7550 5650 7700 5650
-Text GLabel 7700 5650 2    50   Input ~ 0
+	5700 8650 5850 8650
+Text GLabel 5850 8650 2    50   Input ~ 0
 SWCLK
 Wire Wire Line
-	7550 5750 8050 5750
-Wire Wire Line
-	8050 5750 8050 5800
+	5700 8750 6200 8750
 $Comp
 L power:GND #PWR011
 U 1 1 602A2E5A
-P 8050 5800
-F 0 "#PWR011" H 8050 5550 50  0001 C CNN
-F 1 "GND" H 8055 5627 50  0000 C CNN
-F 2 "" H 8050 5800 50  0001 C CNN
-F 3 "" H 8050 5800 50  0001 C CNN
-	1    8050 5800
+P 6200 8800
+F 0 "#PWR011" H 6200 8550 50  0001 C CNN
+F 1 "GND" H 6205 8627 50  0000 C CNN
+F 2 "" H 6200 8800 50  0001 C CNN
+F 3 "" H 6200 8800 50  0001 C CNN
+	1    6200 8800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7550 5850 7700 5850
-Text GLabel 7700 5850 2    50   Input ~ 0
+	5700 8850 5850 8850
+Text GLabel 5850 8850 2    50   Input ~ 0
 SWDIO
 Wire Wire Line
-	7950 5950 7550 5950
+	6100 8950 5700 8950
 Wire Wire Line
-	7550 6050 7700 6050
-Text GLabel 7700 6050 2    50   Input ~ 0
+	5700 9050 5850 9050
+Text GLabel 5850 9050 2    50   Input ~ 0
 SWO
 Wire Wire Line
-	7950 6850 7950 6950
+	6100 9350 6100 9400
 $Comp
 L cldg:MX_Stab_225 SP1
 U 1 1 60679C49
-P 3800 5400
-F 0 "SP1" H 3978 5571 50  0000 L CNN
-F 1 "MX_Stab_225" H 3978 5480 50  0000 L CNN
-F 2 "keyboard_parts:Mx_Stab_225" H 4100 5300 50  0001 C CNN
-F 3 "" H 3800 5400 50  0001 C CNN
-	1    3800 5400
+P 5050 7150
+F 0 "SP1" H 5228 7321 50  0000 L CNN
+F 1 "MX_Stab_225" H 5228 7230 50  0000 L CNN
+F 2 "keyboard_parts:Mx_Stab_225" H 5350 7050 50  0001 C CNN
+F 3 "" H 5050 7150 50  0001 C CNN
+	1    5050 7150
 	1    0    0    -1  
 $EndComp
 $Comp
 L cldg:MX_Stab_625 SP2
 U 1 1 6067B387
-P 4800 5400
-F 0 "SP2" H 4978 5571 50  0000 L CNN
-F 1 "MX_Stab_625" H 4978 5480 50  0000 L CNN
-F 2 "keyboard_parts:Mx_Stab_625" H 5100 5300 50  0001 C CNN
-F 3 "" H 4800 5400 50  0001 C CNN
-	1    4800 5400
+P 5950 7150
+F 0 "SP2" H 6128 7321 50  0000 L CNN
+F 1 "MX_Stab_625" H 6128 7230 50  0000 L CNN
+F 2 "keyboard_parts:Mx_Stab_625" H 6250 7050 50  0001 C CNN
+F 3 "" H 5950 7150 50  0001 C CNN
+	1    5950 7150
 	1    0    0    -1  
 $EndComp
 $Comp
 L cldg:MX_Stab_275 SP5
 U 1 1 60680784
-P 5700 5400
-F 0 "SP5" H 5878 5571 50  0000 L CNN
-F 1 "MX_Stab_275" H 5878 5480 50  0000 L CNN
-F 2 "keyboard_parts:Mx_Stab_275" H 6000 5300 50  0001 C CNN
-F 3 "" H 5700 5400 50  0001 C CNN
-	1    5700 5400
+P 5950 6950
+F 0 "SP5" H 6128 7121 50  0000 L CNN
+F 1 "MX_Stab_275" H 6128 7030 50  0000 L CNN
+F 2 "keyboard_parts:Mx_Stab_275" H 6250 6850 50  0001 C CNN
+F 3 "" H 5950 6950 50  0001 C CNN
+	1    5950 6950
 	1    0    0    -1  
 $EndComp
 $Comp
 L cldg:MX_Stab_225 SP4
 U 1 1 606E9194
-P 5700 5200
-F 0 "SP4" H 5878 5371 50  0000 L CNN
-F 1 "MX_Stab_225" H 5878 5280 50  0000 L CNN
-F 2 "keyboard_parts:Mx_Stab_225" H 6000 5100 50  0001 C CNN
-F 3 "" H 5700 5200 50  0001 C CNN
-	1    5700 5200
+P 5950 6750
+F 0 "SP4" H 6128 6921 50  0000 L CNN
+F 1 "MX_Stab_225" H 6128 6830 50  0000 L CNN
+F 2 "keyboard_parts:Mx_Stab_225" H 6250 6650 50  0001 C CNN
+F 3 "" H 5950 6750 50  0001 C CNN
+	1    5950 6750
 	1    0    0    -1  
 $EndComp
 $Comp
 L cldg:MX_Stab_200 SP3
 U 1 1 606EC67F
-P 5700 4950
-F 0 "SP3" H 5878 5121 50  0000 L CNN
-F 1 "MX_Stab_200" H 5878 5030 50  0000 L CNN
-F 2 "keyboard_parts:Mx_Stab_200" H 6000 4850 50  0001 C CNN
-F 3 "" H 5700 4950 50  0001 C CNN
-	1    5700 4950
+P 5950 6550
+F 0 "SP3" H 6128 6721 50  0000 L CNN
+F 1 "MX_Stab_200" H 6128 6630 50  0000 L CNN
+F 2 "keyboard_parts:Mx_Stab_200" H 6250 6450 50  0001 C CNN
+F 3 "" H 5950 6550 50  0001 C CNN
+	1    5950 6550
 	1    0    0    -1  
 $EndComp
 $Comp
 L cldg:MX_Stab_200 SP6
 U 1 1 606EDF78
-P 14200 5250
-F 0 "SP6" H 14378 5421 50  0000 L CNN
-F 1 "MX_Stab_200" H 14378 5330 50  0000 L CNN
-F 2 "keyboard_parts:Mx_Stab_200" H 14500 5150 50  0001 C CNN
-F 3 "" H 14200 5250 50  0001 C CNN
-	1    14200 5250
+P 5050 6950
+F 0 "SP6" H 5228 7121 50  0000 L CNN
+F 1 "MX_Stab_200" H 5228 7030 50  0000 L CNN
+F 2 "keyboard_parts:Mx_Stab_200" H 5350 6850 50  0001 C CNN
+F 3 "" H 5050 6950 50  0001 C CNN
+	1    5050 6950
 	1    0    0    -1  
 $EndComp
 $Comp
 L cldg:MX_Stab_200 SP8
 U 1 1 606EEEFE
-P 14850 5100
-F 0 "SP8" V 14804 5328 50  0000 L CNN
-F 1 "MX_Stab_200" V 14895 5328 50  0000 L CNN
-F 2 "keyboard_parts:Mx_Stab_200" H 15150 5000 50  0001 C CNN
-F 3 "" H 14850 5100 50  0001 C CNN
-	1    14850 5100
+P 4850 6550
+F 0 "SP8" V 4804 6778 50  0000 L CNN
+F 1 "MX_Stab_200" V 4895 6778 50  0000 L CNN
+F 2 "keyboard_parts:Mx_Stab_200" H 5150 6450 50  0001 C CNN
+F 3 "" H 4850 6550 50  0001 C CNN
+	1    4850 6550
 	0    1    1    0   
 $EndComp
 $Comp
 L cldg:MX_Stab_200 SP7
 U 1 1 606F1E94
-P 14850 4750
-F 0 "SP7" V 14804 4978 50  0000 L CNN
-F 1 "MX_Stab_200" V 14895 4978 50  0000 L CNN
-F 2 "keyboard_parts:Mx_Stab_200" H 15150 4650 50  0001 C CNN
-F 3 "" H 14850 4750 50  0001 C CNN
-	1    14850 4750
+P 4850 6200
+F 0 "SP7" V 4804 6428 50  0000 L CNN
+F 1 "MX_Stab_200" V 4895 6428 50  0000 L CNN
+F 2 "keyboard_parts:Mx_Stab_200" H 5150 6100 50  0001 C CNN
+F 3 "" H 4850 6200 50  0001 C CNN
+	1    4850 6200
 	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9550 7000 9900 7000
-Wire Wire Line
-	9550 7100 9900 7100
-Wire Wire Line
-	9550 7200 9900 7200
-Wire Wire Line
-	10500 8800 10500 7350
-Wire Wire Line
-	10500 7350 10550 7350
-Wire Wire Line
-	9550 8800 10500 8800
-Wire Wire Line
-	11400 7350 11350 7350
-$Comp
-L Resistor-Lib:RMCF0805FT510R R8
-U 1 1 6183038F
-P 10950 7350
-F 0 "R8" H 10650 7400 50  0000 C CNN
-F 1 "RMCF0805FT510R" H 10650 7100 50  0001 L BNN
-F 2 "Resistor-Libs:RESC2012X65N" H 10650 7200 50  0001 L BNN
-F 3 "" H 10950 7350 50  0001 L BNN
-F 4 "510" H 11250 7400 50  0000 C CNN "reistance"
-	1    10950 7350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Resistor-Lib:RMCF0805FT510R R3
-U 1 1 61907867
-P 7350 8100
-F 0 "R3" H 7350 8342 50  0000 C CNN
-F 1 "RMCF0805FT510R" H 7050 7850 50  0001 L BNN
-F 2 "Resistor-Libs:RESC2012X65N" H 7050 7950 50  0001 L BNN
-F 3 "" H 7350 8100 50  0001 L BNN
-F 4 "510" H 7350 8251 50  0000 C CNN "reistance"
-	1    7350 8100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6900 8100 6950 8100
-Wire Wire Line
-	8150 9500 8250 9500
-Wire Wire Line
-	8150 9500 8150 10300
-Wire Wire Line
-	8150 10300 8000 10300
-$Comp
-L Resistor-Lib:RMCF0805FT510R R7
-U 1 1 61BF657B
-P 7600 10300
-F 0 "R7" H 7300 10350 50  0000 C CNN
-F 1 "RMCF0805FT510R" H 7300 10050 50  0001 L BNN
-F 2 "Resistor-Libs:RESC2012X65N" H 7300 10150 50  0001 L BNN
-F 3 "" H 7600 10300 50  0001 L BNN
-F 4 "510" H 7900 10350 50  0000 C CNN "reistance"
-	1    7600 10300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7150 10300 7200 10300
-$Comp
-L Resistor-Lib:RMCF0805FT510R R6
-U 1 1 61C65077
-P 7600 10100
-F 0 "R6" H 7300 10150 50  0000 C CNN
-F 1 "RMCF0805FT510R" H 7300 9850 50  0001 L BNN
-F 2 "Resistor-Libs:RESC2012X65N" H 7300 9950 50  0001 L BNN
-F 3 "" H 7600 10100 50  0001 L BNN
-F 4 "510" H 7900 10150 50  0000 C CNN "reistance"
-	1    7600 10100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7150 10100 7200 10100
-Wire Wire Line
-	7150 9900 7200 9900
-Wire Wire Line
-	8100 9400 8100 10100
-Wire Wire Line
-	8100 10100 8000 10100
-Wire Wire Line
-	8000 9300 8000 9900
-$Comp
-L Resistor-Lib:RMCF0805FT510R R5
-U 1 1 61E7DED3
-P 7600 9900
-F 0 "R5" H 7300 9950 50  0000 C CNN
-F 1 "RMCF0805FT510R" H 7300 9650 50  0001 L BNN
-F 2 "Resistor-Libs:RESC2012X65N" H 7300 9750 50  0001 L BNN
-F 3 "" H 7600 9900 50  0001 L BNN
-F 4 "510" H 7900 9950 50  0000 C CNN "reistance"
-	1    7600 9900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9550 8700 9950 8700
-$Comp
-L Resistor-Lib:RMCF0805FT510R R4
-U 1 1 602BDFC6
-P 7350 8400
-F 0 "R4" H 7050 8450 50  0000 C CNN
-F 1 "RMCF0805FT510R" H 7050 8150 50  0001 L BNN
-F 2 "Resistor-Libs:RESC2012X65N" H 7050 8250 50  0001 L BNN
-F 3 "" H 7350 8400 50  0001 L BNN
-F 4 "510" H 7650 8450 50  0000 C CNN "reistance"
-	1    7350 8400
-	1    0    0    -1  
-$EndComp
-Text GLabel 6900 8400 0    50   Input ~ 0
-ROW_2
-Wire Wire Line
-	7750 8400 8250 8400
-Wire Wire Line
-	6950 8400 6900 8400
-$Comp
-L Littlefuse:1210L150THWR F1
-U 1 1 5FFAC6B2
-P 4050 8500
-F 0 "F1" H 4250 8739 60  0000 C CNN
-F 1 "1210L150THWR" H 4250 8633 60  0000 C CNN
-F 2 "Fuse:Fuse_1210_3225Metric" H 4250 8190 60  0001 C CNN
-F 3 "" H 4050 8500 60  0000 C CNN
-	1    4050 8500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3750 8500 4050 8500
-Wire Wire Line
-	4450 8500 4550 8500
-Wire Wire Line
-	4550 8500 4550 8550
-Connection ~ 4550 8500
-$Comp
-L power:VCC #PWR0101
-U 1 1 6016A80D
-P 4750 8500
-F 0 "#PWR0101" H 4750 8350 50  0001 C CNN
-F 1 "VCC" H 4765 8673 50  0000 C CNN
-F 2 "" H 4750 8500 50  0001 C CNN
-F 3 "" H 4750 8500 50  0001 C CNN
-	1    4750 8500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4550 8500 4750 8500
-$Comp
-L Littlefuse:SMAJ9.0CA CR1
-U 1 1 60252249
-P 4500 8500
-F 0 "CR1" V 4647 8630 60  0000 L CNN
-F 1 "SMAJ9.0CA" V 4753 8630 60  0000 L CNN
-F 2 "Littlefuse:SMAJ9.0CA" H 4700 8340 60  0001 C CNN
-F 3 "" H 4500 8500 60  0000 C CNN
-	1    4500 8500
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4550 8850 4550 8900
-$Comp
-L power:Earth #PWR0104
-U 1 1 60423113
-P 4550 8900
-F 0 "#PWR0104" H 4550 8650 50  0001 C CNN
-F 1 "Earth" H 4550 8750 50  0001 C CNN
-F 2 "" H 4550 8900 50  0001 C CNN
-F 3 "~" H 4550 8900 50  0001 C CNN
-	1    4550 8900
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:Earth #PWR0106
 U 1 1 607A26D6
-P 2800 7600
-F 0 "#PWR0106" H 2800 7350 50  0001 C CNN
-F 1 "Earth" H 2800 7450 50  0001 C CNN
-F 2 "" H 2800 7600 50  0001 C CNN
-F 3 "~" H 2800 7600 50  0001 C CNN
-	1    2800 7600
+P 2350 6050
+F 0 "#PWR0106" H 2350 5800 50  0001 C CNN
+F 1 "Earth" H 2350 5900 50  0001 C CNN
+F 2 "" H 2350 6050 50  0001 C CNN
+F 3 "~" H 2350 6050 50  0001 C CNN
+	1    2350 6050
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0107
 U 1 1 607B8F03
-P 5300 8450
-F 0 "#PWR0107" H 5300 8200 50  0001 C CNN
-F 1 "GND" H 5305 8277 50  0000 C CNN
-F 2 "" H 5300 8450 50  0001 C CNN
-F 3 "" H 5300 8450 50  0001 C CNN
-	1    5300 8450
-	1    0    0    -1  
+P 2250 6950
+F 0 "#PWR0107" H 2250 6700 50  0001 C CNN
+F 1 "GND" H 2255 6777 50  0000 C CNN
+F 2 "" H 2250 6950 50  0001 C CNN
+F 3 "" H 2250 6950 50  0001 C CNN
+	1    2250 6950
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:Earth #PWR0108
 U 1 1 607C0525
-P 5800 8450
-F 0 "#PWR0108" H 5800 8200 50  0001 C CNN
-F 1 "Earth" H 5800 8300 50  0001 C CNN
-F 2 "" H 5800 8450 50  0001 C CNN
-F 3 "~" H 5800 8450 50  0001 C CNN
-	1    5800 8450
-	1    0    0    -1  
+P 1750 6950
+F 0 "#PWR0108" H 1750 6700 50  0001 C CNN
+F 1 "Earth" H 1750 6800 50  0001 C CNN
+F 2 "" H 1750 6950 50  0001 C CNN
+F 3 "~" H 1750 6950 50  0001 C CNN
+	1    1750 6950
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5300 8400 5300 8450
+	2250 6900 2250 6950
 $Comp
 L power:GND #PWR0109
 U 1 1 608A8FF5
-P 3250 9850
-F 0 "#PWR0109" H 3250 9600 50  0001 C CNN
-F 1 "GND" H 3255 9677 50  0000 C CNN
-F 2 "" H 3250 9850 50  0001 C CNN
-F 3 "" H 3250 9850 50  0001 C CNN
-	1    3250 9850
+P 1600 8100
+F 0 "#PWR0109" H 1600 7850 50  0001 C CNN
+F 1 "GND" H 1605 7927 50  0000 C CNN
+F 2 "" H 1600 8100 50  0001 C CNN
+F 3 "" H 1600 8100 50  0001 C CNN
+	1    1600 8100
 	1    0    0    -1  
 $EndComp
-Connection ~ 3250 9850
 Wire Wire Line
-	5300 8400 5350 8400
+	2250 6900 2200 6900
 Wire Wire Line
-	5750 8400 5800 8400
+	1800 6900 1750 6900
 Wire Wire Line
-	5800 8400 5800 8450
+	1750 6900 1750 6950
 $Comp
 L cldg:BBUP00160808600Y00 FB1
 U 1 1 604967EC
-P 5600 8500
-F 0 "FB1" H 5550 8825 50  0000 C CNN
-F 1 "BBUP00160808600Y00" H 5550 8734 50  0000 C CNN
-F 2 "Resistor-Libs:Yageo-RC0603-0-0-IPC_C" H 5600 8500 50  0001 C CNN
-F 3 "" H 5600 8500 50  0001 C CNN
-	1    5600 8500
-	1    0    0    -1  
+P 1950 7000
+F 0 "FB1" H 1900 7325 50  0000 C CNN
+F 1 "BBUP00160808600Y00" H 1900 7234 50  0000 C CNN
+F 2 "Resistor-Libs:Yageo-RC0603-0-0-IPC_C" H 1950 7000 50  0001 C CNN
+F 3 "" H 1950 7000 50  0001 C CNN
+	1    1950 7000
+	-1   0    0    -1  
 $EndComp
 $Comp
 L cldg:MX_SW SW106
@@ -6143,116 +5447,77 @@ Connection ~ 16050 2200
 Wire Wire Line
 	16050 2200 16050 3500
 Wire Wire Line
-	11500 5500 11500 5650
+	4950 5700 4950 5850
 $Comp
 L power:Earth #PWR0110
 U 1 1 60CD8768
-P 11500 5650
-F 0 "#PWR0110" H 11500 5400 50  0001 C CNN
-F 1 "Earth" H 11500 5500 50  0001 C CNN
-F 2 "" H 11500 5650 50  0001 C CNN
-F 3 "~" H 11500 5650 50  0001 C CNN
-	1    11500 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H3
-U 1 1 60D4C7F0
-P 11500 5400
-F 0 "H3" H 11600 5449 50  0000 L CNN
-F 1 "PCB Common Earth" H 11600 5358 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm_Pad_TopBottom" H 11500 5400 50  0001 C CNN
-F 3 "~" H 11500 5400 50  0001 C CNN
-	1    11500 5400
+P 4950 5850
+F 0 "#PWR0110" H 4950 5600 50  0001 C CNN
+F 1 "Earth" H 4950 5700 50  0001 C CNN
+F 2 "" H 4950 5850 50  0001 C CNN
+F 3 "~" H 4950 5850 50  0001 C CNN
+	1    4950 5850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 610D6F65
-P 11500 4850
-F 0 "H1" H 11600 4896 50  0000 L CNN
-F 1 "Mounting Slot" H 11600 4805 50  0000 L CNN
-F 2 "keyboard_parts:MountingHole_M2_edge" H 11500 4850 50  0001 C CNN
-F 3 "~" H 11500 4850 50  0001 C CNN
-	1    11500 4850
+P 4950 5050
+F 0 "H1" H 5050 5096 50  0000 L CNN
+F 1 "Mounting Slot" H 5050 5005 50  0000 L CNN
+F 2 "keyboard_parts:MountingHole_M2_edge" H 4950 5050 50  0001 C CNN
+F 3 "~" H 4950 5050 50  0001 C CNN
+	1    4950 5050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 610D9547
-P 11500 5100
-F 0 "H2" H 11600 5146 50  0000 L CNN
-F 1 "Mounting Slot" H 11600 5055 50  0000 L CNN
-F 2 "keyboard_parts:MountingHole_M2_edge" H 11500 5100 50  0001 C CNN
-F 3 "~" H 11500 5100 50  0001 C CNN
-	1    11500 5100
+P 4950 5300
+F 0 "H2" H 5050 5346 50  0000 L CNN
+F 1 "Mounting Slot" H 5050 5255 50  0000 L CNN
+F 2 "keyboard_parts:MountingHole_M2_edge" H 4950 5300 50  0001 C CNN
+F 3 "~" H 4950 5300 50  0001 C CNN
+	1    4950 5300
 	1    0    0    -1  
 $EndComp
-Text Label 8000 6600 0    50   ~ 0
+Text Label 6100 9100 0    50   ~ 0
 RST
 $Comp
 L capacitor-lib:CL21A475KAQNNNE C25
 U 1 1 609A6D18
-P 2850 9500
-F 0 "C25" H 2978 9446 50  0000 L CNN
-F 1 "CL21A475KAQNNNE" H 2850 9700 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2850 9800 50  0001 L CNN
-F 3 "http://www.samsungsem.com/kr/support/product-http://www.samsungsem.com/kr/support/product-search/mlcc/CL21A475KAQNNNE.jsp" H 2850 9900 50  0001 L CNN
-F 4 "4.7 µF" H 2978 9355 50  0000 L CNN "capacitance"
-F 5 "Cap" H 2850 10100 50  0001 L CNN "category"
-F 6 "CAP CER 4.7UF 25V X5R 0805" H 2850 10200 50  0001 L CNN "digikey description"
-F 7 "1276-1244-1-ND" H 2850 10300 50  0001 L CNN "digikey part number"
-F 8 "CAPC16080X80" H 2850 10400 50  0001 L CNN "ipc land pattern name"
-F 9 "yes" H 2850 10500 50  0001 L CNN "lead free"
-F 10 "704b476e59c9bc01" H 2850 10600 50  0001 L CNN "library id"
-F 11 "Samsung" H 2850 10700 50  0001 L CNN "manufacturer"
-F 12 "0805" H 2850 10800 50  0001 L CNN "package"
-F 13 "yes" H 2850 10900 50  0001 L CNN "rohs"
-F 14 "+85°C" H 2850 11000 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 2850 11100 50  0001 L CNN "temperature range low"
-F 16 "25V" H 2850 11200 50  0001 L CNN "voltage"
-	1    2850 9500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2850 9700 2850 9850
-Wire Wire Line
-	2850 9850 3250 9850
-Wire Wire Line
-	2850 9500 2850 9400
-Wire Wire Line
-	2850 9400 3000 9400
-Wire Wire Line
-	5450 9500 5850 9500
-Wire Wire Line
-	5500 9850 5500 9400
-$Comp
-L DI-LVO:AP2114HA-3.3TRG1 U1
-U 1 1 5FF9E77D
-P 3250 9400
-F 0 "U1" H 4350 9787 60  0000 C CNN
-F 1 "AP2114HA-3.3TRG1" H 4350 9681 60  0000 C CNN
-F 2 "DI-LVO:AP2114HA-3.3TRG1" H 4350 9640 60  0001 C CNN
-F 3 "" H 3250 9400 60  0000 C CNN
-	1    3250 9400
+P 1600 7800
+F 0 "C25" H 1472 7746 50  0000 R CNN
+F 1 "CL21A475KAQNNNE" H 1600 8000 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1600 8100 50  0001 L CNN
+F 3 "http://www.samsungsem.com/kr/support/product-http://www.samsungsem.com/kr/support/product-search/mlcc/CL21A475KAQNNNE.jsp" H 1600 8200 50  0001 L CNN
+F 4 "4.7 µF" H 1472 7655 50  0000 R CNN "capacitance"
+F 5 "Cap" H 1600 8400 50  0001 L CNN "category"
+F 6 "CAP CER 4.7UF 25V X5R 0805" H 1600 8500 50  0001 L CNN "digikey description"
+F 7 "1276-1244-1-ND" H 1600 8600 50  0001 L CNN "digikey part number"
+F 8 "CAPC16080X80" H 1600 8700 50  0001 L CNN "ipc land pattern name"
+F 9 "yes" H 1600 8800 50  0001 L CNN "lead free"
+F 10 "704b476e59c9bc01" H 1600 8900 50  0001 L CNN "library id"
+F 11 "Samsung" H 1600 9000 50  0001 L CNN "manufacturer"
+F 12 "0805" H 1600 9100 50  0001 L CNN "package"
+F 13 "yes" H 1600 9200 50  0001 L CNN "rohs"
+F 14 "+85°C" H 1600 9300 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 1600 9400 50  0001 L CNN "temperature range low"
+F 16 "25V" H 1600 9500 50  0001 L CNN "voltage"
+	1    1600 7800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR0102
 U 1 1 601DBF47
-P 3000 9350
-F 0 "#PWR0102" H 3000 9200 50  0001 C CNN
-F 1 "VCC" H 3015 9523 50  0000 C CNN
-F 2 "" H 3000 9350 50  0001 C CNN
-F 3 "" H 3000 9350 50  0001 C CNN
-	1    3000 9350
+P 1700 7750
+F 0 "#PWR0102" H 1700 7600 50  0001 C CNN
+F 1 "VCC" H 1715 7923 50  0000 C CNN
+F 2 "" H 1700 7750 50  0001 C CNN
+F 3 "" H 1700 7750 50  0001 C CNN
+	1    1700 7750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3000 9350 3000 9400
-Connection ~ 3000 9400
-Wire Wire Line
-	3000 9400 3250 9400
 $Sheet
 S 13900 5450 900  800 
 U 63A35802
@@ -6262,119 +5527,26 @@ F2 "I2C_SDA" B L 13900 6050 50
 F3 "I2C_SCL" B L 13900 5950 50 
 $EndSheet
 Wire Wire Line
-	7250 6800 7250 7000
+	5150 7800 5200 7800
 Wire Wire Line
-	7050 6900 7050 6750
-Connection ~ 5350 6750
+	5200 7850 5200 7800
 Wire Wire Line
-	5500 6750 5350 6750
-Connection ~ 5350 6550
-Wire Wire Line
-	5500 7000 5500 7150
-Wire Wire Line
-	7250 7000 5500 7000
-$Comp
-L cldg:ECS-480-10-33B-CKM-TR Y1
-U 1 1 5FF4EA01
-P 6200 6650
-F 0 "Y1" H 6200 7115 50  0000 C CNN
-F 1 "ECS-480-10-33B-CKM-TR" H 6200 7024 50  0000 C CNN
-F 2 "cldg:XTAL_ECS-480-10-33B-CKM-TR" H 5900 7000 50  0001 L BNN
-F 3 "" H 6200 6650 50  0001 L BNN
-F 4 "MANUFACTURER RECOMMENDATIONS" H 5900 7100 50  0001 L BNN "STANDARD"
-F 5 "ECS Inc" H 5900 7200 50  0001 L BNN "MANUFACTURER"
-F 6 "2017" H 6350 7200 50  0001 L BNN "PARTREV"
-	1    6200 6650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5350 6750 5350 6900
-Wire Wire Line
-	5500 6550 5350 6550
-$Comp
-L capacitor-lib:06035A100JAT2A C3
-U 1 1 60087526
-P 5350 6750
-F 0 "C3" H 5477 6604 50  0000 L CNN
-F 1 "06035A100JAT2A" H 5477 6695 50  0001 L CNN
-F 2 "capacitor-lib:AVX-GRM124-0-0-IPC_C" H 5350 7050 50  0001 L CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1E472JA01-01A.pdf" H 5350 7150 50  0001 L CNN
-F 4 "10pF" H 5500 6750 50  0000 L CNN "capacitance"
-F 5 "Cap" H 5350 7350 50  0001 L CNN "category"
-F 6 "Passive Components" H 5350 7450 50  0001 L CNN "device class L1"
-F 7 "Capacitors" H 5350 7550 50  0001 L CNN "device class L2"
-F 8 "Ceramic Capacitors" H 5350 7650 50  0001 L CNN "device class L3"
-F 9 "CAP CER 10PF 50V C0G/NP0 0603" H 5350 7750 50  0001 L CNN "digikey description"
-F 10 "478-1163-2-ND" H 5350 7850 50  0001 L CNN "digikey part number"
-F 11 "0.9mm" H 5350 7950 50  0001 L CNN "height"
-F 12 "CAPC16080X186" H 5350 8050 50  0001 L CNN "ipc land pattern name"
-F 13 "yes" H 5350 8150 50  0001 L CNN "lead free"
-F 14 "936bf8fcd50e4ef0" H 5350 8250 50  0001 L CNN "library id"
-F 15 "AVX" H 5350 8350 50  0001 L CNN "manufacturer"
-F 16 "Ceramic" H 5350 8450 50  0001 L CNN "material"
-F 17 "0603 10 pF 50 V ±5 % Tol. C0G/NP0 Surface Mount Multilayer Ceramic Capacitor" H 5350 8550 50  0001 L CNN "mouser description"
-F 18 "581-06035A100J" H 5350 8650 50  0001 L CNN "mouser part number"
-F 19 "0603" H 5350 8750 50  0001 L CNN "package"
-F 20 "yes" H 5350 8850 50  0001 L CNN "rohs"
-F 21 "0mm" H 5350 8950 50  0001 L CNN "standoff height"
-F 22 "C0G" H 5350 9050 50  0001 L CNN "temperature characteristic"
-F 23 "+125°C" H 5350 9150 50  0001 L CNN "temperature range high"
-F 24 "-55°C" H 5350 9250 50  0001 L CNN "temperature range low"
-F 25 "5%" H 5350 9350 50  0001 L CNN "tolerance"
-F 26 "50V" H 5350 9450 50  0001 L CNN "voltage rating"
-	1    5350 6750
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6300 7900 6350 7900
-Wire Wire Line
-	7600 6800 7600 7800
-Wire Wire Line
-	7600 7800 8250 7800
-Wire Wire Line
-	7750 6550 7750 7700
-Wire Wire Line
-	7750 7700 8250 7700
-Wire Wire Line
-	7050 6550 7750 6550
-Wire Wire Line
-	6350 7950 6350 7900
-Connection ~ 6350 7900
-Wire Wire Line
-	6350 7900 8250 7900
-Wire Wire Line
-	6350 8750 6350 8850
-$Comp
-L Connector:Conn_01x06_Male J2
-U 1 1 621CEF5F
-P 7350 5850
-F 0 "J2" H 7458 6231 50  0000 C CNN
-F 1 "Conn_01x06_Male" H 7458 6140 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 7350 5850 50  0001 C CNN
-F 3 "~" H 7350 5850 50  0001 C CNN
-	1    7350 5850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7950 5950 7950 6600
-Connection ~ 7950 6600
+	5200 8650 5200 8750
 $Comp
 L power:+3V3 #PWR05
 U 1 1 62499D89
-P 7650 6200
-F 0 "#PWR05" H 7650 6050 50  0001 C CNN
-F 1 "+3V3" H 7665 6373 50  0000 C CNN
-F 2 "" H 7650 6200 50  0001 C CNN
-F 3 "" H 7650 6200 50  0001 C CNN
-	1    7650 6200
+P 5800 9200
+F 0 "#PWR05" H 5800 9050 50  0001 C CNN
+F 1 "+3V3" H 5815 9373 50  0000 C CNN
+F 2 "" H 5800 9200 50  0001 C CNN
+F 3 "" H 5800 9200 50  0001 C CNN
+	1    5800 9200
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7650 6150 7650 6200
+	5800 9150 5800 9200
 Wire Wire Line
-	7650 6150 7550 6150
-Wire Wire Line
-	7950 6600 8250 6600
+	5800 9150 5700 9150
 Text GLabel 16050 8700 3    50   Input ~ 0
 ENCODER_B
 Connection ~ 16050 8600
@@ -6411,216 +5583,1103 @@ $EndComp
 $Comp
 L Resistor-Lib:RNCP0603FTD10K0 R23
 U 1 1 62F6D73A
-P 6350 8350
-F 0 "R23" V 6304 8455 50  0000 L CNN
-F 1 "RNCP0603FTD10K0" H 6050 8150 50  0001 L BNN
-F 2 "Resistor-Libs:RESC1508X50N" H 6350 8350 50  0001 L BNN
-F 3 "" H 6350 8350 50  0001 L BNN
-F 4 "10k" V 6395 8455 50  0000 L CNN "resistance"
-	1    6350 8350
+P 5200 8250
+F 0 "R23" V 5154 8355 50  0000 L CNN
+F 1 "RNCP0603FTD10K0" H 4900 8050 50  0001 L BNN
+F 2 "Resistor-Libs:RESC1508X50N" H 5200 8250 50  0001 L BNN
+F 3 "" H 5200 8250 50  0001 L BNN
+F 4 "10k" V 5245 8355 50  0000 L CNN "resistance"
+	1    5200 8250
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0111
 U 1 1 63063077
-P 6350 8850
-F 0 "#PWR0111" H 6350 8600 50  0001 C CNN
-F 1 "GND" H 6355 8677 50  0000 C CNN
-F 2 "" H 6350 8850 50  0001 C CNN
-F 3 "" H 6350 8850 50  0001 C CNN
-	1    6350 8850
+P 5200 8750
+F 0 "#PWR0111" H 5200 8500 50  0001 C CNN
+F 1 "GND" H 5205 8577 50  0000 C CNN
+F 2 "" H 5200 8750 50  0001 C CNN
+F 3 "" H 5200 8750 50  0001 C CNN
+	1    5200 8750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1900 6950 1950 6950
-Wire Wire Line
-	1900 7050 1950 7050
-Wire Wire Line
-	2450 7050 2500 7050
-Wire Wire Line
-	2000 6650 2000 6750
-Connection ~ 5350 6900
-Wire Wire Line
-	5350 6900 7050 6900
-Wire Wire Line
-	5200 6550 5350 6550
-Wire Wire Line
-	5500 7150 5200 7150
-$Comp
-L power:GND #PWR07
-U 1 1 6065E993
-P 5350 6900
-F 0 "#PWR07" H 5350 6650 50  0001 C CNN
-F 1 "GND" H 5355 6727 50  0000 C CNN
-F 2 "" H 5350 6900 50  0001 C CNN
-F 3 "" H 5350 6900 50  0001 C CNN
-	1    5350 6900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5200 7150 5200 6550
-Text Label 3850 7000 0    50   ~ 0
+Text Label 3400 5800 0    50   ~ 0
 USB-
-Text Label 3800 7400 0    50   ~ 0
+Text Label 3400 6200 0    50   ~ 0
 USB+
 Wire Wire Line
-	4700 7000 4750 7000
+	4300 5800 4350 5800
 Wire Wire Line
-	4700 7400 4750 7400
+	4300 6200 4350 6200
 $Comp
 L Resistor-Lib:MCT06030Z0000ZP500 R22
 U 1 1 609B3AF3
-P 4300 7000
-F 0 "R22" H 4300 7242 50  0000 C CNN
-F 1 "MCT06030Z0000ZP500" H 4000 6800 50  0001 L BNN
-F 2 "Resistor-Libs:RESC1508X55N" H 4300 7000 50  0001 L BNN
-F 3 "" H 4300 7000 50  0001 L BNN
-F 4 "0" H 4300 7151 50  0000 C CNN "resistance"
-	1    4300 7000
+P 3900 5800
+F 0 "R22" H 3900 6042 50  0000 C CNN
+F 1 "MCT06030Z0000ZP500" H 3600 5600 50  0001 L BNN
+F 2 "Resistor-Libs:RESC1508X55N" H 3900 5800 50  0001 L BNN
+F 3 "" H 3900 5800 50  0001 L BNN
+F 4 "0" H 3900 5951 50  0000 C CNN "resistance"
+	1    3900 5800
 	1    0    0    1   
 $EndComp
 $Comp
 L Resistor-Lib:MCT06030Z0000ZP500 R21
 U 1 1 609B13D9
-P 4300 7400
-F 0 "R21" H 4300 7642 50  0000 C CNN
-F 1 "MCT06030Z0000ZP500" H 4000 7200 50  0001 L BNN
-F 2 "Resistor-Libs:RESC1508X55N" H 4300 7400 50  0001 L BNN
-F 3 "" H 4300 7400 50  0001 L BNN
-F 4 "0" H 4300 7551 50  0000 C CNN "resistance"
-	1    4300 7400
+P 3900 6200
+F 0 "R21" H 3900 6442 50  0000 C CNN
+F 1 "MCT06030Z0000ZP500" H 3600 6000 50  0001 L BNN
+F 2 "Resistor-Libs:RESC1508X55N" H 3900 6200 50  0001 L BNN
+F 3 "" H 3900 6200 50  0001 L BNN
+F 4 "0" H 3900 6351 50  0000 C CNN "resistance"
+	1    3900 6200
 	1    0    0    1   
 $EndComp
 $Comp
 L power:Earth #PWR0105
 U 1 1 6042522C
-P 3800 7150
-F 0 "#PWR0105" H 3800 6900 50  0001 C CNN
-F 1 "Earth" H 3800 7000 50  0001 C CNN
-F 2 "" H 3800 7150 50  0001 C CNN
-F 3 "~" H 3800 7150 50  0001 C CNN
-	1    3800 7150
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	3750 7200 3800 7200
-Wire Wire Line
-	3800 7200 3800 7150
-$Comp
-L cldg:USBLC6-2P6 U2
-U 1 1 5FF3E6C9
-P 3450 7200
-F 0 "U2" H 3450 7667 50  0000 C CNN
-F 1 "USBLC6-2P6" H 3450 7576 50  0000 C CNN
-F 2 "SOT50P160X60-6N" H 3450 7200 50  0001 L BNN
-F 3 "" H 3450 7200 50  0001 L BNN
-F 4 "ST MICROELECTRONICS" H 3450 7200 50  0001 L BNN "MANUFACTURER"
-F 5 "SOT-666" H 3450 7200 50  0001 L BNN "PACKAGE"
-F 6 "5" H 3450 7200 50  0001 L BNN "PARTREV"
-F 7 "IPC 7351B" H 3450 7200 50  0001 L BNN "STANDARD"
-	1    3450 7200
+P 3450 6000
+F 0 "#PWR0105" H 3450 5750 50  0001 C CNN
+F 1 "Earth" H 3450 5850 50  0001 C CNN
+F 2 "" H 3450 6000 50  0001 C CNN
+F 3 "~" H 3450 6000 50  0001 C CNN
+	1    3450 6000
 	-1   0    0    -1  
 $EndComp
-Text GLabel 4750 7000 2    50   Input ~ 0
+Text GLabel 4350 5800 2    50   Input ~ 0
 USB_D-
-Text GLabel 4750 7400 2    50   Input ~ 0
+Text GLabel 4350 6200 2    50   Input ~ 0
 USB_D+
-Wire Wire Line
-	3750 7000 3900 7000
-Wire Wire Line
-	3750 7400 3900 7400
-Wire Wire Line
-	2800 7300 3150 7300
-Wire Wire Line
-	1900 7250 1950 7250
-Wire Wire Line
-	1950 7250 1950 7350
-Wire Wire Line
-	1950 7350 1900 7350
-Wire Wire Line
-	1950 7250 2700 7250
-Wire Wire Line
-	2700 7250 2700 7000
-Wire Wire Line
-	2700 7000 3150 7000
-Connection ~ 1950 7250
-Wire Wire Line
-	3150 7300 3150 7200
-Wire Wire Line
-	1900 7450 1950 7450
-Wire Wire Line
-	2950 7400 3150 7400
-Wire Wire Line
-	2000 6750 1900 6750
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 J1
-U 1 1 62B23997
-P 1300 7350
-F 0 "J1" H 1407 8217 50  0000 C CNN
-F 1 "USB_C_Receptacle_USB2.0" H 1407 8126 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 1450 7350 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1450 7350 50  0001 C CNN
-	1    1300 7350
+L BekosLogo:LOGO #G1
+U 1 1 6385997F
+P 15750 4950
+F 0 "#G1" H 15750 4640 60  0001 C CNN
+F 1 "LOGO" H 15750 5260 60  0001 C CNN
+F 2 "BekosLogo:BekosLogo" H 15750 4950 50  0001 C CNN
+F 3 "" H 15750 4950 50  0001 C CNN
+	1    15750 4950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1950 7450 1950 7550
-Wire Wire Line
-	1950 7550 1900 7550
-Wire Wire Line
-	1950 7550 1950 7800
-Wire Wire Line
-	1950 7800 2950 7800
-Wire Wire Line
-	2950 7400 2950 7800
-Connection ~ 1950 7550
-Wire Wire Line
-	1000 8250 1000 8300
-Wire Wire Line
-	1000 8300 1150 8300
-Wire Wire Line
-	1300 8300 1300 8250
-Wire Wire Line
-	2500 6950 2600 6950
-Wire Wire Line
-	2600 6950 2600 7000
-Connection ~ 2500 6950
-$Comp
-L power:Earth #PWR0103
-U 1 1 63564E60
-P 2600 7000
-F 0 "#PWR0103" H 2600 6750 50  0001 C CNN
-F 1 "Earth" H 2600 6850 50  0001 C CNN
-F 2 "" H 2600 7000 50  0001 C CNN
-F 3 "~" H 2600 7000 50  0001 C CNN
-	1    2600 7000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1150 8300 1150 8350
-Connection ~ 1150 8300
-Wire Wire Line
-	1150 8300 1300 8300
+NoConn ~ 1750 6550
+NoConn ~ 1750 6450
 $Comp
 L power:Earth #PWR0117
 U 1 1 635DDF4A
-P 1150 8350
-F 0 "#PWR0117" H 1150 8100 50  0001 C CNN
-F 1 "Earth" H 1150 8200 50  0001 C CNN
-F 2 "" H 1150 8350 50  0001 C CNN
-F 3 "~" H 1150 8350 50  0001 C CNN
-	1    1150 8350
+P 1000 6950
+F 0 "#PWR0117" H 1000 6700 50  0001 C CNN
+F 1 "Earth" H 1000 6800 50  0001 C CNN
+F 2 "" H 1000 6950 50  0001 C CNN
+F 3 "~" H 1000 6950 50  0001 C CNN
+	1    1000 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 6900 1150 6900
+Connection ~ 1000 6900
+Wire Wire Line
+	1000 6900 1000 6950
+$Comp
+L power:Earth #PWR0103
+U 1 1 63564E60
+P 2450 5600
+F 0 "#PWR0103" H 2450 5350 50  0001 C CNN
+F 1 "Earth" H 2450 5450 50  0001 C CNN
+F 2 "" H 2450 5600 50  0001 C CNN
+F 3 "~" H 2450 5600 50  0001 C CNN
+	1    2450 5600
+	1    0    0    -1  
+$EndComp
+Connection ~ 2350 5550
+Wire Wire Line
+	2450 5550 2450 5600
+Wire Wire Line
+	2350 5550 2450 5550
+Wire Wire Line
+	1150 6900 1150 6850
+Wire Wire Line
+	850  6900 1000 6900
+Wire Wire Line
+	850  6850 850  6900
+Connection ~ 1800 6150
+Wire Wire Line
+	1800 6150 1750 6150
+Wire Wire Line
+	1800 6050 1800 6150
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J1
+U 1 1 62B23997
+P 1150 5950
+F 0 "J1" H 1257 6817 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 1257 6726 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 1300 5950 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1300 5950 50  0001 C CNN
+	1    1150 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 5350 1750 5350
+Wire Wire Line
+	1750 6050 1800 6050
+Connection ~ 1800 5850
+Wire Wire Line
+	1800 5950 1750 5950
+Wire Wire Line
+	1800 5850 1800 5950
+Wire Wire Line
+	1750 5850 1800 5850
+Wire Wire Line
+	1850 5250 1850 5350
+Wire Wire Line
+	2300 5650 2350 5650
+Wire Wire Line
+	1750 5650 1800 5650
+Wire Wire Line
+	1750 5550 1800 5550
+$Comp
+L capacitor-lib:CL10B104KB8NNNL C1
+U 1 1 604D49EA
+P 2600 6000
+F 0 "C1" V 2750 5900 50  0000 C CNN
+F 1 "CL10B104KB8NNNL" H 2600 6200 50  0001 L CNN
+F 2 "capacitor-lib:Samsung-CL10-09_2006-0-IPC_C" H 2600 6300 50  0001 L CNN
+F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 2600 6400 50  0001 L CNN
+F 4 "No" H 2600 6500 50  0001 L CNN "automotive"
+F 5 "100nF" V 2850 5900 50  0000 C CNN "capacitance"
+F 6 "Cap" H 2600 6700 50  0001 L CNN "category"
+F 7 "Passive Components" H 2600 6800 50  0001 L CNN "device class L1"
+F 8 "Capacitors" H 2600 6900 50  0001 L CNN "device class L2"
+F 9 "Ceramic Capacitors" H 2600 7000 50  0001 L CNN "device class L3"
+F 10 "0.9mm" H 2600 7300 50  0001 L CNN "height"
+F 11 "CAPC16080X80" H 2600 7400 50  0001 L CNN "ipc land pattern name"
+F 12 "Yes" H 2600 7500 50  0001 L CNN "lead free"
+F 13 "d416e2ef1cbb0413" H 2600 7600 50  0001 L CNN "library id"
+F 14 "Samsung" H 2600 7700 50  0001 L CNN "manufacturer"
+F 15 "Ceramic" H 2600 7800 50  0001 L CNN "material"
+F 16 "0603" H 2600 7900 50  0001 L CNN "package"
+F 17 "Yes" H 2600 8000 50  0001 L CNN "rohs"
+F 18 "X7R" H 2600 8100 50  0001 L CNN "temperature characteristic"
+F 19 "0.15" H 2600 8200 50  0001 L CNN "temperature coefficient"
+F 20 "+125°C" H 2600 8300 50  0001 L CNN "temperature range high"
+F 21 "-55°C" H 2600 8400 50  0001 L CNN "temperature range low"
+F 22 "10%" H 2600 8500 50  0001 L CNN "tolerance"
+F 23 "50V" H 2600 8600 50  0001 L CNN "voltage rating"
+	1    2600 6000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2350 5550 2350 5650
+Wire Wire Line
+	2300 5550 2350 5550
+$Comp
+L Resistor-Lib:RC0603FR-075K1L R2
+U 1 1 5FF6B199
+P 1700 5650
+F 0 "R2" H 2050 5550 50  0000 C CNN
+F 1 "RC0603FR-075K1L" H 2050 5774 50  0001 C CNN
+F 2 "Resistor-Libs:Yageo-RC0603-0-0-IPC_C" H 1700 6050 50  0001 L CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 1700 6150 50  0001 L CNN
+F 4 "541-1.00HHCT-ND" H 1700 6250 50  0001 L CNN "approved alternate part number"
+F 5 "Res" H 1700 6350 50  0001 L CNN "category"
+F 6 "Thick Film" H 1700 6450 50  0001 L CNN "composition"
+F 7 "Passive Components" H 1700 6550 50  0001 L CNN "device class L1"
+F 8 "Resistors" H 1700 6650 50  0001 L CNN "device class L2"
+F 9 "Chip SMD Resistors" H 1700 6750 50  0001 L CNN "device class L3"
+F 10 "RES SMD 5.1K OHM 1% 1/10W 0603" H 1700 6850 50  0001 L CNN "digikey description"
+F 11 "311-5.10KHRDKR-ND" H 1700 6950 50  0001 L CNN "digikey part number"
+F 12 "0.5mm" H 1700 7050 50  0001 L CNN "height"
+F 13 "RESC15585X45" H 1700 7150 50  0001 L CNN "ipc land pattern name"
+F 14 "yes" H 1700 7250 50  0001 L CNN "lead free"
+F 15 "e0df13eb3ce636e9" H 1700 7350 50  0001 L CNN "library id"
+F 16 "Yageo" H 1700 7450 50  0001 L CNN "manufacturer"
+F 17 "Thick Film Resistors 5.1K OHM 1%" H 1700 7550 50  0001 L CNN "mouser description"
+F 18 "603-RC0603FR-075K1L" H 1700 7650 50  0001 L CNN "mouser part number"
+F 19 "0603 (1608 Metric)" H 1700 7750 50  0001 L CNN "package"
+F 20 "100mW" H 1700 7850 50  0001 L CNN "power"
+F 21 "0.1W" H 1700 7950 50  0001 L CNN "power rating"
+F 22 "5.1kΩ" H 2050 5500 50  0000 C CNN "resistance"
+F 23 "yes" H 1700 8150 50  0001 L CNN "rohs"
+F 24 "RC" H 1700 8250 50  0001 L CNN "series"
+F 25 "0mm" H 1700 8350 50  0001 L CNN "standoff height"
+F 26 "100ppm/°C" H 1700 8450 50  0001 L CNN "temperature coefficient"
+F 27 "+155°C" H 1700 8550 50  0001 L CNN "temperature range high"
+F 28 "-55°C" H 1700 8650 50  0001 L CNN "temperature range low"
+F 29 "1%" H 1700 8750 50  0001 L CNN "tolerance"
+F 30 "75V" H 1700 8850 50  0001 L CNN "voltage"
+F 31 "75V" H 1700 8950 50  0001 L CNN "voltage rating"
+	1    1700 5650
 	1    0    0    -1  
 $EndComp
 $Comp
-L BekosLogo:LOGO #G?
-U 1 1 6385997F
-P 10250 5250
-F 0 "#G?" H 10250 4940 60  0001 C CNN
-F 1 "LOGO" H 10250 5560 60  0001 C CNN
-F 2 "BekosLogo:BekosLogo" H 10250 5250 50  0001 C CNN
-F 3 "" H 10250 5250 50  0001 C CNN
-	1    10250 5250
+L Resistor-Lib:RC0603FR-075K1L R1
+U 1 1 5FF638A1
+P 1700 5550
+F 0 "R1" H 2050 5750 50  0000 C CNN
+F 1 "RC0603FR-075K1L" H 2050 5674 50  0001 C CNN
+F 2 "Resistor-Libs:Yageo-RC0603-0-0-IPC_C" H 1700 5950 50  0001 L CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 1700 6050 50  0001 L CNN
+F 4 "541-1.00HHCT-ND" H 1700 6150 50  0001 L CNN "approved alternate part number"
+F 5 "Res" H 1700 6250 50  0001 L CNN "category"
+F 6 "Thick Film" H 1700 6350 50  0001 L CNN "composition"
+F 7 "Passive Components" H 1700 6450 50  0001 L CNN "device class L1"
+F 8 "Resistors" H 1700 6550 50  0001 L CNN "device class L2"
+F 9 "Chip SMD Resistors" H 1700 6650 50  0001 L CNN "device class L3"
+F 10 "RES SMD 5.1K OHM 1% 1/10W 0603" H 1700 6750 50  0001 L CNN "digikey description"
+F 11 "311-5.10KHRDKR-ND" H 1700 6850 50  0001 L CNN "digikey part number"
+F 12 "0.5mm" H 1700 6950 50  0001 L CNN "height"
+F 13 "RESC15585X45" H 1700 7050 50  0001 L CNN "ipc land pattern name"
+F 14 "yes" H 1700 7150 50  0001 L CNN "lead free"
+F 15 "e0df13eb3ce636e9" H 1700 7250 50  0001 L CNN "library id"
+F 16 "Yageo" H 1700 7350 50  0001 L CNN "manufacturer"
+F 17 "Thick Film Resistors 5.1K OHM 1%" H 1700 7450 50  0001 L CNN "mouser description"
+F 18 "603-RC0603FR-075K1L" H 1700 7550 50  0001 L CNN "mouser part number"
+F 19 "0603 (1608 Metric)" H 1700 7650 50  0001 L CNN "package"
+F 20 "100mW" H 1700 7750 50  0001 L CNN "power"
+F 21 "0.1W" H 1700 7850 50  0001 L CNN "power rating"
+F 22 "5.1kΩ" H 2050 5650 50  0000 C CNN "resistance"
+F 23 "yes" H 1700 8050 50  0001 L CNN "rohs"
+F 24 "RC" H 1700 8150 50  0001 L CNN "series"
+F 25 "0mm" H 1700 8250 50  0001 L CNN "standoff height"
+F 26 "100ppm/°C" H 1700 8350 50  0001 L CNN "temperature coefficient"
+F 27 "+155°C" H 1700 8450 50  0001 L CNN "temperature range high"
+F 28 "-55°C" H 1700 8550 50  0001 L CNN "temperature range low"
+F 29 "1%" H 1700 8650 50  0001 L CNN "tolerance"
+F 30 "75V" H 1700 8750 50  0001 L CNN "voltage"
+F 31 "75V" H 1700 8850 50  0001 L CNN "voltage rating"
+	1    1700 5550
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:+5V #PWR01
+U 1 1 5FF35DFE
+P 1850 5250
+F 0 "#PWR01" H 1850 5100 50  0001 C CNN
+F 1 "+5V" H 1865 5423 50  0000 C CNN
+F 2 "" H 1850 5250 50  0001 C CNN
+F 3 "" H 1850 5250 50  0001 C CNN
+	1    1850 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 6200 3500 6200
+Wire Wire Line
+	3350 6000 3450 6000
+Wire Wire Line
+	3350 5800 3500 5800
+Wire Wire Line
+	2200 6150 2200 6200
+Wire Wire Line
+	2200 6200 2750 6200
+Wire Wire Line
+	1800 6150 2200 6150
+Wire Wire Line
+	2200 5850 2200 5800
+Wire Wire Line
+	2200 5800 2750 5800
+Wire Wire Line
+	1800 5850 2200 5850
+Wire Wire Line
+	2750 6000 2700 6000
+Wire Wire Line
+	2700 5950 2700 6000
+Connection ~ 2700 6000
+$Comp
+L cldg:USBLC6-2P6 U2
+U 1 1 5FF3E6C9
+P 3050 6000
+F 0 "U2" H 3050 6467 50  0000 C CNN
+F 1 "USBLC6-2P6" H 3050 6376 50  0000 C CNN
+F 2 "SOT50P160X60-6N" H 3050 6000 50  0001 L BNN
+F 3 "" H 3050 6000 50  0001 L BNN
+F 4 "ST MICROELECTRONICS" H 3050 6000 50  0001 L BNN "MANUFACTURER"
+F 5 "SOT-666" H 3050 6000 50  0001 L BNN "PACKAGE"
+F 6 "5" H 3050 6000 50  0001 L BNN "PARTREV"
+F 7 "IPC 7351B" H 3050 6000 50  0001 L BNN "STANDARD"
+	1    3050 6000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 6000 2600 6000
+Wire Wire Line
+	2400 6000 2350 6000
+Wire Wire Line
+	2350 6000 2350 6050
+$Comp
+L power:+5V #PWR03
+U 1 1 5FFA23B6
+P 2550 6700
+F 0 "#PWR03" H 2550 6550 50  0001 C CNN
+F 1 "+5V" H 2565 6873 50  0000 C CNN
+F 2 "" H 2550 6700 50  0001 C CNN
+F 3 "" H 2550 6700 50  0001 C CNN
+	1    2550 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Littlefuse:1210L150THWR F1
+U 1 1 5FFAC6B2
+P 2850 6700
+F 0 "F1" H 3050 6939 60  0000 C CNN
+F 1 "1210L150THWR" H 3050 6833 60  0000 C CNN
+F 2 "Fuse:Fuse_1210_3225Metric" H 3050 6390 60  0001 C CNN
+F 3 "" H 2850 6700 60  0000 C CNN
+	1    2850 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 6700 2850 6700
+Wire Wire Line
+	3250 6700 3350 6700
+Wire Wire Line
+	3350 6700 3350 6750
+Connection ~ 3350 6700
+$Comp
+L power:VCC #PWR0101
+U 1 1 6016A80D
+P 3550 6700
+F 0 "#PWR0101" H 3550 6550 50  0001 C CNN
+F 1 "VCC" H 3565 6873 50  0000 C CNN
+F 2 "" H 3550 6700 50  0001 C CNN
+F 3 "" H 3550 6700 50  0001 C CNN
+	1    3550 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 6700 3550 6700
+$Comp
+L Littlefuse:SMAJ9.0CA CR1
+U 1 1 60252249
+P 3300 6700
+F 0 "CR1" V 3447 6830 60  0000 L CNN
+F 1 "SMAJ9.0CA" V 3553 6830 60  0000 L CNN
+F 2 "Littlefuse:SMAJ9.0CA" H 3500 6540 60  0001 C CNN
+F 3 "" H 3300 6700 60  0000 C CNN
+	1    3300 6700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3350 7050 3350 7100
+$Comp
+L power:Earth #PWR0104
+U 1 1 60423113
+P 3350 7100
+F 0 "#PWR0104" H 3350 6850 50  0001 C CNN
+F 1 "Earth" H 3350 6950 50  0001 C CNN
+F 2 "" H 3350 7100 50  0001 C CNN
+F 3 "~" H 3350 7100 50  0001 C CNN
+	1    3350 7100
+	1    0    0    -1  
+$EndComp
+Text Notes 700  7350 0    50   ~ 0
+USB C Connector with Protection
+Wire Wire Line
+	1600 8050 1600 8000
+Wire Wire Line
+	1600 7800 1700 7800
+Wire Wire Line
+	1700 7750 1700 7800
+Wire Wire Line
+	2900 7800 3300 7800
+Connection ~ 2900 7800
+Wire Wire Line
+	3300 7800 3800 7800
+Connection ~ 3300 7800
+Wire Wire Line
+	3800 7750 3800 7800
+Connection ~ 3800 7800
+Wire Wire Line
+	1600 8050 1600 8100
+Connection ~ 1600 8050
+Wire Wire Line
+	3800 8050 3800 8000
+Wire Wire Line
+	2900 8000 2900 8050
+Connection ~ 2900 8050
+Wire Wire Line
+	2900 8050 3300 8050
+Wire Wire Line
+	3300 8000 3300 8050
+Connection ~ 3300 8050
+Wire Wire Line
+	3300 8050 3800 8050
+$Comp
+L power:GND #PWR0118
+U 1 1 63AD7ABD
+P 3800 8100
+F 0 "#PWR0118" H 3800 7850 50  0001 C CNN
+F 1 "GND" H 3805 7927 50  0000 C CNN
+F 2 "" H 3800 8100 50  0001 C CNN
+F 3 "" H 3800 8100 50  0001 C CNN
+	1    3800 8100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 8050 3800 8100
+Connection ~ 3800 8050
+Connection ~ 1700 7800
+Wire Wire Line
+	2800 8050 2900 8050
+Wire Wire Line
+	2800 7800 2900 7800
+Wire Wire Line
+	1800 8050 1600 8050
+Wire Wire Line
+	1700 7800 1800 7800
+$Comp
+L DI-LVO:AP2114HA-3.3TRG1 U1
+U 1 1 5FF9E77D
+P 1050 7850
+F 0 "U1" H 2300 8187 60  0000 C CNN
+F 1 "AP2114HA-3.3TRG1" H 2300 8081 60  0000 C CNN
+F 2 "DI-LVO:AP2114HA-3.3TRG1" H 2150 8090 60  0001 C CNN
+F 3 "" H 1050 7850 60  0000 C CNN
+	1    1050 7850
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	650  8500 4750 8500
+Text Notes 700  8450 0    50   ~ 0
+LDO 5V to 3V3 Dropdown
+$Comp
+L power:GND #PWR07
+U 1 1 6065E993
+P 1650 9350
+F 0 "#PWR07" H 1650 9100 50  0001 C CNN
+F 1 "GND" H 1655 9177 50  0000 C CNN
+F 2 "" H 1650 9350 50  0001 C CNN
+F 3 "" H 1650 9350 50  0001 C CNN
+	1    1650 9350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 9000 1650 9000
+Wire Wire Line
+	1650 9350 3150 9350
+Connection ~ 1650 9350
+$Comp
+L Connector:Conn_01x06_Male J2
+U 1 1 621CEF5F
+P 5500 8850
+F 0 "J2" H 5608 9231 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 5608 9140 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 5500 8850 50  0001 C CNN
+F 3 "~" H 5500 8850 50  0001 C CNN
+	1    5500 8850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 9000 3400 9000
+$Comp
+L capacitor-lib:06035A100JAT2A C3
+U 1 1 60087526
+P 1650 9200
+F 0 "C3" H 1522 9054 50  0000 R CNN
+F 1 "06035A100JAT2A" H 1777 9145 50  0001 L CNN
+F 2 "capacitor-lib:AVX-GRM124-0-0-IPC_C" H 1650 9500 50  0001 L CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1E472JA01-01A.pdf" H 1650 9600 50  0001 L CNN
+F 4 "10pF" H 1522 9145 50  0000 R CNN "capacitance"
+F 5 "Cap" H 1650 9800 50  0001 L CNN "category"
+F 6 "Passive Components" H 1650 9900 50  0001 L CNN "device class L1"
+F 7 "Capacitors" H 1650 10000 50  0001 L CNN "device class L2"
+F 8 "Ceramic Capacitors" H 1650 10100 50  0001 L CNN "device class L3"
+F 9 "CAP CER 10PF 50V C0G/NP0 0603" H 1650 10200 50  0001 L CNN "digikey description"
+F 10 "478-1163-2-ND" H 1650 10300 50  0001 L CNN "digikey part number"
+F 11 "0.9mm" H 1650 10400 50  0001 L CNN "height"
+F 12 "CAPC16080X186" H 1650 10500 50  0001 L CNN "ipc land pattern name"
+F 13 "yes" H 1650 10600 50  0001 L CNN "lead free"
+F 14 "936bf8fcd50e4ef0" H 1650 10700 50  0001 L CNN "library id"
+F 15 "AVX" H 1650 10800 50  0001 L CNN "manufacturer"
+F 16 "Ceramic" H 1650 10900 50  0001 L CNN "material"
+F 17 "0603 10 pF 50 V ±5 % Tol. C0G/NP0 Surface Mount Multilayer Ceramic Capacitor" H 1650 11000 50  0001 L CNN "mouser description"
+F 18 "581-06035A100J" H 1650 11100 50  0001 L CNN "mouser part number"
+F 19 "0603" H 1650 11200 50  0001 L CNN "package"
+F 20 "yes" H 1650 11300 50  0001 L CNN "rohs"
+F 21 "0mm" H 1650 11400 50  0001 L CNN "standoff height"
+F 22 "C0G" H 1650 11500 50  0001 L CNN "temperature characteristic"
+F 23 "+125°C" H 1650 11600 50  0001 L CNN "temperature range high"
+F 24 "-55°C" H 1650 11700 50  0001 L CNN "temperature range low"
+F 25 "5%" H 1650 11800 50  0001 L CNN "tolerance"
+F 26 "50V" H 1650 11900 50  0001 L CNN "voltage rating"
+	1    1650 9200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1950 9000 1650 9000
+Wire Wire Line
+	1650 9200 1650 9350
+$Comp
+L cldg:ECS-480-10-33B-CKM-TR Y1
+U 1 1 5FF4EA01
+P 2650 9100
+F 0 "Y1" H 2650 9565 50  0000 C CNN
+F 1 "ECS-480-10-33B-CKM-TR" H 2650 9474 50  0000 C CNN
+F 2 "cldg:XTAL_ECS-480-10-33B-CKM-TR" H 2350 9450 50  0001 L BNN
+F 3 "" H 2650 9100 50  0001 L BNN
+F 4 "MANUFACTURER RECOMMENDATIONS" H 2350 9550 50  0001 L BNN "STANDARD"
+F 5 "ECS Inc" H 2350 9650 50  0001 L BNN "MANUFACTURER"
+F 6 "2017" H 2800 9650 50  0001 L BNN "PARTREV"
+	1    2650 9100
+	1    0    0    -1  
+$EndComp
+Connection ~ 1650 9000
+Wire Wire Line
+	1950 9200 1650 9200
+Connection ~ 1650 9200
+Wire Wire Line
+	3150 9350 3150 9200
+Connection ~ 3150 9000
+Wire Wire Line
+	3050 9200 3150 9200
+Wire Wire Line
+	3050 9000 3150 9000
+Connection ~ 3150 9200
+$Comp
+L capacitor-lib:06035A100JAT2A C6
+U 1 1 5FF44365
+P 3150 9200
+F 0 "C6" H 3022 9054 50  0000 R CNN
+F 1 "06035A100JAT2A" H 3022 9145 50  0001 R CNN
+F 2 "capacitor-lib:AVX-GRM124-0-0-IPC_C" H 3150 9500 50  0001 L CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1E472JA01-01A.pdf" H 3150 9600 50  0001 L CNN
+F 4 "10pF" H 3022 9145 50  0000 R CNN "capacitance"
+F 5 "Cap" H 3150 9800 50  0001 L CNN "category"
+F 6 "Passive Components" H 3150 9900 50  0001 L CNN "device class L1"
+F 7 "Capacitors" H 3150 10000 50  0001 L CNN "device class L2"
+F 8 "Ceramic Capacitors" H 3150 10100 50  0001 L CNN "device class L3"
+F 9 "CAP CER 10PF 50V C0G/NP0 0603" H 3150 10200 50  0001 L CNN "digikey description"
+F 10 "478-1163-2-ND" H 3150 10300 50  0001 L CNN "digikey part number"
+F 11 "0.9mm" H 3150 10400 50  0001 L CNN "height"
+F 12 "CAPC16080X186" H 3150 10500 50  0001 L CNN "ipc land pattern name"
+F 13 "yes" H 3150 10600 50  0001 L CNN "lead free"
+F 14 "936bf8fcd50e4ef0" H 3150 10700 50  0001 L CNN "library id"
+F 15 "AVX" H 3150 10800 50  0001 L CNN "manufacturer"
+F 16 "Ceramic" H 3150 10900 50  0001 L CNN "material"
+F 17 "0603 10 pF 50 V ±5 % Tol. C0G/NP0 Surface Mount Multilayer Ceramic Capacitor" H 3150 11000 50  0001 L CNN "mouser description"
+F 18 "581-06035A100J" H 3150 11100 50  0001 L CNN "mouser part number"
+F 19 "0603" H 3150 11200 50  0001 L CNN "package"
+F 20 "yes" H 3150 11300 50  0001 L CNN "rohs"
+F 21 "0mm" H 3150 11400 50  0001 L CNN "standoff height"
+F 22 "C0G" H 3150 11500 50  0001 L CNN "temperature characteristic"
+F 23 "+125°C" H 3150 11600 50  0001 L CNN "temperature range high"
+F 24 "-55°C" H 3150 11700 50  0001 L CNN "temperature range low"
+F 25 "5%" H 3150 11800 50  0001 L CNN "tolerance"
+F 26 "50V" H 3150 11900 50  0001 L CNN "voltage rating"
+	1    3150 9200
+	-1   0    0    1   
+$EndComp
+Text GLabel 1500 9000 0    50   Input ~ 0
+OSC_OUT
+Text GLabel 3400 9000 2    50   Input ~ 0
+OSC_IN
+Wire Notes Line
+	4750 4900 4750 9700
+Wire Notes Line
+	650  4900 650  9700
+Text Notes 700  9650 0    50   ~ 0
+MCU Oscillator
+Wire Wire Line
+	6100 8950 6100 9100
+Wire Wire Line
+	6200 8750 6200 8800
+Wire Wire Line
+	6100 9100 6250 9100
+Connection ~ 6100 9100
+Wire Wire Line
+	6100 9100 6100 9150
+Text GLabel 6250 9100 2    50   Input ~ 0
+RST
+Wire Wire Line
+	5200 7800 5250 7800
+Connection ~ 5200 7800
+Text GLabel 5250 7800 2    50   Input ~ 0
+BOOT0
+Text Notes 5300 7650 0    50   ~ 0
+BOOT0 Set
+Text Notes 5300 9300 0    50   ~ 0
+JTAG/RST
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 60D4C7F0
+P 4950 5600
+F 0 "H3" H 5050 5649 50  0000 L CNN
+F 1 "PCB Common Earth" H 5050 5558 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_TopBottom" H 4950 5600 50  0001 C CNN
+F 3 "~" H 4950 5600 50  0001 C CNN
+	1    4950 5600
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	6700 4900 6700 9700
+Wire Notes Line
+	650  9700 6700 9700
+Text Notes 4850 7300 0    50   ~ 0
+Stabs and Mounting Holes
+Text GLabel 10950 7250 2    50   Input ~ 0
+SWDIO
+Wire Wire Line
+	10900 7250 10950 7250
+Text GLabel 10950 6350 2    50   Input ~ 0
+COL_22
+Wire Wire Line
+	9550 5950 9600 5950
+Text GLabel 9550 5950 0    50   Input ~ 0
+RST
+Wire Wire Line
+	9550 7250 9600 7250
+Text GLabel 9550 7250 0    50   Input ~ 0
+BOOT0
+Wire Wire Line
+	9550 7150 9600 7150
+Wire Wire Line
+	9550 7050 9600 7050
+Text GLabel 9550 7050 0    50   Input ~ 0
+OSC_IN
+Text GLabel 9550 7150 0    50   Input ~ 0
+OSC_OUT
+Wire Wire Line
+	9550 7750 9600 7750
+Wire Wire Line
+	10900 8050 10950 8050
+$Comp
+L Resistor-Lib:RMCF0805FT510R R5
+U 1 1 61E7DED3
+P 7600 6200
+F 0 "R5" H 7300 6250 50  0000 C CNN
+F 1 "RMCF0805FT510R" H 7300 5950 50  0001 L BNN
+F 2 "Resistor-Libs:RESC2012X65N" H 7300 6050 50  0001 L BNN
+F 3 "" H 7600 6200 50  0001 L BNN
+F 4 "510" H 7900 6250 50  0000 C CNN "reistance"
+	1    7600 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 6000 8000 6000
+Wire Wire Line
+	7150 6200 7200 6200
+Wire Wire Line
+	7150 6000 7200 6000
+$Comp
+L Resistor-Lib:RMCF0805FT510R R6
+U 1 1 61C65077
+P 7600 6000
+F 0 "R6" H 7300 6050 50  0000 C CNN
+F 1 "RMCF0805FT510R" H 7300 5750 50  0001 L BNN
+F 2 "Resistor-Libs:RESC2012X65N" H 7300 5850 50  0001 L BNN
+F 3 "" H 7600 6000 50  0001 L BNN
+F 4 "510" H 7900 6050 50  0000 C CNN "reistance"
+	1    7600 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 5800 7200 5800
+$Comp
+L Resistor-Lib:RMCF0805FT510R R7
+U 1 1 61BF657B
+P 7600 5800
+F 0 "R7" H 7300 5850 50  0000 C CNN
+F 1 "RMCF0805FT510R" H 7300 5550 50  0001 L BNN
+F 2 "Resistor-Libs:RESC2012X65N" H 7300 5650 50  0001 L BNN
+F 3 "" H 7600 5800 50  0001 L BNN
+F 4 "510" H 7900 5850 50  0000 C CNN "reistance"
+	1    7600 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 5800 8000 5800
+Wire Wire Line
+	9550 8850 9600 8850
+Wire Wire Line
+	7150 5600 7200 5600
+$Comp
+L Resistor-Lib:RMCF0805FT510R R3
+U 1 1 61907867
+P 7600 5600
+F 0 "R3" H 7300 5650 50  0000 C CNN
+F 1 "RMCF0805FT510R" H 7300 5350 50  0001 L BNN
+F 2 "Resistor-Libs:RESC2012X65N" H 7300 5450 50  0001 L BNN
+F 3 "" H 7600 5600 50  0001 L BNN
+F 4 "510" H 7900 5650 50  0000 C CNN "reistance"
+	1    7600 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor-Lib:RMCF0805FT510R R8
+U 1 1 6183038F
+P 7600 5200
+F 0 "R8" H 7900 5150 50  0000 C CNN
+F 1 "RMCF0805FT510R" H 7300 4950 50  0001 L BNN
+F 2 "Resistor-Libs:RESC2012X65N" H 7300 5050 50  0001 L BNN
+F 3 "" H 7600 5200 50  0001 L BNN
+F 4 "510" H 7300 5150 50  0000 C CNN "reistance"
+	1    7600 5200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7150 5200 7200 5200
+Wire Wire Line
+	10900 8150 10950 8150
+Wire Wire Line
+	8050 5200 8000 5200
+Wire Wire Line
+	10900 6550 10950 6550
+Wire Wire Line
+	10900 6450 10950 6450
+Wire Wire Line
+	10900 6350 10950 6350
+Wire Wire Line
+	10900 7950 10950 7950
+Text GLabel 10950 7950 2    50   Input ~ 0
+SWO
+Text GLabel 10950 7350 2    50   Input ~ 0
+SWCLK
+Wire Wire Line
+	9600 7850 9550 7850
+Wire Wire Line
+	9600 7950 9550 7950
+$Comp
+L MCU_ST_STM32L4:STM32L433RBTx U3
+U 1 1 5FE7C7AF
+P 10300 7550
+F 0 "U3" H 10550 5700 50  0000 C CNN
+F 1 "STM32L433RBTx" H 10800 5600 50  0000 C CNN
+F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 9700 5850 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf" H 10300 7550 50  0001 C CNN
+	1    10300 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10900 6950 10950 6950
+Wire Wire Line
+	10900 7050 10950 7050
+Wire Wire Line
+	10950 7150 10900 7150
+Wire Wire Line
+	10900 7350 10950 7350
+Wire Wire Line
+	10900 7450 10950 7450
+Wire Wire Line
+	10900 6650 10950 6650
+Wire Wire Line
+	10900 6750 10950 6750
+Wire Wire Line
+	10900 6850 10950 6850
+Wire Wire Line
+	10900 7650 10950 7650
+Wire Wire Line
+	10900 7750 10950 7750
+Wire Wire Line
+	10900 8650 10950 8650
+Wire Wire Line
+	10900 8750 10950 8750
+Wire Wire Line
+	10900 8850 10950 8850
+Wire Wire Line
+	10900 8950 10950 8950
+Wire Wire Line
+	10900 9050 10950 9050
+Wire Wire Line
+	10900 9150 10950 9150
+Wire Wire Line
+	10900 7850 10950 7850
+Text GLabel 10950 6450 2    50   Input ~ 0
+COL_21
+Text GLabel 10950 6550 2    50   Input ~ 0
+COL_20
+Text GLabel 10950 6650 2    50   Input ~ 0
+COL_19
+Text GLabel 9550 7850 0    50   Input ~ 0
+COL_18
+Wire Wire Line
+	9600 8050 9550 8050
+Text GLabel 9550 7950 0    50   Input ~ 0
+COL_17
+Wire Wire Line
+	9600 8150 9550 8150
+Text GLabel 9550 8050 0    50   Input ~ 0
+COL_16
+Text GLabel 9550 8150 0    50   Input ~ 0
+COL_15
+Text GLabel 10950 7850 2    50   Input ~ 0
+COL_14
+Text GLabel 10950 8650 2    50   Input ~ 0
+COL_13
+Text GLabel 10950 8750 2    50   Input ~ 0
+COL_12
+Text GLabel 10950 8850 2    50   Input ~ 0
+COL_11
+Text GLabel 10950 8950 2    50   Input ~ 0
+COL_10
+Text GLabel 10950 9050 2    50   Input ~ 0
+COL_9
+Wire Wire Line
+	9600 8250 9550 8250
+Text GLabel 10950 9150 2    50   Input ~ 0
+COL_8
+Wire Wire Line
+	9600 8350 9550 8350
+Text GLabel 9550 8250 0    50   Input ~ 0
+COL_7
+Wire Wire Line
+	9600 8450 9550 8450
+Text GLabel 9550 8350 0    50   Input ~ 0
+COL_6
+Wire Wire Line
+	9600 8550 9550 8550
+Text GLabel 9550 8450 0    50   Input ~ 0
+COL_5
+Text GLabel 9550 8550 0    50   Input ~ 0
+COL_4
+Text GLabel 10950 6750 2    50   Input ~ 0
+COL_3
+Text GLabel 10950 6850 2    50   Input ~ 0
+COL_2
+Text GLabel 10950 6950 2    50   Input ~ 0
+COL_1
+Text GLabel 10950 7450 2    50   Input ~ 0
+COL_0
+Text GLabel 7150 6200 0    50   Input ~ 0
+ROW_6
+Wire Wire Line
+	9600 8650 9550 8650
+Text GLabel 7150 6000 0    50   Input ~ 0
+ROW_5
+Wire Wire Line
+	9600 8750 9550 8750
+Text GLabel 7150 5800 0    50   Input ~ 0
+ROW_4
+Text GLabel 7150 5600 0    50   Input ~ 0
+ROW_3
+Wire Wire Line
+	9600 7450 9550 7450
+Text GLabel 10950 8050 2    50   Input ~ 0
+ROW_1
+Text GLabel 7150 5200 0    50   Input ~ 0
+ROW_0
+$Comp
+L power:+3V3 #PWR014
+U 1 1 60025E0E
+P 7050 6850
+F 0 "#PWR014" H 7050 6700 50  0001 C CNN
+F 1 "+3V3" H 7065 7023 50  0000 C CNN
+F 2 "" H 7050 6850 50  0001 C CNN
+F 3 "" H 7050 6850 50  0001 C CNN
+	1    7050 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 6800 7200 6800
+Wire Wire Line
+	7200 7050 7150 7050
+$Comp
+L Resistor-Lib:RMCF0603FT1K00 R10
+U 1 1 60013A68
+P 7600 6800
+F 0 "R10" H 7300 6850 50  0000 C CNN
+F 1 "RMCF0603FT1K00" V 7645 6905 50  0001 L CNN
+F 2 "Resistor-Libs:RESC1508X55N" H 7600 6800 50  0001 L BNN
+F 3 "" H 7600 6800 50  0001 L BNN
+F 4 "1k" H 7900 6850 50  0000 C CNN "resistance"
+	1    7600 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor-Lib:RMCF0603FT1K00 R9
+U 1 1 6001106E
+P 7600 7050
+F 0 "R9" H 7250 7100 50  0000 L CNN
+F 1 "RMCF0603FT1K00" V 7645 7155 50  0001 L CNN
+F 2 "Resistor-Libs:RESC1508X55N" H 7600 7050 50  0001 L BNN
+F 3 "" H 7600 7050 50  0001 L BNN
+F 4 "1k" H 7850 7100 50  0000 L CNN "resistance"
+	1    7600 7050
+	1    0    0    -1  
+$EndComp
+Text GLabel 10950 7750 2    50   Input ~ 0
+ENCODER_B
+Text GLabel 10950 7650 2    50   Input ~ 0
+ENCODER_A
+Text GLabel 10950 7050 2    50   Input ~ 0
+USB_D-
+Text GLabel 10950 7150 2    50   Input ~ 0
+USB_D+
+Text GLabel 10950 8350 2    50   Input ~ 0
+I2C_SDA
+Text GLabel 10950 8250 2    50   Input ~ 0
+I2C_SCL
+Wire Wire Line
+	10200 9450 10200 9550
+$Comp
+L power:GND #PWR012
+U 1 1 5FFAF2AA
+P 10200 9550
+F 0 "#PWR012" H 10200 9300 50  0001 C CNN
+F 1 "GND" H 10122 9513 50  0000 R CNN
+F 2 "" H 10200 9550 50  0001 C CNN
+F 3 "" H 10200 9550 50  0001 C CNN
+	1    10200 9550
+	1    0    0    -1  
+$EndComp
+Connection ~ 10300 9450
+Wire Wire Line
+	10400 9450 10400 9350
+Wire Wire Line
+	10300 9450 10400 9450
+Connection ~ 10200 9450
+Wire Wire Line
+	10300 9450 10300 9350
+Wire Wire Line
+	10200 9450 10300 9450
+Connection ~ 10100 9450
+Wire Wire Line
+	10200 9450 10200 9350
+Wire Wire Line
+	10100 9450 10200 9450
+Wire Wire Line
+	10100 9450 10100 9350
+Wire Wire Line
+	10000 9450 10100 9450
+Wire Wire Line
+	10000 9350 10000 9450
+Connection ~ 10300 5350
+Wire Wire Line
+	10300 5650 10300 5350
+Connection ~ 10400 5650
+Wire Wire Line
+	10500 5650 10500 5750
+Wire Wire Line
+	10400 5650 10500 5650
+Connection ~ 10300 5650
+Wire Wire Line
+	10400 5650 10400 5750
+Wire Wire Line
+	10300 5650 10400 5650
+Connection ~ 10200 5650
+Wire Wire Line
+	10300 5650 10300 5750
+Wire Wire Line
+	10200 5650 10300 5650
+Wire Wire Line
+	10200 5650 10200 5750
+Wire Wire Line
+	10100 5650 10200 5650
+Wire Wire Line
+	10100 5750 10100 5650
+Wire Wire Line
+	10300 5350 10300 5300
+Wire Wire Line
+	10000 5350 10300 5350
+Wire Wire Line
+	10000 5450 10000 5350
+Wire Wire Line
+	10000 5750 10000 5650
+$Comp
+L capacitor-lib:CL10B104KB8NNNL C8
+U 1 1 5FFB6368
+P 10000 5450
+F 0 "C8" H 9873 5396 50  0000 R CNN
+F 1 "CL10B104KB8NNNL" H 9872 5305 50  0001 R CNN
+F 2 "capacitor-lib:Samsung-CL10-09_2006-0-IPC_C" H 10000 5750 50  0001 L CNN
+F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 10000 5850 50  0001 L CNN
+F 4 "No" H 10000 5950 50  0001 L CNN "automotive"
+F 5 "100nF" H 9873 5305 50  0000 R CNN "capacitance"
+F 6 "Cap" H 10000 6150 50  0001 L CNN "category"
+F 7 "Passive Components" H 10000 6250 50  0001 L CNN "device class L1"
+F 8 "Capacitors" H 10000 6350 50  0001 L CNN "device class L2"
+F 9 "Ceramic Capacitors" H 10000 6450 50  0001 L CNN "device class L3"
+F 10 "" H 10000 6550 50  0001 L CNN "digikey description"
+F 11 "" H 10000 6650 50  0001 L CNN "digikey part number"
+F 12 "0.9mm" H 10000 6750 50  0001 L CNN "height"
+F 13 "CAPC16080X80" H 10000 6850 50  0001 L CNN "ipc land pattern name"
+F 14 "Yes" H 10000 6950 50  0001 L CNN "lead free"
+F 15 "d416e2ef1cbb0413" H 10000 7050 50  0001 L CNN "library id"
+F 16 "Samsung" H 10000 7150 50  0001 L CNN "manufacturer"
+F 17 "Ceramic" H 10000 7250 50  0001 L CNN "material"
+F 18 "0603" H 10000 7350 50  0001 L CNN "package"
+F 19 "Yes" H 10000 7450 50  0001 L CNN "rohs"
+F 20 "X7R" H 10000 7550 50  0001 L CNN "temperature characteristic"
+F 21 "0.15" H 10000 7650 50  0001 L CNN "temperature coefficient"
+F 22 "+125°C" H 10000 7750 50  0001 L CNN "temperature range high"
+F 23 "-55°C" H 10000 7850 50  0001 L CNN "temperature range low"
+F 24 "10%" H 10000 7950 50  0001 L CNN "tolerance"
+F 25 "50V" H 10000 8050 50  0001 L CNN "voltage rating"
+	1    10000 5450
+	1    0    0    -1  
+$EndComp
+Text GLabel 8050 5600 2    50   Input ~ 0
+ROW_3_MCU
+Wire Wire Line
+	8000 5600 8050 5600
+Text GLabel 9550 7450 0    50   Input ~ 0
+ROW_3_MCU
+Text GLabel 9550 7750 0    50   Input ~ 0
+ROW_2_MCU
+Text GLabel 9550 8650 0    50   Input ~ 0
+ROW_6_MCU
+Text GLabel 8050 6200 2    50   Input ~ 0
+ROW_6_MCU
+Wire Wire Line
+	8000 6200 8050 6200
+Text GLabel 8050 6000 2    50   Input ~ 0
+ROW_5_MCU
+Text GLabel 9550 8750 0    50   Input ~ 0
+ROW_5_MCU
+Text GLabel 8050 5800 2    50   Input ~ 0
+ROW_4_MCU
+Text GLabel 9550 8850 0    50   Input ~ 0
+ROW_4_MCU
+Text GLabel 8050 5200 2    50   Input ~ 0
+ROW_0_MCU
+Text GLabel 10950 8150 2    50   Input ~ 0
+ROW_0_MCU
+Wire Wire Line
+	8000 5400 8050 5400
+Text GLabel 8050 5400 2    50   Input ~ 0
+ROW_2_MCU
+$Comp
+L Resistor-Lib:RMCF0805FT510R R4
+U 1 1 602BDFC6
+P 7600 5400
+F 0 "R4" H 7300 5450 50  0000 C CNN
+F 1 "RMCF0805FT510R" H 7300 5150 50  0001 L BNN
+F 2 "Resistor-Libs:RESC2012X65N" H 7300 5250 50  0001 L BNN
+F 3 "" H 7600 5400 50  0001 L BNN
+F 4 "510" H 7900 5450 50  0000 C CNN "reistance"
+	1    7600 5400
+	1    0    0    -1  
+$EndComp
+Text GLabel 7150 5400 0    50   Input ~ 0
+ROW_2
+Wire Wire Line
+	7200 5400 7150 5400
+Text GLabel 8050 7050 2    50   Input ~ 0
+I2C_SCL
+Text GLabel 8050 6800 2    50   Input ~ 0
+I2C_SDA
+Wire Wire Line
+	8050 7050 8000 7050
+Wire Wire Line
+	8050 6800 8000 6800
+Wire Wire Line
+	10900 8250 10950 8250
+Wire Wire Line
+	10900 8350 10950 8350
+Wire Wire Line
+	7150 6800 7150 6900
+Wire Wire Line
+	7050 6850 7050 6900
+Wire Wire Line
+	7050 6900 7150 6900
+Connection ~ 7150 6900
+Wire Wire Line
+	7150 6900 7150 7050
+Text Notes 6850 6450 0    50   ~ 0
+Matrix Current Limiting Resistors
+Text Notes 6850 7300 0    50   ~ 0
+I2C Pull-Up Resistors
+Wire Notes Line
+	8650 4900 8650 7400
+Wire Notes Line
+	650  4900 8650 4900
+Wire Notes Line
+	650  7400 8650 7400
 $EndSCHEMATC
