@@ -14,117 +14,25 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L capacitor-lib:CL10B103KB8NNNC C5
-U 1 1 5FFC329D
-P 3800 7800
-F 0 "C5" H 3928 7746 50  0000 L CNN
-F 1 "CL10B103KB8NNNC" H 3928 7655 50  0001 L CNN
-F 2 "capacitor-lib:Samsung-0603_1608_Metric-0-0-0" H 3800 8100 50  0001 L CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL10B103KB8NNNC.pdf" H 3800 8200 50  0001 L CNN
-F 4 "10nF" H 3928 7655 50  0000 L CNN "capacitance"
-F 5 "Cap" H 3800 8400 50  0001 L CNN "category"
-F 6 "CAP CER 10000PF 50V X7R 0603" H 3800 8500 50  0001 L CNN "digikey description"
-F 7 "1276-1009-1-ND" H 3800 8600 50  0001 L CNN "digikey part number"
-F 8 "CAPC16080X80" H 3800 8700 50  0001 L CNN "ipc land pattern name"
-F 9 "yes" H 3800 8800 50  0001 L CNN "lead free"
-F 10 "704b476e59c9bc01" H 3800 8900 50  0001 L CNN "library id"
-F 11 "Samsung" H 3800 9000 50  0001 L CNN "manufacturer"
-F 12 "0603" H 3800 9100 50  0001 L CNN "package"
-F 13 "yes" H 3800 9200 50  0001 L CNN "rohs"
-F 14 "+125°C" H 3800 9300 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 3800 9400 50  0001 L CNN "temperature range low"
-F 16 "50V" H 3800 9500 50  0001 L CNN "voltage"
-	1    3800 7800
-	1    0    0    -1  
-$EndComp
-$Comp
-L capacitor-lib:CL10B105KA8NNNC C2
-U 1 1 5FFCA6E4
-P 2900 7800
-F 0 "C2" H 3028 7746 50  0000 L CNN
-F 1 "CL10B105KA8NNNC" H 2772 7655 50  0001 R CNN
-F 2 "capacitor-lib:Samsung-CL10-0-0-IPC_C" H 2900 8100 50  0001 L CNN
-F 3 "http://www.samsungsem.com/global/front/downloadcms.do?path=%2F%2Fglobal%2F%2Fsupport%2F%2Fproduct-search%2F%2Fmlcc%2F%2F__icsFiles%2F%2Fafieldfile%2F%2F2018%2F%2F07%2F%2F24&fileName=CL10B105KA8NNNC.pdf" H 2900 8200 50  0001 L CNN
-F 4 "CAP CER 1UF 25V X7R 0603" H 2900 8300 50  0001 L CNN "approved alternate part number"
-F 5 "No" H 2900 8400 50  0001 L CNN "automotive"
-F 6 "1uF" H 3028 7655 50  0000 L CNN "capacitance"
-F 7 "Cap" H 2900 8600 50  0001 L CNN "category"
-F 8 "Passive Components" H 2900 8700 50  0001 L CNN "device class L1"
-F 9 "Capacitors" H 2900 8800 50  0001 L CNN "device class L2"
-F 10 "Ceramic Capacitors" H 2900 8900 50  0001 L CNN "device class L3"
-F 11 "CAP CER 1UF 25V X7R 0603" H 2900 9000 50  0001 L CNN "digikey description"
-F 12 "1276-1184-1-ND" H 2900 9100 50  0001 L CNN "digikey part number"
-F 13 "0.9mm" H 2900 9200 50  0001 L CNN "height"
-F 14 "CAPC16080X80" H 2900 9300 50  0001 L CNN "ipc land pattern name"
-F 15 "Yes" H 2900 9400 50  0001 L CNN "lead free"
-F 16 "6fd72994a5525edd" H 2900 9500 50  0001 L CNN "library id"
-F 17 "Samsung" H 2900 9600 50  0001 L CNN "manufacturer"
-F 18 "Ceramic" H 2900 9700 50  0001 L CNN "material"
-F 19 "0603" H 2900 9800 50  0001 L CNN "package"
-F 20 "Yes" H 2900 9900 50  0001 L CNN "rohs"
-F 21 "X7R" H 2900 10000 50  0001 L CNN "temperature characteristic"
-F 22 "15%" H 2900 10100 50  0001 L CNN "temperature coefficient"
-F 23 "+125°C" H 2900 10200 50  0001 L CNN "temperature range high"
-F 24 "-55°C" H 2900 10300 50  0001 L CNN "temperature range low"
-F 25 "10%" H 2900 10400 50  0001 L CNN "tolerance"
-F 26 "25V" H 2900 10500 50  0001 L CNN "voltage"
-F 27 "25V" H 2900 10600 50  0001 L CNN "voltage rating"
-	1    2900 7800
-	1    0    0    -1  
-$EndComp
-$Comp
-L capacitor-lib:CL10B104KB8NNNL C4
-U 1 1 5FFC635A
-P 3300 7800
-F 0 "C4" H 3428 7746 50  0000 L CNN
-F 1 "CL10B104KB8NNNL" H 3428 7655 50  0001 L CNN
-F 2 "capacitor-lib:Samsung-CL10-09_2006-0-IPC_C" H 3300 8100 50  0001 L CNN
-F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 3300 8200 50  0001 L CNN
-F 4 "No" H 3300 8300 50  0001 L CNN "automotive"
-F 5 "100nF" H 3428 7655 50  0000 L CNN "capacitance"
-F 6 "Cap" H 3300 8500 50  0001 L CNN "category"
-F 7 "Passive Components" H 3300 8600 50  0001 L CNN "device class L1"
-F 8 "Capacitors" H 3300 8700 50  0001 L CNN "device class L2"
-F 9 "Ceramic Capacitors" H 3300 8800 50  0001 L CNN "device class L3"
-F 10 "" H 3300 8900 50  0001 L CNN "digikey description"
-F 11 "" H 3300 9000 50  0001 L CNN "digikey part number"
-F 12 "0.9mm" H 3300 9100 50  0001 L CNN "height"
-F 13 "CAPC16080X80" H 3300 9200 50  0001 L CNN "ipc land pattern name"
-F 14 "Yes" H 3300 9300 50  0001 L CNN "lead free"
-F 15 "d416e2ef1cbb0413" H 3300 9400 50  0001 L CNN "library id"
-F 16 "Samsung" H 3300 9500 50  0001 L CNN "manufacturer"
-F 17 "Ceramic" H 3300 9600 50  0001 L CNN "material"
-F 18 "0603" H 3300 9700 50  0001 L CNN "package"
-F 19 "Yes" H 3300 9800 50  0001 L CNN "rohs"
-F 20 "X7R" H 3300 9900 50  0001 L CNN "temperature characteristic"
-F 21 "0.15" H 3300 10000 50  0001 L CNN "temperature coefficient"
-F 22 "+125°C" H 3300 10100 50  0001 L CNN "temperature range high"
-F 23 "-55°C" H 3300 10200 50  0001 L CNN "temperature range low"
-F 24 "10%" H 3300 10300 50  0001 L CNN "tolerance"
-F 25 "50V" H 3300 10400 50  0001 L CNN "voltage rating"
-	1    3300 7800
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3V3 #PWR08
 U 1 1 60025455
-P 3800 7750
-F 0 "#PWR08" H 3800 7600 50  0001 C CNN
-F 1 "+3V3" H 3815 7923 50  0000 C CNN
-F 2 "" H 3800 7750 50  0001 C CNN
-F 3 "" H 3800 7750 50  0001 C CNN
-	1    3800 7750
+P 4075 7725
+F 0 "#PWR08" H 4075 7575 50  0001 C CNN
+F 1 "+3V3" H 4090 7898 50  0000 C CNN
+F 2 "" H 4075 7725 50  0001 C CNN
+F 3 "" H 4075 7725 50  0001 C CNN
+	1    4075 7725
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR013
 U 1 1 6002F4CC
-P 10300 5300
-F 0 "#PWR013" H 10300 5150 50  0001 C CNN
-F 1 "+3V3" H 10315 5473 50  0000 C CNN
-F 2 "" H 10300 5300 50  0001 C CNN
-F 3 "" H 10300 5300 50  0001 C CNN
-	1    10300 5300
+P 14500 4800
+F 0 "#PWR013" H 14500 4650 50  0001 C CNN
+F 1 "+3V3" H 14515 4973 50  0000 C CNN
+F 2 "" H 14500 4800 50  0001 C CNN
+F 3 "" H 14500 4800 50  0001 C CNN
+	1    14500 4800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -166,7 +74,7 @@ U 1 1 600879ED
 P 6100 9150
 F 0 "C7" H 6228 9096 50  0000 L CNN
 F 1 "CL10B104KB8NNNL" H 6228 9005 50  0001 L CNN
-F 2 "capacitor-lib:Samsung-CL10-09_2006-0-IPC_C" H 6100 9450 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6100 9450 50  0001 L CNN
 F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 6100 9550 50  0001 L CNN
 F 4 "No" H 6100 9650 50  0001 L CNN "automotive"
 F 5 "100nF" H 6228 9005 50  0000 L CNN "capacitance"
@@ -204,150 +112,6 @@ F 3 "~" H 1150 1100 50  0001 C CNN
 	1    1150 900 
 	1    0    0    -1  
 $EndComp
-$Comp
-L eec-fairchild:LL4148 D1
-U 1 1 6009A28E
-P 900 800
-F 0 "D1" V 1104 878 50  0000 L CNN
-F 1 "LL4148" V 1195 878 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 900 1200 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 900 1300 50  0001 L CNN
-F 4 "Diode" H 900 1400 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 900 1500 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 900 1600 50  0001 L CNN "digikey part number"
-F 7 "yes" H 900 1700 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 900 1800 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 900 1900 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 900 2000 50  0001 L CNN "mouser part number"
-F 11 "2" H 900 2100 50  0001 L CNN "num pins"
-F 12 "SOD80" H 900 2200 50  0001 L CNN "package"
-F 13 "yes" H 900 2300 50  0001 L CNN "rohs"
-F 14 "+175°C" H 900 2400 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 900 2500 50  0001 L CNN "temperature range low"
-F 16 "" H 900 2600 50  0001 L CNN "voltage"
-	1    900  800 
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	16050 6350 16050 6500
-Wire Wire Line
-	15400 6350 15750 6350
-Wire Wire Line
-	15400 6500 15400 6350
-$Comp
-L Resistor-Lib:RNCP0603FTD10K0 R13
-U 1 1 5FECBF04
-P 16050 6900
-F 0 "R13" V 16004 7005 50  0000 L CNN
-F 1 "RNCP0603FTD10K0" H 15750 6700 50  0001 L BNN
-F 2 "Resistor-Libs:RESC1508X50N" H 16050 6900 50  0001 L BNN
-F 3 "" H 16050 6900 50  0001 L BNN
-F 4 "10k" V 16095 7005 50  0000 L CNN "resistance"
-	1    16050 6900
-	0    1    1    0   
-$EndComp
-$Comp
-L Resistor-Lib:RNCP0603FTD10K0 R11
-U 1 1 5FECA545
-P 15400 6900
-F 0 "R11" V 15354 7005 50  0000 L CNN
-F 1 "RNCP0603FTD10K0" H 15100 6700 50  0001 L BNN
-F 2 "Resistor-Libs:RESC1508X50N" H 15400 6900 50  0001 L BNN
-F 3 "" H 15400 6900 50  0001 L BNN
-F 4 "10k" V 15445 7005 50  0000 L CNN "resistance"
-	1    15400 6900
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+3V3 #PWR016
-U 1 1 5FEB4721
-P 15750 6350
-F 0 "#PWR016" H 15750 6200 50  0001 C CNN
-F 1 "+3V3" H 15765 6523 50  0000 C CNN
-F 2 "" H 15750 6350 50  0001 C CNN
-F 3 "" H 15750 6350 50  0001 C CNN
-	1    15750 6350
-	1    0    0    -1  
-$EndComp
-Connection ~ 15750 6350
-Wire Wire Line
-	15750 6350 16050 6350
-Wire Wire Line
-	14750 7300 15400 7300
-Wire Wire Line
-	16050 7400 16050 7300
-Wire Wire Line
-	14750 7400 16050 7400
-Wire Wire Line
-	15400 7300 15400 7500
-Connection ~ 15400 7300
-Wire Wire Line
-	16050 7400 16050 7500
-Connection ~ 16050 7400
-Wire Wire Line
-	15400 8300 15400 8350
-$Comp
-L capacitor-lib:CL10B103KB8NNNC C9
-U 1 1 5FF114BE
-P 15250 8350
-F 0 "C9" V 14985 8250 50  0000 C CNN
-F 1 "CL10B103KB8NNNC" V 15076 8250 50  0001 C CNN
-F 2 "capacitor-lib:Samsung-0603_1608_Metric-0-0-0" H 15250 8650 50  0001 L CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL10B103KB8NNNC.pdf" H 15250 8750 50  0001 L CNN
-F 4 "10nF" V 15076 8250 50  0000 C CNN "capacitance"
-F 5 "Cap" H 15250 8950 50  0001 L CNN "category"
-F 6 "CAP CER 10000PF 50V X7R 0603" H 15250 9050 50  0001 L CNN "digikey description"
-F 7 "1276-1009-1-ND" H 15250 9150 50  0001 L CNN "digikey part number"
-F 8 "CAPC16080X80" H 15250 9250 50  0001 L CNN "ipc land pattern name"
-F 9 "yes" H 15250 9350 50  0001 L CNN "lead free"
-F 10 "704b476e59c9bc01" H 15250 9450 50  0001 L CNN "library id"
-F 11 "Samsung" H 15250 9550 50  0001 L CNN "manufacturer"
-F 12 "0603" H 15250 9650 50  0001 L CNN "package"
-F 13 "yes" H 15250 9750 50  0001 L CNN "rohs"
-F 14 "+125°C" H 15250 9850 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 15250 9950 50  0001 L CNN "temperature range low"
-F 16 "50V" H 15250 10050 50  0001 L CNN "voltage"
-	1    15250 8350
-	0    1    1    0   
-$EndComp
-$Comp
-L capacitor-lib:CL10B103KB8NNNC C10
-U 1 1 5FF14861
-P 15250 8600
-F 0 "C10" V 15423 8500 50  0000 C CNN
-F 1 "CL10B103KB8NNNC" V 15514 8500 50  0001 C CNN
-F 2 "capacitor-lib:Samsung-0603_1608_Metric-0-0-0" H 15250 8900 50  0001 L CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL10B103KB8NNNC.pdf" H 15250 9000 50  0001 L CNN
-F 4 "10nF" V 15514 8500 50  0000 C CNN "capacitance"
-F 5 "Cap" H 15250 9200 50  0001 L CNN "category"
-F 6 "CAP CER 10000PF 50V X7R 0603" H 15250 9300 50  0001 L CNN "digikey description"
-F 7 "1276-1009-1-ND" H 15250 9400 50  0001 L CNN "digikey part number"
-F 8 "CAPC16080X80" H 15250 9500 50  0001 L CNN "ipc land pattern name"
-F 9 "yes" H 15250 9600 50  0001 L CNN "lead free"
-F 10 "704b476e59c9bc01" H 15250 9700 50  0001 L CNN "library id"
-F 11 "Samsung" H 15250 9800 50  0001 L CNN "manufacturer"
-F 12 "0603" H 15250 9900 50  0001 L CNN "package"
-F 13 "yes" H 15250 10000 50  0001 L CNN "rohs"
-F 14 "+125°C" H 15250 10100 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 15250 10200 50  0001 L CNN "temperature range low"
-F 16 "50V" H 15250 10300 50  0001 L CNN "voltage"
-	1    15250 8600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	14900 8350 15050 8350
-Wire Wire Line
-	14900 8350 14900 8600
-Wire Wire Line
-	14900 8600 15050 8600
-Connection ~ 14900 8350
-Wire Wire Line
-	15250 8350 15400 8350
-Connection ~ 15400 8350
-Wire Wire Line
-	15400 8350 15400 8700
-Text GLabel 15400 8700 3    50   Input ~ 0
-ENCODER_A
 Text GLabel 850  1300 0    50   Input ~ 0
 ROW_0
 Text GLabel 1350 850  1    50   Input ~ 0
@@ -361,28 +125,28 @@ Wire Wire Line
 Wire Wire Line
 	950  1550 900  1550
 $Comp
-L eec-fairchild:LL4148 D2
+L Diode:LL4148 D2
 U 1 1 601B6B78
-P 900 1450
-F 0 "D2" V 1104 1528 50  0000 L CNN
-F 1 "LL4148" V 1195 1528 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 900 1850 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 900 1950 50  0001 L CNN
-F 4 "Diode" H 900 2050 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 900 2150 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 900 2250 50  0001 L CNN "digikey part number"
-F 7 "yes" H 900 2350 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 900 2450 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 900 2550 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 900 2650 50  0001 L CNN "mouser part number"
-F 11 "2" H 900 2750 50  0001 L CNN "num pins"
-F 12 "SOD80" H 900 2850 50  0001 L CNN "package"
-F 13 "yes" H 900 2950 50  0001 L CNN "rohs"
-F 14 "+175°C" H 900 3050 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 900 3150 50  0001 L CNN "temperature range low"
-F 16 "" H 900 3250 50  0001 L CNN "voltage"
-	1    900  1450
-	0    1    1    0   
+P 900 1700
+F 0 "D2" V 946 1620 50  0000 R CNN
+F 1 "LL4148" V 855 1620 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 900 2100 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 900 2200 50  0001 L CNN
+F 4 "Diode" H 900 2300 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 900 2400 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 900 2500 50  0001 L CNN "digikey part number"
+F 7 "yes" H 900 2600 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 900 2700 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 900 2800 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 900 2900 50  0001 L CNN "mouser part number"
+F 11 "2" H 900 3000 50  0001 L CNN "num pins"
+F 12 "SOD80" H 900 3100 50  0001 L CNN "package"
+F 13 "yes" H 900 3200 50  0001 L CNN "rohs"
+F 14 "+175°C" H 900 3300 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 900 3400 50  0001 L CNN "temperature range low"
+F 16 "" H 900 3500 50  0001 L CNN "voltage"
+	1    900  1700
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW2
@@ -400,28 +164,28 @@ Wire Wire Line
 Wire Wire Line
 	950  2200 900  2200
 $Comp
-L eec-fairchild:LL4148 D3
+L Diode:LL4148 D3
 U 1 1 6022EB05
-P 900 2100
-F 0 "D3" V 1104 2178 50  0000 L CNN
-F 1 "LL4148" V 1195 2178 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 900 2500 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 900 2600 50  0001 L CNN
-F 4 "Diode" H 900 2700 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 900 2800 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 900 2900 50  0001 L CNN "digikey part number"
-F 7 "yes" H 900 3000 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 900 3100 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 900 3200 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 900 3300 50  0001 L CNN "mouser part number"
-F 11 "2" H 900 3400 50  0001 L CNN "num pins"
-F 12 "SOD80" H 900 3500 50  0001 L CNN "package"
-F 13 "yes" H 900 3600 50  0001 L CNN "rohs"
-F 14 "+175°C" H 900 3700 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 900 3800 50  0001 L CNN "temperature range low"
-F 16 "" H 900 3900 50  0001 L CNN "voltage"
-	1    900  2100
-	0    1    1    0   
+P 900 2350
+F 0 "D3" V 946 2270 50  0000 R CNN
+F 1 "LL4148" V 855 2270 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 900 2750 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 900 2850 50  0001 L CNN
+F 4 "Diode" H 900 2950 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 900 3050 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 900 3150 50  0001 L CNN "digikey part number"
+F 7 "yes" H 900 3250 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 900 3350 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 900 3450 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 900 3550 50  0001 L CNN "mouser part number"
+F 11 "2" H 900 3650 50  0001 L CNN "num pins"
+F 12 "SOD80" H 900 3750 50  0001 L CNN "package"
+F 13 "yes" H 900 3850 50  0001 L CNN "rohs"
+F 14 "+175°C" H 900 3950 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 900 4050 50  0001 L CNN "temperature range low"
+F 16 "" H 900 4150 50  0001 L CNN "voltage"
+	1    900  2350
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW3
@@ -444,28 +208,28 @@ Wire Wire Line
 Wire Wire Line
 	950  2850 900  2850
 $Comp
-L eec-fairchild:LL4148 D4
+L Diode:LL4148 D4
 U 1 1 6027E095
-P 900 2750
-F 0 "D4" V 1104 2828 50  0000 L CNN
-F 1 "LL4148" V 1195 2828 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 900 3150 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 900 3250 50  0001 L CNN
-F 4 "Diode" H 900 3350 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 900 3450 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 900 3550 50  0001 L CNN "digikey part number"
-F 7 "yes" H 900 3650 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 900 3750 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 900 3850 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 900 3950 50  0001 L CNN "mouser part number"
-F 11 "2" H 900 4050 50  0001 L CNN "num pins"
-F 12 "SOD80" H 900 4150 50  0001 L CNN "package"
-F 13 "yes" H 900 4250 50  0001 L CNN "rohs"
-F 14 "+175°C" H 900 4350 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 900 4450 50  0001 L CNN "temperature range low"
-F 16 "" H 900 4550 50  0001 L CNN "voltage"
-	1    900  2750
-	0    1    1    0   
+P 900 3000
+F 0 "D4" V 946 2920 50  0000 R CNN
+F 1 "LL4148" V 855 2920 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 900 3400 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 900 3500 50  0001 L CNN
+F 4 "Diode" H 900 3600 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 900 3700 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 900 3800 50  0001 L CNN "digikey part number"
+F 7 "yes" H 900 3900 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 900 4000 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 900 4100 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 900 4200 50  0001 L CNN "mouser part number"
+F 11 "2" H 900 4300 50  0001 L CNN "num pins"
+F 12 "SOD80" H 900 4400 50  0001 L CNN "package"
+F 13 "yes" H 900 4500 50  0001 L CNN "rohs"
+F 14 "+175°C" H 900 4600 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 900 4700 50  0001 L CNN "temperature range low"
+F 16 "" H 900 4800 50  0001 L CNN "voltage"
+	1    900  3000
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW4
@@ -487,28 +251,28 @@ Wire Wire Line
 Wire Wire Line
 	950  4150 900  4150
 $Comp
-L eec-fairchild:LL4148 D5
+L Diode:LL4148 D5
 U 1 1 6028A348
-P 900 4050
-F 0 "D5" V 1104 4128 50  0000 L CNN
-F 1 "LL4148" V 1195 4128 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 900 4450 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 900 4550 50  0001 L CNN
-F 4 "Diode" H 900 4650 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 900 4750 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 900 4850 50  0001 L CNN "digikey part number"
-F 7 "yes" H 900 4950 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 900 5050 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 900 5150 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 900 5250 50  0001 L CNN "mouser part number"
-F 11 "2" H 900 5350 50  0001 L CNN "num pins"
-F 12 "SOD80" H 900 5450 50  0001 L CNN "package"
-F 13 "yes" H 900 5550 50  0001 L CNN "rohs"
-F 14 "+175°C" H 900 5650 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 900 5750 50  0001 L CNN "temperature range low"
-F 16 "" H 900 5850 50  0001 L CNN "voltage"
-	1    900  4050
-	0    1    1    0   
+P 900 4300
+F 0 "D5" V 946 4220 50  0000 R CNN
+F 1 "LL4148" V 855 4220 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 900 4700 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 900 4800 50  0001 L CNN
+F 4 "Diode" H 900 4900 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 900 5000 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 900 5100 50  0001 L CNN "digikey part number"
+F 7 "yes" H 900 5200 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 900 5300 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 900 5400 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 900 5500 50  0001 L CNN "mouser part number"
+F 11 "2" H 900 5600 50  0001 L CNN "num pins"
+F 12 "SOD80" H 900 5700 50  0001 L CNN "package"
+F 13 "yes" H 900 5800 50  0001 L CNN "rohs"
+F 14 "+175°C" H 900 5900 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 900 6000 50  0001 L CNN "temperature range low"
+F 16 "" H 900 6100 50  0001 L CNN "voltage"
+	1    900  4300
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW5
@@ -538,28 +302,28 @@ COL_1
 Wire Wire Line
 	1550 3500 1500 3500
 $Comp
-L eec-fairchild:LL4148 D7
+L Diode:LL4148 D7
 U 1 1 602F2C0D
-P 1500 3400
-F 0 "D7" V 1704 3478 50  0000 L CNN
-F 1 "LL4148" V 1795 3478 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 1500 3800 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 1500 3900 50  0001 L CNN
-F 4 "Diode" H 1500 4000 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 1500 4100 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 1500 4200 50  0001 L CNN "digikey part number"
-F 7 "yes" H 1500 4300 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 1500 4400 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 1500 4500 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 1500 4600 50  0001 L CNN "mouser part number"
-F 11 "2" H 1500 4700 50  0001 L CNN "num pins"
-F 12 "SOD80" H 1500 4800 50  0001 L CNN "package"
-F 13 "yes" H 1500 4900 50  0001 L CNN "rohs"
-F 14 "+175°C" H 1500 5000 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 1500 5100 50  0001 L CNN "temperature range low"
-F 16 "" H 1500 5200 50  0001 L CNN "voltage"
-	1    1500 3400
-	0    1    1    0   
+P 1500 3650
+F 0 "D7" V 1546 3570 50  0000 R CNN
+F 1 "LL4148" V 1455 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 1500 4050 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 1500 4150 50  0001 L CNN
+F 4 "Diode" H 1500 4250 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 1500 4350 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 1500 4450 50  0001 L CNN "digikey part number"
+F 7 "yes" H 1500 4550 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 1500 4650 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 1500 4750 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 1500 4850 50  0001 L CNN "mouser part number"
+F 11 "2" H 1500 4950 50  0001 L CNN "num pins"
+F 12 "SOD80" H 1500 5050 50  0001 L CNN "package"
+F 13 "yes" H 1500 5150 50  0001 L CNN "rohs"
+F 14 "+175°C" H 1500 5250 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 1500 5350 50  0001 L CNN "temperature range low"
+F 16 "" H 1500 5450 50  0001 L CNN "voltage"
+	1    1500 3650
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW7
@@ -577,28 +341,28 @@ Wire Wire Line
 Wire Wire Line
 	1550 4150 1500 4150
 $Comp
-L eec-fairchild:LL4148 D8
+L Diode:LL4148 D8
 U 1 1 603232FA
-P 1500 4050
-F 0 "D8" V 1704 4128 50  0000 L CNN
-F 1 "LL4148" V 1795 4128 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 1500 4450 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 1500 4550 50  0001 L CNN
-F 4 "Diode" H 1500 4650 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 1500 4750 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 1500 4850 50  0001 L CNN "digikey part number"
-F 7 "yes" H 1500 4950 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 1500 5050 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 1500 5150 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 1500 5250 50  0001 L CNN "mouser part number"
-F 11 "2" H 1500 5350 50  0001 L CNN "num pins"
-F 12 "SOD80" H 1500 5450 50  0001 L CNN "package"
-F 13 "yes" H 1500 5550 50  0001 L CNN "rohs"
-F 14 "+175°C" H 1500 5650 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 1500 5750 50  0001 L CNN "temperature range low"
-F 16 "" H 1500 5850 50  0001 L CNN "voltage"
-	1    1500 4050
-	0    1    1    0   
+P 1500 4300
+F 0 "D8" V 1546 4220 50  0000 R CNN
+F 1 "LL4148" V 1455 4220 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 1500 4700 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 1500 4800 50  0001 L CNN
+F 4 "Diode" H 1500 4900 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 1500 5000 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 1500 5100 50  0001 L CNN "digikey part number"
+F 7 "yes" H 1500 5200 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 1500 5300 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 1500 5400 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 1500 5500 50  0001 L CNN "mouser part number"
+F 11 "2" H 1500 5600 50  0001 L CNN "num pins"
+F 12 "SOD80" H 1500 5700 50  0001 L CNN "package"
+F 13 "yes" H 1500 5800 50  0001 L CNN "rohs"
+F 14 "+175°C" H 1500 5900 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 1500 6000 50  0001 L CNN "temperature range low"
+F 16 "" H 1500 6100 50  0001 L CNN "voltage"
+	1    1500 4300
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW8
@@ -631,34 +395,8 @@ Wire Wire Line
 Wire Wire Line
 	1500 3900 1500 3800
 Wire Wire Line
-	1500 1850 1500 1950
-Wire Wire Line
 	1950 1550 1950 3500
 Connection ~ 1950 1550
-$Comp
-L eec-fairchild:LL4148 D6
-U 1 1 602D5D39
-P 1500 1450
-F 0 "D6" V 1704 1528 50  0000 L CNN
-F 1 "LL4148" V 1795 1528 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 1500 1850 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 1500 1950 50  0001 L CNN
-F 4 "Diode" H 1500 2050 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 1500 2150 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 1500 2250 50  0001 L CNN "digikey part number"
-F 7 "yes" H 1500 2350 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 1500 2450 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 1500 2550 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 1500 2650 50  0001 L CNN "mouser part number"
-F 11 "2" H 1500 2750 50  0001 L CNN "num pins"
-F 12 "SOD80" H 1500 2850 50  0001 L CNN "package"
-F 13 "yes" H 1500 2950 50  0001 L CNN "rohs"
-F 14 "+175°C" H 1500 3050 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 1500 3150 50  0001 L CNN "temperature range low"
-F 16 "" H 1500 3250 50  0001 L CNN "voltage"
-	1    1500 1450
-	0    1    1    0   
-$EndComp
 $Comp
 L cldg:MX_SW SW6
 U 1 1 602D5D3F
@@ -684,35 +422,9 @@ F 3 "~" H 2400 1100 50  0001 C CNN
 	1    2400 900 
 	1    0    0    -1  
 $EndComp
-$Comp
-L eec-fairchild:LL4148 D9
-U 1 1 6046B1BA
-P 2150 800
-F 0 "D9" V 2354 878 50  0000 L CNN
-F 1 "LL4148" V 2445 878 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 2150 1200 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2150 1300 50  0001 L CNN
-F 4 "Diode" H 2150 1400 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2150 1500 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 2150 1600 50  0001 L CNN "digikey part number"
-F 7 "yes" H 2150 1700 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 2150 1800 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 2150 1900 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 2150 2000 50  0001 L CNN "mouser part number"
-F 11 "2" H 2150 2100 50  0001 L CNN "num pins"
-F 12 "SOD80" H 2150 2200 50  0001 L CNN "package"
-F 13 "yes" H 2150 2300 50  0001 L CNN "rohs"
-F 14 "+175°C" H 2150 2400 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 2150 2500 50  0001 L CNN "temperature range low"
-F 16 "" H 2150 2600 50  0001 L CNN "voltage"
-	1    2150 800 
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2200 900  2150 900 
 Connection ~ 900  1300
-Wire Wire Line
-	900  1300 2150 1300
 Wire Wire Line
 	2600 900  2600 850 
 Text GLabel 2600 850  1    50   Input ~ 0
@@ -729,28 +441,28 @@ F 3 "~" H 2400 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D10
+L Diode:LL4148 D10
 U 1 1 604B2B32
-P 2150 1450
-F 0 "D10" V 2354 1528 50  0000 L CNN
-F 1 "LL4148" V 2445 1528 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 2150 1850 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2150 1950 50  0001 L CNN
-F 4 "Diode" H 2150 2050 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2150 2150 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 2150 2250 50  0001 L CNN "digikey part number"
-F 7 "yes" H 2150 2350 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 2150 2450 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 2150 2550 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 2150 2650 50  0001 L CNN "mouser part number"
-F 11 "2" H 2150 2750 50  0001 L CNN "num pins"
-F 12 "SOD80" H 2150 2850 50  0001 L CNN "package"
-F 13 "yes" H 2150 2950 50  0001 L CNN "rohs"
-F 14 "+175°C" H 2150 3050 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 2150 3150 50  0001 L CNN "temperature range low"
-F 16 "" H 2150 3250 50  0001 L CNN "voltage"
-	1    2150 1450
-	0    1    1    0   
+P 2150 1700
+F 0 "D10" V 2196 1620 50  0000 R CNN
+F 1 "LL4148" V 2105 1620 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 2150 2100 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2150 2200 50  0001 L CNN
+F 4 "Diode" H 2150 2300 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2150 2400 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 2150 2500 50  0001 L CNN "digikey part number"
+F 7 "yes" H 2150 2600 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 2150 2700 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 2150 2800 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 2150 2900 50  0001 L CNN "mouser part number"
+F 11 "2" H 2150 3000 50  0001 L CNN "num pins"
+F 12 "SOD80" H 2150 3100 50  0001 L CNN "package"
+F 13 "yes" H 2150 3200 50  0001 L CNN "rohs"
+F 14 "+175°C" H 2150 3300 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 2150 3400 50  0001 L CNN "temperature range low"
+F 16 "" H 2150 3500 50  0001 L CNN "voltage"
+	1    2150 1700
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	2200 1550 2150 1550
@@ -774,28 +486,28 @@ F 3 "~" H 2400 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D11
+L Diode:LL4148 D11
 U 1 1 604F1FFE
-P 2150 2100
-F 0 "D11" V 2354 2178 50  0000 L CNN
-F 1 "LL4148" V 2445 2178 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 2150 2500 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2150 2600 50  0001 L CNN
-F 4 "Diode" H 2150 2700 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2150 2800 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 2150 2900 50  0001 L CNN "digikey part number"
-F 7 "yes" H 2150 3000 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 2150 3100 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 2150 3200 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 2150 3300 50  0001 L CNN "mouser part number"
-F 11 "2" H 2150 3400 50  0001 L CNN "num pins"
-F 12 "SOD80" H 2150 3500 50  0001 L CNN "package"
-F 13 "yes" H 2150 3600 50  0001 L CNN "rohs"
-F 14 "+175°C" H 2150 3700 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 2150 3800 50  0001 L CNN "temperature range low"
-F 16 "" H 2150 3900 50  0001 L CNN "voltage"
-	1    2150 2100
-	0    1    1    0   
+P 2150 2350
+F 0 "D11" V 2196 2270 50  0000 R CNN
+F 1 "LL4148" V 2105 2270 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 2150 2750 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2150 2850 50  0001 L CNN
+F 4 "Diode" H 2150 2950 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2150 3050 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 2150 3150 50  0001 L CNN "digikey part number"
+F 7 "yes" H 2150 3250 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 2150 3350 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 2150 3450 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 2150 3550 50  0001 L CNN "mouser part number"
+F 11 "2" H 2150 3650 50  0001 L CNN "num pins"
+F 12 "SOD80" H 2150 3750 50  0001 L CNN "package"
+F 13 "yes" H 2150 3850 50  0001 L CNN "rohs"
+F 14 "+175°C" H 2150 3950 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 2150 4050 50  0001 L CNN "temperature range low"
+F 16 "" H 2150 4150 50  0001 L CNN "voltage"
+	1    2150 2350
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	2200 2200 2150 2200
@@ -819,28 +531,28 @@ F 3 "~" H 2400 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D12
+L Diode:LL4148 D12
 U 1 1 60525B2F
-P 2150 2750
-F 0 "D12" V 2354 2828 50  0000 L CNN
-F 1 "LL4148" V 2445 2828 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 2150 3150 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2150 3250 50  0001 L CNN
-F 4 "Diode" H 2150 3350 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2150 3450 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 2150 3550 50  0001 L CNN "digikey part number"
-F 7 "yes" H 2150 3650 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 2150 3750 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 2150 3850 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 2150 3950 50  0001 L CNN "mouser part number"
-F 11 "2" H 2150 4050 50  0001 L CNN "num pins"
-F 12 "SOD80" H 2150 4150 50  0001 L CNN "package"
-F 13 "yes" H 2150 4250 50  0001 L CNN "rohs"
-F 14 "+175°C" H 2150 4350 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 2150 4450 50  0001 L CNN "temperature range low"
-F 16 "" H 2150 4550 50  0001 L CNN "voltage"
-	1    2150 2750
-	0    1    1    0   
+P 2150 3000
+F 0 "D12" V 2196 2920 50  0000 R CNN
+F 1 "LL4148" V 2105 2920 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 2150 3400 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2150 3500 50  0001 L CNN
+F 4 "Diode" H 2150 3600 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2150 3700 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 2150 3800 50  0001 L CNN "digikey part number"
+F 7 "yes" H 2150 3900 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 2150 4000 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 2150 4100 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 2150 4200 50  0001 L CNN "mouser part number"
+F 11 "2" H 2150 4300 50  0001 L CNN "num pins"
+F 12 "SOD80" H 2150 4400 50  0001 L CNN "package"
+F 13 "yes" H 2150 4500 50  0001 L CNN "rohs"
+F 14 "+175°C" H 2150 4600 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 2150 4700 50  0001 L CNN "temperature range low"
+F 16 "" H 2150 4800 50  0001 L CNN "voltage"
+	1    2150 3000
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	2200 2850 2150 2850
@@ -861,28 +573,28 @@ F 3 "~" H 2400 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D13
+L Diode:LL4148 D13
 U 1 1 6054FAD3
-P 2150 3400
-F 0 "D13" V 2354 3478 50  0000 L CNN
-F 1 "LL4148" V 2445 3478 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 2150 3800 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2150 3900 50  0001 L CNN
-F 4 "Diode" H 2150 4000 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2150 4100 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 2150 4200 50  0001 L CNN "digikey part number"
-F 7 "yes" H 2150 4300 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 2150 4400 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 2150 4500 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 2150 4600 50  0001 L CNN "mouser part number"
-F 11 "2" H 2150 4700 50  0001 L CNN "num pins"
-F 12 "SOD80" H 2150 4800 50  0001 L CNN "package"
-F 13 "yes" H 2150 4900 50  0001 L CNN "rohs"
-F 14 "+175°C" H 2150 5000 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 2150 5100 50  0001 L CNN "temperature range low"
-F 16 "" H 2150 5200 50  0001 L CNN "voltage"
-	1    2150 3400
-	0    1    1    0   
+P 2150 3650
+F 0 "D13" V 2196 3570 50  0000 R CNN
+F 1 "LL4148" V 2105 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 2150 4050 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2150 4150 50  0001 L CNN
+F 4 "Diode" H 2150 4250 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2150 4350 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 2150 4450 50  0001 L CNN "digikey part number"
+F 7 "yes" H 2150 4550 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 2150 4650 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 2150 4750 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 2150 4850 50  0001 L CNN "mouser part number"
+F 11 "2" H 2150 4950 50  0001 L CNN "num pins"
+F 12 "SOD80" H 2150 5050 50  0001 L CNN "package"
+F 13 "yes" H 2150 5150 50  0001 L CNN "rohs"
+F 14 "+175°C" H 2150 5250 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 2150 5350 50  0001 L CNN "temperature range low"
+F 16 "" H 2150 5450 50  0001 L CNN "voltage"
+	1    2150 3650
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	2200 3500 2150 3500
@@ -905,30 +617,6 @@ F 3 "~" H 3100 1100 50  0001 C CNN
 	1    3100 900 
 	1    0    0    -1  
 $EndComp
-$Comp
-L eec-fairchild:LL4148 D14
-U 1 1 6057955C
-P 2850 800
-F 0 "D14" V 3054 878 50  0000 L CNN
-F 1 "LL4148" V 3145 878 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 2850 1200 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2850 1300 50  0001 L CNN
-F 4 "Diode" H 2850 1400 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2850 1500 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 2850 1600 50  0001 L CNN "digikey part number"
-F 7 "yes" H 2850 1700 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 2850 1800 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 2850 1900 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 2850 2000 50  0001 L CNN "mouser part number"
-F 11 "2" H 2850 2100 50  0001 L CNN "num pins"
-F 12 "SOD80" H 2850 2200 50  0001 L CNN "package"
-F 13 "yes" H 2850 2300 50  0001 L CNN "rohs"
-F 14 "+175°C" H 2850 2400 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 2850 2500 50  0001 L CNN "temperature range low"
-F 16 "" H 2850 2600 50  0001 L CNN "voltage"
-	1    2850 800 
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2900 900  2850 900 
 Wire Wire Line
@@ -950,28 +638,28 @@ F 3 "~" H 3100 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D15
+L Diode:LL4148 D15
 U 1 1 605A319B
-P 2850 1450
-F 0 "D15" V 3054 1528 50  0000 L CNN
-F 1 "LL4148" V 3145 1528 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 2850 1850 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2850 1950 50  0001 L CNN
-F 4 "Diode" H 2850 2050 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2850 2150 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 2850 2250 50  0001 L CNN "digikey part number"
-F 7 "yes" H 2850 2350 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 2850 2450 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 2850 2550 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 2850 2650 50  0001 L CNN "mouser part number"
-F 11 "2" H 2850 2750 50  0001 L CNN "num pins"
-F 12 "SOD80" H 2850 2850 50  0001 L CNN "package"
-F 13 "yes" H 2850 2950 50  0001 L CNN "rohs"
-F 14 "+175°C" H 2850 3050 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 2850 3150 50  0001 L CNN "temperature range low"
-F 16 "" H 2850 3250 50  0001 L CNN "voltage"
-	1    2850 1450
-	0    1    1    0   
+P 2850 1700
+F 0 "D15" V 2896 1620 50  0000 R CNN
+F 1 "LL4148" V 2805 1620 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 2850 2100 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2850 2200 50  0001 L CNN
+F 4 "Diode" H 2850 2300 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2850 2400 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 2850 2500 50  0001 L CNN "digikey part number"
+F 7 "yes" H 2850 2600 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 2850 2700 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 2850 2800 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 2850 2900 50  0001 L CNN "mouser part number"
+F 11 "2" H 2850 3000 50  0001 L CNN "num pins"
+F 12 "SOD80" H 2850 3100 50  0001 L CNN "package"
+F 13 "yes" H 2850 3200 50  0001 L CNN "rohs"
+F 14 "+175°C" H 2850 3300 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 2850 3400 50  0001 L CNN "temperature range low"
+F 16 "" H 2850 3500 50  0001 L CNN "voltage"
+	1    2850 1700
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	2900 1550 2850 1550
@@ -992,28 +680,28 @@ F 3 "~" H 3100 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D16
+L Diode:LL4148 D16
 U 1 1 605CD6A7
-P 2850 2100
-F 0 "D16" V 3054 2178 50  0000 L CNN
-F 1 "LL4148" V 3145 2178 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 2850 2500 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2850 2600 50  0001 L CNN
-F 4 "Diode" H 2850 2700 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2850 2800 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 2850 2900 50  0001 L CNN "digikey part number"
-F 7 "yes" H 2850 3000 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 2850 3100 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 2850 3200 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 2850 3300 50  0001 L CNN "mouser part number"
-F 11 "2" H 2850 3400 50  0001 L CNN "num pins"
-F 12 "SOD80" H 2850 3500 50  0001 L CNN "package"
-F 13 "yes" H 2850 3600 50  0001 L CNN "rohs"
-F 14 "+175°C" H 2850 3700 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 2850 3800 50  0001 L CNN "temperature range low"
-F 16 "" H 2850 3900 50  0001 L CNN "voltage"
-	1    2850 2100
-	0    1    1    0   
+P 2850 2350
+F 0 "D16" V 2896 2270 50  0000 R CNN
+F 1 "LL4148" V 2805 2270 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 2850 2750 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2850 2850 50  0001 L CNN
+F 4 "Diode" H 2850 2950 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2850 3050 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 2850 3150 50  0001 L CNN "digikey part number"
+F 7 "yes" H 2850 3250 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 2850 3350 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 2850 3450 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 2850 3550 50  0001 L CNN "mouser part number"
+F 11 "2" H 2850 3650 50  0001 L CNN "num pins"
+F 12 "SOD80" H 2850 3750 50  0001 L CNN "package"
+F 13 "yes" H 2850 3850 50  0001 L CNN "rohs"
+F 14 "+175°C" H 2850 3950 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 2850 4050 50  0001 L CNN "temperature range low"
+F 16 "" H 2850 4150 50  0001 L CNN "voltage"
+	1    2850 2350
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	2900 2200 2850 2200
@@ -1037,28 +725,28 @@ F 3 "~" H 3100 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D17
+L Diode:LL4148 D17
 U 1 1 605FA906
-P 2850 2750
-F 0 "D17" V 3054 2828 50  0000 L CNN
-F 1 "LL4148" V 3145 2828 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 2850 3150 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2850 3250 50  0001 L CNN
-F 4 "Diode" H 2850 3350 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2850 3450 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 2850 3550 50  0001 L CNN "digikey part number"
-F 7 "yes" H 2850 3650 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 2850 3750 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 2850 3850 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 2850 3950 50  0001 L CNN "mouser part number"
-F 11 "2" H 2850 4050 50  0001 L CNN "num pins"
-F 12 "SOD80" H 2850 4150 50  0001 L CNN "package"
-F 13 "yes" H 2850 4250 50  0001 L CNN "rohs"
-F 14 "+175°C" H 2850 4350 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 2850 4450 50  0001 L CNN "temperature range low"
-F 16 "" H 2850 4550 50  0001 L CNN "voltage"
-	1    2850 2750
-	0    1    1    0   
+P 2850 3000
+F 0 "D17" V 2896 2920 50  0000 R CNN
+F 1 "LL4148" V 2805 2920 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 2850 3400 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2850 3500 50  0001 L CNN
+F 4 "Diode" H 2850 3600 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2850 3700 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 2850 3800 50  0001 L CNN "digikey part number"
+F 7 "yes" H 2850 3900 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 2850 4000 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 2850 4100 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 2850 4200 50  0001 L CNN "mouser part number"
+F 11 "2" H 2850 4300 50  0001 L CNN "num pins"
+F 12 "SOD80" H 2850 4400 50  0001 L CNN "package"
+F 13 "yes" H 2850 4500 50  0001 L CNN "rohs"
+F 14 "+175°C" H 2850 4600 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 2850 4700 50  0001 L CNN "temperature range low"
+F 16 "" H 2850 4800 50  0001 L CNN "voltage"
+	1    2850 3000
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	2900 2850 2850 2850
@@ -1082,28 +770,28 @@ F 3 "~" H 3100 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D18
+L Diode:LL4148 D18
 U 1 1 60628982
-P 2850 3400
-F 0 "D18" V 3054 3478 50  0000 L CNN
-F 1 "LL4148" V 3145 3478 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 2850 3800 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2850 3900 50  0001 L CNN
-F 4 "Diode" H 2850 4000 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2850 4100 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 2850 4200 50  0001 L CNN "digikey part number"
-F 7 "yes" H 2850 4300 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 2850 4400 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 2850 4500 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 2850 4600 50  0001 L CNN "mouser part number"
-F 11 "2" H 2850 4700 50  0001 L CNN "num pins"
-F 12 "SOD80" H 2850 4800 50  0001 L CNN "package"
-F 13 "yes" H 2850 4900 50  0001 L CNN "rohs"
-F 14 "+175°C" H 2850 5000 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 2850 5100 50  0001 L CNN "temperature range low"
-F 16 "" H 2850 5200 50  0001 L CNN "voltage"
-	1    2850 3400
-	0    1    1    0   
+P 2850 3650
+F 0 "D18" V 2896 3570 50  0000 R CNN
+F 1 "LL4148" V 2805 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 2850 4050 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2850 4150 50  0001 L CNN
+F 4 "Diode" H 2850 4250 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2850 4350 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 2850 4450 50  0001 L CNN "digikey part number"
+F 7 "yes" H 2850 4550 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 2850 4650 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 2850 4750 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 2850 4850 50  0001 L CNN "mouser part number"
+F 11 "2" H 2850 4950 50  0001 L CNN "num pins"
+F 12 "SOD80" H 2850 5050 50  0001 L CNN "package"
+F 13 "yes" H 2850 5150 50  0001 L CNN "rohs"
+F 14 "+175°C" H 2850 5250 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 2850 5350 50  0001 L CNN "temperature range low"
+F 16 "" H 2850 5450 50  0001 L CNN "voltage"
+	1    2850 3650
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	2900 3500 2850 3500
@@ -1127,28 +815,28 @@ F 3 "~" H 3100 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D19
+L Diode:LL4148 D19
 U 1 1 606591C6
-P 2850 4050
-F 0 "D19" V 3054 3973 50  0000 R CNN
-F 1 "LL4148" V 3145 3973 50  0000 R CNN
-F 2 "Diode_SMD:D_MiniMELF" H 2850 4450 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2850 4550 50  0001 L CNN
-F 4 "Diode" H 2850 4650 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2850 4750 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 2850 4850 50  0001 L CNN "digikey part number"
-F 7 "yes" H 2850 4950 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 2850 5050 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 2850 5150 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 2850 5250 50  0001 L CNN "mouser part number"
-F 11 "2" H 2850 5350 50  0001 L CNN "num pins"
-F 12 "SOD80" H 2850 5450 50  0001 L CNN "package"
-F 13 "yes" H 2850 5550 50  0001 L CNN "rohs"
-F 14 "+175°C" H 2850 5650 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 2850 5750 50  0001 L CNN "temperature range low"
-F 16 "" H 2850 5850 50  0001 L CNN "voltage"
-	1    2850 4050
-	0    1    1    0   
+P 2850 4300
+F 0 "D19" V 2896 4220 50  0000 R CNN
+F 1 "LL4148" V 2805 4220 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 2850 4700 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2850 4800 50  0001 L CNN
+F 4 "Diode" H 2850 4900 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 2850 5000 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 2850 5100 50  0001 L CNN "digikey part number"
+F 7 "yes" H 2850 5200 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 2850 5300 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 2850 5400 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 2850 5500 50  0001 L CNN "mouser part number"
+F 11 "2" H 2850 5600 50  0001 L CNN "num pins"
+F 12 "SOD80" H 2850 5700 50  0001 L CNN "package"
+F 13 "yes" H 2850 5800 50  0001 L CNN "rohs"
+F 14 "+175°C" H 2850 5900 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 2850 6000 50  0001 L CNN "temperature range low"
+F 16 "" H 2850 6100 50  0001 L CNN "voltage"
+	1    2850 4300
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	2900 4150 2850 4150
@@ -1169,30 +857,6 @@ F 2 "cldg:millmax-mxalps" H 3800 1100 50  0001 C CNN
 F 3 "~" H 3800 1100 50  0001 C CNN
 	1    3800 900 
 	1    0    0    -1  
-$EndComp
-$Comp
-L eec-fairchild:LL4148 D20
-U 1 1 6068E609
-P 3550 800
-F 0 "D20" V 3754 878 50  0000 L CNN
-F 1 "LL4148" V 3845 878 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 3550 1200 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 3550 1300 50  0001 L CNN
-F 4 "Diode" H 3550 1400 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 3550 1500 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 3550 1600 50  0001 L CNN "digikey part number"
-F 7 "yes" H 3550 1700 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 3550 1800 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 3550 1900 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 3550 2000 50  0001 L CNN "mouser part number"
-F 11 "2" H 3550 2100 50  0001 L CNN "num pins"
-F 12 "SOD80" H 3550 2200 50  0001 L CNN "package"
-F 13 "yes" H 3550 2300 50  0001 L CNN "rohs"
-F 14 "+175°C" H 3550 2400 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 3550 2500 50  0001 L CNN "temperature range low"
-F 16 "" H 3550 2600 50  0001 L CNN "voltage"
-	1    3550 800 
-	0    1    1    0   
 $EndComp
 Wire Wire Line
 	3600 900  3550 900 
@@ -1215,28 +879,28 @@ F 3 "~" H 3800 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D21
+L Diode:LL4148 D21
 U 1 1 606C0C00
-P 3550 1450
-F 0 "D21" V 3754 1528 50  0000 L CNN
-F 1 "LL4148" V 3845 1528 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 3550 1850 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 3550 1950 50  0001 L CNN
-F 4 "Diode" H 3550 2050 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 3550 2150 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 3550 2250 50  0001 L CNN "digikey part number"
-F 7 "yes" H 3550 2350 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 3550 2450 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 3550 2550 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 3550 2650 50  0001 L CNN "mouser part number"
-F 11 "2" H 3550 2750 50  0001 L CNN "num pins"
-F 12 "SOD80" H 3550 2850 50  0001 L CNN "package"
-F 13 "yes" H 3550 2950 50  0001 L CNN "rohs"
-F 14 "+175°C" H 3550 3050 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 3550 3150 50  0001 L CNN "temperature range low"
-F 16 "" H 3550 3250 50  0001 L CNN "voltage"
-	1    3550 1450
-	0    1    1    0   
+P 3550 1700
+F 0 "D21" V 3596 1620 50  0000 R CNN
+F 1 "LL4148" V 3505 1620 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 3550 2100 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 3550 2200 50  0001 L CNN
+F 4 "Diode" H 3550 2300 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 3550 2400 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 3550 2500 50  0001 L CNN "digikey part number"
+F 7 "yes" H 3550 2600 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 3550 2700 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 3550 2800 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 3550 2900 50  0001 L CNN "mouser part number"
+F 11 "2" H 3550 3000 50  0001 L CNN "num pins"
+F 12 "SOD80" H 3550 3100 50  0001 L CNN "package"
+F 13 "yes" H 3550 3200 50  0001 L CNN "rohs"
+F 14 "+175°C" H 3550 3300 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 3550 3400 50  0001 L CNN "temperature range low"
+F 16 "" H 3550 3500 50  0001 L CNN "voltage"
+	1    3550 1700
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	3600 1550 3550 1550
@@ -1257,28 +921,28 @@ F 3 "~" H 3800 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D22
+L Diode:LL4148 D22
 U 1 1 606F5085
-P 3550 2100
-F 0 "D22" V 3754 2178 50  0000 L CNN
-F 1 "LL4148" V 3845 2178 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 3550 2500 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 3550 2600 50  0001 L CNN
-F 4 "Diode" H 3550 2700 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 3550 2800 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 3550 2900 50  0001 L CNN "digikey part number"
-F 7 "yes" H 3550 3000 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 3550 3100 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 3550 3200 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 3550 3300 50  0001 L CNN "mouser part number"
-F 11 "2" H 3550 3400 50  0001 L CNN "num pins"
-F 12 "SOD80" H 3550 3500 50  0001 L CNN "package"
-F 13 "yes" H 3550 3600 50  0001 L CNN "rohs"
-F 14 "+175°C" H 3550 3700 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 3550 3800 50  0001 L CNN "temperature range low"
-F 16 "" H 3550 3900 50  0001 L CNN "voltage"
-	1    3550 2100
-	0    1    1    0   
+P 3550 2350
+F 0 "D22" V 3596 2270 50  0000 R CNN
+F 1 "LL4148" V 3505 2270 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 3550 2750 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 3550 2850 50  0001 L CNN
+F 4 "Diode" H 3550 2950 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 3550 3050 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 3550 3150 50  0001 L CNN "digikey part number"
+F 7 "yes" H 3550 3250 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 3550 3350 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 3550 3450 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 3550 3550 50  0001 L CNN "mouser part number"
+F 11 "2" H 3550 3650 50  0001 L CNN "num pins"
+F 12 "SOD80" H 3550 3750 50  0001 L CNN "package"
+F 13 "yes" H 3550 3850 50  0001 L CNN "rohs"
+F 14 "+175°C" H 3550 3950 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 3550 4050 50  0001 L CNN "temperature range low"
+F 16 "" H 3550 4150 50  0001 L CNN "voltage"
+	1    3550 2350
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	3600 2200 3550 2200
@@ -1302,28 +966,28 @@ F 3 "~" H 3800 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D23
+L Diode:LL4148 D23
 U 1 1 60729823
-P 3550 2750
-F 0 "D23" V 3754 2673 50  0000 R CNN
-F 1 "LL4148" V 3845 2673 50  0000 R CNN
-F 2 "Diode_SMD:D_MiniMELF" H 3550 3150 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 3550 3250 50  0001 L CNN
-F 4 "Diode" H 3550 3350 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 3550 3450 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 3550 3550 50  0001 L CNN "digikey part number"
-F 7 "yes" H 3550 3650 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 3550 3750 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 3550 3850 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 3550 3950 50  0001 L CNN "mouser part number"
-F 11 "2" H 3550 4050 50  0001 L CNN "num pins"
-F 12 "SOD80" H 3550 4150 50  0001 L CNN "package"
-F 13 "yes" H 3550 4250 50  0001 L CNN "rohs"
-F 14 "+175°C" H 3550 4350 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 3550 4450 50  0001 L CNN "temperature range low"
-F 16 "" H 3550 4550 50  0001 L CNN "voltage"
-	1    3550 2750
-	0    1    1    0   
+P 3550 3000
+F 0 "D23" V 3596 2920 50  0000 R CNN
+F 1 "LL4148" V 3505 2920 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 3550 3400 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 3550 3500 50  0001 L CNN
+F 4 "Diode" H 3550 3600 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 3550 3700 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 3550 3800 50  0001 L CNN "digikey part number"
+F 7 "yes" H 3550 3900 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 3550 4000 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 3550 4100 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 3550 4200 50  0001 L CNN "mouser part number"
+F 11 "2" H 3550 4300 50  0001 L CNN "num pins"
+F 12 "SOD80" H 3550 4400 50  0001 L CNN "package"
+F 13 "yes" H 3550 4500 50  0001 L CNN "rohs"
+F 14 "+175°C" H 3550 4600 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 3550 4700 50  0001 L CNN "temperature range low"
+F 16 "" H 3550 4800 50  0001 L CNN "voltage"
+	1    3550 3000
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	3600 2850 3550 2850
@@ -1347,28 +1011,28 @@ F 3 "~" H 3800 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D24
+L Diode:LL4148 D24
 U 1 1 60760989
-P 3550 3400
-F 0 "D24" V 3754 3323 50  0000 R CNN
-F 1 "LL4148" V 3845 3323 50  0000 R CNN
-F 2 "Diode_SMD:D_MiniMELF" H 3550 3800 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 3550 3900 50  0001 L CNN
-F 4 "Diode" H 3550 4000 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 3550 4100 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 3550 4200 50  0001 L CNN "digikey part number"
-F 7 "yes" H 3550 4300 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 3550 4400 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 3550 4500 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 3550 4600 50  0001 L CNN "mouser part number"
-F 11 "2" H 3550 4700 50  0001 L CNN "num pins"
-F 12 "SOD80" H 3550 4800 50  0001 L CNN "package"
-F 13 "yes" H 3550 4900 50  0001 L CNN "rohs"
-F 14 "+175°C" H 3550 5000 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 3550 5100 50  0001 L CNN "temperature range low"
-F 16 "" H 3550 5200 50  0001 L CNN "voltage"
-	1    3550 3400
-	0    1    1    0   
+P 3550 3650
+F 0 "D24" V 3596 3570 50  0000 R CNN
+F 1 "LL4148" V 3505 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 3550 4050 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 3550 4150 50  0001 L CNN
+F 4 "Diode" H 3550 4250 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 3550 4350 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 3550 4450 50  0001 L CNN "digikey part number"
+F 7 "yes" H 3550 4550 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 3550 4650 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 3550 4750 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 3550 4850 50  0001 L CNN "mouser part number"
+F 11 "2" H 3550 4950 50  0001 L CNN "num pins"
+F 12 "SOD80" H 3550 5050 50  0001 L CNN "package"
+F 13 "yes" H 3550 5150 50  0001 L CNN "rohs"
+F 14 "+175°C" H 3550 5250 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 3550 5350 50  0001 L CNN "temperature range low"
+F 16 "" H 3550 5450 50  0001 L CNN "voltage"
+	1    3550 3650
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	3600 3500 3550 3500
@@ -1388,30 +1052,6 @@ F 2 "cldg:millmax-mxalps" H 4500 1100 50  0001 C CNN
 F 3 "~" H 4500 1100 50  0001 C CNN
 	1    4500 900 
 	1    0    0    -1  
-$EndComp
-$Comp
-L eec-fairchild:LL4148 D25
-U 1 1 607983E7
-P 4250 800
-F 0 "D25" V 4454 878 50  0000 L CNN
-F 1 "LL4148" V 4545 878 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 4250 1200 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4250 1300 50  0001 L CNN
-F 4 "Diode" H 4250 1400 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4250 1500 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 4250 1600 50  0001 L CNN "digikey part number"
-F 7 "yes" H 4250 1700 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 4250 1800 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 4250 1900 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 4250 2000 50  0001 L CNN "mouser part number"
-F 11 "2" H 4250 2100 50  0001 L CNN "num pins"
-F 12 "SOD80" H 4250 2200 50  0001 L CNN "package"
-F 13 "yes" H 4250 2300 50  0001 L CNN "rohs"
-F 14 "+175°C" H 4250 2400 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 4250 2500 50  0001 L CNN "temperature range low"
-F 16 "" H 4250 2600 50  0001 L CNN "voltage"
-	1    4250 800 
-	0    1    1    0   
 $EndComp
 Wire Wire Line
 	4300 900  4250 900 
@@ -1434,28 +1074,28 @@ F 3 "~" H 4500 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D26
+L Diode:LL4148 D26
 U 1 1 607D3511
-P 4250 1450
-F 0 "D26" V 4454 1528 50  0000 L CNN
-F 1 "LL4148" V 4545 1528 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 4250 1850 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4250 1950 50  0001 L CNN
-F 4 "Diode" H 4250 2050 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4250 2150 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 4250 2250 50  0001 L CNN "digikey part number"
-F 7 "yes" H 4250 2350 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 4250 2450 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 4250 2550 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 4250 2650 50  0001 L CNN "mouser part number"
-F 11 "2" H 4250 2750 50  0001 L CNN "num pins"
-F 12 "SOD80" H 4250 2850 50  0001 L CNN "package"
-F 13 "yes" H 4250 2950 50  0001 L CNN "rohs"
-F 14 "+175°C" H 4250 3050 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 4250 3150 50  0001 L CNN "temperature range low"
-F 16 "" H 4250 3250 50  0001 L CNN "voltage"
-	1    4250 1450
-	0    1    1    0   
+P 4250 1700
+F 0 "D26" V 4296 1620 50  0000 R CNN
+F 1 "LL4148" V 4205 1620 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 4250 2100 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4250 2200 50  0001 L CNN
+F 4 "Diode" H 4250 2300 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4250 2400 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 4250 2500 50  0001 L CNN "digikey part number"
+F 7 "yes" H 4250 2600 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 4250 2700 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 4250 2800 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 4250 2900 50  0001 L CNN "mouser part number"
+F 11 "2" H 4250 3000 50  0001 L CNN "num pins"
+F 12 "SOD80" H 4250 3100 50  0001 L CNN "package"
+F 13 "yes" H 4250 3200 50  0001 L CNN "rohs"
+F 14 "+175°C" H 4250 3300 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 4250 3400 50  0001 L CNN "temperature range low"
+F 16 "" H 4250 3500 50  0001 L CNN "voltage"
+	1    4250 1700
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	4300 1550 4250 1550
@@ -1476,28 +1116,28 @@ F 3 "~" H 4500 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D27
+L Diode:LL4148 D27
 U 1 1 6080F960
-P 4250 2100
-F 0 "D27" V 4454 2178 50  0000 L CNN
-F 1 "LL4148" V 4545 2178 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 4250 2500 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4250 2600 50  0001 L CNN
-F 4 "Diode" H 4250 2700 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4250 2800 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 4250 2900 50  0001 L CNN "digikey part number"
-F 7 "yes" H 4250 3000 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 4250 3100 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 4250 3200 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 4250 3300 50  0001 L CNN "mouser part number"
-F 11 "2" H 4250 3400 50  0001 L CNN "num pins"
-F 12 "SOD80" H 4250 3500 50  0001 L CNN "package"
-F 13 "yes" H 4250 3600 50  0001 L CNN "rohs"
-F 14 "+175°C" H 4250 3700 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 4250 3800 50  0001 L CNN "temperature range low"
-F 16 "" H 4250 3900 50  0001 L CNN "voltage"
-	1    4250 2100
-	0    1    1    0   
+P 4250 2350
+F 0 "D27" V 4296 2270 50  0000 R CNN
+F 1 "LL4148" V 4205 2270 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 4250 2750 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4250 2850 50  0001 L CNN
+F 4 "Diode" H 4250 2950 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4250 3050 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 4250 3150 50  0001 L CNN "digikey part number"
+F 7 "yes" H 4250 3250 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 4250 3350 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 4250 3450 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 4250 3550 50  0001 L CNN "mouser part number"
+F 11 "2" H 4250 3650 50  0001 L CNN "num pins"
+F 12 "SOD80" H 4250 3750 50  0001 L CNN "package"
+F 13 "yes" H 4250 3850 50  0001 L CNN "rohs"
+F 14 "+175°C" H 4250 3950 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 4250 4050 50  0001 L CNN "temperature range low"
+F 16 "" H 4250 4150 50  0001 L CNN "voltage"
+	1    4250 2350
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	4300 2200 4250 2200
@@ -1521,28 +1161,28 @@ F 3 "~" H 4500 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D28
+L Diode:LL4148 D28
 U 1 1 6084CA28
-P 4250 2750
-F 0 "D28" V 4454 2828 50  0000 L CNN
-F 1 "LL4148" V 4545 2828 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 4250 3150 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4250 3250 50  0001 L CNN
-F 4 "Diode" H 4250 3350 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4250 3450 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 4250 3550 50  0001 L CNN "digikey part number"
-F 7 "yes" H 4250 3650 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 4250 3750 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 4250 3850 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 4250 3950 50  0001 L CNN "mouser part number"
-F 11 "2" H 4250 4050 50  0001 L CNN "num pins"
-F 12 "SOD80" H 4250 4150 50  0001 L CNN "package"
-F 13 "yes" H 4250 4250 50  0001 L CNN "rohs"
-F 14 "+175°C" H 4250 4350 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 4250 4450 50  0001 L CNN "temperature range low"
-F 16 "" H 4250 4550 50  0001 L CNN "voltage"
-	1    4250 2750
-	0    1    1    0   
+P 4250 3000
+F 0 "D28" V 4296 2920 50  0000 R CNN
+F 1 "LL4148" V 4205 2920 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 4250 3400 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4250 3500 50  0001 L CNN
+F 4 "Diode" H 4250 3600 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4250 3700 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 4250 3800 50  0001 L CNN "digikey part number"
+F 7 "yes" H 4250 3900 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 4250 4000 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 4250 4100 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 4250 4200 50  0001 L CNN "mouser part number"
+F 11 "2" H 4250 4300 50  0001 L CNN "num pins"
+F 12 "SOD80" H 4250 4400 50  0001 L CNN "package"
+F 13 "yes" H 4250 4500 50  0001 L CNN "rohs"
+F 14 "+175°C" H 4250 4600 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 4250 4700 50  0001 L CNN "temperature range low"
+F 16 "" H 4250 4800 50  0001 L CNN "voltage"
+	1    4250 3000
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	4300 2850 4250 2850
@@ -1566,28 +1206,28 @@ F 3 "~" H 4500 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D29
+L Diode:LL4148 D29
 U 1 1 6088C6D4
-P 4250 3400
-F 0 "D29" V 4454 3478 50  0000 L CNN
-F 1 "LL4148" V 4545 3478 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 4250 3800 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4250 3900 50  0001 L CNN
-F 4 "Diode" H 4250 4000 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4250 4100 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 4250 4200 50  0001 L CNN "digikey part number"
-F 7 "yes" H 4250 4300 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 4250 4400 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 4250 4500 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 4250 4600 50  0001 L CNN "mouser part number"
-F 11 "2" H 4250 4700 50  0001 L CNN "num pins"
-F 12 "SOD80" H 4250 4800 50  0001 L CNN "package"
-F 13 "yes" H 4250 4900 50  0001 L CNN "rohs"
-F 14 "+175°C" H 4250 5000 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 4250 5100 50  0001 L CNN "temperature range low"
-F 16 "" H 4250 5200 50  0001 L CNN "voltage"
-	1    4250 3400
-	0    1    1    0   
+P 4250 3650
+F 0 "D29" V 4296 3570 50  0000 R CNN
+F 1 "LL4148" V 4205 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 4250 4050 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4250 4150 50  0001 L CNN
+F 4 "Diode" H 4250 4250 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4250 4350 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 4250 4450 50  0001 L CNN "digikey part number"
+F 7 "yes" H 4250 4550 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 4250 4650 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 4250 4750 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 4250 4850 50  0001 L CNN "mouser part number"
+F 11 "2" H 4250 4950 50  0001 L CNN "num pins"
+F 12 "SOD80" H 4250 5050 50  0001 L CNN "package"
+F 13 "yes" H 4250 5150 50  0001 L CNN "rohs"
+F 14 "+175°C" H 4250 5250 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 4250 5350 50  0001 L CNN "temperature range low"
+F 16 "" H 4250 5450 50  0001 L CNN "voltage"
+	1    4250 3650
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	4300 3500 4250 3500
@@ -1613,28 +1253,28 @@ F 3 "~" H 5200 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D30
+L Diode:LL4148 D30
 U 1 1 608CDC0F
-P 4950 1450
-F 0 "D30" V 5154 1528 50  0000 L CNN
-F 1 "LL4148" V 5245 1528 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 4950 1850 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4950 1950 50  0001 L CNN
-F 4 "Diode" H 4950 2050 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4950 2150 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 4950 2250 50  0001 L CNN "digikey part number"
-F 7 "yes" H 4950 2350 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 4950 2450 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 4950 2550 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 4950 2650 50  0001 L CNN "mouser part number"
-F 11 "2" H 4950 2750 50  0001 L CNN "num pins"
-F 12 "SOD80" H 4950 2850 50  0001 L CNN "package"
-F 13 "yes" H 4950 2950 50  0001 L CNN "rohs"
-F 14 "+175°C" H 4950 3050 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 4950 3150 50  0001 L CNN "temperature range low"
-F 16 "" H 4950 3250 50  0001 L CNN "voltage"
-	1    4950 1450
-	0    1    1    0   
+P 4950 1700
+F 0 "D30" V 4996 1620 50  0000 R CNN
+F 1 "LL4148" V 4905 1620 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 4950 2100 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4950 2200 50  0001 L CNN
+F 4 "Diode" H 4950 2300 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4950 2400 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 4950 2500 50  0001 L CNN "digikey part number"
+F 7 "yes" H 4950 2600 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 4950 2700 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 4950 2800 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 4950 2900 50  0001 L CNN "mouser part number"
+F 11 "2" H 4950 3000 50  0001 L CNN "num pins"
+F 12 "SOD80" H 4950 3100 50  0001 L CNN "package"
+F 13 "yes" H 4950 3200 50  0001 L CNN "rohs"
+F 14 "+175°C" H 4950 3300 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 4950 3400 50  0001 L CNN "temperature range low"
+F 16 "" H 4950 3500 50  0001 L CNN "voltage"
+	1    4950 1700
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	5000 1550 4950 1550
@@ -1657,28 +1297,28 @@ F 3 "~" H 5200 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D31
+L Diode:LL4148 D31
 U 1 1 6093F656
-P 4950 2100
-F 0 "D31" V 5154 2178 50  0000 L CNN
-F 1 "LL4148" V 5245 2178 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 4950 2500 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4950 2600 50  0001 L CNN
-F 4 "Diode" H 4950 2700 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4950 2800 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 4950 2900 50  0001 L CNN "digikey part number"
-F 7 "yes" H 4950 3000 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 4950 3100 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 4950 3200 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 4950 3300 50  0001 L CNN "mouser part number"
-F 11 "2" H 4950 3400 50  0001 L CNN "num pins"
-F 12 "SOD80" H 4950 3500 50  0001 L CNN "package"
-F 13 "yes" H 4950 3600 50  0001 L CNN "rohs"
-F 14 "+175°C" H 4950 3700 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 4950 3800 50  0001 L CNN "temperature range low"
-F 16 "" H 4950 3900 50  0001 L CNN "voltage"
-	1    4950 2100
-	0    1    1    0   
+P 4950 2350
+F 0 "D31" V 4996 2270 50  0000 R CNN
+F 1 "LL4148" V 4905 2270 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 4950 2750 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4950 2850 50  0001 L CNN
+F 4 "Diode" H 4950 2950 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4950 3050 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 4950 3150 50  0001 L CNN "digikey part number"
+F 7 "yes" H 4950 3250 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 4950 3350 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 4950 3450 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 4950 3550 50  0001 L CNN "mouser part number"
+F 11 "2" H 4950 3650 50  0001 L CNN "num pins"
+F 12 "SOD80" H 4950 3750 50  0001 L CNN "package"
+F 13 "yes" H 4950 3850 50  0001 L CNN "rohs"
+F 14 "+175°C" H 4950 3950 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 4950 4050 50  0001 L CNN "temperature range low"
+F 16 "" H 4950 4150 50  0001 L CNN "voltage"
+	1    4950 2350
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	5000 2200 4950 2200
@@ -1702,28 +1342,28 @@ F 3 "~" H 5200 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D32
+L Diode:LL4148 D32
 U 1 1 60984015
-P 4950 2750
-F 0 "D32" V 5154 2828 50  0000 L CNN
-F 1 "LL4148" V 5245 2828 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 4950 3150 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4950 3250 50  0001 L CNN
-F 4 "Diode" H 4950 3350 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4950 3450 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 4950 3550 50  0001 L CNN "digikey part number"
-F 7 "yes" H 4950 3650 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 4950 3750 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 4950 3850 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 4950 3950 50  0001 L CNN "mouser part number"
-F 11 "2" H 4950 4050 50  0001 L CNN "num pins"
-F 12 "SOD80" H 4950 4150 50  0001 L CNN "package"
-F 13 "yes" H 4950 4250 50  0001 L CNN "rohs"
-F 14 "+175°C" H 4950 4350 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 4950 4450 50  0001 L CNN "temperature range low"
-F 16 "" H 4950 4550 50  0001 L CNN "voltage"
-	1    4950 2750
-	0    1    1    0   
+P 4950 3000
+F 0 "D32" V 4996 2920 50  0000 R CNN
+F 1 "LL4148" V 4905 2920 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 4950 3400 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4950 3500 50  0001 L CNN
+F 4 "Diode" H 4950 3600 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4950 3700 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 4950 3800 50  0001 L CNN "digikey part number"
+F 7 "yes" H 4950 3900 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 4950 4000 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 4950 4100 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 4950 4200 50  0001 L CNN "mouser part number"
+F 11 "2" H 4950 4300 50  0001 L CNN "num pins"
+F 12 "SOD80" H 4950 4400 50  0001 L CNN "package"
+F 13 "yes" H 4950 4500 50  0001 L CNN "rohs"
+F 14 "+175°C" H 4950 4600 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 4950 4700 50  0001 L CNN "temperature range low"
+F 16 "" H 4950 4800 50  0001 L CNN "voltage"
+	1    4950 3000
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	5000 2850 4950 2850
@@ -1747,28 +1387,28 @@ F 3 "~" H 5200 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D33
+L Diode:LL4148 D33
 U 1 1 609CA106
-P 4950 3400
-F 0 "D33" V 5154 3478 50  0000 L CNN
-F 1 "LL4148" V 5245 3478 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 4950 3800 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4950 3900 50  0001 L CNN
-F 4 "Diode" H 4950 4000 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4950 4100 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 4950 4200 50  0001 L CNN "digikey part number"
-F 7 "yes" H 4950 4300 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 4950 4400 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 4950 4500 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 4950 4600 50  0001 L CNN "mouser part number"
-F 11 "2" H 4950 4700 50  0001 L CNN "num pins"
-F 12 "SOD80" H 4950 4800 50  0001 L CNN "package"
-F 13 "yes" H 4950 4900 50  0001 L CNN "rohs"
-F 14 "+175°C" H 4950 5000 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 4950 5100 50  0001 L CNN "temperature range low"
-F 16 "" H 4950 5200 50  0001 L CNN "voltage"
-	1    4950 3400
-	0    1    1    0   
+P 4950 3650
+F 0 "D33" V 4996 3570 50  0000 R CNN
+F 1 "LL4148" V 4905 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 4950 4050 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4950 4150 50  0001 L CNN
+F 4 "Diode" H 4950 4250 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4950 4350 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 4950 4450 50  0001 L CNN "digikey part number"
+F 7 "yes" H 4950 4550 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 4950 4650 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 4950 4750 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 4950 4850 50  0001 L CNN "mouser part number"
+F 11 "2" H 4950 4950 50  0001 L CNN "num pins"
+F 12 "SOD80" H 4950 5050 50  0001 L CNN "package"
+F 13 "yes" H 4950 5150 50  0001 L CNN "rohs"
+F 14 "+175°C" H 4950 5250 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 4950 5350 50  0001 L CNN "temperature range low"
+F 16 "" H 4950 5450 50  0001 L CNN "voltage"
+	1    4950 3650
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	5000 3500 4950 3500
@@ -1792,28 +1432,28 @@ F 3 "~" H 5200 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D34
+L Diode:LL4148 D34
 U 1 1 60A11EB0
-P 4950 4050
-F 0 "D34" V 5154 4128 50  0000 L CNN
-F 1 "LL4148" V 5245 4128 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 4950 4450 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4950 4550 50  0001 L CNN
-F 4 "Diode" H 4950 4650 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4950 4750 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 4950 4850 50  0001 L CNN "digikey part number"
-F 7 "yes" H 4950 4950 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 4950 5050 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 4950 5150 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 4950 5250 50  0001 L CNN "mouser part number"
-F 11 "2" H 4950 5350 50  0001 L CNN "num pins"
-F 12 "SOD80" H 4950 5450 50  0001 L CNN "package"
-F 13 "yes" H 4950 5550 50  0001 L CNN "rohs"
-F 14 "+175°C" H 4950 5650 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 4950 5750 50  0001 L CNN "temperature range low"
-F 16 "" H 4950 5850 50  0001 L CNN "voltage"
-	1    4950 4050
-	0    1    1    0   
+P 4950 4300
+F 0 "D34" V 4996 4220 50  0000 R CNN
+F 1 "LL4148" V 4905 4220 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 4950 4700 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 4950 4800 50  0001 L CNN
+F 4 "Diode" H 4950 4900 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 4950 5000 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 4950 5100 50  0001 L CNN "digikey part number"
+F 7 "yes" H 4950 5200 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 4950 5300 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 4950 5400 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 4950 5500 50  0001 L CNN "mouser part number"
+F 11 "2" H 4950 5600 50  0001 L CNN "num pins"
+F 12 "SOD80" H 4950 5700 50  0001 L CNN "package"
+F 13 "yes" H 4950 5800 50  0001 L CNN "rohs"
+F 14 "+175°C" H 4950 5900 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 4950 6000 50  0001 L CNN "temperature range low"
+F 16 "" H 4950 6100 50  0001 L CNN "voltage"
+	1    4950 4300
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	5000 4150 4950 4150
@@ -1854,31 +1494,16 @@ Wire Wire Line
 Connection ~ 4700 900 
 Wire Wire Line
 	5400 850  5400 1550
-Text GLabel 13150 7350 0    50   Input ~ 0
-COL_22
-$Comp
-L power:GND #PWR015
-U 1 1 5FEB2ECC
-P 14100 7900
-F 0 "#PWR015" H 14100 7650 50  0001 C CNN
-F 1 "GND" H 14105 7727 50  0000 C CNN
-F 2 "" H 14100 7900 50  0001 C CNN
-F 3 "" H 14100 7900 50  0001 C CNN
-	1    14100 7900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	13900 5950 13800 5950
+	7250 8750 7150 8750
 Wire Wire Line
-	13900 6050 13800 6050
-Text GLabel 13800 5950 0    50   Input ~ 0
+	7250 8850 7150 8850
+Text GLabel 7150 8750 0    50   Input ~ 0
 I2C_SCL
-Text GLabel 13800 6050 0    50   Input ~ 0
+Text GLabel 7150 8850 0    50   Input ~ 0
 I2C_SDA
 Wire Wire Line
 	6100 900  6100 1550
-Wire Wire Line
-	4250 1300 5650 1300
 Wire Wire Line
 	4950 1950 5650 1950
 Wire Wire Line
@@ -1898,28 +1523,28 @@ Wire Wire Line
 Wire Wire Line
 	5700 3500 5650 3500
 $Comp
-L eec-fairchild:LL4148 D39
+L Diode:LL4148 D39
 U 1 1 60BBAE7D
-P 5650 3400
-F 0 "D39" V 5854 3478 50  0000 L CNN
-F 1 "LL4148" V 5945 3478 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 5650 3800 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 5650 3900 50  0001 L CNN
-F 4 "Diode" H 5650 4000 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 5650 4100 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 5650 4200 50  0001 L CNN "digikey part number"
-F 7 "yes" H 5650 4300 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 5650 4400 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 5650 4500 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 5650 4600 50  0001 L CNN "mouser part number"
-F 11 "2" H 5650 4700 50  0001 L CNN "num pins"
-F 12 "SOD80" H 5650 4800 50  0001 L CNN "package"
-F 13 "yes" H 5650 4900 50  0001 L CNN "rohs"
-F 14 "+175°C" H 5650 5000 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 5650 5100 50  0001 L CNN "temperature range low"
-F 16 "" H 5650 5200 50  0001 L CNN "voltage"
-	1    5650 3400
-	0    1    1    0   
+P 5650 3650
+F 0 "D39" V 5696 3570 50  0000 R CNN
+F 1 "LL4148" V 5605 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 5650 4050 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 5650 4150 50  0001 L CNN
+F 4 "Diode" H 5650 4250 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 5650 4350 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 5650 4450 50  0001 L CNN "digikey part number"
+F 7 "yes" H 5650 4550 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 5650 4650 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 5650 4750 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 5650 4850 50  0001 L CNN "mouser part number"
+F 11 "2" H 5650 4950 50  0001 L CNN "num pins"
+F 12 "SOD80" H 5650 5050 50  0001 L CNN "package"
+F 13 "yes" H 5650 5150 50  0001 L CNN "rohs"
+F 14 "+175°C" H 5650 5250 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 5650 5350 50  0001 L CNN "temperature range low"
+F 16 "" H 5650 5450 50  0001 L CNN "voltage"
+	1    5650 3650
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW39
@@ -1940,28 +1565,28 @@ Wire Wire Line
 Wire Wire Line
 	5700 2850 5650 2850
 $Comp
-L eec-fairchild:LL4148 D38
+L Diode:LL4148 D38
 U 1 1 60B4B005
-P 5650 2750
-F 0 "D38" V 5854 2828 50  0000 L CNN
-F 1 "LL4148" V 5945 2828 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 5650 3150 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 5650 3250 50  0001 L CNN
-F 4 "Diode" H 5650 3350 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 5650 3450 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 5650 3550 50  0001 L CNN "digikey part number"
-F 7 "yes" H 5650 3650 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 5650 3750 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 5650 3850 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 5650 3950 50  0001 L CNN "mouser part number"
-F 11 "2" H 5650 4050 50  0001 L CNN "num pins"
-F 12 "SOD80" H 5650 4150 50  0001 L CNN "package"
-F 13 "yes" H 5650 4250 50  0001 L CNN "rohs"
-F 14 "+175°C" H 5650 4350 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 5650 4450 50  0001 L CNN "temperature range low"
-F 16 "" H 5650 4550 50  0001 L CNN "voltage"
-	1    5650 2750
-	0    1    1    0   
+P 5650 3000
+F 0 "D38" V 5696 2920 50  0000 R CNN
+F 1 "LL4148" V 5605 2920 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 5650 3400 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 5650 3500 50  0001 L CNN
+F 4 "Diode" H 5650 3600 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 5650 3700 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 5650 3800 50  0001 L CNN "digikey part number"
+F 7 "yes" H 5650 3900 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 5650 4000 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 5650 4100 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 5650 4200 50  0001 L CNN "mouser part number"
+F 11 "2" H 5650 4300 50  0001 L CNN "num pins"
+F 12 "SOD80" H 5650 4400 50  0001 L CNN "package"
+F 13 "yes" H 5650 4500 50  0001 L CNN "rohs"
+F 14 "+175°C" H 5650 4600 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 5650 4700 50  0001 L CNN "temperature range low"
+F 16 "" H 5650 4800 50  0001 L CNN "voltage"
+	1    5650 3000
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW38
@@ -1982,28 +1607,28 @@ Wire Wire Line
 Wire Wire Line
 	5700 2200 5650 2200
 $Comp
-L eec-fairchild:LL4148 D37
+L Diode:LL4148 D37
 U 1 1 60AFBB0A
-P 5650 2100
-F 0 "D37" V 5854 2178 50  0000 L CNN
-F 1 "LL4148" V 5945 2178 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 5650 2500 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 5650 2600 50  0001 L CNN
-F 4 "Diode" H 5650 2700 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 5650 2800 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 5650 2900 50  0001 L CNN "digikey part number"
-F 7 "yes" H 5650 3000 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 5650 3100 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 5650 3200 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 5650 3300 50  0001 L CNN "mouser part number"
-F 11 "2" H 5650 3400 50  0001 L CNN "num pins"
-F 12 "SOD80" H 5650 3500 50  0001 L CNN "package"
-F 13 "yes" H 5650 3600 50  0001 L CNN "rohs"
-F 14 "+175°C" H 5650 3700 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 5650 3800 50  0001 L CNN "temperature range low"
-F 16 "" H 5650 3900 50  0001 L CNN "voltage"
-	1    5650 2100
-	0    1    1    0   
+P 5650 2350
+F 0 "D37" V 5696 2270 50  0000 R CNN
+F 1 "LL4148" V 5605 2270 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 5650 2750 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 5650 2850 50  0001 L CNN
+F 4 "Diode" H 5650 2950 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 5650 3050 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 5650 3150 50  0001 L CNN "digikey part number"
+F 7 "yes" H 5650 3250 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 5650 3350 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 5650 3450 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 5650 3550 50  0001 L CNN "mouser part number"
+F 11 "2" H 5650 3650 50  0001 L CNN "num pins"
+F 12 "SOD80" H 5650 3750 50  0001 L CNN "package"
+F 13 "yes" H 5650 3850 50  0001 L CNN "rohs"
+F 14 "+175°C" H 5650 3950 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 5650 4050 50  0001 L CNN "temperature range low"
+F 16 "" H 5650 4150 50  0001 L CNN "voltage"
+	1    5650 2350
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW37
@@ -2021,28 +1646,28 @@ Wire Wire Line
 Wire Wire Line
 	5700 1550 5650 1550
 $Comp
-L eec-fairchild:LL4148 D36
+L Diode:LL4148 D36
 U 1 1 60AAC56F
-P 5650 1450
-F 0 "D36" V 5854 1528 50  0000 L CNN
-F 1 "LL4148" V 5945 1528 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 5650 1850 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 5650 1950 50  0001 L CNN
-F 4 "Diode" H 5650 2050 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 5650 2150 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 5650 2250 50  0001 L CNN "digikey part number"
-F 7 "yes" H 5650 2350 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 5650 2450 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 5650 2550 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 5650 2650 50  0001 L CNN "mouser part number"
-F 11 "2" H 5650 2750 50  0001 L CNN "num pins"
-F 12 "SOD80" H 5650 2850 50  0001 L CNN "package"
-F 13 "yes" H 5650 2950 50  0001 L CNN "rohs"
-F 14 "+175°C" H 5650 3050 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 5650 3150 50  0001 L CNN "temperature range low"
-F 16 "" H 5650 3250 50  0001 L CNN "voltage"
-	1    5650 1450
-	0    1    1    0   
+P 5650 1700
+F 0 "D36" V 5696 1620 50  0000 R CNN
+F 1 "LL4148" V 5605 1620 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 5650 2100 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 5650 2200 50  0001 L CNN
+F 4 "Diode" H 5650 2300 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 5650 2400 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 5650 2500 50  0001 L CNN "digikey part number"
+F 7 "yes" H 5650 2600 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 5650 2700 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 5650 2800 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 5650 2900 50  0001 L CNN "mouser part number"
+F 11 "2" H 5650 3000 50  0001 L CNN "num pins"
+F 12 "SOD80" H 5650 3100 50  0001 L CNN "package"
+F 13 "yes" H 5650 3200 50  0001 L CNN "rohs"
+F 14 "+175°C" H 5650 3300 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 5650 3400 50  0001 L CNN "temperature range low"
+F 16 "" H 5650 3500 50  0001 L CNN "voltage"
+	1    5650 1700
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW36
@@ -2061,30 +1686,6 @@ Wire Wire Line
 	6100 900  6100 850 
 Wire Wire Line
 	5700 900  5650 900 
-$Comp
-L eec-fairchild:LL4148 D35
-U 1 1 60A5E2DF
-P 5650 800
-F 0 "D35" V 5854 878 50  0000 L CNN
-F 1 "LL4148" V 5945 878 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 5650 1200 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 5650 1300 50  0001 L CNN
-F 4 "Diode" H 5650 1400 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 5650 1500 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 5650 1600 50  0001 L CNN "digikey part number"
-F 7 "yes" H 5650 1700 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 5650 1800 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 5650 1900 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 5650 2000 50  0001 L CNN "mouser part number"
-F 11 "2" H 5650 2100 50  0001 L CNN "num pins"
-F 12 "SOD80" H 5650 2200 50  0001 L CNN "package"
-F 13 "yes" H 5650 2300 50  0001 L CNN "rohs"
-F 14 "+175°C" H 5650 2400 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 5650 2500 50  0001 L CNN "temperature range low"
-F 16 "" H 5650 2600 50  0001 L CNN "voltage"
-	1    5650 800 
-	0    1    1    0   
-$EndComp
 $Comp
 L cldg:MX_SW SW35
 U 1 1 60A5E2CC
@@ -2116,30 +1717,6 @@ F 3 "~" H 6600 1100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6400 900  6350 900 
-$Comp
-L eec-fairchild:LL4148 D40
-U 1 1 60021F13
-P 6350 800
-F 0 "D40" V 6554 878 50  0000 L CNN
-F 1 "LL4148" V 6645 878 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 6350 1200 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 6350 1300 50  0001 L CNN
-F 4 "Diode" H 6350 1400 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 6350 1500 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 6350 1600 50  0001 L CNN "digikey part number"
-F 7 "yes" H 6350 1700 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 6350 1800 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 6350 1900 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 6350 2000 50  0001 L CNN "mouser part number"
-F 11 "2" H 6350 2100 50  0001 L CNN "num pins"
-F 12 "SOD80" H 6350 2200 50  0001 L CNN "package"
-F 13 "yes" H 6350 2300 50  0001 L CNN "rohs"
-F 14 "+175°C" H 6350 2400 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 6350 2500 50  0001 L CNN "temperature range low"
-F 16 "" H 6350 2600 50  0001 L CNN "voltage"
-	1    6350 800 
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6800 850  6800 900 
 Text GLabel 6800 850  1    50   Input ~ 0
@@ -2173,54 +1750,54 @@ Wire Wire Line
 Wire Wire Line
 	6400 2200 6350 2200
 $Comp
-L eec-fairchild:LL4148 D42
+L Diode:LL4148 D42
 U 1 1 60021F4E
-P 6350 2100
-F 0 "D42" V 6554 2178 50  0000 L CNN
-F 1 "LL4148" V 6645 2178 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 6350 2500 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 6350 2600 50  0001 L CNN
-F 4 "Diode" H 6350 2700 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 6350 2800 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 6350 2900 50  0001 L CNN "digikey part number"
-F 7 "yes" H 6350 3000 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 6350 3100 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 6350 3200 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 6350 3300 50  0001 L CNN "mouser part number"
-F 11 "2" H 6350 3400 50  0001 L CNN "num pins"
-F 12 "SOD80" H 6350 3500 50  0001 L CNN "package"
-F 13 "yes" H 6350 3600 50  0001 L CNN "rohs"
-F 14 "+175°C" H 6350 3700 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 6350 3800 50  0001 L CNN "temperature range low"
-F 16 "" H 6350 3900 50  0001 L CNN "voltage"
-	1    6350 2100
-	0    1    1    0   
+P 6350 2350
+F 0 "D42" V 6396 2270 50  0000 R CNN
+F 1 "LL4148" V 6305 2270 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 6350 2750 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 6350 2850 50  0001 L CNN
+F 4 "Diode" H 6350 2950 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 6350 3050 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 6350 3150 50  0001 L CNN "digikey part number"
+F 7 "yes" H 6350 3250 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 6350 3350 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 6350 3450 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 6350 3550 50  0001 L CNN "mouser part number"
+F 11 "2" H 6350 3650 50  0001 L CNN "num pins"
+F 12 "SOD80" H 6350 3750 50  0001 L CNN "package"
+F 13 "yes" H 6350 3850 50  0001 L CNN "rohs"
+F 14 "+175°C" H 6350 3950 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 6350 4050 50  0001 L CNN "temperature range low"
+F 16 "" H 6350 4150 50  0001 L CNN "voltage"
+	1    6350 2350
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	6400 1550 6350 1550
 $Comp
-L eec-fairchild:LL4148 D41
+L Diode:LL4148 D41
 U 1 1 60021F30
-P 6350 1450
-F 0 "D41" V 6554 1528 50  0000 L CNN
-F 1 "LL4148" V 6645 1528 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 6350 1850 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 6350 1950 50  0001 L CNN
-F 4 "Diode" H 6350 2050 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 6350 2150 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 6350 2250 50  0001 L CNN "digikey part number"
-F 7 "yes" H 6350 2350 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 6350 2450 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 6350 2550 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 6350 2650 50  0001 L CNN "mouser part number"
-F 11 "2" H 6350 2750 50  0001 L CNN "num pins"
-F 12 "SOD80" H 6350 2850 50  0001 L CNN "package"
-F 13 "yes" H 6350 2950 50  0001 L CNN "rohs"
-F 14 "+175°C" H 6350 3050 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 6350 3150 50  0001 L CNN "temperature range low"
-F 16 "" H 6350 3250 50  0001 L CNN "voltage"
-	1    6350 1450
-	0    1    1    0   
+P 6350 1700
+F 0 "D41" V 6396 1620 50  0000 R CNN
+F 1 "LL4148" V 6305 1620 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 6350 2100 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 6350 2200 50  0001 L CNN
+F 4 "Diode" H 6350 2300 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 6350 2400 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 6350 2500 50  0001 L CNN "digikey part number"
+F 7 "yes" H 6350 2600 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 6350 2700 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 6350 2800 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 6350 2900 50  0001 L CNN "mouser part number"
+F 11 "2" H 6350 3000 50  0001 L CNN "num pins"
+F 12 "SOD80" H 6350 3100 50  0001 L CNN "package"
+F 13 "yes" H 6350 3200 50  0001 L CNN "rohs"
+F 14 "+175°C" H 6350 3300 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 6350 3400 50  0001 L CNN "temperature range low"
+F 16 "" H 6350 3500 50  0001 L CNN "voltage"
+	1    6350 1700
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW43
@@ -2234,28 +1811,28 @@ F 3 "~" H 6600 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D43
+L Diode:LL4148 D43
 U 1 1 60021F6C
-P 6350 2750
-F 0 "D43" V 6554 2828 50  0000 L CNN
-F 1 "LL4148" V 6645 2828 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 6350 3150 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 6350 3250 50  0001 L CNN
-F 4 "Diode" H 6350 3350 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 6350 3450 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 6350 3550 50  0001 L CNN "digikey part number"
-F 7 "yes" H 6350 3650 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 6350 3750 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 6350 3850 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 6350 3950 50  0001 L CNN "mouser part number"
-F 11 "2" H 6350 4050 50  0001 L CNN "num pins"
-F 12 "SOD80" H 6350 4150 50  0001 L CNN "package"
-F 13 "yes" H 6350 4250 50  0001 L CNN "rohs"
-F 14 "+175°C" H 6350 4350 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 6350 4450 50  0001 L CNN "temperature range low"
-F 16 "" H 6350 4550 50  0001 L CNN "voltage"
-	1    6350 2750
-	0    1    1    0   
+P 6350 3000
+F 0 "D43" V 6396 2920 50  0000 R CNN
+F 1 "LL4148" V 6305 2920 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 6350 3400 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 6350 3500 50  0001 L CNN
+F 4 "Diode" H 6350 3600 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 6350 3700 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 6350 3800 50  0001 L CNN "digikey part number"
+F 7 "yes" H 6350 3900 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 6350 4000 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 6350 4100 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 6350 4200 50  0001 L CNN "mouser part number"
+F 11 "2" H 6350 4300 50  0001 L CNN "num pins"
+F 12 "SOD80" H 6350 4400 50  0001 L CNN "package"
+F 13 "yes" H 6350 4500 50  0001 L CNN "rohs"
+F 14 "+175°C" H 6350 4600 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 6350 4700 50  0001 L CNN "temperature range low"
+F 16 "" H 6350 4800 50  0001 L CNN "voltage"
+	1    6350 3000
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	6400 2850 6350 2850
@@ -2273,28 +1850,28 @@ F 3 "~" H 6600 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L eec-fairchild:LL4148 D44
+L Diode:LL4148 D44
 U 1 1 60021F8A
-P 6350 3400
-F 0 "D44" V 6554 3478 50  0000 L CNN
-F 1 "LL4148" V 6645 3478 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 6350 3800 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 6350 3900 50  0001 L CNN
-F 4 "Diode" H 6350 4000 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 6350 4100 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 6350 4200 50  0001 L CNN "digikey part number"
-F 7 "yes" H 6350 4300 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 6350 4400 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 6350 4500 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 6350 4600 50  0001 L CNN "mouser part number"
-F 11 "2" H 6350 4700 50  0001 L CNN "num pins"
-F 12 "SOD80" H 6350 4800 50  0001 L CNN "package"
-F 13 "yes" H 6350 4900 50  0001 L CNN "rohs"
-F 14 "+175°C" H 6350 5000 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 6350 5100 50  0001 L CNN "temperature range low"
-F 16 "" H 6350 5200 50  0001 L CNN "voltage"
-	1    6350 3400
-	0    1    1    0   
+P 6350 3650
+F 0 "D44" V 6396 3570 50  0000 R CNN
+F 1 "LL4148" V 6305 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 6350 4050 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 6350 4150 50  0001 L CNN
+F 4 "Diode" H 6350 4250 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 6350 4350 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 6350 4450 50  0001 L CNN "digikey part number"
+F 7 "yes" H 6350 4550 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 6350 4650 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 6350 4750 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 6350 4850 50  0001 L CNN "mouser part number"
+F 11 "2" H 6350 4950 50  0001 L CNN "num pins"
+F 12 "SOD80" H 6350 5050 50  0001 L CNN "package"
+F 13 "yes" H 6350 5150 50  0001 L CNN "rohs"
+F 14 "+175°C" H 6350 5250 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 6350 5350 50  0001 L CNN "temperature range low"
+F 16 "" H 6350 5450 50  0001 L CNN "voltage"
+	1    6350 3650
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	6400 3500 6350 3500
@@ -2309,35 +1886,35 @@ Wire Wire Line
 Wire Wire Line
 	15650 3500 15600 3500
 $Comp
-L eec-fairchild:LL4148 D108
+L Diode:LL4148 D108
 U 1 1 637C9D8A
-P 15600 3400
-F 0 "D108" V 16000 3500 50  0000 L CNN
-F 1 "LL4148" V 15895 3478 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 15600 3800 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 15600 3900 50  0001 L CNN
-F 4 "Diode" H 15600 4000 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 15600 4100 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 15600 4200 50  0001 L CNN "digikey part number"
-F 7 "yes" H 15600 4300 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 15600 4400 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 15600 4500 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 15600 4600 50  0001 L CNN "mouser part number"
-F 11 "2" H 15600 4700 50  0001 L CNN "num pins"
-F 12 "SOD80" H 15600 4800 50  0001 L CNN "package"
-F 13 "yes" H 15600 4900 50  0001 L CNN "rohs"
-F 14 "+175°C" H 15600 5000 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 15600 5100 50  0001 L CNN "temperature range low"
-F 16 "" H 15600 5200 50  0001 L CNN "voltage"
-	1    15600 3400
-	0    1    1    0   
+P 15600 3650
+F 0 "D108" V 15525 3550 50  0000 R CNN
+F 1 "LL4148" V 15425 3550 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 15600 4050 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 15600 4150 50  0001 L CNN
+F 4 "Diode" H 15600 4250 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 15600 4350 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 15600 4450 50  0001 L CNN "digikey part number"
+F 7 "yes" H 15600 4550 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 15600 4650 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 15600 4750 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 15600 4850 50  0001 L CNN "mouser part number"
+F 11 "2" H 15600 4950 50  0001 L CNN "num pins"
+F 12 "SOD80" H 15600 5050 50  0001 L CNN "package"
+F 13 "yes" H 15600 5150 50  0001 L CNN "rohs"
+F 14 "+175°C" H 15600 5250 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 15600 5350 50  0001 L CNN "temperature range low"
+F 16 "" H 15600 5450 50  0001 L CNN "voltage"
+	1    15600 3650
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW107
 U 1 1 637C9D77
 P 15850 3500
-F 0 "SW107" H 15850 3350 50  0000 C CNN
-F 1 "MX_SW" H 15850 3450 50  0000 C CNN
+F 0 "SW107" H 15850 3315 50  0000 C CNN
+F 1 "MX_SW" H 15850 3406 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 15850 3700 50  0001 C CNN
 F 3 "~" H 15850 3700 50  0001 C CNN
 	1    15850 3500
@@ -2352,28 +1929,28 @@ Wire Wire Line
 Wire Wire Line
 	15650 2200 15600 2200
 $Comp
-L eec-fairchild:LL4148 D107
+L Diode:LL4148 D107
 U 1 1 636ED4DE
-P 15600 2100
-F 0 "D107" V 15850 2150 50  0000 L CNN
-F 1 "LL4148" V 15950 2150 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 15600 2500 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 15600 2600 50  0001 L CNN
-F 4 "Diode" H 15600 2700 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 15600 2800 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 15600 2900 50  0001 L CNN "digikey part number"
-F 7 "yes" H 15600 3000 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 15600 3100 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 15600 3200 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 15600 3300 50  0001 L CNN "mouser part number"
-F 11 "2" H 15600 3400 50  0001 L CNN "num pins"
-F 12 "SOD80" H 15600 3500 50  0001 L CNN "package"
-F 13 "yes" H 15600 3600 50  0001 L CNN "rohs"
-F 14 "+175°C" H 15600 3700 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 15600 3800 50  0001 L CNN "temperature range low"
-F 16 "" H 15600 3900 50  0001 L CNN "voltage"
-	1    15600 2100
-	0    1    1    0   
+P 15600 2350
+F 0 "D107" V 15550 2275 50  0000 R CNN
+F 1 "LL4148" V 15450 2275 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 15600 2750 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 15600 2850 50  0001 L CNN
+F 4 "Diode" H 15600 2950 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 15600 3050 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 15600 3150 50  0001 L CNN "digikey part number"
+F 7 "yes" H 15600 3250 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 15600 3350 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 15600 3450 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 15600 3550 50  0001 L CNN "mouser part number"
+F 11 "2" H 15600 3650 50  0001 L CNN "num pins"
+F 12 "SOD80" H 15600 3750 50  0001 L CNN "package"
+F 13 "yes" H 15600 3850 50  0001 L CNN "rohs"
+F 14 "+175°C" H 15600 3950 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 15600 4050 50  0001 L CNN "temperature range low"
+F 16 "" H 15600 4150 50  0001 L CNN "voltage"
+	1    15600 2350
+	0    -1   -1   0   
 $EndComp
 Connection ~ 14850 1950
 Wire Wire Line
@@ -2383,32 +1960,30 @@ Wire Wire Line
 Text GLabel 16050 850  1    50   Input ~ 0
 COL_22
 Wire Wire Line
-	15600 1850 15600 1950
-Wire Wire Line
 	15650 1550 15600 1550
 $Comp
-L eec-fairchild:LL4148 D106
+L Diode:LL4148 D106
 U 1 1 6352DF7B
-P 15600 1450
-F 0 "D106" V 15804 1528 50  0000 L CNN
-F 1 "LL4148" V 15895 1528 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 15600 1850 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 15600 1950 50  0001 L CNN
-F 4 "Diode" H 15600 2050 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 15600 2150 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 15600 2250 50  0001 L CNN "digikey part number"
-F 7 "yes" H 15600 2350 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 15600 2450 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 15600 2550 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 15600 2650 50  0001 L CNN "mouser part number"
-F 11 "2" H 15600 2750 50  0001 L CNN "num pins"
-F 12 "SOD80" H 15600 2850 50  0001 L CNN "package"
-F 13 "yes" H 15600 2950 50  0001 L CNN "rohs"
-F 14 "+175°C" H 15600 3050 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 15600 3150 50  0001 L CNN "temperature range low"
-F 16 "" H 15600 3250 50  0001 L CNN "voltage"
-	1    15600 1450
-	0    1    1    0   
+P 15600 1700
+F 0 "D106" V 15646 1620 50  0000 R CNN
+F 1 "LL4148" V 15555 1620 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 15600 2100 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 15600 2200 50  0001 L CNN
+F 4 "Diode" H 15600 2300 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 15600 2400 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 15600 2500 50  0001 L CNN "digikey part number"
+F 7 "yes" H 15600 2600 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 15600 2700 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 15600 2800 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 15600 2900 50  0001 L CNN "mouser part number"
+F 11 "2" H 15600 3000 50  0001 L CNN "num pins"
+F 12 "SOD80" H 15600 3100 50  0001 L CNN "package"
+F 13 "yes" H 15600 3200 50  0001 L CNN "rohs"
+F 14 "+175°C" H 15600 3300 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 15600 3400 50  0001 L CNN "temperature range low"
+F 16 "" H 15600 3500 50  0001 L CNN "voltage"
+	1    15600 1700
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW105
@@ -2432,28 +2007,28 @@ Wire Wire Line
 Wire Wire Line
 	14900 4150 14850 4150
 $Comp
-L eec-fairchild:LL4148 D105
+L Diode:LL4148 D105
 U 1 1 6344CEC0
-P 14850 4050
-F 0 "D105" V 15054 4128 50  0000 L CNN
-F 1 "LL4148" V 15145 4128 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 14850 4450 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14850 4550 50  0001 L CNN
-F 4 "Diode" H 14850 4650 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14850 4750 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 14850 4850 50  0001 L CNN "digikey part number"
-F 7 "yes" H 14850 4950 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 14850 5050 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 14850 5150 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 14850 5250 50  0001 L CNN "mouser part number"
-F 11 "2" H 14850 5350 50  0001 L CNN "num pins"
-F 12 "SOD80" H 14850 5450 50  0001 L CNN "package"
-F 13 "yes" H 14850 5550 50  0001 L CNN "rohs"
-F 14 "+175°C" H 14850 5650 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 14850 5750 50  0001 L CNN "temperature range low"
-F 16 "" H 14850 5850 50  0001 L CNN "voltage"
-	1    14850 4050
-	0    1    1    0   
+P 14850 4300
+F 0 "D105" V 14896 4220 50  0000 R CNN
+F 1 "LL4148" V 14805 4220 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 14850 4700 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14850 4800 50  0001 L CNN
+F 4 "Diode" H 14850 4900 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14850 5000 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 14850 5100 50  0001 L CNN "digikey part number"
+F 7 "yes" H 14850 5200 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 14850 5300 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 14850 5400 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 14850 5500 50  0001 L CNN "mouser part number"
+F 11 "2" H 14850 5600 50  0001 L CNN "num pins"
+F 12 "SOD80" H 14850 5700 50  0001 L CNN "package"
+F 13 "yes" H 14850 5800 50  0001 L CNN "rohs"
+F 14 "+175°C" H 14850 5900 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 14850 6000 50  0001 L CNN "temperature range low"
+F 16 "" H 14850 6100 50  0001 L CNN "voltage"
+	1    14850 4300
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW104
@@ -2477,28 +2052,28 @@ Wire Wire Line
 Wire Wire Line
 	14900 3500 14850 3500
 $Comp
-L eec-fairchild:LL4148 D104
+L Diode:LL4148 D104
 U 1 1 63375708
-P 14850 3400
-F 0 "D104" V 15054 3478 50  0000 L CNN
-F 1 "LL4148" V 15145 3478 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 14850 3800 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14850 3900 50  0001 L CNN
-F 4 "Diode" H 14850 4000 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14850 4100 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 14850 4200 50  0001 L CNN "digikey part number"
-F 7 "yes" H 14850 4300 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 14850 4400 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 14850 4500 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 14850 4600 50  0001 L CNN "mouser part number"
-F 11 "2" H 14850 4700 50  0001 L CNN "num pins"
-F 12 "SOD80" H 14850 4800 50  0001 L CNN "package"
-F 13 "yes" H 14850 4900 50  0001 L CNN "rohs"
-F 14 "+175°C" H 14850 5000 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 14850 5100 50  0001 L CNN "temperature range low"
-F 16 "" H 14850 5200 50  0001 L CNN "voltage"
-	1    14850 3400
-	0    1    1    0   
+P 14850 3650
+F 0 "D104" V 14896 3570 50  0000 R CNN
+F 1 "LL4148" V 14805 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 14850 4050 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14850 4150 50  0001 L CNN
+F 4 "Diode" H 14850 4250 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14850 4350 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 14850 4450 50  0001 L CNN "digikey part number"
+F 7 "yes" H 14850 4550 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 14850 4650 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 14850 4750 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 14850 4850 50  0001 L CNN "mouser part number"
+F 11 "2" H 14850 4950 50  0001 L CNN "num pins"
+F 12 "SOD80" H 14850 5050 50  0001 L CNN "package"
+F 13 "yes" H 14850 5150 50  0001 L CNN "rohs"
+F 14 "+175°C" H 14850 5250 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 14850 5350 50  0001 L CNN "temperature range low"
+F 16 "" H 14850 5450 50  0001 L CNN "voltage"
+	1    14850 3650
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW103
@@ -2522,28 +2097,28 @@ Wire Wire Line
 Wire Wire Line
 	14900 2850 14850 2850
 $Comp
-L eec-fairchild:LL4148 D103
+L Diode:LL4148 D103
 U 1 1 632A1C53
-P 14850 2750
-F 0 "D103" V 15054 2828 50  0000 L CNN
-F 1 "LL4148" V 15145 2828 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 14850 3150 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14850 3250 50  0001 L CNN
-F 4 "Diode" H 14850 3350 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14850 3450 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 14850 3550 50  0001 L CNN "digikey part number"
-F 7 "yes" H 14850 3650 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 14850 3750 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 14850 3850 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 14850 3950 50  0001 L CNN "mouser part number"
-F 11 "2" H 14850 4050 50  0001 L CNN "num pins"
-F 12 "SOD80" H 14850 4150 50  0001 L CNN "package"
-F 13 "yes" H 14850 4250 50  0001 L CNN "rohs"
-F 14 "+175°C" H 14850 4350 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 14850 4450 50  0001 L CNN "temperature range low"
-F 16 "" H 14850 4550 50  0001 L CNN "voltage"
-	1    14850 2750
-	0    1    1    0   
+P 14850 3000
+F 0 "D103" V 14896 2920 50  0000 R CNN
+F 1 "LL4148" V 14805 2920 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 14850 3400 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14850 3500 50  0001 L CNN
+F 4 "Diode" H 14850 3600 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14850 3700 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 14850 3800 50  0001 L CNN "digikey part number"
+F 7 "yes" H 14850 3900 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 14850 4000 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 14850 4100 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 14850 4200 50  0001 L CNN "mouser part number"
+F 11 "2" H 14850 4300 50  0001 L CNN "num pins"
+F 12 "SOD80" H 14850 4400 50  0001 L CNN "package"
+F 13 "yes" H 14850 4500 50  0001 L CNN "rohs"
+F 14 "+175°C" H 14850 4600 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 14850 4700 50  0001 L CNN "temperature range low"
+F 16 "" H 14850 4800 50  0001 L CNN "voltage"
+	1    14850 3000
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW102
@@ -2567,28 +2142,28 @@ Wire Wire Line
 Wire Wire Line
 	14900 2200 14850 2200
 $Comp
-L eec-fairchild:LL4148 D102
+L Diode:LL4148 D102
 U 1 1 631D14B4
-P 14850 2100
-F 0 "D102" V 15054 2178 50  0000 L CNN
-F 1 "LL4148" V 15145 2178 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 14850 2500 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14850 2600 50  0001 L CNN
-F 4 "Diode" H 14850 2700 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14850 2800 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 14850 2900 50  0001 L CNN "digikey part number"
-F 7 "yes" H 14850 3000 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 14850 3100 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 14850 3200 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 14850 3300 50  0001 L CNN "mouser part number"
-F 11 "2" H 14850 3400 50  0001 L CNN "num pins"
-F 12 "SOD80" H 14850 3500 50  0001 L CNN "package"
-F 13 "yes" H 14850 3600 50  0001 L CNN "rohs"
-F 14 "+175°C" H 14850 3700 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 14850 3800 50  0001 L CNN "temperature range low"
-F 16 "" H 14850 3900 50  0001 L CNN "voltage"
-	1    14850 2100
-	0    1    1    0   
+P 14850 2350
+F 0 "D102" V 14896 2270 50  0000 R CNN
+F 1 "LL4148" V 14805 2270 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 14850 2750 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14850 2850 50  0001 L CNN
+F 4 "Diode" H 14850 2950 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14850 3050 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 14850 3150 50  0001 L CNN "digikey part number"
+F 7 "yes" H 14850 3250 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 14850 3350 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 14850 3450 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 14850 3550 50  0001 L CNN "mouser part number"
+F 11 "2" H 14850 3650 50  0001 L CNN "num pins"
+F 12 "SOD80" H 14850 3750 50  0001 L CNN "package"
+F 13 "yes" H 14850 3850 50  0001 L CNN "rohs"
+F 14 "+175°C" H 14850 3950 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 14850 4050 50  0001 L CNN "temperature range low"
+F 16 "" H 14850 4150 50  0001 L CNN "voltage"
+	1    14850 2350
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW101
@@ -2612,28 +2187,28 @@ Wire Wire Line
 Wire Wire Line
 	14900 1550 14850 1550
 $Comp
-L eec-fairchild:LL4148 D101
+L Diode:LL4148 D101
 U 1 1 63101A67
-P 14850 1450
-F 0 "D101" V 15054 1528 50  0000 L CNN
-F 1 "LL4148" V 15145 1528 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 14850 1850 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14850 1950 50  0001 L CNN
-F 4 "Diode" H 14850 2050 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14850 2150 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 14850 2250 50  0001 L CNN "digikey part number"
-F 7 "yes" H 14850 2350 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 14850 2450 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 14850 2550 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 14850 2650 50  0001 L CNN "mouser part number"
-F 11 "2" H 14850 2750 50  0001 L CNN "num pins"
-F 12 "SOD80" H 14850 2850 50  0001 L CNN "package"
-F 13 "yes" H 14850 2950 50  0001 L CNN "rohs"
-F 14 "+175°C" H 14850 3050 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 14850 3150 50  0001 L CNN "temperature range low"
-F 16 "" H 14850 3250 50  0001 L CNN "voltage"
-	1    14850 1450
-	0    1    1    0   
+P 14850 1700
+F 0 "D101" V 14896 1620 50  0000 R CNN
+F 1 "LL4148" V 14805 1620 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 14850 2100 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14850 2200 50  0001 L CNN
+F 4 "Diode" H 14850 2300 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14850 2400 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 14850 2500 50  0001 L CNN "digikey part number"
+F 7 "yes" H 14850 2600 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 14850 2700 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 14850 2800 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 14850 2900 50  0001 L CNN "mouser part number"
+F 11 "2" H 14850 3000 50  0001 L CNN "num pins"
+F 12 "SOD80" H 14850 3100 50  0001 L CNN "package"
+F 13 "yes" H 14850 3200 50  0001 L CNN "rohs"
+F 14 "+175°C" H 14850 3300 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 14850 3400 50  0001 L CNN "temperature range low"
+F 16 "" H 14850 3500 50  0001 L CNN "voltage"
+	1    14850 1700
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW100
@@ -2658,28 +2233,28 @@ Wire Wire Line
 Wire Wire Line
 	14900 900  14850 900 
 $Comp
-L eec-fairchild:LL4148 D100
+L Diode:LL4148 D100
 U 1 1 63033218
-P 14850 800
-F 0 "D100" V 15054 878 50  0000 L CNN
-F 1 "LL4148" V 15145 878 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 14850 1200 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14850 1300 50  0001 L CNN
-F 4 "Diode" H 14850 1400 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14850 1500 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 14850 1600 50  0001 L CNN "digikey part number"
-F 7 "yes" H 14850 1700 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 14850 1800 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 14850 1900 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 14850 2000 50  0001 L CNN "mouser part number"
-F 11 "2" H 14850 2100 50  0001 L CNN "num pins"
-F 12 "SOD80" H 14850 2200 50  0001 L CNN "package"
-F 13 "yes" H 14850 2300 50  0001 L CNN "rohs"
-F 14 "+175°C" H 14850 2400 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 14850 2500 50  0001 L CNN "temperature range low"
-F 16 "" H 14850 2600 50  0001 L CNN "voltage"
-	1    14850 800 
-	0    1    1    0   
+P 14850 1050
+F 0 "D100" V 14896 970 50  0000 R CNN
+F 1 "LL4148" V 14805 970 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 14850 1450 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14850 1550 50  0001 L CNN
+F 4 "Diode" H 14850 1650 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14850 1750 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 14850 1850 50  0001 L CNN "digikey part number"
+F 7 "yes" H 14850 1950 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 14850 2050 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 14850 2150 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 14850 2250 50  0001 L CNN "mouser part number"
+F 11 "2" H 14850 2350 50  0001 L CNN "num pins"
+F 12 "SOD80" H 14850 2450 50  0001 L CNN "package"
+F 13 "yes" H 14850 2550 50  0001 L CNN "rohs"
+F 14 "+175°C" H 14850 2650 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 14850 2750 50  0001 L CNN "temperature range low"
+F 16 "" H 14850 2850 50  0001 L CNN "voltage"
+	1    14850 1050
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW99
@@ -2703,28 +2278,28 @@ Wire Wire Line
 Wire Wire Line
 	14200 3500 14150 3500
 $Comp
-L eec-fairchild:LL4148 D99
+L Diode:LL4148 D99
 U 1 1 62F69A09
-P 14150 3400
-F 0 "D99" V 14354 3478 50  0000 L CNN
-F 1 "LL4148" V 14445 3478 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 14150 3800 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14150 3900 50  0001 L CNN
-F 4 "Diode" H 14150 4000 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14150 4100 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 14150 4200 50  0001 L CNN "digikey part number"
-F 7 "yes" H 14150 4300 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 14150 4400 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 14150 4500 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 14150 4600 50  0001 L CNN "mouser part number"
-F 11 "2" H 14150 4700 50  0001 L CNN "num pins"
-F 12 "SOD80" H 14150 4800 50  0001 L CNN "package"
-F 13 "yes" H 14150 4900 50  0001 L CNN "rohs"
-F 14 "+175°C" H 14150 5000 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 14150 5100 50  0001 L CNN "temperature range low"
-F 16 "" H 14150 5200 50  0001 L CNN "voltage"
-	1    14150 3400
-	0    1    1    0   
+P 14150 3650
+F 0 "D99" V 14196 3570 50  0000 R CNN
+F 1 "LL4148" V 14105 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 14150 4050 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14150 4150 50  0001 L CNN
+F 4 "Diode" H 14150 4250 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14150 4350 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 14150 4450 50  0001 L CNN "digikey part number"
+F 7 "yes" H 14150 4550 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 14150 4650 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 14150 4750 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 14150 4850 50  0001 L CNN "mouser part number"
+F 11 "2" H 14150 4950 50  0001 L CNN "num pins"
+F 12 "SOD80" H 14150 5050 50  0001 L CNN "package"
+F 13 "yes" H 14150 5150 50  0001 L CNN "rohs"
+F 14 "+175°C" H 14150 5250 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 14150 5350 50  0001 L CNN "temperature range low"
+F 16 "" H 14150 5450 50  0001 L CNN "voltage"
+	1    14150 3650
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW98
@@ -2748,28 +2323,28 @@ Wire Wire Line
 Wire Wire Line
 	14200 2850 14150 2850
 $Comp
-L eec-fairchild:LL4148 D98
+L Diode:LL4148 D98
 U 1 1 62EA2237
-P 14150 2750
-F 0 "D98" V 14354 2828 50  0000 L CNN
-F 1 "LL4148" V 14445 2828 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 14150 3150 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14150 3250 50  0001 L CNN
-F 4 "Diode" H 14150 3350 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14150 3450 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 14150 3550 50  0001 L CNN "digikey part number"
-F 7 "yes" H 14150 3650 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 14150 3750 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 14150 3850 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 14150 3950 50  0001 L CNN "mouser part number"
-F 11 "2" H 14150 4050 50  0001 L CNN "num pins"
-F 12 "SOD80" H 14150 4150 50  0001 L CNN "package"
-F 13 "yes" H 14150 4250 50  0001 L CNN "rohs"
-F 14 "+175°C" H 14150 4350 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 14150 4450 50  0001 L CNN "temperature range low"
-F 16 "" H 14150 4550 50  0001 L CNN "voltage"
-	1    14150 2750
-	0    1    1    0   
+P 14150 3000
+F 0 "D98" V 14196 2920 50  0000 R CNN
+F 1 "LL4148" V 14105 2920 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 14150 3400 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14150 3500 50  0001 L CNN
+F 4 "Diode" H 14150 3600 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14150 3700 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 14150 3800 50  0001 L CNN "digikey part number"
+F 7 "yes" H 14150 3900 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 14150 4000 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 14150 4100 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 14150 4200 50  0001 L CNN "mouser part number"
+F 11 "2" H 14150 4300 50  0001 L CNN "num pins"
+F 12 "SOD80" H 14150 4400 50  0001 L CNN "package"
+F 13 "yes" H 14150 4500 50  0001 L CNN "rohs"
+F 14 "+175°C" H 14150 4600 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 14150 4700 50  0001 L CNN "temperature range low"
+F 16 "" H 14150 4800 50  0001 L CNN "voltage"
+	1    14150 3000
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW97
@@ -2793,28 +2368,28 @@ Wire Wire Line
 Wire Wire Line
 	14200 2200 14150 2200
 $Comp
-L eec-fairchild:LL4148 D97
+L Diode:LL4148 D97
 U 1 1 62DDE151
-P 14150 2100
-F 0 "D97" V 14354 2178 50  0000 L CNN
-F 1 "LL4148" V 14445 2178 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 14150 2500 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14150 2600 50  0001 L CNN
-F 4 "Diode" H 14150 2700 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14150 2800 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 14150 2900 50  0001 L CNN "digikey part number"
-F 7 "yes" H 14150 3000 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 14150 3100 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 14150 3200 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 14150 3300 50  0001 L CNN "mouser part number"
-F 11 "2" H 14150 3400 50  0001 L CNN "num pins"
-F 12 "SOD80" H 14150 3500 50  0001 L CNN "package"
-F 13 "yes" H 14150 3600 50  0001 L CNN "rohs"
-F 14 "+175°C" H 14150 3700 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 14150 3800 50  0001 L CNN "temperature range low"
-F 16 "" H 14150 3900 50  0001 L CNN "voltage"
-	1    14150 2100
-	0    1    1    0   
+P 14150 2350
+F 0 "D97" V 14196 2270 50  0000 R CNN
+F 1 "LL4148" V 14105 2270 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 14150 2750 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14150 2850 50  0001 L CNN
+F 4 "Diode" H 14150 2950 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14150 3050 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 14150 3150 50  0001 L CNN "digikey part number"
+F 7 "yes" H 14150 3250 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 14150 3350 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 14150 3450 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 14150 3550 50  0001 L CNN "mouser part number"
+F 11 "2" H 14150 3650 50  0001 L CNN "num pins"
+F 12 "SOD80" H 14150 3750 50  0001 L CNN "package"
+F 13 "yes" H 14150 3850 50  0001 L CNN "rohs"
+F 14 "+175°C" H 14150 3950 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 14150 4050 50  0001 L CNN "temperature range low"
+F 16 "" H 14150 4150 50  0001 L CNN "voltage"
+	1    14150 2350
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW96
@@ -2838,28 +2413,28 @@ Wire Wire Line
 Wire Wire Line
 	14200 1550 14150 1550
 $Comp
-L eec-fairchild:LL4148 D96
+L Diode:LL4148 D96
 U 1 1 62D1B26D
-P 14150 1450
-F 0 "D96" V 14354 1528 50  0000 L CNN
-F 1 "LL4148" V 14445 1528 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 14150 1850 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14150 1950 50  0001 L CNN
-F 4 "Diode" H 14150 2050 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14150 2150 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 14150 2250 50  0001 L CNN "digikey part number"
-F 7 "yes" H 14150 2350 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 14150 2450 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 14150 2550 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 14150 2650 50  0001 L CNN "mouser part number"
-F 11 "2" H 14150 2750 50  0001 L CNN "num pins"
-F 12 "SOD80" H 14150 2850 50  0001 L CNN "package"
-F 13 "yes" H 14150 2950 50  0001 L CNN "rohs"
-F 14 "+175°C" H 14150 3050 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 14150 3150 50  0001 L CNN "temperature range low"
-F 16 "" H 14150 3250 50  0001 L CNN "voltage"
-	1    14150 1450
-	0    1    1    0   
+P 14150 1700
+F 0 "D96" V 14196 1620 50  0000 R CNN
+F 1 "LL4148" V 14105 1620 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 14150 2100 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14150 2200 50  0001 L CNN
+F 4 "Diode" H 14150 2300 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14150 2400 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 14150 2500 50  0001 L CNN "digikey part number"
+F 7 "yes" H 14150 2600 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 14150 2700 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 14150 2800 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 14150 2900 50  0001 L CNN "mouser part number"
+F 11 "2" H 14150 3000 50  0001 L CNN "num pins"
+F 12 "SOD80" H 14150 3100 50  0001 L CNN "package"
+F 13 "yes" H 14150 3200 50  0001 L CNN "rohs"
+F 14 "+175°C" H 14150 3300 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 14150 3400 50  0001 L CNN "temperature range low"
+F 16 "" H 14150 3500 50  0001 L CNN "voltage"
+	1    14150 1700
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW95
@@ -2884,28 +2459,28 @@ Wire Wire Line
 Wire Wire Line
 	14200 900  14150 900 
 $Comp
-L eec-fairchild:LL4148 D95
+L Diode:LL4148 D95
 U 1 1 62C59FD5
-P 14150 800
-F 0 "D95" V 14354 878 50  0000 L CNN
-F 1 "LL4148" V 14445 878 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 14150 1200 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14150 1300 50  0001 L CNN
-F 4 "Diode" H 14150 1400 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14150 1500 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 14150 1600 50  0001 L CNN "digikey part number"
-F 7 "yes" H 14150 1700 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 14150 1800 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 14150 1900 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 14150 2000 50  0001 L CNN "mouser part number"
-F 11 "2" H 14150 2100 50  0001 L CNN "num pins"
-F 12 "SOD80" H 14150 2200 50  0001 L CNN "package"
-F 13 "yes" H 14150 2300 50  0001 L CNN "rohs"
-F 14 "+175°C" H 14150 2400 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 14150 2500 50  0001 L CNN "temperature range low"
-F 16 "" H 14150 2600 50  0001 L CNN "voltage"
-	1    14150 800 
-	0    1    1    0   
+P 14150 1050
+F 0 "D95" V 14196 970 50  0000 R CNN
+F 1 "LL4148" V 14105 970 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 14150 1450 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 14150 1550 50  0001 L CNN
+F 4 "Diode" H 14150 1650 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 14150 1750 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 14150 1850 50  0001 L CNN "digikey part number"
+F 7 "yes" H 14150 1950 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 14150 2050 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 14150 2150 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 14150 2250 50  0001 L CNN "mouser part number"
+F 11 "2" H 14150 2350 50  0001 L CNN "num pins"
+F 12 "SOD80" H 14150 2450 50  0001 L CNN "package"
+F 13 "yes" H 14150 2550 50  0001 L CNN "rohs"
+F 14 "+175°C" H 14150 2650 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 14150 2750 50  0001 L CNN "temperature range low"
+F 16 "" H 14150 2850 50  0001 L CNN "voltage"
+	1    14150 1050
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW94
@@ -2929,28 +2504,28 @@ Wire Wire Line
 Wire Wire Line
 	13500 4150 13450 4150
 $Comp
-L eec-fairchild:LL4148 D93
+L Diode:LL4148 D93
 U 1 1 62B9C842
-P 13450 4050
-F 0 "D93" V 13654 4128 50  0000 L CNN
-F 1 "LL4148" V 13745 4128 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 13450 4450 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 13450 4550 50  0001 L CNN
-F 4 "Diode" H 13450 4650 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 13450 4750 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 13450 4850 50  0001 L CNN "digikey part number"
-F 7 "yes" H 13450 4950 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 13450 5050 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 13450 5150 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 13450 5250 50  0001 L CNN "mouser part number"
-F 11 "2" H 13450 5350 50  0001 L CNN "num pins"
-F 12 "SOD80" H 13450 5450 50  0001 L CNN "package"
-F 13 "yes" H 13450 5550 50  0001 L CNN "rohs"
-F 14 "+175°C" H 13450 5650 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 13450 5750 50  0001 L CNN "temperature range low"
-F 16 "" H 13450 5850 50  0001 L CNN "voltage"
-	1    13450 4050
-	0    1    1    0   
+P 13450 4300
+F 0 "D93" V 13496 4220 50  0000 R CNN
+F 1 "LL4148" V 13405 4220 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 13450 4700 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 13450 4800 50  0001 L CNN
+F 4 "Diode" H 13450 4900 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 13450 5000 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 13450 5100 50  0001 L CNN "digikey part number"
+F 7 "yes" H 13450 5200 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 13450 5300 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 13450 5400 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 13450 5500 50  0001 L CNN "mouser part number"
+F 11 "2" H 13450 5600 50  0001 L CNN "num pins"
+F 12 "SOD80" H 13450 5700 50  0001 L CNN "package"
+F 13 "yes" H 13450 5800 50  0001 L CNN "rohs"
+F 14 "+175°C" H 13450 5900 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 13450 6000 50  0001 L CNN "temperature range low"
+F 16 "" H 13450 6100 50  0001 L CNN "voltage"
+	1    13450 4300
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW93
@@ -2974,28 +2549,28 @@ Wire Wire Line
 Wire Wire Line
 	13500 3500 13450 3500
 $Comp
-L eec-fairchild:LL4148 D92
+L Diode:LL4148 D92
 U 1 1 62AE0B86
-P 13450 3400
-F 0 "D92" V 13654 3478 50  0000 L CNN
-F 1 "LL4148" V 13745 3478 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 13450 3800 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 13450 3900 50  0001 L CNN
-F 4 "Diode" H 13450 4000 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 13450 4100 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 13450 4200 50  0001 L CNN "digikey part number"
-F 7 "yes" H 13450 4300 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 13450 4400 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 13450 4500 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 13450 4600 50  0001 L CNN "mouser part number"
-F 11 "2" H 13450 4700 50  0001 L CNN "num pins"
-F 12 "SOD80" H 13450 4800 50  0001 L CNN "package"
-F 13 "yes" H 13450 4900 50  0001 L CNN "rohs"
-F 14 "+175°C" H 13450 5000 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 13450 5100 50  0001 L CNN "temperature range low"
-F 16 "" H 13450 5200 50  0001 L CNN "voltage"
-	1    13450 3400
-	0    1    1    0   
+P 13450 3650
+F 0 "D92" V 13496 3570 50  0000 R CNN
+F 1 "LL4148" V 13405 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 13450 4050 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 13450 4150 50  0001 L CNN
+F 4 "Diode" H 13450 4250 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 13450 4350 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 13450 4450 50  0001 L CNN "digikey part number"
+F 7 "yes" H 13450 4550 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 13450 4650 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 13450 4750 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 13450 4850 50  0001 L CNN "mouser part number"
+F 11 "2" H 13450 4950 50  0001 L CNN "num pins"
+F 12 "SOD80" H 13450 5050 50  0001 L CNN "package"
+F 13 "yes" H 13450 5150 50  0001 L CNN "rohs"
+F 14 "+175°C" H 13450 5250 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 13450 5350 50  0001 L CNN "temperature range low"
+F 16 "" H 13450 5450 50  0001 L CNN "voltage"
+	1    13450 3650
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW92
@@ -3019,28 +2594,28 @@ Wire Wire Line
 Wire Wire Line
 	13500 2850 13450 2850
 $Comp
-L eec-fairchild:LL4148 D91
+L Diode:LL4148 D91
 U 1 1 62A271EB
-P 13450 2750
-F 0 "D91" V 13654 2828 50  0000 L CNN
-F 1 "LL4148" V 13745 2828 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 13450 3150 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 13450 3250 50  0001 L CNN
-F 4 "Diode" H 13450 3350 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 13450 3450 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 13450 3550 50  0001 L CNN "digikey part number"
-F 7 "yes" H 13450 3650 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 13450 3750 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 13450 3850 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 13450 3950 50  0001 L CNN "mouser part number"
-F 11 "2" H 13450 4050 50  0001 L CNN "num pins"
-F 12 "SOD80" H 13450 4150 50  0001 L CNN "package"
-F 13 "yes" H 13450 4250 50  0001 L CNN "rohs"
-F 14 "+175°C" H 13450 4350 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 13450 4450 50  0001 L CNN "temperature range low"
-F 16 "" H 13450 4550 50  0001 L CNN "voltage"
-	1    13450 2750
-	0    1    1    0   
+P 13450 3000
+F 0 "D91" V 13496 2920 50  0000 R CNN
+F 1 "LL4148" V 13405 2920 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 13450 3400 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 13450 3500 50  0001 L CNN
+F 4 "Diode" H 13450 3600 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 13450 3700 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 13450 3800 50  0001 L CNN "digikey part number"
+F 7 "yes" H 13450 3900 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 13450 4000 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 13450 4100 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 13450 4200 50  0001 L CNN "mouser part number"
+F 11 "2" H 13450 4300 50  0001 L CNN "num pins"
+F 12 "SOD80" H 13450 4400 50  0001 L CNN "package"
+F 13 "yes" H 13450 4500 50  0001 L CNN "rohs"
+F 14 "+175°C" H 13450 4600 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 13450 4700 50  0001 L CNN "temperature range low"
+F 16 "" H 13450 4800 50  0001 L CNN "voltage"
+	1    13450 3000
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW91
@@ -3064,28 +2639,28 @@ Wire Wire Line
 Wire Wire Line
 	13500 2200 13450 2200
 $Comp
-L eec-fairchild:LL4148 D90
+L Diode:LL4148 D90
 U 1 1 62970D2C
-P 13450 2100
-F 0 "D90" V 13654 2178 50  0000 L CNN
-F 1 "LL4148" V 13745 2178 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 13450 2500 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 13450 2600 50  0001 L CNN
-F 4 "Diode" H 13450 2700 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 13450 2800 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 13450 2900 50  0001 L CNN "digikey part number"
-F 7 "yes" H 13450 3000 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 13450 3100 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 13450 3200 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 13450 3300 50  0001 L CNN "mouser part number"
-F 11 "2" H 13450 3400 50  0001 L CNN "num pins"
-F 12 "SOD80" H 13450 3500 50  0001 L CNN "package"
-F 13 "yes" H 13450 3600 50  0001 L CNN "rohs"
-F 14 "+175°C" H 13450 3700 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 13450 3800 50  0001 L CNN "temperature range low"
-F 16 "" H 13450 3900 50  0001 L CNN "voltage"
-	1    13450 2100
-	0    1    1    0   
+P 13450 2350
+F 0 "D90" V 13496 2270 50  0000 R CNN
+F 1 "LL4148" V 13405 2270 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 13450 2750 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 13450 2850 50  0001 L CNN
+F 4 "Diode" H 13450 2950 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 13450 3050 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 13450 3150 50  0001 L CNN "digikey part number"
+F 7 "yes" H 13450 3250 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 13450 3350 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 13450 3450 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 13450 3550 50  0001 L CNN "mouser part number"
+F 11 "2" H 13450 3650 50  0001 L CNN "num pins"
+F 12 "SOD80" H 13450 3750 50  0001 L CNN "package"
+F 13 "yes" H 13450 3850 50  0001 L CNN "rohs"
+F 14 "+175°C" H 13450 3950 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 13450 4050 50  0001 L CNN "temperature range low"
+F 16 "" H 13450 4150 50  0001 L CNN "voltage"
+	1    13450 2350
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW90
@@ -3109,28 +2684,28 @@ Wire Wire Line
 Wire Wire Line
 	13500 1550 13450 1550
 $Comp
-L eec-fairchild:LL4148 D89
+L Diode:LL4148 D89
 U 1 1 628BD770
-P 13450 1450
-F 0 "D89" V 13654 1528 50  0000 L CNN
-F 1 "LL4148" V 13745 1528 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 13450 1850 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 13450 1950 50  0001 L CNN
-F 4 "Diode" H 13450 2050 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 13450 2150 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 13450 2250 50  0001 L CNN "digikey part number"
-F 7 "yes" H 13450 2350 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 13450 2450 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 13450 2550 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 13450 2650 50  0001 L CNN "mouser part number"
-F 11 "2" H 13450 2750 50  0001 L CNN "num pins"
-F 12 "SOD80" H 13450 2850 50  0001 L CNN "package"
-F 13 "yes" H 13450 2950 50  0001 L CNN "rohs"
-F 14 "+175°C" H 13450 3050 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 13450 3150 50  0001 L CNN "temperature range low"
-F 16 "" H 13450 3250 50  0001 L CNN "voltage"
-	1    13450 1450
-	0    1    1    0   
+P 13450 1700
+F 0 "D89" V 13496 1620 50  0000 R CNN
+F 1 "LL4148" V 13405 1620 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 13450 2100 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 13450 2200 50  0001 L CNN
+F 4 "Diode" H 13450 2300 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 13450 2400 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 13450 2500 50  0001 L CNN "digikey part number"
+F 7 "yes" H 13450 2600 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 13450 2700 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 13450 2800 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 13450 2900 50  0001 L CNN "mouser part number"
+F 11 "2" H 13450 3000 50  0001 L CNN "num pins"
+F 12 "SOD80" H 13450 3100 50  0001 L CNN "package"
+F 13 "yes" H 13450 3200 50  0001 L CNN "rohs"
+F 14 "+175°C" H 13450 3300 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 13450 3400 50  0001 L CNN "temperature range low"
+F 16 "" H 13450 3500 50  0001 L CNN "voltage"
+	1    13450 1700
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW89
@@ -3155,28 +2730,28 @@ Wire Wire Line
 Wire Wire Line
 	13500 900  13450 900 
 $Comp
-L eec-fairchild:LL4148 D88
+L Diode:LL4148 D88
 U 1 1 6280AAF5
-P 13450 800
-F 0 "D88" V 13654 878 50  0000 L CNN
-F 1 "LL4148" V 13745 878 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 13450 1200 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 13450 1300 50  0001 L CNN
-F 4 "Diode" H 13450 1400 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 13450 1500 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 13450 1600 50  0001 L CNN "digikey part number"
-F 7 "yes" H 13450 1700 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 13450 1800 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 13450 1900 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 13450 2000 50  0001 L CNN "mouser part number"
-F 11 "2" H 13450 2100 50  0001 L CNN "num pins"
-F 12 "SOD80" H 13450 2200 50  0001 L CNN "package"
-F 13 "yes" H 13450 2300 50  0001 L CNN "rohs"
-F 14 "+175°C" H 13450 2400 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 13450 2500 50  0001 L CNN "temperature range low"
-F 16 "" H 13450 2600 50  0001 L CNN "voltage"
-	1    13450 800 
-	0    1    1    0   
+P 13450 1050
+F 0 "D88" V 13496 970 50  0000 R CNN
+F 1 "LL4148" V 13405 970 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 13450 1450 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 13450 1550 50  0001 L CNN
+F 4 "Diode" H 13450 1650 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 13450 1750 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 13450 1850 50  0001 L CNN "digikey part number"
+F 7 "yes" H 13450 1950 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 13450 2050 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 13450 2150 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 13450 2250 50  0001 L CNN "mouser part number"
+F 11 "2" H 13450 2350 50  0001 L CNN "num pins"
+F 12 "SOD80" H 13450 2450 50  0001 L CNN "package"
+F 13 "yes" H 13450 2550 50  0001 L CNN "rohs"
+F 14 "+175°C" H 13450 2650 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 13450 2750 50  0001 L CNN "temperature range low"
+F 16 "" H 13450 2850 50  0001 L CNN "voltage"
+	1    13450 1050
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW88
@@ -3200,28 +2775,28 @@ Wire Wire Line
 Wire Wire Line
 	12800 4150 12750 4150
 $Comp
-L eec-fairchild:LL4148 D87
+L Diode:LL4148 D87
 U 1 1 6270EFB2
-P 12750 4050
-F 0 "D87" V 12954 4128 50  0000 L CNN
-F 1 "LL4148" V 13045 4128 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 12750 4450 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12750 4550 50  0001 L CNN
-F 4 "Diode" H 12750 4650 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 12750 4750 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 12750 4850 50  0001 L CNN "digikey part number"
-F 7 "yes" H 12750 4950 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 12750 5050 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 12750 5150 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 12750 5250 50  0001 L CNN "mouser part number"
-F 11 "2" H 12750 5350 50  0001 L CNN "num pins"
-F 12 "SOD80" H 12750 5450 50  0001 L CNN "package"
-F 13 "yes" H 12750 5550 50  0001 L CNN "rohs"
-F 14 "+175°C" H 12750 5650 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 12750 5750 50  0001 L CNN "temperature range low"
-F 16 "" H 12750 5850 50  0001 L CNN "voltage"
-	1    12750 4050
-	0    1    1    0   
+P 12750 4300
+F 0 "D87" V 12796 4220 50  0000 R CNN
+F 1 "LL4148" V 12705 4220 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 12750 4700 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12750 4800 50  0001 L CNN
+F 4 "Diode" H 12750 4900 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 12750 5000 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 12750 5100 50  0001 L CNN "digikey part number"
+F 7 "yes" H 12750 5200 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 12750 5300 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 12750 5400 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 12750 5500 50  0001 L CNN "mouser part number"
+F 11 "2" H 12750 5600 50  0001 L CNN "num pins"
+F 12 "SOD80" H 12750 5700 50  0001 L CNN "package"
+F 13 "yes" H 12750 5800 50  0001 L CNN "rohs"
+F 14 "+175°C" H 12750 5900 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 12750 6000 50  0001 L CNN "temperature range low"
+F 16 "" H 12750 6100 50  0001 L CNN "voltage"
+	1    12750 4300
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW87
@@ -3245,28 +2820,28 @@ Wire Wire Line
 Wire Wire Line
 	12800 2200 12750 2200
 $Comp
-L eec-fairchild:LL4148 D86
+L Diode:LL4148 D86
 U 1 1 62661C2D
-P 12750 2100
-F 0 "D86" V 12954 2178 50  0000 L CNN
-F 1 "LL4148" V 13045 2178 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 12750 2500 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12750 2600 50  0001 L CNN
-F 4 "Diode" H 12750 2700 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 12750 2800 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 12750 2900 50  0001 L CNN "digikey part number"
-F 7 "yes" H 12750 3000 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 12750 3100 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 12750 3200 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 12750 3300 50  0001 L CNN "mouser part number"
-F 11 "2" H 12750 3400 50  0001 L CNN "num pins"
-F 12 "SOD80" H 12750 3500 50  0001 L CNN "package"
-F 13 "yes" H 12750 3600 50  0001 L CNN "rohs"
-F 14 "+175°C" H 12750 3700 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 12750 3800 50  0001 L CNN "temperature range low"
-F 16 "" H 12750 3900 50  0001 L CNN "voltage"
-	1    12750 2100
-	0    1    1    0   
+P 12750 2350
+F 0 "D86" V 12796 2270 50  0000 R CNN
+F 1 "LL4148" V 12705 2270 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 12750 2750 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12750 2850 50  0001 L CNN
+F 4 "Diode" H 12750 2950 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 12750 3050 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 12750 3150 50  0001 L CNN "digikey part number"
+F 7 "yes" H 12750 3250 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 12750 3350 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 12750 3450 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 12750 3550 50  0001 L CNN "mouser part number"
+F 11 "2" H 12750 3650 50  0001 L CNN "num pins"
+F 12 "SOD80" H 12750 3750 50  0001 L CNN "package"
+F 13 "yes" H 12750 3850 50  0001 L CNN "rohs"
+F 14 "+175°C" H 12750 3950 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 12750 4050 50  0001 L CNN "temperature range low"
+F 16 "" H 12750 4150 50  0001 L CNN "voltage"
+	1    12750 2350
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW86
@@ -3290,28 +2865,28 @@ Wire Wire Line
 Wire Wire Line
 	12800 1550 12750 1550
 $Comp
-L eec-fairchild:LL4148 D85
+L Diode:LL4148 D85
 U 1 1 625B7617
-P 12750 1450
-F 0 "D85" V 12954 1528 50  0000 L CNN
-F 1 "LL4148" V 13045 1528 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 12750 1850 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12750 1950 50  0001 L CNN
-F 4 "Diode" H 12750 2050 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 12750 2150 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 12750 2250 50  0001 L CNN "digikey part number"
-F 7 "yes" H 12750 2350 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 12750 2450 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 12750 2550 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 12750 2650 50  0001 L CNN "mouser part number"
-F 11 "2" H 12750 2750 50  0001 L CNN "num pins"
-F 12 "SOD80" H 12750 2850 50  0001 L CNN "package"
-F 13 "yes" H 12750 2950 50  0001 L CNN "rohs"
-F 14 "+175°C" H 12750 3050 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 12750 3150 50  0001 L CNN "temperature range low"
-F 16 "" H 12750 3250 50  0001 L CNN "voltage"
-	1    12750 1450
-	0    1    1    0   
+P 12750 1700
+F 0 "D85" V 12796 1620 50  0000 R CNN
+F 1 "LL4148" V 12705 1620 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 12750 2100 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12750 2200 50  0001 L CNN
+F 4 "Diode" H 12750 2300 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 12750 2400 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 12750 2500 50  0001 L CNN "digikey part number"
+F 7 "yes" H 12750 2600 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 12750 2700 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 12750 2800 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 12750 2900 50  0001 L CNN "mouser part number"
+F 11 "2" H 12750 3000 50  0001 L CNN "num pins"
+F 12 "SOD80" H 12750 3100 50  0001 L CNN "package"
+F 13 "yes" H 12750 3200 50  0001 L CNN "rohs"
+F 14 "+175°C" H 12750 3300 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 12750 3400 50  0001 L CNN "temperature range low"
+F 16 "" H 12750 3500 50  0001 L CNN "voltage"
+	1    12750 1700
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW85
@@ -3336,28 +2911,28 @@ Wire Wire Line
 Wire Wire Line
 	12800 900  12750 900 
 $Comp
-L eec-fairchild:LL4148 D84
+L Diode:LL4148 D84
 U 1 1 6250DF8A
-P 12750 800
-F 0 "D84" V 12954 878 50  0000 L CNN
-F 1 "LL4148" V 13045 878 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 12750 1200 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12750 1300 50  0001 L CNN
-F 4 "Diode" H 12750 1400 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 12750 1500 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 12750 1600 50  0001 L CNN "digikey part number"
-F 7 "yes" H 12750 1700 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 12750 1800 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 12750 1900 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 12750 2000 50  0001 L CNN "mouser part number"
-F 11 "2" H 12750 2100 50  0001 L CNN "num pins"
-F 12 "SOD80" H 12750 2200 50  0001 L CNN "package"
-F 13 "yes" H 12750 2300 50  0001 L CNN "rohs"
-F 14 "+175°C" H 12750 2400 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 12750 2500 50  0001 L CNN "temperature range low"
-F 16 "" H 12750 2600 50  0001 L CNN "voltage"
-	1    12750 800 
-	0    1    1    0   
+P 12750 1050
+F 0 "D84" V 12796 970 50  0000 R CNN
+F 1 "LL4148" V 12705 970 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 12750 1450 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12750 1550 50  0001 L CNN
+F 4 "Diode" H 12750 1650 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 12750 1750 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 12750 1850 50  0001 L CNN "digikey part number"
+F 7 "yes" H 12750 1950 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 12750 2050 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 12750 2150 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 12750 2250 50  0001 L CNN "mouser part number"
+F 11 "2" H 12750 2350 50  0001 L CNN "num pins"
+F 12 "SOD80" H 12750 2450 50  0001 L CNN "package"
+F 13 "yes" H 12750 2550 50  0001 L CNN "rohs"
+F 14 "+175°C" H 12750 2650 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 12750 2750 50  0001 L CNN "temperature range low"
+F 16 "" H 12750 2850 50  0001 L CNN "voltage"
+	1    12750 1050
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW84
@@ -3381,28 +2956,28 @@ Wire Wire Line
 Wire Wire Line
 	12100 4150 12050 4150
 $Comp
-L eec-fairchild:LL4148 D83
+L Diode:LL4148 D83
 U 1 1 62468143
-P 12050 4050
-F 0 "D83" V 12254 4128 50  0000 L CNN
-F 1 "LL4148" V 12345 4128 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 12050 4450 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12050 4550 50  0001 L CNN
-F 4 "Diode" H 12050 4650 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 12050 4750 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 12050 4850 50  0001 L CNN "digikey part number"
-F 7 "yes" H 12050 4950 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 12050 5050 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 12050 5150 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 12050 5250 50  0001 L CNN "mouser part number"
-F 11 "2" H 12050 5350 50  0001 L CNN "num pins"
-F 12 "SOD80" H 12050 5450 50  0001 L CNN "package"
-F 13 "yes" H 12050 5550 50  0001 L CNN "rohs"
-F 14 "+175°C" H 12050 5650 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 12050 5750 50  0001 L CNN "temperature range low"
-F 16 "" H 12050 5850 50  0001 L CNN "voltage"
-	1    12050 4050
-	0    1    1    0   
+P 12050 4300
+F 0 "D83" V 12096 4220 50  0000 R CNN
+F 1 "LL4148" V 12005 4220 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 12050 4700 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12050 4800 50  0001 L CNN
+F 4 "Diode" H 12050 4900 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 12050 5000 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 12050 5100 50  0001 L CNN "digikey part number"
+F 7 "yes" H 12050 5200 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 12050 5300 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 12050 5400 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 12050 5500 50  0001 L CNN "mouser part number"
+F 11 "2" H 12050 5600 50  0001 L CNN "num pins"
+F 12 "SOD80" H 12050 5700 50  0001 L CNN "package"
+F 13 "yes" H 12050 5800 50  0001 L CNN "rohs"
+F 14 "+175°C" H 12050 5900 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 12050 6000 50  0001 L CNN "temperature range low"
+F 16 "" H 12050 6100 50  0001 L CNN "voltage"
+	1    12050 4300
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW83
@@ -3426,28 +3001,28 @@ Wire Wire Line
 Wire Wire Line
 	12100 3500 12050 3500
 $Comp
-L eec-fairchild:LL4148 D82
+L Diode:LL4148 D82
 U 1 1 623C3CF0
-P 12050 3400
-F 0 "D82" V 12254 3478 50  0000 L CNN
-F 1 "LL4148" V 12345 3478 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 12050 3800 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12050 3900 50  0001 L CNN
-F 4 "Diode" H 12050 4000 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 12050 4100 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 12050 4200 50  0001 L CNN "digikey part number"
-F 7 "yes" H 12050 4300 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 12050 4400 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 12050 4500 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 12050 4600 50  0001 L CNN "mouser part number"
-F 11 "2" H 12050 4700 50  0001 L CNN "num pins"
-F 12 "SOD80" H 12050 4800 50  0001 L CNN "package"
-F 13 "yes" H 12050 4900 50  0001 L CNN "rohs"
-F 14 "+175°C" H 12050 5000 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 12050 5100 50  0001 L CNN "temperature range low"
-F 16 "" H 12050 5200 50  0001 L CNN "voltage"
-	1    12050 3400
-	0    1    1    0   
+P 12050 3650
+F 0 "D82" V 12096 3570 50  0000 R CNN
+F 1 "LL4148" V 12005 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 12050 4050 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12050 4150 50  0001 L CNN
+F 4 "Diode" H 12050 4250 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 12050 4350 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 12050 4450 50  0001 L CNN "digikey part number"
+F 7 "yes" H 12050 4550 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 12050 4650 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 12050 4750 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 12050 4850 50  0001 L CNN "mouser part number"
+F 11 "2" H 12050 4950 50  0001 L CNN "num pins"
+F 12 "SOD80" H 12050 5050 50  0001 L CNN "package"
+F 13 "yes" H 12050 5150 50  0001 L CNN "rohs"
+F 14 "+175°C" H 12050 5250 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 12050 5350 50  0001 L CNN "temperature range low"
+F 16 "" H 12050 5450 50  0001 L CNN "voltage"
+	1    12050 3650
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW82
@@ -3471,28 +3046,28 @@ Wire Wire Line
 Wire Wire Line
 	12100 2200 12050 2200
 $Comp
-L eec-fairchild:LL4148 D81
+L Diode:LL4148 D81
 U 1 1 62322934
-P 12050 2100
-F 0 "D81" V 12254 2178 50  0000 L CNN
-F 1 "LL4148" V 12345 2178 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 12050 2500 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12050 2600 50  0001 L CNN
-F 4 "Diode" H 12050 2700 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 12050 2800 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 12050 2900 50  0001 L CNN "digikey part number"
-F 7 "yes" H 12050 3000 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 12050 3100 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 12050 3200 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 12050 3300 50  0001 L CNN "mouser part number"
-F 11 "2" H 12050 3400 50  0001 L CNN "num pins"
-F 12 "SOD80" H 12050 3500 50  0001 L CNN "package"
-F 13 "yes" H 12050 3600 50  0001 L CNN "rohs"
-F 14 "+175°C" H 12050 3700 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 12050 3800 50  0001 L CNN "temperature range low"
-F 16 "" H 12050 3900 50  0001 L CNN "voltage"
-	1    12050 2100
-	0    1    1    0   
+P 12050 2350
+F 0 "D81" V 12096 2270 50  0000 R CNN
+F 1 "LL4148" V 12005 2270 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 12050 2750 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12050 2850 50  0001 L CNN
+F 4 "Diode" H 12050 2950 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 12050 3050 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 12050 3150 50  0001 L CNN "digikey part number"
+F 7 "yes" H 12050 3250 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 12050 3350 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 12050 3450 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 12050 3550 50  0001 L CNN "mouser part number"
+F 11 "2" H 12050 3650 50  0001 L CNN "num pins"
+F 12 "SOD80" H 12050 3750 50  0001 L CNN "package"
+F 13 "yes" H 12050 3850 50  0001 L CNN "rohs"
+F 14 "+175°C" H 12050 3950 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 12050 4050 50  0001 L CNN "temperature range low"
+F 16 "" H 12050 4150 50  0001 L CNN "voltage"
+	1    12050 2350
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW81
@@ -3516,28 +3091,28 @@ Wire Wire Line
 Wire Wire Line
 	12100 1550 12050 1550
 $Comp
-L eec-fairchild:LL4148 D80
+L Diode:LL4148 D80
 U 1 1 6227F207
-P 12050 1450
-F 0 "D80" V 12254 1528 50  0000 L CNN
-F 1 "LL4148" V 12345 1528 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 12050 1850 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12050 1950 50  0001 L CNN
-F 4 "Diode" H 12050 2050 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 12050 2150 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 12050 2250 50  0001 L CNN "digikey part number"
-F 7 "yes" H 12050 2350 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 12050 2450 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 12050 2550 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 12050 2650 50  0001 L CNN "mouser part number"
-F 11 "2" H 12050 2750 50  0001 L CNN "num pins"
-F 12 "SOD80" H 12050 2850 50  0001 L CNN "package"
-F 13 "yes" H 12050 2950 50  0001 L CNN "rohs"
-F 14 "+175°C" H 12050 3050 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 12050 3150 50  0001 L CNN "temperature range low"
-F 16 "" H 12050 3250 50  0001 L CNN "voltage"
-	1    12050 1450
-	0    1    1    0   
+P 12050 1700
+F 0 "D80" V 12096 1620 50  0000 R CNN
+F 1 "LL4148" V 12005 1620 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 12050 2100 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12050 2200 50  0001 L CNN
+F 4 "Diode" H 12050 2300 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 12050 2400 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 12050 2500 50  0001 L CNN "digikey part number"
+F 7 "yes" H 12050 2600 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 12050 2700 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 12050 2800 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 12050 2900 50  0001 L CNN "mouser part number"
+F 11 "2" H 12050 3000 50  0001 L CNN "num pins"
+F 12 "SOD80" H 12050 3100 50  0001 L CNN "package"
+F 13 "yes" H 12050 3200 50  0001 L CNN "rohs"
+F 14 "+175°C" H 12050 3300 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 12050 3400 50  0001 L CNN "temperature range low"
+F 16 "" H 12050 3500 50  0001 L CNN "voltage"
+	1    12050 1700
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW80
@@ -3562,30 +3137,6 @@ Wire Wire Line
 Wire Wire Line
 	12100 900  12050 900 
 $Comp
-L eec-fairchild:LL4148 D79
-U 1 1 621DF4A3
-P 12050 800
-F 0 "D79" V 12254 878 50  0000 L CNN
-F 1 "LL4148" V 12345 878 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 12050 1200 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 12050 1300 50  0001 L CNN
-F 4 "Diode" H 12050 1400 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 12050 1500 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 12050 1600 50  0001 L CNN "digikey part number"
-F 7 "yes" H 12050 1700 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 12050 1800 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 12050 1900 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 12050 2000 50  0001 L CNN "mouser part number"
-F 11 "2" H 12050 2100 50  0001 L CNN "num pins"
-F 12 "SOD80" H 12050 2200 50  0001 L CNN "package"
-F 13 "yes" H 12050 2300 50  0001 L CNN "rohs"
-F 14 "+175°C" H 12050 2400 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 12050 2500 50  0001 L CNN "temperature range low"
-F 16 "" H 12050 2600 50  0001 L CNN "voltage"
-	1    12050 800 
-	0    1    1    0   
-$EndComp
-$Comp
 L cldg:MX_SW SW79
 U 1 1 621DF490
 P 12300 900
@@ -3607,28 +3158,28 @@ Wire Wire Line
 Wire Wire Line
 	11400 4150 11350 4150
 $Comp
-L eec-fairchild:LL4148 D78
+L Diode:LL4148 D78
 U 1 1 6210B6E4
-P 11350 4050
-F 0 "D78" V 11554 4128 50  0000 L CNN
-F 1 "LL4148" V 11645 4128 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 11350 4450 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 11350 4550 50  0001 L CNN
-F 4 "Diode" H 11350 4650 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 11350 4750 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 11350 4850 50  0001 L CNN "digikey part number"
-F 7 "yes" H 11350 4950 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 11350 5050 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 11350 5150 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 11350 5250 50  0001 L CNN "mouser part number"
-F 11 "2" H 11350 5350 50  0001 L CNN "num pins"
-F 12 "SOD80" H 11350 5450 50  0001 L CNN "package"
-F 13 "yes" H 11350 5550 50  0001 L CNN "rohs"
-F 14 "+175°C" H 11350 5650 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 11350 5750 50  0001 L CNN "temperature range low"
-F 16 "" H 11350 5850 50  0001 L CNN "voltage"
-	1    11350 4050
-	0    1    1    0   
+P 11350 4300
+F 0 "D78" V 11396 4220 50  0000 R CNN
+F 1 "LL4148" V 11305 4220 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 11350 4700 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 11350 4800 50  0001 L CNN
+F 4 "Diode" H 11350 4900 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 11350 5000 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 11350 5100 50  0001 L CNN "digikey part number"
+F 7 "yes" H 11350 5200 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 11350 5300 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 11350 5400 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 11350 5500 50  0001 L CNN "mouser part number"
+F 11 "2" H 11350 5600 50  0001 L CNN "num pins"
+F 12 "SOD80" H 11350 5700 50  0001 L CNN "package"
+F 13 "yes" H 11350 5800 50  0001 L CNN "rohs"
+F 14 "+175°C" H 11350 5900 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 11350 6000 50  0001 L CNN "temperature range low"
+F 16 "" H 11350 6100 50  0001 L CNN "voltage"
+	1    11350 4300
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW78
@@ -3652,28 +3203,28 @@ Wire Wire Line
 Wire Wire Line
 	11400 2200 11350 2200
 $Comp
-L eec-fairchild:LL4148 D77
+L Diode:LL4148 D77
 U 1 1 62070766
-P 11350 2100
-F 0 "D77" V 11554 2178 50  0000 L CNN
-F 1 "LL4148" V 11645 2178 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 11350 2500 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 11350 2600 50  0001 L CNN
-F 4 "Diode" H 11350 2700 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 11350 2800 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 11350 2900 50  0001 L CNN "digikey part number"
-F 7 "yes" H 11350 3000 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 11350 3100 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 11350 3200 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 11350 3300 50  0001 L CNN "mouser part number"
-F 11 "2" H 11350 3400 50  0001 L CNN "num pins"
-F 12 "SOD80" H 11350 3500 50  0001 L CNN "package"
-F 13 "yes" H 11350 3600 50  0001 L CNN "rohs"
-F 14 "+175°C" H 11350 3700 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 11350 3800 50  0001 L CNN "temperature range low"
-F 16 "" H 11350 3900 50  0001 L CNN "voltage"
-	1    11350 2100
-	0    1    1    0   
+P 11350 2350
+F 0 "D77" V 11396 2270 50  0000 R CNN
+F 1 "LL4148" V 11305 2270 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 11350 2750 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 11350 2850 50  0001 L CNN
+F 4 "Diode" H 11350 2950 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 11350 3050 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 11350 3150 50  0001 L CNN "digikey part number"
+F 7 "yes" H 11350 3250 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 11350 3350 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 11350 3450 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 11350 3550 50  0001 L CNN "mouser part number"
+F 11 "2" H 11350 3650 50  0001 L CNN "num pins"
+F 12 "SOD80" H 11350 3750 50  0001 L CNN "package"
+F 13 "yes" H 11350 3850 50  0001 L CNN "rohs"
+F 14 "+175°C" H 11350 3950 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 11350 4050 50  0001 L CNN "temperature range low"
+F 16 "" H 11350 4150 50  0001 L CNN "voltage"
+	1    11350 2350
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW77
@@ -3697,28 +3248,28 @@ Wire Wire Line
 Wire Wire Line
 	11400 1550 11350 1550
 $Comp
-L eec-fairchild:LL4148 D76
+L Diode:LL4148 D76
 U 1 1 61FD94B4
-P 11350 1450
-F 0 "D76" V 11554 1528 50  0000 L CNN
-F 1 "LL4148" V 11645 1528 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 11350 1850 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 11350 1950 50  0001 L CNN
-F 4 "Diode" H 11350 2050 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 11350 2150 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 11350 2250 50  0001 L CNN "digikey part number"
-F 7 "yes" H 11350 2350 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 11350 2450 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 11350 2550 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 11350 2650 50  0001 L CNN "mouser part number"
-F 11 "2" H 11350 2750 50  0001 L CNN "num pins"
-F 12 "SOD80" H 11350 2850 50  0001 L CNN "package"
-F 13 "yes" H 11350 2950 50  0001 L CNN "rohs"
-F 14 "+175°C" H 11350 3050 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 11350 3150 50  0001 L CNN "temperature range low"
-F 16 "" H 11350 3250 50  0001 L CNN "voltage"
-	1    11350 1450
-	0    1    1    0   
+P 11350 1700
+F 0 "D76" V 11396 1620 50  0000 R CNN
+F 1 "LL4148" V 11305 1620 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 11350 2100 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 11350 2200 50  0001 L CNN
+F 4 "Diode" H 11350 2300 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 11350 2400 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 11350 2500 50  0001 L CNN "digikey part number"
+F 7 "yes" H 11350 2600 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 11350 2700 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 11350 2800 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 11350 2900 50  0001 L CNN "mouser part number"
+F 11 "2" H 11350 3000 50  0001 L CNN "num pins"
+F 12 "SOD80" H 11350 3100 50  0001 L CNN "package"
+F 13 "yes" H 11350 3200 50  0001 L CNN "rohs"
+F 14 "+175°C" H 11350 3300 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 11350 3400 50  0001 L CNN "temperature range low"
+F 16 "" H 11350 3500 50  0001 L CNN "voltage"
+	1    11350 1700
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW76
@@ -3743,30 +3294,6 @@ Wire Wire Line
 Wire Wire Line
 	11400 900  11350 900 
 $Comp
-L eec-fairchild:LL4148 D75
-U 1 1 61F41772
-P 11350 800
-F 0 "D75" V 11554 878 50  0000 L CNN
-F 1 "LL4148" V 11645 878 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 11350 1200 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 11350 1300 50  0001 L CNN
-F 4 "Diode" H 11350 1400 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 11350 1500 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 11350 1600 50  0001 L CNN "digikey part number"
-F 7 "yes" H 11350 1700 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 11350 1800 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 11350 1900 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 11350 2000 50  0001 L CNN "mouser part number"
-F 11 "2" H 11350 2100 50  0001 L CNN "num pins"
-F 12 "SOD80" H 11350 2200 50  0001 L CNN "package"
-F 13 "yes" H 11350 2300 50  0001 L CNN "rohs"
-F 14 "+175°C" H 11350 2400 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 11350 2500 50  0001 L CNN "temperature range low"
-F 16 "" H 11350 2600 50  0001 L CNN "voltage"
-	1    11350 800 
-	0    1    1    0   
-$EndComp
-$Comp
 L cldg:MX_SW SW75
 U 1 1 61F4175F
 P 11600 900
@@ -3788,28 +3315,28 @@ Wire Wire Line
 Wire Wire Line
 	10650 4150 10600 4150
 $Comp
-L eec-fairchild:LL4148 D74
+L Diode:LL4148 D74
 U 1 1 61EAD5A3
-P 10600 4050
-F 0 "D74" V 10804 4128 50  0000 L CNN
-F 1 "LL4148" V 10895 4128 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 10600 4450 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 10600 4550 50  0001 L CNN
-F 4 "Diode" H 10600 4650 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 10600 4750 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 10600 4850 50  0001 L CNN "digikey part number"
-F 7 "yes" H 10600 4950 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 10600 5050 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 10600 5150 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 10600 5250 50  0001 L CNN "mouser part number"
-F 11 "2" H 10600 5350 50  0001 L CNN "num pins"
-F 12 "SOD80" H 10600 5450 50  0001 L CNN "package"
-F 13 "yes" H 10600 5550 50  0001 L CNN "rohs"
-F 14 "+175°C" H 10600 5650 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 10600 5750 50  0001 L CNN "temperature range low"
-F 16 "" H 10600 5850 50  0001 L CNN "voltage"
-	1    10600 4050
-	0    1    1    0   
+P 10600 4300
+F 0 "D74" V 10646 4220 50  0000 R CNN
+F 1 "LL4148" V 10555 4220 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 10600 4700 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 10600 4800 50  0001 L CNN
+F 4 "Diode" H 10600 4900 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 10600 5000 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 10600 5100 50  0001 L CNN "digikey part number"
+F 7 "yes" H 10600 5200 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 10600 5300 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 10600 5400 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 10600 5500 50  0001 L CNN "mouser part number"
+F 11 "2" H 10600 5600 50  0001 L CNN "num pins"
+F 12 "SOD80" H 10600 5700 50  0001 L CNN "package"
+F 13 "yes" H 10600 5800 50  0001 L CNN "rohs"
+F 14 "+175°C" H 10600 5900 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 10600 6000 50  0001 L CNN "temperature range low"
+F 16 "" H 10600 6100 50  0001 L CNN "voltage"
+	1    10600 4300
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW74
@@ -3833,28 +3360,28 @@ Wire Wire Line
 Wire Wire Line
 	10650 2200 10600 2200
 $Comp
-L eec-fairchild:LL4148 D73
+L Diode:LL4148 D73
 U 1 1 61D5AFBF
-P 10600 2100
-F 0 "D73" V 10804 2178 50  0000 L CNN
-F 1 "LL4148" V 10895 2178 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 10600 2500 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 10600 2600 50  0001 L CNN
-F 4 "Diode" H 10600 2700 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 10600 2800 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 10600 2900 50  0001 L CNN "digikey part number"
-F 7 "yes" H 10600 3000 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 10600 3100 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 10600 3200 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 10600 3300 50  0001 L CNN "mouser part number"
-F 11 "2" H 10600 3400 50  0001 L CNN "num pins"
-F 12 "SOD80" H 10600 3500 50  0001 L CNN "package"
-F 13 "yes" H 10600 3600 50  0001 L CNN "rohs"
-F 14 "+175°C" H 10600 3700 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 10600 3800 50  0001 L CNN "temperature range low"
-F 16 "" H 10600 3900 50  0001 L CNN "voltage"
-	1    10600 2100
-	0    1    1    0   
+P 10600 2350
+F 0 "D73" V 10646 2270 50  0000 R CNN
+F 1 "LL4148" V 10555 2270 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 10600 2750 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 10600 2850 50  0001 L CNN
+F 4 "Diode" H 10600 2950 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 10600 3050 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 10600 3150 50  0001 L CNN "digikey part number"
+F 7 "yes" H 10600 3250 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 10600 3350 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 10600 3450 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 10600 3550 50  0001 L CNN "mouser part number"
+F 11 "2" H 10600 3650 50  0001 L CNN "num pins"
+F 12 "SOD80" H 10600 3750 50  0001 L CNN "package"
+F 13 "yes" H 10600 3850 50  0001 L CNN "rohs"
+F 14 "+175°C" H 10600 3950 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 10600 4050 50  0001 L CNN "temperature range low"
+F 16 "" H 10600 4150 50  0001 L CNN "voltage"
+	1    10600 2350
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW73
@@ -3872,34 +3399,32 @@ Wire Wire Line
 	11050 900  11050 1550
 Connection ~ 9200 1950
 Wire Wire Line
-	9200 1950 10600 1950
-Wire Wire Line
 	10600 1850 10600 1950
 Wire Wire Line
 	10650 1550 10600 1550
 $Comp
-L eec-fairchild:LL4148 D72
+L Diode:LL4148 D72
 U 1 1 61CC9770
-P 10600 1450
-F 0 "D72" V 10804 1528 50  0000 L CNN
-F 1 "LL4148" V 10895 1528 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 10600 1850 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 10600 1950 50  0001 L CNN
-F 4 "Diode" H 10600 2050 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 10600 2150 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 10600 2250 50  0001 L CNN "digikey part number"
-F 7 "yes" H 10600 2350 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 10600 2450 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 10600 2550 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 10600 2650 50  0001 L CNN "mouser part number"
-F 11 "2" H 10600 2750 50  0001 L CNN "num pins"
-F 12 "SOD80" H 10600 2850 50  0001 L CNN "package"
-F 13 "yes" H 10600 2950 50  0001 L CNN "rohs"
-F 14 "+175°C" H 10600 3050 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 10600 3150 50  0001 L CNN "temperature range low"
-F 16 "" H 10600 3250 50  0001 L CNN "voltage"
-	1    10600 1450
-	0    1    1    0   
+P 10600 1700
+F 0 "D72" V 10646 1620 50  0000 R CNN
+F 1 "LL4148" V 10555 1620 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 10600 2100 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 10600 2200 50  0001 L CNN
+F 4 "Diode" H 10600 2300 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 10600 2400 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 10600 2500 50  0001 L CNN "digikey part number"
+F 7 "yes" H 10600 2600 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 10600 2700 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 10600 2800 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 10600 2900 50  0001 L CNN "mouser part number"
+F 11 "2" H 10600 3000 50  0001 L CNN "num pins"
+F 12 "SOD80" H 10600 3100 50  0001 L CNN "package"
+F 13 "yes" H 10600 3200 50  0001 L CNN "rohs"
+F 14 "+175°C" H 10600 3300 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 10600 3400 50  0001 L CNN "temperature range low"
+F 16 "" H 10600 3500 50  0001 L CNN "voltage"
+	1    10600 1700
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW72
@@ -3924,30 +3449,6 @@ Wire Wire Line
 Wire Wire Line
 	10650 900  10600 900 
 $Comp
-L eec-fairchild:LL4148 D71
-U 1 1 61C3BE8E
-P 10600 800
-F 0 "D71" V 10804 878 50  0000 L CNN
-F 1 "LL4148" V 10895 878 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 10600 1200 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 10600 1300 50  0001 L CNN
-F 4 "Diode" H 10600 1400 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 10600 1500 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 10600 1600 50  0001 L CNN "digikey part number"
-F 7 "yes" H 10600 1700 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 10600 1800 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 10600 1900 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 10600 2000 50  0001 L CNN "mouser part number"
-F 11 "2" H 10600 2100 50  0001 L CNN "num pins"
-F 12 "SOD80" H 10600 2200 50  0001 L CNN "package"
-F 13 "yes" H 10600 2300 50  0001 L CNN "rohs"
-F 14 "+175°C" H 10600 2400 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 10600 2500 50  0001 L CNN "temperature range low"
-F 16 "" H 10600 2600 50  0001 L CNN "voltage"
-	1    10600 800 
-	0    1    1    0   
-$EndComp
-$Comp
 L cldg:MX_SW SW71
 U 1 1 61C3BE7B
 P 10850 900
@@ -3969,28 +3470,28 @@ Wire Wire Line
 Wire Wire Line
 	9950 4150 9900 4150
 $Comp
-L eec-fairchild:LL4148 D70
+L Diode:LL4148 D70
 U 1 1 61B7D812
-P 9900 4050
-F 0 "D70" V 10104 4128 50  0000 L CNN
-F 1 "LL4148" V 10195 4128 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 9900 4450 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9900 4550 50  0001 L CNN
-F 4 "Diode" H 9900 4650 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 9900 4750 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 9900 4850 50  0001 L CNN "digikey part number"
-F 7 "yes" H 9900 4950 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 9900 5050 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 9900 5150 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 9900 5250 50  0001 L CNN "mouser part number"
-F 11 "2" H 9900 5350 50  0001 L CNN "num pins"
-F 12 "SOD80" H 9900 5450 50  0001 L CNN "package"
-F 13 "yes" H 9900 5550 50  0001 L CNN "rohs"
-F 14 "+175°C" H 9900 5650 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 9900 5750 50  0001 L CNN "temperature range low"
-F 16 "" H 9900 5850 50  0001 L CNN "voltage"
-	1    9900 4050
-	0    1    1    0   
+P 9900 4300
+F 0 "D70" V 9946 4220 50  0000 R CNN
+F 1 "LL4148" V 9855 4220 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 9900 4700 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9900 4800 50  0001 L CNN
+F 4 "Diode" H 9900 4900 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 9900 5000 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 9900 5100 50  0001 L CNN "digikey part number"
+F 7 "yes" H 9900 5200 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 9900 5300 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 9900 5400 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 9900 5500 50  0001 L CNN "mouser part number"
+F 11 "2" H 9900 5600 50  0001 L CNN "num pins"
+F 12 "SOD80" H 9900 5700 50  0001 L CNN "package"
+F 13 "yes" H 9900 5800 50  0001 L CNN "rohs"
+F 14 "+175°C" H 9900 5900 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 9900 6000 50  0001 L CNN "temperature range low"
+F 16 "" H 9900 6100 50  0001 L CNN "voltage"
+	1    9900 4300
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW70
@@ -4014,28 +3515,28 @@ Wire Wire Line
 Wire Wire Line
 	9950 3500 9900 3500
 $Comp
-L eec-fairchild:LL4148 D69
+L Diode:LL4148 D69
 U 1 1 61AF4765
-P 9900 3400
-F 0 "D69" V 10104 3478 50  0000 L CNN
-F 1 "LL4148" V 10195 3478 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 9900 3800 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9900 3900 50  0001 L CNN
-F 4 "Diode" H 9900 4000 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 9900 4100 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 9900 4200 50  0001 L CNN "digikey part number"
-F 7 "yes" H 9900 4300 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 9900 4400 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 9900 4500 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 9900 4600 50  0001 L CNN "mouser part number"
-F 11 "2" H 9900 4700 50  0001 L CNN "num pins"
-F 12 "SOD80" H 9900 4800 50  0001 L CNN "package"
-F 13 "yes" H 9900 4900 50  0001 L CNN "rohs"
-F 14 "+175°C" H 9900 5000 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 9900 5100 50  0001 L CNN "temperature range low"
-F 16 "" H 9900 5200 50  0001 L CNN "voltage"
-	1    9900 3400
-	0    1    1    0   
+P 9900 3650
+F 0 "D69" V 9946 3570 50  0000 R CNN
+F 1 "LL4148" V 9855 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 9900 4050 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9900 4150 50  0001 L CNN
+F 4 "Diode" H 9900 4250 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 9900 4350 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 9900 4450 50  0001 L CNN "digikey part number"
+F 7 "yes" H 9900 4550 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 9900 4650 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 9900 4750 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 9900 4850 50  0001 L CNN "mouser part number"
+F 11 "2" H 9900 4950 50  0001 L CNN "num pins"
+F 12 "SOD80" H 9900 5050 50  0001 L CNN "package"
+F 13 "yes" H 9900 5150 50  0001 L CNN "rohs"
+F 14 "+175°C" H 9900 5250 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 9900 5350 50  0001 L CNN "temperature range low"
+F 16 "" H 9900 5450 50  0001 L CNN "voltage"
+	1    9900 3650
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW69
@@ -4059,28 +3560,28 @@ Wire Wire Line
 Wire Wire Line
 	9950 2850 9900 2850
 $Comp
-L eec-fairchild:LL4148 D68
+L Diode:LL4148 D68
 U 1 1 61A6B7EF
-P 9900 2750
-F 0 "D68" V 10104 2828 50  0000 L CNN
-F 1 "LL4148" V 10195 2828 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 9900 3150 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9900 3250 50  0001 L CNN
-F 4 "Diode" H 9900 3350 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 9900 3450 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 9900 3550 50  0001 L CNN "digikey part number"
-F 7 "yes" H 9900 3650 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 9900 3750 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 9900 3850 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 9900 3950 50  0001 L CNN "mouser part number"
-F 11 "2" H 9900 4050 50  0001 L CNN "num pins"
-F 12 "SOD80" H 9900 4150 50  0001 L CNN "package"
-F 13 "yes" H 9900 4250 50  0001 L CNN "rohs"
-F 14 "+175°C" H 9900 4350 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 9900 4450 50  0001 L CNN "temperature range low"
-F 16 "" H 9900 4550 50  0001 L CNN "voltage"
-	1    9900 2750
-	0    1    1    0   
+P 9900 3000
+F 0 "D68" V 9946 2920 50  0000 R CNN
+F 1 "LL4148" V 9855 2920 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 9900 3400 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9900 3500 50  0001 L CNN
+F 4 "Diode" H 9900 3600 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 9900 3700 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 9900 3800 50  0001 L CNN "digikey part number"
+F 7 "yes" H 9900 3900 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 9900 4000 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 9900 4100 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 9900 4200 50  0001 L CNN "mouser part number"
+F 11 "2" H 9900 4300 50  0001 L CNN "num pins"
+F 12 "SOD80" H 9900 4400 50  0001 L CNN "package"
+F 13 "yes" H 9900 4500 50  0001 L CNN "rohs"
+F 14 "+175°C" H 9900 4600 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 9900 4700 50  0001 L CNN "temperature range low"
+F 16 "" H 9900 4800 50  0001 L CNN "voltage"
+	1    9900 3000
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW68
@@ -4104,28 +3605,28 @@ Wire Wire Line
 Wire Wire Line
 	9950 2200 9900 2200
 $Comp
-L eec-fairchild:LL4148 D67
+L Diode:LL4148 D67
 U 1 1 619B421C
-P 9900 2100
-F 0 "D67" V 10104 2178 50  0000 L CNN
-F 1 "LL4148" V 10195 2178 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 9900 2500 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9900 2600 50  0001 L CNN
-F 4 "Diode" H 9900 2700 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 9900 2800 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 9900 2900 50  0001 L CNN "digikey part number"
-F 7 "yes" H 9900 3000 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 9900 3100 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 9900 3200 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 9900 3300 50  0001 L CNN "mouser part number"
-F 11 "2" H 9900 3400 50  0001 L CNN "num pins"
-F 12 "SOD80" H 9900 3500 50  0001 L CNN "package"
-F 13 "yes" H 9900 3600 50  0001 L CNN "rohs"
-F 14 "+175°C" H 9900 3700 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 9900 3800 50  0001 L CNN "temperature range low"
-F 16 "" H 9900 3900 50  0001 L CNN "voltage"
-	1    9900 2100
-	0    1    1    0   
+P 9900 2350
+F 0 "D67" V 9946 2270 50  0000 R CNN
+F 1 "LL4148" V 9855 2270 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 9900 2750 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9900 2850 50  0001 L CNN
+F 4 "Diode" H 9900 2950 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 9900 3050 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 9900 3150 50  0001 L CNN "digikey part number"
+F 7 "yes" H 9900 3250 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 9900 3350 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 9900 3450 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 9900 3550 50  0001 L CNN "mouser part number"
+F 11 "2" H 9900 3650 50  0001 L CNN "num pins"
+F 12 "SOD80" H 9900 3750 50  0001 L CNN "package"
+F 13 "yes" H 9900 3850 50  0001 L CNN "rohs"
+F 14 "+175°C" H 9900 3950 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 9900 4050 50  0001 L CNN "temperature range low"
+F 16 "" H 9900 4150 50  0001 L CNN "voltage"
+	1    9900 2350
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW67
@@ -4170,30 +3671,6 @@ Wire Wire Line
 Wire Wire Line
 	9950 900  9900 900 
 $Comp
-L eec-fairchild:LL4148 D66
-U 1 1 6150662A
-P 9900 800
-F 0 "D66" V 10104 878 50  0000 L CNN
-F 1 "LL4148" V 10195 878 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 9900 1200 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9900 1300 50  0001 L CNN
-F 4 "Diode" H 9900 1400 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 9900 1500 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 9900 1600 50  0001 L CNN "digikey part number"
-F 7 "yes" H 9900 1700 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 9900 1800 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 9900 1900 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 9900 2000 50  0001 L CNN "mouser part number"
-F 11 "2" H 9900 2100 50  0001 L CNN "num pins"
-F 12 "SOD80" H 9900 2200 50  0001 L CNN "package"
-F 13 "yes" H 9900 2300 50  0001 L CNN "rohs"
-F 14 "+175°C" H 9900 2400 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 9900 2500 50  0001 L CNN "temperature range low"
-F 16 "" H 9900 2600 50  0001 L CNN "voltage"
-	1    9900 800 
-	0    1    1    0   
-$EndComp
-$Comp
 L cldg:MX_SW SW66
 U 1 1 61506617
 P 10150 900
@@ -4215,28 +3692,28 @@ Wire Wire Line
 Wire Wire Line
 	9250 2850 9200 2850
 $Comp
-L eec-fairchild:LL4148 D65
+L Diode:LL4148 D65
 U 1 1 6145A4DF
-P 9200 2750
-F 0 "D65" V 9404 2828 50  0000 L CNN
-F 1 "LL4148" V 9495 2828 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 9200 3150 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9200 3250 50  0001 L CNN
-F 4 "Diode" H 9200 3350 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 9200 3450 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 9200 3550 50  0001 L CNN "digikey part number"
-F 7 "yes" H 9200 3650 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 9200 3750 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 9200 3850 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 9200 3950 50  0001 L CNN "mouser part number"
-F 11 "2" H 9200 4050 50  0001 L CNN "num pins"
-F 12 "SOD80" H 9200 4150 50  0001 L CNN "package"
-F 13 "yes" H 9200 4250 50  0001 L CNN "rohs"
-F 14 "+175°C" H 9200 4350 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 9200 4450 50  0001 L CNN "temperature range low"
-F 16 "" H 9200 4550 50  0001 L CNN "voltage"
-	1    9200 2750
-	0    1    1    0   
+P 9200 3000
+F 0 "D65" V 9246 2920 50  0000 R CNN
+F 1 "LL4148" V 9155 2920 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 9200 3400 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9200 3500 50  0001 L CNN
+F 4 "Diode" H 9200 3600 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 9200 3700 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 9200 3800 50  0001 L CNN "digikey part number"
+F 7 "yes" H 9200 3900 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 9200 4000 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 9200 4100 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 9200 4200 50  0001 L CNN "mouser part number"
+F 11 "2" H 9200 4300 50  0001 L CNN "num pins"
+F 12 "SOD80" H 9200 4400 50  0001 L CNN "package"
+F 13 "yes" H 9200 4500 50  0001 L CNN "rohs"
+F 14 "+175°C" H 9200 4600 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 9200 4700 50  0001 L CNN "temperature range low"
+F 16 "" H 9200 4800 50  0001 L CNN "voltage"
+	1    9200 3000
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW65
@@ -4260,28 +3737,28 @@ Wire Wire Line
 Wire Wire Line
 	9250 2200 9200 2200
 $Comp
-L eec-fairchild:LL4148 D64
+L Diode:LL4148 D64
 U 1 1 613DE8D4
-P 9200 2100
-F 0 "D64" V 9404 2178 50  0000 L CNN
-F 1 "LL4148" V 9495 2178 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 9200 2500 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9200 2600 50  0001 L CNN
-F 4 "Diode" H 9200 2700 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 9200 2800 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 9200 2900 50  0001 L CNN "digikey part number"
-F 7 "yes" H 9200 3000 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 9200 3100 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 9200 3200 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 9200 3300 50  0001 L CNN "mouser part number"
-F 11 "2" H 9200 3400 50  0001 L CNN "num pins"
-F 12 "SOD80" H 9200 3500 50  0001 L CNN "package"
-F 13 "yes" H 9200 3600 50  0001 L CNN "rohs"
-F 14 "+175°C" H 9200 3700 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 9200 3800 50  0001 L CNN "temperature range low"
-F 16 "" H 9200 3900 50  0001 L CNN "voltage"
-	1    9200 2100
-	0    1    1    0   
+P 9200 2350
+F 0 "D64" V 9246 2270 50  0000 R CNN
+F 1 "LL4148" V 9155 2270 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 9200 2750 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9200 2850 50  0001 L CNN
+F 4 "Diode" H 9200 2950 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 9200 3050 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 9200 3150 50  0001 L CNN "digikey part number"
+F 7 "yes" H 9200 3250 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 9200 3350 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 9200 3450 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 9200 3550 50  0001 L CNN "mouser part number"
+F 11 "2" H 9200 3650 50  0001 L CNN "num pins"
+F 12 "SOD80" H 9200 3750 50  0001 L CNN "package"
+F 13 "yes" H 9200 3850 50  0001 L CNN "rohs"
+F 14 "+175°C" H 9200 3950 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 9200 4050 50  0001 L CNN "temperature range low"
+F 16 "" H 9200 4150 50  0001 L CNN "voltage"
+	1    9200 2350
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW64
@@ -4302,28 +3779,28 @@ Wire Wire Line
 Wire Wire Line
 	9250 1550 9200 1550
 $Comp
-L eec-fairchild:LL4148 D63
+L Diode:LL4148 D63
 U 1 1 613655BC
-P 9200 1450
-F 0 "D63" V 9404 1528 50  0000 L CNN
-F 1 "LL4148" V 9495 1528 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 9200 1850 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9200 1950 50  0001 L CNN
-F 4 "Diode" H 9200 2050 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 9200 2150 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 9200 2250 50  0001 L CNN "digikey part number"
-F 7 "yes" H 9200 2350 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 9200 2450 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 9200 2550 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 9200 2650 50  0001 L CNN "mouser part number"
-F 11 "2" H 9200 2750 50  0001 L CNN "num pins"
-F 12 "SOD80" H 9200 2850 50  0001 L CNN "package"
-F 13 "yes" H 9200 2950 50  0001 L CNN "rohs"
-F 14 "+175°C" H 9200 3050 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 9200 3150 50  0001 L CNN "temperature range low"
-F 16 "" H 9200 3250 50  0001 L CNN "voltage"
-	1    9200 1450
-	0    1    1    0   
+P 9200 1700
+F 0 "D63" V 9246 1620 50  0000 R CNN
+F 1 "LL4148" V 9155 1620 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 9200 2100 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9200 2200 50  0001 L CNN
+F 4 "Diode" H 9200 2300 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 9200 2400 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 9200 2500 50  0001 L CNN "digikey part number"
+F 7 "yes" H 9200 2600 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 9200 2700 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 9200 2800 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 9200 2900 50  0001 L CNN "mouser part number"
+F 11 "2" H 9200 3000 50  0001 L CNN "num pins"
+F 12 "SOD80" H 9200 3100 50  0001 L CNN "package"
+F 13 "yes" H 9200 3200 50  0001 L CNN "rohs"
+F 14 "+175°C" H 9200 3300 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 9200 3400 50  0001 L CNN "temperature range low"
+F 16 "" H 9200 3500 50  0001 L CNN "voltage"
+	1    9200 1700
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW63
@@ -4346,30 +3823,6 @@ Wire Wire Line
 Wire Wire Line
 	9250 900  9200 900 
 $Comp
-L eec-fairchild:LL4148 D62
-U 1 1 612ED62E
-P 9200 800
-F 0 "D62" V 9404 878 50  0000 L CNN
-F 1 "LL4148" V 9495 878 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 9200 1200 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 9200 1300 50  0001 L CNN
-F 4 "Diode" H 9200 1400 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 9200 1500 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 9200 1600 50  0001 L CNN "digikey part number"
-F 7 "yes" H 9200 1700 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 9200 1800 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 9200 1900 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 9200 2000 50  0001 L CNN "mouser part number"
-F 11 "2" H 9200 2100 50  0001 L CNN "num pins"
-F 12 "SOD80" H 9200 2200 50  0001 L CNN "package"
-F 13 "yes" H 9200 2300 50  0001 L CNN "rohs"
-F 14 "+175°C" H 9200 2400 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 9200 2500 50  0001 L CNN "temperature range low"
-F 16 "" H 9200 2600 50  0001 L CNN "voltage"
-	1    9200 800 
-	0    1    1    0   
-$EndComp
-$Comp
 L cldg:MX_SW SW62
 U 1 1 612ED61B
 P 9450 900
@@ -4390,28 +3843,28 @@ Wire Wire Line
 Wire Wire Line
 	8550 4150 8500 4150
 $Comp
-L eec-fairchild:LL4148 D61
+L Diode:LL4148 D61
 U 1 1 61277A68
-P 8500 4050
-F 0 "D61" V 8704 4128 50  0000 L CNN
-F 1 "LL4148" V 8795 4128 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 8500 4450 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 8500 4550 50  0001 L CNN
-F 4 "Diode" H 8500 4650 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 8500 4750 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 8500 4850 50  0001 L CNN "digikey part number"
-F 7 "yes" H 8500 4950 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 8500 5050 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 8500 5150 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 8500 5250 50  0001 L CNN "mouser part number"
-F 11 "2" H 8500 5350 50  0001 L CNN "num pins"
-F 12 "SOD80" H 8500 5450 50  0001 L CNN "package"
-F 13 "yes" H 8500 5550 50  0001 L CNN "rohs"
-F 14 "+175°C" H 8500 5650 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 8500 5750 50  0001 L CNN "temperature range low"
-F 16 "" H 8500 5850 50  0001 L CNN "voltage"
-	1    8500 4050
-	0    1    1    0   
+P 8500 4300
+F 0 "D61" V 8546 4220 50  0000 R CNN
+F 1 "LL4148" V 8455 4220 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 8500 4700 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 8500 4800 50  0001 L CNN
+F 4 "Diode" H 8500 4900 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 8500 5000 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 8500 5100 50  0001 L CNN "digikey part number"
+F 7 "yes" H 8500 5200 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 8500 5300 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 8500 5400 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 8500 5500 50  0001 L CNN "mouser part number"
+F 11 "2" H 8500 5600 50  0001 L CNN "num pins"
+F 12 "SOD80" H 8500 5700 50  0001 L CNN "package"
+F 13 "yes" H 8500 5800 50  0001 L CNN "rohs"
+F 14 "+175°C" H 8500 5900 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 8500 6000 50  0001 L CNN "temperature range low"
+F 16 "" H 8500 6100 50  0001 L CNN "voltage"
+	1    8500 4300
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW61
@@ -4435,28 +3888,28 @@ Wire Wire Line
 Wire Wire Line
 	8550 3500 8500 3500
 $Comp
-L eec-fairchild:LL4148 D60
+L Diode:LL4148 D60
 U 1 1 61201B3D
-P 8500 3400
-F 0 "D60" V 8704 3478 50  0000 L CNN
-F 1 "LL4148" V 8795 3478 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 8500 3800 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 8500 3900 50  0001 L CNN
-F 4 "Diode" H 8500 4000 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 8500 4100 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 8500 4200 50  0001 L CNN "digikey part number"
-F 7 "yes" H 8500 4300 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 8500 4400 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 8500 4500 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 8500 4600 50  0001 L CNN "mouser part number"
-F 11 "2" H 8500 4700 50  0001 L CNN "num pins"
-F 12 "SOD80" H 8500 4800 50  0001 L CNN "package"
-F 13 "yes" H 8500 4900 50  0001 L CNN "rohs"
-F 14 "+175°C" H 8500 5000 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 8500 5100 50  0001 L CNN "temperature range low"
-F 16 "" H 8500 5200 50  0001 L CNN "voltage"
-	1    8500 3400
-	0    1    1    0   
+P 8500 3650
+F 0 "D60" V 8546 3570 50  0000 R CNN
+F 1 "LL4148" V 8455 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 8500 4050 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 8500 4150 50  0001 L CNN
+F 4 "Diode" H 8500 4250 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 8500 4350 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 8500 4450 50  0001 L CNN "digikey part number"
+F 7 "yes" H 8500 4550 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 8500 4650 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 8500 4750 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 8500 4850 50  0001 L CNN "mouser part number"
+F 11 "2" H 8500 4950 50  0001 L CNN "num pins"
+F 12 "SOD80" H 8500 5050 50  0001 L CNN "package"
+F 13 "yes" H 8500 5150 50  0001 L CNN "rohs"
+F 14 "+175°C" H 8500 5250 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 8500 5350 50  0001 L CNN "temperature range low"
+F 16 "" H 8500 5450 50  0001 L CNN "voltage"
+	1    8500 3650
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW60
@@ -4480,28 +3933,28 @@ Wire Wire Line
 Wire Wire Line
 	8550 2850 8500 2850
 $Comp
-L eec-fairchild:LL4148 D59
+L Diode:LL4148 D59
 U 1 1 61190961
-P 8500 2750
-F 0 "D59" V 8704 2828 50  0000 L CNN
-F 1 "LL4148" V 8795 2828 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 8500 3150 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 8500 3250 50  0001 L CNN
-F 4 "Diode" H 8500 3350 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 8500 3450 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 8500 3550 50  0001 L CNN "digikey part number"
-F 7 "yes" H 8500 3650 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 8500 3750 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 8500 3850 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 8500 3950 50  0001 L CNN "mouser part number"
-F 11 "2" H 8500 4050 50  0001 L CNN "num pins"
-F 12 "SOD80" H 8500 4150 50  0001 L CNN "package"
-F 13 "yes" H 8500 4250 50  0001 L CNN "rohs"
-F 14 "+175°C" H 8500 4350 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 8500 4450 50  0001 L CNN "temperature range low"
-F 16 "" H 8500 4550 50  0001 L CNN "voltage"
-	1    8500 2750
-	0    1    1    0   
+P 8500 3000
+F 0 "D59" V 8546 2920 50  0000 R CNN
+F 1 "LL4148" V 8455 2920 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 8500 3400 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 8500 3500 50  0001 L CNN
+F 4 "Diode" H 8500 3600 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 8500 3700 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 8500 3800 50  0001 L CNN "digikey part number"
+F 7 "yes" H 8500 3900 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 8500 4000 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 8500 4100 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 8500 4200 50  0001 L CNN "mouser part number"
+F 11 "2" H 8500 4300 50  0001 L CNN "num pins"
+F 12 "SOD80" H 8500 4400 50  0001 L CNN "package"
+F 13 "yes" H 8500 4500 50  0001 L CNN "rohs"
+F 14 "+175°C" H 8500 4600 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 8500 4700 50  0001 L CNN "temperature range low"
+F 16 "" H 8500 4800 50  0001 L CNN "voltage"
+	1    8500 3000
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW59
@@ -4525,28 +3978,28 @@ Wire Wire Line
 Wire Wire Line
 	8550 2200 8500 2200
 $Comp
-L eec-fairchild:LL4148 D58
+L Diode:LL4148 D58
 U 1 1 61121AB5
-P 8500 2100
-F 0 "D58" V 8704 2178 50  0000 L CNN
-F 1 "LL4148" V 8795 2178 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 8500 2500 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 8500 2600 50  0001 L CNN
-F 4 "Diode" H 8500 2700 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 8500 2800 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 8500 2900 50  0001 L CNN "digikey part number"
-F 7 "yes" H 8500 3000 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 8500 3100 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 8500 3200 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 8500 3300 50  0001 L CNN "mouser part number"
-F 11 "2" H 8500 3400 50  0001 L CNN "num pins"
-F 12 "SOD80" H 8500 3500 50  0001 L CNN "package"
-F 13 "yes" H 8500 3600 50  0001 L CNN "rohs"
-F 14 "+175°C" H 8500 3700 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 8500 3800 50  0001 L CNN "temperature range low"
-F 16 "" H 8500 3900 50  0001 L CNN "voltage"
-	1    8500 2100
-	0    1    1    0   
+P 8500 2350
+F 0 "D58" V 8546 2270 50  0000 R CNN
+F 1 "LL4148" V 8455 2270 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 8500 2750 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 8500 2850 50  0001 L CNN
+F 4 "Diode" H 8500 2950 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 8500 3050 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 8500 3150 50  0001 L CNN "digikey part number"
+F 7 "yes" H 8500 3250 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 8500 3350 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 8500 3450 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 8500 3550 50  0001 L CNN "mouser part number"
+F 11 "2" H 8500 3650 50  0001 L CNN "num pins"
+F 12 "SOD80" H 8500 3750 50  0001 L CNN "package"
+F 13 "yes" H 8500 3850 50  0001 L CNN "rohs"
+F 14 "+175°C" H 8500 3950 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 8500 4050 50  0001 L CNN "temperature range low"
+F 16 "" H 8500 4150 50  0001 L CNN "voltage"
+	1    8500 2350
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW58
@@ -4567,28 +4020,28 @@ Wire Wire Line
 Wire Wire Line
 	8550 1550 8500 1550
 $Comp
-L eec-fairchild:LL4148 D57
+L Diode:LL4148 D57
 U 1 1 610B511F
-P 8500 1450
-F 0 "D57" V 8704 1528 50  0000 L CNN
-F 1 "LL4148" V 8795 1528 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 8500 1850 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 8500 1950 50  0001 L CNN
-F 4 "Diode" H 8500 2050 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 8500 2150 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 8500 2250 50  0001 L CNN "digikey part number"
-F 7 "yes" H 8500 2350 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 8500 2450 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 8500 2550 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 8500 2650 50  0001 L CNN "mouser part number"
-F 11 "2" H 8500 2750 50  0001 L CNN "num pins"
-F 12 "SOD80" H 8500 2850 50  0001 L CNN "package"
-F 13 "yes" H 8500 2950 50  0001 L CNN "rohs"
-F 14 "+175°C" H 8500 3050 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 8500 3150 50  0001 L CNN "temperature range low"
-F 16 "" H 8500 3250 50  0001 L CNN "voltage"
-	1    8500 1450
-	0    1    1    0   
+P 8500 1700
+F 0 "D57" V 8546 1620 50  0000 R CNN
+F 1 "LL4148" V 8455 1620 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 8500 2100 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 8500 2200 50  0001 L CNN
+F 4 "Diode" H 8500 2300 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 8500 2400 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 8500 2500 50  0001 L CNN "digikey part number"
+F 7 "yes" H 8500 2600 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 8500 2700 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 8500 2800 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 8500 2900 50  0001 L CNN "mouser part number"
+F 11 "2" H 8500 3000 50  0001 L CNN "num pins"
+F 12 "SOD80" H 8500 3100 50  0001 L CNN "package"
+F 13 "yes" H 8500 3200 50  0001 L CNN "rohs"
+F 14 "+175°C" H 8500 3300 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 8500 3400 50  0001 L CNN "temperature range low"
+F 16 "" H 8500 3500 50  0001 L CNN "voltage"
+	1    8500 1700
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW57
@@ -4611,30 +4064,6 @@ Wire Wire Line
 Wire Wire Line
 	8550 900  8500 900 
 $Comp
-L eec-fairchild:LL4148 D56
-U 1 1 610473AD
-P 8500 800
-F 0 "D56" V 8704 878 50  0000 L CNN
-F 1 "LL4148" V 8795 878 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 8500 1200 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 8500 1300 50  0001 L CNN
-F 4 "Diode" H 8500 1400 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 8500 1500 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 8500 1600 50  0001 L CNN "digikey part number"
-F 7 "yes" H 8500 1700 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 8500 1800 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 8500 1900 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 8500 2000 50  0001 L CNN "mouser part number"
-F 11 "2" H 8500 2100 50  0001 L CNN "num pins"
-F 12 "SOD80" H 8500 2200 50  0001 L CNN "package"
-F 13 "yes" H 8500 2300 50  0001 L CNN "rohs"
-F 14 "+175°C" H 8500 2400 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 8500 2500 50  0001 L CNN "temperature range low"
-F 16 "" H 8500 2600 50  0001 L CNN "voltage"
-	1    8500 800 
-	0    1    1    0   
-$EndComp
-$Comp
 L cldg:MX_SW SW56
 U 1 1 6104739A
 P 8750 900
@@ -4653,28 +4082,28 @@ Wire Wire Line
 Wire Wire Line
 	7800 4150 7750 4150
 $Comp
-L eec-fairchild:LL4148 D55
+L Diode:LL4148 D55
 U 1 1 60FCAB59
-P 7750 4050
-F 0 "D55" V 7954 4128 50  0000 L CNN
-F 1 "LL4148" V 8045 4128 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 7750 4450 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7750 4550 50  0001 L CNN
-F 4 "Diode" H 7750 4650 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7750 4750 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 7750 4850 50  0001 L CNN "digikey part number"
-F 7 "yes" H 7750 4950 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 7750 5050 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 7750 5150 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 7750 5250 50  0001 L CNN "mouser part number"
-F 11 "2" H 7750 5350 50  0001 L CNN "num pins"
-F 12 "SOD80" H 7750 5450 50  0001 L CNN "package"
-F 13 "yes" H 7750 5550 50  0001 L CNN "rohs"
-F 14 "+175°C" H 7750 5650 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 7750 5750 50  0001 L CNN "temperature range low"
-F 16 "" H 7750 5850 50  0001 L CNN "voltage"
-	1    7750 4050
-	0    1    1    0   
+P 7750 4300
+F 0 "D55" V 7796 4220 50  0000 R CNN
+F 1 "LL4148" V 7705 4220 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 7750 4700 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7750 4800 50  0001 L CNN
+F 4 "Diode" H 7750 4900 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7750 5000 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 7750 5100 50  0001 L CNN "digikey part number"
+F 7 "yes" H 7750 5200 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 7750 5300 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 7750 5400 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 7750 5500 50  0001 L CNN "mouser part number"
+F 11 "2" H 7750 5600 50  0001 L CNN "num pins"
+F 12 "SOD80" H 7750 5700 50  0001 L CNN "package"
+F 13 "yes" H 7750 5800 50  0001 L CNN "rohs"
+F 14 "+175°C" H 7750 5900 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 7750 6000 50  0001 L CNN "temperature range low"
+F 16 "" H 7750 6100 50  0001 L CNN "voltage"
+	1    7750 4300
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW55
@@ -4697,28 +4126,28 @@ Wire Wire Line
 Wire Wire Line
 	7800 3500 7750 3500
 $Comp
-L eec-fairchild:LL4148 D54
+L Diode:LL4148 D54
 U 1 1 60F623B6
-P 7750 3400
-F 0 "D54" V 7954 3478 50  0000 L CNN
-F 1 "LL4148" V 8045 3478 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 7750 3800 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7750 3900 50  0001 L CNN
-F 4 "Diode" H 7750 4000 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7750 4100 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 7750 4200 50  0001 L CNN "digikey part number"
-F 7 "yes" H 7750 4300 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 7750 4400 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 7750 4500 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 7750 4600 50  0001 L CNN "mouser part number"
-F 11 "2" H 7750 4700 50  0001 L CNN "num pins"
-F 12 "SOD80" H 7750 4800 50  0001 L CNN "package"
-F 13 "yes" H 7750 4900 50  0001 L CNN "rohs"
-F 14 "+175°C" H 7750 5000 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 7750 5100 50  0001 L CNN "temperature range low"
-F 16 "" H 7750 5200 50  0001 L CNN "voltage"
-	1    7750 3400
-	0    1    1    0   
+P 7750 3650
+F 0 "D54" V 7796 3570 50  0000 R CNN
+F 1 "LL4148" V 7705 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 7750 4050 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7750 4150 50  0001 L CNN
+F 4 "Diode" H 7750 4250 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7750 4350 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 7750 4450 50  0001 L CNN "digikey part number"
+F 7 "yes" H 7750 4550 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 7750 4650 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 7750 4750 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 7750 4850 50  0001 L CNN "mouser part number"
+F 11 "2" H 7750 4950 50  0001 L CNN "num pins"
+F 12 "SOD80" H 7750 5050 50  0001 L CNN "package"
+F 13 "yes" H 7750 5150 50  0001 L CNN "rohs"
+F 14 "+175°C" H 7750 5250 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 7750 5350 50  0001 L CNN "temperature range low"
+F 16 "" H 7750 5450 50  0001 L CNN "voltage"
+	1    7750 3650
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW54
@@ -4741,28 +4170,28 @@ Wire Wire Line
 Wire Wire Line
 	7800 2850 7750 2850
 $Comp
-L eec-fairchild:LL4148 D53
+L Diode:LL4148 D53
 U 1 1 60EFDB97
-P 7750 2750
-F 0 "D53" V 7954 2828 50  0000 L CNN
-F 1 "LL4148" V 8045 2828 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 7750 3150 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7750 3250 50  0001 L CNN
-F 4 "Diode" H 7750 3350 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7750 3450 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 7750 3550 50  0001 L CNN "digikey part number"
-F 7 "yes" H 7750 3650 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 7750 3750 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 7750 3850 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 7750 3950 50  0001 L CNN "mouser part number"
-F 11 "2" H 7750 4050 50  0001 L CNN "num pins"
-F 12 "SOD80" H 7750 4150 50  0001 L CNN "package"
-F 13 "yes" H 7750 4250 50  0001 L CNN "rohs"
-F 14 "+175°C" H 7750 4350 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 7750 4450 50  0001 L CNN "temperature range low"
-F 16 "" H 7750 4550 50  0001 L CNN "voltage"
-	1    7750 2750
-	0    1    1    0   
+P 7750 3000
+F 0 "D53" V 7796 2920 50  0000 R CNN
+F 1 "LL4148" V 7705 2920 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 7750 3400 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7750 3500 50  0001 L CNN
+F 4 "Diode" H 7750 3600 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7750 3700 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 7750 3800 50  0001 L CNN "digikey part number"
+F 7 "yes" H 7750 3900 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 7750 4000 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 7750 4100 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 7750 4200 50  0001 L CNN "mouser part number"
+F 11 "2" H 7750 4300 50  0001 L CNN "num pins"
+F 12 "SOD80" H 7750 4400 50  0001 L CNN "package"
+F 13 "yes" H 7750 4500 50  0001 L CNN "rohs"
+F 14 "+175°C" H 7750 4600 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 7750 4700 50  0001 L CNN "temperature range low"
+F 16 "" H 7750 4800 50  0001 L CNN "voltage"
+	1    7750 3000
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW53
@@ -4785,28 +4214,28 @@ Wire Wire Line
 Wire Wire Line
 	7800 2200 7750 2200
 $Comp
-L eec-fairchild:LL4148 D52
+L Diode:LL4148 D52
 U 1 1 60E9BC8B
-P 7750 2100
-F 0 "D52" V 7954 2178 50  0000 L CNN
-F 1 "LL4148" V 8045 2178 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 7750 2500 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7750 2600 50  0001 L CNN
-F 4 "Diode" H 7750 2700 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7750 2800 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 7750 2900 50  0001 L CNN "digikey part number"
-F 7 "yes" H 7750 3000 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 7750 3100 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 7750 3200 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 7750 3300 50  0001 L CNN "mouser part number"
-F 11 "2" H 7750 3400 50  0001 L CNN "num pins"
-F 12 "SOD80" H 7750 3500 50  0001 L CNN "package"
-F 13 "yes" H 7750 3600 50  0001 L CNN "rohs"
-F 14 "+175°C" H 7750 3700 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 7750 3800 50  0001 L CNN "temperature range low"
-F 16 "" H 7750 3900 50  0001 L CNN "voltage"
-	1    7750 2100
-	0    1    1    0   
+P 7750 2350
+F 0 "D52" V 7796 2270 50  0000 R CNN
+F 1 "LL4148" V 7705 2270 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 7750 2750 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7750 2850 50  0001 L CNN
+F 4 "Diode" H 7750 2950 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7750 3050 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 7750 3150 50  0001 L CNN "digikey part number"
+F 7 "yes" H 7750 3250 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 7750 3350 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 7750 3450 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 7750 3550 50  0001 L CNN "mouser part number"
+F 11 "2" H 7750 3650 50  0001 L CNN "num pins"
+F 12 "SOD80" H 7750 3750 50  0001 L CNN "package"
+F 13 "yes" H 7750 3850 50  0001 L CNN "rohs"
+F 14 "+175°C" H 7750 3950 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 7750 4050 50  0001 L CNN "temperature range low"
+F 16 "" H 7750 4150 50  0001 L CNN "voltage"
+	1    7750 2350
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW52
@@ -4826,28 +4255,28 @@ Wire Wire Line
 Wire Wire Line
 	7800 1550 7750 1550
 $Comp
-L eec-fairchild:LL4148 D51
+L Diode:LL4148 D51
 U 1 1 60E3B4F3
-P 7750 1450
-F 0 "D51" V 7954 1528 50  0000 L CNN
-F 1 "LL4148" V 8045 1528 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 7750 1850 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7750 1950 50  0001 L CNN
-F 4 "Diode" H 7750 2050 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7750 2150 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 7750 2250 50  0001 L CNN "digikey part number"
-F 7 "yes" H 7750 2350 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 7750 2450 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 7750 2550 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 7750 2650 50  0001 L CNN "mouser part number"
-F 11 "2" H 7750 2750 50  0001 L CNN "num pins"
-F 12 "SOD80" H 7750 2850 50  0001 L CNN "package"
-F 13 "yes" H 7750 2950 50  0001 L CNN "rohs"
-F 14 "+175°C" H 7750 3050 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 7750 3150 50  0001 L CNN "temperature range low"
-F 16 "" H 7750 3250 50  0001 L CNN "voltage"
-	1    7750 1450
-	0    1    1    0   
+P 7750 1700
+F 0 "D51" V 7796 1620 50  0000 R CNN
+F 1 "LL4148" V 7705 1620 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 7750 2100 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7750 2200 50  0001 L CNN
+F 4 "Diode" H 7750 2300 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7750 2400 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 7750 2500 50  0001 L CNN "digikey part number"
+F 7 "yes" H 7750 2600 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 7750 2700 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 7750 2800 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 7750 2900 50  0001 L CNN "mouser part number"
+F 11 "2" H 7750 3000 50  0001 L CNN "num pins"
+F 12 "SOD80" H 7750 3100 50  0001 L CNN "package"
+F 13 "yes" H 7750 3200 50  0001 L CNN "rohs"
+F 14 "+175°C" H 7750 3300 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 7750 3400 50  0001 L CNN "temperature range low"
+F 16 "" H 7750 3500 50  0001 L CNN "voltage"
+	1    7750 1700
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW51
@@ -4869,30 +4298,6 @@ Wire Wire Line
 Wire Wire Line
 	7800 900  7750 900 
 $Comp
-L eec-fairchild:LL4148 D50
-U 1 1 60DDC1D7
-P 7750 800
-F 0 "D50" V 7954 878 50  0000 L CNN
-F 1 "LL4148" V 8045 878 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 7750 1200 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7750 1300 50  0001 L CNN
-F 4 "Diode" H 7750 1400 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7750 1500 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 7750 1600 50  0001 L CNN "digikey part number"
-F 7 "yes" H 7750 1700 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 7750 1800 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 7750 1900 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 7750 2000 50  0001 L CNN "mouser part number"
-F 11 "2" H 7750 2100 50  0001 L CNN "num pins"
-F 12 "SOD80" H 7750 2200 50  0001 L CNN "package"
-F 13 "yes" H 7750 2300 50  0001 L CNN "rohs"
-F 14 "+175°C" H 7750 2400 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 7750 2500 50  0001 L CNN "temperature range low"
-F 16 "" H 7750 2600 50  0001 L CNN "voltage"
-	1    7750 800 
-	0    1    1    0   
-$EndComp
-$Comp
 L cldg:MX_SW SW50
 U 1 1 60DDC1C4
 P 8000 900
@@ -4911,28 +4316,28 @@ Wire Wire Line
 Wire Wire Line
 	7100 3500 7050 3500
 $Comp
-L eec-fairchild:LL4148 D49
+L Diode:LL4148 D49
 U 1 1 60D7D7C8
-P 7050 3400
-F 0 "D49" V 7254 3478 50  0000 L CNN
-F 1 "LL4148" V 7345 3478 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 7050 3800 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7050 3900 50  0001 L CNN
-F 4 "Diode" H 7050 4000 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7050 4100 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 7050 4200 50  0001 L CNN "digikey part number"
-F 7 "yes" H 7050 4300 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 7050 4400 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 7050 4500 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 7050 4600 50  0001 L CNN "mouser part number"
-F 11 "2" H 7050 4700 50  0001 L CNN "num pins"
-F 12 "SOD80" H 7050 4800 50  0001 L CNN "package"
-F 13 "yes" H 7050 4900 50  0001 L CNN "rohs"
-F 14 "+175°C" H 7050 5000 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 7050 5100 50  0001 L CNN "temperature range low"
-F 16 "" H 7050 5200 50  0001 L CNN "voltage"
-	1    7050 3400
-	0    1    1    0   
+P 7050 3650
+F 0 "D49" V 7096 3570 50  0000 R CNN
+F 1 "LL4148" V 7005 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 7050 4050 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7050 4150 50  0001 L CNN
+F 4 "Diode" H 7050 4250 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7050 4350 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 7050 4450 50  0001 L CNN "digikey part number"
+F 7 "yes" H 7050 4550 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 7050 4650 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 7050 4750 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 7050 4850 50  0001 L CNN "mouser part number"
+F 11 "2" H 7050 4950 50  0001 L CNN "num pins"
+F 12 "SOD80" H 7050 5050 50  0001 L CNN "package"
+F 13 "yes" H 7050 5150 50  0001 L CNN "rohs"
+F 14 "+175°C" H 7050 5250 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 7050 5350 50  0001 L CNN "temperature range low"
+F 16 "" H 7050 5450 50  0001 L CNN "voltage"
+	1    7050 3650
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW49
@@ -4953,28 +4358,28 @@ Wire Wire Line
 Wire Wire Line
 	7100 2850 7050 2850
 $Comp
-L eec-fairchild:LL4148 D48
+L Diode:LL4148 D48
 U 1 1 60D20A46
-P 7050 2750
-F 0 "D48" V 7254 2828 50  0000 L CNN
-F 1 "LL4148" V 7345 2828 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 7050 3150 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7050 3250 50  0001 L CNN
-F 4 "Diode" H 7050 3350 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7050 3450 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 7050 3550 50  0001 L CNN "digikey part number"
-F 7 "yes" H 7050 3650 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 7050 3750 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 7050 3850 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 7050 3950 50  0001 L CNN "mouser part number"
-F 11 "2" H 7050 4050 50  0001 L CNN "num pins"
-F 12 "SOD80" H 7050 4150 50  0001 L CNN "package"
-F 13 "yes" H 7050 4250 50  0001 L CNN "rohs"
-F 14 "+175°C" H 7050 4350 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 7050 4450 50  0001 L CNN "temperature range low"
-F 16 "" H 7050 4550 50  0001 L CNN "voltage"
-	1    7050 2750
-	0    1    1    0   
+P 7050 3000
+F 0 "D48" V 7096 2920 50  0000 R CNN
+F 1 "LL4148" V 7005 2920 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 7050 3400 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7050 3500 50  0001 L CNN
+F 4 "Diode" H 7050 3600 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7050 3700 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 7050 3800 50  0001 L CNN "digikey part number"
+F 7 "yes" H 7050 3900 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 7050 4000 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 7050 4100 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 7050 4200 50  0001 L CNN "mouser part number"
+F 11 "2" H 7050 4300 50  0001 L CNN "num pins"
+F 12 "SOD80" H 7050 4400 50  0001 L CNN "package"
+F 13 "yes" H 7050 4500 50  0001 L CNN "rohs"
+F 14 "+175°C" H 7050 4600 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 7050 4700 50  0001 L CNN "temperature range low"
+F 16 "" H 7050 4800 50  0001 L CNN "voltage"
+	1    7050 3000
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW48
@@ -4995,28 +4400,28 @@ Wire Wire Line
 Wire Wire Line
 	7100 2200 7050 2200
 $Comp
-L eec-fairchild:LL4148 D47
+L Diode:LL4148 D47
 U 1 1 60CC81C3
-P 7050 2100
-F 0 "D47" V 7254 2178 50  0000 L CNN
-F 1 "LL4148" V 7345 2178 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 7050 2500 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7050 2600 50  0001 L CNN
-F 4 "Diode" H 7050 2700 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7050 2800 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 7050 2900 50  0001 L CNN "digikey part number"
-F 7 "yes" H 7050 3000 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 7050 3100 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 7050 3200 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 7050 3300 50  0001 L CNN "mouser part number"
-F 11 "2" H 7050 3400 50  0001 L CNN "num pins"
-F 12 "SOD80" H 7050 3500 50  0001 L CNN "package"
-F 13 "yes" H 7050 3600 50  0001 L CNN "rohs"
-F 14 "+175°C" H 7050 3700 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 7050 3800 50  0001 L CNN "temperature range low"
-F 16 "" H 7050 3900 50  0001 L CNN "voltage"
-	1    7050 2100
-	0    1    1    0   
+P 7050 2350
+F 0 "D47" V 7096 2270 50  0000 R CNN
+F 1 "LL4148" V 7005 2270 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 7050 2750 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7050 2850 50  0001 L CNN
+F 4 "Diode" H 7050 2950 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7050 3050 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 7050 3150 50  0001 L CNN "digikey part number"
+F 7 "yes" H 7050 3250 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 7050 3350 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 7050 3450 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 7050 3550 50  0001 L CNN "mouser part number"
+F 11 "2" H 7050 3650 50  0001 L CNN "num pins"
+F 12 "SOD80" H 7050 3750 50  0001 L CNN "package"
+F 13 "yes" H 7050 3850 50  0001 L CNN "rohs"
+F 14 "+175°C" H 7050 3950 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 7050 4050 50  0001 L CNN "temperature range low"
+F 16 "" H 7050 4150 50  0001 L CNN "voltage"
+	1    7050 2350
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW47
@@ -5034,28 +4439,28 @@ Wire Wire Line
 Wire Wire Line
 	7100 1550 7050 1550
 $Comp
-L eec-fairchild:LL4148 D46
+L Diode:LL4148 D46
 U 1 1 60C6E416
-P 7050 1450
-F 0 "D46" V 7254 1528 50  0000 L CNN
-F 1 "LL4148" V 7345 1528 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 7050 1850 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7050 1950 50  0001 L CNN
-F 4 "Diode" H 7050 2050 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7050 2150 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 7050 2250 50  0001 L CNN "digikey part number"
-F 7 "yes" H 7050 2350 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 7050 2450 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 7050 2550 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 7050 2650 50  0001 L CNN "mouser part number"
-F 11 "2" H 7050 2750 50  0001 L CNN "num pins"
-F 12 "SOD80" H 7050 2850 50  0001 L CNN "package"
-F 13 "yes" H 7050 2950 50  0001 L CNN "rohs"
-F 14 "+175°C" H 7050 3050 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 7050 3150 50  0001 L CNN "temperature range low"
-F 16 "" H 7050 3250 50  0001 L CNN "voltage"
-	1    7050 1450
-	0    1    1    0   
+P 7050 1700
+F 0 "D46" V 7096 1620 50  0000 R CNN
+F 1 "LL4148" V 7005 1620 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 7050 2100 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7050 2200 50  0001 L CNN
+F 4 "Diode" H 7050 2300 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7050 2400 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 7050 2500 50  0001 L CNN "digikey part number"
+F 7 "yes" H 7050 2600 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 7050 2700 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 7050 2800 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 7050 2900 50  0001 L CNN "mouser part number"
+F 11 "2" H 7050 3000 50  0001 L CNN "num pins"
+F 12 "SOD80" H 7050 3100 50  0001 L CNN "package"
+F 13 "yes" H 7050 3200 50  0001 L CNN "rohs"
+F 14 "+175°C" H 7050 3300 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 7050 3400 50  0001 L CNN "temperature range low"
+F 16 "" H 7050 3500 50  0001 L CNN "voltage"
+	1    7050 1700
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW46
@@ -5074,30 +4479,6 @@ Wire Wire Line
 	7500 900  7500 850 
 Wire Wire Line
 	7100 900  7050 900 
-$Comp
-L eec-fairchild:LL4148 D45
-U 1 1 60C1114F
-P 7050 800
-F 0 "D45" V 7254 878 50  0000 L CNN
-F 1 "LL4148" V 7345 878 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 7050 1200 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 7050 1300 50  0001 L CNN
-F 4 "Diode" H 7050 1400 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 7050 1500 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 7050 1600 50  0001 L CNN "digikey part number"
-F 7 "yes" H 7050 1700 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 7050 1800 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 7050 1900 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 7050 2000 50  0001 L CNN "mouser part number"
-F 11 "2" H 7050 2100 50  0001 L CNN "num pins"
-F 12 "SOD80" H 7050 2200 50  0001 L CNN "package"
-F 13 "yes" H 7050 2300 50  0001 L CNN "rohs"
-F 14 "+175°C" H 7050 2400 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 7050 2500 50  0001 L CNN "temperature range low"
-F 16 "" H 7050 2600 50  0001 L CNN "voltage"
-	1    7050 800 
-	0    1    1    0   
-$EndComp
 $Comp
 L cldg:MX_SW SW45
 U 1 1 60C1113C
@@ -5161,95 +4542,17 @@ Wire Wire Line
 	6350 3250 7050 3250
 Connection ~ 6350 3250
 Connection ~ 7050 3250
-Text GLabel 13150 7250 0    50   Input ~ 0
-ROW_0
-Wire Wire Line
-	14750 7300 14750 7250
-Wire Wire Line
-	14750 7250 14600 7250
-Wire Wire Line
-	14750 7400 14750 7450
-Wire Wire Line
-	14750 7450 14600 7450
-Wire Wire Line
-	14100 6800 14650 6800
-Wire Wire Line
-	14650 6800 14650 7350
-Wire Wire Line
-	14650 7350 14600 7350
-Wire Wire Line
-	14650 7350 14650 7900
-Wire Wire Line
-	14650 7900 14100 7900
-Wire Wire Line
-	14100 7900 14100 7850
-Connection ~ 14650 7350
-Connection ~ 14100 7900
-Wire Wire Line
-	14900 7900 14900 8350
-Wire Wire Line
-	14650 7900 14900 7900
-Connection ~ 14650 7900
-Wire Wire Line
-	14100 6800 14100 6850
 $Comp
 L power:+5V #PWR04
 U 1 1 600F480E
-P 2700 5950
-F 0 "#PWR04" H 2700 5800 50  0001 C CNN
-F 1 "+5V" H 2600 6050 50  0000 C CNN
-F 2 "" H 2700 5950 50  0001 C CNN
-F 3 "" H 2700 5950 50  0001 C CNN
-	1    2700 5950
+P 2600 5950
+F 0 "#PWR04" H 2600 5800 50  0001 C CNN
+F 1 "+5V" H 2500 6050 50  0000 C CNN
+F 2 "" H 2600 5950 50  0001 C CNN
+F 3 "" H 2600 5950 50  0001 C CNN
+	1    2600 5950
 	1    0    0    -1  
 $EndComp
-$Comp
-L SamacSys_Parts:PEC11L-4115F-S0020 ENC1
-U 1 1 5FF3C341
-P 14100 6850
-F 0 "ENC1" V 13919 6850 50  0000 C CNN
-F 1 "PEC11L-4115F-S0020" V 14010 6850 50  0000 C CNN
-F 2 "PEC11L4115FS0020" H 14950 7150 50  0001 L CNN
-F 3 "" H 14950 7050 50  0001 L CNN
-F 4 "Encoders ENCODER" H 14950 6950 50  0001 L CNN "Description"
-F 5 "25" H 14950 6850 50  0001 L CNN "Height"
-F 6 "652-PEC11L4115FS0020" H 14950 6750 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Bourns/PEC11L-4115F-S0020?qs=gk21WLQFtgRAgrgJZfpkWw%3D%3D" H 14950 6650 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Bourns" H 14950 6550 50  0001 L CNN "Manufacturer_Name"
-F 9 "PEC11L-4115F-S0020" H 14950 6450 50  0001 L CNN "Manufacturer_Part_Number"
-	1    14100 6850
-	0    -1   1    0   
-$EndComp
-$Comp
-L eec-fairchild:LL4148 D94
-U 1 1 638FF624
-P 13600 7250
-F 0 "D94" V 13800 7150 50  0000 R CNN
-F 1 "LL4148" V 13900 7150 50  0000 R CNN
-F 2 "Diode_SMD:D_MiniMELF" H 13600 7650 50  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 13600 7750 50  0001 L CNN
-F 4 "Diode" H 13600 7850 50  0001 L CNN "category"
-F 5 "DIODE GEN PURP 100V 200MA SOD80" H 13600 7950 50  0001 L CNN "digikey description"
-F 6 "LL4148FSCT-ND" H 13600 8050 50  0001 L CNN "digikey part number"
-F 7 "yes" H 13600 8150 50  0001 L CNN "lead free"
-F 8 "7267ed481d20a817" H 13600 8250 50  0001 L CNN "library id"
-F 9 "Fairchild/ON Semiconductor" H 13600 8350 50  0001 L CNN "manufacturer"
-F 10 "512-LL4148" H 13600 8450 50  0001 L CNN "mouser part number"
-F 11 "2" H 13600 8550 50  0001 L CNN "num pins"
-F 12 "SOD80" H 13600 8650 50  0001 L CNN "package"
-F 13 "yes" H 13600 8750 50  0001 L CNN "rohs"
-F 14 "+175°C" H 13600 8850 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 13600 8950 50  0001 L CNN "temperature range low"
-F 16 "" H 13600 9050 50  0001 L CNN "voltage"
-	1    13600 7250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	13150 7250 13200 7250
-Wire Wire Line
-	13500 7250 13600 7250
-Wire Wire Line
-	13150 7350 13600 7350
 Wire Wire Line
 	5700 8650 5850 8650
 Text GLabel 5850 8650 2    50   Input ~ 0
@@ -5370,46 +4673,35 @@ $EndComp
 $Comp
 L power:Earth #PWR0106
 U 1 1 607A26D6
-P 2350 6050
-F 0 "#PWR0106" H 2350 5800 50  0001 C CNN
-F 1 "Earth" H 2350 5900 50  0001 C CNN
-F 2 "" H 2350 6050 50  0001 C CNN
-F 3 "~" H 2350 6050 50  0001 C CNN
-	1    2350 6050
+P 2250 6050
+F 0 "#PWR0106" H 2250 5800 50  0001 C CNN
+F 1 "Earth" H 2250 5900 50  0001 C CNN
+F 2 "" H 2250 6050 50  0001 C CNN
+F 3 "~" H 2250 6050 50  0001 C CNN
+	1    2250 6050
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0109
 U 1 1 608A8FF5
-P 1600 8100
-F 0 "#PWR0109" H 1600 7850 50  0001 C CNN
-F 1 "GND" H 1605 7927 50  0000 C CNN
-F 2 "" H 1600 8100 50  0001 C CNN
-F 3 "" H 1600 8100 50  0001 C CNN
-	1    1600 8100
+P 1875 8325
+F 0 "#PWR0109" H 1875 8075 50  0001 C CNN
+F 1 "GND" H 1880 8152 50  0000 C CNN
+F 2 "" H 1875 8325 50  0001 C CNN
+F 3 "" H 1875 8325 50  0001 C CNN
+	1    1875 8325
 	1    0    0    -1  
 $EndComp
 $Comp
 L cldg:BBUP00160808600Y00 FB1
 U 1 1 604967EC
-P 2300 6800
-F 0 "FB1" H 2250 6800 50  0000 C BNN
-F 1 "BBUP00160808600Y00" H 2250 7034 50  0001 C CNN
-F 2 "Resistor-Libs:Yageo-RC0603-0-0-IPC_C" H 2300 6800 50  0001 C CNN
-F 3 "" H 2300 6800 50  0001 C CNN
-	1    2300 6800
+P 2700 6975
+F 0 "FB1" H 2650 6975 50  0000 C BNN
+F 1 "BBUP00160808600Y00" H 2650 7209 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2700 6975 50  0001 C CNN
+F 3 "" H 2700 6975 50  0001 C CNN
+	1    2700 6975
 	-1   0    0    -1  
-$EndComp
-$Comp
-L cldg:MX_SW SW106
-U 1 1 636ED4CB
-P 15850 2200
-F 0 "SW106" H 15850 2050 50  0000 C CNN
-F 1 "MX_SW" H 15850 2150 50  0000 C CNN
-F 2 "cldg:millmax-mxalps" H 15850 2400 50  0001 C CNN
-F 3 "~" H 15850 2400 50  0001 C CNN
-	1    15850 2200
-	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	16050 1550 16050 2200
@@ -5453,49 +4745,6 @@ F 3 "~" H 4950 5300 50  0001 C CNN
 $EndComp
 Text Label 6100 9100 0    50   ~ 0
 RST
-$Comp
-L capacitor-lib:CL21A475KAQNNNE C25
-U 1 1 609A6D18
-P 1600 7800
-F 0 "C25" H 1472 7746 50  0000 R CNN
-F 1 "CL21A475KAQNNNE" H 1600 8000 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1600 8100 50  0001 L CNN
-F 3 "http://www.samsungsem.com/kr/support/product-http://www.samsungsem.com/kr/support/product-search/mlcc/CL21A475KAQNNNE.jsp" H 1600 8200 50  0001 L CNN
-F 4 "4.7 µF" H 1472 7655 50  0000 R CNN "capacitance"
-F 5 "Cap" H 1600 8400 50  0001 L CNN "category"
-F 6 "CAP CER 4.7UF 25V X5R 0805" H 1600 8500 50  0001 L CNN "digikey description"
-F 7 "1276-1244-1-ND" H 1600 8600 50  0001 L CNN "digikey part number"
-F 8 "CAPC16080X80" H 1600 8700 50  0001 L CNN "ipc land pattern name"
-F 9 "yes" H 1600 8800 50  0001 L CNN "lead free"
-F 10 "704b476e59c9bc01" H 1600 8900 50  0001 L CNN "library id"
-F 11 "Samsung" H 1600 9000 50  0001 L CNN "manufacturer"
-F 12 "0805" H 1600 9100 50  0001 L CNN "package"
-F 13 "yes" H 1600 9200 50  0001 L CNN "rohs"
-F 14 "+85°C" H 1600 9300 50  0001 L CNN "temperature range high"
-F 15 "-55°C" H 1600 9400 50  0001 L CNN "temperature range low"
-F 16 "25V" H 1600 9500 50  0001 L CNN "voltage"
-	1    1600 7800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR0102
-U 1 1 601DBF47
-P 1700 7750
-F 0 "#PWR0102" H 1700 7600 50  0001 C CNN
-F 1 "VCC" H 1715 7923 50  0000 C CNN
-F 2 "" H 1700 7750 50  0001 C CNN
-F 3 "" H 1700 7750 50  0001 C CNN
-	1    1700 7750
-	1    0    0    -1  
-$EndComp
-$Sheet
-S 13900 5450 900  800 
-U 63A35802
-F0 "694200101R2_sheet_2" 50
-F1 "694200101R2_sheet_2.sch" 50
-F2 "I2C_SDA" B L 13900 6050 50 
-F3 "I2C_SCL" B L 13900 5950 50 
-$EndSheet
 Wire Wire Line
 	5150 7800 5200 7800
 Wire Wire Line
@@ -5517,46 +4766,13 @@ Wire Wire Line
 	5800 9150 5800 9200
 Wire Wire Line
 	5800 9150 5700 9150
-Text GLabel 16050 8700 3    50   Input ~ 0
-ENCODER_B
-Connection ~ 16050 8600
-Wire Wire Line
-	16050 8600 16050 8700
-Wire Wire Line
-	16050 8600 16050 8300
-Wire Wire Line
-	15250 8600 16050 8600
-$Comp
-L Resistor-Lib:MCT06030Z0000ZP500 R12
-U 1 1 62612D6A
-P 15400 7900
-F 0 "R12" V 15500 8100 50  0000 C CNN
-F 1 "MCT06030Z0000ZP500" H 15100 7700 50  0001 L BNN
-F 2 "Resistor-Libs:RESC1508X55N" H 15400 7900 50  0001 L BNN
-F 3 "" H 15400 7900 50  0001 L BNN
-F 4 "0" V 15400 8051 50  0000 C CNN "resistance"
-	1    15400 7900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Resistor-Lib:MCT06030Z0000ZP500 R14
-U 1 1 6259D68A
-P 16050 7900
-F 0 "R14" V 16150 8050 50  0000 C CNN
-F 1 "MCT06030Z0000ZP500" H 15750 7700 50  0001 L BNN
-F 2 "Resistor-Libs:RESC1508X55N" H 16050 7900 50  0001 L BNN
-F 3 "" H 16050 7900 50  0001 L BNN
-F 4 "0" V 16050 8051 50  0000 C CNN "resistance"
-	1    16050 7900
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Resistor-Lib:RNCP0603FTD10K0 R23
 U 1 1 62F6D73A
 P 5200 8250
 F 0 "R23" V 5154 8355 50  0000 L CNN
 F 1 "RNCP0603FTD10K0" H 4900 8050 50  0001 L BNN
-F 2 "Resistor-Libs:RESC1508X50N" H 5200 8250 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5200 8250 50  0001 L BNN
 F 3 "" H 5200 8250 50  0001 L BNN
 F 4 "10k" V 5245 8355 50  0000 L CNN "resistance"
 	1    5200 8250
@@ -5587,7 +4803,7 @@ U 1 1 609B3AF3
 P 3900 5800
 F 0 "R22" H 3900 6042 50  0000 C CNN
 F 1 "MCT06030Z0000ZP500" H 3600 5600 50  0001 L BNN
-F 2 "Resistor-Libs:RESC1508X55N" H 3900 5800 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3900 5800 50  0001 L BNN
 F 3 "" H 3900 5800 50  0001 L BNN
 F 4 "0" H 3900 5951 50  0000 C CNN "resistance"
 	1    3900 5800
@@ -5599,7 +4815,7 @@ U 1 1 609B13D9
 P 3900 6200
 F 0 "R21" H 3900 6442 50  0000 C CNN
 F 1 "MCT06030Z0000ZP500" H 3600 6000 50  0001 L BNN
-F 2 "Resistor-Libs:RESC1508X55N" H 3900 6200 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3900 6200 50  0001 L BNN
 F 3 "" H 3900 6200 50  0001 L BNN
 F 4 "0" H 3900 6351 50  0000 C CNN "resistance"
 	1    3900 6200
@@ -5608,12 +4824,12 @@ $EndComp
 $Comp
 L power:Earth #PWR0105
 U 1 1 6042522C
-P 3450 6000
-F 0 "#PWR0105" H 3450 5750 50  0001 C CNN
-F 1 "Earth" H 3450 5850 50  0001 C CNN
-F 2 "" H 3450 6000 50  0001 C CNN
-F 3 "~" H 3450 6000 50  0001 C CNN
-	1    3450 6000
+P 3700 6000
+F 0 "#PWR0105" H 3700 5750 50  0001 C CNN
+F 1 "Earth" H 3700 5850 50  0001 C CNN
+F 2 "" H 3700 6000 50  0001 C CNN
+F 3 "~" H 3700 6000 50  0001 C CNN
+	1    3700 6000
 	-1   0    0    -1  
 $EndComp
 Text GLabel 4350 5800 2    50   Input ~ 0
@@ -5623,12 +4839,12 @@ USB_D+
 $Comp
 L BekosLogo:LOGO #G1
 U 1 1 6385997F
-P 15750 4950
-F 0 "#G1" H 15750 4640 60  0001 C CNN
-F 1 "LOGO" H 15750 5260 60  0001 C CNN
-F 2 "BekosLogo:BekosLogo" H 15750 4950 50  0001 C CNN
-F 3 "" H 15750 4950 50  0001 C CNN
-	1    15750 4950
+P 9375 10125
+F 0 "#G1" H 9375 9815 60  0001 C CNN
+F 1 "LOGO" H 9375 10435 60  0001 C CNN
+F 2 "BekosLogo:BekosLogo" H 9375 10125 50  0001 C CNN
+F 3 "" H 9375 10125 50  0001 C CNN
+	1    9375 10125
 	1    0    0    -1  
 $EndComp
 NoConn ~ 1750 6550
@@ -5636,19 +4852,19 @@ NoConn ~ 1750 6450
 $Comp
 L power:Earth #PWR0117
 U 1 1 635DDF4A
-P 1000 6950
-F 0 "#PWR0117" H 1000 6700 50  0001 C CNN
-F 1 "Earth" H 1000 6800 50  0001 C CNN
-F 2 "" H 1000 6950 50  0001 C CNN
-F 3 "~" H 1000 6950 50  0001 C CNN
-	1    1000 6950
+P 1000 7100
+F 0 "#PWR0117" H 1000 6850 50  0001 C CNN
+F 1 "Earth" H 1000 6950 50  0001 C CNN
+F 2 "" H 1000 7100 50  0001 C CNN
+F 3 "~" H 1000 7100 50  0001 C CNN
+	1    1000 7100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1000 6900 1150 6900
 Connection ~ 1000 6900
 Wire Wire Line
-	1000 6900 1000 6950
+	1000 6900 1000 7025
 $Comp
 L power:Earth #PWR0103
 U 1 1 63564E60
@@ -5699,7 +4915,7 @@ Wire Wire Line
 Wire Wire Line
 	1750 5850 1800 5850
 Wire Wire Line
-	1850 5250 1850 5350
+	1850 5150 1850 5225
 Wire Wire Line
 	2300 5650 2350 5650
 Wire Wire Line
@@ -5709,32 +4925,32 @@ Wire Wire Line
 $Comp
 L capacitor-lib:CL10B104KB8NNNL C1
 U 1 1 604D49EA
-P 2600 6000
-F 0 "C1" V 2750 5900 50  0000 C CNN
-F 1 "CL10B104KB8NNNL" H 2600 6200 50  0001 L CNN
-F 2 "capacitor-lib:Samsung-CL10-09_2006-0-IPC_C" H 2600 6300 50  0001 L CNN
-F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 2600 6400 50  0001 L CNN
-F 4 "No" H 2600 6500 50  0001 L CNN "automotive"
-F 5 "100nF" V 2850 5900 50  0000 C CNN "capacitance"
-F 6 "Cap" H 2600 6700 50  0001 L CNN "category"
-F 7 "Passive Components" H 2600 6800 50  0001 L CNN "device class L1"
-F 8 "Capacitors" H 2600 6900 50  0001 L CNN "device class L2"
-F 9 "Ceramic Capacitors" H 2600 7000 50  0001 L CNN "device class L3"
-F 10 "0.9mm" H 2600 7300 50  0001 L CNN "height"
-F 11 "CAPC16080X80" H 2600 7400 50  0001 L CNN "ipc land pattern name"
-F 12 "Yes" H 2600 7500 50  0001 L CNN "lead free"
-F 13 "d416e2ef1cbb0413" H 2600 7600 50  0001 L CNN "library id"
-F 14 "Samsung" H 2600 7700 50  0001 L CNN "manufacturer"
-F 15 "Ceramic" H 2600 7800 50  0001 L CNN "material"
-F 16 "0603" H 2600 7900 50  0001 L CNN "package"
-F 17 "Yes" H 2600 8000 50  0001 L CNN "rohs"
-F 18 "X7R" H 2600 8100 50  0001 L CNN "temperature characteristic"
-F 19 "0.15" H 2600 8200 50  0001 L CNN "temperature coefficient"
-F 20 "+125°C" H 2600 8300 50  0001 L CNN "temperature range high"
-F 21 "-55°C" H 2600 8400 50  0001 L CNN "temperature range low"
-F 22 "10%" H 2600 8500 50  0001 L CNN "tolerance"
-F 23 "50V" H 2600 8600 50  0001 L CNN "voltage rating"
-	1    2600 6000
+P 2500 6000
+F 0 "C1" V 2650 5900 50  0000 C CNN
+F 1 "CL10B104KB8NNNL" H 2500 6200 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2500 6300 50  0001 L CNN
+F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 2500 6400 50  0001 L CNN
+F 4 "No" H 2500 6500 50  0001 L CNN "automotive"
+F 5 "100nF" V 2750 5900 50  0000 C CNN "capacitance"
+F 6 "Cap" H 2500 6700 50  0001 L CNN "category"
+F 7 "Passive Components" H 2500 6800 50  0001 L CNN "device class L1"
+F 8 "Capacitors" H 2500 6900 50  0001 L CNN "device class L2"
+F 9 "Ceramic Capacitors" H 2500 7000 50  0001 L CNN "device class L3"
+F 10 "0.9mm" H 2500 7300 50  0001 L CNN "height"
+F 11 "CAPC16080X80" H 2500 7400 50  0001 L CNN "ipc land pattern name"
+F 12 "Yes" H 2500 7500 50  0001 L CNN "lead free"
+F 13 "d416e2ef1cbb0413" H 2500 7600 50  0001 L CNN "library id"
+F 14 "Samsung" H 2500 7700 50  0001 L CNN "manufacturer"
+F 15 "Ceramic" H 2500 7800 50  0001 L CNN "material"
+F 16 "0603" H 2500 7900 50  0001 L CNN "package"
+F 17 "Yes" H 2500 8000 50  0001 L CNN "rohs"
+F 18 "X7R" H 2500 8100 50  0001 L CNN "temperature characteristic"
+F 19 "0.15" H 2500 8200 50  0001 L CNN "temperature coefficient"
+F 20 "+125°C" H 2500 8300 50  0001 L CNN "temperature range high"
+F 21 "-55°C" H 2500 8400 50  0001 L CNN "temperature range low"
+F 22 "10%" H 2500 8500 50  0001 L CNN "tolerance"
+F 23 "50V" H 2500 8600 50  0001 L CNN "voltage rating"
+	1    2500 6000
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -5747,7 +4963,7 @@ U 1 1 5FF6B199
 P 1700 5650
 F 0 "R2" H 2050 5550 50  0000 C CNN
 F 1 "RC0603FR-075K1L" H 2050 5774 50  0001 C CNN
-F 2 "Resistor-Libs:Yageo-RC0603-0-0-IPC_C" H 1700 6050 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1700 6050 50  0001 L CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 1700 6150 50  0001 L CNN
 F 4 "541-1.00HHCT-ND" H 1700 6250 50  0001 L CNN "approved alternate part number"
 F 5 "Res" H 1700 6350 50  0001 L CNN "category"
@@ -5767,7 +4983,7 @@ F 18 "603-RC0603FR-075K1L" H 1700 7650 50  0001 L CNN "mouser part number"
 F 19 "0603 (1608 Metric)" H 1700 7750 50  0001 L CNN "package"
 F 20 "100mW" H 1700 7850 50  0001 L CNN "power"
 F 21 "0.1W" H 1700 7950 50  0001 L CNN "power rating"
-F 22 "5.1kΩ" H 2050 5500 50  0000 C CNN "resistance"
+F 22 "5.1kΩ" H 2225 5550 50  0000 C CNN "resistance"
 F 23 "yes" H 1700 8150 50  0001 L CNN "rohs"
 F 24 "RC" H 1700 8250 50  0001 L CNN "series"
 F 25 "0mm" H 1700 8350 50  0001 L CNN "standoff height"
@@ -5784,9 +5000,9 @@ $Comp
 L Resistor-Lib:RC0603FR-075K1L R1
 U 1 1 5FF638A1
 P 1700 5550
-F 0 "R1" H 2050 5750 50  0000 C CNN
+F 0 "R1" H 2050 5650 50  0000 C CNN
 F 1 "RC0603FR-075K1L" H 2050 5674 50  0001 C CNN
-F 2 "Resistor-Libs:Yageo-RC0603-0-0-IPC_C" H 1700 5950 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1700 5950 50  0001 L CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 1700 6050 50  0001 L CNN
 F 4 "541-1.00HHCT-ND" H 1700 6150 50  0001 L CNN "approved alternate part number"
 F 5 "Res" H 1700 6250 50  0001 L CNN "category"
@@ -5806,7 +5022,7 @@ F 18 "603-RC0603FR-075K1L" H 1700 7550 50  0001 L CNN "mouser part number"
 F 19 "0603 (1608 Metric)" H 1700 7650 50  0001 L CNN "package"
 F 20 "100mW" H 1700 7750 50  0001 L CNN "power"
 F 21 "0.1W" H 1700 7850 50  0001 L CNN "power rating"
-F 22 "5.1kΩ" H 2050 5650 50  0000 C CNN "resistance"
+F 22 "5.1kΩ" H 2225 5650 50  0000 C CNN "resistance"
 F 23 "yes" H 1700 8050 50  0001 L CNN "rohs"
 F 24 "RC" H 1700 8150 50  0001 L CNN "series"
 F 25 "0mm" H 1700 8250 50  0001 L CNN "standoff height"
@@ -5822,203 +5038,142 @@ $EndComp
 $Comp
 L power:+5V #PWR01
 U 1 1 5FF35DFE
-P 1850 5250
-F 0 "#PWR01" H 1850 5100 50  0001 C CNN
-F 1 "+5V" H 1865 5423 50  0000 C CNN
-F 2 "" H 1850 5250 50  0001 C CNN
-F 3 "" H 1850 5250 50  0001 C CNN
-	1    1850 5250
+P 1850 5150
+F 0 "#PWR01" H 1850 5000 50  0001 C CNN
+F 1 "+5V" H 1865 5323 50  0000 C CNN
+F 2 "" H 1850 5150 50  0001 C CNN
+F 3 "" H 1850 5150 50  0001 C CNN
+	1    1850 5150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3350 6200 3500 6200
+	3400 6200 3500 6200
 Wire Wire Line
-	3350 6000 3450 6000
-Wire Wire Line
-	3350 5800 3500 5800
+	3400 5800 3500 5800
 Wire Wire Line
 	2200 6150 2200 6200
 Wire Wire Line
-	2200 6200 2750 6200
+	2200 6200 2700 6200
 Wire Wire Line
 	1800 6150 2200 6150
 Wire Wire Line
 	2200 5850 2200 5800
 Wire Wire Line
-	2200 5800 2750 5800
+	2200 5800 2700 5800
 Wire Wire Line
 	1800 5850 2200 5850
 Wire Wire Line
-	2750 6000 2700 6000
+	2650 6000 2600 6000
 Wire Wire Line
-	2700 5950 2700 6000
-Connection ~ 2700 6000
-$Comp
-L cldg:USBLC6-2P6 U2
-U 1 1 5FF3E6C9
-P 3050 6000
-F 0 "U2" H 3050 6467 50  0000 C CNN
-F 1 "USBLC6-2P6" H 3050 6376 50  0000 C CNN
-F 2 "SOT50P160X60-6N" H 3050 6000 50  0001 L BNN
-F 3 "" H 3050 6000 50  0001 L BNN
-F 4 "ST MICROELECTRONICS" H 3050 6000 50  0001 L BNN "MANUFACTURER"
-F 5 "SOT-666" H 3050 6000 50  0001 L BNN "PACKAGE"
-F 6 "5" H 3050 6000 50  0001 L BNN "PARTREV"
-F 7 "IPC 7351B" H 3050 6000 50  0001 L BNN "STANDARD"
-	1    3050 6000
-	-1   0    0    -1  
-$EndComp
+	2600 5950 2600 6000
+Connection ~ 2600 6000
 Wire Wire Line
-	2700 6000 2600 6000
+	2600 6000 2500 6000
 Wire Wire Line
-	2400 6000 2350 6000
+	2300 6000 2250 6000
 Wire Wire Line
-	2350 6000 2350 6050
+	2250 6000 2250 6050
 $Comp
 L power:+5V #PWR03
 U 1 1 5FFA23B6
-P 2150 6700
-F 0 "#PWR03" H 2150 6550 50  0001 C CNN
-F 1 "+5V" H 2165 6873 50  0000 C CNN
-F 2 "" H 2150 6700 50  0001 C CNN
-F 3 "" H 2150 6700 50  0001 C CNN
-	1    2150 6700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Littlefuse:1210L150THWR F1
-U 1 1 5FFAC6B2
-P 2850 6700
-F 0 "F1" H 3050 6939 60  0000 C CNN
-F 1 "1210L150THWR" H 3050 6833 60  0000 C CNN
-F 2 "Fuse:Fuse_1210_3225Metric" H 3050 6390 60  0001 C CNN
-F 3 "" H 2850 6700 60  0000 C CNN
-	1    2850 6700
+P 2500 6850
+F 0 "#PWR03" H 2500 6700 50  0001 C CNN
+F 1 "+5V" H 2515 7023 50  0000 C CNN
+F 2 "" H 2500 6850 50  0001 C CNN
+F 3 "" H 2500 6850 50  0001 C CNN
+	1    2500 6850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2550 6700 2650 6700
+	2950 6875 3050 6875
 $Comp
 L power:VCC #PWR0101
 U 1 1 6016A80D
-P 3550 6700
-F 0 "#PWR0101" H 3550 6550 50  0001 C CNN
-F 1 "VCC" H 3565 6873 50  0000 C CNN
-F 2 "" H 3550 6700 50  0001 C CNN
-F 3 "" H 3550 6700 50  0001 C CNN
-	1    3550 6700
+P 3950 6850
+F 0 "#PWR0101" H 3950 6700 50  0001 C CNN
+F 1 "VCC" H 3965 7023 50  0000 C CNN
+F 2 "" H 3950 6850 50  0001 C CNN
+F 3 "" H 3950 6850 50  0001 C CNN
+	1    3950 6850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Littlefuse:SMAJ9.0CA CR1
 U 1 1 60252249
-P 2600 6650
-F 0 "CR1" V 2747 6780 60  0000 L CNN
-F 1 "SMAJ9.0CA" V 2853 6780 60  0000 L CNN
-F 2 "Littlefuse:SMAJ9.0CA" H 2800 6490 60  0001 C CNN
-F 3 "" H 2600 6650 60  0000 C CNN
-	1    2600 6650
+P 3000 6825
+F 0 "CR1" V 3147 6955 60  0000 L CNN
+F 1 "SMAJ9.0CA" V 3253 6955 60  0000 L CNN
+F 2 "Littlefuse:SMAJ9.0CA" H 3200 6665 60  0001 C CNN
+F 3 "" H 3000 6825 60  0000 C CNN
+	1    3000 6825
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2650 7000 2650 7050
+	3050 7175 3050 7225
 $Comp
 L power:Earth #PWR0104
 U 1 1 60423113
-P 2650 7050
-F 0 "#PWR0104" H 2650 6800 50  0001 C CNN
-F 1 "Earth" H 2650 6900 50  0001 C CNN
-F 2 "" H 2650 7050 50  0001 C CNN
-F 3 "~" H 2650 7050 50  0001 C CNN
-	1    2650 7050
+P 3050 7225
+F 0 "#PWR0104" H 3050 6975 50  0001 C CNN
+F 1 "Earth" H 3050 7075 50  0001 C CNN
+F 2 "" H 3050 7225 50  0001 C CNN
+F 3 "~" H 3050 7225 50  0001 C CNN
+	1    3050 7225
 	1    0    0    -1  
 $EndComp
 Text Notes 700  7350 0    50   ~ 0
 USB C Connector with Protection
 Wire Wire Line
-	1600 8050 1600 8000
+	3175 7775 3600 7775
 Wire Wire Line
-	1600 7800 1700 7800
+	3600 7775 4075 7775
 Wire Wire Line
-	1700 7750 1700 7800
+	4075 7725 4075 7775
 Wire Wire Line
-	2900 7800 3300 7800
-Connection ~ 2900 7800
+	4075 8275 4075 8125
 Wire Wire Line
-	3300 7800 3800 7800
-Connection ~ 3300 7800
+	3175 8125 3175 8275
 Wire Wire Line
-	3800 7750 3800 7800
-Connection ~ 3800 7800
+	3175 8275 3600 8275
 Wire Wire Line
-	1600 8050 1600 8100
-Connection ~ 1600 8050
+	3600 8125 3600 8275
+Connection ~ 3600 8275
 Wire Wire Line
-	3800 8050 3800 8000
-Wire Wire Line
-	2900 8000 2900 8050
-Connection ~ 2900 8050
-Wire Wire Line
-	2900 8050 3300 8050
-Wire Wire Line
-	3300 8000 3300 8050
-Connection ~ 3300 8050
-Wire Wire Line
-	3300 8050 3800 8050
+	3600 8275 4075 8275
 $Comp
 L power:GND #PWR0118
 U 1 1 63AD7ABD
-P 3800 8100
-F 0 "#PWR0118" H 3800 7850 50  0001 C CNN
-F 1 "GND" H 3805 7927 50  0000 C CNN
-F 2 "" H 3800 8100 50  0001 C CNN
-F 3 "" H 3800 8100 50  0001 C CNN
-	1    3800 8100
+P 4075 8325
+F 0 "#PWR0118" H 4075 8075 50  0001 C CNN
+F 1 "GND" H 4080 8152 50  0000 C CNN
+F 2 "" H 4075 8325 50  0001 C CNN
+F 3 "" H 4075 8325 50  0001 C CNN
+	1    4075 8325
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3800 8050 3800 8100
-Connection ~ 3800 8050
-Connection ~ 1700 7800
-Wire Wire Line
-	2800 8050 2900 8050
-Wire Wire Line
-	2800 7800 2900 7800
-Wire Wire Line
-	1800 8050 1600 8050
-Wire Wire Line
-	1700 7800 1800 7800
-$Comp
-L DI-LVO:AP2114HA-3.3TRG1 U1
-U 1 1 5FF9E77D
-P 1050 7850
-F 0 "U1" H 2300 8187 60  0000 C CNN
-F 1 "AP2114HA-3.3TRG1" H 2300 8081 60  0000 C CNN
-F 2 "DI-LVO:AP2114HA-3.3TRG1" H 2150 8090 60  0001 C CNN
-F 3 "" H 1050 7850 60  0000 C CNN
-	1    1050 7850
-	1    0    0    -1  
-$EndComp
+	4075 8275 4075 8325
+Connection ~ 4075 8275
 Wire Notes Line
-	650  8500 4750 8500
-Text Notes 700  8450 0    50   ~ 0
+	650  8575 4750 8575
+Text Notes 725  8525 0    50   ~ 0
 LDO 5V to 3V3 Dropdown
 $Comp
 L power:GND #PWR07
 U 1 1 6065E993
-P 1650 9350
-F 0 "#PWR07" H 1650 9100 50  0001 C CNN
-F 1 "GND" H 1655 9177 50  0000 C CNN
-F 2 "" H 1650 9350 50  0001 C CNN
-F 3 "" H 1650 9350 50  0001 C CNN
-	1    1650 9350
+P 1650 9475
+F 0 "#PWR07" H 1650 9225 50  0001 C CNN
+F 1 "GND" H 1655 9302 50  0000 C CNN
+F 2 "" H 1650 9475 50  0001 C CNN
+F 3 "" H 1650 9475 50  0001 C CNN
+	1    1650 9475
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1500 9000 1650 9000
+	1500 9125 1650 9125
 Wire Wire Line
-	1650 9350 3150 9350
-Connection ~ 1650 9350
+	1650 9475 3150 9475
+Connection ~ 1650 9475
 $Comp
 L Connector:Conn_01x06_Male J2
 U 1 1 621CEF5F
@@ -6031,108 +5186,108 @@ F 3 "~" H 5500 8850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3150 9000 3400 9000
+	3150 9125 3400 9125
 $Comp
 L capacitor-lib:06035A100JAT2A C3
 U 1 1 60087526
-P 1650 9200
-F 0 "C3" H 1522 9054 50  0000 R CNN
-F 1 "06035A100JAT2A" H 1777 9145 50  0001 L CNN
-F 2 "capacitor-lib:AVX-GRM124-0-0-IPC_C" H 1650 9500 50  0001 L CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1E472JA01-01A.pdf" H 1650 9600 50  0001 L CNN
-F 4 "10pF" H 1522 9145 50  0000 R CNN "capacitance"
-F 5 "Cap" H 1650 9800 50  0001 L CNN "category"
-F 6 "Passive Components" H 1650 9900 50  0001 L CNN "device class L1"
-F 7 "Capacitors" H 1650 10000 50  0001 L CNN "device class L2"
-F 8 "Ceramic Capacitors" H 1650 10100 50  0001 L CNN "device class L3"
-F 9 "CAP CER 10PF 50V C0G/NP0 0603" H 1650 10200 50  0001 L CNN "digikey description"
-F 10 "478-1163-2-ND" H 1650 10300 50  0001 L CNN "digikey part number"
-F 11 "0.9mm" H 1650 10400 50  0001 L CNN "height"
-F 12 "CAPC16080X186" H 1650 10500 50  0001 L CNN "ipc land pattern name"
-F 13 "yes" H 1650 10600 50  0001 L CNN "lead free"
-F 14 "936bf8fcd50e4ef0" H 1650 10700 50  0001 L CNN "library id"
-F 15 "AVX" H 1650 10800 50  0001 L CNN "manufacturer"
-F 16 "Ceramic" H 1650 10900 50  0001 L CNN "material"
-F 17 "0603 10 pF 50 V ±5 % Tol. C0G/NP0 Surface Mount Multilayer Ceramic Capacitor" H 1650 11000 50  0001 L CNN "mouser description"
-F 18 "581-06035A100J" H 1650 11100 50  0001 L CNN "mouser part number"
-F 19 "0603" H 1650 11200 50  0001 L CNN "package"
-F 20 "yes" H 1650 11300 50  0001 L CNN "rohs"
-F 21 "0mm" H 1650 11400 50  0001 L CNN "standoff height"
-F 22 "C0G" H 1650 11500 50  0001 L CNN "temperature characteristic"
-F 23 "+125°C" H 1650 11600 50  0001 L CNN "temperature range high"
-F 24 "-55°C" H 1650 11700 50  0001 L CNN "temperature range low"
-F 25 "5%" H 1650 11800 50  0001 L CNN "tolerance"
-F 26 "50V" H 1650 11900 50  0001 L CNN "voltage rating"
-	1    1650 9200
+P 1650 9325
+F 0 "C3" H 1522 9179 50  0000 R CNN
+F 1 "06035A100JAT2A" H 1777 9270 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1650 9625 50  0001 L CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1E472JA01-01A.pdf" H 1650 9725 50  0001 L CNN
+F 4 "10pF" H 1522 9270 50  0000 R CNN "capacitance"
+F 5 "Cap" H 1650 9925 50  0001 L CNN "category"
+F 6 "Passive Components" H 1650 10025 50  0001 L CNN "device class L1"
+F 7 "Capacitors" H 1650 10125 50  0001 L CNN "device class L2"
+F 8 "Ceramic Capacitors" H 1650 10225 50  0001 L CNN "device class L3"
+F 9 "CAP CER 10PF 50V C0G/NP0 0603" H 1650 10325 50  0001 L CNN "digikey description"
+F 10 "478-1163-2-ND" H 1650 10425 50  0001 L CNN "digikey part number"
+F 11 "0.9mm" H 1650 10525 50  0001 L CNN "height"
+F 12 "CAPC16080X186" H 1650 10625 50  0001 L CNN "ipc land pattern name"
+F 13 "yes" H 1650 10725 50  0001 L CNN "lead free"
+F 14 "936bf8fcd50e4ef0" H 1650 10825 50  0001 L CNN "library id"
+F 15 "AVX" H 1650 10925 50  0001 L CNN "manufacturer"
+F 16 "Ceramic" H 1650 11025 50  0001 L CNN "material"
+F 17 "0603 10 pF 50 V ±5 % Tol. C0G/NP0 Surface Mount Multilayer Ceramic Capacitor" H 1650 11125 50  0001 L CNN "mouser description"
+F 18 "581-06035A100J" H 1650 11225 50  0001 L CNN "mouser part number"
+F 19 "0603" H 1650 11325 50  0001 L CNN "package"
+F 20 "yes" H 1650 11425 50  0001 L CNN "rohs"
+F 21 "0mm" H 1650 11525 50  0001 L CNN "standoff height"
+F 22 "C0G" H 1650 11625 50  0001 L CNN "temperature characteristic"
+F 23 "+125°C" H 1650 11725 50  0001 L CNN "temperature range high"
+F 24 "-55°C" H 1650 11825 50  0001 L CNN "temperature range low"
+F 25 "5%" H 1650 11925 50  0001 L CNN "tolerance"
+F 26 "50V" H 1650 12025 50  0001 L CNN "voltage rating"
+	1    1650 9325
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1950 9000 1650 9000
+	1950 9125 1650 9125
 Wire Wire Line
-	1650 9200 1650 9350
+	1650 9325 1650 9475
 $Comp
 L cldg:ECS-480-10-33B-CKM-TR Y1
 U 1 1 5FF4EA01
-P 2650 9100
-F 0 "Y1" H 2650 9565 50  0000 C CNN
-F 1 "ECS-480-10-33B-CKM-TR" H 2650 9474 50  0000 C CNN
-F 2 "cldg:XTAL_ECS-480-10-33B-CKM-TR" H 2350 9450 50  0001 L BNN
-F 3 "" H 2650 9100 50  0001 L BNN
-F 4 "MANUFACTURER RECOMMENDATIONS" H 2350 9550 50  0001 L BNN "STANDARD"
-F 5 "ECS Inc" H 2350 9650 50  0001 L BNN "MANUFACTURER"
-F 6 "2017" H 2800 9650 50  0001 L BNN "PARTREV"
-	1    2650 9100
+P 2650 9225
+F 0 "Y1" H 2650 9690 50  0000 C CNN
+F 1 "ECS-480-10-33B-CKM-TR" H 2650 9599 50  0000 C CNN
+F 2 "cldg:XTAL_ECS-480-10-33B-CKM-TR" H 2350 9575 50  0001 L BNN
+F 3 "" H 2650 9225 50  0001 L BNN
+F 4 "MANUFACTURER RECOMMENDATIONS" H 2350 9675 50  0001 L BNN "STANDARD"
+F 5 "ECS Inc" H 2350 9775 50  0001 L BNN "MANUFACTURER"
+F 6 "2017" H 2800 9775 50  0001 L BNN "PARTREV"
+	1    2650 9225
 	1    0    0    -1  
 $EndComp
-Connection ~ 1650 9000
+Connection ~ 1650 9125
 Wire Wire Line
-	1950 9200 1650 9200
-Connection ~ 1650 9200
+	1950 9325 1650 9325
+Connection ~ 1650 9325
 Wire Wire Line
-	3150 9350 3150 9200
-Connection ~ 3150 9000
+	3150 9475 3150 9325
+Connection ~ 3150 9125
 Wire Wire Line
-	3050 9200 3150 9200
+	3050 9325 3150 9325
 Wire Wire Line
-	3050 9000 3150 9000
-Connection ~ 3150 9200
+	3050 9125 3150 9125
+Connection ~ 3150 9325
 $Comp
 L capacitor-lib:06035A100JAT2A C6
 U 1 1 5FF44365
-P 3150 9200
-F 0 "C6" H 3022 9054 50  0000 R CNN
-F 1 "06035A100JAT2A" H 3022 9145 50  0001 R CNN
-F 2 "capacitor-lib:AVX-GRM124-0-0-IPC_C" H 3150 9500 50  0001 L CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1E472JA01-01A.pdf" H 3150 9600 50  0001 L CNN
-F 4 "10pF" H 3022 9145 50  0000 R CNN "capacitance"
-F 5 "Cap" H 3150 9800 50  0001 L CNN "category"
-F 6 "Passive Components" H 3150 9900 50  0001 L CNN "device class L1"
-F 7 "Capacitors" H 3150 10000 50  0001 L CNN "device class L2"
-F 8 "Ceramic Capacitors" H 3150 10100 50  0001 L CNN "device class L3"
-F 9 "CAP CER 10PF 50V C0G/NP0 0603" H 3150 10200 50  0001 L CNN "digikey description"
-F 10 "478-1163-2-ND" H 3150 10300 50  0001 L CNN "digikey part number"
-F 11 "0.9mm" H 3150 10400 50  0001 L CNN "height"
-F 12 "CAPC16080X186" H 3150 10500 50  0001 L CNN "ipc land pattern name"
-F 13 "yes" H 3150 10600 50  0001 L CNN "lead free"
-F 14 "936bf8fcd50e4ef0" H 3150 10700 50  0001 L CNN "library id"
-F 15 "AVX" H 3150 10800 50  0001 L CNN "manufacturer"
-F 16 "Ceramic" H 3150 10900 50  0001 L CNN "material"
-F 17 "0603 10 pF 50 V ±5 % Tol. C0G/NP0 Surface Mount Multilayer Ceramic Capacitor" H 3150 11000 50  0001 L CNN "mouser description"
-F 18 "581-06035A100J" H 3150 11100 50  0001 L CNN "mouser part number"
-F 19 "0603" H 3150 11200 50  0001 L CNN "package"
-F 20 "yes" H 3150 11300 50  0001 L CNN "rohs"
-F 21 "0mm" H 3150 11400 50  0001 L CNN "standoff height"
-F 22 "C0G" H 3150 11500 50  0001 L CNN "temperature characteristic"
-F 23 "+125°C" H 3150 11600 50  0001 L CNN "temperature range high"
-F 24 "-55°C" H 3150 11700 50  0001 L CNN "temperature range low"
-F 25 "5%" H 3150 11800 50  0001 L CNN "tolerance"
-F 26 "50V" H 3150 11900 50  0001 L CNN "voltage rating"
-	1    3150 9200
+P 3150 9325
+F 0 "C6" H 3022 9179 50  0000 R CNN
+F 1 "06035A100JAT2A" H 3022 9270 50  0001 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3150 9625 50  0001 L CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1E472JA01-01A.pdf" H 3150 9725 50  0001 L CNN
+F 4 "10pF" H 3022 9270 50  0000 R CNN "capacitance"
+F 5 "Cap" H 3150 9925 50  0001 L CNN "category"
+F 6 "Passive Components" H 3150 10025 50  0001 L CNN "device class L1"
+F 7 "Capacitors" H 3150 10125 50  0001 L CNN "device class L2"
+F 8 "Ceramic Capacitors" H 3150 10225 50  0001 L CNN "device class L3"
+F 9 "CAP CER 10PF 50V C0G/NP0 0603" H 3150 10325 50  0001 L CNN "digikey description"
+F 10 "478-1163-2-ND" H 3150 10425 50  0001 L CNN "digikey part number"
+F 11 "0.9mm" H 3150 10525 50  0001 L CNN "height"
+F 12 "CAPC16080X186" H 3150 10625 50  0001 L CNN "ipc land pattern name"
+F 13 "yes" H 3150 10725 50  0001 L CNN "lead free"
+F 14 "936bf8fcd50e4ef0" H 3150 10825 50  0001 L CNN "library id"
+F 15 "AVX" H 3150 10925 50  0001 L CNN "manufacturer"
+F 16 "Ceramic" H 3150 11025 50  0001 L CNN "material"
+F 17 "0603 10 pF 50 V ±5 % Tol. C0G/NP0 Surface Mount Multilayer Ceramic Capacitor" H 3150 11125 50  0001 L CNN "mouser description"
+F 18 "581-06035A100J" H 3150 11225 50  0001 L CNN "mouser part number"
+F 19 "0603" H 3150 11325 50  0001 L CNN "package"
+F 20 "yes" H 3150 11425 50  0001 L CNN "rohs"
+F 21 "0mm" H 3150 11525 50  0001 L CNN "standoff height"
+F 22 "C0G" H 3150 11625 50  0001 L CNN "temperature characteristic"
+F 23 "+125°C" H 3150 11725 50  0001 L CNN "temperature range high"
+F 24 "-55°C" H 3150 11825 50  0001 L CNN "temperature range low"
+F 25 "5%" H 3150 11925 50  0001 L CNN "tolerance"
+F 26 "50V" H 3150 12025 50  0001 L CNN "voltage rating"
+	1    3150 9325
 	-1   0    0    1   
 $EndComp
-Text GLabel 1500 9000 0    50   Input ~ 0
+Text GLabel 1500 9125 0    50   Input ~ 0
 OSC_OUT
-Text GLabel 3400 9000 2    50   Input ~ 0
+Text GLabel 3400 9125 2    50   Input ~ 0
 OSC_IN
 Wire Notes Line
 	4750 4900 4750 9700
@@ -6177,39 +5332,39 @@ Wire Notes Line
 	650  9700 6700 9700
 Text Notes 4850 7300 0    50   ~ 0
 Stabs and Mounting Holes
-Text GLabel 10950 7250 2    50   Input ~ 0
+Text GLabel 15150 6750 2    50   Input ~ 0
 SWDIO
 Wire Wire Line
-	10900 7250 10950 7250
-Text GLabel 10950 6350 2    50   Input ~ 0
+	15100 6750 15150 6750
+Text GLabel 15150 5850 2    50   Input ~ 0
 COL_22
 Wire Wire Line
-	9550 5950 9600 5950
-Text GLabel 9550 5950 0    50   Input ~ 0
+	13750 5450 13800 5450
+Text GLabel 13750 5450 0    50   Input ~ 0
 RST
 Wire Wire Line
-	9550 7250 9600 7250
-Text GLabel 9550 7250 0    50   Input ~ 0
+	13750 6750 13800 6750
+Text GLabel 13750 6750 0    50   Input ~ 0
 BOOT0
 Wire Wire Line
-	9550 7150 9600 7150
+	13750 6650 13800 6650
 Wire Wire Line
-	9550 7050 9600 7050
-Text GLabel 9550 7050 0    50   Input ~ 0
+	13750 6550 13800 6550
+Text GLabel 13750 6550 0    50   Input ~ 0
 OSC_IN
-Text GLabel 9550 7150 0    50   Input ~ 0
+Text GLabel 13750 6650 0    50   Input ~ 0
 OSC_OUT
 Wire Wire Line
-	9550 7750 9600 7750
+	13750 7250 13800 7250
 Wire Wire Line
-	10900 8050 10950 8050
+	15100 7550 15150 7550
 $Comp
 L Resistor-Lib:RMCF0805FT510R R5
 U 1 1 61E7DED3
 P 7600 6200
 F 0 "R5" H 7300 6250 50  0000 C CNN
 F 1 "RMCF0805FT510R" H 7300 5950 50  0001 L BNN
-F 2 "Resistor-Libs:RESC2012X65N" H 7300 6050 50  0001 L BNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7300 6050 50  0001 L BNN
 F 3 "" H 7600 6200 50  0001 L BNN
 F 4 "510" H 7900 6250 50  0000 C CNN "reistance"
 	1    7600 6200
@@ -6227,7 +5382,7 @@ U 1 1 61C65077
 P 7600 6000
 F 0 "R6" H 7300 6050 50  0000 C CNN
 F 1 "RMCF0805FT510R" H 7300 5750 50  0001 L BNN
-F 2 "Resistor-Libs:RESC2012X65N" H 7300 5850 50  0001 L BNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7300 5850 50  0001 L BNN
 F 3 "" H 7600 6000 50  0001 L BNN
 F 4 "510" H 7900 6050 50  0000 C CNN "reistance"
 	1    7600 6000
@@ -6241,7 +5396,7 @@ U 1 1 61BF657B
 P 7600 5800
 F 0 "R7" H 7300 5850 50  0000 C CNN
 F 1 "RMCF0805FT510R" H 7300 5550 50  0001 L BNN
-F 2 "Resistor-Libs:RESC2012X65N" H 7300 5650 50  0001 L BNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7300 5650 50  0001 L BNN
 F 3 "" H 7600 5800 50  0001 L BNN
 F 4 "510" H 7900 5850 50  0000 C CNN "reistance"
 	1    7600 5800
@@ -6250,7 +5405,7 @@ $EndComp
 Wire Wire Line
 	8050 5800 8000 5800
 Wire Wire Line
-	9550 8850 9600 8850
+	13750 8350 13800 8350
 Wire Wire Line
 	7150 5600 7200 5600
 $Comp
@@ -6259,7 +5414,7 @@ U 1 1 61907867
 P 7600 5600
 F 0 "R3" H 7300 5650 50  0000 C CNN
 F 1 "RMCF0805FT510R" H 7300 5350 50  0001 L BNN
-F 2 "Resistor-Libs:RESC2012X65N" H 7300 5450 50  0001 L BNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7300 5450 50  0001 L BNN
 F 3 "" H 7600 5600 50  0001 L BNN
 F 4 "510" H 7900 5650 50  0000 C CNN "reistance"
 	1    7600 5600
@@ -6271,7 +5426,7 @@ U 1 1 6183038F
 P 7600 5200
 F 0 "R8" H 7900 5150 50  0000 C CNN
 F 1 "RMCF0805FT510R" H 7300 4950 50  0001 L BNN
-F 2 "Resistor-Libs:RESC2012X65N" H 7300 5050 50  0001 L BNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7300 5050 50  0001 L BNN
 F 3 "" H 7600 5200 50  0001 L BNN
 F 4 "510" H 7300 5150 50  0000 C CNN "reistance"
 	1    7600 5200
@@ -6280,142 +5435,138 @@ $EndComp
 Wire Wire Line
 	7150 5200 7200 5200
 Wire Wire Line
-	10900 8150 10950 8150
+	15100 7650 15150 7650
 Wire Wire Line
 	8050 5200 8000 5200
 Wire Wire Line
-	10900 6550 10950 6550
+	15100 6050 15150 6050
 Wire Wire Line
-	10900 6450 10950 6450
+	15100 5950 15150 5950
 Wire Wire Line
-	10900 6350 10950 6350
+	15100 5850 15150 5850
 Wire Wire Line
-	10900 7950 10950 7950
-Text GLabel 10950 7950 2    50   Input ~ 0
+	15100 7450 15150 7450
+Text GLabel 15150 7450 2    50   Input ~ 0
 SWO
-Text GLabel 10950 7350 2    50   Input ~ 0
+Text GLabel 15150 6850 2    50   Input ~ 0
 SWCLK
 Wire Wire Line
-	9600 7850 9550 7850
+	13800 7350 13750 7350
 Wire Wire Line
-	9600 7950 9550 7950
+	13800 7450 13750 7450
 $Comp
 L MCU_ST_STM32L4:STM32L433RBTx U3
 U 1 1 5FE7C7AF
-P 10300 7550
-F 0 "U3" H 10550 5700 50  0000 C CNN
-F 1 "STM32L433RBTx" H 10800 5600 50  0000 C CNN
-F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 9700 5850 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf" H 10300 7550 50  0001 C CNN
-	1    10300 7550
+P 14500 7050
+F 0 "U3" H 14750 5200 50  0000 C CNN
+F 1 "STM32L433RBTx" H 15000 5100 50  0000 C CNN
+F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 13900 5350 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf" H 14500 7050 50  0001 C CNN
+	1    14500 7050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10900 6950 10950 6950
+	15100 6450 15150 6450
 Wire Wire Line
-	10900 7050 10950 7050
+	15100 6550 15150 6550
 Wire Wire Line
-	10950 7150 10900 7150
+	15150 6650 15100 6650
 Wire Wire Line
-	10900 7350 10950 7350
+	15100 6850 15150 6850
 Wire Wire Line
-	10900 7450 10950 7450
+	15100 6950 15150 6950
 Wire Wire Line
-	10900 6650 10950 6650
+	15100 6150 15150 6150
 Wire Wire Line
-	10900 6750 10950 6750
+	15100 6250 15150 6250
 Wire Wire Line
-	10900 6850 10950 6850
+	15100 6350 15150 6350
 Wire Wire Line
-	10900 7650 10950 7650
+	15100 7150 15150 7150
 Wire Wire Line
-	10900 7750 10950 7750
+	15100 7250 15150 7250
 Wire Wire Line
-	10900 8650 10950 8650
+	15100 8150 15150 8150
 Wire Wire Line
-	10900 8750 10950 8750
+	15100 8250 15150 8250
 Wire Wire Line
-	10900 8850 10950 8850
+	15100 8350 15150 8350
 Wire Wire Line
-	10900 8950 10950 8950
+	15100 8450 15150 8450
 Wire Wire Line
-	10900 9050 10950 9050
+	15100 8550 15150 8550
 Wire Wire Line
-	10900 9150 10950 9150
+	15100 8650 15150 8650
 Wire Wire Line
-	10900 7850 10950 7850
-Text GLabel 10950 6450 2    50   Input ~ 0
+	15100 7350 15150 7350
+Text GLabel 15150 5950 2    50   Input ~ 0
 COL_21
-Text GLabel 10950 6550 2    50   Input ~ 0
+Text GLabel 15150 6050 2    50   Input ~ 0
 COL_20
-Text GLabel 10950 6650 2    50   Input ~ 0
+Text GLabel 15150 6150 2    50   Input ~ 0
 COL_19
-Text GLabel 9550 7850 0    50   Input ~ 0
-COL_18
 Wire Wire Line
-	9600 8050 9550 8050
-Text GLabel 9550 7950 0    50   Input ~ 0
+	13800 7550 13750 7550
+Text GLabel 13750 7450 0    50   Input ~ 0
 COL_17
 Wire Wire Line
-	9600 8150 9550 8150
-Text GLabel 9550 8050 0    50   Input ~ 0
+	13800 7650 13750 7650
+Text GLabel 13750 7550 0    50   Input ~ 0
 COL_16
-Text GLabel 9550 8150 0    50   Input ~ 0
+Text GLabel 13750 7650 0    50   Input ~ 0
 COL_15
-Text GLabel 10950 7850 2    50   Input ~ 0
+Text GLabel 15150 7350 2    50   Input ~ 0
 COL_14
-Text GLabel 10950 8650 2    50   Input ~ 0
+Text GLabel 15150 8150 2    50   Input ~ 0
 COL_13
-Text GLabel 10950 8750 2    50   Input ~ 0
+Text GLabel 15150 8250 2    50   Input ~ 0
 COL_12
-Text GLabel 10950 8850 2    50   Input ~ 0
+Text GLabel 15150 8350 2    50   Input ~ 0
 COL_11
-Text GLabel 10950 8950 2    50   Input ~ 0
+Text GLabel 15150 8450 2    50   Input ~ 0
 COL_10
-Text GLabel 10950 9050 2    50   Input ~ 0
+Text GLabel 15150 8550 2    50   Input ~ 0
 COL_9
 Wire Wire Line
-	9600 8250 9550 8250
-Text GLabel 10950 9150 2    50   Input ~ 0
+	13800 7750 13750 7750
+Text GLabel 15150 8650 2    50   Input ~ 0
 COL_8
 Wire Wire Line
-	9600 8350 9550 8350
-Text GLabel 9550 8250 0    50   Input ~ 0
+	13800 7850 13750 7850
+Text GLabel 13750 7750 0    50   Input ~ 0
 COL_7
 Wire Wire Line
-	9600 8450 9550 8450
-Text GLabel 9550 8350 0    50   Input ~ 0
+	13800 7950 13750 7950
+Text GLabel 13750 7850 0    50   Input ~ 0
 COL_6
 Wire Wire Line
-	9600 8550 9550 8550
-Text GLabel 9550 8450 0    50   Input ~ 0
+	13800 8050 13750 8050
+Text GLabel 13750 7950 0    50   Input ~ 0
 COL_5
-Text GLabel 9550 8550 0    50   Input ~ 0
+Text GLabel 13750 8050 0    50   Input ~ 0
 COL_4
-Text GLabel 10950 6750 2    50   Input ~ 0
+Text GLabel 15150 6250 2    50   Input ~ 0
 COL_3
-Text GLabel 10950 6850 2    50   Input ~ 0
+Text GLabel 15150 6350 2    50   Input ~ 0
 COL_2
-Text GLabel 10950 6950 2    50   Input ~ 0
+Text GLabel 15150 6450 2    50   Input ~ 0
 COL_1
-Text GLabel 10950 7450 2    50   Input ~ 0
+Text GLabel 15150 6950 2    50   Input ~ 0
 COL_0
 Text GLabel 7150 6200 0    50   Input ~ 0
 ROW_6
 Wire Wire Line
-	9600 8650 9550 8650
+	13800 8150 13750 8150
 Text GLabel 7150 6000 0    50   Input ~ 0
 ROW_5
 Wire Wire Line
-	9600 8750 9550 8750
+	13800 8250 13750 8250
 Text GLabel 7150 5800 0    50   Input ~ 0
 ROW_4
 Text GLabel 7150 5600 0    50   Input ~ 0
 ROW_3
 Wire Wire Line
-	9600 7450 9550 7450
-Text GLabel 10950 8050 2    50   Input ~ 0
-ROW_1
+	13800 6950 13750 6950
 Text GLabel 7150 5200 0    50   Input ~ 0
 ROW_0
 $Comp
@@ -6439,7 +5590,7 @@ U 1 1 60013A68
 P 7600 6800
 F 0 "R10" H 7300 6850 50  0000 C CNN
 F 1 "RMCF0603FT1K00" V 7645 6905 50  0001 L CNN
-F 2 "Resistor-Libs:RESC1508X55N" H 7600 6800 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7600 6800 50  0001 L BNN
 F 3 "" H 7600 6800 50  0001 L BNN
 F 4 "1k" H 7900 6850 50  0000 C CNN "resistance"
 	1    7600 6800
@@ -6451,132 +5602,95 @@ U 1 1 6001106E
 P 7600 7050
 F 0 "R9" H 7250 7100 50  0000 L CNN
 F 1 "RMCF0603FT1K00" V 7645 7155 50  0001 L CNN
-F 2 "Resistor-Libs:RESC1508X55N" H 7600 7050 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7600 7050 50  0001 L BNN
 F 3 "" H 7600 7050 50  0001 L BNN
 F 4 "1k" H 7850 7100 50  0000 L CNN "resistance"
 	1    7600 7050
 	1    0    0    -1  
 $EndComp
-Text GLabel 10950 7750 2    50   Input ~ 0
+Text GLabel 15150 7250 2    50   Input ~ 0
 ENCODER_B
-Text GLabel 10950 7650 2    50   Input ~ 0
+Text GLabel 15150 7150 2    50   Input ~ 0
 ENCODER_A
-Text GLabel 10950 7050 2    50   Input ~ 0
+Text GLabel 15150 6550 2    50   Input ~ 0
 USB_D-
-Text GLabel 10950 7150 2    50   Input ~ 0
+Text GLabel 15150 6650 2    50   Input ~ 0
 USB_D+
-Text GLabel 10950 8350 2    50   Input ~ 0
+Text GLabel 15150 7850 2    50   Input ~ 0
 I2C_SDA
-Text GLabel 10950 8250 2    50   Input ~ 0
+Text GLabel 15150 7750 2    50   Input ~ 0
 I2C_SCL
 Wire Wire Line
-	10200 9450 10200 9550
+	14400 8950 14400 9050
 $Comp
 L power:GND #PWR012
 U 1 1 5FFAF2AA
-P 10200 9550
-F 0 "#PWR012" H 10200 9300 50  0001 C CNN
-F 1 "GND" H 10122 9513 50  0000 R CNN
-F 2 "" H 10200 9550 50  0001 C CNN
-F 3 "" H 10200 9550 50  0001 C CNN
-	1    10200 9550
+P 14400 9050
+F 0 "#PWR012" H 14400 8800 50  0001 C CNN
+F 1 "GND" H 14322 9013 50  0000 R CNN
+F 2 "" H 14400 9050 50  0001 C CNN
+F 3 "" H 14400 9050 50  0001 C CNN
+	1    14400 9050
 	1    0    0    -1  
 $EndComp
-Connection ~ 10300 9450
+Connection ~ 14500 8950
 Wire Wire Line
-	10400 9450 10400 9350
+	14600 8950 14600 8850
 Wire Wire Line
-	10300 9450 10400 9450
-Connection ~ 10200 9450
+	14500 8950 14600 8950
+Connection ~ 14400 8950
 Wire Wire Line
-	10300 9450 10300 9350
+	14500 8950 14500 8850
 Wire Wire Line
-	10200 9450 10300 9450
-Connection ~ 10100 9450
+	14400 8950 14500 8950
+Connection ~ 14300 8950
 Wire Wire Line
-	10200 9450 10200 9350
+	14400 8950 14400 8850
 Wire Wire Line
-	10100 9450 10200 9450
+	14300 8950 14400 8950
 Wire Wire Line
-	10100 9450 10100 9350
+	14300 8950 14300 8850
 Wire Wire Line
-	10000 9450 10100 9450
+	14200 8950 14300 8950
 Wire Wire Line
-	10000 9350 10000 9450
-Connection ~ 10300 5350
+	14200 8850 14200 8950
+Connection ~ 14500 4850
 Wire Wire Line
-	10300 5650 10300 5350
-Connection ~ 10400 5650
+	14500 5150 14500 4850
+Connection ~ 14600 5150
 Wire Wire Line
-	10500 5650 10500 5750
+	14700 5150 14700 5250
 Wire Wire Line
-	10400 5650 10500 5650
-Connection ~ 10300 5650
+	14600 5150 14700 5150
+Connection ~ 14500 5150
 Wire Wire Line
-	10400 5650 10400 5750
+	14600 5150 14600 5250
 Wire Wire Line
-	10300 5650 10400 5650
-Connection ~ 10200 5650
+	14500 5150 14600 5150
+Connection ~ 14400 5150
 Wire Wire Line
-	10300 5650 10300 5750
+	14500 5150 14500 5250
 Wire Wire Line
-	10200 5650 10300 5650
+	14400 5150 14500 5150
 Wire Wire Line
-	10200 5650 10200 5750
+	14400 5150 14400 5250
 Wire Wire Line
-	10100 5650 10200 5650
+	14300 5150 14400 5150
 Wire Wire Line
-	10100 5750 10100 5650
+	14300 5250 14300 5150
 Wire Wire Line
-	10300 5350 10300 5300
+	14500 4850 14500 4800
 Wire Wire Line
-	10000 5350 10300 5350
-Wire Wire Line
-	10000 5450 10000 5350
-Wire Wire Line
-	10000 5750 10000 5650
-$Comp
-L capacitor-lib:CL10B104KB8NNNL C8
-U 1 1 5FFB6368
-P 10000 5450
-F 0 "C8" H 9873 5396 50  0000 R CNN
-F 1 "CL10B104KB8NNNL" H 9872 5305 50  0001 R CNN
-F 2 "capacitor-lib:Samsung-CL10-09_2006-0-IPC_C" H 10000 5750 50  0001 L CNN
-F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 10000 5850 50  0001 L CNN
-F 4 "No" H 10000 5950 50  0001 L CNN "automotive"
-F 5 "100nF" H 9873 5305 50  0000 R CNN "capacitance"
-F 6 "Cap" H 10000 6150 50  0001 L CNN "category"
-F 7 "Passive Components" H 10000 6250 50  0001 L CNN "device class L1"
-F 8 "Capacitors" H 10000 6350 50  0001 L CNN "device class L2"
-F 9 "Ceramic Capacitors" H 10000 6450 50  0001 L CNN "device class L3"
-F 10 "" H 10000 6550 50  0001 L CNN "digikey description"
-F 11 "" H 10000 6650 50  0001 L CNN "digikey part number"
-F 12 "0.9mm" H 10000 6750 50  0001 L CNN "height"
-F 13 "CAPC16080X80" H 10000 6850 50  0001 L CNN "ipc land pattern name"
-F 14 "Yes" H 10000 6950 50  0001 L CNN "lead free"
-F 15 "d416e2ef1cbb0413" H 10000 7050 50  0001 L CNN "library id"
-F 16 "Samsung" H 10000 7150 50  0001 L CNN "manufacturer"
-F 17 "Ceramic" H 10000 7250 50  0001 L CNN "material"
-F 18 "0603" H 10000 7350 50  0001 L CNN "package"
-F 19 "Yes" H 10000 7450 50  0001 L CNN "rohs"
-F 20 "X7R" H 10000 7550 50  0001 L CNN "temperature characteristic"
-F 21 "0.15" H 10000 7650 50  0001 L CNN "temperature coefficient"
-F 22 "+125°C" H 10000 7750 50  0001 L CNN "temperature range high"
-F 23 "-55°C" H 10000 7850 50  0001 L CNN "temperature range low"
-F 24 "10%" H 10000 7950 50  0001 L CNN "tolerance"
-F 25 "50V" H 10000 8050 50  0001 L CNN "voltage rating"
-	1    10000 5450
-	1    0    0    -1  
-$EndComp
+	14200 4850 14500 4850
 Text GLabel 8050 5600 2    50   Input ~ 0
 ROW_3_MCU
 Wire Wire Line
 	8000 5600 8050 5600
-Text GLabel 9550 7450 0    50   Input ~ 0
+Text GLabel 13750 6950 0    50   Input ~ 0
 ROW_3_MCU
-Text GLabel 9550 7750 0    50   Input ~ 0
+Text GLabel 13750 7250 0    50   Input ~ 0
 ROW_2_MCU
-Text GLabel 9550 8650 0    50   Input ~ 0
+Text GLabel 13750 8150 0    50   Input ~ 0
 ROW_6_MCU
 Text GLabel 8050 6200 2    50   Input ~ 0
 ROW_6_MCU
@@ -6584,15 +5698,15 @@ Wire Wire Line
 	8000 6200 8050 6200
 Text GLabel 8050 6000 2    50   Input ~ 0
 ROW_5_MCU
-Text GLabel 9550 8750 0    50   Input ~ 0
+Text GLabel 13750 8250 0    50   Input ~ 0
 ROW_5_MCU
 Text GLabel 8050 5800 2    50   Input ~ 0
 ROW_4_MCU
-Text GLabel 9550 8850 0    50   Input ~ 0
+Text GLabel 13750 8350 0    50   Input ~ 0
 ROW_4_MCU
 Text GLabel 8050 5200 2    50   Input ~ 0
 ROW_0_MCU
-Text GLabel 10950 8150 2    50   Input ~ 0
+Text GLabel 15150 7650 2    50   Input ~ 0
 ROW_0_MCU
 Wire Wire Line
 	8000 5400 8050 5400
@@ -6604,7 +5718,7 @@ U 1 1 602BDFC6
 P 7600 5400
 F 0 "R4" H 7300 5450 50  0000 C CNN
 F 1 "RMCF0805FT510R" H 7300 5150 50  0001 L BNN
-F 2 "Resistor-Libs:RESC2012X65N" H 7300 5250 50  0001 L BNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7300 5250 50  0001 L BNN
 F 3 "" H 7600 5400 50  0001 L BNN
 F 4 "510" H 7900 5450 50  0000 C CNN "reistance"
 	1    7600 5400
@@ -6623,9 +5737,9 @@ Wire Wire Line
 Wire Wire Line
 	8050 6800 8000 6800
 Wire Wire Line
-	10900 8250 10950 8250
+	15100 7750 15150 7750
 Wire Wire Line
-	10900 8350 10950 8350
+	15100 7850 15150 7850
 Wire Wire Line
 	7150 6800 7150 6900
 Wire Wire Line
@@ -6641,47 +5755,661 @@ Text Notes 6850 7300 0    50   ~ 0
 I2C Pull-Up Resistors
 Wire Notes Line
 	8650 4900 8650 7400
-Wire Notes Line
-	650  4900 8650 4900
-Wire Notes Line
-	650  7400 8650 7400
-Wire Wire Line
-	3250 6700 3550 6700
-Connection ~ 2650 6700
-Wire Wire Line
-	2650 6700 2850 6700
+Connection ~ 3050 6875
 $Comp
 L power:GND #PWR02
 U 1 1 62F09F65
-P 3750 6750
-F 0 "#PWR02" H 3750 6500 50  0001 C CNN
-F 1 "GND" H 3755 6577 50  0000 C CNN
-F 2 "" H 3750 6750 50  0001 C CNN
-F 3 "" H 3750 6750 50  0001 C CNN
-	1    3750 6750
+P 3550 5200
+F 0 "#PWR02" H 3550 4950 50  0001 C CNN
+F 1 "GND" H 3555 5027 50  0000 C CNN
+F 2 "" H 3550 5200 50  0001 C CNN
+F 3 "" H 3550 5200 50  0001 C CNN
+	1    3550 5200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:Earth #PWR031
 U 1 1 62F79601
-P 4550 6750
-F 0 "#PWR031" H 4550 6500 50  0001 C CNN
-F 1 "Earth" H 4550 6600 50  0001 C CNN
-F 2 "" H 4550 6750 50  0001 C CNN
-F 3 "~" H 4550 6750 50  0001 C CNN
-	1    4550 6750
+P 4450 5200
+F 0 "#PWR031" H 4450 4950 50  0001 C CNN
+F 1 "Earth" H 4450 5050 50  0001 C CNN
+F 2 "" H 4450 5200 50  0001 C CNN
+F 3 "~" H 4450 5200 50  0001 C CNN
+	1    4450 5200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Resistor-Lib:MCT06030Z0000ZP500 R24
 U 1 1 62FE7825
-P 4150 6750
-F 0 "R24" H 4150 6600 50  0000 C CNN
-F 1 "MCT06030Z0000ZP500" H 3850 6550 50  0001 L BNN
-F 2 "Resistor-Libs:RESC1508X55N" H 4150 6750 50  0001 L BNN
-F 3 "" H 4150 6750 50  0001 L BNN
-F 4 "0" H 4150 6900 50  0000 C CNN "resistance"
-	1    4150 6750
+P 4000 5150
+F 0 "R24" H 4000 5000 50  0000 C CNN
+F 1 "MCT06030Z0000ZP500" H 3700 4950 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4000 5150 50  0001 L BNN
+F 3 "" H 4000 5150 50  0001 L BNN
+F 4 "0" H 4000 5300 50  0000 C CNN "resistance"
+	1    4000 5150
 	-1   0    0    1   
 $EndComp
+Text GLabel 9525 6150 0    50   Input ~ 0
+ENCODER_B
+Text GLabel 9525 5950 0    50   Input ~ 0
+ENCODER_A
+$Sheet
+S 7250 8250 900  800 
+U 63A35802
+F0 "694200101R2_sheet_2" 50
+F1 "694200101R2_sheet_2.sch" 50
+F2 "I2C_SDA" B L 7250 8850 50 
+F3 "I2C_SCL" B L 7250 8750 50 
+$EndSheet
+Wire Notes Line
+	11750 4900 11750 7400
+Wire Notes Line
+	650  4900 11750 4900
+Wire Notes Line
+	650  7400 11750 7400
+Text Notes 8775 7275 0    50   ~ 0
+Encoder
+Text Notes 4800 9625 0    50   ~ 0
+Debug and boot-set headers
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 63B2ACB7
+P 1900 5225
+F 0 "#FLG0101" H 1900 5300 50  0001 C CNN
+F 1 "PWR_FLAG" V 1900 5353 50  0000 L CNN
+F 2 "" H 1900 5225 50  0001 C CNN
+F 3 "~" H 1900 5225 50  0001 C CNN
+	1    1900 5225
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1850 5225 1900 5225
+Connection ~ 1850 5225
+Wire Wire Line
+	1850 5225 1850 5350
+Wire Wire Line
+	3950 6875 3950 6850
+Wire Wire Line
+	2500 6850 2500 6875
+Wire Wire Line
+	2500 6875 2550 6875
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 63D35EAD
+P 4025 6875
+F 0 "#FLG0102" H 4025 6950 50  0001 C CNN
+F 1 "PWR_FLAG" V 4025 7003 50  0000 L CNN
+F 2 "" H 4025 6875 50  0001 C CNN
+F 3 "~" H 4025 6875 50  0001 C CNN
+	1    4025 6875
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3950 6875 4025 6875
+Connection ~ 3950 6875
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 63E07E59
+P 1075 7025
+F 0 "#FLG0103" H 1075 7100 50  0001 C CNN
+F 1 "PWR_FLAG" V 1075 7153 50  0000 L CNN
+F 2 "" H 1075 7025 50  0001 C CNN
+F 3 "~" H 1075 7025 50  0001 C CNN
+	1    1075 7025
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1000 7025 1075 7025
+Connection ~ 1000 7025
+Wire Wire Line
+	1000 7025 1000 7100
+$Comp
+L Diode:LL4148 D1
+U 1 1 63EE7B64
+P 900 1050
+F 0 "D1" V 946 970 50  0000 R CNN
+F 1 "LL4148" V 855 970 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 900 875 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 900 1050 50  0001 C CNN
+	1    900  1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D9
+U 1 1 63EE89F4
+P 2150 1050
+F 0 "D9" V 2196 970 50  0000 R CNN
+F 1 "LL4148" V 2105 970 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 2150 875 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 2150 1050 50  0001 C CNN
+	1    2150 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D14
+U 1 1 63EEF9C9
+P 2850 1050
+F 0 "D14" V 2896 970 50  0000 R CNN
+F 1 "LL4148" V 2805 970 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 2850 875 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 2850 1050 50  0001 C CNN
+	1    2850 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D20
+U 1 1 63EEFE96
+P 3550 1050
+F 0 "D20" V 3596 970 50  0000 R CNN
+F 1 "LL4148" V 3505 970 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 3550 875 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 3550 1050 50  0001 C CNN
+	1    3550 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D25
+U 1 1 63EF035D
+P 4250 1050
+F 0 "D25" V 4296 970 50  0000 R CNN
+F 1 "LL4148" V 4205 970 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 4250 875 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 4250 1050 50  0001 C CNN
+	1    4250 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D35
+U 1 1 63EF0A98
+P 5650 1050
+F 0 "D35" V 5696 970 50  0000 R CNN
+F 1 "LL4148" V 5605 970 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 5650 875 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 5650 1050 50  0001 C CNN
+	1    5650 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D40
+U 1 1 63EF18C1
+P 6350 1050
+F 0 "D40" V 6396 970 50  0000 R CNN
+F 1 "LL4148" V 6305 970 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 6350 875 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 6350 1050 50  0001 C CNN
+	1    6350 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D45
+U 1 1 63EF1E1A
+P 7050 1050
+F 0 "D45" V 7096 970 50  0000 R CNN
+F 1 "LL4148" V 7005 970 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 7050 875 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 7050 1050 50  0001 C CNN
+	1    7050 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D50
+U 1 1 63EF22CA
+P 7750 1050
+F 0 "D50" V 7796 970 50  0000 R CNN
+F 1 "LL4148" V 7705 970 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 7750 875 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 7750 1050 50  0001 C CNN
+	1    7750 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D56
+U 1 1 63EF2940
+P 8500 1050
+F 0 "D56" V 8546 970 50  0000 R CNN
+F 1 "LL4148" V 8455 970 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 8500 875 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 8500 1050 50  0001 C CNN
+	1    8500 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D62
+U 1 1 63EF2EF1
+P 9200 1050
+F 0 "D62" V 9246 970 50  0000 R CNN
+F 1 "LL4148" V 9155 970 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 9200 875 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 9200 1050 50  0001 C CNN
+	1    9200 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D66
+U 1 1 63EF36B4
+P 9900 1050
+F 0 "D66" V 9946 970 50  0000 R CNN
+F 1 "LL4148" V 9855 970 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 9900 875 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 9900 1050 50  0001 C CNN
+	1    9900 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D71
+U 1 1 63EF3DEE
+P 10600 1050
+F 0 "D71" V 10646 970 50  0000 R CNN
+F 1 "LL4148" V 10555 970 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 10600 875 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 10600 1050 50  0001 C CNN
+	1    10600 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D75
+U 1 1 63EF44E2
+P 11350 1050
+F 0 "D75" V 11396 970 50  0000 R CNN
+F 1 "LL4148" V 11305 970 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 11350 875 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 11350 1050 50  0001 C CNN
+	1    11350 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D79
+U 1 1 63EF4C79
+P 12050 1050
+F 0 "D79" V 12096 970 50  0000 R CNN
+F 1 "LL4148" V 12005 970 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 12050 875 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 12050 1050 50  0001 C CNN
+	1    12050 1050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1500 1850 1500 1950
+$Comp
+L Diode:LL4148 D6
+U 1 1 602D5D39
+P 1500 1700
+F 0 "D6" V 1546 1620 50  0000 R CNN
+F 1 "LL4148" V 1455 1620 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 1500 2100 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 1500 2200 50  0001 L CNN
+F 4 "Diode" H 1500 2300 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 1500 2400 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 1500 2500 50  0001 L CNN "digikey part number"
+F 7 "yes" H 1500 2600 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 1500 2700 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 1500 2800 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 1500 2900 50  0001 L CNN "mouser part number"
+F 11 "2" H 1500 3000 50  0001 L CNN "num pins"
+F 12 "SOD80" H 1500 3100 50  0001 L CNN "package"
+F 13 "yes" H 1500 3200 50  0001 L CNN "rohs"
+F 14 "+175°C" H 1500 3300 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 1500 3400 50  0001 L CNN "temperature range low"
+F 16 "" H 1500 3500 50  0001 L CNN "voltage"
+	1    1500 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9200 1950 10600 1950
+Wire Wire Line
+	15600 1850 15600 1950
+Wire Wire Line
+	900  1300 2150 1300
+Wire Wire Line
+	4250 1300 5650 1300
+$Comp
+L cldg:MX_SW SW106
+U 1 1 636ED4CB
+P 15850 2200
+F 0 "SW106" H 15850 2015 50  0000 C CNN
+F 1 "MX_SW" H 15850 2106 50  0000 C CNN
+F 2 "cldg:millmax-mxalps" H 15850 2400 50  0001 C CNN
+F 3 "~" H 15850 2400 50  0001 C CNN
+	1    15850 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 63FB86E5
+P 4075 7975
+F 0 "C5" H 4190 8021 50  0000 L CNN
+F 1 "10nF" H 4190 7930 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4113 7825 50  0001 C CNN
+F 3 "~" H 4075 7975 50  0001 C CNN
+	1    4075 7975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3175 7775 3175 7825
+Wire Wire Line
+	3600 7775 3600 7825
+Connection ~ 3600 7775
+Wire Wire Line
+	4075 7775 4075 7825
+Connection ~ 4075 7775
+Connection ~ 3175 7775
+Wire Wire Line
+	2700 8275 3175 8275
+Connection ~ 3175 8275
+$Comp
+L Device:C C4
+U 1 1 64B9B497
+P 3600 7975
+F 0 "C4" H 3715 8021 50  0000 L CNN
+F 1 "100nF" H 3715 7930 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3638 7825 50  0001 C CNN
+F 3 "~" H 3600 7975 50  0001 C CNN
+	1    3600 7975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 64E2648E
+P 3175 7975
+F 0 "C2" H 3290 8021 50  0000 L CNN
+F 1 "1uF" H 3290 7930 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3213 7825 50  0001 C CNN
+F 3 "~" H 3175 7975 50  0001 C CNN
+	1    3175 7975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C25
+U 1 1 65044D5D
+P 1875 7975
+F 0 "C25" H 1761 8021 50  0000 R CNN
+F 1 "4.7 uF" H 1761 7930 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1913 7825 50  0001 C CNN
+F 3 "~" H 1875 7975 50  0001 C CNN
+	1    1875 7975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1875 7725 1875 7775
+$Comp
+L power:VCC #PWR0102
+U 1 1 601DBF47
+P 1875 7725
+F 0 "#PWR0102" H 1875 7575 50  0001 C CNN
+F 1 "VCC" H 1890 7898 50  0000 C CNN
+F 2 "" H 1875 7725 50  0001 C CNN
+F 3 "" H 1875 7725 50  0001 C CNN
+	1    1875 7725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1875 7775 1875 7825
+Wire Wire Line
+	3600 5150 3550 5150
+Wire Wire Line
+	3550 5150 3550 5200
+Wire Wire Line
+	4400 5150 4450 5150
+Wire Wire Line
+	4450 5150 4450 5200
+$Comp
+L Device:Polyfuse F1
+U 1 1 65E04245
+P 3475 6875
+F 0 "F1" V 3250 6875 50  0000 C CNN
+F 1 "1210L150THWR" V 3341 6875 50  0000 C CNN
+F 2 "Fuse:Fuse_1210_3225Metric_Castellated" H 3525 6675 50  0001 L CNN
+F 3 "~" H 3475 6875 50  0001 C CNN
+	1    3475 6875
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3050 6875 3325 6875
+Wire Wire Line
+	3625 6875 3950 6875
+$Comp
+L cldg:AP2114HA-3_3TRG1 U1
+U 1 1 62A6A64D
+P 2650 7775
+F 0 "U1" H 2600 8050 60  0000 C CNN
+F 1 "AP2114HA-3_3TRG1" H 2600 7950 60  0000 C CNN
+F 2 "digikey-footprints:SOT-223" H 2850 7975 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP2114.pdf" H 2850 8075 60  0001 L CNN
+F 4 "AP2114H-3.3TRG1DICT-ND" H 2850 8175 60  0001 L CNN "Digi-Key_PN"
+F 5 "AP2114H-3.3TRG1" H 2850 8275 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 2850 8375 60  0001 L CNN "Category"
+F 7 "PMIC - Voltage Regulators - Linear" H 2850 8475 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/AP2114.pdf" H 2850 8575 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/AP2114H-3.3TRG1/AP2114H-3.3TRG1DICT-ND/4505142" H 2850 8675 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC REG LINEAR 3.3V 1A SOT223" H 2850 8775 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 2850 8875 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2850 8975 60  0001 L CNN "Status"
+	1    2650 7775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 7775 3175 7775
+Wire Wire Line
+	1875 7775 2150 7775
+Connection ~ 1875 7775
+Wire Wire Line
+	1875 8125 1875 8275
+Wire Wire Line
+	2500 8275 1875 8275
+Connection ~ 1875 8275
+Wire Wire Line
+	1875 8275 1875 8325
+NoConn ~ 13800 8650
+NoConn ~ 13800 8550
+NoConn ~ 13800 8450
+NoConn ~ 15100 8050
+NoConn ~ 15100 7950
+NoConn ~ 13800 7150
+NoConn ~ 15100 5750
+NoConn ~ 15100 5650
+NoConn ~ 15100 5550
+NoConn ~ 15100 5450
+Wire Wire Line
+	10225 6250 10225 6475
+Wire Wire Line
+	10300 6250 10225 6250
+Text GLabel 10850 5850 2    50   Input ~ 0
+COL_22
+$Comp
+L power:GND #PWR015
+U 1 1 5FEB2ECC
+P 10225 6600
+F 0 "#PWR015" H 10225 6350 50  0001 C CNN
+F 1 "GND" H 10230 6427 50  0000 C CNN
+F 2 "" H 10225 6600 50  0001 C CNN
+F 3 "" H 10225 6600 50  0001 C CNN
+	1    10225 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10850 5850 10800 5850
+Connection ~ 10225 6475
+Wire Wire Line
+	10225 6475 10225 6600
+Wire Wire Line
+	9650 5950 9525 5950
+Wire Wire Line
+	9650 5950 9650 6175
+Connection ~ 9650 5950
+Wire Wire Line
+	10300 5950 9650 5950
+Wire Wire Line
+	10275 5850 10300 5850
+$Comp
+L Diode:LL4148 D94
+U 1 1 638FF624
+P 10125 5850
+F 0 "D94" H 10125 6067 50  0000 C CNN
+F 1 "LL4148" H 10125 5976 50  0000 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 10125 6250 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 10125 6350 50  0001 L CNN
+F 4 "Diode" H 10125 6450 50  0001 L CNN "category"
+F 5 "DIODE GEN PURP 100V 200MA SOD80" H 10125 6550 50  0001 L CNN "digikey description"
+F 6 "LL4148FSCT-ND" H 10125 6650 50  0001 L CNN "digikey part number"
+F 7 "yes" H 10125 6750 50  0001 L CNN "lead free"
+F 8 "7267ed481d20a817" H 10125 6850 50  0001 L CNN "library id"
+F 9 "Fairchild/ON Semiconductor" H 10125 6950 50  0001 L CNN "manufacturer"
+F 10 "512-LL4148" H 10125 7050 50  0001 L CNN "mouser part number"
+F 11 "2" H 10125 7150 50  0001 L CNN "num pins"
+F 12 "SOD80" H 10125 7250 50  0001 L CNN "package"
+F 13 "yes" H 10125 7350 50  0001 L CNN "rohs"
+F 14 "+175°C" H 10125 7450 50  0001 L CNN "temperature range high"
+F 15 "-55°C" H 10125 7550 50  0001 L CNN "temperature range low"
+F 16 "" H 10125 7650 50  0001 L CNN "voltage"
+	1    10125 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 5850 9975 5850
+Text GLabel 9950 5850 0    50   Input ~ 0
+ROW_0
+Wire Wire Line
+	10300 6050 10225 6050
+Wire Wire Line
+	9925 6150 9525 6150
+Connection ~ 9925 6475
+Wire Wire Line
+	9925 6475 10225 6475
+Wire Wire Line
+	9650 6475 9925 6475
+Wire Wire Line
+	9925 6150 9925 6175
+$Comp
+L Device:C C9
+U 1 1 65C47B00
+P 9925 6325
+F 0 "C9" H 10040 6371 50  0000 L CNN
+F 1 "10nF" H 10040 6280 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9963 6175 50  0001 C CNN
+F 3 "~" H 9925 6325 50  0001 C CNN
+	1    9925 6325
+	1    0    0    -1  
+$EndComp
+Connection ~ 9925 6150
+Wire Wire Line
+	10300 6150 9925 6150
+Connection ~ 10225 6250
+Wire Wire Line
+	10225 6050 10225 6250
+$Comp
+L Device:C C10
+U 1 1 658CEFEB
+P 9650 6325
+F 0 "C10" H 9536 6371 50  0000 R CNN
+F 1 "10nF" H 9536 6280 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9688 6175 50  0001 C CNN
+F 3 "~" H 9650 6325 50  0001 C CNN
+	1    9650 6325
+	1    0    0    -1  
+$EndComp
+$Comp
+L cldg:PEC11R-4215F-S0024 ENC1
+U 1 1 667B1054
+P 10600 5950
+F 0 "ENC1" H 10525 6250 60  0000 C CNN
+F 1 "PEC11R-4215F-S0024" H 10925 6175 60  0000 C CNN
+F 2 "digikey-footprints:Rotary_Encoder_Switched_PEC11R" H 10800 6150 60  0001 L CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf" H 10800 6250 60  0001 L CNN
+F 4 "PEC11R-4215F-S0024-ND" H 10800 6350 60  0001 L CNN "Digi-Key_PN"
+F 5 "PEC11R-4215F-S0024" H 10800 6450 60  0001 L CNN "MPN"
+F 6 "Sensors, Transducers" H 10800 6550 60  0001 L CNN "Category"
+F 7 "Encoders" H 10800 6650 60  0001 L CNN "Family"
+F 8 "https://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf" H 10800 6750 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/bourns-inc/PEC11R-4215F-S0024/PEC11R-4215F-S0024-ND/4499665" H 10800 6850 60  0001 L CNN "DK_Detail_Page"
+F 10 "ROTARY ENCODER MECHANICAL 24PPR" H 10800 6950 60  0001 L CNN "Description"
+F 11 "Bourns Inc." H 10800 7050 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 10800 7150 60  0001 L CNN "Status"
+	1    10600 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 669991C7
+P 14200 5050
+F 0 "C8" H 14086 5096 50  0000 R CNN
+F 1 "100nF" H 14086 5005 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 14238 4900 50  0001 C CNN
+F 3 "~" H 14200 5050 50  0001 C CNN
+	1    14200 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14200 4850 14200 4900
+Wire Wire Line
+	14200 5200 14200 5225
+$Comp
+L power:PWR_FLAG #FLG0105
+U 1 1 66BBDAC6
+P 14150 5225
+F 0 "#FLG0105" H 14150 5300 50  0001 C CNN
+F 1 "PWR_FLAG" V 14150 5352 50  0000 L CNN
+F 2 "" H 14150 5225 50  0001 C CNN
+F 3 "~" H 14150 5225 50  0001 C CNN
+	1    14150 5225
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14150 5225 14200 5225
+Connection ~ 14200 5225
+Wire Wire Line
+	14200 5225 14200 5250
+NoConn ~ 13750 7350
+NoConn ~ 15150 7550
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 6796B8B4
+P 3500 5150
+F 0 "#FLG0104" H 3500 5225 50  0001 C CNN
+F 1 "PWR_FLAG" V 3500 5277 50  0000 L CNN
+F 2 "" H 3500 5150 50  0001 C CNN
+F 3 "~" H 3500 5150 50  0001 C CNN
+	1    3500 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3500 5150 3550 5150
+Connection ~ 3550 5150
+$Comp
+L Power_Protection:USBLC6-2P6 U2
+U 1 1 67AF17E5
+P 3050 6000
+F 0 "U2" V 2450 6050 50  0000 R CNN
+F 1 "USBLC6-2P6" V 2525 6225 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-666" H 3050 5500 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" H 3250 6350 50  0001 C CNN
+	1    3050 6000
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2700 5800 2700 5550
+Wire Wire Line
+	2700 5550 2950 5550
+Wire Wire Line
+	2950 5550 2950 5600
+Wire Wire Line
+	3400 5800 3400 5550
+Wire Wire Line
+	3400 5550 3150 5550
+Wire Wire Line
+	3150 5550 3150 5600
+Wire Wire Line
+	2700 6200 2700 6475
+Wire Wire Line
+	2700 6475 2950 6475
+Wire Wire Line
+	2950 6475 2950 6400
+Wire Wire Line
+	3400 6200 3400 6475
+Wire Wire Line
+	3400 6475 3150 6475
+Wire Wire Line
+	3150 6475 3150 6400
+Wire Wire Line
+	3450 6000 3700 6000
 $EndSCHEMATC

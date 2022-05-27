@@ -17,4 +17,5 @@
   (lib (name "Taiyo Yuden")(type KiCad)(uri "${KIPRJMOD}/../3rd-party-footprints/FBMJ3216HM600-T/Taiyo Yuden.pretty")(options "")(descr ""))
   (lib (name footprints)(type KiCad)(uri ${KIPRJMOD}/../3rd-party-footprints/ul_M24512DFMN6TP/KiCAD/2021-04-17_03-20-32/footprints.pretty)(options "")(descr ""))
   (lib (name BekosLogo)(type KiCad)(uri ${KIPRJMOD}/BekosLogo.pretty)(options "")(descr ""))
+  (lib (name digikey-footprints)(type KiCad)(uri ${KIPRJMOD}/../3rd-party-footprints/digikey-footprints.pretty)(options "")(descr ""))
 )
