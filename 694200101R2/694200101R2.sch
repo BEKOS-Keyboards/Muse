@@ -60,45 +60,45 @@ $EndComp
 $Comp
 L power:GND #PWR010
 U 1 1 6007927B
-P 6100 9400
-F 0 "#PWR010" H 6100 9150 50  0001 C CNN
-F 1 "GND" H 6105 9227 50  0000 C CNN
-F 2 "" H 6100 9400 50  0001 C CNN
-F 3 "" H 6100 9400 50  0001 C CNN
-	1    6100 9400
+P 6250 9400
+F 0 "#PWR010" H 6250 9150 50  0001 C CNN
+F 1 "GND" H 6255 9227 50  0000 C CNN
+F 2 "" H 6250 9400 50  0001 C CNN
+F 3 "" H 6250 9400 50  0001 C CNN
+	1    6250 9400
 	1    0    0    -1  
 $EndComp
 $Comp
 L capacitor-lib:CL10B104KB8NNNL C7
 U 1 1 600879ED
-P 6100 9150
-F 0 "C7" H 6228 9096 50  0000 L CNN
-F 1 "CL10B104KB8NNNL" H 6228 9005 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6100 9450 50  0001 L CNN
-F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 6100 9550 50  0001 L CNN
-F 4 "No" H 6100 9650 50  0001 L CNN "automotive"
-F 5 "100nF" H 6228 9005 50  0000 L CNN "capacitance"
-F 6 "Cap" H 6100 9850 50  0001 L CNN "category"
-F 7 "Passive Components" H 6100 9950 50  0001 L CNN "device class L1"
-F 8 "Capacitors" H 6100 10050 50  0001 L CNN "device class L2"
-F 9 "Ceramic Capacitors" H 6100 10150 50  0001 L CNN "device class L3"
-F 10 "" H 6100 10250 50  0001 L CNN "digikey description"
-F 11 "" H 6100 10350 50  0001 L CNN "digikey part number"
-F 12 "0.9mm" H 6100 10450 50  0001 L CNN "height"
-F 13 "CAPC16080X80" H 6100 10550 50  0001 L CNN "ipc land pattern name"
-F 14 "Yes" H 6100 10650 50  0001 L CNN "lead free"
-F 15 "d416e2ef1cbb0413" H 6100 10750 50  0001 L CNN "library id"
-F 16 "Samsung" H 6100 10850 50  0001 L CNN "manufacturer"
-F 17 "Ceramic" H 6100 10950 50  0001 L CNN "material"
-F 18 "0603" H 6100 11050 50  0001 L CNN "package"
-F 19 "Yes" H 6100 11150 50  0001 L CNN "rohs"
-F 20 "X7R" H 6100 11250 50  0001 L CNN "temperature characteristic"
-F 21 "0.15" H 6100 11350 50  0001 L CNN "temperature coefficient"
-F 22 "+125°C" H 6100 11450 50  0001 L CNN "temperature range high"
-F 23 "-55°C" H 6100 11550 50  0001 L CNN "temperature range low"
-F 24 "10%" H 6100 11650 50  0001 L CNN "tolerance"
-F 25 "50V" H 6100 11750 50  0001 L CNN "voltage rating"
-	1    6100 9150
+P 6250 9150
+F 0 "C7" H 6378 9096 50  0000 L CNN
+F 1 "CL10B104KB8NNNL" H 6378 9005 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6250 9450 50  0001 L CNN
+F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 6250 9550 50  0001 L CNN
+F 4 "No" H 6250 9650 50  0001 L CNN "automotive"
+F 5 "100nF" H 6378 9005 50  0000 L CNN "capacitance"
+F 6 "Cap" H 6250 9850 50  0001 L CNN "category"
+F 7 "Passive Components" H 6250 9950 50  0001 L CNN "device class L1"
+F 8 "Capacitors" H 6250 10050 50  0001 L CNN "device class L2"
+F 9 "Ceramic Capacitors" H 6250 10150 50  0001 L CNN "device class L3"
+F 10 "" H 6250 10250 50  0001 L CNN "digikey description"
+F 11 "" H 6250 10350 50  0001 L CNN "digikey part number"
+F 12 "0.9mm" H 6250 10450 50  0001 L CNN "height"
+F 13 "CAPC16080X80" H 6250 10550 50  0001 L CNN "ipc land pattern name"
+F 14 "Yes" H 6250 10650 50  0001 L CNN "lead free"
+F 15 "d416e2ef1cbb0413" H 6250 10750 50  0001 L CNN "library id"
+F 16 "Samsung" H 6250 10850 50  0001 L CNN "manufacturer"
+F 17 "Ceramic" H 6250 10950 50  0001 L CNN "material"
+F 18 "0603" H 6250 11050 50  0001 L CNN "package"
+F 19 "Yes" H 6250 11150 50  0001 L CNN "rohs"
+F 20 "X7R" H 6250 11250 50  0001 L CNN "temperature characteristic"
+F 21 "0.15" H 6250 11350 50  0001 L CNN "temperature coefficient"
+F 22 "+125°C" H 6250 11450 50  0001 L CNN "temperature range high"
+F 23 "-55°C" H 6250 11550 50  0001 L CNN "temperature range low"
+F 24 "10%" H 6250 11650 50  0001 L CNN "tolerance"
+F 25 "50V" H 6250 11750 50  0001 L CNN "voltage rating"
+	1    6250 9150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1495,12 +1495,12 @@ Connection ~ 4700 900
 Wire Wire Line
 	5400 850  5400 1550
 Wire Wire Line
-	7250 8750 7150 8750
+	12200 8250 12100 8250
 Wire Wire Line
-	7250 8850 7150 8850
-Text GLabel 7150 8750 0    50   Input ~ 0
+	12200 8350 12100 8350
+Text GLabel 12100 8250 0    50   Input ~ 0
 I2C_SCL
-Text GLabel 7150 8850 0    50   Input ~ 0
+Text GLabel 12100 8350 0    50   Input ~ 0
 I2C_SDA
 Wire Wire Line
 	6100 900  6100 1550
@@ -4543,34 +4543,34 @@ Wire Wire Line
 Connection ~ 6350 3250
 Connection ~ 7050 3250
 Wire Wire Line
-	5700 8650 5850 8650
-Text GLabel 5850 8650 2    50   Input ~ 0
+	5850 8650 6000 8650
+Text GLabel 6000 8650 2    50   Input ~ 0
 SWCLK
 Wire Wire Line
-	5700 8750 6200 8750
+	5850 8750 6350 8750
 $Comp
 L power:GND #PWR011
 U 1 1 602A2E5A
-P 6200 8800
-F 0 "#PWR011" H 6200 8550 50  0001 C CNN
-F 1 "GND" H 6205 8627 50  0000 C CNN
-F 2 "" H 6200 8800 50  0001 C CNN
-F 3 "" H 6200 8800 50  0001 C CNN
-	1    6200 8800
+P 6350 8800
+F 0 "#PWR011" H 6350 8550 50  0001 C CNN
+F 1 "GND" H 6355 8627 50  0000 C CNN
+F 2 "" H 6350 8800 50  0001 C CNN
+F 3 "" H 6350 8800 50  0001 C CNN
+	1    6350 8800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5700 8850 5850 8850
-Text GLabel 5850 8850 2    50   Input ~ 0
+	5850 8850 6000 8850
+Text GLabel 6000 8850 2    50   Input ~ 0
 SWDIO
 Wire Wire Line
-	6100 8950 5700 8950
+	6250 8950 5850 8950
 Wire Wire Line
-	5700 9050 5850 9050
-Text GLabel 5850 9050 2    50   Input ~ 0
+	5850 9050 6000 9050
+Text GLabel 6000 9050 2    50   Input ~ 0
 SWO
 Wire Wire Line
-	6100 9350 6100 9400
+	6250 9350 6250 9400
 $Comp
 L cldg:MX_Stab_225 SP1
 U 1 1 60679C49
@@ -4721,7 +4721,7 @@ F 3 "~" H 4950 5300 50  0001 C CNN
 	1    4950 5300
 	1    0    0    -1  
 $EndComp
-Text Label 6100 9100 0    50   ~ 0
+Text Label 6250 9100 0    50   ~ 0
 RST
 Wire Wire Line
 	5150 7800 5200 7800
@@ -4732,18 +4732,18 @@ Wire Wire Line
 $Comp
 L power:+3V3 #PWR05
 U 1 1 62499D89
-P 5800 9200
-F 0 "#PWR05" H 5800 9050 50  0001 C CNN
-F 1 "+3V3" H 5815 9373 50  0000 C CNN
-F 2 "" H 5800 9200 50  0001 C CNN
-F 3 "" H 5800 9200 50  0001 C CNN
-	1    5800 9200
+P 5950 9200
+F 0 "#PWR05" H 5950 9050 50  0001 C CNN
+F 1 "+3V3" H 5965 9373 50  0000 C CNN
+F 2 "" H 5950 9200 50  0001 C CNN
+F 3 "" H 5950 9200 50  0001 C CNN
+	1    5950 9200
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5800 9150 5800 9200
+	5950 9150 5950 9200
 Wire Wire Line
-	5800 9150 5700 9150
+	5950 9150 5850 9150
 $Comp
 L Resistor-Lib:RNCP0603FTD10K0 R23
 U 1 1 62F6D73A
@@ -5131,12 +5131,12 @@ Connection ~ 1650 9475
 $Comp
 L Connector:Conn_01x06_Male J2
 U 1 1 621CEF5F
-P 5500 8850
-F 0 "J2" H 5608 9231 50  0000 C CNN
-F 1 "Conn_01x06_Male" H 5608 9140 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 5500 8850 50  0001 C CNN
-F 3 "~" H 5500 8850 50  0001 C CNN
-	1    5500 8850
+P 5650 8850
+F 0 "J2" H 5950 9250 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 5975 9175 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 5650 8850 50  0001 C CNN
+F 3 "~" H 5650 8850 50  0001 C CNN
+	1    5650 8850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -5250,24 +5250,22 @@ Wire Notes Line
 Text Notes 700  9650 0    50   ~ 0
 MCU Oscillator
 Wire Wire Line
-	6100 8950 6100 9100
+	6250 8950 6250 9100
 Wire Wire Line
-	6200 8750 6200 8800
+	6350 8750 6350 8800
 Wire Wire Line
-	6100 9100 6250 9100
-Connection ~ 6100 9100
+	6250 9100 6400 9100
+Connection ~ 6250 9100
 Wire Wire Line
-	6100 9100 6100 9150
-Text GLabel 6250 9100 2    50   Input ~ 0
+	6250 9100 6250 9150
+Text GLabel 6400 9100 2    50   Input ~ 0
 RST
 Wire Wire Line
-	5200 7800 5250 7800
+	5200 7800 5600 7800
 Connection ~ 5200 7800
-Text GLabel 5250 7800 2    50   Input ~ 0
-BOOT0
 Text Notes 5300 7650 0    50   ~ 0
-BOOT0 Set
-Text Notes 5300 9300 0    50   ~ 0
+BOOT0 Set Override
+Text Notes 5450 9300 0    50   ~ 0
 JTAG/RST
 $Comp
 L Mechanical:MountingHole_Pad H3
@@ -5615,17 +5613,9 @@ Text GLabel 12400 6125 0    50   Input ~ 0
 ENCODER_B
 Text GLabel 12400 5925 0    50   Input ~ 0
 ENCODER_A
-$Sheet
-S 7250 8250 900  800 
-U 63A35802
-F0 "694200101R2_sheet_2" 50
-F1 "694200101R2_sheet_2.sch" 50
-F2 "I2C_SDA" B L 7250 8850 50 
-F3 "I2C_SCL" B L 7250 8750 50 
-$EndSheet
 Text Notes 11725 7325 0    50   ~ 0
 Encoder
-Text Notes 4800 9625 0    50   ~ 0
+Text Notes 4800 9650 0    50   ~ 0
 Debug and boot-set headers
 $Comp
 L power:PWR_FLAG #FLG0101
@@ -6404,4 +6394,103 @@ Wire Wire Line
 	2625 6875 2725 6875
 Wire Wire Line
 	3250 6875 3550 6875
+$Sheet
+S 12200 7750 900  800 
+U 63A35802
+F0 "694200101R2_sheet_2" 50
+F1 "694200101R2_sheet_2.sch" 50
+F2 "I2C_SDA" B L 12200 8350 50 
+F3 "I2C_SCL" B L 12200 8250 50 
+$EndSheet
+$Comp
+L power:GND #PWR01
+U 1 1 62B0C094
+P 8075 8050
+F 0 "#PWR01" H 8075 7800 50  0001 C CNN
+F 1 "GND" H 8080 7877 50  0000 C CNN
+F 2 "" H 8075 8050 50  0001 C CNN
+F 3 "" H 8075 8050 50  0001 C CNN
+	1    8075 8050
+	1    0    0    -1  
+$EndComp
+Text Label 7325 7950 2    50   ~ 0
+RST
+Wire Wire Line
+	7500 7950 7325 7950
+$Comp
+L Switch:SW_SPST SW108
+U 1 1 62A23976
+P 7700 7950
+F 0 "SW108" H 7700 8185 50  0000 C CNN
+F 1 "SW_SPST" H 7700 8094 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3342" H 7700 7950 50  0001 C CNN
+F 3 "~" H 7700 7950 50  0001 C CNN
+	1    7700 7950
+	1    0    0    -1  
+$EndComp
+Text GLabel 5600 7800 2    50   Input ~ 0
+BOOT0
+Text Label 5275 7800 0    50   ~ 0
+BOOT0
+$Comp
+L power:+3V3 #PWR03
+U 1 1 630B8DFA
+P 6975 8600
+F 0 "#PWR03" H 6975 8450 50  0001 C CNN
+F 1 "+3V3" H 6925 8750 50  0000 C CNN
+F 2 "" H 6975 8600 50  0001 C CNN
+F 3 "" H 6975 8600 50  0001 C CNN
+	1    6975 8600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6975 8600 6975 8700
+Text Label 7850 9200 0    50   ~ 0
+BOOT0
+$Comp
+L dk_Slide-Switches:JS202011SCQN SW109
+U 1 1 63405795
+P 7375 8900
+F 0 "SW109" H 7375 9383 50  0000 C CNN
+F 1 "JS202011SCQN" H 7375 9292 50  0000 C CNN
+F 2 "digikey-footprints:Switch_Slide_JS202011SCQN" H 7575 9100 50  0001 L CNN
+F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 7575 9200 60  0001 L CNN
+F 4 "401-2002-1-ND" H 7575 9300 60  0001 L CNN "Digi-Key_PN"
+F 5 "JS202011SCQN" H 7575 9400 60  0001 L CNN "MPN"
+F 6 "Switches" H 7575 9500 60  0001 L CNN "Category"
+F 7 "Slide Switches" H 7575 9600 60  0001 L CNN "Family"
+F 8 "https://www.ckswitches.com/media/1422/js.pdf" H 7575 9700 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/c-k/JS202011SCQN/401-2002-1-ND/1640098" H 7575 9800 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH SLIDE DPDT 300MA 6V" H 7575 9900 60  0001 L CNN "Description"
+F 11 "C&K" H 7575 10000 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7575 10100 60  0001 L CNN "Status"
+	1    7375 8900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6975 8700 7175 8700
+Wire Wire Line
+	6975 8700 6975 9100
+Wire Wire Line
+	6975 9100 7175 9100
+Connection ~ 6975 8700
+NoConn ~ 7575 8600
+NoConn ~ 7575 9000
+Wire Wire Line
+	7575 8800 7700 8800
+Wire Wire Line
+	7700 8800 7700 9200
+Wire Wire Line
+	7700 9200 7575 9200
+Wire Wire Line
+	7700 9200 7850 9200
+Connection ~ 7700 9200
+Text Notes 6900 9400 0    50   ~ 0
+BOOT0 Set Switch
+Wire Wire Line
+	8075 7950 8075 8050
+Wire Wire Line
+	7900 7950 8075 7950
+Text Notes 7250 8125 0    50   ~ 0
+Reset Button
 $EndSCHEMATC
