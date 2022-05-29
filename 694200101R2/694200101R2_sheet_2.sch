@@ -13,538 +13,82 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1050 7150 0    50   BiDi ~ 0
+Text HLabel 1125 6575 0    50   BiDi ~ 0
 I2C_SDA
-Text HLabel 1050 7000 0    50   BiDi ~ 0
+Text HLabel 1125 6425 0    50   Input ~ 0
 I2C_SCL
-Wire Wire Line
-	3100 8550 4000 8550
-Wire Wire Line
-	10300 6900 10300 6950
-Wire Wire Line
-	10300 7250 10300 7150
-Wire Wire Line
-	4000 8850 3950 8850
-Wire Wire Line
-	3950 8850 3950 8950
-Wire Wire Line
-	3950 8950 4000 8950
-Connection ~ 3950 8950
-Text Notes 10350 6850 1    50   ~ 0
-LED_DRIVER_A\nP37/38
-Connection ~ 10300 6900
-Connection ~ 11350 6900
-Wire Wire Line
-	11350 6900 11550 6900
-Wire Wire Line
-	11550 7250 11350 7250
-Wire Wire Line
-	11350 7200 11350 7250
-Connection ~ 11350 7250
-Wire Wire Line
-	11550 7250 11550 7150
-Wire Wire Line
-	11550 6950 11550 6900
-Wire Wire Line
-	10100 7200 10100 7250
-Connection ~ 10300 7250
-Wire Wire Line
-	10100 7250 10300 7250
-Connection ~ 11550 7250
-Wire Wire Line
-	12150 7250 12150 7200
-Wire Wire Line
-	11550 7250 12150 7250
-Connection ~ 11550 6900
-Wire Wire Line
-	12350 6900 12350 6950
-Wire Wire Line
-	12150 7250 12350 7250
-Wire Wire Line
-	12350 7250 12350 7150
-Connection ~ 12150 7250
-Text Notes 11500 6850 1    50   ~ 0
-LED_DRIVER_A\nP20
-Text Notes 12300 6850 1    50   ~ 0
-LED_DRIVER_A\nP29
-Wire Wire Line
-	11550 6900 12150 6900
-Connection ~ 12150 6900
-Wire Wire Line
-	12150 6900 12350 6900
-Wire Wire Line
-	12350 7250 12800 7250
-Wire Wire Line
-	12800 7250 12800 7200
-Connection ~ 12350 7250
-Wire Wire Line
-	12350 6900 12800 6900
-Connection ~ 12350 6900
-Text Notes 12900 6850 1    50   ~ 0
-LED_DRIVER_A\nPWR_FILTER
-Wire Wire Line
-	4000 8050 3650 8050
-Connection ~ 3600 8950
-Wire Wire Line
-	4000 7950 3250 7950
-Wire Wire Line
-	3250 7950 3250 8850
-Wire Wire Line
-	3250 8850 2800 8850
-Wire Wire Line
-	2800 8850 2800 9250
-Wire Wire Line
-	2800 10050 2800 10100
-Wire Wire Line
-	4000 9250 3450 9250
-Wire Wire Line
-	3450 9250 3450 10100
-Wire Wire Line
-	3450 10100 3200 10100
-Wire Wire Line
-	3200 10050 3200 10100
-Connection ~ 3200 10100
-Wire Wire Line
-	3200 10100 3000 10100
-Wire Wire Line
-	4000 9150 3200 9150
-Wire Wire Line
-	3200 9150 3200 9250
-Wire Wire Line
-	4000 8250 3950 8250
-Wire Wire Line
-	3950 8250 3950 8350
-Wire Wire Line
-	3950 8350 4000 8350
-Wire Wire Line
-	3950 8250 3850 8250
-Connection ~ 3950 8250
-Wire Wire Line
-	4000 7850 3850 7850
-Wire Wire Line
-	3850 7850 3850 8250
-Connection ~ 3850 8250
-Wire Wire Line
-	3850 8250 3750 8250
-Wire Wire Line
-	4000 8450 3950 8450
-Wire Wire Line
-	3950 8450 3950 8500
-Wire Wire Line
-	3950 8500 3150 8500
-Wire Wire Line
-	4000 7750 3850 7750
-Wire Wire Line
-	3850 7750 3850 7850
-Connection ~ 3850 7850
-Text GLabel 4000 8650 0    50   Output ~ 0
-SYNC
-Text GLabel 5850 7850 2    50   Input ~ 0
-SW1_A
-Text GLabel 5850 7950 2    50   Input ~ 0
-SW2_A
-Text GLabel 5850 8050 2    50   Input ~ 0
-SW3_A
-Text GLabel 5850 8250 2    50   Input ~ 0
-SW4_A
-Text GLabel 5850 8350 2    50   Input ~ 0
-SW5_A
-Text GLabel 5850 8450 2    50   Input ~ 0
-SW6_A
-Text GLabel 5850 8550 2    50   Input ~ 0
-SW7_A
-Text GLabel 5850 8650 2    50   Input ~ 0
-SW8_A
-Text GLabel 5850 8750 2    50   Input ~ 0
-SW9_A
-Text GLabel 5850 8950 2    50   Input ~ 0
-SW10_A
-Text GLabel 5850 9050 2    50   Input ~ 0
-SW11_A
-Text GLabel 5850 9150 2    50   Input ~ 0
-SW12_A
-Text GLabel 5850 9250 2    50   Output ~ 0
-CS1_A
-Text GLabel 5850 9350 2    50   Output ~ 0
-CS2_A
-Text GLabel 5850 9450 2    50   Output ~ 0
-CS3_A
-Text GLabel 5850 9550 2    50   Output ~ 0
-CS4_A
-Text GLabel 5850 9750 2    50   Output ~ 0
-CS5_A
-Text GLabel 5850 9850 2    50   Output ~ 0
-CS6_A
-Text GLabel 5850 9950 2    50   Output ~ 0
-CS7_A
-Text GLabel 5850 10050 2    50   Output ~ 0
-CS8_A
-Text GLabel 3950 10150 0    50   Output ~ 0
-CS9_A
-Text GLabel 3950 10050 0    50   Output ~ 0
-CS10_A
-Text GLabel 3950 9950 0    50   Output ~ 0
-CS11_A
-Text GLabel 3950 9850 0    50   Output ~ 0
-CS12_A
-Text GLabel 3950 9650 0    50   Output ~ 0
-CS13_A
-Wire Wire Line
-	3600 9750 4000 9750
-Wire Wire Line
-	3000 10100 3000 10150
-Connection ~ 3000 10100
-Wire Wire Line
-	3950 8950 3600 8950
-Text GLabel 3950 9550 0    50   Output ~ 0
-CS14_A
-Text GLabel 3950 9450 0    50   Output ~ 0
-CS15_A
-Text GLabel 3950 9350 0    50   Output ~ 0
-CS16_A
-Wire Wire Line
-	5800 7850 5850 7850
-Wire Wire Line
-	5800 7950 5850 7950
-Wire Wire Line
-	5800 8050 5850 8050
-Wire Wire Line
-	5800 8250 5850 8250
-Wire Wire Line
-	5800 8350 5850 8350
-Wire Wire Line
-	5800 8450 5850 8450
-Wire Wire Line
-	5800 8550 5850 8550
-Wire Wire Line
-	5800 8650 5850 8650
-Wire Wire Line
-	5800 8750 5850 8750
-Wire Wire Line
-	5800 8950 5850 8950
-Wire Wire Line
-	5800 9050 5850 9050
-Wire Wire Line
-	5800 9150 5850 9150
-Wire Wire Line
-	5800 9250 5850 9250
-Wire Wire Line
-	5800 9350 5850 9350
-Wire Wire Line
-	5800 9450 5850 9450
-Wire Wire Line
-	5800 9550 5850 9550
-Wire Wire Line
-	5800 9750 5850 9750
-Wire Wire Line
-	5800 9850 5850 9850
-Wire Wire Line
-	5800 9950 5850 9950
-Wire Wire Line
-	5800 10050 5850 10050
-Wire Wire Line
-	4000 10150 3950 10150
-Wire Wire Line
-	4000 10050 3950 10050
-Wire Wire Line
-	4000 9950 3950 9950
-Wire Wire Line
-	4000 9850 3950 9850
-Wire Wire Line
-	4000 9650 3950 9650
-Wire Wire Line
-	4000 9550 3950 9550
-Wire Wire Line
-	4000 9450 3950 9450
-Wire Wire Line
-	4000 9350 3950 9350
-Wire Wire Line
-	7200 8550 8100 8550
-Wire Wire Line
-	8100 8850 8050 8850
-Wire Wire Line
-	8050 8850 8050 8950
-Wire Wire Line
-	8050 8950 8100 8950
-Connection ~ 8050 8950
-Connection ~ 7700 8950
-Wire Wire Line
-	8100 7950 7350 7950
-Wire Wire Line
-	7350 7950 7350 8850
-Wire Wire Line
-	7350 8850 6950 8850
-Wire Wire Line
-	6950 8850 6950 9525
-Wire Wire Line
-	6950 9825 6950 10100
-Wire Wire Line
-	8100 9250 7550 9250
-Wire Wire Line
-	7550 9250 7550 10100
-Wire Wire Line
-	7550 10100 7300 10100
-Wire Wire Line
-	7300 10050 7300 10100
-Connection ~ 7300 10100
-Wire Wire Line
-	8100 9150 7300 9150
-Wire Wire Line
-	7300 9150 7300 9250
-Wire Wire Line
-	8050 8350 8100 8350
-Wire Wire Line
-	8100 7850 7950 7850
-Wire Wire Line
-	7950 7850 7950 8250
-Connection ~ 7950 8250
-Wire Wire Line
-	7950 8250 7850 8250
-Wire Wire Line
-	8100 8450 8050 8450
-Wire Wire Line
-	8050 8450 8050 8500
-Wire Wire Line
-	8050 8500 7250 8500
-Wire Wire Line
-	9900 8850 10400 8850
-Wire Wire Line
-	10400 8150 9900 8150
-Wire Wire Line
-	9900 9650 10350 9650
-Wire Wire Line
-	8100 7750 7950 7750
-Wire Wire Line
-	7950 7750 7950 7850
-Connection ~ 7950 7850
-Text GLabel 8100 8650 0    50   Input ~ 0
-SYNC
-Text GLabel 9950 7850 2    50   Input ~ 0
-SW1_B
-Text GLabel 9950 8050 2    50   Input ~ 0
-SW3_B
-Text GLabel 9950 8250 2    50   Input ~ 0
-SW4_B
-Text GLabel 9950 8350 2    50   Input ~ 0
-SW5_B
-Text GLabel 9950 8450 2    50   Input ~ 0
-SW6_B
-Text GLabel 9950 8550 2    50   Input ~ 0
-SW7_B
-Text GLabel 9950 8650 2    50   Input ~ 0
-SW8_B
-Text GLabel 9950 8750 2    50   Input ~ 0
-SW9_B
-Text GLabel 9950 8950 2    50   Input ~ 0
-SW10_B
-Text GLabel 9950 9050 2    50   Input ~ 0
-SW11_B
-Text GLabel 9950 9150 2    50   Input ~ 0
-SW12_B
-Text GLabel 9950 9250 2    50   Output ~ 0
-CS1_B
-Text GLabel 9950 9350 2    50   Output ~ 0
-CS2_B
-Text GLabel 9950 9450 2    50   Output ~ 0
-CS3_B
-Text GLabel 9950 9550 2    50   Output ~ 0
-CS4_B
-Text GLabel 9950 9750 2    50   Output ~ 0
-CS5_B
-Text GLabel 9950 9850 2    50   Output ~ 0
-CS6_B
-Text GLabel 9950 9950 2    50   Output ~ 0
-CS7_B
-Text GLabel 9950 10050 2    50   Output ~ 0
-CS8_B
-Text GLabel 8050 10150 0    50   Output ~ 0
-CS9_B
-Text GLabel 8050 10050 0    50   Output ~ 0
-CS10_B
-Text GLabel 8050 9950 0    50   Output ~ 0
-CS11_B
-Text GLabel 8050 9850 0    50   Output ~ 0
-CS12_B
-Wire Wire Line
-	7700 9750 8100 9750
-Wire Wire Line
-	7100 10100 7100 10150
-Connection ~ 7100 10100
-Wire Wire Line
-	8050 8950 7700 8950
-Wire Wire Line
-	7700 9750 7700 8950
-Wire Wire Line
-	9900 7850 9950 7850
-Wire Wire Line
-	9900 7950 9950 7950
-Wire Wire Line
-	9900 8050 9950 8050
-Wire Wire Line
-	9900 8250 9950 8250
-Wire Wire Line
-	9900 8350 9950 8350
-Wire Wire Line
-	9900 8450 9950 8450
-Wire Wire Line
-	9900 8550 9950 8550
-Wire Wire Line
-	9900 8650 9950 8650
-Wire Wire Line
-	9900 8750 9950 8750
-Wire Wire Line
-	9900 8950 9950 8950
-Wire Wire Line
-	9900 9050 9950 9050
-Wire Wire Line
-	9900 9150 9950 9150
-Wire Wire Line
-	9900 9250 9950 9250
-Wire Wire Line
-	9900 9350 9950 9350
-Wire Wire Line
-	9900 9450 9950 9450
-Wire Wire Line
-	9900 9550 9950 9550
-Wire Wire Line
-	9900 9750 9950 9750
-Wire Wire Line
-	9900 9850 9950 9850
-Wire Wire Line
-	9900 9950 9950 9950
-Wire Wire Line
-	9900 10050 9950 10050
-Wire Wire Line
-	8100 10150 8050 10150
-Wire Wire Line
-	8100 10050 8050 10050
-Wire Wire Line
-	8100 9950 8050 9950
-Wire Wire Line
-	8100 9850 8050 9850
-Wire Wire Line
-	8100 9650 8050 9650
-Wire Wire Line
-	8100 9550 8050 9550
-Wire Wire Line
-	8100 9450 8050 9450
-Wire Wire Line
-	8100 9350 8050 9350
-Wire Wire Line
-	10400 8850 10400 8150
-Wire Wire Line
-	10400 8850 10400 8900
-Connection ~ 10400 8850
-Wire Wire Line
-	10350 9650 10350 9600
-Connection ~ 6300 8850
-Wire Wire Line
-	6300 8850 6300 8900
-Wire Wire Line
-	6300 8850 6300 8150
-Wire Wire Line
-	7950 8250 8100 8250
-Wire Wire Line
-	8050 8350 8050 8450
-Connection ~ 8050 8450
 Wire Wire Line
 	1000 1000 900  1000
 Wire Wire Line
 	900  1000 900  1200
 Wire Wire Line
 	900  1200 850  1200
-Text GLabel 850  1200 0    50   Output ~ 0
-SW12_A
-Text GLabel 9950 7950 2    50   Input ~ 0
-SW2_B
 Wire Wire Line
 	1000 1400 900  1400
 Wire Wire Line
 	900  1400 900  1600
 Wire Wire Line
 	900  1600 850  1600
-Text GLabel 850  1600 0    50   Output ~ 0
-SW11_A
 Wire Wire Line
 	1000 1800 900  1800
 Wire Wire Line
 	900  1800 900  2000
 Wire Wire Line
 	900  2000 850  2000
-Text GLabel 850  2000 0    50   Output ~ 0
-SW10_A
 Wire Wire Line
 	1000 2200 900  2200
 Wire Wire Line
 	900  2200 900  2400
 Wire Wire Line
 	900  2400 850  2400
-Text GLabel 850  2400 0    50   Output ~ 0
-SW9_A
 Wire Wire Line
 	1000 2600 900  2600
 Wire Wire Line
 	900  2600 900  2800
 Wire Wire Line
 	900  2800 850  2800
-Text GLabel 850  2800 0    50   Output ~ 0
-SW8_A
 Wire Wire Line
 	1000 3000 900  3000
 Wire Wire Line
 	900  3000 900  3200
 Wire Wire Line
 	900  3200 850  3200
-Text GLabel 850  3200 0    50   Output ~ 0
-SW7_A
 Wire Wire Line
 	1000 3400 900  3400
 Wire Wire Line
 	900  3400 900  3600
 Wire Wire Line
 	900  3600 850  3600
-Text GLabel 850  3600 0    50   Output ~ 0
-SW6_A
 Wire Wire Line
 	1000 3800 900  3800
 Wire Wire Line
 	900  3800 900  4000
 Wire Wire Line
 	900  4000 850  4000
-Text GLabel 850  4000 0    50   Output ~ 0
-SW5_A
 Wire Wire Line
 	1000 4200 900  4200
 Wire Wire Line
 	900  4200 900  4400
 Wire Wire Line
 	900  4400 850  4400
-Text GLabel 850  4400 0    50   Output ~ 0
-SW4_A
 Wire Wire Line
 	1000 4600 900  4600
 Wire Wire Line
 	900  4600 900  4800
 Wire Wire Line
 	900  4800 850  4800
-Text GLabel 850  4800 0    50   Output ~ 0
-SW3_A
 Wire Wire Line
 	1000 5000 900  5000
 Wire Wire Line
 	900  5000 900  5200
 Wire Wire Line
 	900  5200 850  5200
-Text GLabel 850  5200 0    50   Output ~ 0
-SW2_A
 Wire Wire Line
 	1000 5400 900  5400
 Wire Wire Line
 	900  5400 900  5600
 Wire Wire Line
 	900  5600 850  5600
-Text GLabel 850  5600 0    50   Output ~ 0
-SW1_A
 Wire Wire Line
 	1500 900  1500 1000
 Connection ~ 1500 1000
@@ -580,8 +124,6 @@ Wire Wire Line
 Connection ~ 1500 5000
 Wire Wire Line
 	1500 5000 1500 5400
-Text GLabel 1500 900  1    50   Input ~ 0
-CS1_A
 Wire Wire Line
 	1700 1000 1650 1000
 Wire Wire Line
@@ -665,8 +207,6 @@ Wire Wire Line
 Connection ~ 2200 5000
 Wire Wire Line
 	2200 5000 2200 5400
-Text GLabel 2200 900  1    50   Input ~ 0
-CS2_A
 Wire Wire Line
 	900  1200 1650 1200
 Connection ~ 900  1200
@@ -784,8 +324,6 @@ Wire Wire Line
 Connection ~ 2900 5000
 Wire Wire Line
 	2900 5000 2900 5400
-Text GLabel 2900 900  1    50   Input ~ 0
-CS3_A
 Wire Wire Line
 	1650 1200 2350 1200
 Connection ~ 1650 1200
@@ -907,8 +445,6 @@ Wire Wire Line
 Connection ~ 3600 5000
 Wire Wire Line
 	3600 5000 3600 5400
-Text GLabel 3600 900  1    50   Input ~ 0
-CS4_A
 Connection ~ 2350 5600
 Wire Wire Line
 	2350 5200 3050 5200
@@ -1026,8 +562,6 @@ Wire Wire Line
 Connection ~ 4300 5000
 Wire Wire Line
 	4300 5000 4300 5400
-Text GLabel 4300 900  1    50   Input ~ 0
-CS5_A
 Wire Wire Line
 	3050 1200 3750 1200
 Connection ~ 3050 1200
@@ -1147,8 +681,6 @@ Wire Wire Line
 Connection ~ 5000 5000
 Wire Wire Line
 	5000 5000 5000 5400
-Text GLabel 5000 900  1    50   Input ~ 0
-CS6_A
 Wire Wire Line
 	5200 1000 5150 1000
 Wire Wire Line
@@ -1232,8 +764,6 @@ Wire Wire Line
 Connection ~ 5700 5000
 Wire Wire Line
 	5700 5000 5700 5400
-Text GLabel 5700 900  1    50   Input ~ 0
-CS7_A
 Wire Wire Line
 	5900 1000 5850 1000
 Wire Wire Line
@@ -1317,8 +847,6 @@ Wire Wire Line
 Connection ~ 6400 5000
 Wire Wire Line
 	6400 5000 6400 5400
-Text GLabel 6400 900  1    50   Input ~ 0
-CS8_A
 Wire Wire Line
 	6600 1000 6550 1000
 Wire Wire Line
@@ -1402,8 +930,6 @@ Wire Wire Line
 Connection ~ 7100 5000
 Wire Wire Line
 	7100 5000 7100 5400
-Text GLabel 7100 900  1    50   Input ~ 0
-CS9_A
 Wire Wire Line
 	3750 1200 4450 1200
 Connection ~ 3750 1200
@@ -1555,281 +1081,6 @@ Wire Wire Line
 Wire Wire Line
 	6550 1200 7250 1200
 Connection ~ 6550 1200
-$Comp
-L capacitor-lib:CL10B474KA8NFNC C11
-U 1 1 63D72369
-P 10100 7000
-F 0 "C11" V 10150 6850 50  0000 C CNN
-F 1 "CL10B474KA8NFNC" V 10195 7103 50  0001 L BNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 10100 7000 50  0001 L BNN
-F 3 "" H 10100 7000 50  0001 L BNN
-F 4 "https://pricing.snapeda.com/search/part/CL10B474KA8NFNC/?ref=eda" H 10100 7000 50  0001 L BNN "Purchase-URL"
-F 5 "0603 Samsung" H 10100 7000 50  0001 L BNN "Package"
-F 6 "CL10B474KA8NFNC" H 10100 7000 50  0001 L BNN "MP"
-F 7 "1276-2082-1-ND" H 10100 7000 50  0001 L BNN "Digi-Key_Part_Number"
-F 8 "Samsung Electro-Mechanics" H 10100 7000 50  0001 L BNN "MF"
-F 9 "0.47µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" H 10100 7000 50  0001 L BNN "Description"
-F 10 "0.47µF" V 10250 6800 50  0000 C CNN "capacitance"
-	1    10100 7000
-	0    1    1    0   
-$EndComp
-$Comp
-L capacitor-lib:CL10B104KB8NNNL C12
-U 1 1 63D764B5
-P 10300 6950
-F 0 "C12" H 10473 6850 50  0000 C CNN
-F 1 "CL10B104KB8NNNL" H 10428 6850 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 10300 7250 50  0001 L CNN
-F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 10300 7350 50  0001 L CNN
-F 4 "No" H 10300 7450 50  0001 L CNN "automotive"
-F 5 "100nF" H 10450 6750 50  0000 C CNN "capacitance"
-F 6 "Cap" H 10300 7650 50  0001 L CNN "category"
-F 7 "Passive Components" H 10300 7750 50  0001 L CNN "device class L1"
-F 8 "Capacitors" H 10300 7850 50  0001 L CNN "device class L2"
-F 9 "Ceramic Capacitors" H 10300 7950 50  0001 L CNN "device class L3"
-F 10 "0.9mm" H 10300 8250 50  0001 L CNN "height"
-F 11 "CAPC16080X80" H 10300 8350 50  0001 L CNN "ipc land pattern name"
-F 12 "Yes" H 10300 8450 50  0001 L CNN "lead free"
-F 13 "d416e2ef1cbb0413" H 10300 8550 50  0001 L CNN "library id"
-F 14 "Samsung" H 10300 8650 50  0001 L CNN "manufacturer"
-F 15 "Ceramic" H 10300 8750 50  0001 L CNN "material"
-F 16 "0603" H 10300 8850 50  0001 L CNN "package"
-F 17 "Yes" H 10300 8950 50  0001 L CNN "rohs"
-F 18 "X7R" H 10300 9050 50  0001 L CNN "temperature characteristic"
-F 19 "0.15" H 10300 9150 50  0001 L CNN "temperature coefficient"
-F 20 "+125°C" H 10300 9250 50  0001 L CNN "temperature range high"
-F 21 "-55°C" H 10300 9350 50  0001 L CNN "temperature range low"
-F 22 "10%" H 10300 9450 50  0001 L CNN "tolerance"
-F 23 "50V" H 10300 9550 50  0001 L CNN "voltage rating"
-	1    10300 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR030
-U 1 1 63D793EB
-P 13100 7250
-F 0 "#PWR030" H 13100 7000 50  0001 C CNN
-F 1 "GND" H 13105 7077 50  0000 C CNN
-F 2 "" H 13100 7250 50  0001 C CNN
-F 3 "" H 13100 7250 50  0001 C CNN
-	1    13100 7250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR020
-U 1 1 63D94BE2
-P 3000 8650
-F 0 "#PWR020" H 3000 8500 50  0001 C CNN
-F 1 "+3V3" H 3015 8823 50  0000 C CNN
-F 2 "" H 3000 8650 50  0001 C CNN
-F 3 "" H 3000 8650 50  0001 C CNN
-	1    3000 8650
-	1    0    0    -1  
-$EndComp
-$Comp
-L capacitor-lib:CL10B474KA8NFNC C13
-U 1 1 63D9DE47
-P 11350 7000
-F 0 "C13" V 11450 6850 50  0000 C CNN
-F 1 "CL10B474KA8NFNC" H 11350 6800 50  0001 L BNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 11350 7000 50  0001 L BNN
-F 3 "" H 11350 7000 50  0001 L BNN
-F 4 "https://pricing.snapeda.com/search/part/CL10B474KA8NFNC/?ref=eda" H 11350 7000 50  0001 L BNN "Purchase-URL"
-F 5 "0603 Samsung" H 11350 7000 50  0001 L BNN "Package"
-F 6 "CL10B474KA8NFNC" H 11350 7000 50  0001 L BNN "MP"
-F 7 "1276-2082-1-ND" H 11350 7000 50  0001 L BNN "Digi-Key_Part_Number"
-F 8 "Samsung Electro-Mechanics" H 11350 7000 50  0001 L BNN "MF"
-F 9 "0.47µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" H 11350 7000 50  0001 L BNN "Description"
-F 10 "0.47µF" V 11550 6850 50  0000 C CNN "capacitance"
-	1    11350 7000
-	0    1    1    0   
-$EndComp
-$Comp
-L capacitor-lib:CL10B104KB8NNNL C14
-U 1 1 63D9F36F
-P 11550 6950
-F 0 "C14" H 11723 6850 50  0000 C CNN
-F 1 "CL10B104KB8NNNL" H 11550 7150 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 11550 7250 50  0001 L CNN
-F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 11550 7350 50  0001 L CNN
-F 4 "No" H 11550 7450 50  0001 L CNN "automotive"
-F 5 "100nF" H 11700 6750 50  0000 C CNN "capacitance"
-F 6 "Cap" H 11550 7650 50  0001 L CNN "category"
-F 7 "Passive Components" H 11550 7750 50  0001 L CNN "device class L1"
-F 8 "Capacitors" H 11550 7850 50  0001 L CNN "device class L2"
-F 9 "Ceramic Capacitors" H 11550 7950 50  0001 L CNN "device class L3"
-F 10 "0.9mm" H 11550 8250 50  0001 L CNN "height"
-F 11 "CAPC16080X80" H 11550 8350 50  0001 L CNN "ipc land pattern name"
-F 12 "Yes" H 11550 8450 50  0001 L CNN "lead free"
-F 13 "d416e2ef1cbb0413" H 11550 8550 50  0001 L CNN "library id"
-F 14 "Samsung" H 11550 8650 50  0001 L CNN "manufacturer"
-F 15 "Ceramic" H 11550 8750 50  0001 L CNN "material"
-F 16 "0603" H 11550 8850 50  0001 L CNN "package"
-F 17 "Yes" H 11550 8950 50  0001 L CNN "rohs"
-F 18 "X7R" H 11550 9050 50  0001 L CNN "temperature characteristic"
-F 19 "0.15" H 11550 9150 50  0001 L CNN "temperature coefficient"
-F 20 "+125°C" H 11550 9250 50  0001 L CNN "temperature range high"
-F 21 "-55°C" H 11550 9350 50  0001 L CNN "temperature range low"
-F 22 "10%" H 11550 9450 50  0001 L CNN "tolerance"
-F 23 "50V" H 11550 9550 50  0001 L CNN "voltage rating"
-	1    11550 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L capacitor-lib:CL10B474KA8NFNC C15
-U 1 1 63DE9808
-P 12150 7000
-F 0 "C15" V 12250 7150 50  0000 C CNN
-F 1 "CL10B474KA8NFNC" H 12150 6800 50  0001 L BNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 12150 7000 50  0001 L BNN
-F 3 "" H 12150 7000 50  0001 L BNN
-F 4 "https://pricing.snapeda.com/search/part/CL10B474KA8NFNC/?ref=eda" H 12150 7000 50  0001 L BNN "Purchase-URL"
-F 5 "0603 Samsung" H 12150 7000 50  0001 L BNN "Package"
-F 6 "CL10B474KA8NFNC" H 12150 7000 50  0001 L BNN "MP"
-F 7 "1276-2082-1-ND" H 12150 7000 50  0001 L BNN "Digi-Key_Part_Number"
-F 8 "Samsung Electro-Mechanics" H 12150 7000 50  0001 L BNN "MF"
-F 9 "0.47µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" H 12150 7000 50  0001 L BNN "Description"
-F 10 "0.47µF" V 12350 7150 50  0000 C CNN "capacitance"
-	1    12150 7000
-	0    -1   1    0   
-$EndComp
-$Comp
-L Resistor-Lib:RMCF0603FT100K R16
-U 1 1 63EAB8BE
-P 3650 7650
-F 0 "R16" V 3604 7755 50  0000 L CNN
-F 1 "RMCF0603FT100K" H 3350 7450 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3650 7650 50  0001 L BNN
-F 3 "" H 3650 7650 50  0001 L BNN
-F 4 "100k" V 3695 7755 50  0000 L CNN "resistance"
-	1    3650 7650
-	0    1    1    0   
-$EndComp
-$Comp
-L Resistor-Lib:RMCF0603FT100K R15
-U 1 1 63EB01BF
-P 2800 9650
-F 0 "R15" V 2754 9546 50  0000 R CNN
-F 1 "RMCF0603FT100K" H 2500 9450 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 2800 9650 50  0001 L BNN
-F 3 "" H 2800 9650 50  0001 L BNN
-F 4 "100k" V 2845 9546 50  0000 R CNN "resistance"
-	1    2800 9650
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR021
-U 1 1 63EC1EB0
-P 3000 10150
-F 0 "#PWR021" H 3000 9900 50  0001 C CNN
-F 1 "GND" H 3005 9977 50  0000 C CNN
-F 2 "" H 3000 10150 50  0001 C CNN
-F 3 "" H 3000 10150 50  0001 C CNN
-	1    3000 10150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Resistor-Lib:RMCF2512FT20K0 R17
-U 1 1 63ED9B4F
-P 3200 9650
-F 0 "R17" V 3154 9755 50  0000 L CNN
-F 1 "RMCF2512FT59K0" H 2900 9450 50  0001 L BNN
-F 2 "Resistor_SMD:R_2512_6332Metric" H 3200 9650 50  0001 L BNN
-F 3 "" H 3200 9650 50  0001 L BNN
-F 4 "20k" V 3245 9755 50  0000 L CNN "resistance"
-	1    3200 9650
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR023
-U 1 1 63EFD874
-P 3750 8250
-F 0 "#PWR023" H 3750 8000 50  0001 C CNN
-F 1 "GND" H 3755 8077 50  0000 C CNN
-F 2 "" H 3750 8250 50  0001 C CNN
-F 3 "" H 3750 8250 50  0001 C CNN
-	1    3750 8250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR026
-U 1 1 6409AB1B
-P 7150 8650
-F 0 "#PWR026" H 7150 8500 50  0001 C CNN
-F 1 "+3V3" H 7165 8823 50  0000 C CNN
-F 2 "" H 7150 8650 50  0001 C CNN
-F 3 "" H 7150 8650 50  0001 C CNN
-	1    7150 8650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Resistor-Lib:RMCF0603FT100K R19
-U 1 1 6409AB23
-P 7700 7650
-F 0 "R19" V 7654 7755 50  0000 L CNN
-F 1 "RMCF0603FT100K" H 7400 7450 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 7700 7650 50  0001 L BNN
-F 3 "" H 7700 7650 50  0001 L BNN
-F 4 "100k" V 7745 7755 50  0000 L CNN "resistance"
-	1    7700 7650
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR025
-U 1 1 6409AB40
-P 7100 10150
-F 0 "#PWR025" H 7100 9900 50  0001 C CNN
-F 1 "GND" H 7105 9977 50  0000 C CNN
-F 2 "" H 7100 10150 50  0001 C CNN
-F 3 "" H 7100 10150 50  0001 C CNN
-	1    7100 10150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Resistor-Lib:RMCF2512FT20K0 R20
-U 1 1 6409AB49
-P 7300 9650
-F 0 "R20" V 7254 9755 50  0000 L CNN
-F 1 "RMCF2512FT59K0" H 7000 9450 50  0001 L BNN
-F 2 "Resistor_SMD:R_2512_6332Metric" H 7300 9650 50  0001 L BNN
-F 3 "" H 7300 9650 50  0001 L BNN
-F 4 "20k" V 7345 9755 50  0000 L CNN "resistance"
-	1    7300 9650
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR028
-U 1 1 6409AB59
-P 7850 8250
-F 0 "#PWR028" H 7850 8000 50  0001 C CNN
-F 1 "GND" H 7855 8077 50  0000 C CNN
-F 2 "" H 7850 8250 50  0001 C CNN
-F 3 "" H 7850 8250 50  0001 C CNN
-	1    7850 8250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR029
-U 1 1 6409AB6A
-P 10400 8900
-F 0 "#PWR029" H 10400 8650 50  0001 C CNN
-F 1 "GND" H 10405 8727 50  0000 C CNN
-F 2 "" H 10400 8900 50  0001 C CNN
-F 3 "" H 10400 8900 50  0001 C CNN
-	1    10400 8900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR024
-U 1 1 63F0DD67
-P 6300 8900
-F 0 "#PWR024" H 6300 8650 50  0001 C CNN
-F 1 "GND" H 6305 8727 50  0000 C CNN
-F 2 "" H 6300 8900 50  0001 C CNN
-F 3 "" H 6300 8900 50  0001 C CNN
-	1    6300 8900
-	1    0    0    -1  
-$EndComp
 $Comp
 L 19-337C_RSBHGHC-A88_4T:RGB_LED D?
 U 1 1 6420F7F9
@@ -2646,8 +1897,6 @@ F 7 "0.5mm" H 7500 1400 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
 	1    7500 1400
 	-1   0    0    1   
 $EndComp
-Text GLabel 9200 850  1    50   Input ~ 0
-CS12_A
 Wire Wire Line
 	9200 5000 9200 5400
 Connection ~ 9200 5000
@@ -2731,8 +1980,6 @@ Wire Wire Line
 	8650 1000 8650 1200
 Wire Wire Line
 	8700 1000 8650 1000
-Text GLabel 8500 850  1    50   Input ~ 0
-CS11_A
 Wire Wire Line
 	8500 5000 8500 5400
 Connection ~ 8500 5000
@@ -2816,8 +2063,6 @@ Wire Wire Line
 	7950 1000 7950 1200
 Wire Wire Line
 	8000 1000 7950 1000
-Text GLabel 7800 850  1    50   Input ~ 0
-CS10_A
 Wire Wire Line
 	7800 5000 7800 5400
 Connection ~ 7800 5000
@@ -3038,8 +2283,6 @@ F 7 "0.5mm" H 9600 1400 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
 	1    9600 1400
 	-1   0    0    1   
 $EndComp
-Text GLabel 10600 850  1    50   Input ~ 0
-CS14_A
 Wire Wire Line
 	10600 5000 10600 5400
 Connection ~ 10600 5000
@@ -3123,8 +2366,6 @@ Wire Wire Line
 	10050 1000 10050 1200
 Wire Wire Line
 	10100 1000 10050 1000
-Text GLabel 9900 850  1    50   Input ~ 0
-CS13_A
 Wire Wire Line
 	9900 5000 9900 5400
 Connection ~ 9900 5000
@@ -3412,8 +2653,6 @@ F 7 "0.5mm" H 10950 1400 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
 	1    10950 1400
 	-1   0    0    1   
 $EndComp
-Text GLabel 11250 850  1    50   Input ~ 0
-CS15_A
 Wire Wire Line
 	11250 5000 11250 5400
 Connection ~ 11250 5000
@@ -3565,8 +2804,6 @@ F 7 "0.5mm" H 11600 1400 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
 	1    11600 1400
 	-1   0    0    1   
 $EndComp
-Text GLabel 11900 850  1    50   Input ~ 0
-CS16_A
 Wire Wire Line
 	11900 5000 11900 5400
 Connection ~ 11900 5000
@@ -3760,626 +2997,637 @@ Wire Wire Line
 Connection ~ 10700 5600
 Wire Wire Line
 	10700 5600 11350 5600
-Wire Wire Line
-	10100 6900 10300 6900
+$Sheet
+S 2525 6150 950  700 
+U 6000FEDE
+F0 "LED Driver B" 50
+F1 "694200101R2_sheet_3.sch" 50
+F2 "I2C_SDA" B L 2525 6575 50 
+F3 "I2C_SCL" I L 2525 6425 50 
+F4 "SYNC" I R 3475 6550 50 
+$EndSheet
 $Comp
-L capacitor-lib:TAJB226K016RNJ C17
-U 1 1 63E8E5AC
-P 12800 7100
-F 0 "C17" V 12850 6950 50  0000 C TNN
-F 1 "TAJB226K016RNJ" H 12800 6900 50  0001 L BNN
-F 2 "capacitor-lib:CAPPC3528X210N" H 12800 7100 50  0001 L BNN
-F 3 "" H 12800 7100 50  0001 L BNN
-F 4 "22µF" V 12750 6950 50  0000 C BNN "capacitance"
-	1    12800 7100
-	0    -1   -1   0   
+L power:GND #PWR033
+U 1 1 648A7727
+P 7400 9950
+F 0 "#PWR033" H 7400 9700 50  0001 C CNN
+F 1 "GND" H 7405 9777 50  0000 C CNN
+F 2 "" H 7400 9950 50  0001 C CNN
+F 3 "" H 7400 9950 50  0001 C CNN
+	1    7400 9950
+	1    0    0    -1  
+$EndComp
+Text Label 850  5600 2    50   ~ 0
+SW1_A
+Text Label 1825 6650 3    50   ~ 0
+DRIVER_A_SCL
+Text Label 1725 6650 3    50   ~ 0
+DRIVER_A_SDA
+Wire Wire Line
+	1725 6650 1725 6575
+Wire Wire Line
+	1825 6650 1825 6425
+Text Label 850  5200 2    50   ~ 0
+SW2_A
+Text Label 850  4800 2    50   ~ 0
+SW3_A
+Text Label 850  4400 2    50   ~ 0
+SW4_A
+Text Label 850  4000 2    50   ~ 0
+SW5_A
+Text Label 850  3600 2    50   ~ 0
+SW6_A
+Text Label 850  2800 2    50   ~ 0
+SW8_A
+Text Label 850  2400 2    50   ~ 0
+SW9_A
+Text Label 850  3200 2    50   ~ 0
+SW7_A
+Text Label 850  2000 2    50   ~ 0
+SW10_A
+Text Label 850  1600 2    50   ~ 0
+SW11_A
+Wire Wire Line
+	7300 9850 7300 9900
+Wire Wire Line
+	7300 9900 7400 9900
+Wire Wire Line
+	7400 9900 7400 9850
+Wire Wire Line
+	7400 9900 7500 9900
+Wire Wire Line
+	7500 9900 7500 9850
+Connection ~ 7400 9900
+Wire Wire Line
+	7400 9900 7400 9950
+Wire Wire Line
+	5750 6850 6700 6850
+Wire Wire Line
+	6325 7750 6325 7775
+Wire Wire Line
+	6700 7750 6325 7750
+Wire Wire Line
+	5950 7350 5950 7300
+Wire Wire Line
+	6150 7350 5950 7350
+Wire Wire Line
+	6450 7350 6700 7350
+Wire Wire Line
+	5950 7450 6150 7450
+Wire Wire Line
+	6700 7450 6450 7450
+Connection ~ 6600 7950
+Wire Wire Line
+	6600 7850 6700 7850
+Wire Wire Line
+	6600 7850 6600 7950
+Wire Wire Line
+	6600 7950 6600 8025
+Wire Wire Line
+	6700 7950 6600 7950
+NoConn ~ 6700 7250
+$Comp
+L power:+3V3 #PWR020
+U 1 1 63D94BE2
+P 5750 6800
+F 0 "#PWR020" H 5750 6650 50  0001 C CNN
+F 1 "+3V3" H 5765 6973 50  0000 C CNN
+F 2 "" H 5750 6800 50  0001 C CNN
+F 3 "" H 5750 6800 50  0001 C CNN
+	1    5750 6800
+	1    0    0    -1  
 $EndComp
 $Comp
-L capacitor-lib:CL10B104KB8NNNL C16
-U 1 1 63DECC4B
-P 12350 6950
-F 0 "C16" H 12523 6850 50  0000 C CNN
-F 1 "CL10B104KB8NNNL" H 12350 7150 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 12350 7250 50  0001 L CNN
-F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 12350 7350 50  0001 L CNN
-F 4 "No" H 12350 7450 50  0001 L CNN "automotive"
-F 5 "100nF" H 12400 6750 50  0000 L CNN "capacitance"
-F 6 "Cap" H 12350 7650 50  0001 L CNN "category"
-F 7 "Passive Components" H 12350 7750 50  0001 L CNN "device class L1"
-F 8 "Capacitors" H 12350 7850 50  0001 L CNN "device class L2"
-F 9 "Ceramic Capacitors" H 12350 7950 50  0001 L CNN "device class L3"
-F 10 "0.9mm" H 12350 8250 50  0001 L CNN "height"
-F 11 "CAPC16080X80" H 12350 8350 50  0001 L CNN "ipc land pattern name"
-F 12 "Yes" H 12350 8450 50  0001 L CNN "lead free"
-F 13 "d416e2ef1cbb0413" H 12350 8550 50  0001 L CNN "library id"
-F 14 "Samsung" H 12350 8650 50  0001 L CNN "manufacturer"
-F 15 "Ceramic" H 12350 8750 50  0001 L CNN "material"
-F 16 "0603" H 12350 8850 50  0001 L CNN "package"
-F 17 "Yes" H 12350 8950 50  0001 L CNN "rohs"
-F 18 "X7R" H 12350 9050 50  0001 L CNN "temperature characteristic"
-F 19 "0.15" H 12350 9150 50  0001 L CNN "temperature coefficient"
-F 20 "+125°C" H 12350 9250 50  0001 L CNN "temperature range high"
-F 21 "-55°C" H 12350 9350 50  0001 L CNN "temperature range low"
-F 22 "10%" H 12350 9450 50  0001 L CNN "tolerance"
-F 23 "50V" H 12350 9550 50  0001 L CNN "voltage rating"
-	1    12350 6950
+L Device:C C26
+U 1 1 6901DA9F
+P 5750 7050
+F 0 "C26" H 5636 7096 50  0000 R CNN
+F 1 "0.47uF" H 5636 7005 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5788 6900 50  0001 C CNN
+F 3 "~" H 5750 7050 50  0001 C CNN
+	1    5750 7050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	16100 6900 15900 6900
+	5750 6800 5750 6850
 $Comp
-L capacitor-lib:CL10B474KA8NFNC C20
-U 1 1 63E29468
-P 14050 7050
-F 0 "C20" V 14100 7200 50  0000 C CNN
-F 1 "CL10B474KA8NFNC" H 14050 6850 50  0001 L BNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 14050 7050 50  0001 L BNN
-F 3 "" H 14050 7050 50  0001 L BNN
-F 4 "https://pricing.snapeda.com/search/part/CL10B474KA8NFNC/?ref=eda" H 14050 7050 50  0001 L BNN "Purchase-URL"
-F 5 "0603 Samsung" H 14050 7050 50  0001 L BNN "Package"
-F 6 "CL10B474KA8NFNC" H 14050 7050 50  0001 L BNN "MP"
-F 7 "1276-2082-1-ND" H 14050 7050 50  0001 L BNN "Digi-Key_Part_Number"
-F 8 "Samsung Electro-Mechanics" H 14050 7050 50  0001 L BNN "MF"
-F 9 "0.47µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" H 14050 7050 50  0001 L BNN "Description"
-F 10 "0.47µF" V 14200 7200 50  0000 C CNN "capacitance"
-	1    14050 7050
-	0    1    1    0   
+L power:GND #PWR0122
+U 1 1 690FB6C8
+P 5750 7225
+F 0 "#PWR0122" H 5750 6975 50  0001 C CNN
+F 1 "GND" H 5755 7052 50  0000 C CNN
+F 2 "" H 5750 7225 50  0001 C CNN
+F 3 "" H 5750 7225 50  0001 C CNN
+	1    5750 7225
+	1    0    0    -1  
 $EndComp
-$Comp
-L capacitor-lib:CL10B104KB8NNNL C19
-U 1 1 63E29486
-P 13850 7000
-F 0 "C19" H 14023 6900 50  0000 C CNN
-F 1 "CL10B104KB8NNNL" H 13850 7200 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 13850 7300 50  0001 L CNN
-F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 13850 7400 50  0001 L CNN
-F 4 "No" H 13850 7500 50  0001 L CNN "automotive"
-F 5 "100nF" H 14000 6800 50  0000 C CNN "capacitance"
-F 6 "Cap" H 13850 7700 50  0001 L CNN "category"
-F 7 "Passive Components" H 13850 7800 50  0001 L CNN "device class L1"
-F 8 "Capacitors" H 13850 7900 50  0001 L CNN "device class L2"
-F 9 "Ceramic Capacitors" H 13850 8000 50  0001 L CNN "device class L3"
-F 10 "0.9mm" H 13850 8300 50  0001 L CNN "height"
-F 11 "CAPC16080X80" H 13850 8400 50  0001 L CNN "ipc land pattern name"
-F 12 "Yes" H 13850 8500 50  0001 L CNN "lead free"
-F 13 "d416e2ef1cbb0413" H 13850 8600 50  0001 L CNN "library id"
-F 14 "Samsung" H 13850 8700 50  0001 L CNN "manufacturer"
-F 15 "Ceramic" H 13850 8800 50  0001 L CNN "material"
-F 16 "0603" H 13850 8900 50  0001 L CNN "package"
-F 17 "Yes" H 13850 9000 50  0001 L CNN "rohs"
-F 18 "X7R" H 13850 9100 50  0001 L CNN "temperature characteristic"
-F 19 "0.15" H 13850 9200 50  0001 L CNN "temperature coefficient"
-F 20 "+125°C" H 13850 9300 50  0001 L CNN "temperature range high"
-F 21 "-55°C" H 13850 9400 50  0001 L CNN "temperature range low"
-F 22 "10%" H 13850 9500 50  0001 L CNN "tolerance"
-F 23 "50V" H 13850 9600 50  0001 L CNN "voltage rating"
-	1    13850 7000
-	-1   0    0    -1  
-$EndComp
-$Comp
-L capacitor-lib:CL10B104KB8NNNL C21
-U 1 1 63E29448
-P 14650 7000
-F 0 "C21" H 14823 6900 50  0000 C CNN
-F 1 "CL10B104KB8NNNL" H 14650 7200 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 14650 7300 50  0001 L CNN
-F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 14650 7400 50  0001 L CNN
-F 4 "No" H 14650 7500 50  0001 L CNN "automotive"
-F 5 "100nF" H 14800 6800 50  0000 C CNN "capacitance"
-F 6 "Cap" H 14650 7700 50  0001 L CNN "category"
-F 7 "Passive Components" H 14650 7800 50  0001 L CNN "device class L1"
-F 8 "Capacitors" H 14650 7900 50  0001 L CNN "device class L2"
-F 9 "Ceramic Capacitors" H 14650 8000 50  0001 L CNN "device class L3"
-F 10 "0.9mm" H 14650 8300 50  0001 L CNN "height"
-F 11 "CAPC16080X80" H 14650 8400 50  0001 L CNN "ipc land pattern name"
-F 12 "Yes" H 14650 8500 50  0001 L CNN "lead free"
-F 13 "d416e2ef1cbb0413" H 14650 8600 50  0001 L CNN "library id"
-F 14 "Samsung" H 14650 8700 50  0001 L CNN "manufacturer"
-F 15 "Ceramic" H 14650 8800 50  0001 L CNN "material"
-F 16 "0603" H 14650 8900 50  0001 L CNN "package"
-F 17 "Yes" H 14650 9000 50  0001 L CNN "rohs"
-F 18 "X7R" H 14650 9100 50  0001 L CNN "temperature characteristic"
-F 19 "0.15" H 14650 9200 50  0001 L CNN "temperature coefficient"
-F 20 "+125°C" H 14650 9300 50  0001 L CNN "temperature range high"
-F 21 "-55°C" H 14650 9400 50  0001 L CNN "temperature range low"
-F 22 "10%" H 14650 9500 50  0001 L CNN "tolerance"
-F 23 "50V" H 14650 9600 50  0001 L CNN "voltage rating"
-	1    14650 7000
-	-1   0    0    -1  
-$EndComp
-$Comp
-L capacitor-lib:CL10B474KA8NFNC C22
-U 1 1 63E2942E
-P 14850 7050
-F 0 "C22" V 14900 6900 50  0000 C CNN
-F 1 "CL10B474KA8NFNC" H 14850 6850 50  0001 L BNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 14850 7050 50  0001 L BNN
-F 3 "" H 14850 7050 50  0001 L BNN
-F 4 "https://pricing.snapeda.com/search/part/CL10B474KA8NFNC/?ref=eda" H 14850 7050 50  0001 L BNN "Purchase-URL"
-F 5 "0603 Samsung" H 14850 7050 50  0001 L BNN "Package"
-F 6 "CL10B474KA8NFNC" H 14850 7050 50  0001 L BNN "MP"
-F 7 "1276-2082-1-ND" H 14850 7050 50  0001 L BNN "Digi-Key_Part_Number"
-F 8 "Samsung Electro-Mechanics" H 14850 7050 50  0001 L BNN "MF"
-F 9 "0.47µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" H 14850 7050 50  0001 L BNN "Description"
-F 10 "0.47µF" V 15000 6900 50  0000 C CNN "capacitance"
-	1    14850 7050
-	0    -1   1    0   
-$EndComp
-$Comp
-L capacitor-lib:CL10B104KB8NNNL C23
-U 1 1 63E2940D
-P 15900 7000
-F 0 "C23" H 16100 6900 50  0000 C CNN
-F 1 "CL10B104KB8NNNL" H 16028 6900 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 15900 7300 50  0001 L CNN
-F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 15900 7400 50  0001 L CNN
-F 4 "No" H 15900 7500 50  0001 L CNN "automotive"
-F 5 "100nF" H 16050 6800 50  0000 C CNN "capacitance"
-F 6 "Cap" H 15900 7700 50  0001 L CNN "category"
-F 7 "Passive Components" H 15900 7800 50  0001 L CNN "device class L1"
-F 8 "Capacitors" H 15900 7900 50  0001 L CNN "device class L2"
-F 9 "Ceramic Capacitors" H 15900 8000 50  0001 L CNN "device class L3"
-F 10 "0.9mm" H 15900 8300 50  0001 L CNN "height"
-F 11 "CAPC16080X80" H 15900 8400 50  0001 L CNN "ipc land pattern name"
-F 12 "Yes" H 15900 8500 50  0001 L CNN "lead free"
-F 13 "d416e2ef1cbb0413" H 15900 8600 50  0001 L CNN "library id"
-F 14 "Samsung" H 15900 8700 50  0001 L CNN "manufacturer"
-F 15 "Ceramic" H 15900 8800 50  0001 L CNN "material"
-F 16 "0603" H 15900 8900 50  0001 L CNN "package"
-F 17 "Yes" H 15900 9000 50  0001 L CNN "rohs"
-F 18 "X7R" H 15900 9100 50  0001 L CNN "temperature characteristic"
-F 19 "0.15" H 15900 9200 50  0001 L CNN "temperature coefficient"
-F 20 "+125°C" H 15900 9300 50  0001 L CNN "temperature range high"
-F 21 "-55°C" H 15900 9400 50  0001 L CNN "temperature range low"
-F 22 "10%" H 15900 9500 50  0001 L CNN "tolerance"
-F 23 "50V" H 15900 9600 50  0001 L CNN "voltage rating"
-	1    15900 7000
-	-1   0    0    -1  
-$EndComp
-Text Notes 13500 6850 1    50   ~ 0
-LED_DRIVER_B\nPWR_FILTER
-Connection ~ 13850 7250
 Wire Wire Line
-	13400 7250 13850 7250
+	5750 7200 5750 7225
+Connection ~ 5750 6850
 Wire Wire Line
-	13400 7200 13400 7250
-Connection ~ 13850 6900
-Wire Wire Line
-	13850 6900 13400 6900
-Wire Wire Line
-	14650 7250 14050 7250
-Wire Wire Line
-	14050 7250 13850 7250
-Connection ~ 14050 7250
-Wire Wire Line
-	14850 7250 14650 7250
-Connection ~ 14850 7250
-Wire Wire Line
-	16100 7250 15900 7250
-Text Notes 14850 6850 1    50   ~ 0
-LED_DRIVER_B\nP29
-Connection ~ 14050 6900
-Wire Wire Line
-	13850 6900 13850 7000
-Wire Wire Line
-	14050 6900 13850 6900
-Wire Wire Line
-	13850 7250 13850 7200
-Connection ~ 14650 7250
-Wire Wire Line
-	14650 6900 14050 6900
-Wire Wire Line
-	14050 6900 14050 6950
-Connection ~ 14650 6900
-Connection ~ 15900 6900
-Wire Wire Line
-	16100 6950 16100 6900
-Wire Wire Line
-	14650 7200 14650 7250
-Wire Wire Line
-	14650 6900 14650 7000
-Connection ~ 14850 6900
-Wire Wire Line
-	14850 6950 14850 6900
-Wire Wire Line
-	14650 6900 14850 6900
-Connection ~ 15900 7250
-Text Notes 16000 6850 1    50   ~ 0
-LED_DRIVER_B\nP37/38
-Wire Wire Line
-	15900 6900 15900 7000
-Wire Wire Line
-	15900 7250 15900 7200
-$Comp
-L capacitor-lib:CL10B474KA8NFNC C24
-U 1 1 63E293F3
-P 16100 7050
-F 0 "C24" V 16150 6900 50  0000 C CNN
-F 1 "CL10B474KA8NFNC" V 16195 7153 50  0001 L BNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 16100 7050 50  0001 L BNN
-F 3 "" H 16100 7050 50  0001 L BNN
-F 4 "https://pricing.snapeda.com/search/part/CL10B474KA8NFNC/?ref=eda" H 16100 7050 50  0001 L BNN "Purchase-URL"
-F 5 "0603 Samsung" H 16100 7050 50  0001 L BNN "Package"
-F 6 "CL10B474KA8NFNC" H 16100 7050 50  0001 L BNN "MP"
-F 7 "1276-2082-1-ND" H 16100 7050 50  0001 L BNN "Digi-Key_Part_Number"
-F 8 "Samsung Electro-Mechanics" H 16100 7050 50  0001 L BNN "MF"
-F 9 "0.47µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" H 16100 7050 50  0001 L BNN "Description"
-F 10 "0.47µF" V 16250 6900 50  0000 C CNN "capacitance"
-	1    16100 7050
-	0    -1   1    0   
-$EndComp
-$Comp
-L capacitor-lib:TAJB226K016RNJ C18
-U 1 1 63E9B64D
-P 13400 7100
-F 0 "C18" V 13450 6952 50  0000 C CNN
-F 1 "TAJB226K016RNJ" H 13400 6900 50  0001 L BNN
-F 2 "capacitor-lib:CAPPC3528X210N" H 13400 7100 50  0001 L BNN
-F 3 "" H 13400 7100 50  0001 L BNN
-F 4 "22µF" V 13350 6950 50  0000 C CNN "capacitance"
-	1    13400 7100
-	0    1    -1   0   
-$EndComp
-Text Notes 14050 6850 1    50   ~ 0
-LED_DRIVER_B\nP20
-Wire Wire Line
-	12800 7250 13100 7250
-Connection ~ 12800 7250
-Connection ~ 13400 7250
-Connection ~ 13400 6900
-Connection ~ 12800 6900
-Connection ~ 13100 7250
-Wire Wire Line
-	13100 7250 13400 7250
-Wire Wire Line
-	7200 7150 7200 8550
-Wire Wire Line
-	3100 7150 3100 8550
-Connection ~ 3100 7150
-Wire Wire Line
-	3100 7150 7200 7150
-Wire Wire Line
-	7250 7000 7250 8500
-Wire Wire Line
-	3150 7000 3150 8500
-Connection ~ 3150 7000
-Wire Wire Line
-	3150 7000 7250 7000
-Wire Wire Line
-	10300 7250 11350 7250
-Wire Wire Line
-	10300 6900 11350 6900
-Wire Wire Line
-	14850 7250 15900 7250
-Wire Wire Line
-	14850 6900 15900 6900
+	5750 6850 5750 6900
+Text Label 6700 7150 2    50   ~ 0
+DRIVER_A_SCL
+Text Label 6700 7050 2    50   ~ 0
+DRIVER_A_SDA
 $Comp
 L power:+3.3V #PWR022
 U 1 1 60239060
-P 3650 6900
-F 0 "#PWR022" H 3650 6750 50  0001 C CNN
-F 1 "+3.3V" H 3665 7073 50  0000 C CNN
-F 2 "" H 3650 6900 50  0001 C CNN
-F 3 "" H 3650 6900 50  0001 C CNN
-	1    3650 6900
+P 5950 7300
+F 0 "#PWR022" H 5950 7150 50  0001 C CNN
+F 1 "+3.3V" H 5965 7473 50  0000 C CNN
+F 2 "" H 5950 7300 50  0001 C CNN
+F 3 "" H 5950 7300 50  0001 C CNN
+	1    5950 7300
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR027
-U 1 1 6031F66E
-P 7700 6900
-F 0 "#PWR027" H 7700 6750 50  0001 C CNN
-F 1 "+3.3V" H 7715 7073 50  0000 C CNN
-F 2 "" H 7700 6900 50  0001 C CNN
-F 3 "" H 7700 6900 50  0001 C CNN
-	1    7700 6900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2800 10100 3000 10100
-Wire Wire Line
-	3650 7250 3650 6900
-Wire Wire Line
-	6950 10100 7100 10100
-Wire Wire Line
-	8100 8050 7700 8050
-Wire Wire Line
-	7700 7250 7700 6900
-Wire Wire Line
-	3600 8950 3450 8950
-Wire Wire Line
-	7700 8950 7500 8950
-$Comp
-L power:VCC #PWR?
-U 1 1 61D58879
-P 3450 8950
-AR Path="/61D58879" Ref="#PWR?"  Part="1" 
-AR Path="/63A35802/61D58879" Ref="#PWR0113"  Part="1" 
-F 0 "#PWR0113" H 3450 8800 50  0001 C CNN
-F 1 "VCC" H 3465 9123 50  0000 C CNN
-F 2 "" H 3450 8950 50  0001 C CNN
-F 3 "" H 3450 8950 50  0001 C CNN
-	1    3450 8950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR?
-U 1 1 61E34FF7
-P 6250 9650
-AR Path="/61E34FF7" Ref="#PWR?"  Part="1" 
-AR Path="/63A35802/61E34FF7" Ref="#PWR0114"  Part="1" 
-F 0 "#PWR0114" H 6250 9500 50  0001 C CNN
-F 1 "VCC" H 6265 9823 50  0000 C CNN
-F 2 "" H 6250 9650 50  0001 C CNN
-F 3 "" H 6250 9650 50  0001 C CNN
-	1    6250 9650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR?
-U 1 1 61FEDE4D
-P 10350 9600
-AR Path="/61FEDE4D" Ref="#PWR?"  Part="1" 
-AR Path="/63A35802/61FEDE4D" Ref="#PWR0116"  Part="1" 
-F 0 "#PWR0116" H 10350 9450 50  0001 C CNN
-F 1 "VCC" H 10365 9773 50  0000 C CNN
-F 2 "" H 10350 9600 50  0001 C CNN
-F 3 "" H 10350 9600 50  0001 C CNN
-	1    10350 9600
-	1    0    0    -1  
-$EndComp
-$Comp
-L capacitor-lib:CL10B474KA8NFNC C26
-U 1 1 624BEE17
-P 3000 9050
-F 0 "C26" V 3100 8900 50  0000 C CNN
-F 1 "CL10B474KA8NFNC" H 3000 8850 50  0001 L BNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3000 9050 50  0001 L BNN
-F 3 "" H 3000 9050 50  0001 L BNN
-F 4 "https://pricing.snapeda.com/search/part/CL10B474KA8NFNC/?ref=eda" H 3000 9050 50  0001 L BNN "Purchase-URL"
-F 5 "0603 Samsung" H 3000 9050 50  0001 L BNN "Package"
-F 6 "CL10B474KA8NFNC" H 3000 9050 50  0001 L BNN "MP"
-F 7 "1276-2082-1-ND" H 3000 9050 50  0001 L BNN "Digi-Key_Part_Number"
-F 8 "Samsung Electro-Mechanics" H 3000 9050 50  0001 L BNN "MF"
-F 9 "0.47µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" H 3000 9050 50  0001 L BNN "Description"
-F 10 "0.47µF" V 3200 8900 50  0000 C CNN "capacitance"
-	1    3000 9050
+L Device:R_US R13
+U 1 1 64CF3D0D
+P 6300 7350
+F 0 "R13" V 6175 7525 50  0000 C CNN
+F 1 "100k" V 6250 7525 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6340 7340 50  0001 C CNN
+F 3 "~" H 6300 7350 50  0001 C CNN
+	1    6300 7350
 	0    1    1    0   
 $EndComp
+Text Label 6700 7650 2    50   ~ 0
+SYNC_OUT
+Wire Wire Line
+	6325 8075 6325 8100
 $Comp
-L capacitor-lib:CL10B474KA8NFNC C27
-U 1 1 6259BAD5
-P 7150 9050
-F 0 "C27" V 7250 8900 50  0000 C CNN
-F 1 "CL10B474KA8NFNC" H 7150 8850 50  0001 L BNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7150 9050 50  0001 L BNN
-F 3 "" H 7150 9050 50  0001 L BNN
-F 4 "https://pricing.snapeda.com/search/part/CL10B474KA8NFNC/?ref=eda" H 7150 9050 50  0001 L BNN "Purchase-URL"
-F 5 "0603 Samsung" H 7150 9050 50  0001 L BNN "Package"
-F 6 "CL10B474KA8NFNC" H 7150 9050 50  0001 L BNN "MP"
-F 7 "1276-2082-1-ND" H 7150 9050 50  0001 L BNN "Digi-Key_Part_Number"
-F 8 "Samsung Electro-Mechanics" H 7150 9050 50  0001 L BNN "MF"
-F 9 "0.47µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" H 7150 9050 50  0001 L BNN "Description"
-F 10 "0.47µF" V 7350 8900 50  0000 C CNN "capacitance"
-	1    7150 9050
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3600 8950 3600 9750
-Wire Wire Line
-	3000 8650 3000 8750
-Wire Wire Line
-	3000 8750 4000 8750
-Connection ~ 3000 8750
-Wire Wire Line
-	3000 8750 3000 8950
-Wire Wire Line
-	3000 9250 3000 10100
-$Comp
-L power:VCC #PWR?
-U 1 1 61F1179C
-P 7500 8950
-AR Path="/61F1179C" Ref="#PWR?"  Part="1" 
-AR Path="/63A35802/61F1179C" Ref="#PWR0115"  Part="1" 
-F 0 "#PWR0115" H 7500 8800 50  0001 C CNN
-F 1 "VCC" H 7515 9123 50  0000 C CNN
-F 2 "" H 7500 8950 50  0001 C CNN
-F 3 "" H 7500 8950 50  0001 C CNN
-	1    7500 8950
+L power:GND #PWR0123
+U 1 1 69DE20C5
+P 6325 8100
+F 0 "#PWR0123" H 6325 7850 50  0001 C CNN
+F 1 "GND" H 6330 7927 50  0000 C CNN
+F 2 "" H 6325 8100 50  0001 C CNN
+F 3 "" H 6325 8100 50  0001 C CNN
+	1    6325 8100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7150 8650 7150 8750
-Wire Wire Line
-	7150 9250 7150 10100
-Wire Wire Line
-	7100 10100 7150 10100
-Connection ~ 7150 10100
-Wire Wire Line
-	7150 10100 7300 10100
-Wire Wire Line
-	7150 8750 8100 8750
-Connection ~ 7150 8750
-Wire Wire Line
-	7150 8750 7150 8950
 $Comp
-L power:VCC #PWR?
-U 1 1 6364BAD2
-P 13100 6800
-AR Path="/6364BAD2" Ref="#PWR?"  Part="1" 
-AR Path="/63A35802/6364BAD2" Ref="#PWR017"  Part="1" 
-F 0 "#PWR017" H 13100 6650 50  0001 C CNN
-F 1 "VCC" H 13115 6973 50  0000 C CNN
-F 2 "" H 13100 6800 50  0001 C CNN
-F 3 "" H 13100 6800 50  0001 C CNN
-	1    13100 6800
+L Device:R_US R14
+U 1 1 6954A924
+P 6325 7925
+F 0 "R14" H 6393 7971 50  0000 L CNN
+F 1 "59k" H 6393 7880 50  0000 L CNN
+F 2 "Resistor_SMD:R_2512_6332Metric" V 6365 7915 50  0001 C CNN
+F 3 "~" H 6325 7925 50  0001 C CNN
+	1    6325 7925
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12800 6900 13100 6900
-Wire Wire Line
-	13400 6900 13100 6900
-Connection ~ 13100 6900
-Wire Wire Line
-	13100 6900 13100 6800
-Wire Wire Line
-	1050 7000 1100 7000
-Wire Wire Line
-	1050 7150 1150 7150
-Connection ~ 1100 7000
-Wire Wire Line
-	1100 7000 3150 7000
-Connection ~ 1150 7150
-Wire Wire Line
-	1150 7150 3100 7150
 $Comp
-L power:+3.3V #PWR018
-U 1 1 6163D8D2
-P 1675 7400
-F 0 "#PWR018" H 1675 7250 50  0001 C CNN
-F 1 "+3.3V" H 1690 7573 50  0000 C CNN
-F 2 "" H 1675 7400 50  0001 C CNN
-F 3 "" H 1675 7400 50  0001 C CNN
-	1    1675 7400
-	1    0    0    -1  
-$EndComp
-$Sheet
-S 15250 4300 950  700 
-U 6000FEDE
-F0 "694200101R2_sheet_3" 50
-F1 "694200101R2_sheet_3.sch" 50
-$EndSheet
-$Comp
-L power:GND #PWR019
-U 1 1 61F36928
-P 2325 7975
-F 0 "#PWR019" H 2325 7725 50  0001 C CNN
-F 1 "GND" H 2330 7802 50  0000 C CNN
-F 2 "" H 2325 7975 50  0001 C CNN
-F 3 "" H 2325 7975 50  0001 C CNN
-	1    2325 7975
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Memory_EEPROM:24LC512 U4
-U 1 1 633E718C
-P 1675 7750
-F 0 "U4" H 1475 8075 50  0000 C CNN
-F 1 "24LC512" H 1375 8000 50  0000 C CNN
-F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 1675 7750 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21754M.pdf" H 1675 7750 50  0001 C CNN
-	1    1675 7750
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR06
-U 1 1 6386AD0C
-P 1675 8200
-F 0 "#PWR06" H 1675 7950 50  0001 C CNN
-F 1 "GND" H 1680 8027 50  0000 C CNN
-F 2 "" H 1675 8200 50  0001 C CNN
-F 3 "" H 1675 8200 50  0001 C CNN
-	1    1675 8200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1675 8050 1675 8125
-Wire Wire Line
-	1675 7400 1675 7450
-Wire Wire Line
-	1275 7850 1275 8125
-Wire Wire Line
-	1275 8125 1675 8125
-Wire Wire Line
-	1675 8125 1675 8200
-Connection ~ 1675 8125
-Wire Wire Line
-	1150 7650 1275 7650
-Wire Wire Line
-	1150 7150 1150 7650
-Wire Wire Line
-	1100 7750 1275 7750
-Wire Wire Line
-	1100 7000 1100 7750
-Wire Wire Line
-	2075 7650 2150 7650
-Wire Wire Line
-	2075 7850 2150 7850
-$Comp
-L power:GND #PWR016
-U 1 1 647DBD76
-P 2325 7550
-F 0 "#PWR016" H 2325 7300 50  0001 C CNN
-F 1 "GND" H 2330 7377 50  0000 C CNN
-F 2 "" H 2325 7550 50  0001 C CNN
-F 3 "" H 2325 7550 50  0001 C CNN
-	1    2325 7550
+L Device:R_US R12
+U 1 1 64C0E663
+P 6300 7450
+F 0 "R12" V 6250 7600 50  0000 C CNN
+F 1 "100k" V 6175 7600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6340 7440 50  0001 C CNN
+F 3 "~" H 6300 7450 50  0001 C CNN
+	1    6300 7450
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2150 7850 2150 7975
-Wire Wire Line
-	2150 7975 2325 7975
-Wire Wire Line
-	2150 7650 2150 7550
-Wire Wire Line
-	2150 7550 2325 7550
+	5950 7450 5950 7475
 $Comp
-L power:+3.3V #PWR032
-U 1 1 649A900F
-P 2325 7750
-F 0 "#PWR032" H 2325 7600 50  0001 C CNN
-F 1 "+3.3V" H 2340 7923 50  0000 C CNN
-F 2 "" H 2325 7750 50  0001 C CNN
-F 3 "" H 2325 7750 50  0001 C CNN
-	1    2325 7750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2075 7750 2325 7750
-NoConn ~ 4000 8150
-Wire Wire Line
-	5800 9650 6250 9650
-Wire Wire Line
-	5800 8850 6300 8850
-Wire Wire Line
-	5800 8150 6300 8150
-$Comp
-L cldg:IS31FL3733B-QFLS4-TR U5
-U 1 1 66E02C33
-P 5800 7750
-F 0 "U5" H 6700 8137 60  0000 C CNN
-F 1 "IS31FL3733B-QFLS4-TR" H 6700 8031 60  0000 C CNN
-F 2 "Package_QFP:TQFP-48-1EP_7x7mm_P0.5mm_EP5x5mm_ThermalVias" H 6700 7990 60  0001 C CNN
-F 3 "" H 5800 7750 60  0000 C CNN
-	1    5800 7750
-	-1   0    0    -1  
-$EndComp
-NoConn ~ 8100 8150
-NoConn ~ 8050 9350
-NoConn ~ 8050 9450
-NoConn ~ 8050 9550
-NoConn ~ 8050 9650
-$Comp
-L Device:R_US R11
-U 1 1 674C2102
-P 6950 9675
-F 0 "R11" H 6883 9721 50  0000 R CNN
-F 1 "100k" H 6883 9630 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6990 9665 50  0001 C CNN
-F 3 "~" H 6950 9675 50  0001 C CNN
-	1    6950 9675
+L power:GND #PWR04
+U 1 1 6497F244
+P 5950 7475
+F 0 "#PWR04" H 5950 7225 50  0001 C CNN
+F 1 "GND" H 5955 7302 50  0000 C CNN
+F 2 "" H 5950 7475 50  0001 C CNN
+F 3 "" H 5950 7475 50  0001 C CNN
+	1    5950 7475
 	1    0    0    -1  
 $EndComp
 $Comp
-L cldg:IS31FL3733B-QFLS4-TR U6
-U 1 1 676944FC
-P 9900 7750
-F 0 "U6" H 10800 8137 60  0000 C CNN
-F 1 "IS31FL3733B-QFLS4-TR" H 10800 8031 60  0000 C CNN
-F 2 "Package_QFP:TQFP-48-1EP_7x7mm_P0.5mm_EP5x5mm_ThermalVias" H 10800 7990 60  0001 C CNN
-F 3 "" H 9900 7750 60  0000 C CNN
-	1    9900 7750
-	-1   0    0    -1  
+L power:GND #PWR023
+U 1 1 63EFD874
+P 6600 8025
+F 0 "#PWR023" H 6600 7775 50  0001 C CNN
+F 1 "GND" H 6605 7852 50  0000 C CNN
+F 2 "" H 6600 8025 50  0001 C CNN
+F 3 "" H 6600 8025 50  0001 C CNN
+	1    6600 8025
+	1    0    0    -1  
 $EndComp
+Text Label 7300 6550 1    50   ~ 0
+AVCC_DVCC_CAPS_A
+Wire Wire Line
+	7300 6550 7300 6600
+Wire Wire Line
+	7300 6600 7400 6600
+Connection ~ 7300 6600
+Text Label 8150 9150 0    50   ~ 0
+SW7_A
+Text Label 8150 9250 0    50   ~ 0
+SW8_A
+Text Label 8150 9350 0    50   ~ 0
+SW9_A
+Text Label 8100 9450 0    50   ~ 0
+SW10_A
+Text Label 8100 9550 0    50   ~ 0
+SW11_A
+Text Label 8100 9650 0    50   ~ 0
+SW12_A
+Wire Wire Line
+	8100 8550 8150 8550
+Wire Wire Line
+	8100 8650 8150 8650
+Wire Wire Line
+	8100 8750 8150 8750
+Wire Wire Line
+	8100 8850 8150 8850
+Wire Wire Line
+	8100 8950 8150 8950
+Wire Wire Line
+	8100 9050 8150 9050
+Wire Wire Line
+	8100 9150 8150 9150
+Wire Wire Line
+	8100 9250 8150 9250
+Wire Wire Line
+	8100 9350 8150 9350
+Text Label 8150 9050 0    50   ~ 0
+SW6_A
+Text Label 8150 8950 0    50   ~ 0
+SW5_A
+Text Label 8150 8850 0    50   ~ 0
+SW4_A
+Text Label 8150 8750 0    50   ~ 0
+SW3_A
+Text Label 8150 8650 0    50   ~ 0
+SW2_A
+Text Label 8150 8550 0    50   ~ 0
+SW1_A
+Text Label 9375 7000 0    50   ~ 0
+CAP_PWR_A
+Wire Wire Line
+	9375 7000 9825 7000
+Wire Wire Line
+	9375 7000 9375 7025
+Connection ~ 9825 7000
+Wire Wire Line
+	9825 7000 9825 7650
+Wire Wire Line
+	9825 7000 10250 7000
+Wire Wire Line
+	9825 6900 9825 7000
+Wire Wire Line
+	9825 7650 9825 8300
+Connection ~ 9825 7650
+$Comp
+L power:VCC #PWR?
+U 1 1 67CF9225
+P 9825 6900
+AR Path="/67CF9225" Ref="#PWR?"  Part="1" 
+AR Path="/63A35802/67CF9225" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 9825 6750 50  0001 C CNN
+F 1 "VCC" H 9840 7073 50  0000 C CNN
+F 2 "" H 9825 6900 50  0001 C CNN
+F 3 "" H 9825 6900 50  0001 C CNN
+	1    9825 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 8300 10500 8300
+Wire Wire Line
+	10250 7000 10500 7000
+Wire Wire Line
+	10250 7650 10500 7650
+Connection ~ 10250 8300
+Wire Wire Line
+	9825 8300 10250 8300
+Wire Wire Line
+	9825 7650 10250 7650
+Connection ~ 10250 7650
+Connection ~ 10250 7000
+Text Label 10550 8300 0    50   ~ 0
+AVCC_DVCC_CAPS_A
+Wire Wire Line
+	9375 7325 9375 7350
+$Comp
+L power:GND #PWR0121
+U 1 1 67DD723B
+P 9375 7350
+F 0 "#PWR0121" H 9375 7100 50  0001 C CNN
+F 1 "GND" H 9380 7177 50  0000 C CNN
+F 2 "" H 9375 7350 50  0001 C CNN
+F 3 "" H 9375 7350 50  0001 C CNN
+	1    9375 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C17
+U 1 1 67B2C006
+P 9375 7175
+F 0 "C17" H 9490 7221 50  0000 L CNN
+F 1 "22uF" H 9490 7130 50  0000 L CNN
+F 2 "capacitor-lib:CAPPC3528X210N" H 9375 7175 50  0001 C CNN
+F 3 "~" H 9375 7175 50  0001 C CNN
+	1    9375 7175
+	1    0    0    -1  
+$EndComp
+Text Label 10550 7650 0    50   ~ 0
+PVCC_29_A
+Connection ~ 10500 7650
+Wire Wire Line
+	10500 7650 10550 7650
+Wire Wire Line
+	10375 8000 10500 8000
+Connection ~ 10375 8000
+Wire Wire Line
+	10375 8000 10375 8050
+$Comp
+L power:GND #PWR0120
+U 1 1 67093C3B
+P 10375 8050
+F 0 "#PWR0120" H 10375 7800 50  0001 C CNN
+F 1 "GND" H 10380 7877 50  0000 C CNN
+F 2 "" H 10375 8050 50  0001 C CNN
+F 3 "" H 10375 8050 50  0001 C CNN
+	1    10375 8050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 8000 10500 7975
+Wire Wire Line
+	10250 8000 10375 8000
+Wire Wire Line
+	10250 7975 10250 8000
+Wire Wire Line
+	10500 7650 10500 7675
+Wire Wire Line
+	10250 7675 10250 7650
+$Comp
+L Device:C C16
+U 1 1 67093C2C
+P 10500 7825
+F 0 "C16" H 10615 7871 50  0000 L CNN
+F 1 "100nF" H 10615 7780 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10538 7675 50  0001 C CNN
+F 3 "~" H 10500 7825 50  0001 C CNN
+	1    10500 7825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C15
+U 1 1 67093C20
+P 10250 7825
+F 0 "C15" H 10136 7871 50  0000 R CNN
+F 1 "0.47uF" H 10136 7780 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10288 7675 50  0001 C CNN
+F 3 "~" H 10250 7825 50  0001 C CNN
+	1    10250 7825
+	1    0    0    -1  
+$EndComp
+Connection ~ 10500 7000
+Wire Wire Line
+	10500 7000 10550 7000
+Text Label 10550 7000 0    50   ~ 0
+PVCC_20_A
+Wire Wire Line
+	10375 7350 10500 7350
+Connection ~ 10375 7350
+Wire Wire Line
+	10375 7350 10375 7400
+$Comp
+L power:GND #PWR0114
+U 1 1 667E195A
+P 10375 7400
+F 0 "#PWR0114" H 10375 7150 50  0001 C CNN
+F 1 "GND" H 10380 7227 50  0000 C CNN
+F 2 "" H 10375 7400 50  0001 C CNN
+F 3 "" H 10375 7400 50  0001 C CNN
+	1    10375 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 7350 10500 7325
+Wire Wire Line
+	10250 7350 10375 7350
+Wire Wire Line
+	10250 7325 10250 7350
+Wire Wire Line
+	10500 7000 10500 7025
+Wire Wire Line
+	10250 7025 10250 7000
+$Comp
+L Device:C C14
+U 1 1 6610BE80
+P 10500 7175
+F 0 "C14" H 10615 7221 50  0000 L CNN
+F 1 "100nF" H 10615 7130 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10538 7025 50  0001 C CNN
+F 3 "~" H 10500 7175 50  0001 C CNN
+	1    10500 7175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C13
+U 1 1 66102312
+P 10250 7175
+F 0 "C13" H 10136 7221 50  0000 R CNN
+F 1 "0.47uF" H 10136 7130 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10288 7025 50  0001 C CNN
+F 3 "~" H 10250 7175 50  0001 C CNN
+	1    10250 7175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10375 8650 10500 8650
+Connection ~ 10375 8650
+Wire Wire Line
+	10375 8650 10375 8700
+$Comp
+L power:GND #PWR036
+U 1 1 65BBAD5F
+P 10375 8700
+F 0 "#PWR036" H 10375 8450 50  0001 C CNN
+F 1 "GND" H 10380 8527 50  0000 C CNN
+F 2 "" H 10375 8700 50  0001 C CNN
+F 3 "" H 10375 8700 50  0001 C CNN
+	1    10375 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 8650 10500 8625
+Wire Wire Line
+	10250 8650 10375 8650
+Wire Wire Line
+	10250 8625 10250 8650
+Connection ~ 10500 8300
+Wire Wire Line
+	10500 8300 10550 8300
+Wire Wire Line
+	10500 8300 10500 8325
+Wire Wire Line
+	10250 8325 10250 8300
+$Comp
+L Device:C C12
+U 1 1 653E9C00
+P 10500 8475
+F 0 "C12" H 10615 8521 50  0000 L CNN
+F 1 "100nF" H 10615 8430 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10538 8325 50  0001 C CNN
+F 3 "~" H 10500 8475 50  0001 C CNN
+	1    10500 8475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C11
+U 1 1 653013B3
+P 10250 8475
+F 0 "C11" H 10136 8521 50  0000 R CNN
+F 1 "0.47uF" H 10136 8430 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10288 8325 50  0001 C CNN
+F 3 "~" H 10250 8475 50  0001 C CNN
+	1    10250 8475
+	1    0    0    -1  
+$EndComp
+Text Notes 9325 7400 2    50   ~ 0
+LED_DRIVER_A\nPWR_FILTER
+Text Notes 10525 8200 0    50   ~ 0
+LED_DRIVER_A\nP29
+Text Notes 10500 7550 0    50   ~ 0
+LED_DRIVER_A\nP20
+Text Notes 10500 8850 0    50   ~ 0
+LED_DRIVER_A\nP37/38
+Text Label 8150 6850 0    50   ~ 0
+CS1_A
+Text Label 1500 900  1    50   ~ 0
+CS1_A
+Text Label 850  1200 2    50   ~ 0
+SW12_A
+Wire Wire Line
+	1125 6425 1825 6425
+Wire Wire Line
+	1125 6575 1725 6575
+Text Label 7500 6550 1    50   ~ 0
+PVCC_20_A
+Text Label 7600 6550 1    50   ~ 0
+PVCC_29_A
+Text Label 8150 6950 0    50   ~ 0
+CS2_A
+Text Label 8150 7050 0    50   ~ 0
+CS3_A
+Text Label 8150 7150 0    50   ~ 0
+CS4_A
+Text Label 8150 7250 0    50   ~ 0
+CS5_A
+Text Label 8150 7350 0    50   ~ 0
+CS6_A
+Wire Wire Line
+	7400 6600 7400 6650
+Wire Wire Line
+	7300 6600 7300 6650
+Wire Wire Line
+	7600 6550 7600 6650
+Wire Wire Line
+	7500 6550 7500 6650
+Text Label 8150 7450 0    50   ~ 0
+CS7_A
+Text Label 8150 7550 0    50   ~ 0
+CS8_A
+Text Label 8150 7650 0    50   ~ 0
+CS9_A
+Text Label 8100 7750 0    50   ~ 0
+CS10_A
+Text Label 8100 7850 0    50   ~ 0
+CS11_A
+Text Label 8100 7950 0    50   ~ 0
+CS12_A
+Text Label 8100 8050 0    50   ~ 0
+CS13_A
+Text Label 8100 8150 0    50   ~ 0
+CS14_A
+Text Label 8100 8250 0    50   ~ 0
+CS15_A
+Text Label 8100 8350 0    50   ~ 0
+CS16_A
+Wire Wire Line
+	8100 6850 8150 6850
+Wire Wire Line
+	8100 6950 8150 6950
+Wire Wire Line
+	8100 7050 8150 7050
+Wire Wire Line
+	8100 7150 8150 7150
+Wire Wire Line
+	8100 7250 8150 7250
+Wire Wire Line
+	8100 7350 8150 7350
+Wire Wire Line
+	8100 7450 8150 7450
+Wire Wire Line
+	8100 7550 8150 7550
+Wire Wire Line
+	8100 7650 8150 7650
+Text Label 2200 900  1    50   ~ 0
+CS2_A
+Text Label 2900 900  1    50   ~ 0
+CS3_A
+Text Label 3600 900  1    50   ~ 0
+CS4_A
+Text Label 4300 900  1    50   ~ 0
+CS5_A
+Text Label 5000 900  1    50   ~ 0
+CS6_A
+Text Label 5700 900  1    50   ~ 0
+CS7_A
+Text Label 6400 900  1    50   ~ 0
+CS8_A
+Text Label 7100 900  1    50   ~ 0
+CS9_A
+Text Label 7800 850  1    50   ~ 0
+CS10_A
+Text Label 8500 850  1    50   ~ 0
+CS11_A
+Text Label 9200 850  1    50   ~ 0
+CS12_A
+Text Label 9900 850  1    50   ~ 0
+CS13_A
+Text Label 10600 850  1    50   ~ 0
+CS14_A
+Text Label 11250 850  1    50   ~ 0
+CS15_A
+Text Label 11900 850  1    50   ~ 0
+CS16_A
+Wire Wire Line
+	1825 6425 2525 6425
+Connection ~ 1825 6425
+Wire Wire Line
+	1725 6575 2525 6575
+Connection ~ 1725 6575
+Wire Notes Line
+	8700 10200 8700 5750
+Wire Notes Line
+	5350 5750 5350 10200
+Text Notes 5400 10150 0    50   ~ 0
+LED Driver A - Addr 
+Wire Notes Line
+	11425 5750 11425 10200
+Wire Notes Line
+	5350 10200 11425 10200
+Wire Notes Line
+	5350 5750 11425 5750
+Text Notes 8750 10150 0    50   ~ 0
+LED Driver A - Power Filtering
+Wire Wire Line
+	3475 6550 3600 6550
+$Comp
+L cldg:IS31FL3733-TQ U5
+U 1 1 75779C2E
+P 7400 8250
+F 0 "U5" H 7400 8250 50  0000 C CNN
+F 1 "IS31FL3733-TQ" H 7400 8175 50  0000 C CNN
+F 2 "Package_QFP:TQFP-48-1EP_7x7mm_P0.5mm_EP5x5mm_ThermalVias" H 7400 8250 50  0001 C CNN
+F 3 "http://www.issi.com/WW/pdf/IS31FL3733.pdf" H 7400 8250 50  0001 C CNN
+	1    7400 8250
+	1    0    0    -1  
+$EndComp
+Text Label 3600 6550 0    50   ~ 0
+SYNC_OUT
 $EndSCHEMATC

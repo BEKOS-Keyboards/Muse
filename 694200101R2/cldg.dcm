@@ -6,6 +6,12 @@ K AP2114H-3.3TRG1DICT-ND
 F https://www.diodes.com/assets/Datasheets/AP2114.pdf
 $ENDCMP
 #
+$CMP IS31FL3733-TQ
+D 12x16 LED matrix driver with 8-bit PWM and breathing, TQFP-48
+K led matrix pwm
+F http://www.issi.com/WW/pdf/IS31FL3733.pdf
+$ENDCMP
+#
 $CMP MX_SW
 D Push button switch, generic, two pins
 K switch normally-open pushbutton push-button

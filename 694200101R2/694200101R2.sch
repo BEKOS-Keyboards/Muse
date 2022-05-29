@@ -1495,13 +1495,9 @@ Connection ~ 4700 900
 Wire Wire Line
 	5400 850  5400 1550
 Wire Wire Line
-	12200 8250 12100 8250
+	14975 5800 14600 5800
 Wire Wire Line
-	12200 8350 12100 8350
-Text GLabel 12100 8250 0    50   Input ~ 0
-I2C_SCL
-Text GLabel 12100 8350 0    50   Input ~ 0
-I2C_SDA
+	14975 5900 14600 5900
 Wire Wire Line
 	6100 900  6100 1550
 Wire Wire Line
@@ -4814,17 +4810,6 @@ Text GLabel 4350 5800 2    50   Input ~ 0
 USB_D-
 Text GLabel 4350 6200 2    50   Input ~ 0
 USB_D+
-$Comp
-L BekosLogo:LOGO #G1
-U 1 1 6385997F
-P 14075 8350
-F 0 "#G1" H 14075 8040 60  0001 C CNN
-F 1 "LOGO" H 14075 8660 60  0001 C CNN
-F 2 "BekosLogo:BekosLogo" H 14075 8350 50  0001 C CNN
-F 3 "" H 14075 8350 50  0001 C CNN
-	1    14075 8350
-	1    0    0    -1  
-$EndComp
 NoConn ~ 1750 6550
 NoConn ~ 1750 6450
 $Comp
@@ -5473,10 +5458,6 @@ Text GLabel 10775 6975 2    50   Input ~ 0
 USB_D-
 Text GLabel 10775 7075 2    50   Input ~ 0
 USB_D+
-Text GLabel 10775 8275 2    50   Input ~ 0
-I2C_SDA
-Text GLabel 10775 8175 2    50   Input ~ 0
-I2C_SCL
 Wire Wire Line
 	10025 9375 10025 9475
 $Comp
@@ -5541,10 +5522,6 @@ Text GLabel 8050 5800 2    50   Input ~ 0
 ROW_4_MCU
 Text GLabel 9375 8775 0    50   Input ~ 0
 ROW_4_MCU
-Text GLabel 8050 5200 2    50   Input ~ 0
-ROW_0_MCU
-Text GLabel 10775 8075 2    50   Input ~ 0
-ROW_0_MCU
 Wire Wire Line
 	8000 5400 8050 5400
 Text GLabel 8050 5400 2    50   Input ~ 0
@@ -5565,10 +5542,6 @@ Text GLabel 7150 5400 0    50   Input ~ 0
 ROW_2
 Wire Wire Line
 	7200 5400 7150 5400
-Text GLabel 8050 7050 2    50   Input ~ 0
-I2C_SCL
-Text GLabel 8050 6800 2    50   Input ~ 0
-I2C_SDA
 Wire Wire Line
 	8050 7050 8000 7050
 Wire Wire Line
@@ -6335,8 +6308,6 @@ Wire Notes Line
 Wire Notes Line
 	11650 7400 14375 7400
 Wire Notes Line
-	14375 7400 14375 4900
-Wire Notes Line
 	650  4900 14375 4900
 Wire Notes Line
 	6700 6550 8650 6550
@@ -6394,14 +6365,6 @@ Wire Wire Line
 	2625 6875 2725 6875
 Wire Wire Line
 	3250 6875 3550 6875
-$Sheet
-S 12200 7750 900  800 
-U 63A35802
-F0 "694200101R2_sheet_2" 50
-F1 "694200101R2_sheet_2.sch" 50
-F2 "I2C_SDA" B L 12200 8350 50 
-F3 "I2C_SCL" B L 12200 8250 50 
-$EndSheet
 $Comp
 L power:GND #PWR01
 U 1 1 62B0C094
@@ -6471,4 +6434,152 @@ $EndComp
 NoConn ~ 7575 8600
 Wire Wire Line
 	7575 8800 7725 8800
+Text Label 10775 8175 0    50   ~ 0
+I2C_SCL
+Text Label 14600 5900 0    50   ~ 0
+I2C_SDA
+Text Label 10775 8275 0    50   ~ 0
+I2C_SDA
+Text Label 14600 5800 0    50   ~ 0
+I2C_SCL
+Text Label 8050 5200 0    50   ~ 0
+ROW_0_MCU
+Text Label 10775 8075 0    50   ~ 0
+ROW_0_MCU
+Text Label 8050 7050 0    50   ~ 0
+I2C_SCL
+Text Label 8050 6800 0    50   ~ 0
+I2C_SDA
+$Sheet
+S 14975 5300 900  800 
+U 63A35802
+F0 "LED Drivers" 50
+F1 "694200101R2_sheet_2.sch" 50
+F2 "I2C_SDA" B L 14975 5900 50 
+F3 "I2C_SCL" I L 14975 5800 50 
+$EndSheet
+$Comp
+L BekosLogo:LOGO #G1
+U 1 1 6385997F
+P 15600 6900
+F 0 "#G1" H 15600 6590 60  0001 C CNN
+F 1 "LOGO" H 15600 7210 60  0001 C CNN
+F 2 "BekosLogo:BekosLogo" H 15600 6900 50  0001 C CNN
+F 3 "" H 15600 6900 50  0001 C CNN
+	1    15600 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 7325C2C0
+P 12900 8525
+AR Path="/63A35802/7325C2C0" Ref="#PWR?"  Part="1" 
+AR Path="/7325C2C0" Ref="#PWR016"  Part="1" 
+F 0 "#PWR016" H 12900 8275 50  0001 C CNN
+F 1 "GND" H 12905 8352 50  0000 C CNN
+F 2 "" H 12900 8525 50  0001 C CNN
+F 3 "" H 12900 8525 50  0001 C CNN
+	1    12900 8525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12500 8450 12900 8450
+Wire Wire Line
+	12900 8450 12900 8525
+Connection ~ 12900 8450
+$Comp
+L power:+3.3V #PWR?
+U 1 1 7325C2CA
+P 13550 8075
+AR Path="/63A35802/7325C2CA" Ref="#PWR?"  Part="1" 
+AR Path="/7325C2CA" Ref="#PWR018"  Part="1" 
+F 0 "#PWR018" H 13550 7925 50  0001 C CNN
+F 1 "+3.3V" H 13565 8248 50  0000 C CNN
+F 2 "" H 13550 8075 50  0001 C CNN
+F 3 "" H 13550 8075 50  0001 C CNN
+	1    13550 8075
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13375 7875 13550 7875
+Wire Wire Line
+	13375 7975 13375 7875
+Wire Wire Line
+	13375 8300 13550 8300
+Wire Wire Line
+	13375 8175 13375 8300
+$Comp
+L power:GND #PWR?
+U 1 1 7325C2D4
+P 13550 7875
+AR Path="/63A35802/7325C2D4" Ref="#PWR?"  Part="1" 
+AR Path="/7325C2D4" Ref="#PWR017"  Part="1" 
+F 0 "#PWR017" H 13550 7625 50  0001 C CNN
+F 1 "GND" H 13555 7702 50  0000 C CNN
+F 2 "" H 13550 7875 50  0001 C CNN
+F 3 "" H 13550 7875 50  0001 C CNN
+	1    13550 7875
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 7325C2DA
+P 13550 8300
+AR Path="/63A35802/7325C2DA" Ref="#PWR?"  Part="1" 
+AR Path="/7325C2DA" Ref="#PWR019"  Part="1" 
+F 0 "#PWR019" H 13550 8050 50  0001 C CNN
+F 1 "GND" H 13555 8127 50  0000 C CNN
+F 2 "" H 13550 8300 50  0001 C CNN
+F 3 "" H 13550 8300 50  0001 C CNN
+	1    13550 8300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 7325C2E0
+P 12900 7725
+AR Path="/63A35802/7325C2E0" Ref="#PWR?"  Part="1" 
+AR Path="/7325C2E0" Ref="#PWR06"  Part="1" 
+F 0 "#PWR06" H 12900 7575 50  0001 C CNN
+F 1 "+3.3V" H 12915 7898 50  0000 C CNN
+F 2 "" H 12900 7725 50  0001 C CNN
+F 3 "" H 12900 7725 50  0001 C CNN
+	1    12900 7725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12900 7725 12900 7775
+Wire Wire Line
+	12500 8175 12500 8450
+Wire Wire Line
+	12900 8375 12900 8450
+Wire Wire Line
+	13300 8175 13375 8175
+Wire Wire Line
+	13300 8075 13550 8075
+Wire Wire Line
+	13300 7975 13375 7975
+$Comp
+L Memory_EEPROM:24LC512 U?
+U 1 1 7325C2EC
+P 12900 8075
+AR Path="/63A35802/7325C2EC" Ref="U?"  Part="1" 
+AR Path="/7325C2EC" Ref="U4"  Part="1" 
+F 0 "U4" H 12700 8400 50  0000 C CNN
+F 1 "24LC512" H 12600 8325 50  0000 C CNN
+F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 12900 8075 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21754M.pdf" H 12900 8075 50  0001 C CNN
+	1    12900 8075
+	-1   0    0    -1  
+$EndComp
+Text Label 12500 8075 2    50   ~ 0
+I2C_SCL
+Text Label 12500 7975 2    50   ~ 0
+I2C_SDA
+Wire Notes Line
+	14375 9000 11650 9000
+Wire Notes Line
+	14375 4900 14375 9000
+Text Notes 11725 8925 0    50   ~ 0
+EEPROM - User Settings Storage
 $EndSCHEMATC
