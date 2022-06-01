@@ -2895,7 +2895,7 @@ Wire Wire Line
 Wire Notes Line
 	4200 7475 4200 3025
 Text Notes 900  7425 0    50   ~ 0
-LED Driver B - Addr 
+LED Driver B - Addr 0x51
 Wire Notes Line
 	6925 3025 6925 7475
 Wire Notes Line

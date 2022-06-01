@@ -3606,7 +3606,7 @@ Wire Notes Line
 Wire Notes Line
 	5350 5750 5350 10200
 Text Notes 5400 10150 0    50   ~ 0
-LED Driver A - Addr 
+LED Driver A - Addr 0x50
 Wire Notes Line
 	11425 5750 11425 10200
 Wire Notes Line
