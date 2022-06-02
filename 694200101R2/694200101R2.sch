@@ -90,8 +90,6 @@ F 3 "~" H 1150 1100 50  0001 C CNN
 	1    1150 900 
 	1    0    0    -1  
 $EndComp
-Text GLabel 850  1300 0    50   Input ~ 0
-ROW_0
 Text GLabel 1350 850  1    50   Input ~ 0
 COL_0
 Wire Wire Line
@@ -265,16 +263,6 @@ F 3 "~" H 1150 4350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	900  3150 900  3250
-Text GLabel 850  1950 0    50   Input ~ 0
-ROW_2
-Text GLabel 850  2600 0    50   Input ~ 0
-ROW_3
-Text GLabel 850  3250 0    50   Input ~ 0
-ROW_4
-Text GLabel 850  3900 0    50   Input ~ 0
-ROW_5
-Text GLabel 850  4550 0    50   Input ~ 0
-ROW_6
 Text GLabel 1950 850  1    50   Input ~ 0
 COL_1
 Wire Wire Line
@@ -5289,16 +5277,6 @@ Text GLabel 10775 6875 2    50   Input ~ 0
 COL_1
 Text GLabel 10775 7375 2    50   Input ~ 0
 COL_0
-Text GLabel 7150 6200 0    50   Input ~ 0
-ROW_6
-Text GLabel 7150 6000 0    50   Input ~ 0
-ROW_5
-Text GLabel 7150 5800 0    50   Input ~ 0
-ROW_4
-Text GLabel 7150 5600 0    50   Input ~ 0
-ROW_3
-Text GLabel 7150 5200 0    50   Input ~ 0
-ROW_0
 $Comp
 L power:+3V3 #PWR014
 U 1 1 60025E0E
@@ -5388,32 +5366,12 @@ Wire Wire Line
 	10125 5275 10125 5225
 Wire Wire Line
 	9825 5275 10125 5275
-Text GLabel 8050 5600 2    50   Input ~ 0
-ROW_3_MCU
 Wire Wire Line
 	8000 5600 8050 5600
-Text GLabel 9375 7375 0    50   Input ~ 0
-ROW_3_MCU
-Text GLabel 9375 7675 0    50   Input ~ 0
-ROW_2_MCU
-Text GLabel 9375 8575 0    50   Input ~ 0
-ROW_6_MCU
-Text GLabel 8050 6200 2    50   Input ~ 0
-ROW_6_MCU
 Wire Wire Line
 	8000 6200 8050 6200
-Text GLabel 8050 6000 2    50   Input ~ 0
-ROW_5_MCU
-Text GLabel 9375 8675 0    50   Input ~ 0
-ROW_5_MCU
-Text GLabel 8050 5800 2    50   Input ~ 0
-ROW_4_MCU
-Text GLabel 9375 8775 0    50   Input ~ 0
-ROW_4_MCU
 Wire Wire Line
 	8000 5400 8050 5400
-Text GLabel 8050 5400 2    50   Input ~ 0
-ROW_2_MCU
 $Comp
 L Resistor-Lib:RMCF0805FT510R R4
 U 1 1 602BDFC6
@@ -5426,8 +5384,6 @@ F 4 "510" H 7900 5450 50  0000 C CNN "reistance"
 	1    7600 5400
 	1    0    0    -1  
 $EndComp
-Text GLabel 7150 5400 0    50   Input ~ 0
-ROW_2
 Wire Wire Line
 	7200 5400 7150 5400
 Wire Wire Line
@@ -5477,7 +5433,7 @@ ENCODER_A
 Text Notes 11725 7325 0    50   ~ 0
 Encoder
 Text Notes 4800 9650 0    50   ~ 0
-Debug and boot-set headers
+Debug headers
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 63B2ACB7
@@ -5968,7 +5924,6 @@ $EndComp
 Wire Wire Line
 	9775 5650 9825 5650
 Connection ~ 9825 5650
-NoConn ~ 9375 7775
 NoConn ~ 10775 7975
 $Comp
 L Power_Protection:USBLC6-2P6 U2
@@ -6578,4 +6533,49 @@ Wire Wire Line
 Connection ~ 2025 9075
 Wire Wire Line
 	2025 9075 2200 9075
+Text Label 8050 5400 0    50   ~ 0
+ROW_2_MCU
+Text Label 8050 5600 0    50   ~ 0
+ROW_3_MCU
+Text Label 8050 5800 0    50   ~ 0
+ROW_4_MCU
+Text Label 8050 6000 0    50   ~ 0
+ROW_5_MCU
+Text Label 8050 6200 0    50   ~ 0
+ROW_6_MCU
+Text Label 9375 7675 2    50   ~ 0
+ROW_2_MCU
+Text Label 9375 7375 2    50   ~ 0
+ROW_3_MCU
+Text Label 9375 8775 2    50   ~ 0
+ROW_4_MCU
+Text Label 9375 8675 2    50   ~ 0
+ROW_5_MCU
+Text Label 9375 8575 2    50   ~ 0
+ROW_6_MCU
+Text Label 7150 5200 2    50   ~ 0
+ROW_0
+Text Label 7150 5400 2    50   ~ 0
+ROW_2
+Text Label 7150 5600 2    50   ~ 0
+ROW_3
+Text Label 7150 5800 2    50   ~ 0
+ROW_4
+Text Label 7150 6000 2    50   ~ 0
+ROW_5
+Text Label 7150 6200 2    50   ~ 0
+ROW_6
+Text Label 850  1300 2    50   ~ 0
+ROW_0
+Text Label 850  1950 2    50   ~ 0
+ROW_2
+Text Label 850  2600 2    50   ~ 0
+ROW_3
+Text Label 850  3250 2    50   ~ 0
+ROW_4
+Text Label 850  3900 2    50   ~ 0
+ROW_5
+Text Label 850  4550 2    50   ~ 0
+ROW_6
+NoConn ~ 9375 7775
 $EndSCHEMATC
