@@ -5834,8 +5834,6 @@ F 16 "" H 13000 7625 50  0001 L CNN "voltage"
 $EndComp
 Wire Wire Line
 	12825 5825 12850 5825
-Text GLabel 12825 5825 0    50   Input ~ 0
-ROW_0
 Wire Wire Line
 	13175 6025 13100 6025
 Wire Wire Line
@@ -5848,10 +5846,10 @@ Wire Wire Line
 Wire Wire Line
 	12800 6125 12800 6150
 $Comp
-L Device:C C9
+L Device:C C10
 U 1 1 65C47B00
 P 12800 6300
-F 0 "C9" H 12915 6346 50  0000 L CNN
+F 0 "C10" H 12915 6346 50  0000 L CNN
 F 1 "10nF" H 12915 6255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 12838 6150 50  0001 C CNN
 F 3 "~" H 12800 6300 50  0001 C CNN
@@ -5865,10 +5863,10 @@ Connection ~ 13100 6225
 Wire Wire Line
 	13100 6025 13100 6225
 $Comp
-L Device:C C10
+L Device:C C9
 U 1 1 658CEFEB
 P 12525 6300
-F 0 "C10" H 12411 6346 50  0000 R CNN
+F 0 "C9" H 12411 6346 50  0000 R CNN
 F 1 "10nF" H 12411 6255 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 12563 6150 50  0001 C CNN
 F 3 "~" H 12525 6300 50  0001 C CNN
@@ -5924,7 +5922,7 @@ $EndComp
 Wire Wire Line
 	9775 5650 9825 5650
 Connection ~ 9825 5650
-NoConn ~ 10775 7975
+NoConn ~ 11100 7975
 $Comp
 L Power_Protection:USBLC6-2P6 U2
 U 1 1 67AF17E5
@@ -6007,7 +6005,7 @@ Wire Wire Line
 Wire Wire Line
 	9425 7875 9375 7875
 Wire Wire Line
-	9425 7775 9375 7775
+	9425 7775 9050 7775
 NoConn ~ 9425 9075
 NoConn ~ 9425 8975
 NoConn ~ 9425 8875
@@ -6029,7 +6027,7 @@ Wire Wire Line
 Wire Wire Line
 	10725 8075 10775 8075
 Wire Wire Line
-	10725 7975 10775 7975
+	10725 7975 11100 7975
 Wire Wire Line
 	10725 7875 10775 7875
 Wire Wire Line
@@ -6577,5 +6575,11 @@ Text Label 850  3900 2    50   ~ 0
 ROW_5
 Text Label 850  4550 2    50   ~ 0
 ROW_6
-NoConn ~ 9375 7775
+NoConn ~ 9050 7775
+Text Label 12825 5825 2    50   ~ 0
+ROW_0
+Text Label 9375 7775 2    50   ~ 0
+COL_18
+Text Label 10775 7975 0    50   ~ 0
+ROW_1
 $EndSCHEMATC
