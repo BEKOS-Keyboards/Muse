@@ -6390,26 +6390,6 @@ F 3 "~" H 3175 7975 50  0001 C CNN
 	1    3175 7975
 	1    0    0    -1  
 $EndComp
-$Comp
-L cldg:AP2114HA-3_3TRG1 U1
-U 1 1 62A6A64D
-P 2650 7775
-F 0 "U1" H 2600 8050 60  0000 C CNN
-F 1 "AP2114HA-3_3TRG1" H 2600 7950 60  0000 C CNN
-F 2 "digikey-footprints:SOT-223" H 2850 7975 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/AP2114.pdf" H 2850 8075 60  0001 L CNN
-F 4 "AP2114H-3.3TRG1DICT-ND" H 2850 8175 60  0001 L CNN "Digi-Key_PN"
-F 5 "AP2114H-3.3TRG1" H 2850 8275 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 2850 8375 60  0001 L CNN "Category"
-F 7 "PMIC - Voltage Regulators - Linear" H 2850 8475 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/AP2114.pdf" H 2850 8575 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/AP2114H-3.3TRG1/AP2114H-3.3TRG1DICT-ND/4505142" H 2850 8675 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC REG LINEAR 3.3V 1A SOT223" H 2850 8775 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 2850 8875 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 2850 8975 60  0001 L CNN "Status"
-	1    2650 7775
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3625 5100 3575 5100
 Wire Wire Line
@@ -6582,4 +6562,24 @@ Text Label 9375 7775 2    50   ~ 0
 COL_18
 Text Label 10775 7975 0    50   ~ 0
 ROW_1
+$Comp
+L cldg:AP2114HA-3_3TRG1 U1
+U 1 1 632C3127
+P 2650 7775
+F 0 "U1" H 2600 8062 60  0000 C CNN
+F 1 "AP2114HA-3_3TRG1" H 2600 7956 60  0000 C CNN
+F 2 "digikey-footprints:SOT-223" H 2850 7975 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP2114.pdf" H 2850 8075 60  0001 L CNN
+F 4 "AP2114H-3.3TRG1DICT-ND" H 2850 8175 60  0001 L CNN "Digi-Key_PN"
+F 5 "AP2114H-3.3TRG1" H 2850 8275 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 2850 8375 60  0001 L CNN "Category"
+F 7 "PMIC - Voltage Regulators - Linear" H 2850 8475 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/AP2114.pdf" H 2850 8575 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/AP2114H-3.3TRG1/AP2114H-3.3TRG1DICT-ND/4505142" H 2850 8675 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC REG LINEAR 3.3V 1A SOT223" H 2850 8775 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 2850 8875 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2850 8975 60  0001 L CNN "Status"
+	1    2650 7775
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
