@@ -36,69 +36,47 @@ F 3 "" H 10125 5225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male J3
-U 1 1 6006B89E
-P 4950 7700
-F 0 "J3" H 4922 7674 50  0000 R CNN
-F 1 "Conn_01x02_Male" H 5600 7550 50  0001 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4950 7700 50  0001 C CNN
-F 3 "~" H 4950 7700 50  0001 C CNN
-	1    4950 7700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR09
-U 1 1 60076D41
-P 5150 7700
-F 0 "#PWR09" H 5150 7550 50  0001 C CNN
-F 1 "+3V3" H 5100 7850 50  0000 C CNN
-F 2 "" H 5150 7700 50  0001 C CNN
-F 3 "" H 5150 7700 50  0001 C CNN
-	1    5150 7700
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR010
 U 1 1 6007927B
-P 6250 9400
-F 0 "#PWR010" H 6250 9150 50  0001 C CNN
-F 1 "GND" H 6255 9227 50  0000 C CNN
-F 2 "" H 6250 9400 50  0001 C CNN
-F 3 "" H 6250 9400 50  0001 C CNN
-	1    6250 9400
+P 6200 8850
+F 0 "#PWR010" H 6200 8600 50  0001 C CNN
+F 1 "GND" H 6205 8677 50  0000 C CNN
+F 2 "" H 6200 8850 50  0001 C CNN
+F 3 "" H 6200 8850 50  0001 C CNN
+	1    6200 8850
 	1    0    0    -1  
 $EndComp
 $Comp
 L capacitor-lib:CL10B104KB8NNNL C7
 U 1 1 600879ED
-P 6250 9150
-F 0 "C7" H 6378 9096 50  0000 L CNN
-F 1 "CL10B104KB8NNNL" H 6378 9005 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6250 9450 50  0001 L CNN
-F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 6250 9550 50  0001 L CNN
-F 4 "No" H 6250 9650 50  0001 L CNN "automotive"
-F 5 "100nF" H 6378 9005 50  0000 L CNN "capacitance"
-F 6 "Cap" H 6250 9850 50  0001 L CNN "category"
-F 7 "Passive Components" H 6250 9950 50  0001 L CNN "device class L1"
-F 8 "Capacitors" H 6250 10050 50  0001 L CNN "device class L2"
-F 9 "Ceramic Capacitors" H 6250 10150 50  0001 L CNN "device class L3"
-F 10 "" H 6250 10250 50  0001 L CNN "digikey description"
-F 11 "" H 6250 10350 50  0001 L CNN "digikey part number"
-F 12 "0.9mm" H 6250 10450 50  0001 L CNN "height"
-F 13 "CAPC16080X80" H 6250 10550 50  0001 L CNN "ipc land pattern name"
-F 14 "Yes" H 6250 10650 50  0001 L CNN "lead free"
-F 15 "d416e2ef1cbb0413" H 6250 10750 50  0001 L CNN "library id"
-F 16 "Samsung" H 6250 10850 50  0001 L CNN "manufacturer"
-F 17 "Ceramic" H 6250 10950 50  0001 L CNN "material"
-F 18 "0603" H 6250 11050 50  0001 L CNN "package"
-F 19 "Yes" H 6250 11150 50  0001 L CNN "rohs"
-F 20 "X7R" H 6250 11250 50  0001 L CNN "temperature characteristic"
-F 21 "0.15" H 6250 11350 50  0001 L CNN "temperature coefficient"
-F 22 "+125°C" H 6250 11450 50  0001 L CNN "temperature range high"
-F 23 "-55°C" H 6250 11550 50  0001 L CNN "temperature range low"
-F 24 "10%" H 6250 11650 50  0001 L CNN "tolerance"
-F 25 "50V" H 6250 11750 50  0001 L CNN "voltage rating"
-	1    6250 9150
+P 6200 8600
+F 0 "C7" H 6328 8546 50  0000 L CNN
+F 1 "CL10B104KB8NNNL" H 6328 8455 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6200 8900 50  0001 L CNN
+F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 6200 9000 50  0001 L CNN
+F 4 "No" H 6200 9100 50  0001 L CNN "automotive"
+F 5 "100nF" H 6328 8455 50  0000 L CNN "capacitance"
+F 6 "Cap" H 6200 9300 50  0001 L CNN "category"
+F 7 "Passive Components" H 6200 9400 50  0001 L CNN "device class L1"
+F 8 "Capacitors" H 6200 9500 50  0001 L CNN "device class L2"
+F 9 "Ceramic Capacitors" H 6200 9600 50  0001 L CNN "device class L3"
+F 10 "" H 6200 9700 50  0001 L CNN "digikey description"
+F 11 "" H 6200 9800 50  0001 L CNN "digikey part number"
+F 12 "0.9mm" H 6200 9900 50  0001 L CNN "height"
+F 13 "CAPC16080X80" H 6200 10000 50  0001 L CNN "ipc land pattern name"
+F 14 "Yes" H 6200 10100 50  0001 L CNN "lead free"
+F 15 "d416e2ef1cbb0413" H 6200 10200 50  0001 L CNN "library id"
+F 16 "Samsung" H 6200 10300 50  0001 L CNN "manufacturer"
+F 17 "Ceramic" H 6200 10400 50  0001 L CNN "material"
+F 18 "0603" H 6200 10500 50  0001 L CNN "package"
+F 19 "Yes" H 6200 10600 50  0001 L CNN "rohs"
+F 20 "X7R" H 6200 10700 50  0001 L CNN "temperature characteristic"
+F 21 "0.15" H 6200 10800 50  0001 L CNN "temperature coefficient"
+F 22 "+125°C" H 6200 10900 50  0001 L CNN "temperature range high"
+F 23 "-55°C" H 6200 11000 50  0001 L CNN "temperature range low"
+F 24 "10%" H 6200 11100 50  0001 L CNN "tolerance"
+F 25 "50V" H 6200 11200 50  0001 L CNN "voltage rating"
+	1    6200 8600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4539,34 +4517,34 @@ Wire Wire Line
 Connection ~ 6350 3250
 Connection ~ 7050 3250
 Wire Wire Line
-	5850 8650 6000 8650
-Text GLabel 6000 8650 2    50   Input ~ 0
+	5800 8100 5950 8100
+Text GLabel 5950 8100 2    50   Input ~ 0
 SWCLK
 Wire Wire Line
-	5850 8750 6350 8750
+	5800 8200 6300 8200
 $Comp
 L power:GND #PWR011
 U 1 1 602A2E5A
-P 6350 8800
-F 0 "#PWR011" H 6350 8550 50  0001 C CNN
-F 1 "GND" H 6355 8627 50  0000 C CNN
-F 2 "" H 6350 8800 50  0001 C CNN
-F 3 "" H 6350 8800 50  0001 C CNN
-	1    6350 8800
+P 6300 8250
+F 0 "#PWR011" H 6300 8000 50  0001 C CNN
+F 1 "GND" H 6305 8077 50  0000 C CNN
+F 2 "" H 6300 8250 50  0001 C CNN
+F 3 "" H 6300 8250 50  0001 C CNN
+	1    6300 8250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5850 8850 6000 8850
-Text GLabel 6000 8850 2    50   Input ~ 0
+	5800 8300 5950 8300
+Text GLabel 5950 8300 2    50   Input ~ 0
 SWDIO
 Wire Wire Line
-	6250 8950 5850 8950
+	6200 8400 5800 8400
 Wire Wire Line
-	5850 9050 6000 9050
-Text GLabel 6000 9050 2    50   Input ~ 0
+	5800 8500 5950 8500
+Text GLabel 5950 8500 2    50   Input ~ 0
 SWO
 Wire Wire Line
-	6250 9350 6250 9400
+	6200 8800 6200 8850
 $Comp
 L cldg:MX_Stab_225 SP1
 U 1 1 60679C49
@@ -4717,50 +4695,46 @@ F 3 "~" H 4950 5300 50  0001 C CNN
 	1    4950 5300
 	1    0    0    -1  
 $EndComp
-Text Label 6250 9100 0    50   ~ 0
+Text Label 6200 8550 0    50   ~ 0
 RST
 Wire Wire Line
-	5150 7800 5200 7800
-Wire Wire Line
-	5200 7850 5200 7800
-Wire Wire Line
-	5200 8650 5200 8750
+	7850 8550 7850 8500
 $Comp
 L power:+3V3 #PWR05
 U 1 1 62499D89
-P 5950 9200
-F 0 "#PWR05" H 5950 9050 50  0001 C CNN
-F 1 "+3V3" H 5965 9373 50  0000 C CNN
-F 2 "" H 5950 9200 50  0001 C CNN
-F 3 "" H 5950 9200 50  0001 C CNN
-	1    5950 9200
+P 5900 8650
+F 0 "#PWR05" H 5900 8500 50  0001 C CNN
+F 1 "+3V3" H 5915 8823 50  0000 C CNN
+F 2 "" H 5900 8650 50  0001 C CNN
+F 3 "" H 5900 8650 50  0001 C CNN
+	1    5900 8650
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5950 9150 5950 9200
+	5900 8600 5900 8650
 Wire Wire Line
-	5950 9150 5850 9150
+	5900 8600 5800 8600
 $Comp
 L Resistor-Lib:RNCP0603FTD10K0 R23
 U 1 1 62F6D73A
-P 5200 8250
-F 0 "R23" V 5154 8355 50  0000 L CNN
-F 1 "RNCP0603FTD10K0" H 4900 8050 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 5200 8250 50  0001 L BNN
-F 3 "" H 5200 8250 50  0001 L BNN
-F 4 "10k" V 5245 8355 50  0000 L CNN "resistance"
-	1    5200 8250
+P 7850 8950
+F 0 "R23" V 7804 9055 50  0000 L CNN
+F 1 "RNCP0603FTD10K0" H 7550 8750 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7850 8950 50  0001 L BNN
+F 3 "" H 7850 8950 50  0001 L BNN
+F 4 "10k" V 7895 9055 50  0000 L CNN "resistance"
+	1    7850 8950
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0111
 U 1 1 63063077
-P 5200 8750
-F 0 "#PWR0111" H 5200 8500 50  0001 C CNN
-F 1 "GND" H 5205 8577 50  0000 C CNN
-F 2 "" H 5200 8750 50  0001 C CNN
-F 3 "" H 5200 8750 50  0001 C CNN
-	1    5200 8750
+P 7850 9350
+F 0 "#PWR0111" H 7850 9100 50  0001 C CNN
+F 1 "GND" H 7855 9177 50  0000 C CNN
+F 2 "" H 7850 9350 50  0001 C CNN
+F 3 "" H 7850 9350 50  0001 C CNN
+	1    7850 9350
 	1    0    0    -1  
 $EndComp
 Text Label 3400 5800 0    50   ~ 0
@@ -5116,12 +5090,12 @@ Connection ~ 1650 9475
 $Comp
 L Connector:Conn_01x06_Male J2
 U 1 1 621CEF5F
-P 5650 8850
-F 0 "J2" H 5950 9250 50  0000 C CNN
-F 1 "Conn_01x06_Male" H 5975 9175 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 5650 8850 50  0001 C CNN
-F 3 "~" H 5650 8850 50  0001 C CNN
-	1    5650 8850
+P 5600 8300
+F 0 "J2" H 5900 8700 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 5925 8625 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 5600 8300 50  0001 C CNN
+F 3 "~" H 5600 8300 50  0001 C CNN
+	1    5600 8300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -5235,22 +5209,17 @@ Wire Notes Line
 Text Notes 700  9650 0    50   ~ 0
 MCU Oscillator
 Wire Wire Line
-	6250 8950 6250 9100
+	6200 8400 6200 8550
 Wire Wire Line
-	6350 8750 6350 8800
+	6300 8200 6300 8250
 Wire Wire Line
-	6250 9100 6400 9100
-Connection ~ 6250 9100
+	6200 8550 6350 8550
+Connection ~ 6200 8550
 Wire Wire Line
-	6250 9100 6250 9150
-Text GLabel 6400 9100 2    50   Input ~ 0
+	6200 8550 6200 8600
+Text GLabel 6350 8550 2    50   Input ~ 0
 RST
-Wire Wire Line
-	5200 7800 5600 7800
-Connection ~ 5200 7800
-Text Notes 5300 7650 0    50   ~ 0
-BOOT0 Set Override
-Text Notes 5450 9300 0    50   ~ 0
+Text Notes 5400 8750 0    50   ~ 0
 JTAG/RST
 $Comp
 L Mechanical:MountingHole_Pad H3
@@ -5885,17 +5854,6 @@ F 3 "~" H 3600 7975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C2
-U 1 1 64E2648E
-P 3175 7975
-F 0 "C2" H 3290 8021 50  0000 L CNN
-F 1 "1uF" H 3290 7930 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3213 7825 50  0001 C CNN
-F 3 "~" H 3175 7975 50  0001 C CNN
-	1    3175 7975
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C25
 U 1 1 65044D5D
 P 1875 7975
@@ -5935,26 +5893,6 @@ F 2 "Fuse:Fuse_1210_3225Metric_Castellated" H 3075 6675 50  0001 L CNN
 F 3 "~" H 3025 6875 50  0001 C CNN
 	1    3025 6875
 	0    1    1    0   
-$EndComp
-$Comp
-L cldg:AP2114HA-3_3TRG1 U1
-U 1 1 62A6A64D
-P 2650 7775
-F 0 "U1" H 2600 8050 60  0000 C CNN
-F 1 "AP2114HA-3_3TRG1" H 2600 7950 60  0000 C CNN
-F 2 "digikey-footprints:SOT-223" H 2850 7975 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/AP2114.pdf" H 2850 8075 60  0001 L CNN
-F 4 "AP2114H-3.3TRG1DICT-ND" H 2850 8175 60  0001 L CNN "Digi-Key_PN"
-F 5 "AP2114H-3.3TRG1" H 2850 8275 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 2850 8375 60  0001 L CNN "Category"
-F 7 "PMIC - Voltage Regulators - Linear" H 2850 8475 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/AP2114.pdf" H 2850 8575 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/AP2114H-3.3TRG1/AP2114H-3.3TRG1DICT-ND/4505142" H 2850 8675 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC REG LINEAR 3.3V 1A SOT223" H 2850 8775 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 2850 8875 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 2850 8975 60  0001 L CNN "Status"
-	1    2650 7775
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3050 7775 3175 7775
@@ -6348,72 +6286,66 @@ Wire Wire Line
 $Comp
 L power:GND #PWR01
 U 1 1 62B0C094
-P 8075 8050
-F 0 "#PWR01" H 8075 7800 50  0001 C CNN
-F 1 "GND" H 8080 7877 50  0000 C CNN
-F 2 "" H 8075 8050 50  0001 C CNN
-F 3 "" H 8075 8050 50  0001 C CNN
-	1    8075 8050
+P 8025 7850
+F 0 "#PWR01" H 8025 7600 50  0001 C CNN
+F 1 "GND" H 8030 7677 50  0000 C CNN
+F 2 "" H 8025 7850 50  0001 C CNN
+F 3 "" H 8025 7850 50  0001 C CNN
+	1    8025 7850
 	1    0    0    -1  
 $EndComp
-Text Label 7325 7950 2    50   ~ 0
+Text Label 7275 7750 2    50   ~ 0
 RST
 Wire Wire Line
-	7500 7950 7325 7950
+	7450 7750 7275 7750
 $Comp
 L Switch:SW_SPST SW108
 U 1 1 62A23976
-P 7700 7950
-F 0 "SW108" H 7700 8185 50  0000 C CNN
-F 1 "SW_SPST" H 7700 8094 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_TL3342" H 7700 7950 50  0001 C CNN
-F 3 "~" H 7700 7950 50  0001 C CNN
-	1    7700 7950
+P 7650 7750
+F 0 "SW108" H 7650 7985 50  0000 C CNN
+F 1 "SW_SPST" H 7650 7894 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3342" H 7650 7750 50  0001 C CNN
+F 3 "~" H 7650 7750 50  0001 C CNN
+	1    7650 7750
 	1    0    0    -1  
 $EndComp
-Text GLabel 5600 7800 2    50   Input ~ 0
-BOOT0
-Text Label 5275 7800 0    50   ~ 0
-BOOT0
 $Comp
 L power:+3V3 #PWR03
 U 1 1 630B8DFA
-P 7100 8625
-F 0 "#PWR03" H 7100 8475 50  0001 C CNN
-F 1 "+3V3" H 7050 8775 50  0000 C CNN
-F 2 "" H 7100 8625 50  0001 C CNN
-F 3 "" H 7100 8625 50  0001 C CNN
-	1    7100 8625
+P 7200 8325
+F 0 "#PWR03" H 7200 8175 50  0001 C CNN
+F 1 "+3V3" H 7150 8475 50  0000 C CNN
+F 2 "" H 7200 8325 50  0001 C CNN
+F 3 "" H 7200 8325 50  0001 C CNN
+	1    7200 8325
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7100 8625 7100 8700
-Text Label 7725 8800 0    50   ~ 0
+	7200 8325 7200 8400
+Text Label 7825 8500 0    50   ~ 0
 BOOT0
 Wire Wire Line
-	7100 8700 7175 8700
+	7200 8400 7275 8400
 Text Notes 6900 9400 0    50   ~ 0
 BOOT0 Set Switch
 Wire Wire Line
-	8075 7950 8075 8050
+	8025 7750 8025 7850
 Wire Wire Line
-	7900 7950 8075 7950
-Text Notes 7250 8125 0    50   ~ 0
+	7850 7750 8025 7750
+Text Notes 7200 7925 0    50   ~ 0
 Reset Button
 $Comp
 L Switch:SW_SPDT SW109
 U 1 1 62B1A803
-P 7375 8700
-F 0 "SW109" H 7375 8985 50  0000 C CNN
-F 1 "SW_SPDT" H 7375 8894 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPDT_CK-JS102011SAQN" H 7375 8700 50  0001 C CNN
-F 3 "~" H 7375 8700 50  0001 C CNN
-	1    7375 8700
+P 7475 8400
+F 0 "SW109" H 7475 8685 50  0000 C CNN
+F 1 "SW_SPDT" H 7475 8594 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPDT_CK-JS102011SAQN" H 7475 8400 50  0001 C CNN
+F 3 "~" H 7475 8400 50  0001 C CNN
+	1    7475 8400
 	1    0    0    -1  
 $EndComp
-NoConn ~ 7575 8600
-Wire Wire Line
-	7575 8800 7725 8800
+NoConn ~ 7675 8300
 Text Label 10775 8175 0    50   ~ 0
 I2C_SCL
 Text Label 14600 5900 0    50   ~ 0
@@ -6566,6 +6498,39 @@ Wire Wire Line
 	2825 6875 2875 6875
 Wire Wire Line
 	2375 6875 2425 6875
+Wire Wire Line
+	7675 8500 7850 8500
+$Comp
+L Device:C C2
+U 1 1 63287672
+P 3175 7975
+F 0 "C2" H 3350 8100 50  0000 R CNN
+F 1 "4.7 uF" H 3500 7850 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3213 7825 50  0001 C CNN
+F 3 "~" H 3175 7975 50  0001 C CNN
+	1    3175 7975
+	1    0    0    -1  
+$EndComp
+$Comp
+L cldg:AP2114HA-3_3TRG1 U1
+U 1 1 62A6A64D
+P 2650 7775
+F 0 "U1" H 2600 8050 60  0000 C CNN
+F 1 "AP2114HA-3_3TRG1" H 2600 7950 60  0000 C CNN
+F 2 "digikey-footprints:SOT-223" H 2850 7975 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP2114.pdf" H 2850 8075 60  0001 L CNN
+F 4 "AP2114H-3.3TRG1DICT-ND" H 2850 8175 60  0001 L CNN "Digi-Key_PN"
+F 5 "AP2114H-3.3TRG1" H 2850 8275 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 2850 8375 60  0001 L CNN "Category"
+F 7 "PMIC - Voltage Regulators - Linear" H 2850 8475 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/AP2114.pdf" H 2850 8575 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/AP2114H-3.3TRG1/AP2114H-3.3TRG1DICT-ND/4505142" H 2850 8675 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC REG LINEAR 3.3V 1A SOT223" H 2850 8775 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 2850 8875 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2850 8975 60  0001 L CNN "Status"
+	1    2650 7775
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	3725 5150 4225 5150
 $EndSCHEMATC
