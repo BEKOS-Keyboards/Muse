@@ -22,7 +22,7 @@ F 1 "+3V3" H 4090 7898 50  0000 C CNN
 F 2 "" H 4075 7725 50  0001 C CNN
 F 3 "" H 4075 7725 50  0001 C CNN
 	1    4075 7725
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR013
@@ -33,51 +33,51 @@ F 1 "+3V3" H 10140 5398 50  0000 C CNN
 F 2 "" H 10125 5225 50  0001 C CNN
 F 3 "" H 10125 5225 50  0001 C CNN
 	1    10125 5225
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR010
 U 1 1 6007927B
-P 6200 8850
-F 0 "#PWR010" H 6200 8600 50  0001 C CNN
-F 1 "GND" H 6205 8677 50  0000 C CNN
-F 2 "" H 6200 8850 50  0001 C CNN
-F 3 "" H 6200 8850 50  0001 C CNN
-	1    6200 8850
-	1    0    0    -1
+P 5900 8750
+F 0 "#PWR010" H 5900 8500 50  0001 C CNN
+F 1 "GND" H 5905 8577 50  0000 C CNN
+F 2 "" H 5900 8750 50  0001 C CNN
+F 3 "" H 5900 8750 50  0001 C CNN
+	1    5900 8750
+	1    0    0    -1  
 $EndComp
 $Comp
 L capacitor-lib:CL10B104KB8NNNL C7
 U 1 1 600879ED
-P 6200 8600
-F 0 "C7" H 6328 8546 50  0000 L CNN
-F 1 "CL10B104KB8NNNL" H 6328 8455 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6200 8900 50  0001 L CNN
-F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 6200 9000 50  0001 L CNN
-F 4 "No" H 6200 9100 50  0001 L CNN "automotive"
-F 5 "100nF" H 6328 8455 50  0000 L CNN "capacitance"
-F 6 "Cap" H 6200 9300 50  0001 L CNN "category"
-F 7 "Passive Components" H 6200 9400 50  0001 L CNN "device class L1"
-F 8 "Capacitors" H 6200 9500 50  0001 L CNN "device class L2"
-F 9 "Ceramic Capacitors" H 6200 9600 50  0001 L CNN "device class L3"
-F 10 "" H 6200 9700 50  0001 L CNN "digikey description"
-F 11 "" H 6200 9800 50  0001 L CNN "digikey part number"
-F 12 "0.9mm" H 6200 9900 50  0001 L CNN "height"
-F 13 "CAPC16080X80" H 6200 10000 50  0001 L CNN "ipc land pattern name"
-F 14 "Yes" H 6200 10100 50  0001 L CNN "lead free"
-F 15 "d416e2ef1cbb0413" H 6200 10200 50  0001 L CNN "library id"
-F 16 "Samsung" H 6200 10300 50  0001 L CNN "manufacturer"
-F 17 "Ceramic" H 6200 10400 50  0001 L CNN "material"
-F 18 "0603" H 6200 10500 50  0001 L CNN "package"
-F 19 "Yes" H 6200 10600 50  0001 L CNN "rohs"
-F 20 "X7R" H 6200 10700 50  0001 L CNN "temperature characteristic"
-F 21 "0.15" H 6200 10800 50  0001 L CNN "temperature coefficient"
-F 22 "+125°C" H 6200 10900 50  0001 L CNN "temperature range high"
-F 23 "-55°C" H 6200 11000 50  0001 L CNN "temperature range low"
-F 24 "10%" H 6200 11100 50  0001 L CNN "tolerance"
-F 25 "50V" H 6200 11200 50  0001 L CNN "voltage rating"
-	1    6200 8600
-	1    0    0    -1
+P 5900 8500
+F 0 "C7" H 6028 8446 50  0000 L CNN
+F 1 "CL10B104KB8NNNL" H 6028 8355 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5900 8800 50  0001 L CNN
+F 3 "https://datasheet.octopart.com/CL02C050BO2GNNC-Samsung-Electro-Mechanics-datasheet-97040617.pdf" H 5900 8900 50  0001 L CNN
+F 4 "No" H 5900 9000 50  0001 L CNN "automotive"
+F 5 "100nF" H 6028 8355 50  0000 L CNN "capacitance"
+F 6 "Cap" H 5900 9200 50  0001 L CNN "category"
+F 7 "Passive Components" H 5900 9300 50  0001 L CNN "device class L1"
+F 8 "Capacitors" H 5900 9400 50  0001 L CNN "device class L2"
+F 9 "Ceramic Capacitors" H 5900 9500 50  0001 L CNN "device class L3"
+F 10 "" H 5900 9600 50  0001 L CNN "digikey description"
+F 11 "" H 5900 9700 50  0001 L CNN "digikey part number"
+F 12 "0.9mm" H 5900 9800 50  0001 L CNN "height"
+F 13 "CAPC16080X80" H 5900 9900 50  0001 L CNN "ipc land pattern name"
+F 14 "Yes" H 5900 10000 50  0001 L CNN "lead free"
+F 15 "d416e2ef1cbb0413" H 5900 10100 50  0001 L CNN "library id"
+F 16 "Samsung" H 5900 10200 50  0001 L CNN "manufacturer"
+F 17 "Ceramic" H 5900 10300 50  0001 L CNN "material"
+F 18 "0603" H 5900 10400 50  0001 L CNN "package"
+F 19 "Yes" H 5900 10500 50  0001 L CNN "rohs"
+F 20 "X7R" H 5900 10600 50  0001 L CNN "temperature characteristic"
+F 21 "0.15" H 5900 10700 50  0001 L CNN "temperature coefficient"
+F 22 "+125°C" H 5900 10800 50  0001 L CNN "temperature range high"
+F 23 "-55°C" H 5900 10900 50  0001 L CNN "temperature range low"
+F 24 "10%" H 5900 11000 50  0001 L CNN "tolerance"
+F 25 "50V" H 5900 11100 50  0001 L CNN "voltage rating"
+	1    5900 8500
+	1    0    0    -1  
 $EndComp
 $Comp
 L cldg:MX_SW SW1
@@ -87,17 +87,17 @@ F 0 "SW1" H 1150 1185 50  0000 C CNN
 F 1 "MX_SW" H 1150 1094 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 1150 1100 50  0001 C CNN
 F 3 "~" H 1150 1100 50  0001 C CNN
-	1    1150 900
-	1    0    0    -1
+	1    1150 900 
+	1    0    0    -1  
 $EndComp
 Text GLabel 850  1300 0    50   Input ~ 0
 ROW_0
 Text GLabel 1350 850  1    50   Input ~ 0
 COL_0
 Wire Wire Line
-	1350 850  1350 900
+	1350 850  1350 900 
 Wire Wire Line
-	950  900  900  900
+	950  900  900  900 
 Wire Wire Line
 	900  1300 850  1300
 Wire Wire Line
@@ -124,7 +124,7 @@ F 14 "+175°C" H 900 3300 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 900 3400 50  0001 L CNN "temperature range low"
 F 16 "" H 900 3500 50  0001 L CNN "voltage"
 	1    900  1700
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW2
@@ -135,7 +135,7 @@ F 1 "MX_SW" H 1150 1744 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 1150 1750 50  0001 C CNN
 F 3 "~" H 1150 1750 50  0001 C CNN
 	1    1150 1550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	900  1950 850  1950
@@ -163,7 +163,7 @@ F 14 "+175°C" H 900 3950 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 900 4050 50  0001 L CNN "temperature range low"
 F 16 "" H 900 4150 50  0001 L CNN "voltage"
 	1    900  2350
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW3
@@ -174,7 +174,7 @@ F 1 "MX_SW" H 1150 2394 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 1150 2400 50  0001 C CNN
 F 3 "~" H 1150 2400 50  0001 C CNN
 	1    1150 2200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	900  1850 900  1950
@@ -207,7 +207,7 @@ F 14 "+175°C" H 900 4600 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 900 4700 50  0001 L CNN "temperature range low"
 F 16 "" H 900 4800 50  0001 L CNN "voltage"
 	1    900  3000
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW4
@@ -218,7 +218,7 @@ F 1 "MX_SW" H 1150 3044 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 1150 3050 50  0001 C CNN
 F 3 "~" H 1150 3050 50  0001 C CNN
 	1    1150 2850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	900  2500 900  2600
@@ -250,7 +250,7 @@ F 14 "+175°C" H 900 5900 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 900 6000 50  0001 L CNN "temperature range low"
 F 16 "" H 900 6100 50  0001 L CNN "voltage"
 	1    900  4300
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW5
@@ -261,7 +261,7 @@ F 1 "MX_SW" H 1150 4344 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 1150 4350 50  0001 C CNN
 F 3 "~" H 1150 4350 50  0001 C CNN
 	1    1150 4150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	900  3150 900  3250
@@ -301,7 +301,7 @@ F 14 "+175°C" H 1500 5250 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 1500 5350 50  0001 L CNN "temperature range low"
 F 16 "" H 1500 5450 50  0001 L CNN "voltage"
 	1    1500 3650
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW7
@@ -312,7 +312,7 @@ F 1 "MX_SW" H 1750 3694 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 1750 3700 50  0001 C CNN
 F 3 "~" H 1750 3700 50  0001 C CNN
 	1    1750 3500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1500 4550 1500 4450
@@ -340,7 +340,7 @@ F 14 "+175°C" H 1500 5900 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 1500 6000 50  0001 L CNN "temperature range low"
 F 16 "" H 1500 6100 50  0001 L CNN "voltage"
 	1    1500 4300
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW8
@@ -351,7 +351,7 @@ F 1 "MX_SW" H 1750 4344 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 1750 4350 50  0001 C CNN
 F 3 "~" H 1750 4350 50  0001 C CNN
 	1    1750 4150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	850  4550 900  4550
@@ -384,7 +384,7 @@ F 1 "MX_SW" H 1750 1744 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 1750 1750 50  0001 C CNN
 F 3 "~" H 1750 1750 50  0001 C CNN
 	1    1750 1550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1550 1550 1500 1550
@@ -397,14 +397,14 @@ F 0 "SW9" H 2400 1185 50  0000 C CNN
 F 1 "MX_SW" H 2400 1094 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 2400 1100 50  0001 C CNN
 F 3 "~" H 2400 1100 50  0001 C CNN
-	1    2400 900
-	1    0    0    -1
+	1    2400 900 
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2200 900  2150 900
+	2200 900  2150 900 
 Connection ~ 900  1300
 Wire Wire Line
-	2600 900  2600 850
+	2600 900  2600 850 
 Text GLabel 2600 850  1    50   Input ~ 0
 COL_2
 $Comp
@@ -416,7 +416,7 @@ F 1 "MX_SW" H 2400 1744 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 2400 1750 50  0001 C CNN
 F 3 "~" H 2400 1750 50  0001 C CNN
 	1    2400 1550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:LL4148 D10
@@ -440,7 +440,7 @@ F 14 "+175°C" H 2150 3300 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 2150 3400 50  0001 L CNN "temperature range low"
 F 16 "" H 2150 3500 50  0001 L CNN "voltage"
 	1    2150 1700
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	2200 1550 2150 1550
@@ -461,7 +461,7 @@ F 1 "MX_SW" H 2400 2394 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 2400 2400 50  0001 C CNN
 F 3 "~" H 2400 2400 50  0001 C CNN
 	1    2400 2200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:LL4148 D11
@@ -485,7 +485,7 @@ F 14 "+175°C" H 2150 3950 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 2150 4050 50  0001 L CNN "temperature range low"
 F 16 "" H 2150 4150 50  0001 L CNN "voltage"
 	1    2150 2350
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	2200 2200 2150 2200
@@ -506,7 +506,7 @@ F 1 "MX_SW" H 2400 3044 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 2400 3050 50  0001 C CNN
 F 3 "~" H 2400 3050 50  0001 C CNN
 	1    2400 2850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:LL4148 D12
@@ -530,7 +530,7 @@ F 14 "+175°C" H 2150 4600 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 2150 4700 50  0001 L CNN "temperature range low"
 F 16 "" H 2150 4800 50  0001 L CNN "voltage"
 	1    2150 3000
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	2200 2850 2150 2850
@@ -548,7 +548,7 @@ F 1 "MX_SW" H 2400 3694 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 2400 3700 50  0001 C CNN
 F 3 "~" H 2400 3700 50  0001 C CNN
 	1    2400 3500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:LL4148 D13
@@ -572,7 +572,7 @@ F 14 "+175°C" H 2150 5250 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 2150 5350 50  0001 L CNN "temperature range low"
 F 16 "" H 2150 5450 50  0001 L CNN "voltage"
 	1    2150 3650
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	2200 3500 2150 3500
@@ -592,18 +592,18 @@ F 0 "SW14" H 3100 1185 50  0000 C CNN
 F 1 "MX_SW" H 3100 1094 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 3100 1100 50  0001 C CNN
 F 3 "~" H 3100 1100 50  0001 C CNN
-	1    3100 900
-	1    0    0    -1
+	1    3100 900 
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2900 900  2850 900
+	2900 900  2850 900 
 Wire Wire Line
 	2150 1300 2850 1300
 Connection ~ 2150 1300
 Text GLabel 3300 850  1    50   Input ~ 0
 COL_3
 Wire Wire Line
-	3300 850  3300 900
+	3300 850  3300 900 
 $Comp
 L cldg:MX_SW SW15
 U 1 1 605A3188
@@ -613,7 +613,7 @@ F 1 "MX_SW" H 3100 1744 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 3100 1750 50  0001 C CNN
 F 3 "~" H 3100 1750 50  0001 C CNN
 	1    3100 1550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:LL4148 D15
@@ -637,7 +637,7 @@ F 14 "+175°C" H 2850 3300 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 2850 3400 50  0001 L CNN "temperature range low"
 F 16 "" H 2850 3500 50  0001 L CNN "voltage"
 	1    2850 1700
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	2900 1550 2850 1550
@@ -655,7 +655,7 @@ F 1 "MX_SW" H 3100 2394 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 3100 2400 50  0001 C CNN
 F 3 "~" H 3100 2400 50  0001 C CNN
 	1    3100 2200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:LL4148 D16
@@ -679,7 +679,7 @@ F 14 "+175°C" H 2850 3950 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 2850 4050 50  0001 L CNN "temperature range low"
 F 16 "" H 2850 4150 50  0001 L CNN "voltage"
 	1    2850 2350
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	2900 2200 2850 2200
@@ -700,7 +700,7 @@ F 1 "MX_SW" H 3100 3044 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 3100 3050 50  0001 C CNN
 F 3 "~" H 3100 3050 50  0001 C CNN
 	1    3100 2850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:LL4148 D17
@@ -724,7 +724,7 @@ F 14 "+175°C" H 2850 4600 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 2850 4700 50  0001 L CNN "temperature range low"
 F 16 "" H 2850 4800 50  0001 L CNN "voltage"
 	1    2850 3000
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	2900 2850 2850 2850
@@ -745,7 +745,7 @@ F 1 "MX_SW" H 3100 3694 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 3100 3700 50  0001 C CNN
 F 3 "~" H 3100 3700 50  0001 C CNN
 	1    3100 3500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:LL4148 D18
@@ -769,7 +769,7 @@ F 14 "+175°C" H 2850 5250 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 2850 5350 50  0001 L CNN "temperature range low"
 F 16 "" H 2850 5450 50  0001 L CNN "voltage"
 	1    2850 3650
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	2900 3500 2850 3500
@@ -790,7 +790,7 @@ F 1 "MX_SW" H 3100 4344 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 3100 4350 50  0001 C CNN
 F 3 "~" H 3100 4350 50  0001 C CNN
 	1    3100 4150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:LL4148 D19
@@ -814,7 +814,7 @@ F 14 "+175°C" H 2850 5900 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 2850 6000 50  0001 L CNN "temperature range low"
 F 16 "" H 2850 6100 50  0001 L CNN "voltage"
 	1    2850 4300
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	2900 4150 2850 4150
@@ -833,16 +833,16 @@ F 0 "SW20" H 3800 1185 50  0000 C CNN
 F 1 "MX_SW" H 3800 1094 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 3800 1100 50  0001 C CNN
 F 3 "~" H 3800 1100 50  0001 C CNN
-	1    3800 900
-	1    0    0    -1
+	1    3800 900 
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3600 900  3550 900
+	3600 900  3550 900 
 Wire Wire Line
 	2850 1300 3550 1300
 Connection ~ 2850 1300
 Wire Wire Line
-	4000 900  4000 850
+	4000 900  4000 850 
 Text GLabel 4000 850  1    50   Input ~ 0
 COL_4
 $Comp
@@ -854,7 +854,7 @@ F 1 "MX_SW" H 3800 1744 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 3800 1750 50  0001 C CNN
 F 3 "~" H 3800 1750 50  0001 C CNN
 	1    3800 1550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:LL4148 D21
@@ -878,7 +878,7 @@ F 14 "+175°C" H 3550 3300 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 3550 3400 50  0001 L CNN "temperature range low"
 F 16 "" H 3550 3500 50  0001 L CNN "voltage"
 	1    3550 1700
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	3600 1550 3550 1550
@@ -896,7 +896,7 @@ F 1 "MX_SW" H 3800 2394 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 3800 2400 50  0001 C CNN
 F 3 "~" H 3800 2400 50  0001 C CNN
 	1    3800 2200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:LL4148 D22
@@ -920,7 +920,7 @@ F 14 "+175°C" H 3550 3950 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 3550 4050 50  0001 L CNN "temperature range low"
 F 16 "" H 3550 4150 50  0001 L CNN "voltage"
 	1    3550 2350
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	3600 2200 3550 2200
@@ -941,7 +941,7 @@ F 1 "MX_SW" H 3800 3044 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 3800 3050 50  0001 C CNN
 F 3 "~" H 3800 3050 50  0001 C CNN
 	1    3800 2850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:LL4148 D23
@@ -965,7 +965,7 @@ F 14 "+175°C" H 3550 4600 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 3550 4700 50  0001 L CNN "temperature range low"
 F 16 "" H 3550 4800 50  0001 L CNN "voltage"
 	1    3550 3000
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	3600 2850 3550 2850
@@ -986,7 +986,7 @@ F 1 "MX_SW" H 3800 3694 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 3800 3700 50  0001 C CNN
 F 3 "~" H 3800 3700 50  0001 C CNN
 	1    3800 3500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:LL4148 D24
@@ -1010,7 +1010,7 @@ F 14 "+175°C" H 3550 5250 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 3550 5350 50  0001 L CNN "temperature range low"
 F 16 "" H 3550 5450 50  0001 L CNN "voltage"
 	1    3550 3650
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	3600 3500 3550 3500
@@ -1028,16 +1028,16 @@ F 0 "SW25" H 4500 1185 50  0000 C CNN
 F 1 "MX_SW" H 4500 1094 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 4500 1100 50  0001 C CNN
 F 3 "~" H 4500 1100 50  0001 C CNN
-	1    4500 900
-	1    0    0    -1
+	1    4500 900 
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4300 900  4250 900
+	4300 900  4250 900 
 Wire Wire Line
 	3550 1300 4250 1300
 Connection ~ 3550 1300
 Wire Wire Line
-	4700 900  4700 850
+	4700 900  4700 850 
 Text GLabel 4700 850  1    50   Input ~ 0
 COL_5
 $Comp
@@ -1049,7 +1049,7 @@ F 1 "MX_SW" H 4500 1744 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 4500 1750 50  0001 C CNN
 F 3 "~" H 4500 1750 50  0001 C CNN
 	1    4500 1550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:LL4148 D26
@@ -1073,7 +1073,7 @@ F 14 "+175°C" H 4250 3300 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 4250 3400 50  0001 L CNN "temperature range low"
 F 16 "" H 4250 3500 50  0001 L CNN "voltage"
 	1    4250 1700
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	4300 1550 4250 1550
@@ -1091,7 +1091,7 @@ F 1 "MX_SW" H 4500 2394 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 4500 2400 50  0001 C CNN
 F 3 "~" H 4500 2400 50  0001 C CNN
 	1    4500 2200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:LL4148 D27
@@ -1115,7 +1115,7 @@ F 14 "+175°C" H 4250 3950 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 4250 4050 50  0001 L CNN "temperature range low"
 F 16 "" H 4250 4150 50  0001 L CNN "voltage"
 	1    4250 2350
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	4300 2200 4250 2200
@@ -1136,7 +1136,7 @@ F 1 "MX_SW" H 4500 3044 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 4500 3050 50  0001 C CNN
 F 3 "~" H 4500 3050 50  0001 C CNN
 	1    4500 2850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:LL4148 D28
@@ -1160,7 +1160,7 @@ F 14 "+175°C" H 4250 4600 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 4250 4700 50  0001 L CNN "temperature range low"
 F 16 "" H 4250 4800 50  0001 L CNN "voltage"
 	1    4250 3000
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	4300 2850 4250 2850
@@ -1181,7 +1181,7 @@ F 1 "MX_SW" H 4500 3694 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 4500 3700 50  0001 C CNN
 F 3 "~" H 4500 3700 50  0001 C CNN
 	1    4500 3500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:LL4148 D29
@@ -1205,7 +1205,7 @@ F 14 "+175°C" H 4250 5250 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 4250 5350 50  0001 L CNN "temperature range low"
 F 16 "" H 4250 5450 50  0001 L CNN "voltage"
 	1    4250 3650
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	4300 3500 4250 3500
@@ -1228,7 +1228,7 @@ F 1 "MX_SW" H 5200 1744 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 5200 1750 50  0001 C CNN
 F 3 "~" H 5200 1750 50  0001 C CNN
 	1    5200 1550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:LL4148 D30
@@ -1252,7 +1252,7 @@ F 14 "+175°C" H 4950 3300 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 4950 3400 50  0001 L CNN "temperature range low"
 F 16 "" H 4950 3500 50  0001 L CNN "voltage"
 	1    4950 1700
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	5000 1550 4950 1550
@@ -1272,7 +1272,7 @@ F 1 "MX_SW" H 5200 2394 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 5200 2400 50  0001 C CNN
 F 3 "~" H 5200 2400 50  0001 C CNN
 	1    5200 2200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:LL4148 D31
@@ -1296,7 +1296,7 @@ F 14 "+175°C" H 4950 3950 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 4950 4050 50  0001 L CNN "temperature range low"
 F 16 "" H 4950 4150 50  0001 L CNN "voltage"
 	1    4950 2350
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	5000 2200 4950 2200
@@ -1317,7 +1317,7 @@ F 1 "MX_SW" H 5200 3044 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 5200 3050 50  0001 C CNN
 F 3 "~" H 5200 3050 50  0001 C CNN
 	1    5200 2850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:LL4148 D32
@@ -1341,7 +1341,7 @@ F 14 "+175°C" H 4950 4600 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 4950 4700 50  0001 L CNN "temperature range low"
 F 16 "" H 4950 4800 50  0001 L CNN "voltage"
 	1    4950 3000
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	5000 2850 4950 2850
@@ -1362,7 +1362,7 @@ F 1 "MX_SW" H 5200 3694 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 5200 3700 50  0001 C CNN
 F 3 "~" H 5200 3700 50  0001 C CNN
 	1    5200 3500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:LL4148 D33
@@ -1386,7 +1386,7 @@ F 14 "+175°C" H 4950 5250 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 4950 5350 50  0001 L CNN "temperature range low"
 F 16 "" H 4950 5450 50  0001 L CNN "voltage"
 	1    4950 3650
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	5000 3500 4950 3500
@@ -1407,7 +1407,7 @@ F 1 "MX_SW" H 5200 4344 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 5200 4350 50  0001 C CNN
 F 3 "~" H 5200 4350 50  0001 C CNN
 	1    5200 4150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:LL4148 D34
@@ -1431,7 +1431,7 @@ F 14 "+175°C" H 4950 5900 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 4950 6000 50  0001 L CNN "temperature range low"
 F 16 "" H 4950 6100 50  0001 L CNN "voltage"
 	1    4950 4300
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	5000 4150 4950 4150
@@ -1447,29 +1447,29 @@ Wire Wire Line
 	900  1200 900  1300
 Wire Wire Line
 	1350 900  1350 1550
-Connection ~ 1350 900
+Connection ~ 1350 900 
 Wire Wire Line
 	1950 850  1950 1550
 Wire Wire Line
 	2600 900  2600 1550
-Connection ~ 2600 900
+Connection ~ 2600 900 
 Wire Wire Line
 	2150 1200 2150 1300
 Wire Wire Line
 	2850 1200 2850 1300
 Wire Wire Line
 	3300 900  3300 1550
-Connection ~ 3300 900
+Connection ~ 3300 900 
 Wire Wire Line
 	4000 900  4000 1550
-Connection ~ 4000 900
+Connection ~ 4000 900 
 Wire Wire Line
 	3550 1200 3550 1300
 Wire Wire Line
 	4250 1200 4250 1300
 Wire Wire Line
 	4700 900  4700 1550
-Connection ~ 4700 900
+Connection ~ 4700 900 
 Wire Wire Line
 	5400 850  5400 1550
 Wire Wire Line
@@ -1488,7 +1488,7 @@ Wire Wire Line
 	4950 3900 5650 3900
 Wire Wire Line
 	5650 1200 5650 1300
-Connection ~ 6100 900
+Connection ~ 6100 900 
 Connection ~ 6100 2850
 Wire Wire Line
 	6100 2850 6100 3500
@@ -1518,7 +1518,7 @@ F 14 "+175°C" H 5650 5250 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 5650 5350 50  0001 L CNN "temperature range low"
 F 16 "" H 5650 5450 50  0001 L CNN "voltage"
 	1    5650 3650
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW39
@@ -1529,7 +1529,7 @@ F 1 "MX_SW" H 5900 3694 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 5900 3700 50  0001 C CNN
 F 3 "~" H 5900 3700 50  0001 C CNN
 	1    5900 3500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 6100 2200
 Wire Wire Line
@@ -1560,7 +1560,7 @@ F 14 "+175°C" H 5650 4600 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 5650 4700 50  0001 L CNN "temperature range low"
 F 16 "" H 5650 4800 50  0001 L CNN "voltage"
 	1    5650 3000
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW38
@@ -1571,7 +1571,7 @@ F 1 "MX_SW" H 5900 3044 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 5900 3050 50  0001 C CNN
 F 3 "~" H 5900 3050 50  0001 C CNN
 	1    5900 2850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 6100 1550
 Wire Wire Line
@@ -1602,7 +1602,7 @@ F 14 "+175°C" H 5650 3950 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 5650 4050 50  0001 L CNN "temperature range low"
 F 16 "" H 5650 4150 50  0001 L CNN "voltage"
 	1    5650 2350
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW37
@@ -1613,7 +1613,7 @@ F 1 "MX_SW" H 5900 2394 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 5900 2400 50  0001 C CNN
 F 3 "~" H 5900 2400 50  0001 C CNN
 	1    5900 2200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5650 1850 5650 1950
@@ -1641,7 +1641,7 @@ F 14 "+175°C" H 5650 3300 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 5650 3400 50  0001 L CNN "temperature range low"
 F 16 "" H 5650 3500 50  0001 L CNN "voltage"
 	1    5650 1700
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW36
@@ -1652,14 +1652,14 @@ F 1 "MX_SW" H 5900 1744 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 5900 1750 50  0001 C CNN
 F 3 "~" H 5900 1750 50  0001 C CNN
 	1    5900 1550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text GLabel 6100 850  1    50   Input ~ 0
 COL_7
 Wire Wire Line
-	6100 900  6100 850
+	6100 900  6100 850 
 Wire Wire Line
-	5700 900  5650 900
+	5700 900  5650 900 
 $Comp
 L cldg:MX_SW SW35
 U 1 1 60A5E2CC
@@ -1668,8 +1668,8 @@ F 0 "SW35" H 5900 1185 50  0000 C CNN
 F 1 "MX_SW" H 5900 1094 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 5900 1100 50  0001 C CNN
 F 3 "~" H 5900 1100 50  0001 C CNN
-	1    5900 900
-	1    0    0    -1
+	1    5900 900 
+	1    0    0    -1  
 $EndComp
 Connection ~ 4250 1300
 Connection ~ 4950 1950
@@ -1686,13 +1686,13 @@ F 0 "SW40" H 6600 1185 50  0000 C CNN
 F 1 "MX_SW" H 6600 1094 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 6600 1100 50  0001 C CNN
 F 3 "~" H 6600 1100 50  0001 C CNN
-	1    6600 900
-	1    0    0    -1
+	1    6600 900 
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6400 900  6350 900
+	6400 900  6350 900 
 Wire Wire Line
-	6800 850  6800 900
+	6800 850  6800 900 
 Text GLabel 6800 850  1    50   Input ~ 0
 COL_8
 Wire Wire Line
@@ -1706,7 +1706,7 @@ F 1 "MX_SW" H 6600 1744 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 6600 1750 50  0001 C CNN
 F 3 "~" H 6600 1750 50  0001 C CNN
 	1    6600 1550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cldg:MX_SW SW42
@@ -1717,7 +1717,7 @@ F 1 "MX_SW" H 6600 2394 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 6600 2400 50  0001 C CNN
 F 3 "~" H 6600 2400 50  0001 C CNN
 	1    6600 2200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6350 2500 6350 2600
@@ -1745,7 +1745,7 @@ F 14 "+175°C" H 6350 3950 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 6350 4050 50  0001 L CNN "temperature range low"
 F 16 "" H 6350 4150 50  0001 L CNN "voltage"
 	1    6350 2350
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	6400 1550 6350 1550
@@ -1771,7 +1771,7 @@ F 14 "+175°C" H 6350 3300 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 6350 3400 50  0001 L CNN "temperature range low"
 F 16 "" H 6350 3500 50  0001 L CNN "voltage"
 	1    6350 1700
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW43
@@ -1782,7 +1782,7 @@ F 1 "MX_SW" H 6600 3044 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 6600 3050 50  0001 C CNN
 F 3 "~" H 6600 3050 50  0001 C CNN
 	1    6600 2850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:LL4148 D43
@@ -1806,7 +1806,7 @@ F 14 "+175°C" H 6350 4600 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 6350 4700 50  0001 L CNN "temperature range low"
 F 16 "" H 6350 4800 50  0001 L CNN "voltage"
 	1    6350 3000
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	6400 2850 6350 2850
@@ -1821,7 +1821,7 @@ F 1 "MX_SW" H 6600 3694 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 6600 3700 50  0001 C CNN
 F 3 "~" H 6600 3700 50  0001 C CNN
 	1    6600 3500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:LL4148 D44
@@ -1845,7 +1845,7 @@ F 14 "+175°C" H 6350 5250 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 6350 5350 50  0001 L CNN "temperature range low"
 F 16 "" H 6350 5450 50  0001 L CNN "voltage"
 	1    6350 3650
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	6400 3500 6350 3500
@@ -1881,7 +1881,7 @@ F 14 "+175°C" H 15600 5250 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 15600 5350 50  0001 L CNN "temperature range low"
 F 16 "" H 15600 5450 50  0001 L CNN "voltage"
 	1    15600 3650
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW107
@@ -1892,7 +1892,7 @@ F 1 "MX_SW" H 15850 3406 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 15850 3700 50  0001 C CNN
 F 3 "~" H 15850 3700 50  0001 C CNN
 	1    15850 3500
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 Connection ~ 14850 2600
 Wire Wire Line
@@ -1924,7 +1924,7 @@ F 14 "+175°C" H 15600 3950 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 15600 4050 50  0001 L CNN "temperature range low"
 F 16 "" H 15600 4150 50  0001 L CNN "voltage"
 	1    15600 2350
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Connection ~ 14850 1950
 Wire Wire Line
@@ -1957,7 +1957,7 @@ F 14 "+175°C" H 15600 3300 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 15600 3400 50  0001 L CNN "temperature range low"
 F 16 "" H 15600 3500 50  0001 L CNN "voltage"
 	1    15600 1700
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW105
@@ -1968,7 +1968,7 @@ F 1 "MX_SW" H 15850 1744 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 15850 1750 50  0001 C CNN
 F 3 "~" H 15850 1750 50  0001 C CNN
 	1    15850 1550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 15300 3500
 Wire Wire Line
@@ -2002,7 +2002,7 @@ F 14 "+175°C" H 14850 5900 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 14850 6000 50  0001 L CNN "temperature range low"
 F 16 "" H 14850 6100 50  0001 L CNN "voltage"
 	1    14850 4300
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW104
@@ -2013,7 +2013,7 @@ F 1 "MX_SW" H 15100 4344 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 15100 4350 50  0001 C CNN
 F 3 "~" H 15100 4350 50  0001 C CNN
 	1    15100 4150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 14150 3900
 Wire Wire Line
@@ -2047,7 +2047,7 @@ F 14 "+175°C" H 14850 5250 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 14850 5350 50  0001 L CNN "temperature range low"
 F 16 "" H 14850 5450 50  0001 L CNN "voltage"
 	1    14850 3650
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW103
@@ -2058,7 +2058,7 @@ F 1 "MX_SW" H 15100 3694 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 15100 3700 50  0001 C CNN
 F 3 "~" H 15100 3700 50  0001 C CNN
 	1    15100 3500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 14150 3250
 Wire Wire Line
@@ -2092,7 +2092,7 @@ F 14 "+175°C" H 14850 4600 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 14850 4700 50  0001 L CNN "temperature range low"
 F 16 "" H 14850 4800 50  0001 L CNN "voltage"
 	1    14850 3000
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW102
@@ -2103,7 +2103,7 @@ F 1 "MX_SW" H 15100 3044 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 15100 3050 50  0001 C CNN
 F 3 "~" H 15100 3050 50  0001 C CNN
 	1    15100 2850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 14150 2600
 Wire Wire Line
@@ -2137,7 +2137,7 @@ F 14 "+175°C" H 14850 3950 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 14850 4050 50  0001 L CNN "temperature range low"
 F 16 "" H 14850 4150 50  0001 L CNN "voltage"
 	1    14850 2350
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW101
@@ -2148,12 +2148,12 @@ F 1 "MX_SW" H 15100 2394 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 15100 2400 50  0001 C CNN
 F 3 "~" H 15100 2400 50  0001 C CNN
 	1    15100 2200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 14150 1950
 Wire Wire Line
 	14150 1950 14850 1950
-Connection ~ 15300 900
+Connection ~ 15300 900 
 Wire Wire Line
 	15300 900  15300 1550
 Wire Wire Line
@@ -2182,7 +2182,7 @@ F 14 "+175°C" H 14850 3300 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 14850 3400 50  0001 L CNN "temperature range low"
 F 16 "" H 14850 3500 50  0001 L CNN "voltage"
 	1    14850 1700
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW100
@@ -2193,10 +2193,10 @@ F 1 "MX_SW" H 15100 1744 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 15100 1750 50  0001 C CNN
 F 3 "~" H 15100 1750 50  0001 C CNN
 	1    15100 1550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	15300 850  15300 900
+	15300 850  15300 900 
 Text GLabel 15300 850  1    50   Input ~ 0
 COL_21
 Connection ~ 14150 1300
@@ -2205,7 +2205,7 @@ Wire Wire Line
 Wire Wire Line
 	14850 1200 14850 1300
 Wire Wire Line
-	14900 900  14850 900
+	14900 900  14850 900 
 $Comp
 L Diode:LL4148 D100
 U 1 1 63033218
@@ -2228,7 +2228,7 @@ F 14 "+175°C" H 14850 2650 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 14850 2750 50  0001 L CNN "temperature range low"
 F 16 "" H 14850 2850 50  0001 L CNN "voltage"
 	1    14850 1050
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW99
@@ -2238,8 +2238,8 @@ F 0 "SW99" H 15100 1185 50  0000 C CNN
 F 1 "MX_SW" H 15100 1094 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 15100 1100 50  0001 C CNN
 F 3 "~" H 15100 1100 50  0001 C CNN
-	1    15100 900
-	1    0    0    -1
+	1    15100 900 
+	1    0    0    -1  
 $EndComp
 Connection ~ 13450 3900
 Wire Wire Line
@@ -2273,7 +2273,7 @@ F 14 "+175°C" H 14150 5250 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 14150 5350 50  0001 L CNN "temperature range low"
 F 16 "" H 14150 5450 50  0001 L CNN "voltage"
 	1    14150 3650
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW98
@@ -2284,7 +2284,7 @@ F 1 "MX_SW" H 14400 3694 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 14400 3700 50  0001 C CNN
 F 3 "~" H 14400 3700 50  0001 C CNN
 	1    14400 3500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 13450 3250
 Wire Wire Line
@@ -2318,7 +2318,7 @@ F 14 "+175°C" H 14150 4600 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 14150 4700 50  0001 L CNN "temperature range low"
 F 16 "" H 14150 4800 50  0001 L CNN "voltage"
 	1    14150 3000
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW97
@@ -2329,7 +2329,7 @@ F 1 "MX_SW" H 14400 3044 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 14400 3050 50  0001 C CNN
 F 3 "~" H 14400 3050 50  0001 C CNN
 	1    14400 2850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 13450 2600
 Wire Wire Line
@@ -2363,7 +2363,7 @@ F 14 "+175°C" H 14150 3950 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 14150 4050 50  0001 L CNN "temperature range low"
 F 16 "" H 14150 4150 50  0001 L CNN "voltage"
 	1    14150 2350
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW96
@@ -2374,12 +2374,12 @@ F 1 "MX_SW" H 14400 2394 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 14400 2400 50  0001 C CNN
 F 3 "~" H 14400 2400 50  0001 C CNN
 	1    14400 2200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 13450 1950
 Wire Wire Line
 	13450 1950 14150 1950
-Connection ~ 14600 900
+Connection ~ 14600 900 
 Wire Wire Line
 	14600 900  14600 1550
 Wire Wire Line
@@ -2408,7 +2408,7 @@ F 14 "+175°C" H 14150 3300 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 14150 3400 50  0001 L CNN "temperature range low"
 F 16 "" H 14150 3500 50  0001 L CNN "voltage"
 	1    14150 1700
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW95
@@ -2419,7 +2419,7 @@ F 1 "MX_SW" H 14400 1744 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 14400 1750 50  0001 C CNN
 F 3 "~" H 14400 1750 50  0001 C CNN
 	1    14400 1550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 13450 1300
 Wire Wire Line
@@ -2427,11 +2427,11 @@ Wire Wire Line
 Text GLabel 14600 850  1    50   Input ~ 0
 COL_20
 Wire Wire Line
-	14600 900  14600 850
+	14600 900  14600 850 
 Wire Wire Line
 	14150 1200 14150 1300
 Wire Wire Line
-	14200 900  14150 900
+	14200 900  14150 900 
 $Comp
 L Diode:LL4148 D95
 U 1 1 62C59FD5
@@ -2454,7 +2454,7 @@ F 14 "+175°C" H 14150 2650 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 14150 2750 50  0001 L CNN "temperature range low"
 F 16 "" H 14150 2850 50  0001 L CNN "voltage"
 	1    14150 1050
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW94
@@ -2464,8 +2464,8 @@ F 0 "SW94" H 14400 1185 50  0000 C CNN
 F 1 "MX_SW" H 14400 1094 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 14400 1100 50  0001 C CNN
 F 3 "~" H 14400 1100 50  0001 C CNN
-	1    14400 900
-	1    0    0    -1
+	1    14400 900 
+	1    0    0    -1  
 $EndComp
 Connection ~ 12750 4550
 Wire Wire Line
@@ -2499,7 +2499,7 @@ F 14 "+175°C" H 13450 5900 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 13450 6000 50  0001 L CNN "temperature range low"
 F 16 "" H 13450 6100 50  0001 L CNN "voltage"
 	1    13450 4300
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW93
@@ -2510,7 +2510,7 @@ F 1 "MX_SW" H 13700 4344 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 13700 4350 50  0001 C CNN
 F 3 "~" H 13700 4350 50  0001 C CNN
 	1    13700 4150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 12050 3900
 Wire Wire Line
@@ -2544,7 +2544,7 @@ F 14 "+175°C" H 13450 5250 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 13450 5350 50  0001 L CNN "temperature range low"
 F 16 "" H 13450 5450 50  0001 L CNN "voltage"
 	1    13450 3650
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW92
@@ -2555,7 +2555,7 @@ F 1 "MX_SW" H 13700 3694 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 13700 3700 50  0001 C CNN
 F 3 "~" H 13700 3700 50  0001 C CNN
 	1    13700 3500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 9900 3250
 Wire Wire Line
@@ -2589,7 +2589,7 @@ F 14 "+175°C" H 13450 4600 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 13450 4700 50  0001 L CNN "temperature range low"
 F 16 "" H 13450 4800 50  0001 L CNN "voltage"
 	1    13450 3000
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW91
@@ -2600,7 +2600,7 @@ F 1 "MX_SW" H 13700 3044 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 13700 3050 50  0001 C CNN
 F 3 "~" H 13700 3050 50  0001 C CNN
 	1    13700 2850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 12750 2600
 Wire Wire Line
@@ -2634,7 +2634,7 @@ F 14 "+175°C" H 13450 3950 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 13450 4050 50  0001 L CNN "temperature range low"
 F 16 "" H 13450 4150 50  0001 L CNN "voltage"
 	1    13450 2350
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW90
@@ -2645,12 +2645,12 @@ F 1 "MX_SW" H 13700 2394 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 13700 2400 50  0001 C CNN
 F 3 "~" H 13700 2400 50  0001 C CNN
 	1    13700 2200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 12750 1950
 Wire Wire Line
 	12750 1950 13450 1950
-Connection ~ 13900 900
+Connection ~ 13900 900 
 Wire Wire Line
 	13900 900  13900 1550
 Wire Wire Line
@@ -2679,7 +2679,7 @@ F 14 "+175°C" H 13450 3300 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 13450 3400 50  0001 L CNN "temperature range low"
 F 16 "" H 13450 3500 50  0001 L CNN "voltage"
 	1    13450 1700
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW89
@@ -2690,7 +2690,7 @@ F 1 "MX_SW" H 13700 1744 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 13700 1750 50  0001 C CNN
 F 3 "~" H 13700 1750 50  0001 C CNN
 	1    13700 1550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text GLabel 13900 850  1    50   Input ~ 0
 COL_19
@@ -2698,11 +2698,11 @@ Connection ~ 12750 1300
 Wire Wire Line
 	12750 1300 13450 1300
 Wire Wire Line
-	13900 900  13900 850
+	13900 900  13900 850 
 Wire Wire Line
 	13450 1200 13450 1300
 Wire Wire Line
-	13500 900  13450 900
+	13500 900  13450 900 
 $Comp
 L Diode:LL4148 D88
 U 1 1 6280AAF5
@@ -2725,7 +2725,7 @@ F 14 "+175°C" H 13450 2650 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 13450 2750 50  0001 L CNN "temperature range low"
 F 16 "" H 13450 2850 50  0001 L CNN "voltage"
 	1    13450 1050
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW88
@@ -2735,8 +2735,8 @@ F 0 "SW88" H 13700 1185 50  0000 C CNN
 F 1 "MX_SW" H 13700 1094 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 13700 1100 50  0001 C CNN
 F 3 "~" H 13700 1100 50  0001 C CNN
-	1    13700 900
-	1    0    0    -1
+	1    13700 900 
+	1    0    0    -1  
 $EndComp
 Connection ~ 12050 4550
 Wire Wire Line
@@ -2770,7 +2770,7 @@ F 14 "+175°C" H 12750 5900 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 12750 6000 50  0001 L CNN "temperature range low"
 F 16 "" H 12750 6100 50  0001 L CNN "voltage"
 	1    12750 4300
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW87
@@ -2781,7 +2781,7 @@ F 1 "MX_SW" H 13000 4344 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 13000 4350 50  0001 C CNN
 F 3 "~" H 13000 4350 50  0001 C CNN
 	1    13000 4150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 12050 2600
 Wire Wire Line
@@ -2815,7 +2815,7 @@ F 14 "+175°C" H 12750 3950 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 12750 4050 50  0001 L CNN "temperature range low"
 F 16 "" H 12750 4150 50  0001 L CNN "voltage"
 	1    12750 2350
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW86
@@ -2826,12 +2826,12 @@ F 1 "MX_SW" H 13000 2394 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 13000 2400 50  0001 C CNN
 F 3 "~" H 13000 2400 50  0001 C CNN
 	1    13000 2200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 12050 1950
 Wire Wire Line
 	12050 1950 12750 1950
-Connection ~ 13200 900
+Connection ~ 13200 900 
 Wire Wire Line
 	13200 900  13200 1550
 Wire Wire Line
@@ -2860,7 +2860,7 @@ F 14 "+175°C" H 12750 3300 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 12750 3400 50  0001 L CNN "temperature range low"
 F 16 "" H 12750 3500 50  0001 L CNN "voltage"
 	1    12750 1700
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW85
@@ -2871,7 +2871,7 @@ F 1 "MX_SW" H 13000 1744 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 13000 1750 50  0001 C CNN
 F 3 "~" H 13000 1750 50  0001 C CNN
 	1    13000 1550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 12050 1300
 Wire Wire Line
@@ -2879,11 +2879,11 @@ Wire Wire Line
 Text GLabel 13200 850  1    50   Input ~ 0
 COL_17
 Wire Wire Line
-	13200 900  13200 850
+	13200 900  13200 850 
 Wire Wire Line
 	12750 1200 12750 1300
 Wire Wire Line
-	12800 900  12750 900
+	12800 900  12750 900 
 $Comp
 L Diode:LL4148 D84
 U 1 1 6250DF8A
@@ -2906,7 +2906,7 @@ F 14 "+175°C" H 12750 2650 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 12750 2750 50  0001 L CNN "temperature range low"
 F 16 "" H 12750 2850 50  0001 L CNN "voltage"
 	1    12750 1050
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW84
@@ -2916,8 +2916,8 @@ F 0 "SW84" H 13000 1185 50  0000 C CNN
 F 1 "MX_SW" H 13000 1094 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 13000 1100 50  0001 C CNN
 F 3 "~" H 13000 1100 50  0001 C CNN
-	1    13000 900
-	1    0    0    -1
+	1    13000 900 
+	1    0    0    -1  
 $EndComp
 Connection ~ 11350 4550
 Wire Wire Line
@@ -2951,7 +2951,7 @@ F 14 "+175°C" H 12050 5900 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 12050 6000 50  0001 L CNN "temperature range low"
 F 16 "" H 12050 6100 50  0001 L CNN "voltage"
 	1    12050 4300
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW83
@@ -2962,7 +2962,7 @@ F 1 "MX_SW" H 12300 4344 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 12300 4350 50  0001 C CNN
 F 3 "~" H 12300 4350 50  0001 C CNN
 	1    12300 4150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 9900 3900
 Wire Wire Line
@@ -2996,7 +2996,7 @@ F 14 "+175°C" H 12050 5250 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 12050 5350 50  0001 L CNN "temperature range low"
 F 16 "" H 12050 5450 50  0001 L CNN "voltage"
 	1    12050 3650
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW82
@@ -3007,7 +3007,7 @@ F 1 "MX_SW" H 12300 3694 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 12300 3700 50  0001 C CNN
 F 3 "~" H 12300 3700 50  0001 C CNN
 	1    12300 3500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 11350 2600
 Wire Wire Line
@@ -3041,7 +3041,7 @@ F 14 "+175°C" H 12050 3950 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 12050 4050 50  0001 L CNN "temperature range low"
 F 16 "" H 12050 4150 50  0001 L CNN "voltage"
 	1    12050 2350
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW81
@@ -3052,12 +3052,12 @@ F 1 "MX_SW" H 12300 2394 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 12300 2400 50  0001 C CNN
 F 3 "~" H 12300 2400 50  0001 C CNN
 	1    12300 2200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 11350 1950
 Wire Wire Line
 	11350 1950 12050 1950
-Connection ~ 12500 900
+Connection ~ 12500 900 
 Wire Wire Line
 	12500 900  12500 1550
 Wire Wire Line
@@ -3086,7 +3086,7 @@ F 14 "+175°C" H 12050 3300 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 12050 3400 50  0001 L CNN "temperature range low"
 F 16 "" H 12050 3500 50  0001 L CNN "voltage"
 	1    12050 1700
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW80
@@ -3097,7 +3097,7 @@ F 1 "MX_SW" H 12300 1744 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 12300 1750 50  0001 C CNN
 F 3 "~" H 12300 1750 50  0001 C CNN
 	1    12300 1550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 11350 1300
 Wire Wire Line
@@ -3107,9 +3107,9 @@ Wire Wire Line
 Text GLabel 12500 850  1    50   Input ~ 0
 COL_16
 Wire Wire Line
-	12500 900  12500 850
+	12500 900  12500 850 
 Wire Wire Line
-	12100 900  12050 900
+	12100 900  12050 900 
 $Comp
 L cldg:MX_SW SW79
 U 1 1 621DF490
@@ -3118,8 +3118,8 @@ F 0 "SW79" H 12300 1185 50  0000 C CNN
 F 1 "MX_SW" H 12300 1094 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 12300 1100 50  0001 C CNN
 F 3 "~" H 12300 1100 50  0001 C CNN
-	1    12300 900
-	1    0    0    -1
+	1    12300 900 
+	1    0    0    -1  
 $EndComp
 Connection ~ 10600 4550
 Wire Wire Line
@@ -3153,7 +3153,7 @@ F 14 "+175°C" H 11350 5900 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 11350 6000 50  0001 L CNN "temperature range low"
 F 16 "" H 11350 6100 50  0001 L CNN "voltage"
 	1    11350 4300
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW78
@@ -3164,7 +3164,7 @@ F 1 "MX_SW" H 11600 4344 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 11600 4350 50  0001 C CNN
 F 3 "~" H 11600 4350 50  0001 C CNN
 	1    11600 4150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 10600 2600
 Wire Wire Line
@@ -3198,7 +3198,7 @@ F 14 "+175°C" H 11350 3950 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 11350 4050 50  0001 L CNN "temperature range low"
 F 16 "" H 11350 4150 50  0001 L CNN "voltage"
 	1    11350 2350
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW77
@@ -3209,12 +3209,12 @@ F 1 "MX_SW" H 11600 2394 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 11600 2400 50  0001 C CNN
 F 3 "~" H 11600 2400 50  0001 C CNN
 	1    11600 2200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 10600 1950
 Wire Wire Line
 	10600 1950 11350 1950
-Connection ~ 11800 900
+Connection ~ 11800 900 
 Wire Wire Line
 	11800 900  11800 1550
 Wire Wire Line
@@ -3243,7 +3243,7 @@ F 14 "+175°C" H 11350 3300 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 11350 3400 50  0001 L CNN "temperature range low"
 F 16 "" H 11350 3500 50  0001 L CNN "voltage"
 	1    11350 1700
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW76
@@ -3254,19 +3254,19 @@ F 1 "MX_SW" H 11600 1744 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 11600 1750 50  0001 C CNN
 F 3 "~" H 11600 1750 50  0001 C CNN
 	1    11600 1550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text GLabel 11800 850  1    50   Input ~ 0
 COL_15
 Wire Wire Line
-	11800 900  11800 850
+	11800 900  11800 850 
 Connection ~ 10600 1300
 Wire Wire Line
 	10600 1300 11350 1300
 Wire Wire Line
 	11350 1200 11350 1300
 Wire Wire Line
-	11400 900  11350 900
+	11400 900  11350 900 
 $Comp
 L cldg:MX_SW SW75
 U 1 1 61F4175F
@@ -3275,8 +3275,8 @@ F 0 "SW75" H 11600 1185 50  0000 C CNN
 F 1 "MX_SW" H 11600 1094 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 11600 1100 50  0001 C CNN
 F 3 "~" H 11600 1100 50  0001 C CNN
-	1    11600 900
-	1    0    0    -1
+	1    11600 900 
+	1    0    0    -1  
 $EndComp
 Connection ~ 9900 4550
 Wire Wire Line
@@ -3310,7 +3310,7 @@ F 14 "+175°C" H 10600 5900 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 10600 6000 50  0001 L CNN "temperature range low"
 F 16 "" H 10600 6100 50  0001 L CNN "voltage"
 	1    10600 4300
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW74
@@ -3321,7 +3321,7 @@ F 1 "MX_SW" H 10850 4344 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 10850 4350 50  0001 C CNN
 F 3 "~" H 10850 4350 50  0001 C CNN
 	1    10850 4150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 9900 2600
 Wire Wire Line
@@ -3355,7 +3355,7 @@ F 14 "+175°C" H 10600 3950 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 10600 4050 50  0001 L CNN "temperature range low"
 F 16 "" H 10600 4150 50  0001 L CNN "voltage"
 	1    10600 2350
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW73
@@ -3366,9 +3366,9 @@ F 1 "MX_SW" H 10850 2394 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 10850 2400 50  0001 C CNN
 F 3 "~" H 10850 2400 50  0001 C CNN
 	1    10850 2200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
-Connection ~ 11050 900
+Connection ~ 11050 900 
 Wire Wire Line
 	11050 900  11050 1550
 Connection ~ 9200 1950
@@ -3398,7 +3398,7 @@ F 14 "+175°C" H 10600 3300 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 10600 3400 50  0001 L CNN "temperature range low"
 F 16 "" H 10600 3500 50  0001 L CNN "voltage"
 	1    10600 1700
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW72
@@ -3409,19 +3409,19 @@ F 1 "MX_SW" H 10850 1744 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 10850 1750 50  0001 C CNN
 F 3 "~" H 10850 1750 50  0001 C CNN
 	1    10850 1550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text GLabel 11050 850  1    50   Input ~ 0
 COL_14
 Wire Wire Line
-	11050 900  11050 850
+	11050 900  11050 850 
 Connection ~ 9900 1300
 Wire Wire Line
 	9900 1300 10600 1300
 Wire Wire Line
 	10600 1200 10600 1300
 Wire Wire Line
-	10650 900  10600 900
+	10650 900  10600 900 
 $Comp
 L cldg:MX_SW SW71
 U 1 1 61C3BE7B
@@ -3430,8 +3430,8 @@ F 0 "SW71" H 10850 1185 50  0000 C CNN
 F 1 "MX_SW" H 10850 1094 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 10850 1100 50  0001 C CNN
 F 3 "~" H 10850 1100 50  0001 C CNN
-	1    10850 900
-	1    0    0    -1
+	1    10850 900 
+	1    0    0    -1  
 $EndComp
 Connection ~ 10350 3500
 Wire Wire Line
@@ -3465,7 +3465,7 @@ F 14 "+175°C" H 9900 5900 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 9900 6000 50  0001 L CNN "temperature range low"
 F 16 "" H 9900 6100 50  0001 L CNN "voltage"
 	1    9900 4300
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW70
@@ -3476,7 +3476,7 @@ F 1 "MX_SW" H 10150 4344 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 10150 4350 50  0001 C CNN
 F 3 "~" H 10150 4350 50  0001 C CNN
 	1    10150 4150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 8500 3900
 Wire Wire Line
@@ -3510,7 +3510,7 @@ F 14 "+175°C" H 9900 5250 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 9900 5350 50  0001 L CNN "temperature range low"
 F 16 "" H 9900 5450 50  0001 L CNN "voltage"
 	1    9900 3650
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW69
@@ -3521,7 +3521,7 @@ F 1 "MX_SW" H 10150 3694 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 10150 3700 50  0001 C CNN
 F 3 "~" H 10150 3700 50  0001 C CNN
 	1    10150 3500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 9200 3250
 Wire Wire Line
@@ -3555,7 +3555,7 @@ F 14 "+175°C" H 9900 4600 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 9900 4700 50  0001 L CNN "temperature range low"
 F 16 "" H 9900 4800 50  0001 L CNN "voltage"
 	1    9900 3000
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW68
@@ -3566,12 +3566,12 @@ F 1 "MX_SW" H 10150 3044 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 10150 3050 50  0001 C CNN
 F 3 "~" H 10150 3050 50  0001 C CNN
 	1    10150 2850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 9200 2600
 Wire Wire Line
 	9200 2600 9900 2600
-Connection ~ 10350 900
+Connection ~ 10350 900 
 Wire Wire Line
 	10350 900  10350 2200
 Wire Wire Line
@@ -3600,7 +3600,7 @@ F 14 "+175°C" H 9900 3950 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 9900 4050 50  0001 L CNN "temperature range low"
 F 16 "" H 9900 4150 50  0001 L CNN "voltage"
 	1    9900 2350
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW67
@@ -3611,39 +3611,39 @@ F 1 "MX_SW" H 10150 2394 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 10150 2400 50  0001 C CNN
 F 3 "~" H 10150 2400 50  0001 C CNN
 	1    10150 2200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text GLabel 10350 850  1    50   Input ~ 0
 COL_13
 Wire Wire Line
 	9900 1200 9900 1300
-Connection ~ 9650 900
+Connection ~ 9650 900 
 Wire Wire Line
 	9650 900  9650 1550
 Wire Wire Line
 	9200 1200 9200 1300
-Connection ~ 8950 900
+Connection ~ 8950 900 
 Wire Wire Line
 	8950 900  8950 1550
 Wire Wire Line
 	7750 1200 7750 1300
 Wire Wire Line
 	8500 1200 8500 1300
-Connection ~ 8200 900
+Connection ~ 8200 900 
 Wire Wire Line
 	8200 900  8200 1550
-Connection ~ 7500 900
+Connection ~ 7500 900 
 Wire Wire Line
 	7500 900  7500 1550
 Wire Wire Line
 	7050 1200 7050 1300
 Wire Wire Line
-	10350 900  10350 850
+	10350 900  10350 850 
 Connection ~ 9200 1300
 Wire Wire Line
 	9200 1300 9900 1300
 Wire Wire Line
-	9950 900  9900 900
+	9950 900  9900 900 
 $Comp
 L cldg:MX_SW SW66
 U 1 1 61506617
@@ -3652,8 +3652,8 @@ F 0 "SW66" H 10150 1185 50  0000 C CNN
 F 1 "MX_SW" H 10150 1094 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 10150 1100 50  0001 C CNN
 F 3 "~" H 10150 1100 50  0001 C CNN
-	1    10150 900
-	1    0    0    -1
+	1    10150 900 
+	1    0    0    -1  
 $EndComp
 Connection ~ 8500 3250
 Wire Wire Line
@@ -3687,7 +3687,7 @@ F 14 "+175°C" H 9200 4600 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 9200 4700 50  0001 L CNN "temperature range low"
 F 16 "" H 9200 4800 50  0001 L CNN "voltage"
 	1    9200 3000
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW65
@@ -3698,7 +3698,7 @@ F 1 "MX_SW" H 9450 3044 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 9450 3050 50  0001 C CNN
 F 3 "~" H 9450 3050 50  0001 C CNN
 	1    9450 2850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 8500 2600
 Wire Wire Line
@@ -3732,7 +3732,7 @@ F 14 "+175°C" H 9200 3950 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 9200 4050 50  0001 L CNN "temperature range low"
 F 16 "" H 9200 4150 50  0001 L CNN "voltage"
 	1    9200 2350
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW64
@@ -3743,7 +3743,7 @@ F 1 "MX_SW" H 9450 2394 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 9450 2400 50  0001 C CNN
 F 3 "~" H 9450 2400 50  0001 C CNN
 	1    9450 2200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 8500 1950
 Wire Wire Line
@@ -3774,7 +3774,7 @@ F 14 "+175°C" H 9200 3300 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 9200 3400 50  0001 L CNN "temperature range low"
 F 16 "" H 9200 3500 50  0001 L CNN "voltage"
 	1    9200 1700
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW63
@@ -3785,17 +3785,17 @@ F 1 "MX_SW" H 9450 1744 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 9450 1750 50  0001 C CNN
 F 3 "~" H 9450 1750 50  0001 C CNN
 	1    9450 1550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text GLabel 9650 850  1    50   Input ~ 0
 COL_12
 Wire Wire Line
-	9650 900  9650 850
+	9650 900  9650 850 
 Connection ~ 8500 1300
 Wire Wire Line
 	8500 1300 9200 1300
 Wire Wire Line
-	9250 900  9200 900
+	9250 900  9200 900 
 $Comp
 L cldg:MX_SW SW62
 U 1 1 612ED61B
@@ -3804,8 +3804,8 @@ F 0 "SW62" H 9450 1185 50  0000 C CNN
 F 1 "MX_SW" H 9450 1094 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 9450 1100 50  0001 C CNN
 F 3 "~" H 9450 1100 50  0001 C CNN
-	1    9450 900
-	1    0    0    -1
+	1    9450 900 
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7750 4550 8500 4550
@@ -3838,7 +3838,7 @@ F 14 "+175°C" H 8500 5900 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 8500 6000 50  0001 L CNN "temperature range low"
 F 16 "" H 8500 6100 50  0001 L CNN "voltage"
 	1    8500 4300
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW61
@@ -3849,7 +3849,7 @@ F 1 "MX_SW" H 8750 4344 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 8750 4350 50  0001 C CNN
 F 3 "~" H 8750 4350 50  0001 C CNN
 	1    8750 4150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 7750 3900
 Wire Wire Line
@@ -3883,7 +3883,7 @@ F 14 "+175°C" H 8500 5250 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 8500 5350 50  0001 L CNN "temperature range low"
 F 16 "" H 8500 5450 50  0001 L CNN "voltage"
 	1    8500 3650
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW60
@@ -3894,7 +3894,7 @@ F 1 "MX_SW" H 8750 3694 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 8750 3700 50  0001 C CNN
 F 3 "~" H 8750 3700 50  0001 C CNN
 	1    8750 3500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 7750 3250
 Wire Wire Line
@@ -3928,7 +3928,7 @@ F 14 "+175°C" H 8500 4600 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 8500 4700 50  0001 L CNN "temperature range low"
 F 16 "" H 8500 4800 50  0001 L CNN "voltage"
 	1    8500 3000
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW59
@@ -3939,7 +3939,7 @@ F 1 "MX_SW" H 8750 3044 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 8750 3050 50  0001 C CNN
 F 3 "~" H 8750 3050 50  0001 C CNN
 	1    8750 2850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 7750 2600
 Wire Wire Line
@@ -3973,7 +3973,7 @@ F 14 "+175°C" H 8500 3950 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 8500 4050 50  0001 L CNN "temperature range low"
 F 16 "" H 8500 4150 50  0001 L CNN "voltage"
 	1    8500 2350
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW58
@@ -3984,7 +3984,7 @@ F 1 "MX_SW" H 8750 2394 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 8750 2400 50  0001 C CNN
 F 3 "~" H 8750 2400 50  0001 C CNN
 	1    8750 2200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 7750 1950
 Wire Wire Line
@@ -4015,7 +4015,7 @@ F 14 "+175°C" H 8500 3300 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 8500 3400 50  0001 L CNN "temperature range low"
 F 16 "" H 8500 3500 50  0001 L CNN "voltage"
 	1    8500 1700
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW57
@@ -4026,17 +4026,17 @@ F 1 "MX_SW" H 8750 1744 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 8750 1750 50  0001 C CNN
 F 3 "~" H 8750 1750 50  0001 C CNN
 	1    8750 1550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text GLabel 8950 850  1    50   Input ~ 0
 COL_11
 Wire Wire Line
-	8950 900  8950 850
+	8950 900  8950 850 
 Connection ~ 7750 1300
 Wire Wire Line
 	7750 1300 8500 1300
 Wire Wire Line
-	8550 900  8500 900
+	8550 900  8500 900 
 $Comp
 L cldg:MX_SW SW56
 U 1 1 6104739A
@@ -4045,8 +4045,8 @@ F 0 "SW56" H 8750 1185 50  0000 C CNN
 F 1 "MX_SW" H 8750 1094 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 8750 1100 50  0001 C CNN
 F 3 "~" H 8750 1100 50  0001 C CNN
-	1    8750 900
-	1    0    0    -1
+	1    8750 900 
+	1    0    0    -1  
 $EndComp
 Connection ~ 8200 3500
 Wire Wire Line
@@ -4077,7 +4077,7 @@ F 14 "+175°C" H 7750 5900 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 7750 6000 50  0001 L CNN "temperature range low"
 F 16 "" H 7750 6100 50  0001 L CNN "voltage"
 	1    7750 4300
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW55
@@ -4088,7 +4088,7 @@ F 1 "MX_SW" H 8000 4344 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 8000 4350 50  0001 C CNN
 F 3 "~" H 8000 4350 50  0001 C CNN
 	1    8000 4150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 8200 2850
 Wire Wire Line
@@ -4121,7 +4121,7 @@ F 14 "+175°C" H 7750 5250 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 7750 5350 50  0001 L CNN "temperature range low"
 F 16 "" H 7750 5450 50  0001 L CNN "voltage"
 	1    7750 3650
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW54
@@ -4132,7 +4132,7 @@ F 1 "MX_SW" H 8000 3694 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 8000 3700 50  0001 C CNN
 F 3 "~" H 8000 3700 50  0001 C CNN
 	1    8000 3500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7050 3250 7750 3250
@@ -4165,7 +4165,7 @@ F 14 "+175°C" H 7750 4600 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 7750 4700 50  0001 L CNN "temperature range low"
 F 16 "" H 7750 4800 50  0001 L CNN "voltage"
 	1    7750 3000
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW53
@@ -4176,7 +4176,7 @@ F 1 "MX_SW" H 8000 3044 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 8000 3050 50  0001 C CNN
 F 3 "~" H 8000 3050 50  0001 C CNN
 	1    8000 2850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7050 2600 7750 2600
@@ -4209,7 +4209,7 @@ F 14 "+175°C" H 7750 3950 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 7750 4050 50  0001 L CNN "temperature range low"
 F 16 "" H 7750 4150 50  0001 L CNN "voltage"
 	1    7750 2350
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW52
@@ -4220,7 +4220,7 @@ F 1 "MX_SW" H 8000 2394 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 8000 2400 50  0001 C CNN
 F 3 "~" H 8000 2400 50  0001 C CNN
 	1    8000 2200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7050 1950 7750 1950
@@ -4250,7 +4250,7 @@ F 14 "+175°C" H 7750 3300 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 7750 3400 50  0001 L CNN "temperature range low"
 F 16 "" H 7750 3500 50  0001 L CNN "voltage"
 	1    7750 1700
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW51
@@ -4261,16 +4261,16 @@ F 1 "MX_SW" H 8000 1744 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 8000 1750 50  0001 C CNN
 F 3 "~" H 8000 1750 50  0001 C CNN
 	1    8000 1550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7050 1300 7750 1300
 Text GLabel 8200 850  1    50   Input ~ 0
 COL_10
 Wire Wire Line
-	8200 900  8200 850
+	8200 900  8200 850 
 Wire Wire Line
-	7800 900  7750 900
+	7800 900  7750 900 
 $Comp
 L cldg:MX_SW SW50
 U 1 1 60DDC1C4
@@ -4279,8 +4279,8 @@ F 0 "SW50" H 8000 1185 50  0000 C CNN
 F 1 "MX_SW" H 8000 1094 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 8000 1100 50  0001 C CNN
 F 3 "~" H 8000 1100 50  0001 C CNN
-	1    8000 900
-	1    0    0    -1
+	1    8000 900 
+	1    0    0    -1  
 $EndComp
 Connection ~ 7500 2850
 Wire Wire Line
@@ -4311,7 +4311,7 @@ F 14 "+175°C" H 7050 5250 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 7050 5350 50  0001 L CNN "temperature range low"
 F 16 "" H 7050 5450 50  0001 L CNN "voltage"
 	1    7050 3650
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW49
@@ -4322,7 +4322,7 @@ F 1 "MX_SW" H 7300 3694 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 7300 3700 50  0001 C CNN
 F 3 "~" H 7300 3700 50  0001 C CNN
 	1    7300 3500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 7500 2200
 Wire Wire Line
@@ -4353,7 +4353,7 @@ F 14 "+175°C" H 7050 4600 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 7050 4700 50  0001 L CNN "temperature range low"
 F 16 "" H 7050 4800 50  0001 L CNN "voltage"
 	1    7050 3000
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW48
@@ -4364,7 +4364,7 @@ F 1 "MX_SW" H 7300 3044 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 7300 3050 50  0001 C CNN
 F 3 "~" H 7300 3050 50  0001 C CNN
 	1    7300 2850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 7500 1550
 Wire Wire Line
@@ -4395,7 +4395,7 @@ F 14 "+175°C" H 7050 3950 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 7050 4050 50  0001 L CNN "temperature range low"
 F 16 "" H 7050 4150 50  0001 L CNN "voltage"
 	1    7050 2350
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW47
@@ -4406,7 +4406,7 @@ F 1 "MX_SW" H 7300 2394 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 7300 2400 50  0001 C CNN
 F 3 "~" H 7300 2400 50  0001 C CNN
 	1    7300 2200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7050 1850 7050 1950
@@ -4434,7 +4434,7 @@ F 14 "+175°C" H 7050 3300 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 7050 3400 50  0001 L CNN "temperature range low"
 F 16 "" H 7050 3500 50  0001 L CNN "voltage"
 	1    7050 1700
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cldg:MX_SW SW46
@@ -4445,14 +4445,14 @@ F 1 "MX_SW" H 7300 1744 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 7300 1750 50  0001 C CNN
 F 3 "~" H 7300 1750 50  0001 C CNN
 	1    7300 1550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text GLabel 7500 850  1    50   Input ~ 0
 COL_9
 Wire Wire Line
-	7500 900  7500 850
+	7500 900  7500 850 
 Wire Wire Line
-	7100 900  7050 900
+	7100 900  7050 900 
 $Comp
 L cldg:MX_SW SW45
 U 1 1 60C1113C
@@ -4461,8 +4461,8 @@ F 0 "SW45" H 7300 1185 50  0000 C CNN
 F 1 "MX_SW" H 7300 1094 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 7300 1100 50  0001 C CNN
 F 3 "~" H 7300 1100 50  0001 C CNN
-	1    7300 900
-	1    0    0    -1
+	1    7300 900 
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5650 3250 6350 3250
@@ -4473,7 +4473,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 1300 6350 1300
 Connection ~ 5650 1300
-Connection ~ 6800 900
+Connection ~ 6800 900 
 Wire Wire Line
 	6800 900  6800 1550
 Connection ~ 5650 1950
@@ -4517,34 +4517,34 @@ Wire Wire Line
 Connection ~ 6350 3250
 Connection ~ 7050 3250
 Wire Wire Line
-	5800 8100 5950 8100
-Text GLabel 5950 8100 2    50   Input ~ 0
+	5500 8000 5650 8000
+Text GLabel 5650 8000 2    50   Input ~ 0
 SWCLK
 Wire Wire Line
-	5800 8200 6300 8200
+	5500 8100 6000 8100
 $Comp
 L power:GND #PWR011
 U 1 1 602A2E5A
-P 6300 8250
-F 0 "#PWR011" H 6300 8000 50  0001 C CNN
-F 1 "GND" H 6305 8077 50  0000 C CNN
-F 2 "" H 6300 8250 50  0001 C CNN
-F 3 "" H 6300 8250 50  0001 C CNN
-	1    6300 8250
-	1    0    0    -1
+P 6000 8150
+F 0 "#PWR011" H 6000 7900 50  0001 C CNN
+F 1 "GND" H 6005 7977 50  0000 C CNN
+F 2 "" H 6000 8150 50  0001 C CNN
+F 3 "" H 6000 8150 50  0001 C CNN
+	1    6000 8150
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5800 8300 5950 8300
-Text GLabel 5950 8300 2    50   Input ~ 0
+	5500 8200 5650 8200
+Text GLabel 5650 8200 2    50   Input ~ 0
 SWDIO
 Wire Wire Line
-	6200 8400 5800 8400
+	5900 8300 5500 8300
 Wire Wire Line
-	5800 8500 5950 8500
-Text GLabel 5950 8500 2    50   Input ~ 0
+	5500 8400 5650 8400
+Text GLabel 5650 8400 2    50   Input ~ 0
 SWO
 Wire Wire Line
-	6200 8800 6200 8850
+	5900 8700 5900 8750
 $Comp
 L cldg:MX_Stab_225 SP1
 U 1 1 60679C49
@@ -4554,7 +4554,7 @@ F 1 "MX_Stab_225" H 5228 7230 50  0000 L CNN
 F 2 "keyboard_parts:Mx_Stab_225" H 5350 7050 50  0001 C CNN
 F 3 "" H 5050 7150 50  0001 C CNN
 	1    5050 7150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cldg:MX_Stab_625 SP2
@@ -4565,7 +4565,7 @@ F 1 "MX_Stab_625" H 6128 7230 50  0000 L CNN
 F 2 "keyboard_parts:Mx_Stab_625" H 6250 7050 50  0001 C CNN
 F 3 "" H 5950 7150 50  0001 C CNN
 	1    5950 7150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cldg:MX_Stab_275 SP5
@@ -4576,7 +4576,7 @@ F 1 "MX_Stab_275" H 6128 7030 50  0000 L CNN
 F 2 "keyboard_parts:Mx_Stab_275" H 6250 6850 50  0001 C CNN
 F 3 "" H 5950 6950 50  0001 C CNN
 	1    5950 6950
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cldg:MX_Stab_225 SP4
@@ -4587,7 +4587,7 @@ F 1 "MX_Stab_225" H 6128 6830 50  0000 L CNN
 F 2 "keyboard_parts:Mx_Stab_225" H 6250 6650 50  0001 C CNN
 F 3 "" H 5950 6750 50  0001 C CNN
 	1    5950 6750
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cldg:MX_Stab_200 SP3
@@ -4598,7 +4598,7 @@ F 1 "MX_Stab_200" H 6128 6630 50  0000 L CNN
 F 2 "keyboard_parts:Mx_Stab_200" H 6250 6450 50  0001 C CNN
 F 3 "" H 5950 6550 50  0001 C CNN
 	1    5950 6550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cldg:MX_Stab_200 SP6
@@ -4609,7 +4609,7 @@ F 1 "MX_Stab_200" H 5228 7030 50  0000 L CNN
 F 2 "keyboard_parts:Mx_Stab_200" H 5350 6850 50  0001 C CNN
 F 3 "" H 5050 6950 50  0001 C CNN
 	1    5050 6950
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cldg:MX_Stab_200 SP8
@@ -4620,7 +4620,7 @@ F 1 "MX_Stab_200" V 4895 6778 50  0000 L CNN
 F 2 "keyboard_parts:Mx_Stab_200" H 5150 6450 50  0001 C CNN
 F 3 "" H 4850 6550 50  0001 C CNN
 	1    4850 6550
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L cldg:MX_Stab_200 SP7
@@ -4631,7 +4631,7 @@ F 1 "MX_Stab_200" V 4895 6428 50  0000 L CNN
 F 2 "keyboard_parts:Mx_Stab_200" H 5150 6100 50  0001 C CNN
 F 3 "" H 4850 6200 50  0001 C CNN
 	1    4850 6200
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L power:Earth #PWR0106
@@ -4642,7 +4642,7 @@ F 1 "Earth" H 2250 5900 50  0001 C CNN
 F 2 "" H 2250 6050 50  0001 C CNN
 F 3 "~" H 2250 6050 50  0001 C CNN
 	1    2250 6050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0109
@@ -4653,7 +4653,7 @@ F 1 "GND" H 1880 8152 50  0000 C CNN
 F 2 "" H 1875 8325 50  0001 C CNN
 F 3 "" H 1875 8325 50  0001 C CNN
 	1    1875 8325
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	16050 1550 16050 2200
@@ -4671,7 +4671,7 @@ F 1 "Earth" H 4950 5700 50  0001 C CNN
 F 2 "" H 4950 5850 50  0001 C CNN
 F 3 "~" H 4950 5850 50  0001 C CNN
 	1    4950 5850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H1
@@ -4682,7 +4682,7 @@ F 1 "Mounting Slot" H 5050 5005 50  0000 L CNN
 F 2 "keyboard_parts:MountingHole_M2_edge" H 4950 5050 50  0001 C CNN
 F 3 "~" H 4950 5050 50  0001 C CNN
 	1    4950 5050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
@@ -4693,27 +4693,27 @@ F 1 "Mounting Slot" H 5050 5255 50  0000 L CNN
 F 2 "keyboard_parts:MountingHole_M2_edge" H 4950 5300 50  0001 C CNN
 F 3 "~" H 4950 5300 50  0001 C CNN
 	1    4950 5300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
-Text Label 6200 8550 0    50   ~ 0
+Text Label 5900 8450 0    50   ~ 0
 RST
 Wire Wire Line
 	7850 8550 7850 8500
 $Comp
 L power:+3V3 #PWR05
 U 1 1 62499D89
-P 5900 8650
-F 0 "#PWR05" H 5900 8500 50  0001 C CNN
-F 1 "+3V3" H 5915 8823 50  0000 C CNN
-F 2 "" H 5900 8650 50  0001 C CNN
-F 3 "" H 5900 8650 50  0001 C CNN
-	1    5900 8650
-	-1   0    0    1
+P 5600 8550
+F 0 "#PWR05" H 5600 8400 50  0001 C CNN
+F 1 "+3V3" H 5615 8723 50  0000 C CNN
+F 2 "" H 5600 8550 50  0001 C CNN
+F 3 "" H 5600 8550 50  0001 C CNN
+	1    5600 8550
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5900 8600 5900 8650
+	5600 8500 5600 8550
 Wire Wire Line
-	5900 8600 5800 8600
+	5600 8500 5500 8500
 $Comp
 L Resistor-Lib:RNCP0603FTD10K0 R23
 U 1 1 62F6D73A
@@ -4724,7 +4724,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric" H 7850 8950 50  0001 L BNN
 F 3 "" H 7850 8950 50  0001 L BNN
 F 4 "10k" V 7895 9055 50  0000 L CNN "resistance"
 	1    7850 8950
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0111
@@ -4735,7 +4735,7 @@ F 1 "GND" H 7855 9177 50  0000 C CNN
 F 2 "" H 7850 9350 50  0001 C CNN
 F 3 "" H 7850 9350 50  0001 C CNN
 	1    7850 9350
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 3400 5800 0    50   ~ 0
 USB-
@@ -4755,7 +4755,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric" H 3900 5800 50  0001 L BNN
 F 3 "" H 3900 5800 50  0001 L BNN
 F 4 "0" H 3900 5951 50  0000 C CNN "resistance"
 	1    3900 5800
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 $Comp
 L Resistor-Lib:MCT06030Z0000ZP500 R21
@@ -4767,7 +4767,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric" H 3900 6200 50  0001 L BNN
 F 3 "" H 3900 6200 50  0001 L BNN
 F 4 "0" H 3900 6351 50  0000 C CNN "resistance"
 	1    3900 6200
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 $Comp
 L power:Earth #PWR0105
@@ -4778,7 +4778,7 @@ F 1 "Earth" H 3700 5850 50  0001 C CNN
 F 2 "" H 3700 6000 50  0001 C CNN
 F 3 "~" H 3700 6000 50  0001 C CNN
 	1    3700 6000
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 Text GLabel 4350 5800 2    50   Input ~ 0
 USB_D-
@@ -4795,7 +4795,7 @@ F 1 "Earth" H 1000 6950 50  0001 C CNN
 F 2 "" H 1000 7100 50  0001 C CNN
 F 3 "~" H 1000 7100 50  0001 C CNN
 	1    1000 7100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1000 6900 1150 6900
@@ -4811,7 +4811,7 @@ F 1 "Earth" H 2450 5450 50  0001 C CNN
 F 2 "" H 2450 5600 50  0001 C CNN
 F 3 "~" H 2450 5600 50  0001 C CNN
 	1    2450 5600
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 2350 5550
 Wire Wire Line
@@ -4838,7 +4838,7 @@ F 1 "USB_C_Receptacle_USB2.0" H 1257 6726 50  0000 C CNN
 F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 1300 5950 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1300 5950 50  0001 C CNN
 	1    1150 5950
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1850 5350 1750 5350
@@ -4888,7 +4888,7 @@ F 21 "-55°C" H 2500 8400 50  0001 L CNN "temperature range low"
 F 22 "10%" H 2500 8500 50  0001 L CNN "tolerance"
 F 23 "50V" H 2500 8600 50  0001 L CNN "voltage rating"
 	1    2500 6000
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	2350 5550 2350 5650
@@ -4931,7 +4931,7 @@ F 29 "1%" H 1700 8750 50  0001 L CNN "tolerance"
 F 30 "75V" H 1700 8850 50  0001 L CNN "voltage"
 F 31 "75V" H 1700 8950 50  0001 L CNN "voltage rating"
 	1    1700 5650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Resistor-Lib:RC0603FR-075K1L R1
@@ -4970,7 +4970,7 @@ F 29 "1%" H 1700 8650 50  0001 L CNN "tolerance"
 F 30 "75V" H 1700 8750 50  0001 L CNN "voltage"
 F 31 "75V" H 1700 8850 50  0001 L CNN "voltage rating"
 	1    1700 5550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3400 6200 3500 6200
@@ -5008,7 +5008,7 @@ F 1 "VCC" H 3565 6973 50  0000 C CNN
 F 2 "" H 3550 6800 50  0001 C CNN
 F 3 "" H 3550 6800 50  0001 C CNN
 	1    3550 6800
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Littlefuse:SMAJ9.0CA CR1
@@ -5019,7 +5019,7 @@ F 1 "SMAJ9.0CA" V 3453 6955 60  0000 L CNN
 F 2 "Littlefuse:SMAJ9.0CA" H 3400 6665 60  0001 C CNN
 F 3 "" H 3200 6825 60  0000 C CNN
 	1    3200 6825
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	3250 7175 3250 7225
@@ -5032,7 +5032,7 @@ F 1 "Earth" H 3250 7075 50  0001 C CNN
 F 2 "" H 3250 7225 50  0001 C CNN
 F 3 "~" H 3250 7225 50  0001 C CNN
 	1    3250 7225
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Notes 700  7350 0    50   ~ 0
 USB C Connector with Protection
@@ -5062,7 +5062,7 @@ F 1 "GND" H 4080 8152 50  0000 C CNN
 F 2 "" H 4075 8325 50  0001 C CNN
 F 3 "" H 4075 8325 50  0001 C CNN
 	1    4075 8325
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4075 8275 4075 8325
@@ -5080,26 +5080,26 @@ F 1 "GND" H 1655 9302 50  0000 C CNN
 F 2 "" H 1650 9475 50  0001 C CNN
 F 3 "" H 1650 9475 50  0001 C CNN
 	1    1650 9475
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1500 9125 1650 9125
+	1525 9125 1650 9125
 Wire Wire Line
 	1650 9475 3150 9475
 Connection ~ 1650 9475
 $Comp
 L Connector:Conn_01x06_Male J2
 U 1 1 621CEF5F
-P 5600 8300
-F 0 "J2" H 5900 8700 50  0000 C CNN
-F 1 "Conn_01x06_Male" H 5925 8625 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 5600 8300 50  0001 C CNN
-F 3 "~" H 5600 8300 50  0001 C CNN
-	1    5600 8300
-	1    0    0    -1
+P 5300 8200
+F 0 "J2" H 5600 8600 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 5625 8525 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 5300 8200 50  0001 C CNN
+F 3 "~" H 5300 8200 50  0001 C CNN
+	1    5300 8200
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3150 9125 3400 9125
+	3150 9125 3275 9125
 $Comp
 L capacitor-lib:06035A100JAT2A C3
 U 1 1 60087526
@@ -5132,7 +5132,7 @@ F 24 "-55°C" H 1650 11825 50  0001 L CNN "temperature range low"
 F 25 "5%" H 1650 11925 50  0001 L CNN "tolerance"
 F 26 "50V" H 1650 12025 50  0001 L CNN "voltage rating"
 	1    1650 9325
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	1950 9125 1650 9125
@@ -5150,7 +5150,7 @@ F 4 "MANUFACTURER RECOMMENDATIONS" H 2350 9675 50  0001 L BNN "STANDARD"
 F 5 "ECS Inc" H 2350 9775 50  0001 L BNN "MANUFACTURER"
 F 6 "2017" H 2800 9775 50  0001 L BNN "PARTREV"
 	1    2650 9225
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 1650 9125
 Wire Wire Line
@@ -5196,12 +5196,8 @@ F 24 "-55°C" H 3150 11825 50  0001 L CNN "temperature range low"
 F 25 "5%" H 3150 11925 50  0001 L CNN "tolerance"
 F 26 "50V" H 3150 12025 50  0001 L CNN "voltage rating"
 	1    3150 9325
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
-Text GLabel 1500 9125 0    50   Input ~ 0
-OSC_OUT
-Text GLabel 3400 9125 2    50   Input ~ 0
-OSC_IN
 Wire Notes Line
 	4750 4900 4750 9700
 Wire Notes Line
@@ -5209,17 +5205,17 @@ Wire Notes Line
 Text Notes 700  9650 0    50   ~ 0
 MCU Oscillator
 Wire Wire Line
-	6200 8400 6200 8550
+	5900 8300 5900 8450
 Wire Wire Line
-	6300 8200 6300 8250
+	6000 8100 6000 8150
 Wire Wire Line
-	6200 8550 6350 8550
-Connection ~ 6200 8550
+	5900 8450 6050 8450
+Connection ~ 5900 8450
 Wire Wire Line
-	6200 8550 6200 8600
-Text GLabel 6350 8550 2    50   Input ~ 0
+	5900 8450 5900 8500
+Text GLabel 6050 8450 2    50   Input ~ 0
 RST
-Text Notes 5400 8750 0    50   ~ 0
+Text Notes 5100 8650 0    50   ~ 0
 JTAG/RST
 $Comp
 L Mechanical:MountingHole_Pad H3
@@ -5230,7 +5226,7 @@ F 1 "PCB Common Earth" H 5050 5558 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.5mm_Pad_TopBottom" H 4950 5600 50  0001 C CNN
 F 3 "~" H 4950 5600 50  0001 C CNN
 	1    4950 5600
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Notes Line
 	6700 4900 6700 9700
@@ -5242,12 +5238,6 @@ Text GLabel 10775 6275 2    50   Input ~ 0
 COL_22
 Text GLabel 9375 5875 0    50   Input ~ 0
 RST
-Text GLabel 9375 7175 0    50   Input ~ 0
-BOOT0
-Text GLabel 9375 6975 0    50   Input ~ 0
-OSC_IN
-Text GLabel 9375 7075 0    50   Input ~ 0
-OSC_OUT
 $Comp
 L Resistor-Lib:RMCF0805FT510R R5
 U 1 1 61E7DED3
@@ -5258,7 +5248,7 @@ F 2 "Resistor_SMD:R_0805_2012Metric" H 7300 6050 50  0001 L BNN
 F 3 "" H 7600 6200 50  0001 L BNN
 F 4 "510" H 7900 6250 50  0000 C CNN "reistance"
 	1    7600 6200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8050 6000 8000 6000
@@ -5276,7 +5266,7 @@ F 2 "Resistor_SMD:R_0805_2012Metric" H 7300 5850 50  0001 L BNN
 F 3 "" H 7600 6000 50  0001 L BNN
 F 4 "510" H 7900 6050 50  0000 C CNN "reistance"
 	1    7600 6000
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7150 5800 7200 5800
@@ -5290,7 +5280,7 @@ F 2 "Resistor_SMD:R_0805_2012Metric" H 7300 5650 50  0001 L BNN
 F 3 "" H 7600 5800 50  0001 L BNN
 F 4 "510" H 7900 5850 50  0000 C CNN "reistance"
 	1    7600 5800
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8050 5800 8000 5800
@@ -5306,7 +5296,7 @@ F 2 "Resistor_SMD:R_0805_2012Metric" H 7300 5450 50  0001 L BNN
 F 3 "" H 7600 5600 50  0001 L BNN
 F 4 "510" H 7900 5650 50  0000 C CNN "reistance"
 	1    7600 5600
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Resistor-Lib:RMCF0805FT510R R8
@@ -5318,7 +5308,7 @@ F 2 "Resistor_SMD:R_0805_2012Metric" H 7300 5050 50  0001 L BNN
 F 3 "" H 7600 5200 50  0001 L BNN
 F 4 "510" H 7300 5150 50  0000 C CNN "reistance"
 	1    7600 5200
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	7150 5200 7200 5200
@@ -5389,7 +5379,7 @@ F 1 "+3V3" H 7065 7023 50  0000 C CNN
 F 2 "" H 7050 6850 50  0001 C CNN
 F 3 "" H 7050 6850 50  0001 C CNN
 	1    7050 6850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7150 6800 7200 6800
@@ -5405,7 +5395,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric" H 7600 6800 50  0001 L BNN
 F 3 "" H 7600 6800 50  0001 L BNN
 F 4 "1k" H 7900 6850 50  0000 C CNN "resistance"
 	1    7600 6800
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Resistor-Lib:RMCF0603FT1K00 R9
@@ -5417,7 +5407,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric" H 7600 7050 50  0001 L BNN
 F 3 "" H 7600 7050 50  0001 L BNN
 F 4 "1k" H 7850 7100 50  0000 L CNN "resistance"
 	1    7600 7050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text GLabel 10775 7675 2    50   Input ~ 0
 ENCODER_B
@@ -5438,7 +5428,7 @@ F 1 "GND" H 9947 9438 50  0000 R CNN
 F 2 "" H 10025 9475 50  0001 C CNN
 F 3 "" H 10025 9475 50  0001 C CNN
 	1    10025 9475
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 10125 9375
 Wire Wire Line
@@ -5505,7 +5495,7 @@ F 2 "Resistor_SMD:R_0805_2012Metric" H 7300 5250 50  0001 L BNN
 F 3 "" H 7600 5400 50  0001 L BNN
 F 4 "510" H 7900 5450 50  0000 C CNN "reistance"
 	1    7600 5400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text GLabel 7150 5400 0    50   Input ~ 0
 ROW_2
@@ -5532,24 +5522,24 @@ Connection ~ 3250 6875
 $Comp
 L power:GND #PWR02
 U 1 1 62F09F65
-P 3725 5200
-F 0 "#PWR02" H 3725 4950 50  0001 C CNN
-F 1 "GND" H 3730 5027 50  0000 C CNN
-F 2 "" H 3725 5200 50  0001 C CNN
-F 3 "" H 3725 5200 50  0001 C CNN
-	1    3725 5200
-	1    0    0    -1
+P 4075 5200
+F 0 "#PWR02" H 4075 4950 50  0001 C CNN
+F 1 "GND" H 4080 5027 50  0000 C CNN
+F 2 "" H 4075 5200 50  0001 C CNN
+F 3 "" H 4075 5200 50  0001 C CNN
+	1    4075 5200
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:Earth #PWR031
 U 1 1 62F79601
-P 4225 5200
-F 0 "#PWR031" H 4225 4950 50  0001 C CNN
-F 1 "Earth" H 4225 5050 50  0001 C CNN
-F 2 "" H 4225 5200 50  0001 C CNN
-F 3 "~" H 4225 5200 50  0001 C CNN
-	1    4225 5200
-	1    0    0    -1
+P 3575 5200
+F 0 "#PWR031" H 3575 4950 50  0001 C CNN
+F 1 "Earth" H 3575 5050 50  0001 C CNN
+F 2 "" H 3575 5200 50  0001 C CNN
+F 3 "~" H 3575 5200 50  0001 C CNN
+	1    3575 5200
+	-1   0    0    -1  
 $EndComp
 Text GLabel 12400 6125 0    50   Input ~ 0
 ENCODER_B
@@ -5568,7 +5558,7 @@ F 1 "PWR_FLAG" V 1900 5353 50  0000 L CNN
 F 2 "" H 1900 5225 50  0001 C CNN
 F 3 "~" H 1900 5225 50  0001 C CNN
 	1    1900 5225
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	1850 5225 1900 5225
@@ -5588,7 +5578,7 @@ F 1 "PWR_FLAG" V 3600 7003 50  0000 L CNN
 F 2 "" H 3600 6875 50  0001 C CNN
 F 3 "~" H 3600 6875 50  0001 C CNN
 	1    3600 6875
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	3550 6875 3600 6875
@@ -5602,7 +5592,7 @@ F 1 "PWR_FLAG" V 1075 7153 50  0000 L CNN
 F 2 "" H 1075 7025 50  0001 C CNN
 F 3 "~" H 1075 7025 50  0001 C CNN
 	1    1075 7025
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	1000 7025 1075 7025
@@ -5618,7 +5608,7 @@ F 1 "LL4148" V 855 970 50  0000 R CNN
 F 2 "Diode_SMD:D_MiniMELF" H 900 875 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 900 1050 50  0001 C CNN
 	1    900  1050
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Diode:LL4148 D9
@@ -5629,7 +5619,7 @@ F 1 "LL4148" V 2105 970 50  0000 R CNN
 F 2 "Diode_SMD:D_MiniMELF" H 2150 875 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 2150 1050 50  0001 C CNN
 	1    2150 1050
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Diode:LL4148 D14
@@ -5640,7 +5630,7 @@ F 1 "LL4148" V 2805 970 50  0000 R CNN
 F 2 "Diode_SMD:D_MiniMELF" H 2850 875 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 2850 1050 50  0001 C CNN
 	1    2850 1050
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Diode:LL4148 D20
@@ -5651,7 +5641,7 @@ F 1 "LL4148" V 3505 970 50  0000 R CNN
 F 2 "Diode_SMD:D_MiniMELF" H 3550 875 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 3550 1050 50  0001 C CNN
 	1    3550 1050
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Diode:LL4148 D25
@@ -5662,7 +5652,7 @@ F 1 "LL4148" V 4205 970 50  0000 R CNN
 F 2 "Diode_SMD:D_MiniMELF" H 4250 875 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 4250 1050 50  0001 C CNN
 	1    4250 1050
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Diode:LL4148 D35
@@ -5673,7 +5663,7 @@ F 1 "LL4148" V 5605 970 50  0000 R CNN
 F 2 "Diode_SMD:D_MiniMELF" H 5650 875 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 5650 1050 50  0001 C CNN
 	1    5650 1050
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Diode:LL4148 D40
@@ -5684,7 +5674,7 @@ F 1 "LL4148" V 6305 970 50  0000 R CNN
 F 2 "Diode_SMD:D_MiniMELF" H 6350 875 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 6350 1050 50  0001 C CNN
 	1    6350 1050
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Diode:LL4148 D45
@@ -5695,7 +5685,7 @@ F 1 "LL4148" V 7005 970 50  0000 R CNN
 F 2 "Diode_SMD:D_MiniMELF" H 7050 875 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 7050 1050 50  0001 C CNN
 	1    7050 1050
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Diode:LL4148 D50
@@ -5706,7 +5696,7 @@ F 1 "LL4148" V 7705 970 50  0000 R CNN
 F 2 "Diode_SMD:D_MiniMELF" H 7750 875 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 7750 1050 50  0001 C CNN
 	1    7750 1050
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Diode:LL4148 D56
@@ -5717,7 +5707,7 @@ F 1 "LL4148" V 8455 970 50  0000 R CNN
 F 2 "Diode_SMD:D_MiniMELF" H 8500 875 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 8500 1050 50  0001 C CNN
 	1    8500 1050
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Diode:LL4148 D62
@@ -5728,7 +5718,7 @@ F 1 "LL4148" V 9155 970 50  0000 R CNN
 F 2 "Diode_SMD:D_MiniMELF" H 9200 875 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 9200 1050 50  0001 C CNN
 	1    9200 1050
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Diode:LL4148 D66
@@ -5739,7 +5729,7 @@ F 1 "LL4148" V 9855 970 50  0000 R CNN
 F 2 "Diode_SMD:D_MiniMELF" H 9900 875 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 9900 1050 50  0001 C CNN
 	1    9900 1050
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Diode:LL4148 D71
@@ -5750,7 +5740,7 @@ F 1 "LL4148" V 10555 970 50  0000 R CNN
 F 2 "Diode_SMD:D_MiniMELF" H 10600 875 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 10600 1050 50  0001 C CNN
 	1    10600 1050
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Diode:LL4148 D75
@@ -5761,7 +5751,7 @@ F 1 "LL4148" V 11305 970 50  0000 R CNN
 F 2 "Diode_SMD:D_MiniMELF" H 11350 875 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 11350 1050 50  0001 C CNN
 	1    11350 1050
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Diode:LL4148 D79
@@ -5772,7 +5762,7 @@ F 1 "LL4148" V 12005 970 50  0000 R CNN
 F 2 "Diode_SMD:D_MiniMELF" H 12050 875 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 12050 1050 50  0001 C CNN
 	1    12050 1050
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	1500 1850 1500 1950
@@ -5798,7 +5788,7 @@ F 14 "+175°C" H 1500 3300 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 1500 3400 50  0001 L CNN "temperature range low"
 F 16 "" H 1500 3500 50  0001 L CNN "voltage"
 	1    1500 1700
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	9200 1950 10600 1950
@@ -5817,7 +5807,7 @@ F 1 "MX_SW" H 15850 2106 50  0000 C CNN
 F 2 "cldg:millmax-mxalps" H 15850 2400 50  0001 C CNN
 F 3 "~" H 15850 2400 50  0001 C CNN
 	1    15850 2200
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C C5
@@ -5828,7 +5818,7 @@ F 1 "10nF" H 4190 7930 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4113 7825 50  0001 C CNN
 F 3 "~" H 4075 7975 50  0001 C CNN
 	1    4075 7975
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3175 7775 3175 7825
@@ -5851,7 +5841,7 @@ F 1 "100nF" H 3715 7930 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3638 7825 50  0001 C CNN
 F 3 "~" H 3600 7975 50  0001 C CNN
 	1    3600 7975
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C25
@@ -5862,7 +5852,7 @@ F 1 "4.7 uF" H 1761 7930 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 1913 7825 50  0001 C CNN
 F 3 "~" H 1875 7975 50  0001 C CNN
 	1    1875 7975
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1875 7725 1875 7775
@@ -5875,7 +5865,7 @@ F 1 "VCC" H 1890 7898 50  0000 C CNN
 F 2 "" H 1875 7725 50  0001 C CNN
 F 3 "" H 1875 7725 50  0001 C CNN
 	1    1875 7725
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1875 7775 1875 7825
@@ -5888,7 +5878,7 @@ F 1 "1210L150THWR" V 2891 6875 50  0000 C CNN
 F 2 "Fuse:Fuse_1210_3225Metric_Castellated" H 3075 6675 50  0001 L CNN
 F 3 "~" H 3025 6875 50  0001 C CNN
 	1    3025 6875
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	3050 7775 3175 7775
@@ -5917,7 +5907,7 @@ F 1 "GND" H 13105 6402 50  0000 C CNN
 F 2 "" H 13100 6575 50  0001 C CNN
 F 3 "" H 13100 6575 50  0001 C CNN
 	1    13100 6575
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	13725 5825 13675 5825
@@ -5955,7 +5945,7 @@ F 14 "+175°C" H 13000 7425 50  0001 L CNN "temperature range high"
 F 15 "-55°C" H 13000 7525 50  0001 L CNN "temperature range low"
 F 16 "" H 13000 7625 50  0001 L CNN "voltage"
 	1    13000 5825
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	12825 5825 12850 5825
@@ -5981,7 +5971,7 @@ F 1 "10nF" H 12915 6255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 12838 6150 50  0001 C CNN
 F 3 "~" H 12800 6300 50  0001 C CNN
 	1    12800 6300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 12800 6125
 Wire Wire Line
@@ -5998,7 +5988,7 @@ F 1 "10nF" H 12411 6255 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 12563 6150 50  0001 C CNN
 F 3 "~" H 12525 6300 50  0001 C CNN
 	1    12525 6300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cldg:PEC11R-4215F-S0024 ENC1
@@ -6018,7 +6008,7 @@ F 10 "ROTARY ENCODER MECHANICAL 24PPR" H 13675 6925 60  0001 L CNN "Description"
 F 11 "Bourns Inc." H 13675 7025 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 13675 7125 60  0001 L CNN "Status"
 	1    13475 5925
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C8
@@ -6029,7 +6019,7 @@ F 1 "100nF" H 9711 5430 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9863 5325 50  0001 C CNN
 F 3 "~" H 9825 5475 50  0001 C CNN
 	1    9825 5475
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9825 5275 9825 5325
@@ -6044,7 +6034,7 @@ F 1 "PWR_FLAG" V 9775 5777 50  0000 L CNN
 F 2 "" H 9775 5650 50  0001 C CNN
 F 3 "~" H 9775 5650 50  0001 C CNN
 	1    9775 5650
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	9775 5650 9825 5650
@@ -6060,7 +6050,7 @@ F 1 "USBLC6-2P6" V 2525 6225 50  0000 R CNN
 F 2 "Package_TO_SOT_SMD:SOT-666" H 3050 5500 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" H 3250 6350 50  0001 C CNN
 	1    3050 6000
-	0    -1   1    0
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	2700 5800 2700 5550
@@ -6215,7 +6205,7 @@ F 1 "STM32L433RBTx" H 10625 5525 50  0000 C CNN
 F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 9525 5775 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf" H 10125 7475 50  0001 C CNN
 	1    10125 7475
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Notes Line
 	11650 4900 11650 9700
@@ -6240,7 +6230,7 @@ F 1 "FBMJ3216HM600-T" H 2525 7209 50  0001 C CNN
 F 2 "Inductor_SMD:L_1206_3216Metric" H 2575 6975 50  0001 C CNN
 F 3 "" H 2575 6975 50  0001 C CNN
 	1    2575 6975
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:VBUS #PWR0107
@@ -6251,7 +6241,7 @@ F 1 "VBUS" H 1865 5323 50  0000 C CNN
 F 2 "" H 1850 5150 50  0001 C CNN
 F 3 "" H 1850 5150 50  0001 C CNN
 	1    1850 5150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:VBUS #PWR0108
@@ -6262,7 +6252,7 @@ F 1 "VBUS" H 2450 6050 50  0000 C CNN
 F 2 "" H 2600 5950 50  0001 C CNN
 F 3 "" H 2600 5950 50  0001 C CNN
 	1    2600 5950
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:VBUS #PWR0112
@@ -6273,7 +6263,7 @@ F 1 "VBUS" H 2390 6973 50  0000 C CNN
 F 2 "" H 2375 6800 50  0001 C CNN
 F 3 "" H 2375 6800 50  0001 C CNN
 	1    2375 6800
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3175 6875 3250 6875
@@ -6288,7 +6278,7 @@ F 1 "GND" H 8030 7677 50  0000 C CNN
 F 2 "" H 8025 7850 50  0001 C CNN
 F 3 "" H 8025 7850 50  0001 C CNN
 	1    8025 7850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 7275 7750 2    50   ~ 0
 RST
@@ -6303,7 +6293,7 @@ F 1 "SW_SPST" H 7650 7894 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_SPST_TL3342" H 7650 7750 50  0001 C CNN
 F 3 "~" H 7650 7750 50  0001 C CNN
 	1    7650 7750
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR03
@@ -6314,7 +6304,7 @@ F 1 "+3V3" H 7150 8475 50  0000 C CNN
 F 2 "" H 7200 8325 50  0001 C CNN
 F 3 "" H 7200 8325 50  0001 C CNN
 	1    7200 8325
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7200 8325 7200 8400
@@ -6339,7 +6329,7 @@ F 1 "SW_SPDT" H 7475 8594 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_SPDT_CK-JS102011SAQN" H 7475 8400 50  0001 C CNN
 F 3 "~" H 7475 8400 50  0001 C CNN
 	1    7475 8400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 NoConn ~ 7675 8300
 Text Label 10775 8175 0    50   ~ 0
@@ -6359,12 +6349,12 @@ I2C_SCL
 Text Label 8050 6800 0    50   ~ 0
 I2C_SDA
 $Sheet
-S 14975 5300 900  800
+S 14975 5300 900  800 
 U 63A35802
 F0 "LED Drivers" 50
 F1 "694200101R2_sheet_2.sch" 50
-F2 "I2C_SDA" B L 14975 5900 50
-F3 "I2C_SCL" I L 14975 5800 50
+F2 "I2C_SDA" B L 14975 5900 50 
+F3 "I2C_SCL" I L 14975 5800 50 
 $EndSheet
 $Comp
 L BekosLogo:LOGO #G1
@@ -6375,20 +6365,20 @@ F 1 "LOGO" H 15600 7210 60  0001 C CNN
 F 2 "BekosLogo:BekosLogo" H 15600 6900 50  0001 C CNN
 F 3 "" H 15600 6900 50  0001 C CNN
 	1    15600 6900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 7325C2C0
 P 12900 8525
-AR Path="/63A35802/7325C2C0" Ref="#PWR?"  Part="1"
-AR Path="/7325C2C0" Ref="#PWR016"  Part="1"
+AR Path="/63A35802/7325C2C0" Ref="#PWR?"  Part="1" 
+AR Path="/7325C2C0" Ref="#PWR016"  Part="1" 
 F 0 "#PWR016" H 12900 8275 50  0001 C CNN
 F 1 "GND" H 12905 8352 50  0000 C CNN
 F 2 "" H 12900 8525 50  0001 C CNN
 F 3 "" H 12900 8525 50  0001 C CNN
 	1    12900 8525
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	12500 8450 12900 8450
@@ -6399,14 +6389,14 @@ $Comp
 L power:+3.3V #PWR?
 U 1 1 7325C2CA
 P 13550 8075
-AR Path="/63A35802/7325C2CA" Ref="#PWR?"  Part="1"
-AR Path="/7325C2CA" Ref="#PWR018"  Part="1"
+AR Path="/63A35802/7325C2CA" Ref="#PWR?"  Part="1" 
+AR Path="/7325C2CA" Ref="#PWR018"  Part="1" 
 F 0 "#PWR018" H 13550 7925 50  0001 C CNN
 F 1 "+3.3V" H 13565 8248 50  0000 C CNN
 F 2 "" H 13550 8075 50  0001 C CNN
 F 3 "" H 13550 8075 50  0001 C CNN
 	1    13550 8075
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	13375 7875 13550 7875
@@ -6420,40 +6410,40 @@ $Comp
 L power:GND #PWR?
 U 1 1 7325C2D4
 P 13550 7875
-AR Path="/63A35802/7325C2D4" Ref="#PWR?"  Part="1"
-AR Path="/7325C2D4" Ref="#PWR017"  Part="1"
+AR Path="/63A35802/7325C2D4" Ref="#PWR?"  Part="1" 
+AR Path="/7325C2D4" Ref="#PWR017"  Part="1" 
 F 0 "#PWR017" H 13550 7625 50  0001 C CNN
 F 1 "GND" H 13555 7702 50  0000 C CNN
 F 2 "" H 13550 7875 50  0001 C CNN
 F 3 "" H 13550 7875 50  0001 C CNN
 	1    13550 7875
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 7325C2DA
 P 13550 8300
-AR Path="/63A35802/7325C2DA" Ref="#PWR?"  Part="1"
-AR Path="/7325C2DA" Ref="#PWR019"  Part="1"
+AR Path="/63A35802/7325C2DA" Ref="#PWR?"  Part="1" 
+AR Path="/7325C2DA" Ref="#PWR019"  Part="1" 
 F 0 "#PWR019" H 13550 8050 50  0001 C CNN
 F 1 "GND" H 13555 8127 50  0000 C CNN
 F 2 "" H 13550 8300 50  0001 C CNN
 F 3 "" H 13550 8300 50  0001 C CNN
 	1    13550 8300
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+3.3V #PWR?
 U 1 1 7325C2E0
 P 12900 7725
-AR Path="/63A35802/7325C2E0" Ref="#PWR?"  Part="1"
-AR Path="/7325C2E0" Ref="#PWR06"  Part="1"
+AR Path="/63A35802/7325C2E0" Ref="#PWR?"  Part="1" 
+AR Path="/7325C2E0" Ref="#PWR06"  Part="1" 
 F 0 "#PWR06" H 12900 7575 50  0001 C CNN
 F 1 "+3.3V" H 12915 7898 50  0000 C CNN
 F 2 "" H 12900 7725 50  0001 C CNN
 F 3 "" H 12900 7725 50  0001 C CNN
 	1    12900 7725
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	12900 7725 12900 7775
@@ -6471,14 +6461,14 @@ $Comp
 L Memory_EEPROM:24LC512 U?
 U 1 1 7325C2EC
 P 12900 8075
-AR Path="/63A35802/7325C2EC" Ref="U?"  Part="1"
-AR Path="/7325C2EC" Ref="U4"  Part="1"
+AR Path="/63A35802/7325C2EC" Ref="U?"  Part="1" 
+AR Path="/7325C2EC" Ref="U4"  Part="1" 
 F 0 "U4" H 12700 8400 50  0000 C CNN
 F 1 "24LC512" H 12600 8325 50  0000 C CNN
 F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 12900 8075 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21754M.pdf" H 12900 8075 50  0001 C CNN
 	1    12900 8075
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 Text Label 12500 8075 2    50   ~ 0
 I2C_SCL
@@ -6497,13 +6487,13 @@ Wire Wire Line
 $Comp
 L cldg:BBUP00160808600Y00 FB2
 U 1 1 633C94A9
-P 3925 5200
-F 0 "FB2" H 3875 5200 50  0000 C BNN
-F 1 "FBMJ3216HM600-T" H 3875 5434 50  0001 C CNN
-F 2 "Inductor_SMD:L_1206_3216Metric" H 3925 5200 50  0001 C CNN
-F 3 "" H 3925 5200 50  0001 C CNN
-	1    3925 5200
-	-1   0    0    -1
+P 3875 5200
+F 0 "FB2" H 3825 5200 50  0000 C BNN
+F 1 "FBMJ3216HM600-T" H 3825 5434 50  0001 C CNN
+F 2 "Inductor_SMD:L_1206_3216Metric" H 3875 5200 50  0001 C CNN
+F 3 "" H 3875 5200 50  0001 C CNN
+	1    3875 5200
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7675 8500 7850 8500
@@ -6516,7 +6506,7 @@ F 1 "4.7 uF" H 3500 7850 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3213 7825 50  0001 C CNN
 F 3 "~" H 3175 7975 50  0001 C CNN
 	1    3175 7975
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cldg:AP2114HA-3_3TRG1 U1
@@ -6536,8 +6526,38 @@ F 10 "IC REG LINEAR 3.3V 1A SOT223" H 2850 8775 60  0001 L CNN "Description"
 F 11 "Diodes Incorporated" H 2850 8875 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 2850 8975 60  0001 L CNN "Status"
 	1    2650 7775
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3725 5150 4225 5150
+	3625 5100 3575 5100
+Wire Wire Line
+	3575 5100 3575 5200
+Wire Wire Line
+	4025 5100 4075 5100
+Wire Wire Line
+	4075 5100 4075 5200
+Text Label 9375 7175 2    50   ~ 0
+BOOT0
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 62CE59E5
+P 4125 5100
+F 0 "#FLG0104" H 4125 5175 50  0001 C CNN
+F 1 "PWR_FLAG" V 4125 5228 50  0000 L CNN
+F 2 "" H 4125 5100 50  0001 C CNN
+F 3 "~" H 4125 5100 50  0001 C CNN
+	1    4125 5100
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4125 5100 4075 5100
+Connection ~ 4075 5100
+Text Label 9375 7075 2    50   ~ 0
+OSC_OUT
+Text Label 1525 9125 2    50   ~ 0
+OSC_OUT
+Text Label 9375 6975 2    50   ~ 0
+OSC_IN
+Text Label 3275 9125 0    50   ~ 0
+OSC_IN
 $EndSCHEMATC
