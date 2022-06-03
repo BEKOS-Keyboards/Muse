@@ -90,8 +90,6 @@ F 3 "~" H 1150 1100 50  0001 C CNN
 	1    1150 900 
 	1    0    0    -1  
 $EndComp
-Text GLabel 1350 850  1    50   Input ~ 0
-COL_0
 Wire Wire Line
 	1350 850  1350 900 
 Wire Wire Line
@@ -263,8 +261,6 @@ F 3 "~" H 1150 4350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	900  3150 900  3250
-Text GLabel 1950 850  1    50   Input ~ 0
-COL_1
 Wire Wire Line
 	1550 3500 1500 3500
 $Comp
@@ -393,8 +389,6 @@ Wire Wire Line
 Connection ~ 900  1300
 Wire Wire Line
 	2600 900  2600 850 
-Text GLabel 2600 850  1    50   Input ~ 0
-COL_2
 $Comp
 L cldg:MX_SW SW10
 U 1 1 604B2B1F
@@ -588,8 +582,6 @@ Wire Wire Line
 Wire Wire Line
 	2150 1300 2850 1300
 Connection ~ 2150 1300
-Text GLabel 3300 850  1    50   Input ~ 0
-COL_3
 Wire Wire Line
 	3300 850  3300 900 
 $Comp
@@ -831,8 +823,6 @@ Wire Wire Line
 Connection ~ 2850 1300
 Wire Wire Line
 	4000 900  4000 850 
-Text GLabel 4000 850  1    50   Input ~ 0
-COL_4
 $Comp
 L cldg:MX_SW SW21
 U 1 1 606C0BED
@@ -1026,8 +1016,6 @@ Wire Wire Line
 Connection ~ 3550 1300
 Wire Wire Line
 	4700 900  4700 850 
-Text GLabel 4700 850  1    50   Input ~ 0
-COL_5
 $Comp
 L cldg:MX_SW SW26
 U 1 1 607D34FE
@@ -1244,8 +1232,6 @@ F 16 "" H 4950 3500 50  0001 L CNN "voltage"
 $EndComp
 Wire Wire Line
 	5000 1550 4950 1550
-Text GLabel 5400 850  1    50   Input ~ 0
-COL_6
 Wire Wire Line
 	4250 1950 4950 1950
 Wire Wire Line
@@ -1642,8 +1628,6 @@ F 3 "~" H 5900 1750 50  0001 C CNN
 	1    5900 1550
 	1    0    0    -1  
 $EndComp
-Text GLabel 6100 850  1    50   Input ~ 0
-COL_7
 Wire Wire Line
 	6100 900  6100 850 
 Wire Wire Line
@@ -1681,8 +1665,6 @@ Wire Wire Line
 	6400 900  6350 900 
 Wire Wire Line
 	6800 850  6800 900 
-Text GLabel 6800 850  1    50   Input ~ 0
-COL_8
 Wire Wire Line
 	6350 1200 6350 1300
 $Comp
@@ -1919,8 +1901,6 @@ Wire Wire Line
 	14850 1950 15600 1950
 Wire Wire Line
 	16050 850  16050 1550
-Text GLabel 16050 850  1    50   Input ~ 0
-COL_22
 Wire Wire Line
 	15650 1550 15600 1550
 $Comp
@@ -2185,8 +2165,6 @@ F 3 "~" H 15100 1750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	15300 850  15300 900 
-Text GLabel 15300 850  1    50   Input ~ 0
-COL_21
 Connection ~ 14150 1300
 Wire Wire Line
 	14150 1300 14850 1300
@@ -2412,8 +2390,6 @@ $EndComp
 Connection ~ 13450 1300
 Wire Wire Line
 	13450 1300 14150 1300
-Text GLabel 14600 850  1    50   Input ~ 0
-COL_20
 Wire Wire Line
 	14600 900  14600 850 
 Wire Wire Line
@@ -2680,8 +2656,6 @@ F 3 "~" H 13700 1750 50  0001 C CNN
 	1    13700 1550
 	1    0    0    -1  
 $EndComp
-Text GLabel 13900 850  1    50   Input ~ 0
-COL_19
 Connection ~ 12750 1300
 Wire Wire Line
 	12750 1300 13450 1300
@@ -2864,8 +2838,6 @@ $EndComp
 Connection ~ 12050 1300
 Wire Wire Line
 	12050 1300 12750 1300
-Text GLabel 13200 850  1    50   Input ~ 0
-COL_17
 Wire Wire Line
 	13200 900  13200 850 
 Wire Wire Line
@@ -3092,8 +3064,6 @@ Wire Wire Line
 	12050 1200 12050 1300
 Wire Wire Line
 	11350 1300 12050 1300
-Text GLabel 12500 850  1    50   Input ~ 0
-COL_16
 Wire Wire Line
 	12500 900  12500 850 
 Wire Wire Line
@@ -3244,8 +3214,6 @@ F 3 "~" H 11600 1750 50  0001 C CNN
 	1    11600 1550
 	1    0    0    -1  
 $EndComp
-Text GLabel 11800 850  1    50   Input ~ 0
-COL_15
 Wire Wire Line
 	11800 900  11800 850 
 Connection ~ 10600 1300
@@ -3399,8 +3367,6 @@ F 3 "~" H 10850 1750 50  0001 C CNN
 	1    10850 1550
 	1    0    0    -1  
 $EndComp
-Text GLabel 11050 850  1    50   Input ~ 0
-COL_14
 Wire Wire Line
 	11050 900  11050 850 
 Connection ~ 9900 1300
@@ -3601,8 +3567,6 @@ F 3 "~" H 10150 2400 50  0001 C CNN
 	1    10150 2200
 	1    0    0    -1  
 $EndComp
-Text GLabel 10350 850  1    50   Input ~ 0
-COL_13
 Wire Wire Line
 	9900 1200 9900 1300
 Connection ~ 9650 900 
@@ -3775,8 +3739,6 @@ F 3 "~" H 9450 1750 50  0001 C CNN
 	1    9450 1550
 	1    0    0    -1  
 $EndComp
-Text GLabel 9650 850  1    50   Input ~ 0
-COL_12
 Wire Wire Line
 	9650 900  9650 850 
 Connection ~ 8500 1300
@@ -4016,8 +3978,6 @@ F 3 "~" H 8750 1750 50  0001 C CNN
 	1    8750 1550
 	1    0    0    -1  
 $EndComp
-Text GLabel 8950 850  1    50   Input ~ 0
-COL_11
 Wire Wire Line
 	8950 900  8950 850 
 Connection ~ 7750 1300
@@ -4253,8 +4213,6 @@ F 3 "~" H 8000 1750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7050 1300 7750 1300
-Text GLabel 8200 850  1    50   Input ~ 0
-COL_10
 Wire Wire Line
 	8200 900  8200 850 
 Wire Wire Line
@@ -4435,8 +4393,6 @@ F 3 "~" H 7300 1750 50  0001 C CNN
 	1    7300 1550
 	1    0    0    -1  
 $EndComp
-Text GLabel 7500 850  1    50   Input ~ 0
-COL_9
 Wire Wire Line
 	7500 900  7500 850 
 Wire Wire Line
@@ -4506,8 +4462,6 @@ Connection ~ 6350 3250
 Connection ~ 7050 3250
 Wire Wire Line
 	5500 8000 5650 8000
-Text GLabel 5650 8000 2    50   Input ~ 0
-SWCLK
 Wire Wire Line
 	5500 8100 6000 8100
 $Comp
@@ -4523,14 +4477,10 @@ F 3 "" H 6000 8150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5500 8200 5650 8200
-Text GLabel 5650 8200 2    50   Input ~ 0
-SWDIO
 Wire Wire Line
 	5900 8300 5500 8300
 Wire Wire Line
 	5500 8400 5650 8400
-Text GLabel 5650 8400 2    50   Input ~ 0
-SWO
 Wire Wire Line
 	5900 8700 5900 8750
 $Comp
@@ -4683,7 +4633,7 @@ F 3 "~" H 4950 5300 50  0001 C CNN
 	1    4950 5300
 	1    0    0    -1  
 $EndComp
-Text Label 5900 8450 0    50   ~ 0
+Text Label 6050 8450 0    50   ~ 0
 RST
 Wire Wire Line
 	7850 8550 7850 8500
@@ -4768,10 +4718,6 @@ F 3 "~" H 3700 6000 50  0001 C CNN
 	1    3700 6000
 	-1   0    0    -1  
 $EndComp
-Text GLabel 4350 5800 2    50   Input ~ 0
-USB_D-
-Text GLabel 4350 6200 2    50   Input ~ 0
-USB_D+
 NoConn ~ 1750 6550
 NoConn ~ 1750 6450
 $Comp
@@ -5130,8 +5076,6 @@ Wire Wire Line
 Connection ~ 5900 8450
 Wire Wire Line
 	5900 8450 5900 8500
-Text GLabel 6050 8450 2    50   Input ~ 0
-RST
 Text Notes 5100 8650 0    50   ~ 0
 JTAG/RST
 $Comp
@@ -5149,12 +5093,6 @@ Wire Notes Line
 	6700 4900 6700 9700
 Text Notes 4850 7300 0    50   ~ 0
 Stabs and Mounting Holes
-Text GLabel 10775 7175 2    50   Input ~ 0
-SWDIO
-Text GLabel 10775 6275 2    50   Input ~ 0
-COL_22
-Text GLabel 9375 5875 0    50   Input ~ 0
-RST
 $Comp
 L Resistor-Lib:RMCF0805FT510R R5
 U 1 1 61E7DED3
@@ -5231,52 +5169,6 @@ Wire Wire Line
 	7150 5200 7200 5200
 Wire Wire Line
 	8050 5200 8000 5200
-Text GLabel 10775 7875 2    50   Input ~ 0
-SWO
-Text GLabel 10775 7275 2    50   Input ~ 0
-SWCLK
-Text GLabel 10775 6375 2    50   Input ~ 0
-COL_21
-Text GLabel 10775 6475 2    50   Input ~ 0
-COL_20
-Text GLabel 10775 6575 2    50   Input ~ 0
-COL_19
-Text GLabel 9375 7875 0    50   Input ~ 0
-COL_17
-Text GLabel 9375 7975 0    50   Input ~ 0
-COL_16
-Text GLabel 9375 8075 0    50   Input ~ 0
-COL_15
-Text GLabel 10775 7775 2    50   Input ~ 0
-COL_14
-Text GLabel 10775 8575 2    50   Input ~ 0
-COL_13
-Text GLabel 10775 8675 2    50   Input ~ 0
-COL_12
-Text GLabel 10775 8775 2    50   Input ~ 0
-COL_11
-Text GLabel 10775 8875 2    50   Input ~ 0
-COL_10
-Text GLabel 10775 8975 2    50   Input ~ 0
-COL_9
-Text GLabel 10775 9075 2    50   Input ~ 0
-COL_8
-Text GLabel 9375 8175 0    50   Input ~ 0
-COL_7
-Text GLabel 9375 8275 0    50   Input ~ 0
-COL_6
-Text GLabel 9375 8375 0    50   Input ~ 0
-COL_5
-Text GLabel 9375 8475 0    50   Input ~ 0
-COL_4
-Text GLabel 10775 6675 2    50   Input ~ 0
-COL_3
-Text GLabel 10775 6775 2    50   Input ~ 0
-COL_2
-Text GLabel 10775 6875 2    50   Input ~ 0
-COL_1
-Text GLabel 10775 7375 2    50   Input ~ 0
-COL_0
 $Comp
 L power:+3V3 #PWR014
 U 1 1 60025E0E
@@ -5316,14 +5208,6 @@ F 4 "1k" H 7850 7100 50  0000 L CNN "resistance"
 	1    7600 7050
 	1    0    0    -1  
 $EndComp
-Text GLabel 10775 7675 2    50   Input ~ 0
-ENCODER_B
-Text GLabel 10775 7575 2    50   Input ~ 0
-ENCODER_A
-Text GLabel 10775 6975 2    50   Input ~ 0
-USB_D-
-Text GLabel 10775 7075 2    50   Input ~ 0
-USB_D+
 Wire Wire Line
 	10025 9375 10025 9475
 $Comp
@@ -5426,10 +5310,6 @@ F 3 "~" H 3575 5200 50  0001 C CNN
 	1    3575 5200
 	-1   0    0    -1  
 $EndComp
-Text GLabel 12400 6125 0    50   Input ~ 0
-ENCODER_B
-Text GLabel 12400 5925 0    50   Input ~ 0
-ENCODER_A
 Text Notes 11725 7325 0    50   ~ 0
 Encoder
 Text Notes 4800 9650 0    50   ~ 0
@@ -5781,8 +5661,6 @@ Wire Wire Line
 	13100 6225 13100 6450
 Wire Wire Line
 	13175 6225 13100 6225
-Text GLabel 13725 5825 2    50   Input ~ 0
-COL_22
 $Comp
 L power:GND #PWR015
 U 1 1 5FEB2ECC
@@ -5986,8 +5864,6 @@ Wire Wire Line
 	9375 7175 9425 7175
 Wire Wire Line
 	9375 7075 9425 7075
-Wire Wire Line
-	9375 6975 9425 6975
 Wire Wire Line
 	9425 7375 9375 7375
 Wire Wire Line
@@ -6418,8 +6294,6 @@ Text Label 9375 7075 2    50   ~ 0
 OSC_OUT
 Text Label 1850 9075 2    50   ~ 0
 OSC_OUT
-Text Label 9375 6975 2    50   ~ 0
-OSC_IN
 Text Label 2850 9075 0    50   ~ 0
 OSC_IN
 $Comp
@@ -6582,4 +6456,132 @@ F 12 "Active" H 2850 8975 60  0001 L CNN "Status"
 	1    2650 7775
 	1    0    0    -1  
 $EndComp
+Text Label 10775 6875 0    50   ~ 0
+COL_1
+Text Label 10775 6775 0    50   ~ 0
+COL_2
+Text Label 10775 6675 0    50   ~ 0
+COL_3
+Text Label 10775 6575 0    50   ~ 0
+COL_19
+Text Label 10775 6475 0    50   ~ 0
+COL_20
+Text Label 10775 6375 0    50   ~ 0
+COL_21
+Text Label 10775 6275 0    50   ~ 0
+COL_22
+Text Label 9375 8475 2    50   ~ 0
+COL_4
+Text Label 9375 8375 2    50   ~ 0
+COL_5
+Text Label 9375 8275 2    50   ~ 0
+COL_6
+Text Label 9375 8175 2    50   ~ 0
+COL_7
+Text Label 9375 8075 2    50   ~ 0
+COL_15
+Text Label 9375 7975 2    50   ~ 0
+COL_16
+Text Label 9375 7875 2    50   ~ 0
+COL_17
+Text Label 10775 9075 0    50   ~ 0
+COL_8
+Text Label 10775 8975 0    50   ~ 0
+COL_9
+Text Label 10775 8875 0    50   ~ 0
+COL_10
+Text Label 10775 8775 0    50   ~ 0
+COL_11
+Text Label 10775 8675 0    50   ~ 0
+COL_12
+Text Label 10775 8575 0    50   ~ 0
+COL_13
+Text Label 2500 5800 0    50   ~ 0
+D-
+Text Label 2525 6200 0    50   ~ 0
+D+
+Text Label 1950 850  1    50   ~ 0
+COL_1
+Text Label 10775 7775 0    50   ~ 0
+COL_14
+Text Label 10775 7375 0    50   ~ 0
+COL_0
+Text Label 9375 5875 2    50   ~ 0
+RST
+Text Label 1350 850  1    50   ~ 0
+COL_0
+Text Label 2600 850  1    50   ~ 0
+COL_2
+Text Label 3300 850  1    50   ~ 0
+COL_3
+Text Label 4000 850  1    50   ~ 0
+COL_4
+Text Label 4700 850  1    50   ~ 0
+COL_5
+Text Label 5400 850  1    50   ~ 0
+COL_6
+Text Label 6100 850  1    50   ~ 0
+COL_7
+Text Label 6800 850  1    50   ~ 0
+COL_8
+Text Label 7500 850  1    50   ~ 0
+COL_9
+Text Label 8200 850  1    50   ~ 0
+COL_10
+Text Label 8950 850  1    50   ~ 0
+COL_11
+Text Label 9650 850  1    50   ~ 0
+COL_12
+Text Label 10350 850  1    50   ~ 0
+COL_13
+Text Label 11050 850  1    50   ~ 0
+COL_14
+Text Label 11800 850  1    50   ~ 0
+COL_15
+Text Label 12500 850  1    50   ~ 0
+COL_16
+Text Label 13200 850  1    50   ~ 0
+COL_17
+Text Label 13900 850  1    50   ~ 0
+COL_19
+Text Label 14600 850  1    50   ~ 0
+COL_20
+Text Label 15300 850  1    50   ~ 0
+COL_21
+Text Label 16050 850  1    50   ~ 0
+COL_22
+Text Label 13725 5825 0    50   ~ 0
+COL_22
+Text Label 10775 7675 0    50   ~ 0
+ENCODER_B
+Text Label 10775 7575 0    50   ~ 0
+ENCODER_A
+Text Label 12400 6125 2    50   ~ 0
+ENCODER_B
+Text Label 12400 5925 2    50   ~ 0
+ENCODER_A
+Text Label 10775 7875 0    50   ~ 0
+SWO
+Text Label 10775 7275 0    50   ~ 0
+SWCLK
+Text Label 10775 7175 0    50   ~ 0
+SWDIO
+Text Label 5650 8400 0    50   ~ 0
+SWO
+Text Label 5650 8200 0    50   ~ 0
+SWDIO
+Text Label 5650 8000 0    50   ~ 0
+SWCLK
+Text Label 10775 7075 0    50   ~ 0
+USB_D+
+Text Label 10775 6975 0    50   ~ 0
+USB_D-
+Text Label 4350 6200 0    50   ~ 0
+USB_D+
+Text Label 4350 5800 0    50   ~ 0
+USB_D-
+Wire Wire Line
+	9375 6975 9425 6975
+Text Label 9375 6975 2    50   ~ 0
+OSC_IN
 $EndSCHEMATC
