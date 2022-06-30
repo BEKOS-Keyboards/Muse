@@ -2,13 +2,8 @@
 
   (general
     (thickness 1.6)
-<<<<<<< HEAD
     (drawings 2095)
     (tracks 5351)
-=======
-    (drawings 2097)
-    (tracks 5283)
->>>>>>> 75770736eaa47f23ea44c988176aa07ed9095136
     (zones 0)
     (modules 401)
     (nets 253)
