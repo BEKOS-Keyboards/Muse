@@ -6217,9 +6217,9 @@ P 12900 8075
 AR Path="/63A35802/7325C2EC" Ref="U?"  Part="1" 
 AR Path="/7325C2EC" Ref="U4"  Part="1" 
 F 0 "U4" H 12700 8400 50  0000 C CNN
-F 1 "24LC512" H 12600 8325 50  0000 C CNN
+F 1 "M24512-DF" H 12600 8325 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 12900 8075 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21754M.pdf" H 12900 8075 50  0001 C CNN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/e0/4c/87/45/e8/bd/4f/11/CD00251873.pdf/files/CD00251873.pdf/jcr:content/translations/en.CD00251873.pdf" H 12900 8075 50  0001 C CNN
 	1    12900 8075
 	-1   0    0    -1  
 $EndComp
